@@ -1,0 +1,37 @@
+query td2022remoteWorkPolicyQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              employer_info {
+                remote_work_policy {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

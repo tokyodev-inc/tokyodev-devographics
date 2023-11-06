@@ -1,0 +1,37 @@
+query td2022professionalQualificationsQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              user_info {
+                professional_qualifications {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

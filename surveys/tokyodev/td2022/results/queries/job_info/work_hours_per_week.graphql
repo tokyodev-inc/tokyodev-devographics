@@ -1,0 +1,37 @@
+query td2022workHoursPerWeekQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              job_info {
+                work_hours_per_week {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

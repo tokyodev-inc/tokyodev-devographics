@@ -1,0 +1,37 @@
+query td2022industrySectorQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              employer_info {
+                industry_sector {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

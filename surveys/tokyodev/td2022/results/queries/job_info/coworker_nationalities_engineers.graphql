@@ -1,0 +1,37 @@
+query td2022coworkerNationalitiesEngineersQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              job_info {
+                coworker_nationalities_engineers {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

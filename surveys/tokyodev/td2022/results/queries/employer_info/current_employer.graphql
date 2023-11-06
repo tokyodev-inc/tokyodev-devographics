@@ -1,0 +1,37 @@
+query td2022currentEmployerQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              employer_info {
+                current_employer {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

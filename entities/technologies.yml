@@ -1,0 +1,443 @@
+#################################################
+# Front-end Frameworks
+#################################################
+
+- id: jquery
+  name: jQuery
+  npm: jquery
+  github: jquery/jquery
+  homepageUrl: "https://jquery.com/"
+
+- id: react
+  name: React
+  npm: react
+  github: facebook/react
+  homepageUrl: https://reactjs.org/
+
+- id: vuejs
+  name: Vue.js
+  npm: vue
+  github: vuejs/vue
+  homepageUrl: "http://vuejs.org"
+  patterns:
+    - vue
+
+- id: angular
+  name: Angular
+  npm: "@angular/core"
+  github: angular/angular
+  homepageUrl: "https://angular.io"
+
+- id: angular-1
+  name: Angular 1
+  npm: angular
+  github: angular/angular.js
+  homepageUrl: "https://angularjs.org"
+  patterns:
+    - angularjs
+
+- id: preact
+  name: Preact
+  npm: preact
+  github: preactjs/preact
+  homepageUrl: "https://preactjs.com"
+
+- id: ember
+  name: Ember
+  npm: ember-source
+  github: emberjs/ember.js
+  homepageUrl: "https://emberjs.com"
+
+- id: svelte
+  name: Svelte
+  npm: null
+  github: sveltejs/svelte
+  homepageUrl: "https://svelte.dev"
+
+- id: alpinejs
+  name: Alpine.js
+  npm: alpinejs
+  github: alpinejs/alpine
+  homepageUrl: https://github.com/alpinejs/alpine
+
+- id: litelement
+  name: Lit
+  npm: lit
+  github: lit/lit
+  homepageUrl: "https://lit.dev/"
+  patterns:
+    - lit
+
+- id: stimulus
+  name: Stimulus
+  npm: stimulus
+  github: stimulusjs/stimulus
+  homepageUrl: "https://stimulusjs.org/"
+
+- id: stencil
+  name: Stencil
+  npm: null
+  github: ionic-team/stencil
+  homepageUrl: "https://stenciljs.com"
+
+- id: solid
+  name: Solid
+  npm: solid-js
+  github: ryansolid/solid
+  homepageUrl: null
+
+- id: marko
+  name: Marko
+  npm: marko
+  github: marko-js/marko
+  homepageUrl: "https://markojs.com/"
+
+- id: polymer
+  name: Polymer
+  npm: polymer
+  github: Polymer/polymer
+  homepageUrl: "https://polymer-library.polymer-project.org/"
+
+- id: lit_html
+  name: lit-html
+  npm: lit-html
+  github: Polymer/lit-html
+  homepageUrl: "https://lit-html.polymer-project.org/"
+
+- id: hyperapp
+  name: Hyperapp
+  npm: hyperapp
+  github: jorgebucaran/hyperapp
+  homepageUrl: https://github.com/jorgebucaran/hyperapp
+
+- id: backbone
+  name: Backbone
+  npm: backbone
+  github: jashkenas/backbone
+  homepageUrl: "http://backbonejs.org"
+
+- id: mithril
+  name: Mithril
+  npm: mithril
+  github: MithrilJS/mithril.js
+  homepageUrl: "https://mithril.js.org"
+
+- id: hyperhtml
+  name: hyperHTML
+  npm: hyperhtml
+  github: WebReflection/hyperHTML
+  homepageUrl: https://viperhtml.js.org/hyper.html
+
+- id: cyclejs
+  name: Cycle.js
+  npm: "@cycle/rx-run"
+  github: cyclejs/cyclejs
+  homepageUrl: "http://cycle.js.org"
+  patterns:
+    - cycle
+
+- id: riotjs
+  name: RiotJS
+  npm: riot
+  github: riot/riot
+  homepageUrl: "https://riot.js.org"
+
+- id: knockout
+  name: Knockout
+  npm: knockout
+  github: knockout/knockout
+  homepageUrl: "http://knockoutjs.com/"
+
+- id: aurelia
+  name: Aurelia
+  npm: aurelia-framework
+  github: aurelia/framework
+  homepageUrl: https://aurelia.io/
+
+- id: openui5
+  name: OpenUI5
+  homepageUrl: https://openui5.org/
+
+- id: htmx
+  name: HTMX
+  homepageUrl: https://htmx.org/
+
+- id: qwik
+  name: Qwik
+  # npm: null
+  github: builderIO/Qwik
+  homepageUrl: https://qwik.builder.io/
+
+#################################################
+# Back-end Frameworks
+#################################################
+
+- id: express
+  name: Express
+  npm: express
+  github: expressjs/express
+  homepageUrl: "https://expressjs.com"
+
+- id: nextjs
+  name: Next.js
+  npm: next
+  github: vercel/next.js
+  homepageUrl: "https://nextjs.org"
+
+- id: koa
+  name: Koa
+  npm: koa
+  github: koajs/koa
+  homepageUrl: "https://koajs.com"
+
+- id: meteor
+  name: Meteor
+  npm: null
+  github: meteor/meteor
+  homepageUrl: "https://www.meteor.com"
+
+- id: sails
+  name: Sails
+  npm: sails
+  github: balderdashy/sails
+  homepageUrl: "https://sailsjs.com"
+
+- id: feathers
+  name: Feathers
+  npm: "@feathersjs/feathers"
+  github: feathersjs/feathers
+  homepageUrl: "https://feathersjs.com"
+
+- id: nuxt
+  name: Nuxt
+  npm: nuxt
+  github: nuxt/nuxt.js
+  homepageUrl: "https://nuxtjs.org"
+
+- id: gatsby
+  name: Gatsby
+  npm: gatsby
+  github: gatsbyjs/gatsby
+  homepageUrl: "https://www.gatsbyjs.com"
+
+- id: nest
+  name: NestJS
+  npm: "@nestjs/core"
+  github: nestjs/nest
+  homepageUrl: "https://nestjs.com"
+
+- id: strapi
+  name: Strapi
+  npm: strapi
+  github: strapi/strapi
+  homepageUrl: "https://strapi.io"
+
+- id: razzle
+  name: Razzle
+  npm: razzle
+  github: jaredpalmer/razzle
+  homepageUrl: "https://razzlejs.org"
+
+- id: fastify
+  name: Fastify
+  npm: fastify
+  github: fastify/fastify
+  homepageUrl: "https://www.fastify.io"
+
+- id: deno
+  name: Deno
+  npm: null
+  github: denoland/deno
+  homepageUrl: "https://deno.land"
+
+- id: redwood
+  name: Redwood
+  npm: null
+  github: redwoodjs/redwood
+  homepageUrl: "https://redwoodjs.com"
+
+- id: hapi
+  name: Hapi
+  npm: "@hapi/hapi"
+  github: hapijs/hapi
+  homepageUrl: "https://hapi.dev"
+
+- id: adonis
+  name: Adonis
+  npm: adonis-framework
+  github: adonisjs/core
+  homepageUrl: "https://preview.adonisjs.com"
+
+- id: sapper
+  name: Sapper
+  npm: sapper
+  github: sveltejs/sapper
+  homepageUrl: "https://sapper.svelte.dev"
+
+- id: gridsome
+  name: Gridsome
+  npm: "@gridsome/cli"
+  github: gridsome/gridsome
+  homepageUrl: "https://gridsome.org"
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  homepageUrl: "https://Blitzjs.com"
+
+- id: loopback_4
+  name: LoopBack 4
+  npm: "@loopback/core"
+  github: strongloop/loopback-next
+  homepageUrl: "https://loopback.io/"
+
+- id: tinyhttp
+  name: tinyhttp
+  npm: "@tinyhttp/app"
+  github: talentlessguy/tinyhttp
+  homepageUrl: "https://tinyhttp.v1rtl.site"
+
+- id: polka
+  name: Polka
+  npm: polka
+  github: lukeed/polka
+  homepageUrl: null
+
+- id: foalts
+  name: FoalTS
+  npm: "@foal/core"
+  github: FoalTS/foal
+  homepageUrl: "https://foalts.org/"
+
+- id: eleventy
+  name: Eleventy
+  npm: "@11ty/eleventy"
+  github: 11ty/eleventy
+  patterns:
+    - https://www.11ty.dev/
+  homepageUrl: "https://www.11ty.dev/"
+
+- id: astro
+  name: Astro
+  npm: astro
+  github: withastro/astro
+  homepageUrl: https://astro.build/
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  homepageUrl: https://blitzjs.com/
+
+- id: remix
+  name: Remix
+  npm: create-remix
+  github: remix-run/remix
+  homepageUrl: https://remix.run/
+
+- id: sveltekit
+  name: SvelteKit
+  npm: "@sveltejs/kit"
+  github: sveltejs/kit
+  homepageUrl: https://kit.svelte.dev/
+
+- id: solidstart
+  name: SolidStart
+  github: solidjs/solid-start
+  homepageUrl: https://start.solidjs.com/
+
+- id: docusaurus
+  name: Docusaurus
+  github: facebook/docusaurus
+  homepageUrl: https://docusaurus.io/
+
+- id: apollo_server
+  name: Apollo Server
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/
+
+- id: directus
+  name: Directus
+  homepageUrl: https://directus.io/
+
+- id: keystone
+  name: Keystone
+  homepageUrl: https://keystonejs.com/
+
+- id: vulcan_js
+  name: Vulcan
+  npm: null
+  github: vulcanjs/vulcan-next
+  homepageUrl: "https://vulcanjs.org"
+
+- id: fresh
+  name: Fresh
+  homepageUrl: https://fresh.deno.dev/
+
+- id: nuxt_3
+  name: Nuxt 3
+  homepageUrl: https://nuxtjs.org/
+
+- id: nextjs_landing_page_template
+  name: NextJS Landing Page Template
+  homepageUrl: https://creativedesignsguru.com/
+
+- id: solid_start
+  name: SolidStart
+  homepageUrl: https://start.solidjs.com/
+
+- id: vuepress
+  name: VuePress
+  homepageUrl: https://vuepress.vuejs.org/
+
+- id: oak
+  name: Oak
+  homepageUrl: https://oakserver.github.io/oak/
+
+- id: payload
+  name: Payload
+  homepageUrl: https://payloadcms.com/
+
+- id: nextra
+  name: Nextra
+  homepageUrl: https://nextra.site/
+
+- id: jekyll
+  name: Jekyll
+  homepageUrl: https://jekyllrb.com/
+
+- id: hugo
+  name: Hugo
+  homepageUrl: https://gohugo.io/
+
+#################################################
+# Non-JS Stuff
+#################################################
+
+- id: rails
+  name: Rails
+  homepageUrl: https://rubyonrails.org/
+  tags:
+    - non-js
+    - ruby
+
+- id: laravel
+  name: Laravel
+  homepageUrl: https://laravel.com/
+  tags:
+    - non-js
+    - php
+
+- id: django
+  name: Django
+  tags:
+    - non-js
+    - python
+
+- id: flask
+  name: Flask
+  homepageUrl: https://flask.palletsprojects.com/en/2.3.x/
+
+- id: fastapi
+  name: FastAPI
+  homepageUrl: https://fastapi.tiangolo.com/

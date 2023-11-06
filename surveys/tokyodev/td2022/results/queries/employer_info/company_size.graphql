@@ -1,0 +1,37 @@
+query td2022companySizeQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              employer_info {
+                company_size {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

@@ -1,0 +1,37 @@
+query td2022otherFrameworksLibrariesOtherQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              technology {
+                other_frameworks_libraries_other {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

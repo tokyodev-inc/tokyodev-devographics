@@ -1,0 +1,686 @@
+- id: user_info
+  questions:
+    - id: japan_province
+      label: "Where do you currently reside?"
+      template: dropdown
+      options:
+        - id: outside_of_japan
+          label: Outside of Japan
+        - id: aichi
+          label: Aichi
+        - id: akita
+          label: Akita
+        - id: aomori
+          label: Aomori
+        - id: chiba
+          label: Chiba
+        - id: ehime
+          label: Ehime
+        - id: fukui
+          label: Fukui
+        - id: fukuoka
+          label: Fukuoka
+        - id: fukushima
+          label: Fukushima
+        - id: gifu
+          label: Gifu
+        - id: gunma
+          label: Gunma
+        - id: hiroshima
+          label: Hiroshima
+        - id: hokkaido
+          label: Hokkaido
+        - id: hyogo
+          label: Hyogo
+        - id: ibaraki
+          label: Ibaraki
+        - id: ishikawa
+          label: Ishikawa
+        - id: iwate
+          label: Iwate
+        - id: kagawa
+          label: Kagawa
+        - id: kagoshima
+          label: Kagoshima
+        - id: kanagawa
+          label: Kanagawa
+        - id: kochi
+          label: Kochi
+        - id: kumamoto
+          label: Kumamoto
+        - id: kyoto
+          label: Kyoto
+        - id: mie
+          label: Mie
+        - id: miyagi
+          label: Miyagi
+        - id: miyazaki
+          label: Miyazaki
+        - id: nagano
+          label: Nagano
+        - id: nagasaki
+          label: Nagasaki
+        - id: nara
+          label: Nara
+        - id: niigata
+          label: Niigata
+        - id: oita
+          label: Oita
+        - id: okayama
+          label: Okayama
+        - id: okinawa
+          label: Okinawa
+        - id: osaka
+          label: Osaka
+        - id: saga
+          label: Saga
+        - id: saitama
+          label: Saitama
+        - id: shiga
+          label: Shiga
+        - id: shimane
+          label: Shimane
+        - id: shizuoka
+          label: Shizuoka
+        - id: tochigi
+          label: Tochigi
+        - id: tokushima
+          label: Tokushima
+        - id: tokyo
+          label: Tokyo
+        - id: tottori
+          label: Tottori
+        - id: toyama
+          label: Toyama
+        - id: wakayama
+          label: Wakayama
+        - id: yamagata
+          label: Yamagata
+        - id: yamaguchi
+          label: Yamaguchi
+        - id: yamanashi
+          label: Yamanashi
+
+    - id: residency_status
+      label: "What is your residency status in Japan?"
+      template: single
+      allowOther: true
+      options:
+        - id: japanese_citizen
+          label: Japanese citizen
+        - id: permanent_resident
+          label: Permanent resident
+        - id: spouse_dependent_japanese_permanent_resident
+          label: Spouse/Dependent of a Japanese National
+        - id: hsfp
+          label: Highly Skilled Foreign Professional
+        - id: engineer
+          label: Engineer/Specialist in Humanities/International Services
+        - id: student
+          label: Student
+
+    # - id: residency_status_others
+    #   label: "What is your residency status in Japan? (other)"
+    #   template: others
+
+    - id: nationality
+      description: If you have multiple nationalities, please choose one arbitrarily. We'll look at improving this for next year.
+      label: "What is your nationality?"
+      template: tokyodev_nationality
+
+    - id: gender
+      label: "What is your gender?"
+      template: multiple
+      allowOther: true
+      options:
+        - id: man
+          label: Male
+        - id: woman
+          label: Female
+        - id: nb_gq_gnc
+          label: Non-binary
+        - id: prefer_not_to_disclose
+          label: Prefer not to disclose
+
+    # - id: gender_others
+    #   template: others
+
+    - id: age
+      label: "What is your age?"
+      template: number
+
+    - id: years_of_experience
+      label: "How many years of professional experience do you have in software development?"
+      template: number
+      optionsAreNumeric: true
+      options:
+        - id: 0
+          label: Under a year
+        - id: 1
+          label: 1 years
+        - id: 2
+          label: 2 years
+        - id: 3
+          label: 3 years
+        - id: 4
+          label: 4 years
+        - id: 5
+          label: 5 years
+        - id: 6
+          label: 6 years
+        - id: 7
+          label: 7 years
+        - id: 8
+          label: 8 years
+        - id: 9
+          label: 9 years
+        - id: 10
+          label: 10 years
+        - id: 11
+          label: 11 years
+        - id: 12
+          label: 12 years
+        - id: 13
+          label: 13 years
+        - id: 14
+          label: 14 years
+        - id: 15
+          label: 15 years
+        - id: 16
+          label: 16 years
+        - id: 17
+          label: 17 years
+        - id: 18
+          label: 18 years
+        - id: 19
+          label: 19 years
+        - id: 20
+          label: 20 years
+        - id: 21
+          label: 21 years
+        - id: 22
+          label: 22 years
+        - id: 23
+          label: 23 years
+        - id: 24
+          label: 24 years
+        - id: 25
+          label: 25 years
+        - id: 26
+          label: 26 years
+        - id: 27
+          label: 27 years
+        - id: 28
+          label: 28 years
+        - id: 29
+          label: 29 years
+        - id: 30
+          label: 30 years
+        - id: 31
+          label: 31 years
+        - id: 32
+          label: 32 years
+        - id: 33
+          label: 33 years
+        - id: 34
+          label: 34 years
+        - id: 35
+          label: 35 years
+        - id: 36
+          label: 36 years
+        - id: 37
+          label: 37 years
+        - id: 38
+          label: 38 years
+        - id: 39
+          label: 39 years
+        - id: 40
+          label: 40 years
+        - id: 41
+          label: 41 years
+        - id: 42
+          label: 42 years
+        - id: 43
+          label: 43 years
+        - id: 44
+          label: 44 years
+        - id: 45
+          label: 45 years
+        - id: 46
+          label: More than 45 years
+
+    - id: language_proficiency_english
+      label: "What is your language ability? [English]"
+      template: single
+      options:
+        - id: none
+          label: None
+        - id: basic
+          label: Basic
+        - id: conversational
+          label: Conversational
+        - id: fluent
+          label: Fluent
+        - id: native_bilingual
+          label: Native
+
+    - id: language_proficiency_japanese
+      label: "What is your language ability? [Japanese]"
+      template: single
+      options:
+        - id: none
+          label: None
+        - id: basic
+          label: Basic
+        - id: conversational
+          label: Conversational
+        - id: fluent
+          label: Fluent
+        - id: native_bilingual
+          label: Native
+
+    - id: professional_qualifications
+      label: "Have you completed any of the following professional qualifications?"
+      template: multiple
+      allowOther: true
+      options:
+        - id: university_degree_related
+          label: University degree in computer science or a related field
+        - id: university_degree_unrelated
+          label: University degree unrelated to computer science
+        - id: coding_bootcamp
+          label: Coding bootcamp
+        - id: professional_qualification
+          label: Professional qualification (ex. AWS Devops Professional, Salesforce Certified Platform Developer etc)
+
+    # - id: professional_qualifications_others
+    #   label: "Have you completed any of the following professional qualifications? (other)"
+    #   template: others
+
+    - id: employment_status
+      label: "Which of the following best describes your employment status?"
+      template: dropdown
+      options:
+        - id: permanent_employee
+          label: Employed full-time
+        - id: freelancer_self_employed
+          label: Independent contractor, freelancer, or self-employed
+        - id: part_time
+          label: Employed part-time
+        - id: not_employed_not_looking_for_work
+          label: Not employed, and not looking for work
+        - id: not_employed_looking_for_work
+          label: Not employed, but looking for work
+        - id: student
+          label: Student
+        - id: retired
+          label: Retired
+
+- id: employer_info
+  questions:
+    - id: current_employer
+      label: "Which of the following best describes your company?"
+      template: multiple
+      allowOther: true
+      options:
+        - id: japanese_company
+          label: A Japanese company
+        - id: japanese_subsidiary
+          label: A Japanese subsidiary of an international company
+        - id: international_company
+          label: An international company without a corporate entity in Japan
+        - id: sole_proprietorship
+          label: A sole proprietorship
+
+    # - id: current_employer_others
+    #   label: "Which of the following best describes your current employer? (other)"
+    #   template: others
+
+    - id: how_often_did_you_work_remotely_before_covid
+      label: Before COVID-19, how often did you work remotely?
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: rarely
+          label: Rarely, 1-2 days per month or less
+        - id: occasionally
+          label: Occasionally, 1-2 days per week
+        - id: often
+          label: Often,  3-4 days per week
+        - id: daily
+          label: Daily
+
+    - id: how_often_do_you_work_remotely
+      label: Currently, how often do you work remotely?
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: rarely
+          label: Rarely, 1-2 days per month or less
+        - id: occasionally
+          label: Occasionally, 1-2 days per week
+        - id: often
+          label: Often,  3-4 days per week
+        - id: daily
+          label: Daily
+
+    - id: company_size
+      label: "How many employees does your company have (worldwide)?"
+      template: dropdown
+      options:
+        - id: range_1
+          label: Just me - I am a freelancer, sole proprietor, etc.
+        - id: range_2_9
+          label: 2 to 9 employees
+        - id: range_10_19
+          label: 10 to 19 employees
+        - id: range_20_99
+          label: 20 to 99 employees
+        - id: range_100_499
+          label: 100 to 499 employees
+        - id: range_500_999
+          label: 500 to 999 employees
+        - id: range_1000_4999
+          label: 1,000 to 4,999 employees
+        - id: range_5000_9999
+          label: 5,000 to 9,999 employees
+        - id: range_over_10000
+          label: 10,000 or more employees
+
+    - id: how_often_do_you_work_overtime
+      label: How often do you work overtime?
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: rarely
+          label: Rarely, 1-2 days per year or less
+        - id: occasionally
+          label: Occasionally, 1-2 days per quarter but less than monthly
+        - id: sometimes
+          label: Sometimes, 1-2 days per month but less than weekly
+        - id: often
+          label: Often, 1-4 days per week
+        - id: daily
+          label: Daily
+
+- id: technology
+  questions:
+    - id: programming_languages
+      label: "What programming languages do you regularly use on your job?"
+      template: multiple
+      allowOther: true
+      matchTags: [languages]
+      options:
+        - id: assembly
+          label: Assembly
+        - id: bash_shell
+          label: Bash/Shell/PowerShell
+        - id: c
+          label: C
+        - id: cplusplus
+          label: C++
+        - id: csharp
+          label: C#
+        - id: clojure
+          label: Clojure
+        - id: dart
+          label: Dart
+        - id: elixir
+          label: Elixir
+        - id: erlang
+          label: Erlang
+        - id: go
+          label: Go
+        - id: groovy
+          label: Groovy
+        - id: html_css
+          label: HTML/CSS
+        - id: java
+          label: Java
+        - id: javascript
+          label: JavaScript
+        - id: kdb_q
+          label: KDB+Q
+        - id: kotlin
+          label: Kotlin
+        - id: lua
+          label: Lua
+        - id: matlab
+          label: Matlab
+        - id: node_js
+          label: Node.js
+        - id: objective_c
+          label: Objective-C
+        - id: perl
+          label: Perl
+        - id: php
+          label: PHP
+        - id: powershell
+          label: PowerShell
+        - id: python
+          label: Python
+        - id: r
+          label: R
+        - id: ruby
+          label: Ruby
+        - id: rust
+          label: Rust
+        - id: scala
+          label: Scala
+        - id: sql
+          label: SQL
+        - id: swift
+          label: Swift
+        - id: typescript
+          label: TypeScript
+        - id: vba
+          label: VBA
+
+    # - id: programming_languages_others
+    #   label: "Which programming languages do you regularly use on your job? (other)"
+    #   template: others
+
+- id: job_info
+  questions:
+    - id: coworker_nationalities_engineers
+      label: "What is the nationality of the other people in your company? [Engineers]"
+      template: single
+      options:
+        - id: all_or_mostly_japanese
+          label: All or mostly Japanese
+        - id: mix_japanese_non_japanese
+          label: A mix of Japanese and non-Japanese
+        - id: all_mostly_non_japanese
+          label: All or mostly non-Japanese
+
+    - id: coworker_nationalities_non_engineers
+      label: "What is the nationality of the other people in your company? [Others]"
+      template: single
+      options:
+        - id: all_or_mostly_japanese
+          label: All or mostly Japanese
+        - id: mix_japanese_non_japanese
+          label: A mix of Japanese and non-Japanese
+        - id: all_mostly_non_japanese
+          label: All or mostly non-Japanese
+
+    - id: languages_used_colleagues_japanese
+      label: "What languages do you use at the office? [Japanese]"
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+
+    - id: languages_used_colleagues_english
+      label: "What languages do you use at the office? [English]"
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+
+    - id: current_job_description
+      label: "Which of these best describes your current role?"
+      template: dropdown
+      options:
+        - id: academic_researcher
+          label: Academic researcher
+        - id: blockchain
+          label: Blockchain
+        - id: cloud_infrastructure_engineer
+          label: Cloud infrastructure engineer
+        - id: data_or_business_analyst
+          label: Data or business analyst
+        - id: data_scientist_or_machine_learning
+          label: Data scientist or machine learning specialist
+        - id: database_administrator
+          label: Database administrator
+        - id: designer
+          label: Designer
+        - id: developer_back_end
+          label: Developer, back-end
+        - id: developer_desktop_or_enterprise_applications
+          label: Developer, desktop or enterprise applications
+        - id: developer_embedded_applications_or_devices
+          label: Developer, embedded applications or devices
+        - id: developer_front_end
+          label: Developer, front-end
+        - id: developer_full_stack
+          label: Developer, full-stack
+        - id: developer_game_or_graphics
+          label: Developer, game or graphics
+        - id: developer_qa_or_test
+          label: Developer, QA or test
+        - id: developer_mobile
+          label: Developer, mobile
+        - id: devops_specialist
+          label: DevOps specialist
+        - id: educator
+          label: Educator
+        - id: engineer_data
+          label: Engineer, data
+        - id: engineer_site_reliability
+          label: Engineer, site reliability
+        - id: engineering_manager
+          label: Engineering manager
+        - id: marketing_or_sales
+          label: Marketing or sales professional
+        - id: product_manager
+          label: Product manager
+        - id: scientist
+          label: Scientist
+        - id: security_professional
+          label: Security professional
+        - id: senior_executive
+          label: Senior executive/VP
+        - id: system_administrator
+          label: System administrator
+
+- id: compensation_benefits
+  questions:
+    - id: current_total_annual_compesation
+      label: What is your current total annual compensation (salary, bonuses, and perks, before taxes and deductions) in Japanese yen?
+      template: dropdown
+      options:
+        - id: range_under_1000000
+          label: Under ¥1,000,000 per year
+        - id: range_1000000_to_1999999
+          label: ¥1,000,000 to ¥1,999,999
+        - id: range_2000000_to_2999999
+          label: ¥2,000,000 to ¥2,999,999 per year
+        - id: range_3000000_to_3999999
+          label: ¥3,000,000 to ¥3,999,999 per year
+        - id: range_4000000_to_4999999
+          label: ¥4,000,000 to ¥4,999,999 per year
+        - id: range_5000000_to_5999999
+          label: ¥5,000,000 to ¥5,999,999 per year
+        - id: range_6000000_to_6999999
+          label: ¥6,000,000 to ¥6,999,999 per year
+        - id: range_7000000_to_7999999
+          label: ¥7,000,000 to ¥7,999,999 per year
+        - id: range_8000000_to_8999999
+          label: ¥8,000,000 to ¥8,999,999 per year
+        - id: range_9000000_to_9999999
+          label: ¥9,000,000 to ¥9,999,999 per year
+        - id: range_10000000_to_10999999
+          label: ¥10,000,000 to ¥10,999,999 per year
+        - id: range_11000000_to_11999999
+          label: ¥11,000,000 to ¥11,999,999 per year
+        - id: range_12000000_to_12999999
+          label: ¥12,000,000 to ¥12,999,999 per year
+        - id: range_13000000_to_13999999
+          label: ¥13,000,000 to ¥13,999,999 per year
+        - id: range_14000000_to_14999999
+          label: ¥14,000,000 to ¥14,999,999 per year
+        - id: range_15000000_to_15999999
+          label: ¥15,000,000 to ¥15,999,999 per year
+        - id: range_16000000_to_16999999
+          label: ¥16,000,000 to ¥16,999,999 per year
+        - id: range_17000000_to_17999999
+          label: ¥17,000,000 to ¥17,999,999 per year
+        - id: range_18000000_to_18999999
+          label: ¥18,000,000 to ¥18,999,999 per year
+        - id: range_19000000_to_19999999
+          label: ¥19,000,000 to ¥19,999,999 per year
+        - id: range_20000000_to_20999999
+          label: ¥20,000,000 to ¥20,999,999 per year
+        - id: range_21000000_to_21999999
+          label: ¥21,000,000 to ¥21,999,999 per year
+        - id: range_22000000_to_22999999
+          label: ¥22,000,000 to ¥22,999,999 per year
+        - id: range_23000000_to_23999999
+          label: ¥23,000,000 to ¥23,999,999 per year
+        - id: range_24000000_to_24999999
+          label: ¥24,000,000 to ¥24,999,999 per year
+        - id: range_25000000_to_25999999
+          label: ¥25,000,000 to ¥25,999,999 per year
+        - id: range_26000000_to_26999999
+          label: ¥26,000,000 to ¥26,999,999 per year
+        - id: range_27000000_to_27999999
+          label: ¥27,000,000 to ¥27,999,999 per year
+        - id: range_28000000_to_28999999
+          label: ¥28,000,000 to ¥28,999,999 per year
+        - id: range_29000000_to_29999999
+          label: ¥29,000,000 to ¥29,999,999 per year
+        - id: range_30000000_to_39999999
+          label: ¥30,000,000 to ¥39,999,999 per year
+        - id: range_40000000_to_49999999
+          label: ¥40,000,000 to ¥49,999,999 per year
+        - id: range_50000000_to_59999999
+          label: ¥50,000,000 to ¥59,999,999 per year
+        - id: range_60000000_to_69999999
+          label: ¥60,000,000 to ¥69,999,999 per year
+        - id: range_70000000_to_79999999
+          label: ¥70,000,000 to ¥79,999,999 per year
+        - id: range_80000000_to_89999999
+          label: ¥80,000,000 to ¥89,999,999 per year
+        - id: range_90000000_to_99999999
+          label: ¥90,000,000 to ¥99,999,999 per year
+        - id: range_100000000_or_more
+          label: ¥100,000,000 or more per year
+
+    - id: what_do_you_like_most_about_job
+      label: What do you like most about your current job?
+      template: longtext
+
+    - id: what_do_you_like_least_about_job
+      label: What do you like the least about your current job?
+      template: longtext
+
+    - id: overall_satisfaction
+      label: "How satisfied are you with your current job?"
+      template: slider
+      from: 1
+      to: 10
+      fromLabel: Unsatisfied
+      toLabel: Satisfied

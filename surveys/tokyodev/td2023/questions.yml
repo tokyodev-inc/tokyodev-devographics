@@ -1,0 +1,1212 @@
+- id: user_info
+  questions:
+    - id: referrer
+      hidden: true
+      template: referrer
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_tokyodev,
+          socialmedia,
+          sources,
+        ]
+
+    - id: sourcetag
+      hidden: true
+      template: sourcetag
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_tokyodev,
+          socialmedia,
+          sources,
+        ]
+
+    - id: japan_province
+      label: "Where do you currently reside?"
+      template: dropdown
+      isRequired: true
+      options:
+        - id: outside_of_japan
+        - id: aichi
+        - id: akita
+        - id: aomori
+        - id: chiba
+        - id: ehime
+        - id: fukui
+        - id: fukuoka
+        - id: fukushima
+        - id: gifu
+        - id: gunma
+        - id: hiroshima
+        - id: hokkaido
+        - id: hyogo
+        - id: ibaraki
+        - id: ishikawa
+        - id: iwate
+        - id: kagawa
+        - id: kagoshima
+        - id: kanagawa
+        - id: kochi
+        - id: kumamoto
+        - id: kyoto
+        - id: mie
+        - id: miyagi
+        - id: miyazaki
+        - id: nagano
+        - id: nagasaki
+        - id: nara
+        - id: niigata
+        - id: oita
+        - id: okayama
+        - id: okinawa
+        - id: osaka
+        - id: saga
+        - id: saitama
+        - id: shiga
+        - id: shimane
+        - id: shizuoka
+        - id: tochigi
+        - id: tokushima
+        - id: tokyo
+        - id: tottori
+        - id: toyama
+        - id: wakayama
+        - id: yamagata
+        - id: yamaguchi
+        - id: yamanashi
+
+    - id: reason_for_relocation
+      template: singleWithOther
+      order: alphabetical
+      options:
+        - id: sponsored_by_company
+        - id: sent_by_company
+        - id: student
+        - id: dependent
+        - id: working_holiday
+        - id: tourist
+        - id: born_in_japan
+
+    - id: residency_status
+      template: singleWithOther
+      order: alphabetical
+      options:
+        - id: student
+        - id: dependent_foreign_resident
+        - id: spouse_dependent_japanese_permanent_resident
+        - id: hsfp
+        - id: engineer
+        - id: investor_business_manager
+        - id: permanent_resident
+        - id: japanese_citizen
+
+    # - id: residency_status_others
+    #   label: "What is your residency status in Japan? (other)"
+    #   template: others
+
+    # - id: residency_status_first_job_offer
+    #   template: single
+    #   allowOther: true
+    #   order: alphabetical
+    #   options:
+    #     - id: outside_japan
+    #     - id: tourist
+    #     - id: japanese_citizen
+    #     - id: permanent_resident
+    #     - id: spouse_dependent_japanese_permanent_resident
+    #     - id: hsfp
+    #     - id: engineer
+    #     - id: student
+    #     - id: investor_business_manager
+    #     - id: dependent_foreign_resident
+
+    - id: country
+      description: If you have multiple nationalities, please choose one arbitrarily. We'll look at improving this for next year.
+      label: "What is your nationality?"
+      template: country
+
+    - id: gender
+      label: "Which of the following describe you, if any?"
+      template: single
+      options:
+        - id: man
+          label: Man
+        - id: woman
+          label: Woman
+        - id: nb_gq_gnc
+          label: Non-binary, genderqueer, or gender non-conforming
+        # - id: prefer_not_to_disclose
+        #   label: Prefer not to disclose
+        - id: not_listed
+
+    # - id: gender_others
+    #   label: What is your gender? (other)
+    #   template: others
+
+    - id: age
+      template: age_number
+      optionsAreSequential: true
+
+    - id: years_of_experience
+      label: "How many years of professional experience do you have in software development?"
+      template: years
+      optionsAreRange: true
+      optionsAreSequential: true
+      optionsAreNumeric: true
+
+    - id: years_in_japan
+      label: "How many years have you lived in Japan?"
+      template: years
+      optionsAreRange: true
+      optionsAreSequential: true
+      optionsAreNumeric: true
+
+    - id: educational_attainment
+      template: singleWithOther
+      options:
+        - id: primary_elementary_school
+        - id: secondary_school
+        - id: college_no_degree
+        - id: short_cycle
+        - id: bachelors_degree
+        - id: masters_degree
+        - id: professional_degree
+        - id: na
+
+    # - id: learning_to_code
+    #   template: multipleWithOther
+    #   options:
+    #     - id: books_physical_media
+    #     - id: school
+    #     - id: online_courses
+    #     - id: on_the_job
+    #     - id: colleagues
+    #     - id: friend_family
+    #     - id: bootcamp
+    #     - id: hackathons
+    #     - id: other_online_resources
+
+    - id: professional_qualifications
+      template: multipleWithOther
+      options:
+        - id: short_cycle
+        - id: bachelors_degree
+        - id: masters_degree
+        - id: phd
+        - id: coding_bootcamp
+        - id: professional_qualification
+        - id: na
+
+    - id: language_proficiency_english
+      label: "What is your language proficiency? [English]"
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: none
+        - id: basic
+        - id: conversational
+        - id: fluent
+        - id: native_bilingual
+
+    - id: language_proficiency_japanese
+      label: "What is your language proficiency? [Japanese]"
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: none
+        - id: basic
+        - id: conversational
+        - id: fluent
+        - id: native_bilingual
+
+- id: job_info
+  messageId: sections.job_info.intro
+  questions:
+    - id: employment_status
+      label: "Which of the following best describes your employment status?"
+      template: singleWithOther
+      options:
+        - id: permanent_employee
+        - id: contract_employee
+        - id: temporary_worker
+        - id: freelancer_self_employed
+        - id: company_director
+        - id: part_time
+        - id: internship
+        - id: not_employed_not_looking_for_work
+        - id: not_employed_looking_for_work
+        - id: student
+        - id: retired
+
+    - id: searching_for_job
+      label: "Are you currently searching for a new job?"
+      template: single
+      options:
+        - id: yes
+        - id: no_but_would_consider
+        - id: no
+
+    - id: current_job_description
+      label: "Which of the following describes your current job? Please select all that apply."
+      template: multipleWithOther
+      order: alphabetical
+      options:
+        # - id: academic_researcher
+        - id: blockchain
+        - id: cloud_infrastructure_engineer
+        # - id: data_or_business_analyst
+        - id: data_scientist_or_machine_learning
+        - id: database_administrator
+        - id: designer
+        - id: developer_back_end
+        - id: developer_desktop_or_enterprise_applications
+        - id: developer_embedded_applications_or_devices
+        - id: developer_front_end
+        - id: developer_full_stack
+        - id: developer_game_or_graphics
+        - id: developer_qa_or_test
+        - id: developer_mobile
+        - id: devops_specialist
+        # - id: educator
+        - id: engineer_data
+        - id: engineer_site_reliability
+        - id: engineering_manager
+        # - id: marketing_or_sales
+        - id: product_manager
+        # - id: scientist
+        - id: security_professional
+        - id: senior_executive
+        - id: system_administrator
+
+    - id: coworker_nationalities_engineers
+      label: "What are the nationalities of the other people you work with? [Engineers]"
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: all_or_mostly_japanese
+          label: All or mostly Japanese
+        - id: mix_japanese_non_japanese
+          label: A mix of Japanese and non-Japanese
+        - id: all_mostly_non_japanese
+          label: All or mostly non-Japanese
+        # - id: na
+
+    - id: coworker_nationalities_non_engineers
+      label: "What are the nationalities of the other people you work with? [Others]"
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: all_or_mostly_japanese
+          label: All or mostly Japanese
+        - id: mix_japanese_non_japanese
+          label: A mix of Japanese and non-Japanese
+        - id: all_mostly_non_japanese
+          label: All or mostly non-Japanese
+        # - id: na
+
+    - id: languages_used_colleagues_japanese
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: never
+          label: Never
+        - id: rarely
+          label: Rarely
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+        # - id: na
+
+    - id: languages_used_colleagues_english
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: never
+          label: Never
+        - id: rarely
+          label: Rarely
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+        # - id: na
+
+    - id: years_employed
+      label: "How many years have you been employed by your current employer?"
+      template: years
+      optionsAreRange: true
+      optionsAreSequential: true
+
+    # - id: work_hours_per_week
+    #   label: "In a typical week, how many hours do you work?"
+    #   template: number
+
+    # - id: work_days_per_week
+    #   label: "In a typical week, how many days do you work?"
+    #   optionsAreNumeric: true
+    #   optionsAreSequential: true
+    #   template: dropdown
+    #   options:
+    #     - id: 1
+    #       label: 1
+    #     - id: 2
+    #       label: 2
+    #     - id: 3
+    #       label: 3
+    #     - id: 4
+    #       label: 4
+    #     - id: 5
+    #       label: 5
+    #     - id: 6
+    #       label: 6
+    #     - id: 7
+    #       label: 7
+
+    # - id: overtime_per_month
+    #   optionsAreSequential: true
+    #   template: single
+    #   options:
+    #     - id: range_0
+    #     - id: range_1_9
+    #     - id: range_10_19
+    #     - id: range_20_29
+    #     - id: range_30_39
+    #     - id: range_40_49
+    #     - id: range_over_50
+
+    - id: hours_per_day
+      template: number
+
+    - id: how_did_you_find_your_current_job
+      label: "How did you find your current job?"
+      template: single
+      allowOther: true
+      options:
+        - id: company_website
+          label: Company website
+        - id: job_board
+          label: Job Board
+        - id: job_fair
+          label: Job Fair
+        - id: headhunter_external_recruiter
+          label: Headhunter / external recruiter
+        - id: internal_recruiter_from_company
+          label: Internal recruiter from company
+        - id: networking
+          label: Networking
+        - id: referral
+          label: Referral
+
+    # - id: how_did_you_find_your_current_job_others
+    #   label: "How did you find your current job? (other)"
+    #   template: others
+
+    # - id: overall_satisfaction
+    #   label: "Overall, how satisfied are you with your job?"
+    #   template: slider
+    #   from: 1
+    #   to: 10
+    #   fromLabel: Unsatisfied
+    #   toLabel: Satisfied
+
+- id: employer_info
+  # messageId: sections.employer_info.intro
+  questions:
+    - id: current_employer
+      label: "Which of the following best describes your current employer?"
+      template: singleWithOther
+      options:
+        - id: japanese_company
+        - id: japanese_subsidiary
+        - id: international_company
+        - id: sole_proprietorship
+        - id: university
+
+    # - id: current_employer_others
+    #   label: "Which of the following best describes your current employer? (other)"
+    #   template: others
+
+    - id: industry_sector
+      label: "What industry or business domain is your current employer in?"
+      template: multipleWithOther
+      matchTags: [industry_sectors]
+      order: alphabetical
+      options:
+        - id: saas
+        - id: finance
+        - id: e_commerce
+        - id: ai
+        - id: cloud_computing
+        - id: advertising
+        - id: consulting
+        - id: games
+        - id: blockchain_cryptocurrency
+
+        # - id: construction
+        # - id: consumer_electronics
+        # - id: education
+        # - id: food
+        # - id: healthcare
+        # - id: hospitality_tourism
+        # - id: human_resources
+        # - id: fashion
+        # - id: marketing
+        # - id: outsourced_development
+        # - id: real_estate
+        # - id: robotics
+
+    # - id: industry_sector_others
+    #   label: "What industry or business domain is your current employer in? (other)"
+    #   template: others
+
+    - id: remote_work_policy
+      label: "What best describes your employer's remote work policy?"
+      template: single
+      options:
+        - id: no_remote_work
+          label: No remote work. All employees must attend the office.
+        - id: hybrid
+          label: Hybrid. Some remote work is permitted, but employees must regularly attend the office.
+        - id: up_to_employee
+          label: Up to the employee. Employees can choose whether to work remotely or in the office.
+        - id: fully_remote
+          label: Fully remote. All employees work completely remotely.
+        # - id: na
+
+    - id: company_size
+      label: "How many employees does your employer have (worldwide)?"
+      template: single
+      optionsAreRange: true
+      optionsAreSequential: true
+      options:
+        - id: range_1
+          label: Just me - I am a freelancer, sole proprietor, etc.
+        - id: range_2_9
+          label: 2 to 9 employees
+        - id: range_10_19
+          label: 10 to 19 employees
+        - id: range_20_99
+          label: 20 to 99 employees
+        - id: range_100_499
+          label: 100 to 499 employees
+        - id: range_500_999
+          label: 500 to 999 employees
+        - id: range_1000_4999
+          label: 1,000 to 4,999 employees
+        - id: range_5000_9999
+          label: 5,000 to 9,999 employees
+        - id: range_over_10000
+          label: 10,000 or more employees
+
+- id: compensation
+  questions:
+    - id: current_total_annual_compensation
+      label: "What is your current total annual compensation (salary, bonuses, perks, and overtime pay, before taxes and deductions) in Japanese yen?"
+      template: dropdown
+      optionsAreRange: true
+      optionsAreSequential: true
+      defaultSort: options
+      groups:
+        - id: range_under_2999999
+          average: 1500000
+          items:
+            - range_under_1000000
+            - range_1000000_to_1999999
+            - range_2000000_to_2999999
+        - id: range_3000000_to_5999999
+          average: 4500000
+          items:
+            - range_3000000_to_3999999
+            - range_4000000_to_4999999
+            - range_5000000_to_5999999
+        - id: range_6000000_to_8999999
+          average: 7500000
+          items:
+            - range_6000000_to_6999999
+            - range_7000000_to_7999999
+            - range_8000000_to_8999999
+        - id: range_9000000_to_11999999
+          average: 10500000
+          items:
+            - range_9000000_to_9999999
+            - range_10000000_to_10999999
+            - range_11000000_to_11999999
+        - id: range_12000000_to_14999999
+          average: 13500000
+          items:
+            - range_12000000_to_12999999
+            - range_13000000_to_13999999
+            - range_14000000_to_14999999
+        - id: range_15000000_to_19999999
+          average: 17500000
+          items:
+            - range_15000000_to_15999999
+            - range_16000000_to_16999999
+            - range_17000000_to_17999999
+            - range_18000000_to_18999999
+            - range_19000000_to_19999999
+        - id: range_over_20000000
+          average: 20000000
+          items:
+            - range_20000000_to_20999999
+            - range_21000000_to_21999999
+            - range_22000000_to_22999999
+            - range_23000000_to_23999999
+            - range_24000000_to_24999999
+            - range_25000000_to_25999999
+            - range_26000000_to_26999999
+            - range_27000000_to_27999999
+            - range_28000000_to_28999999
+            - range_29000000_to_29999999
+            - range_30000000_or_more
+
+      options:
+        - id: range_under_1000000
+          label: Under ¥1,000,000 per year
+          average: 500000
+        - id: range_1000000_to_1999999
+          label: ¥1,000,000 to ¥1,999,999
+          average: 1500000
+        - id: range_2000000_to_2999999
+          label: ¥2,000,000 to ¥2,999,999 per year
+          average: 2500000
+        - id: range_3000000_to_3999999
+          label: ¥3,000,000 to ¥3,999,999 per year
+          average: 3500000
+        - id: range_4000000_to_4999999
+          label: ¥4,000,000 to ¥4,999,999 per year
+          average: 4500000
+        - id: range_5000000_to_5999999
+          label: ¥5,000,000 to ¥5,999,999 per year
+          average: 5500000
+        - id: range_6000000_to_6999999
+          label: ¥6,000,000 to ¥6,999,999 per year
+          average: 6500000
+        - id: range_7000000_to_7999999
+          label: ¥7,000,000 to ¥7,999,999 per year
+          average: 7500000
+        - id: range_8000000_to_8999999
+          label: ¥8,000,000 to ¥8,999,999 per year
+          average: 8500000
+        - id: range_9000000_to_9999999
+          label: ¥9,000,000 to ¥9,999,999 per year
+          average: 9500000
+        - id: range_10000000_to_10999999
+          label: ¥10,000,000 to ¥10,999,999 per year
+          average: 10500000
+        - id: range_11000000_to_11999999
+          label: ¥11,000,000 to ¥11,999,999 per year
+          average: 11500000
+        - id: range_12000000_to_12999999
+          label: ¥12,000,000 to ¥12,999,999 per year
+          average: 12500000
+        - id: range_13000000_to_13999999
+          label: ¥13,000,000 to ¥13,999,999 per year
+          average: 13500000
+        - id: range_14000000_to_14999999
+          label: ¥14,000,000 to ¥14,999,999 per year
+          average: 14500000
+        - id: range_15000000_to_15999999
+          label: ¥15,000,000 to ¥15,999,999 per year
+          average: 15500000
+        - id: range_16000000_to_16999999
+          label: ¥16,000,000 to ¥16,999,999 per year
+          average: 16500000
+        - id: range_17000000_to_17999999
+          label: ¥17,000,000 to ¥17,999,999 per year
+          average: 17500000
+        - id: range_18000000_to_18999999
+          label: ¥18,000,000 to ¥18,999,999 per year
+          average: 18500000
+        - id: range_19000000_to_19999999
+          label: ¥19,000,000 to ¥19,999,999 per year
+          average: 19500000
+        - id: range_20000000_to_20999999
+          label: ¥20,000,000 to ¥20,999,999 per year
+          average: 20500000
+        - id: range_21000000_to_21999999
+          label: ¥21,000,000 to ¥21,999,999 per year
+          average: 21500000
+        - id: range_22000000_to_22999999
+          label: ¥22,000,000 to ¥22,999,999 per year
+          average: 22500000
+        - id: range_23000000_to_23999999
+          label: ¥23,000,000 to ¥23,999,999 per year
+          average: 23500000
+        - id: range_24000000_to_24999999
+          label: ¥24,000,000 to ¥24,999,999 per year
+          average: 24500000
+        - id: range_25000000_to_25999999
+          label: ¥25,000,000 to ¥25,999,999 per year
+          average: 25500000
+        - id: range_26000000_to_26999999
+          label: ¥26,000,000 to ¥26,999,999 per year
+          average: 26500000
+        - id: range_27000000_to_27999999
+          label: ¥27,000,000 to ¥27,999,999 per year
+          average: 27500000
+        - id: range_28000000_to_28999999
+          label: ¥28,000,000 to ¥28,999,999 per year
+          average: 28500000
+        - id: range_29000000_to_29999999
+          label: ¥29,000,000 to ¥29,999,999 per year
+          average: 29500000
+        - id: range_30000000_or_more
+          label: ¥30,000,000 or more per year
+          average: 30500000
+
+    - id: previous_compensation
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: disclosed
+        - id: not_disclosed
+        - id: not_asked
+        # - id: na
+
+    - id: desired_compensation
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: disclosed
+        - id: not_disclosed
+        - id: not_asked
+        # - id: na
+
+    - id: negotiated_compensation
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: success
+        - id: failure
+        - id: no_negotiation
+        # - id: na
+
+    - id: annual_paid_leave
+      template: number
+      optionsAreRange: true
+      optionsAreSequential: true
+      groups:
+        - id: range_under_10
+          lowerBound: 0
+          average: 5
+          upperBound: 10
+        - id: range_10_15
+          lowerBound: 10
+          average: 12.5
+          upperBound: 15
+        - id: range_15_20
+          lowerBound: 15
+          average: 17.5
+          upperBound: 20
+        - id: range_20_30
+          lowerBound: 20
+          average: 25
+          upperBound: 30
+        - id: range_30_40
+          lowerBound: 30
+          average: 35
+          upperBound: 40
+        - id: range_over_40
+          lowerBound: 40
+          average: 45
+
+# - id: vacations
+#   questions:
+# - id: paid_leave
+#   label: "How does your employer grant paid leave?"
+#   template: single
+#   allowOther: true
+#   options:
+#     - id: no_paid_leave
+#       label: No paid leave
+#     - id: minimum_required
+#       label: The minimum required by Japanese law (10 days after 6 months, increasing by 1 day per year of service)
+#     - id: twenty_days_per_year
+#       label: 20 days per year immediately after joining
+#     - id: unlimited_leave
+#       label: Unlimited leave
+
+# - id: paid_leave_others
+#   label: "How does your employer grant paid leave? (other)"
+#   template: others
+
+# - id: additional_vacations
+#   label: In addition to your normal paid leave, which of the following does your employer offer?
+#   template: multiple
+#   options:
+#     - id: public_holidays
+#       label: Public holidays
+#     - id: new_years_holidays
+#       label: New Year's holidays
+#     - id: obon_or_summer_holidays
+#       label: Obon or Summer holidays
+#     - id: sick_leave
+#       label: Sick leave
+
+# - id: asking_for_time_off
+#   label: How comfortable are you with asking for time off?
+#   template: slider
+#   from: 1
+#   to: 10
+#   fromLabel: Uncomfortable
+#   toLabel: Comfortable
+
+- id: technology
+  questions:
+    - id: programming_languages
+      label: "Which programming languages do you regularly use on your job?"
+      template: multipleWithOther
+      matchTags: [languages]
+      order: alphabetical
+      options:
+        - id: javascript
+          label: JavaScript
+        - id: python
+          label: Python
+        - id: html_css
+          label: HTML/CSS
+        - id: typescript
+          label: TypeScript
+        - id: bash_shell
+          label: Bash/Shell
+        - id: sql
+          label: SQL
+        - id: java
+          label: Java
+        # - id: node_js
+        #   label: Node.js
+        - id: ruby
+          label: Ruby
+        - id: go
+          label: Go
+        - id: cplusplus
+          label: C++
+        - id: kotlin
+          label: Kotlin
+        - id: php
+          label: PHP
+        - id: csharp
+          label: C#
+        - id: swift
+          label: Swift
+        - id: rust
+          label: Rust
+        - id: c
+          label: C
+        - id: na
+
+        # - id: assembly
+        #   label: Assembly
+        # - id: clojure
+        #   label: Clojure
+        # - id: dart
+        #   label: Dart
+        # - id: elixir
+        #   label: Elixir
+        # - id: erlang
+        #   label: Erlang
+        # - id: groovy
+        #   label: Groovy
+        # - id: kdb_q
+        #   label: KDB+Q
+        # - id: lua
+        #   label: Lua
+        # - id: matlab
+        #   label: Matlab
+        # - id: objective_c
+        #   label: Objective-C
+        # - id: perl
+        #   label: Perl
+        # - id: powershell
+        #   label: PowerShell
+        # - id: r
+        #   label: R
+        # - id: scala
+        #   label: Scala
+        # - id: vba
+        #   label: VBA
+
+    # - id: programming_languages_others
+    #   label: "Which programming languages do you regularly use on your job? (other)"
+    #   template: others
+
+    - id: databases
+      label: "Which databases do you regularly use at your job?"
+      template: multipleWithOther
+      matchTags: [databases]
+      order: alphabetical
+      options:
+        - id: postgresql
+          label: PostgreSQL
+        - id: mysql
+          label: MySQL
+        - id: redis
+          label: Redis
+        - id: mongodb
+          label: MongoDB
+        - id: elasticsearch
+          label: Elasticsearch
+        - id: dynamodb
+          label: DynamoDB
+        - id: sqlite
+          label: SQLite
+        - id: mariadb
+          label: MariaDB
+        - id: microsoft_sql_server
+          label: Microsoft SQL Server
+        - id: na
+
+        # - id: cassandra
+        #   label: Cassandra
+        # - id: cloud_firestore
+        #   label: Cloud Firestore
+        # - id: couchdb
+        #   label: CouchDB
+        # - id: couchbase
+        #   label: Couchbase
+        # - id: firebase_realtime_database
+        #   label: Firebase Realtime Database
+        # - id: ibm_db2
+        #   label: IBM DB2
+        # - id: neo4j
+        #   label: Neo4j
+        # - id: oracle
+        #   label: Oracle
+
+    # - id: databases_others
+    #   label: "Which databases do you regularly use at your job? (other)"
+    #   template: others
+
+    - id: web_frameworks
+      label: "Which web framework(s) do you regularly use at your job?"
+      template: multipleWithOther
+      matchTags: [libraries, languages]
+      order: alphabetical
+      options:
+        - id: react
+        - id: rails
+        - id: vuejs
+        - id: express
+        - id: flask
+        - id: django
+        - id: jquery
+        - id: fastapi
+        - id: laravel
+        - id: angular
+        - id: nextjs
+        - id: nuxt
+        - id: svelte
+        - id: na
+
+        # - id: angular_js
+        #   label: Angular.js
+        # - id: asp_net
+        #   label: ASP.NET
+        # - id: asp_net_core
+        #   label: ASP.NET Core
+        # - id: hotwire
+        #   label: Hotwire (Stimulus / Turbo)
+        # - id: phoenix
+        #   label: Phoenix
+
+    # - id: web_frameworks_others
+    #   label: "Which web frameworks do you regularly use at your job? (other)"
+    #   template: others
+
+    - id: other_frameworks_libraries
+      label: "Which other frameworks and libraries do you regularly use at your job?"
+      template: multipleWithOther
+      matchTags: [libraries, languages]
+      order: alphabetical
+      options:
+        - id: numpy
+          label: NumPy
+        - id: pandas
+          label: Pandas
+        - id: spring
+          label: Spring
+        - id: apache_kafka
+          label: Apache Kafka
+        - id: torch_pytorch
+          label: Torch/PyTorch
+        - id: tensorflow
+          label: TensorFlow
+        - id: scikit_learn
+          label: Scikit-learn
+        - id: dot_net
+          label: .NET
+        - id: react_native
+          label: React Native
+        - id: apache_spark
+          label: Apache Spark
+        - id: keras
+          label: Keras
+        - id: hadoop
+          label: Hadoop
+        - id: hugging_face_transformers
+          label: Hugging Face Transformers
+        - id: qt
+          label: Qt
+        - id: flutter
+          label: Flutter
+
+        - id: rabbitmq
+          label: RabbitMQ
+        - id: opengl
+          label: OpenGL
+        - id: opencv
+          label: Opencv
+        - id: na
+
+        # - id: capacitor
+        #   label: Capacitor
+        # - id: cordova
+        #   label: Cordova
+        # - id: electron
+        #   label: Electron
+        # - id: gtk
+        #   label: GTK
+        # - id: ionic
+        #   label: Ionic
+        # - id: tidyverse
+        #   label: Tidyverse
+        # - id: xamarin
+        #   label: Xamarin
+
+    # - id: other_frameworks_libraries_others
+    #   label: "Which other frameworks and libraries do you regularly use at your job? (other)"
+    #   template: others
+
+    - id: developer_tools
+      label: Which developer tools do you regularly use at your job?
+      template: multipleWithOther
+      order: alphabetical
+      matchTags: [libraries, languages]
+      options:
+        - id: docker
+          label: Docker
+        - id: npm
+          label: npm
+        - id: homebrew
+          label: Homebrew
+        - id: kubernetes
+          label: Kubernetes
+        - id: yarn
+          label: Yarn
+        - id: terraform
+          label: Terraform
+        - id: ansible
+          label: Ansible
+        - id: pnpm
+          label: pnpm
+        - id: pip
+          label: Pip
+        - id: vite
+          label: Vite
+        - id: cargo
+          label: Cargo
+        - id: make
+          label: Make
+        - id: na
+
+        # - id: unity_3d
+        #   label: Unity 3D
+        # - id: unreal_engine
+        #   label: Unreal Engine
+        # - id: chef
+        #   label: Chef
+        # - id: puppet
+        #   label: Puppet
+
+    # - id: developer_tools_others
+    #   label: "Which developer tools do you regularly use at your job? (other)"
+    #   template: others
+
+    - id: developer_environments
+      label: "Which developer environments do you regularly use at your job?"
+      template: multipleWithOther
+      order: alphabetical
+      matchTags: [text_editors]
+      options:
+        - id: visual_studio_code
+          label: Visual Studio Code
+        - id: intellij
+          label: IntelliJ
+        - id: vim
+          label: Vim
+        - id: xcode
+          label: Xcode
+        - id: sublime_text
+          label: Sublime Text
+        - id: visual_studio
+          label: Visual Studio
+        - id: android_studio
+          label: Android Studio
+        - id: ipython_jupyter
+          label: IPython/Jupyter
+        - id: notepad_plus_plus
+          label: Notepad++
+        - id: pycharm
+          label: PyCharm
+        - id: goland
+          label: GoLand
+        - id: neovim
+          label: Neovim
+        - id: emacs
+          label: Emacs
+        - id: na
+
+        # - id: atom
+        #   label: Atom
+        # - id: clion
+        #   label: CLion
+        # - id: eclipse
+        #   label: Eclipse
+        # - id: nano
+        #   label: Nano
+        # - id: netbeans
+        #   label: NetBeans
+        # - id: phpstorm
+        #   label: PhpStorm
+        # - id: qt_creator
+        #   label: Qt Creator
+        # - id: rad_studio
+        #   label: RAD Studio (Delphi, C++ Builder)
+        # - id: rstudio
+        #   label: RStudio
+        # - id: rider
+        #   label: Rider
+        # - id: rubymine
+        #   label: RubyMine
+        # - id: spyder
+        #   label: Spyder
+        # - id: textmate
+        #   label: TextMate
+        # - id: webstorm
+        #   label: Webstorm
+
+    # - id: developer_environments_others
+    #   label: "Which developer environments do you regularly use at your job? (other)"
+    #   template: others
+
+    - id: cloud_platforms
+      label: Which cloud platforms do you regularly use at your job?
+      template: multipleWithOther
+      order: alphabetical
+      matchTags: [services]
+      options:
+        - id: aws
+        - id: azure
+        - id: google_cloud
+        - id: firebase
+        - id: cloudflare
+        - id: digital_ocean
+        - id: heroku
+        - id: vercel
+        - id: vmware
+        - id: hetzner
+        - id: sakura_cloud
+        - id: nifcloud
+        - id: idcf_cloud
+        - id: z_com_cloud
+
+- id: other
+  questions:
+    - id: life_in_japan
+      template: likert
+      order: random
+      options:
+        - id: visa_situation
+        - id: professional_life
+        - id: family_life
+        - id: social_life
+        - id: cultural_adjustment
+        - id: quality_of_life
+        - id: housing
+        - id: financial_situation
+
+    - id: life_in_japan__visa_situation
+      template: likert_option
+    - id: life_in_japan__professional_life
+      template: likert_option
+    - id: life_in_japan__family_life
+      template: likert_option
+    - id: life_in_japan__social_life
+      template: likert_option
+    - id: life_in_japan__cultural_adjustment
+      template: likert_option
+    - id: life_in_japan__quality_of_life
+      template: likert_option
+    - id: life_in_japan__housing
+      template: likert_option
+    - id: life_in_japan__financial_situation
+      template: likert_option
+
+    - id: communities
+      template: multipleWithOther
+      order: alphabetical
+      options:
+        - id: code_chrysalis
+        - id: coffee_and_code
+        - id: creative_tokyo
+        - id: engineer_cafe
+        - id: hn_tokyo
+        - id: hn_kansai
+        - id: le_wagon
+        - id: owddm
+        - id: tokyodev_discord
+        - id: tokyo_ios_meetup
+        - id: tokyo_rubyist_meetup
+        - id: tokyo_net_developers_meetup
+        - id: tokyo_tech_leads_circle
+        - id: tokyo_tech_meetup
+        - id: women_in_science_japan
+        - id: women_who_code_tokyo
+        - id: women_in_technology_japan
+
+    - id: keyboard_layout
+      template: multipleWithOther
+      options:
+        - id: us_layout
+        - id: japan_layout
+
+    - id: how_did_user_find_out_about_the_survey
+      template: text
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_tokyodev,
+          socialmedia,
+          sources,
+        ]
+
+    - id: how_to_improve_survey
+      template: longtext
+      label: "Was there anything that could be done to improve future surveys? Is there anything that wasn't asked in this survey that you'd like to see in a future one?"
+
+    - id: receive_notifications
+      template: receive_notifications

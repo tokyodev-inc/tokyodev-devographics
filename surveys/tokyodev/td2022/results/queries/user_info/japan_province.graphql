@@ -1,0 +1,37 @@
+query td2022japanProvinceQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              user_info {
+                japan_province {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

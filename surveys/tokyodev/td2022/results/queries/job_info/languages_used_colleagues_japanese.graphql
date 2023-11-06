@@ -1,0 +1,37 @@
+query td2022languagesUsedColleaguesJapaneseQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              job_info {
+                languages_used_colleagues_japanese {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

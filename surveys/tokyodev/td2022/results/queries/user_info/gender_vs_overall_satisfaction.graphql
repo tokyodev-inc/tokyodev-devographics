@@ -1,0 +1,174 @@
+query td2022genderVsOverallSatisfactionQuery {
+  surveys {
+    tokyodev {
+      td2022 {
+        satisfaction {
+          gender_vs_overall_satisfaction_1: overall_satisfaction {
+            responses(
+              filters: {
+                user_info__gender: {
+                  eq: man
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    id
+                    example {
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p25
+                    p50
+                    p75
+                    p100
+                  }
+                }
+              }
+            }
+          }
+          gender_vs_overall_satisfaction_2: overall_satisfaction {
+            responses(
+              filters: {
+                user_info__gender: {
+                  eq: woman
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    id
+                    example {
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p25
+                    p50
+                    p75
+                    p100
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

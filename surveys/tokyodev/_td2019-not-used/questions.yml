@@ -1,0 +1,393 @@
+- id: user_info
+  questions:
+    - id: currently_live_in_japan
+      label: Do you currently live in Japan?
+      options:
+        - id: yes
+          label: Yes, I live in Japan.
+        - id: no
+          label: No, I'm not living in Japan.
+
+    - id: company_office_location
+      label: Where is your company's office?
+      template: dropdown
+      options:
+        - id: outside_of_japan
+          label: Outside of Japan
+        - id: aichi
+          label: Aichi
+        - id: akita
+          label: Akita
+        - id: aomori
+          label: Aomori
+        - id: chiba
+          label: Chiba
+        - id: ehime
+          label: Ehime
+        - id: fukui
+          label: Fukui
+        - id: fukuoka
+          label: Fukuoka
+        - id: fukushima
+          label: Fukushima
+        - id: gifu
+          label: Gifu
+        - id: gunma
+          label: Gunma
+        - id: hiroshima
+          label: Hiroshima
+        - id: hokkaido
+          label: Hokkaido
+        - id: hyogo
+          label: Hyogo
+        - id: ibaraki
+          label: Ibaraki
+        - id: ishikawa
+          label: Ishikawa
+        - id: iwate
+          label: Iwate
+        - id: kagawa
+          label: Kagawa
+        - id: kagoshima
+          label: Kagoshima
+        - id: kanagawa
+          label: Kanagawa
+        - id: kochi
+          label: Kochi
+        - id: kumamoto
+          label: Kumamoto
+        - id: kyoto
+          label: Kyoto
+        - id: mie
+          label: Mie
+        - id: miyagi
+          label: Miyagi
+        - id: miyazaki
+          label: Miyazaki
+        - id: nagano
+          label: Nagano
+        - id: nagasaki
+          label: Nagasaki
+        - id: nara
+          label: Nara
+        - id: niigata
+          label: Niigata
+        - id: oita
+          label: Oita
+        - id: okayama
+          label: Okayama
+        - id: okinawa
+          label: Okinawa
+        - id: osaka
+          label: Osaka
+        - id: saga
+          label: Saga
+        - id: saitama
+          label: Saitama
+        - id: shiga
+          label: Shiga
+        - id: shimane
+          label: Shimane
+        - id: shizuoka
+          label: Shizuoka
+        - id: tochigi
+          label: Tochigi
+        - id: tokushima
+          label: Tokushima
+        - id: tokyo
+          label: Tokyo
+        - id: tottori
+          label: Tottori
+        - id: toyama
+          label: Toyama
+        - id: wakayama
+          label: Wakayama
+        - id: yamagata
+          label: Yamagata
+        - id: yamaguchi
+          label: Yamaguchi
+        - id: yamanashi
+          label: Yamanashi
+
+    - id: residency_status
+      label: What is your visa status in Japan?
+      template: single
+      options:
+        - id: Japanese citizen
+          label: Japanese citizen
+        - id: Permanent resident
+          label: Permanent resident
+        - id: Spouse/Dependent of a Japanese National or Permanent Resident
+          label: Spouse/Dependent of a Japanese National Visa
+        - id: Highly Skilled Foreign Professional
+          label: Highly Skilled Foreign Professional Vis
+        - id: Engineer/Specialist in Humanities/International Services
+          label: Engineering Visa
+
+    - id: residency_status_other
+      label: "What is your residency status in Japan? (other)"
+      template: others
+
+- id: employer_info
+  questions:
+    - id: current_employer
+      label: What kind of company do you work for?
+      template: multiple
+      options:
+        - id: japanese_company
+          label: A Japanese company
+        - id: japanese_subsidiary
+          label: A Japanese subsidiary of an international company
+
+    - id: current_employer_other
+      label: "What kind of company do you work for? (other)"
+      template: others
+
+    - id: product_service_kind
+      label: What kind of product or service does your company provide?
+      template: text
+
+    - id: number_of_employees_worldwide
+      label: How many employees does your company have (worldwide)?
+      template: number
+
+    - id: languages_used_colleagues_japanese
+      label: "What languages do you use at the office? [Japanese]"
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+
+    - id: languages_used_colleagues_english
+      label: "What languages do you use at the office? [English]"
+      template: single
+      options:
+        - id: never
+          label: Never
+        - id: sometimes
+          label: Sometimes
+        - id: frequently
+          label: Frequently
+
+- id: technology
+  questions:
+    - id: programming_languages
+      label: "What programming languages do you regularly use on your job?"
+      template: multiple
+      options:
+        - id: assembly
+          label: Assembly
+        - id: bash_shell
+          label: Bash/Shell
+        - id: c
+          label: C
+        - id: cplusplus
+          label: C++
+        - id: csharp
+          label: C#
+        - id: clojure
+          label: Clojure
+        - id: dart
+          label: Dart
+        - id: elixir
+          label: Elixir
+        - id: erlang
+          label: Erlang
+        - id: go
+          label: Go
+        - id: groovy
+          label: Groovy
+        - id: html_css
+          label: HTML/CSS
+        - id: java
+          label: Java
+        - id: javascript
+          label: JavaScript
+        - id: kdb_q
+          label: KDB+Q
+        - id: kotlin
+          label: Kotlin
+        - id: lua
+          label: Lua
+        - id: matlab
+          label: Matlab
+        - id: node_js
+          label: Node.js
+        - id: objective_c
+          label: Objective-C
+        - id: perl
+          label: Perl
+        - id: php
+          label: PHP
+        - id: powershell
+          label: PowerShell
+        - id: python
+          label: Python
+        - id: r
+          label: R
+        - id: ruby
+          label: Ruby
+        - id: rust
+          label: Rust
+        - id: scala
+          label: Scala
+        - id: sql
+          label: SQL
+        - id: swift
+          label: Swift
+        - id: typescript
+          label: TypeScript
+        - id: vba
+          label: VBA
+
+    - id: programming_languages_other
+      label: "Which programming languages do you regularly use on your job? (other)"
+      template: others
+
+- id: job_info
+  questions:
+    - id: current_job_description
+      label: "Which of these best describes your current role?"
+      template: dropdown
+      options:
+        - id: academic_researcher
+          label: Academic researcher
+        - id: blockchain
+          label: Blockchain
+        - id: cloud_infrastructure_engineer
+          label: Cloud infrastructure engineer
+        - id: data_or_business_analyst
+          label: Data or business analyst
+        - id: data_scientist_or_machine_learning
+          label: Data scientist or machine learning specialist
+        - id: database_administrator
+          label: Database administrator
+        - id: designer
+          label: Designer
+        - id: developer_back_end
+          label: Developer, back-end
+        - id: developer_desktop_or_enterprise_applications
+          label: Developer, desktop or enterprise applications
+        - id: developer_embedded_applications_or_devices
+          label: Developer, embedded applications or devices
+        - id: developer_front_end
+          label: Developer, front-end
+        - id: developer_full_stack
+          label: Developer, full-stack
+        - id: developer_game_or_graphics
+          label: Developer, game or graphics
+        - id: developer_qa_or_test
+          label: Developer, QA or test
+        - id: developer_mobile
+          label: Developer, mobile
+        - id: devops_specialist
+          label: DevOps specialist
+        - id: educator
+          label: Educator
+        - id: engineer_data
+          label: Engineer, data
+        - id: engineer_site_reliability
+          label: Engineer, site reliability
+        - id: engineering_manager
+          label: Engineering manager
+        - id: marketing_or_sales
+          label: Marketing or sales professional
+        - id: product_manager
+          label: Product manager
+        - id: scientist
+          label: Scientist
+        - id: security_professional
+          label: Security professional
+        - id: senior_executive
+          label: Senior executive (C-Suite, VP, etc.)
+        - id: system_administrator
+          label: System administrator
+
+- id: compensation_benefits
+  questions:
+    - id: current_total_annual_compensation
+      label: "What is your current total annual compensation (salary, bonuses, perks, and overtime pay, before taxes and deductions) in Japanese yen?"
+      template: dropdown
+      options:
+        - id: range_under_1000000
+          label: Under ¥1,000,000 per year
+        - id: range_1000000_to_1999999
+          label: ¥1,000,000 to ¥1,999,999
+        - id: range_2000000_to_2999999
+          label: ¥2,000,000 to ¥2,999,999 per year
+        - id: range_3000000_to_3999999
+          label: ¥3,000,000 to ¥3,999,999 per year
+        - id: range_4000000_to_4999999
+          label: ¥4,000,000 to ¥4,999,999 per year
+        - id: range_5000000_to_5999999
+          label: ¥5,000,000 to ¥5,999,999 per year
+        - id: range_6000000_to_6999999
+          label: ¥6,000,000 to ¥6,999,999 per year
+        - id: range_7000000_to_7999999
+          label: ¥7,000,000 to ¥7,999,999 per year
+        - id: range_8000000_to_8999999
+          label: ¥8,000,000 to ¥8,999,999 per year
+        - id: range_9000000_to_9999999
+          label: ¥9,000,000 to ¥9,999,999 per year
+        - id: range_10000000_to_10999999
+          label: ¥10,000,000 to ¥10,999,999 per year
+        - id: range_11000000_to_11999999
+          label: ¥11,000,000 to ¥11,999,999 per year
+        - id: range_12000000_to_12999999
+          label: ¥12,000,000 to ¥12,999,999 per year
+        - id: range_13000000_to_13999999
+          label: ¥13,000,000 to ¥13,999,999 per year
+        - id: range_14000000_to_14999999
+          label: ¥14,000,000 to ¥14,999,999 per year
+        - id: range_15000000_to_15999999
+          label: ¥15,000,000 to ¥15,999,999 per year
+        - id: range_16000000_to_16999999
+          label: ¥16,000,000 to ¥16,999,999 per year
+        - id: range_17000000_to_17999999
+          label: ¥17,000,000 to ¥17,999,999 per year
+        - id: range_18000000_to_18999999
+          label: ¥18,000,000 to ¥18,999,999 per year
+        - id: range_19000000_to_19999999
+          label: ¥19,000,000 to ¥19,999,999 per year
+        - id: range_20000000_to_20999999
+          label: ¥20,000,000 to ¥20,999,999 per year
+        - id: range_21000000_to_21999999
+          label: ¥21,000,000 to ¥21,999,999 per year
+        - id: range_22000000_to_22999999
+          label: ¥22,000,000 to ¥22,999,999 per year
+        - id: range_23000000_to_23999999
+          label: ¥23,000,000 to ¥23,999,999 per year
+        - id: range_24000000_to_24999999
+          label: ¥24,000,000 to ¥24,999,999 per year
+        - id: range_25000000_to_25999999
+          label: ¥25,000,000 to ¥25,999,999 per year
+        - id: range_26000000_to_26999999
+          label: ¥26,000,000 to ¥26,999,999 per year
+        - id: range_27000000_to_27999999
+          label: ¥27,000,000 to ¥27,999,999 per year
+        - id: range_28000000_to_28999999
+          label: ¥28,000,000 to ¥28,999,999 per year
+        - id: range_29000000_to_29999999
+          label: ¥29,000,000 to ¥29,999,999 per year
+        - id: range_30000000_or_more
+          label: ¥30,000,000 or more per year
+
+    - id: what_do_you_like_most_about_job
+      label: What do you like most about your current job?
+      template: longtext
+
+    - id: what_do_you_like_least_about_job
+      label: What do you like the least about your current job?
+      template: longtext
+
+    - id: overall_satisfaction
+      label: "How satisfied are you with your current job?"
+      template: slider
+      from: 1
+      to: 10
+      fromLabel: Unsatisfied
+      toLabel: Satisfied

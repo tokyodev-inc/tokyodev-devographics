@@ -1,0 +1,37 @@
+query td2022yearsInJapanQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              user_info {
+                years_in_japan {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

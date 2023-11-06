@@ -1,0 +1,37 @@
+query td2022paidLeaveQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              vacations {
+                paid_leave {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

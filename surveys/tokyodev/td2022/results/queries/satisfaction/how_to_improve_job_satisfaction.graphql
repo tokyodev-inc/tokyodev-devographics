@@ -1,0 +1,37 @@
+query td2022howToImproveJobSatisfactionQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              satisfaction {
+                how_to_improve_job_satisfaction {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

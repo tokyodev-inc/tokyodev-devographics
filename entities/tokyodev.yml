@@ -1,0 +1,747 @@
+# employment_status
+
+- id: unemployed
+  normalizationOnly: true
+  patterns:
+    - not employed
+  tags:
+    - employment_status
+
+- id: self_employed
+  normalizationOnly: true
+  patterns:
+    - jieigyo
+    - 自営業
+    - freelancer
+  tags:
+    - employment_status
+
+# how_did_you_find_your_current_job
+
+- id: linkedin
+  normalizationOnly: true
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: referral
+  normalizationOnly: true
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: job_board
+  normalizationOnly: true
+  patterns:
+    - stack( )?overflow
+    - type.jp
+    - tokyo( )?dev
+    - japan( )?dev
+    - wantedly
+    - career cross
+    - indeed
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: networking
+  normalizationOnly: true
+  patterns:
+    - event
+    - hn( )?tokyo
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: job_fair
+  normalizationOnly: true
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: recruiter
+  normalizationOnly: true
+  patterns:
+    - headhunter
+    - agent
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: friend
+  normalizationOnly: true
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: university
+  normalizationOnly: true
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: founder
+  normalizationOnly: true
+  patterns:
+    - founded
+    - started
+  tags:
+    - how_did_you_find_your_current_job
+
+- id: social_media
+  normalizationOnly: true
+  patterns:
+    - reddit
+    - instagram
+  tags:
+    - how_did_you_find_your_current_job
+
+# how_to_improve_job_satisfaction
+
+- id: increase_compensation
+  normalizationOnly: true
+  patterns:
+    - pay
+    - salary
+    - compensation
+    - money
+    - wages
+    - raise
+    - salaray
+    - salaries
+    - incentive
+    - equity
+    - promotion
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: more_paid_leave
+  normalizationOnly: true
+  patterns:
+    - holiday
+    - time( )?off
+    - leave
+    - vacation
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_employee_retention
+  normalizationOnly: true
+  patterns:
+    - retain
+    - stop jumping from company to company
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_remote_work
+  normalizationOnly: true
+  patterns:
+    - remote
+    - work from home
+    - wfh
+    - hybrid
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: four_day_workweek
+  normalizationOnly: true
+  patterns:
+    - 4 day
+    - four day
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: hire_more_staff
+  normalizationOnly: true
+  patterns:
+    - hire more
+    - better trained
+    - more people
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: increase_skill_level
+  normalizationOnly: true
+  patterns:
+    - more skilled
+    - better trined
+    - more qualified
+    - well-trained
+    - educate
+    - smarter
+    - online courses
+    - training
+    - certification
+    - mentorship
+    - learning opportunities
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: improve_management
+  normalizationOnly: true
+  patterns:
+    - manage
+    - more structured
+    - more organised
+    - less micromanaging
+    - hire a pm
+    - improve organisation
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: higher_impact_work
+  normalizationOnly: true
+  patterns:
+    - high impact
+    - opportunities
+    - more interesting
+    - more challenges
+    - high stakes
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_technology
+  normalizationOnly: true
+  patterns:
+    - technological choices
+    - newer tech
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: improve_diversity
+  normalizationOnly: true
+  patterns:
+    - diversity
+    - international
+    - foreigners
+  tags:
+    - how_to_improve_job_satisfaction
+
+# reason_for_relocation
+
+- id: jet_program
+  name: JET Program
+  patterns:
+    - jet
+  tags:
+    - reason_for_relocation
+
+# sources
+
+- id: facebook
+  normalizationOnly: true
+  patterns:
+    - facebook_ad
+    - facebook_post
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+- id: twitter
+  normalizationOnly: true
+  patterns:
+    - twitter_post
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+- id: linkedin
+  normalizationOnly: true
+  patterns:
+    - linkedin_ads
+    - linkedin_post
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+- id: post_survey_share
+  normalizationOnly: true
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+- id: tokyodev
+  normalizationOnly: true
+  name: TokyoDev
+  patterns:
+    - tokyo dev
+  tags:
+    - sources_tokyodev
+
+- id: tokyodev
+  normalizationOnly: true
+  name: TokyoDev Mailing List
+  patterns:
+    - tokyodev_mailing_list
+    - mailing list
+    - mail
+    - newsletter
+    - email
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+- id: tokyodev
+  normalizationOnly: true
+  name: TokyoDev Homepage
+  patterns:
+    - tokyodev_root
+  tags:
+    - sourcetag
+    - sources_tokyodev
+
+# communities
+
+- id: tokyo_tech_stack_exchange
+  name: Tokyo Tech Stack Exchange
+  homepageUrl: https://www.ttse.dev/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: code_chrysalis
+  name: Code Chrysalis
+  homepageUrl: https://www.codechrysalis.io/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: coffee_and_code
+  name: Coffee and Code
+  homepageUrl: https://www.meetup.com/coffee-and-code-tokyo/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: creative_tokyo
+  name: Creative Tokyo
+  homepageUrl: https://creativetokyo.com/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: engineer_cafe
+  name: Engineer Cafe
+  homepageUrl: https://engineercafe.jp/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: hn_tokyo
+  name: Hacker News Tokyo
+  homepageUrl: https://hntokyo.doorkeeper.jp/
+  patterns:
+    - hacker news tokyo
+    - hntokyo_slack
+  tags:
+    - communities
+    - sourcetag
+    - referrer
+    - sources_tokyodev
+
+- id: hn_kansai
+  name: Hacker News Kansai
+  homepageUrl: https://hnkansai.org
+  patterns:
+    - hacker news kansai
+    - hnkansai_slack
+  tags:
+    - communities
+    - sourcetag
+    - sources_tokyodev
+
+- id: le_wagon
+  name: Le Wagon
+  homepageUrl: https://www.lewagon.com/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: owddm
+  name: Osaka Web Developers & Designers Meetup
+  homepageUrl: https://owddm.com/
+  patterns:
+    - osaka web developer
+    - osaka web designer
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyodev_discord
+  name: TokyoDev Discord
+  homepageUrl: https://discord.gg/seUNe38YgV
+  tags:
+    - communities
+
+- id: tokyodev
+  name: TokyoDev
+  homepageUrl: https://tokyodev.com/
+  patterns:
+    - discord
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_ios_meetup
+  name: Tokyo iOS Meetup
+  homepageUrl: https://www.meetup.com/tokyoiosmeetup/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_rubyist_meetup
+  name: Tokyo Rubyist Meetup
+  homepageUrl: https://trbmeetup.doorkeeper.jp/
+  patterns:
+    - trbmeetup
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_net_developers_meetup
+  name: Tokyo .NET Developers Meetup
+  homepageUrl: https://www.meetup.com/tokyo-net-developers-meetup/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_tech_leads_circle
+  name: Tokyo Tech Leads Circle
+  homepageUrl: https://tokyo-tech-leads-circle.doorkeeper.jp/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_tech_meetup
+  name: Tokyo Tech Meetup
+  homepageUrl: https://www.meetup.com/tokyotechmeetup/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: women_in_science_japan
+  name: Women in Science Japan
+  homepageUrl: https://www.womeninsciencejapan.com/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: women_who_code_tokyo
+  name: Women Who Code Tokyo
+  homepageUrl: https://www.womenwhocode.com/network/tokyo/
+  tags:
+    - communities
+    - sources_tokyodev
+  patterns:
+    - wwcode_tokyo
+
+- id: women_in_technology_japan
+  name: Women In Technology Japan
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: machine_learning_tokyo
+  name: Machine Learning Tokyo
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tokyo_rust_meetup
+  name: Tokyo Rust Meetup
+  tags:
+    - communities
+    - sources_tokyodev
+
+# keyboard_layout
+
+- id: uk
+  name: UK
+  patterns:
+    - british
+  tags:
+    - keyboard_layout
+
+- id: colemak
+  name: Colemak
+  tags:
+    - keyboard_layout
+
+- id: dvorak
+  name: Dvorak
+  tags:
+    - keyboard_layout
+
+# cloud_platforms
+
+- id: internal_cloud
+  name: Internal Cloud
+  patterns:
+    - internal
+    - own
+  tags:
+    - cloud_platforms
+
+# how_to_improve_survey
+
+- id: more_tech_choices
+  tags:
+    - how_to_improve_survey
+
+- id: overall_positive_impression
+  tags:
+    - how_to_improve_survey
+
+- id: too_webdev_centric
+  tags:
+    - how_to_improve_survey
+
+- id: make_it_shorter
+  tags:
+    - how_to_improve_survey
+
+- id: ui_improvements
+  tags:
+    - how_to_improve_survey
+
+- id: improve_audience_selection
+  tags:
+    - how_to_improve_survey
+
+- id: question_suggestions
+  tags:
+    - how_to_improve_survey
+
+# technologies
+
+- id: html_css
+  name: HTML/CSS
+  homepageUrl: https://whatwg.org/
+  tags:
+    - languages
+
+- id: bash_shell
+  name: Bash/Shell
+  homepageUrl: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+  tags:
+    - languages
+
+- id: cplusplus
+  name: C++
+  homepageUrl: https://cplusplus.com/
+  tags:
+    - languages
+
+- id: c
+  name: C
+  homepageUrl: https://en.wikipedia.org/wiki/C_(programming_language)
+  tags:
+    - languages
+
+- id: numpy
+  name: NumPy
+  homepageUrl: https://numpy.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: pandas
+  name: Pandas
+  homepageUrl: https://pandas.pydata.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: spring
+  name: Spring
+  tags:
+    - other_frameworks_libraries
+
+- id: apache_kafka
+  name: Apache Kafka
+  homepageUrl: https://kafka.apache.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: torch_pytorch
+  name: Torch/PyTorch
+  homepageUrl: https://pytorch.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: tensorflow
+  name: TensorFlow
+  homepageUrl: https://www.tensorflow.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: scikit_learn
+  name: Scikit-learn
+  homepageUrl: https://scikit-learn.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: dot_net
+  name: .NET
+  homepageUrl: https://dotnet.microsoft.com/
+  tags:
+    - other_frameworks_libraries
+
+- id: react_native
+  name: React Native
+  tags:
+    - other_frameworks_libraries
+
+- id: apache_spark
+  name: Apache Spark
+  homepageUrl: https://spark.apache.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: keras
+  name: Keras
+  homepageUrl: https://keras.io/
+  tags:
+    - other_frameworks_libraries
+
+- id: hadoop
+  name: Hadoop
+  homepageUrl: https://hadoop.apache.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: hugging_face_transformers
+  name: Hugging Face Transformers
+  homepageUrl: https://huggingface.co/docs/transformers/index
+  tags:
+    - other_frameworks_libraries
+
+- id: qt
+  name: Qt
+  homepageUrl: https://www.qt.io/
+  tags:
+    - other_frameworks_libraries
+
+- id: rabbitmq
+  name: RabbitMQ
+  homepageUrl: https://www.rabbitmq.com/
+  tags:
+    - other_frameworks_libraries
+
+- id: opengl
+  name: OpenGL
+  homepageUrl: https://www.opengl.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: opencv
+  name: OpenCV
+  homepageUrl: https://opencv.org/
+  tags:
+    - other_frameworks_libraries
+
+- id: docker
+  name: Docker
+  homepageUrl: https://www.docker.com/
+  tags:
+    - developer_tools
+
+- id: npm
+  name: npm
+  tags:
+    - developer_tools
+
+- id: homebrew
+  name: Homebrew
+  homepageUrl: https://brew.sh/
+  tags:
+    - developer_tools
+
+- id: kubernetes
+  name: Kubernetes
+  homepageUrl: https://kubernetes.io/
+  tags:
+    - developer_tools
+
+- id: yarn
+  name: Yarn
+  tags:
+    - developer_tools
+
+- id: terraform
+  name: Terraform
+  tags:
+    - developer_tools
+
+- id: ansible
+  name: Ansible
+  homepageUrl: https://www.ansible.com/
+  tags:
+    - developer_tools
+
+- id: pnpm
+  name: pnpm
+  tags:
+    - developer_tools
+
+- id: pip
+  name: Pip
+  homepageUrl: https://pypi.org/project/pip/
+  tags:
+    - developer_tools
+
+- id: vite
+  name: Vite
+  tags:
+    - developer_tools
+
+- id: cargo
+  name: Cargo
+  homepageUrl: https://doc.rust-lang.org/cargo/
+  tags:
+    - developer_tools
+
+- id: make
+  name: Make
+  homepageUrl: https://en.wikipedia.org/wiki/Make_(software)
+  tags:
+    - developer_tools
+
+- id: visual_studio_code
+  name: Visual Studio Code
+  homepageUrl: https://code.visualstudio.com/
+  tags:
+    - developer_environments
+
+# residency_status
+
+- id: long_term_resident
+  normalizationOnly: true
+  tags:
+    - residency_status
+
+- id: tourist
+  normalizationOnly: true
+  tags:
+    - residency_status
+
+- id: working_holiday
+  normalizationOnly: true
+  tags:
+    - residency_status
+
+# current_job_description
+
+- id: engineer
+  normalizationOnly: true
+  tags:
+    - current_job_description
+
+- id: researcher
+  normalizationOnly: true
+  patterns:
+    - research
+  tags:
+    - current_job_description
+
+# professional_qualifications
+
+- id: self_taught
+  normalizationOnly: true
+  tags:
+    - professional_qualifications
+
+- id: online_course
+  normalizationOnly: true
+  tags:
+    - professional_qualifications

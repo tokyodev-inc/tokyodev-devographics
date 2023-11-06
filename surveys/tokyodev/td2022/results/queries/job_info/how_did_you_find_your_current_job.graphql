@@ -1,0 +1,37 @@
+query td2022howDidYouFindYourCurrentJobQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              job_info {
+                how_did_you_find_your_current_job {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

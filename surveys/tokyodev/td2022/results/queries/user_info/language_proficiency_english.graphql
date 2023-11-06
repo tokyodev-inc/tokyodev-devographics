@@ -1,0 +1,37 @@
+query td2022languageProficiencyEnglishQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              user_info {
+                language_proficiency_english {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

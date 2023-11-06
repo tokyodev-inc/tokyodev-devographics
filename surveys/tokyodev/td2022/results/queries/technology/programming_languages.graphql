@@ -1,0 +1,37 @@
+query td2022programmingLanguagesQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              technology {
+                programming_languages {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}

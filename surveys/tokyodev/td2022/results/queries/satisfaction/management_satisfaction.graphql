@@ -1,0 +1,37 @@
+query td2022managementSatisfactionQuery {
+    dataAPI{
+        
+        surveys {
+          tokyodev {
+            td2022 {
+              satisfaction {
+                management_satisfaction {
+          
+          
+                  responses(parameters: {enableCache:false}) {
+                    currentEdition {
+              
+                      completion {
+                        count
+                        percentageSurvey
+                        total
+                      }
+                      buckets {
+                        count
+                        id
+                        percentageQuestion
+                        percentageSurvey
+                
+                
+                
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+}
