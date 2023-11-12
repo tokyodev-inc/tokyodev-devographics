@@ -393,6 +393,33 @@
     - id: hours_per_day
       template: number
       optionsAreSequential: true
+      groups:
+        - id: range_under_4
+          upperBound: 5
+          average: 4
+        - id: range_5
+          average: 5
+          lowerBound: 5
+          upperBound: 6
+        - id: range_6
+          average: 6
+          lowerBound: 6
+          upperBound: 7
+        - id: range_7
+          average: 7
+          lowerBound: 7
+          upperBound: 8
+        - id: range_8
+          average: 8
+          lowerBound: 8
+          upperBound: 9
+        - id: range_9
+          average: 9
+          lowerBound: 9
+          upperBound: 10
+        - id: range_over_10
+          average: 10
+          lowerBound: 10
 
     - id: how_did_you_find_your_current_job
       label: "How did you find your current job?"
