@@ -85,7 +85,9 @@ translations:
     t: What prefecture is your primary residence in?
   - key: user_info.japan_province.description.td2023
     t: >
-      85% of respondents lived in the Greater Tokyo Area (Tokyo, Saitama, Chiba, and Kanagawa).
+      78.5% of respondents lived in the Greater Tokyo Area (Tokyo, Saitama, Chiba, and Kanagawa), down from 85% last year. While respondents in Tokyo went from 65% to 60.5%, the percentages for other respondents were largely unchanged.
+
+      Tokyo respondents were the least likely to be working for a fully remote company, with only 12% of them doing so, while respondents in Osaka were most likely, with 34.5% doing so.
 
   - key: options.japan_province.outside_of_japan
     t: Outside of Japan
@@ -192,6 +194,9 @@ translations:
   - key: user_info.residency_status.description.td2022
     t: >
       59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
+  - key: user_info.residency_status.description.td2023
+    t: >
+      Respondents with a status of “Spouse/Dependent of a Japanese National or Permanent Resident” were the most likely to
 
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
@@ -221,6 +226,9 @@ translations:
     t: Reason for Relocation
   - key: user_info.reason_for_relocation.question
     t: Under what circumstances did you initially move to Japan?
+  - key: user_info.japan_province.description.td2023
+    t: >
+      Respondents who were sent by their employer to Japan had a median salary that was 70% above the overall median. Those sent to Japan were also far more likely to be working for the subsidiary of an international company: 45% of such respondents said they did, compared to 19% of respondents overall.
 
   - key: options.reason_for_relocation.sponsored_by_company
     t: Hired from abroad by a Japan-based company
@@ -277,6 +285,9 @@ translations:
     t: What is your country or region of citizenship?
   - key: user_info.country.description
     t: If you have multiple nationalities, please choose one.
+  - key: user_info.country.description.td2023
+    t: >
+      Canadians were the most likely to live in Tokyo, with 66.7% of them reporting they did so. Conversely, Indians were least likely, with only 35.5% doing so.
 
   # gender
   - key: user_info.gender
@@ -304,6 +315,9 @@ translations:
   - key: user_info.age.description.td2022
     t: >
       79% of respondents were between 25 and 39 years of age.
+  - key: user_info.age.description.td2023
+    t: >
+      Women respondents tended to be younger than men, with 42.9% of them being under 30, compared to 27.9% of men.
 
   # years_of_experience
   - key: user_info.years_of_experience
@@ -313,6 +327,9 @@ translations:
   - key: user_info.years_of_experience.description.td2022
     t: >
       The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
+  - key: user_info.years_of_experience.description.td2023
+    t: >
+      The median respondent had 6 years of professional software development experience, down one year from 2022’s survey.
 
   - key: options.years_of_experience.0
     t: Under a year
@@ -417,6 +434,9 @@ translations:
   - key: user_info.years_in_japan.description.td2022
     t: >
       Respondents lived in Japan for a median of 5 years.
+  - key: user_info.years_in_japan.description.td2023
+    t: >
+      While male and female respondents both lived in Japan for a median of 5 years, male respondents had a median of 8 years professional development experience compared to a median of 2 years for women.
 
   - key: options.years_in_japan.0
     t: Under a year
@@ -675,6 +695,9 @@ translations:
   - key: user_info.searching_for_job.description.td2022
     t: >
       Respondents who were actively looking for a new job had a median salary of ¥6.5 million, whereas for those who weren’t looking, it was ¥9.5 million. Part of the difference could be explained by those actively looking having a median of 5 years of professional experience, whereas those who weren’t had 7 years.
+  - key: user_info.searching_for_job.description.td2023
+    t: >
+      Respondents with less professional experience said they were actively looking for a job at a higher rate, with 30% of respondents that had less than a year of professional experience actively looking.
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
@@ -735,6 +758,9 @@ translations:
   - key: employer_info.current_employer.description.td2022
     t: >
       63% of respondents worked at a company headquartered in Japan.
+  - key: employer_info.current_employer.description.td2023
+    t: >
+      42.9% of respondents working for an international company without a corporate entity in Japan were on the “Spouse/Dependent of a Japanese National or Permanent Resident” status, despite them only making up 14.9% of respondents to this question overall.
 
   - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
@@ -807,6 +833,9 @@ translations:
   - key: employer_info.remote_work_policy.description.td2022
     t: >
       70% of respondents either worked at a company that worked fully remotely, or who gave employees the option of working completely remotely. Only 4% of respondents were required to exclusively work from an office.
+  - key: employer_info.remote_work_policy.description.td2023
+    t: >
+      Respondents who worked in an environment with no remote work had the lowest professional experience, with a median of 4 years. The more a company embraced remote work, the higher the median experience of respondents became, with respondents working in a fully remote company having a median of 8 years experience.
 
   - key: options.remote_work_policy.no_remote_work
     t: No remote work. All employees must attend the office.
@@ -883,7 +912,7 @@ translations:
     t: Current Job
   - key: sections.job_info.intro
     t: >
-      If you have multiple employers and/or clients, please answer 
+      If you have multiple employers and/or clients, please answer
       the survey based on your primary employer.
 
   # searching_for_job
@@ -891,6 +920,9 @@ translations:
     aliasFor: user_info.searching_for_job
   - key: job_info.searching_for_job.question
     aliasFor: user_info.searching_for_job.question
+  - key: job_info.searching_for_job.description.td2023
+    t: >
+      Respondents with less professional experience said they were actively looking for a job at a higher rate, with 30% of respondents that had less than a year of professional experience actively looking.
 
   # employment_status
   - key: job_info.employment_status
@@ -908,6 +940,9 @@ translations:
   - key: job_info.current_job_description.question.td2022
     t: >
       74% of respondents had a role with a back-end, front-end, or full-stack component to it.
+  - key: job_info.current_job_description.description.td2023
+    t: >
+      Data Scientists or Machine Learning Specialists were by far the most likely to have a postgraduate degree, with 72.8% of them achieving a Masters degree or above, compared to 32.8% of respondents overall.
 
   - key: options.current_job_description.academic_researcher
     t: Academic researcher
@@ -1018,6 +1053,8 @@ translations:
     t: Japanese Usage
   - key: job_info.languages_used_colleagues_japanese.question
     t: How frequently do you use Japanese professionally?
+  - key: job_info.languages_used_colleagues_japanese.description.td2023
+    t: Respondents who used Japanese frequently reported lower salaries, and were most likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_japanese.never
     t: Never
@@ -1035,6 +1072,8 @@ translations:
     t: English Usage
   - key: job_info.languages_used_colleagues_english.question
     t: How frequently do you use English professionally?
+  - key: job_info.languages_used_colleagues_english.description.td2023
+    t: Inversely to Japanese usage, respondents who used English frequently reported higher salaries, and were least likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_english.never
     t: Never
@@ -1123,6 +1162,9 @@ translations:
   - key: job_info.how_did_you_find_your_current_job.description.td2022
     t: >
       34% of respondents found their job via a recruiter (internal or external).
+  - key: job_info.how_did_you_find_your_current_job.description.td2023
+    t: >
+      While 33.2% of respondents working at a company headquartered in Japan were hired via an external recruiter, only 18.5% of them working for a Japanese subsidiary of an international company were.
 
   - key: options.how_did_you_find_your_current_job.company_website
     t: Company website
