@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023howDidYouFindYourCurrentJobByCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        job_info {
+          how_did_you_find_your_current_job_by_current_employer: how_did_you_find_your_current_job {
             responses(
-              facet: user_info__japan_province
+              facet: employer_info__current_employer
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

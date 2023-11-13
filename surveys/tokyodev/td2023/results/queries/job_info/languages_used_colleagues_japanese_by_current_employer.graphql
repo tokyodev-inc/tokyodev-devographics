@@ -1,16 +1,11 @@
-query td2023experienceByGenderWomenQuery {
+query td2023languagesUsedColleaguesJapaneseByCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          experience_by_gender_women: years_of_experience {
+        job_info {
+          languages_used_colleagues_japanese_by_current_employer: coworker_nationalities_non_engineers {
             responses(
-              facet: compensation__current_total_annual_compensation
-              filters: {
-                user_info__gender: {
-                  eq: woman
-                }
-              }
+              facet: employer_info__current_employer
               parameters: {
                 enableCache: false
                 showNoAnswer: true

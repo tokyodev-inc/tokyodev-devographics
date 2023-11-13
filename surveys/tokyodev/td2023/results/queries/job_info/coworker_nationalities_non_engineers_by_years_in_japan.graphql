@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023coworkerNationalitiesNonEngineersByYearsInJapanQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        job_info {
+          coworker_nationalities_non_engineers_by_years_in_japan: coworker_nationalities_non_engineers {
             responses(
-              facet: user_info__japan_province
+              facet: user_info__years_in_japan
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

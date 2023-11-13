@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023languagesUsedColleaguesEnglishByCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        job_info {
+          languages_used_colleagues_english_by_current_employer: coworker_nationalities_non_engineers {
             responses(
-              facet: user_info__japan_province
+              facet: employer_info__current_employer
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

@@ -1,16 +1,11 @@
-query td2023experienceByGenderMenQuery {
+query td2023currentJobDescriptionByEducationalAttainmentQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          experience_by_gender_men: years_of_experience {
+        job_info {
+          current_job_description_by_educational_attainment: current_job_description {
             responses(
-              facet: compensation__current_total_annual_compensation
-              filters: {
-                user_info__gender: {
-                  eq: man
-                }
-              }
+              facet: user_info__educational_attainment
               parameters: {
                 enableCache: false
                 showNoAnswer: true
