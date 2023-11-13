@@ -8,6 +8,7 @@ query td2023japanProvinceQuery {
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
+                enableAddMissingBuckets: false
                 sort: {
                   property: count
                 }

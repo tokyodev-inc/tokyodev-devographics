@@ -1,15 +1,14 @@
-query td2023countryQuery {
+query td2023languageProficiencyJapaneseByYearsInJapanQuery {
   surveys {
     tokyodev {
       td2023 {
         user_info {
-          country {
+          language_proficiency_japanese_by_years_in_japan: language_proficiency_japanese {
             responses(
+              facet: user_info__years_in_japan
               parameters: {
+                enableCache: false
                 showNoAnswer: true
-                cutoff: 10
-                limit: 0
-                enableAddMissingBuckets: false
               }
             ) {
               currentEdition {
@@ -73,6 +72,24 @@ query td2023countryQuery {
                       url
                       title
                     }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageQuestion
+                    percentageSurvey
+                    percentageBucket
+                    hasInsufficientData
                   }
                 }
               }

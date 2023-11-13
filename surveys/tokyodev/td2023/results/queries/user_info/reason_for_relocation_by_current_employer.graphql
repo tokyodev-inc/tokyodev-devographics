@@ -1,15 +1,14 @@
-query td2023countryQuery {
+query td2023reasonForRelocationByCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
         user_info {
-          country {
+          reason_for_relocation_by_current_employer: reason_for_relocation {
             responses(
+              facet: employer_info__current_employer
               parameters: {
+                enableCache: false
                 showNoAnswer: true
-                cutoff: 10
-                limit: 0
-                enableAddMissingBuckets: false
               }
             ) {
               currentEdition {
@@ -73,6 +72,24 @@ query td2023countryQuery {
                       url
                       title
                     }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageQuestion
+                    percentageSurvey
+                    percentageBucket
+                    hasInsufficientData
                   }
                 }
               }

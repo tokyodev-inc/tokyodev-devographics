@@ -1,14 +1,15 @@
-query td2023countryQuery {
+query td2023japanProvinceByRemoteWorkQuery {
   surveys {
     tokyodev {
       td2023 {
         user_info {
-          country {
+          japan_province_by_remote_work: japan_province {
             responses(
+              facet: employer_info__remote_work_policy
               parameters: {
+                enableCache: false
                 showNoAnswer: true
                 cutoff: 10
-                limit: 0
                 enableAddMissingBuckets: false
               }
             ) {
@@ -73,6 +74,24 @@ query td2023countryQuery {
                       url
                       title
                     }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageQuestion
+                    percentageSurvey
+                    percentageBucket
+                    hasInsufficientData
                   }
                 }
               }
