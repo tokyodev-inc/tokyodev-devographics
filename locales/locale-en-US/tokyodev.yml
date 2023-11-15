@@ -198,7 +198,9 @@ translations:
       59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
   - key: user_info.residency_status.description.td2023
     t: >
-      Respondents with a status of “Spouse/Dependent of a Japanese National or Permanent Resident” were the most likely to
+      59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
+
+      Respondents with a status of “Spouse/Dependent of a Japanese National or Permanent Resident” were the most likely to be working for a company without a Japanese entity, with 14.9% of them doing so, as opposed to 5.8% overall.
 
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
@@ -228,8 +230,10 @@ translations:
     t: Reason for Relocation
   - key: user_info.reason_for_relocation.question
     t: Under what circumstances did you initially move to Japan?
-  - key: user_info.japan_province.description.td2023
+  - key: user_info.reason_for_relocation.description.td2023
     t: >
+      Just over half of respondents moved to Japan with a job already lined up, be it they were hired from abroad by a Japan based organization or sent to Japan with their existing employer.
+
       Respondents who were sent by their employer to Japan had a median salary that was 70% above the overall median. Those sent to Japan were also far more likely to be working for the subsidiary of an international company: 45% of such respondents said they did, compared to 19% of respondents overall.
 
   - key: options.reason_for_relocation.sponsored_by_company
@@ -289,6 +293,8 @@ translations:
     t: If you have multiple nationalities, please choose one.
   - key: user_info.country.description.td2023
     t: >
+      Despite the survey being conducted in English, the respondents were quite diverse, holding citizenships from 68 countries or regions.
+
       Canadians were the most likely to live in Tokyo, with 66.7% of them reporting they did so. Conversely, Indians were least likely, with only 35.5% doing so.
 
   # gender
@@ -299,6 +305,9 @@ translations:
   - key: user_info.gender.description.td2022
     t: >
       The overwhelming majority of respondents described themselves as male. While we had respondents who identify as neither male or female, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
+  - key: user_info.gender.description.td2023
+    t: >
+      The overwhelming majority of respondents described themselves as a man. While we had respondents who identify as neither a man or a woman, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
 
   - key: options.gender.man
     t: Man
@@ -319,6 +328,8 @@ translations:
       79% of respondents were between 25 and 39 years of age.
   - key: user_info.age.description.td2023
     t: >
+      The majority of respondents were in their thirties, and 81.9% were under fourty.
+
       Women respondents tended to be younger than men, with 42.9% of them being under 30, compared to 27.9% of men.
 
   # years_of_experience
@@ -332,6 +343,10 @@ translations:
   - key: user_info.years_of_experience.description.td2023
     t: >
       The median respondent had 6 years of professional software development experience, down one year from 2022’s survey.
+
+
+      While this median was unchanged among male and female respondents reported living in Japan for a similar amount
+      , male respondents had a median of 8 years professional development experience compared to a median of 2 years for women.
 
   - key: options.years_of_experience.0
     t: Under a year
@@ -438,7 +453,7 @@ translations:
       Respondents lived in Japan for a median of 5 years.
   - key: user_info.years_in_japan.description.td2023
     t: >
-      While male and female respondents both lived in Japan for a median of 5 years, male respondents had a median of 8 years professional development experience compared to a median of 2 years for women.
+      Respondents lived in Japan for a median of 5 years.
 
   - key: options.years_in_japan.0
     t: Under a year
@@ -542,6 +557,8 @@ translations:
     t: Which of the following best describes the **highest level** of formal education that you’ve completed?
   - key: user_info.educational_attainment.description.td2022
     t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
+  - key: user_info.educational_attainment.description.td2023
+    t: 89.4% of respondents had an undergradudate or graduate degree.
 
   - key: options.educational_attainment.primary_elementary_school
     t: Primary/elementary school
@@ -589,6 +606,11 @@ translations:
     t: What professional qualifications in **computer science** (or related fields) do you have?
   - key: user_info.professional_qualifications.description.td2022
     t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
+  - key: user_info.professional_qualifications.description.td2023
+    t: >
+      16.9% of respondents reported they had no professional qualifications related to computer science. Those respondents also had the highest median professional experience at 10 years. Coding bootcamp grads had the lowest median professional experience at only 1.9 years.
+
+      While women made up 10.8% of respondents overall, they accounted for 26.9% of coding bootcamp gradudates and 30.8% of doctorate degree holders.
 
   - key: options.professional_qualifications.short_cycle
     aliasFor: options.educational_attainment.short_cycle
@@ -658,7 +680,9 @@ translations:
     t: English Ability
   - key: user_info.language_proficiency_english.question
     t: What is your English proficiency?
-
+  - key: user_info.language_proficiency_english.description.td2023
+    t: >
+      89% of respondents had a fluent or above English ability. A higher English ability correlated with a higher salary.
   - key: options.language_proficiency_english.none
     t: None
   - key: options.language_proficiency_english.basic
@@ -677,7 +701,9 @@ translations:
     t: What is your Japanese proficiency?
   - key: user_info.language_proficiency_japanese.description.td2022
     t: Only 28% of respondents spoke Japanese at a fluent level or above.
-
+  - key: user_info.language_proficiency_japanese.description.td2023
+    t: >
+      Only 33% of respondents had a fluent or above Japanese ability. Higher Japanese ability correlated with a longer time living in Japan, with the median stay of those having no Japanese ability being 0.5 years, whereas those who were fluent having 5 years.
   - key: options.language_proficiency_japanese.none
     t: None
   - key: options.language_proficiency_japanese.basic
@@ -689,6 +715,8 @@ translations:
   - key: options.language_proficiency_japanese.native_bilingual
     t: Native / bilingual
 
+  - key: user_info.source.description.td2023
+    t: While the majority of respondents heard about the survey through their peers and developer communities, we also advertised it on Reddit and Facebook.
   # searching_for_job
   - key: user_info.searching_for_job
     t: Job Search Status
