@@ -37,42 +37,49 @@ translations:
   - key: sections.takeaways.title
     t: Takeaways
 
-  - key: takeaways.median_salary_2022
+  - key: takeaways.median_salary_2023
     t: |
-      The median salary of respondents was [¥9.5 million](#). 42% of respondents made ¥10 million or over.
+      The median salary of respondents was [¥9.5 million](/en-US/compensation/#current_total_annual_compensation), down ¥1 million from last year. This may partially be explained by respondents [tending to be less experienced](/en-US/demographics/#years_of_experience) than the previous year.
 
-  - key: takeaways.unemployed_respondents_2022
+  - key: takeaways.previous_compensation_2023
     t: |
-      Only [0.5% of respondents were unemployed](#), down from 2% in 2021.
+      Respondents who worked for a subsidiary of an international company were more [successful at negotation](/en-US/compensation/#negotiated_compensation) than those working for a Japanese headquartered one.
 
-  - key: takeaways.programming_languages_2022
+  - key: takeaways.negotiated_compensation_2023
     t: |
-      [39% of respondents used Python](#), making it the second most popular programming language after JavaScript.
+      Respondents [who declined to give their previous compensation](/en-US/compensation/#previous_compensation) when interviewing were more likely to successfully negotiate a higher salary.
 
-  - key: takeaways.international_subsidiary_2022
+  - key: takeaways.unemployed_respondents_2023
     t: |
-      Respondents working at an international subsidiary [earned approximately twice](#) of those working for a Japanese company.
+      [2.6% of respondents were unemployed](/en-US/job-info/#employment_status), up from 0.5% in 2022.
 
-  - key: takeaways.remote_work_2022
+  - key: takeaways.job_search_status_2023
     t: |
-      Remote work continued to be the norm, with [only 4% of respondents](#) being required to work exclusively from an office.
+      19% of respondents were [actively looking for a job](/en-US/job-info/#searching_for_job), up from 11% last year.
 
-  - key: takeaways.javascript_frameworks_2022
+  - key: takeaways.international_subsidiary_2023
     t: |
-      React.js solidified its lead over Vue.js, increasing its share [from 48% last year to 57% this year](#).
+      Respondents working for a Japanese subsidiary of an international company had a [73% higher median compensation](/en-US/employer-info/#current_employer) than those working for a company headquartered in Japan.
 
-  - key: takeaways.women_vs_men_2022
+  - key: takeaways.remote_work_2023
     t: |
-      [Women were paid less than men](#) across experience levels, and also [less satisfied](#) with their job.
+      [59% of respondents could work fully remotely](/en-US/employer-info/#remote_work_policy), down from 70% last year. Those working at companies that embraced remote work had a higher median professional experience.
 
-  - key: takeaways.overtime_2022
+  - key: takeaways.women_vs_men_experience_2023
     t: |
-      Only 26% of respondents reported working [over 40 hours per week](#).
+      While male and female respondents had [lived in Japan](/en-US/demographics/#years_in_japan) for similar periods of time, female respondents had significantly less [professional software development experience](/en-US/demographics/#years_of_experience).
 
-  - key: takeaways.programming_salaries_2022
+  - key: takeaways.women_vs_men_professional_qualifications_2023
     t: |
-      Flutter developers were amongst [the best paid](#), despite having relatively low experience.
+      Women respondents [were much more likely](/en-US/demographics/#professional_qualifications) to have attended a coding bootcamp then men. While 11.6% male of respondents had gradudated from a coding bootcamp, 35.5% of female respondents did.
 
+  - key: takeaways.overtime_2023
+    t: |
+      79.4% of respondents worked [8 hours or less](/en-US/job-info/#hours_per_day) in a typical day.
+
+  - key: takeaways.programming_languages_2023
+    t: |
+      39.2% of [respondents using Java](/en-US/technology/#programming_languages) worked at a company of 10,000 or more employees, while 43.5% of respondents using Ruby worked at a company of 20 to 99 employees.
   ### USER INFO
 
   - key: sections.user_info.title
@@ -88,8 +95,6 @@ translations:
   - key: user_info.japan_province.description.td2023
     t: >
       78.5% of respondents lived in the Greater Tokyo Area (Tokyo, Saitama, Chiba, and Kanagawa), down from 85% last year. While respondents in Tokyo went from 65% to 60.5%, the percentages for other respondents were largely unchanged.
-
-      Tokyo respondents were the least likely to be working for a fully remote company, with only 12% of them doing so, while respondents in Osaka were most likely, with 34.5% doing so.
 
   - key: options.japan_province.outside_of_japan
     t: Outside of Japan
@@ -234,7 +239,9 @@ translations:
     t: >
       Just over half of respondents moved to Japan with a job already lined up, be it they were hired from abroad by a Japan based organization or sent to Japan with their existing employer.
 
-      Respondents who were sent by their employer to Japan had a median salary that was 70% above the overall median. Those sent to Japan were also far more likely to be working for the subsidiary of an international company: 45% of such respondents said they did, compared to 19% of respondents overall.
+      Respondents who were sent by their employer to Japan had a median salary that was 70% above the overall median.
+
+      Those sent to Japan were also far more likely to be working for the subsidiary of an international company: 45% of such respondents said they did, compared to 19% of respondents overall.
 
   - key: options.reason_for_relocation.sponsored_by_company
     t: Hired from abroad by a Japan-based company
@@ -295,8 +302,6 @@ translations:
     t: >
       Despite the survey being conducted in English, the respondents were quite diverse, holding citizenships from 68 countries or regions.
 
-      Canadians were the most likely to live in Tokyo, with 66.7% of them reporting they did so. Conversely, Indians were least likely, with only 35.5% doing so.
-
   # gender
   - key: user_info.gender
     t: Gender
@@ -330,7 +335,8 @@ translations:
     t: >
       The majority of respondents were in their thirties, and 81.9% were under fourty.
 
-      Women respondents tended to be younger than men, with 42.9% of them being under 30, compared to 27.9% of men.
+
+      Women respondents tended to be younger than men, with 44.3% of them being under 30, compared to 28.7% of men.
 
   # years_of_experience
   - key: user_info.years_of_experience
@@ -342,11 +348,9 @@ translations:
       The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
   - key: user_info.years_of_experience.description.td2023
     t: >
-      The median respondent had 6 years of professional software development experience, down one year from 2022’s survey.
+      The median respondent had 5 years of professional software development experience, down two years from 2022’s survey.
 
-
-      While this median was unchanged among male and female respondents reported living in Japan for a similar amount
-      , male respondents had a median of 8 years professional development experience compared to a median of 2 years for women.
+      Male respondents had a median of 8 years professional experience, while women had a median of 2 years.
 
   - key: options.years_of_experience.0
     t: Under a year
@@ -453,7 +457,7 @@ translations:
       Respondents lived in Japan for a median of 5 years.
   - key: user_info.years_in_japan.description.td2023
     t: >
-      Respondents lived in Japan for a median of 5 years.
+      Respondents lived in Japan for a median of 5 years. Despite the considerable differences in professional experience between male and female respondents, the median time lived in Japan was the same.
 
   - key: options.years_in_japan.0
     t: Under a year
@@ -608,9 +612,11 @@ translations:
     t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
   - key: user_info.professional_qualifications.description.td2023
     t: >
-      16.9% of respondents reported they had no professional qualifications related to computer science. Those respondents also had the highest median professional experience at 10 years. Coding bootcamp grads had the lowest median professional experience at only 1.9 years.
+      16.9% of respondents reported they had no professional qualifications related to computer science.
 
-      While women made up 10.8% of respondents overall, they accounted for 26.9% of coding bootcamp gradudates and 30.8% of doctorate degree holders.
+      Coding bootcamp grads had the lowest median professional experience at only 1.9 years.
+
+      Women respondents were much more likely to have attended a coding bootcamp then men. While 11.6% male of respondents had gradudated from a coding bootcamp, 35.5% of female respondents did.
 
   - key: options.professional_qualifications.short_cycle
     aliasFor: options.educational_attainment.short_cycle
@@ -751,9 +757,6 @@ translations:
   - key: user_info.employment_status.description.td2022
     t: >
       Only 0.5% of respondents were unemployed, down from 2% in 2021.
-  - key: user_info.employment_status.description.td2023
-    t: >
-      2.6% of respondents were unemployed, up from 0.5% in 2022.
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
@@ -964,13 +967,16 @@ translations:
     aliasFor: user_info.searching_for_job.question
   - key: job_info.searching_for_job.description.td2023
     t: >
-      Respondents with less professional experience said they were actively looking for a job at a higher rate, with 30% of respondents that had less than a year of professional experience actively looking.
+      19% of respondents were actively looking for a job, up from 11% last year.
 
   # employment_status
   - key: job_info.employment_status
     aliasFor: user_info.employment_status
   - key: job_info.employment_status.question
     aliasFor: user_info.employment_status.question
+  - key: job_info.employment_status.description.td2023
+    t: >
+      2.6% of respondents were unemployed, up from 0.5% in 2022.
 
   # current_job_description
   - key: job_info.current_job_description
@@ -1294,6 +1300,9 @@ translations:
       Developer salaries continued to increase. The median salary was ¥9.5 million per year, up ¥1 million from last year’s survey. This may partially be explained by respondents tending to be more experienced than the previous year.
 
       Respondents earning ¥10 million per year or over increased from 35% of respondents in 2021 to 42% in 2022.
+  - key: compensation.current_total_annual_compensation.description.td2023
+    t: >
+      The median salary was ¥8.5 million per year, down ¥1 million from last year’s survey. This may partially be explained by respondents [tending to be less experienced](/en-US/demographics/#years_of_experience) than the previous year.
 
   - key: options.current_total_annual_compensation.range_under_1000000
     t: Under ¥1,000,000 per year
@@ -1365,6 +1374,8 @@ translations:
     t: How many days of annual paid leave do you currently receive?
   - key: compensation.annual_paid_leave.description
     t: This excludes any additional leave, such as public holidays, New Year's holidays, Obon or summer holidays, or sick leave.
+ - key: compensation.annual_paid_leave.description.td2023
+    t: 40.6% of respondents received 20 days or more of paid leave, excluding any additional leave they might receive, such as public holidays, New Year's holidays, Obon or summer holidays, or sick leave.
   - key: compensation.annual_paid_leave.note
     t: >
       If you have unlimited paid leave, please put in the number of days you usually take in a year.
@@ -1418,7 +1429,7 @@ translations:
     t: Desired Compensation
   - key: compensation.desired_compensation.question
     t: When interviewing for your current job, were you asked about your desired compensation for the new position?
-  - key: compensation.previous_compensation.description.td2023
+  - key: compensation.desired_compensation.description.td2023
     t: >
       73.3% of respondents were asked to disclose their desired compensation when interviewing.
 
@@ -1546,7 +1557,7 @@ translations:
   - key: technology.programming_languages.description.td2022
     t: >
       Python usage increased by 4% from last year, making it the second most popular programming language. Rust usage also notably increased, from 3% to 6%.
-  - key: technology.programming_languages.description.td2022
+  - key: technology.programming_languages.description.td2023
     t: >
       JavaScript remained the most popular language.  TypeScript usage shot up, from 33% of respondents using it last year, to 42% of respondents this year.
 
