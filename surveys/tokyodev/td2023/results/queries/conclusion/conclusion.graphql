@@ -1,0 +1,15 @@
+query td2023conclusionQuery {
+  entities(ids: ["paul_mcmahon"]) {
+    id
+    name
+    homepage {
+      name
+      url
+    }
+    twitterName
+    twitter {
+      name
+      url
+    }
+  }
+}

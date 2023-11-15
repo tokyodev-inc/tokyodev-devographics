@@ -1,13 +1,13 @@
-query td2023howDidYouFindYourCurrentJobByCurrentEmployerQuery {
+query td2023yearsInJapanVsManWomanQuery {
   surveys {
     tokyodev {
       td2023 {
-        job_info {
-          how_did_you_find_your_current_job_by_current_employer_1: how_did_you_find_your_current_job {
+        user_info {
+          years_in_japan_vs_man_woman_1: years_in_japan {
             responses(
               filters: {
-                employer_info__current_employer: {
-                  eq: japanese_company
+                user_info__gender: {
+                  eq: man
                 }
               }
               parameters: {
@@ -91,11 +91,11 @@ query td2023howDidYouFindYourCurrentJobByCurrentEmployerQuery {
               }
             }
           }
-          how_did_you_find_your_current_job_by_current_employer_2: how_did_you_find_your_current_job {
+          years_in_japan_vs_man_woman_2: years_in_japan {
             responses(
               filters: {
-                employer_info__current_employer: {
-                  eq: japanese_subsidiary
+                user_info__gender: {
+                  eq: woman
                 }
               }
               parameters: {
