@@ -727,7 +727,7 @@ translations:
       Respondents who were actively looking for a new job had a median salary of ¥6.5 million, whereas for those who weren’t looking, it was ¥9.5 million. Part of the difference could be explained by those actively looking having a median of 5 years of professional experience, whereas those who weren’t had 7 years.
   - key: user_info.searching_for_job.description.td2023
     t: >
-      Respondents with less professional experience said they were actively looking for a job at a higher rate, with 30% of respondents that had less than a year of professional experience actively looking.
+      19% of respondents were actively look for a new job, compared to 11% in last year's survey.
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
@@ -751,6 +751,9 @@ translations:
   - key: user_info.employment_status.description.td2022
     t: >
       Only 0.5% of respondents were unemployed, down from 2% in 2021.
+  - key: user_info.employment_status.description.td2023
+    t: >
+      2.6% of respondents were unemployed, up from 0.5% in 2022.
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
@@ -1029,12 +1032,17 @@ translations:
 
   # coworker_nationalities_engineers
   - key: job_info.coworker_nationalities_engineers
-    t: Other Engineers' Nationalities
+    t: Colleague Nationality (Engineers)
   - key: job_info.coworker_nationalities_engineers.question
     t: What are the nationalities of your colleagues who are engineers?
   - key: job_info.coworker_nationalities_engineers.description.td2022
     t: >
       Engineering teams tended to be highly international, whereas it wasn’t uncommon for non-engineers to be mostly Japanese.
+  - key: job_info.coworker_nationalities_engineers.description.td2023
+    t: >
+      Engineering teams tended to be highly international, with only 18.4% of respondents being on a team that was all or mostly Japanese.
+
+      Respondents on a team that was primarily Japanese had lived in Japan longer, with a median of 7 years compared to the overall median of 4 years.
 
   - key: options.coworker_nationalities_engineers.all_or_mostly_japanese
     t: All or mostly Japanese
@@ -1056,9 +1064,12 @@ translations:
 
   # coworker_nationalities_non_engineers
   - key: job_info.coworker_nationalities_non_engineers
-    t: Other Non-engineers' Nationalities
+    t: Colleague Nationality (Non-Engineers)
   - key: job_info.coworker_nationalities_non_engineers.question
     t: What are the nationalities of your colleagues who are **not** engineers?
+  - key: job_info.coworker_nationalities_non_engineers.description.td2023
+    t: >
+      54.3% of respondents worked in an environment where all or most of the non-engineers were Japanese.
 
   - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese
     aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese
@@ -1084,7 +1095,10 @@ translations:
   - key: job_info.languages_used_colleagues_japanese.question
     t: How frequently do you use Japanese professionally?
   - key: job_info.languages_used_colleagues_japanese.description.td2023
-    t: Respondents who used Japanese frequently reported lower salaries, and were most likely to be working for a company headquartered in Japan.
+    t: >
+      54% of respondents never or rarely used Japanese professionally.
+
+      Those who used Japanese frequently reported lower salaries, and were most likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_japanese.never
     t: Never
@@ -1103,7 +1117,10 @@ translations:
   - key: job_info.languages_used_colleagues_english.question
     t: How frequently do you use English professionally?
   - key: job_info.languages_used_colleagues_english.description.td2023
-    t: Inversely to Japanese usage, respondents who used English frequently reported higher salaries, and were least likely to be working for a company headquartered in Japan.
+    t: >
+      Only 12.7% of respondents never or rarely used English professionally.
+
+      Inversely to Japanese usage, respondents who used English frequently reported higher salaries, and were least likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_english.never
     t: Never
@@ -1124,6 +1141,9 @@ translations:
   - key: job_info.years_employed.description.td2022
     t: >
       The median number of years at the current employer was 2.
+  - key: job_info.years_employed.description.td2023
+    t: >
+      The median number of years at the current employer was 1.5.
 
   # work_hours_per_week
   - key: job_info.work_hours_per_week
@@ -1159,6 +1179,8 @@ translations:
     t: Hours per Day
   - key: job_info.hours_per_day.question
     t: How many hours do you work in a typical day?
+  - key: job_info.hours_per_day.description.td2023
+    t: 79.4% of respondents worked 8 hours or less in a typical day.
 
   - key: options.hours_per_day.range_under_4
     t: Under 4
