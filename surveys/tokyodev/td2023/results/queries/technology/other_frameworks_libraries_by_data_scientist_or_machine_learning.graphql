@@ -1,15 +1,18 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023otherFrameworksLibrariesByDataScientistOrMachineLearningQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        technology {
+          other_frameworks_libraries_by_data_scientist_or_machine_learning_1: other_frameworks_libraries {
             responses(
-              facet: user_info__japan_province
+              filters: {
+                job_info__current_job_description: {
+                  eq: data_scientist_or_machine_learning
+                }
+              }
               parameters: {
                 enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {
@@ -83,14 +86,6 @@ query td2023countryByJapaneseProvinceQuery {
                     p75
                     p90
                     p100
-                  }
-                  facetBuckets {
-                    id
-                    count
-                    percentageQuestion
-                    percentageSurvey
-                    percentageBucket
-                    hasInsufficientData
                   }
                 }
               }

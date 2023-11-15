@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023lifeInJapanFinancialSituationVsSalaryQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        other {
+          life_in_japan__financial_situation_vs_salary: life_in_japan__financial_situation {
             responses(
-              facet: user_info__japan_province
+              facet: compensation__current_total_annual_compensation
               parameters: {
                 enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

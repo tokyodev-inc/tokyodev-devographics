@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023communitiesByGenderQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        other {
+          communities_by_gender: communities {
             responses(
-              facet: user_info__japan_province
+              facet: user_info__gender
               parameters: {
                 enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

@@ -1,0 +1,186 @@
+query td2023ageByGenderQuery {
+  surveys {
+    tokyodev {
+      td2023 {
+        compensation {
+          age_by_gender_1: age {
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_company
+                }
+              }
+              parameters: {
+                enableCache: false
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    id
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                }
+              }
+            }
+          }
+          age_by_gender_2: age {
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_subsidiary
+                }
+              }
+              parameters: {
+                enableCache: false
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    id
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

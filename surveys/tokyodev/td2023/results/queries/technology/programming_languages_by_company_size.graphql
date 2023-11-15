@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023programmingLanguagesByCompanySizeQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        technology {
+          programming_languages_by_company_size: programming_languages {
             responses(
-              facet: user_info__japan_province
+              facet: employer_info__company_size
               parameters: {
                 enableCache: false
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {
