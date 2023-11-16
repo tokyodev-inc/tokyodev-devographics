@@ -1,11 +1,11 @@
-query td2023currentJobDescriptionByEducationalAttainmentQuery {
+query td2023previousCompensationByNegotiatedCompensationQuery {
   surveys {
     tokyodev {
       td2023 {
-        job_info {
-          current_job_description_by_educational_attainment: current_job_description {
+        compensation {
+          previous_compensation_by_negotiated_compensation: previous_compensation {
             responses(
-              facet: user_info__educational_attainment
+              facet: compensation__negotiated_compensation
               parameters: {
                 enableCache: true
                 showNoAnswer: true

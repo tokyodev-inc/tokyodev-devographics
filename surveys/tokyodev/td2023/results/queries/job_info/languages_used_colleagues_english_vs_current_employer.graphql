@@ -1,13 +1,13 @@
-query td2023professionalQualificationsByGenderQuery {
+query td2023languagesUsedColleaguesEnglishVsCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          professional_qualifications_by_gender: professional_qualifications {
+        job_info {
+          languages_used_colleagues_english_vs_current_employer: languages_used_colleagues_english {
             responses(
-              facet: user_info__gender
+              facet: employer_info__current_employer
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {

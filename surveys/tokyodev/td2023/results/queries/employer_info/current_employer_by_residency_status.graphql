@@ -1,16 +1,14 @@
-query td2023japanProvinceByRemoteWorkQuery {
+query td2023currentEmployerByResidencyStatusQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          japan_province_by_remote_work: japan_province {
+        employer_info {
+          current_employer_by_residency_status: current_employer {
             responses(
-              facet: employer_info__remote_work_policy
+              facet: user_info__residency_status
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
-                cutoff: 10
-                enableAddMissingBuckets: false
               }
             ) {
               currentEdition {

@@ -1,13 +1,13 @@
-query td2023reasonForRelocationByCurrentEmployerQuery {
+query td2023remoteWorkPolicyByYearsOfExperienceQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          reason_for_relocation_by_current_employer: reason_for_relocation {
+        employer_info {
+          remote_work_policy_by_years_of_experience: remote_work_policy {
             responses(
-              facet: employer_info__current_employer
+              facet: user_info__years_of_experience
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {

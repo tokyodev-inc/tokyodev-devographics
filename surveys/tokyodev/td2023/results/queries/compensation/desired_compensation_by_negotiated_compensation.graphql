@@ -1,15 +1,14 @@
-query td2023countryByJapaneseProvinceQuery {
+query td2023desiredCompensationByNegotiatedCompensationQuery {
   surveys {
     tokyodev {
       td2023 {
-        user_info {
-          country_by_japanese_province: country {
+        compensation {
+          desired_compensation_by_negotiated_compensation: desired_compensation {
             responses(
-              facet: user_info__japan_province
+              facet: compensation__negotiated_compensation
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
-                cutoff: 10
               }
             ) {
               currentEdition {

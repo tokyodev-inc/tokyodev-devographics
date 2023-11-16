@@ -1,13 +1,13 @@
-query td2023languagesUsedColleaguesEnglishByCurrentEmployerQuery {
+query td2023currentEmployerByYearsOfExperienceQuery {
   surveys {
     tokyodev {
       td2023 {
-        job_info {
-          languages_used_colleagues_english_by_current_employer: coworker_nationalities_non_engineers {
+        employer_info {
+          current_employer_by_years_of_experience: current_employer {
             responses(
-              facet: employer_info__current_employer
+              facet: user_info__years_of_experience
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {

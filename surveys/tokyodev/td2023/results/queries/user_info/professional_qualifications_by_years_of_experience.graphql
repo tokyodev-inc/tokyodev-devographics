@@ -7,7 +7,7 @@ query td2023professionalQualificationsByYearsOfExperienceQuery {
             responses(
               facet: user_info__years_of_experience
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {

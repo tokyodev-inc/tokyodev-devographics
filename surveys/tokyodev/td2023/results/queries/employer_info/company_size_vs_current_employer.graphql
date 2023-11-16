@@ -1,11 +1,11 @@
-query td2023currentJobDescriptionByEducationalAttainmentQuery {
+query td2023companySizeVsCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
-        job_info {
-          current_job_description_by_educational_attainment: current_job_description {
+        employer_info {
+          company_size_vs_current_employer: company_size {
             responses(
-              facet: user_info__educational_attainment
+              facet: employer_info__current_employer
               parameters: {
                 enableCache: true
                 showNoAnswer: true

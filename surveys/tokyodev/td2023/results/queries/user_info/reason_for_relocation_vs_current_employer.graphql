@@ -1,13 +1,13 @@
-query td2023residencyStatusByCurrentEmployerQuery {
+query td2023reasonForRelocationVsCurrentEmployerQuery {
   surveys {
     tokyodev {
       td2023 {
         user_info {
-          residency_status_by_current_employer: residency_status {
+          reason_for_relocation_vs_current_employer: reason_for_relocation {
             responses(
               facet: employer_info__current_employer
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {

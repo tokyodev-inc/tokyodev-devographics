@@ -7,7 +7,7 @@ query td2023educationalAttainmentVsSalaryQuery {
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
-                enableCache: false
+                enableCache: true
                 showNoAnswer: true
               }
             ) {
