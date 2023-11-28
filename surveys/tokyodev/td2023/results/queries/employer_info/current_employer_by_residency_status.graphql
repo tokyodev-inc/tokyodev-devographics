@@ -7,7 +7,7 @@ query td2023currentEmployerByResidencyStatusQuery {
             responses(
               facet: user_info__residency_status
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

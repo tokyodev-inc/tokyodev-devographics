@@ -7,7 +7,7 @@ query td2023currentJobDescriptionByEducationalAttainmentQuery {
             responses(
               facet: user_info__educational_attainment
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

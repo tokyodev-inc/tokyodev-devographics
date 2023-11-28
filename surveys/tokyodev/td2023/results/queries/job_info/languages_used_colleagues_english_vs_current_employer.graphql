@@ -7,7 +7,7 @@ query td2023languagesUsedColleaguesEnglishVsCurrentEmployerQuery {
             responses(
               facet: employer_info__current_employer
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

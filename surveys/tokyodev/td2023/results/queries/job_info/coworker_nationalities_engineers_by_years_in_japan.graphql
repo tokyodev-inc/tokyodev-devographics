@@ -7,7 +7,7 @@ query td2023coworkerNationalitiesEngineersByYearsInJapanQuery {
             responses(
               facet: user_info__years_in_japan
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

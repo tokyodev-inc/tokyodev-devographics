@@ -7,7 +7,7 @@ query td2023remoteWorkPolicyByYearsOfExperienceQuery {
             responses(
               facet: user_info__years_of_experience
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

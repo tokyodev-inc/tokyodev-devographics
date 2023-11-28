@@ -7,7 +7,7 @@ query td2023companySizeVsCurrentEmployerQuery {
             responses(
               facet: employer_info__current_employer
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

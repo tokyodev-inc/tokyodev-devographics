@@ -7,7 +7,7 @@ query td2023programmingLanguagesByCompanySizeQuery {
             responses(
               facet: employer_info__company_size
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

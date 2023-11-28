@@ -7,7 +7,7 @@ query td2023previousCompensationByNegotiatedCompensationQuery {
             responses(
               facet: compensation__negotiated_compensation
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {

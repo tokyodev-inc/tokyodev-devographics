@@ -7,7 +7,7 @@ query td2023otherFrameworksLibrariesVsSalaryQuery {
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
-                enableCache: true
+                enableCache: false
                 showNoAnswer: true
               }
             ) {
