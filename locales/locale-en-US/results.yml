@@ -1476,7 +1476,6 @@ translations:
       Any deviation above or below that expected total could potentially indicate an interesting
       correlation between both variables, and is highlighted on the chart with either colored 
       dots (for extra respondents above the baseline) or empty dots (for missing respondents).
-
   ###########################################################################
   # Filters
   ###########################################################################
@@ -1484,26 +1483,44 @@ translations:
   - key: filters.compare_data
     t: Compare Data
   - key: filters.customize_chart
-    t: Customize Chart
+    t: Add Filters…
   - key: filters.docs
     t: Documentation
   - key: filters.compare_chart
     t: Customize “{chartName}”
+  - key: filters.edit_variant_with_name
+    t: Edit “{name}”
+  - key: filters.edit_name
+    t: "Edit Name"
+  - key: filters.edit_name.description
+    t: "Edit chart variant name:"
+  - key: filters.create_variant
+    t: Create New Variant
+  - key: filters.delete_variant
+    t: Delete Chart
+  - key: filters.delete_variant_confirm
+    t: Delete chart variant “{name}”?
+  - key: filters.edit_variant
+    t: Edit Options…
   - key: filters.filters.description
     t: |
-      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
-      load and compare them with the default data for this question.
+      Define a combination of filters to compare multiple versions of the same chart side-by-side
   - key: filters.facets.description
     t: |
-      Pick a variable to break down each bar into "facets".
+      Pick a variable and use it to further break down each row of a chart into segments.
   - key: filters.grid_mode
-    t: Side-by-Side
+    t: Filters
   - key: filters.combined_mode
     t: Combined
   - key: filters.facet_mode
     t: Facets
   - key: filters.facet
     t: "Facet:"
+
+  - key: filters.facet_view
+    t: Segmented bars
+  - key: filters.grid_view
+    t: Side-by-side grid
 
   - key: filters.series.heading
     t: Series {index}
@@ -1576,6 +1593,12 @@ translations:
 
   - key: filters.facet.select
     t: Select a facet…
+
+  - key: filters.by_x
+    t: By {name}
+
+  - key: filters.vs_x
+    t: Vs. {name}
 
   - key: dataloader.failed_request
     t: >
