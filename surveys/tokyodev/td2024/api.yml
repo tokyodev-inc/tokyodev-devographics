@@ -1,0 +1,63 @@
+- id: data_explorer
+  questions:
+    - id: data_explorer
+      template: data_explorer
+
+- id: skipped
+  questions:
+    - id: skipped
+      template: skipped
+
+- id: user_info
+  questions:
+    - id: locale
+      template: locale
+      variables:
+        options: { cutoff: 20 }
+
+    - id: completion_stats
+      template: completion_stats
+
+    # - id: age_grouped
+    #   template: age_grouped
+
+    # - id: years_of_experience_grouped
+    #   template: years_grouped
+    #   normPaths:
+    #     response: "user_info.years_of_experience.choices"
+
+    # - id: years_in_japan_grouped
+    #   template: years_grouped
+    #   normPaths:
+    #     response: "user_info.years_in_japan.choices"
+
+    - id: source
+      template: source
+      variables:
+        options: { limit: 20 }
+
+    - id: device
+      template: device
+
+    - id: browser
+      template: browser
+
+    - id: version
+      template: version
+
+    - id: os
+      template: os
+# - id: job_info
+#   questions:
+#     - id: years_employed_grouped
+#       template: years_grouped
+#       normPaths:
+#         response: "job_info.years_employed.choices"
+
+# - id: compensation
+#   questions:
+#     - id: current_total_annual_compensation_grouped
+#       template: current_total_annual_compensation_grouped
+
+#     - id: annual_paid_leave_grouped
+#       template: annual_paid_leave_grouped
