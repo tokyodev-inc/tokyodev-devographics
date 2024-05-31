@@ -7,6 +7,7 @@ query td2023countryQuery {
             responses(
               parameters: {
                 showNoAnswer: true
+                mergeOtherBuckets: true
                 cutoff: 10
                 limit: 0
                 enableAddMissingBuckets: false
@@ -17,6 +18,10 @@ query td2023countryQuery {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -29,12 +34,19 @@ query td2023countryQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

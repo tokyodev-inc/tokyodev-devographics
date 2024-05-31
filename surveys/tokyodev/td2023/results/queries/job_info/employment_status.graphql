@@ -7,6 +7,8 @@ query td2023employmentStatusQuery {
             combined(
               parameters: {
                 showNoAnswer: true
+                cutoffPercent: 1
+                mergeOtherBuckets: true
                 sort: {
                   property: count
                 }
@@ -17,6 +19,10 @@ query td2023employmentStatusQuery {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -29,12 +35,19 @@ query td2023employmentStatusQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

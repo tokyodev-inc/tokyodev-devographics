@@ -24,6 +24,10 @@ query td2023lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
                   percentageSurvey
                   total
                 }
+                average
+                percentiles {
+                  p50
+                }
                 buckets {
                   count
                   id
@@ -35,12 +39,19 @@ query td2023lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url
@@ -115,6 +126,10 @@ query td2023lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
                   percentageSurvey
                   total
                 }
+                average
+                percentiles {
+                  p50
+                }
                 buckets {
                   count
                   id
@@ -126,12 +141,19 @@ query td2023lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

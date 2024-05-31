@@ -4,12 +4,16 @@ query td2023sourceQuery {
       td2023 {
         user_info {
           source {
-            freeform(parameters: { cutoff: 10 }) {
+            freeform(parameters: { cutoff: 10, mergeOtherBuckets: true }) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +26,19 @@ query td2023sourceQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url
@@ -65,6 +76,70 @@ query td2023sourceQuery {
                     resources {
                       url
                       title
+                    }
+                  }
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                    entity {
+                      name
+                      nameHtml
+                      nameClean
+                      description
+                      descriptionHtml
+                      descriptionClean
+                      id
+                      entityType
+                      example {
+                        label
+                        language
+                        code
+                        codeHighlighted
+                      }
+                      avatar {
+                        url
+                      }
+                      homepage {
+                        url
+                      }
+                      youtube {
+                        url
+                      }
+                      twitter {
+                        url
+                      }
+                      twitch {
+                        url
+                      }
+                      rss {
+                        url
+                      }
+                      blog {
+                        url
+                      }
+                      mastodon {
+                        url
+                      }
+                      github {
+                        url
+                      }
+                      npm {
+                        url
+                      }
+                      mdn {
+                        url
+                      }
+                      caniuse {
+                        url
+                      }
+                      resources {
+                        url
+                        title
+                      }
                     }
                   }
                 }

@@ -4,12 +4,23 @@ query td2023databasesQuery {
       td2023 {
         technology {
           databases {
-            combined(parameters: { showNoAnswer: true, cutoff: 10 }) {
+            combined(
+              parameters: {
+                showNoAnswer: true
+                cutoffPercent: 1
+                mergeOtherBuckets: true
+                cutoff: 10
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +33,19 @@ query td2023databasesQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

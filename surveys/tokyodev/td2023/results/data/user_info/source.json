@@ -9,33 +9,32 @@
                 "currentEdition": {
                   "completion": {
                     "count": 593,
-                    "percentageSurvey": 83.2,
-                    "total": 713
+                    "percentageSurvey": 83.05,
+                    "total": 714
                   },
                   "buckets": [
                     {
-                      "count": 195,
+                      "count": 188,
                       "id": "tokyodev",
-                      "percentageQuestion": 32.9,
-                      "percentageSurvey": 27.4,
+                      "percentageQuestion": 31.7,
+                      "percentageSurvey": 26.33,
                       "entity": {
                         "name": "TokyoDev",
                         "nameClean": "TokyoDev",
                         "id": "tokyodev",
-                        "homepage": {
-                          "url": "https://tokyodev.com/"
-                        }
+                        "entityType": "default"
                       }
                     },
                     {
                       "count": 132,
                       "id": "reddit",
-                      "percentageQuestion": 22.3,
-                      "percentageSurvey": 18.6,
+                      "percentageQuestion": 22.26,
+                      "percentageSurvey": 18.49,
                       "entity": {
                         "name": "Reddit",
                         "nameClean": "Reddit",
                         "id": "reddit",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://reddit.com"
                         }
@@ -44,12 +43,13 @@
                     {
                       "count": 66,
                       "id": "facebook",
-                      "percentageQuestion": 11.2,
-                      "percentageSurvey": 9.3,
+                      "percentageQuestion": 11.13,
+                      "percentageSurvey": 9.24,
                       "entity": {
                         "name": "Facebook",
                         "nameClean": "Facebook",
                         "id": "facebook",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://facebook.com"
                         }
@@ -58,26 +58,28 @@
                     {
                       "count": 55,
                       "id": "linkedin",
-                      "percentageQuestion": 9.3,
-                      "percentageSurvey": 7.8,
+                      "percentageQuestion": 9.27,
+                      "percentageSurvey": 7.7,
                       "entity": {
                         "name": "LinkedIn",
                         "nameClean": "LinkedIn",
                         "id": "linkedin",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://linkedin.com/"
                         }
                       }
                     },
                     {
-                      "count": 36,
+                      "count": 35,
                       "id": "twitter",
-                      "percentageQuestion": 6.1,
-                      "percentageSurvey": 5.1,
+                      "percentageQuestion": 5.9,
+                      "percentageSurvey": 4.9,
                       "entity": {
                         "name": "Twitter/X",
                         "nameClean": "Twitter/X",
                         "id": "twitter",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://twitter.com"
                         }
@@ -86,28 +88,50 @@
                     {
                       "count": 18,
                       "id": "work",
-                      "percentageQuestion": 3.1,
-                      "percentageSurvey": 2.6
+                      "percentageQuestion": 3.04,
+                      "percentageSurvey": 2.52,
+                      "entity": {
+                        "id": "work",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 12,
+                      "count": 11,
                       "id": "hn_tokyo",
-                      "percentageQuestion": 2.1,
-                      "percentageSurvey": 1.7,
+                      "percentageQuestion": 1.85,
+                      "percentageSurvey": 1.54,
                       "entity": {
                         "name": "HN Tokyo",
                         "nameClean": "HN Tokyo",
                         "id": "hn_tokyo",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://hntokyo.doorkeeper.jp/"
                         }
                       }
                     },
                     {
-                      "count": 79,
+                      "count": 31,
+                      "id": "no_match",
+                      "percentageQuestion": 5.23,
+                      "percentageSurvey": 4.34,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 57,
                       "id": "other_answers",
-                      "percentageQuestion": 13.4,
-                      "percentageSurvey": 11.1
+                      "percentageQuestion": 9.62,
+                      "percentageSurvey": 7.98,
+                      "groupedBuckets": [
+                        {
+                          "count": 57,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 9.62,
+                          "percentageSurvey": 7.98
+                        }
+                      ]
                     }
                   ]
                 }

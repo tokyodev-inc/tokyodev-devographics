@@ -9,19 +9,20 @@
                 "currentEdition": {
                   "completion": {
                     "count": 45,
-                    "percentageSurvey": 6.4,
-                    "total": 713
+                    "percentageSurvey": 6.3,
+                    "total": 714
                   },
                   "buckets": [
                     {
                       "count": 41,
                       "id": "docker",
-                      "percentageQuestion": 91.2,
-                      "percentageSurvey": 5.8,
+                      "percentageQuestion": 91.11,
+                      "percentageSurvey": 5.74,
                       "entity": {
                         "name": "Docker",
                         "nameClean": "Docker",
                         "id": "docker",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.docker.com/"
                         }
@@ -30,12 +31,13 @@
                     {
                       "count": 29,
                       "id": "kubernetes",
-                      "percentageQuestion": 64.5,
-                      "percentageSurvey": 4.1,
+                      "percentageQuestion": 64.44,
+                      "percentageSurvey": 4.06,
                       "entity": {
                         "name": "Kubernetes",
                         "nameClean": "Kubernetes",
                         "id": "kubernetes",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://kubernetes.io/"
                         }
@@ -44,12 +46,13 @@
                     {
                       "count": 28,
                       "id": "terraform",
-                      "percentageQuestion": 62.3,
-                      "percentageSurvey": 4,
+                      "percentageQuestion": 62.22,
+                      "percentageSurvey": 3.92,
                       "entity": {
                         "name": "Terraform",
                         "nameClean": "Terraform",
                         "id": "terraform",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.terraform.io/"
                         }
@@ -58,12 +61,15 @@
                     {
                       "count": 19,
                       "id": "npm",
-                      "percentageQuestion": 42.3,
-                      "percentageSurvey": 2.7,
+                      "percentageQuestion": 42.22,
+                      "percentageSurvey": 2.66,
                       "entity": {
                         "name": "Npm",
                         "nameClean": "Npm",
+                        "description": "A package manager for JavaScript",
+                        "descriptionClean": "A package manager for JavaScript",
                         "id": "npm",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://npm.community"
                         }
@@ -72,12 +78,13 @@
                     {
                       "count": 15,
                       "id": "pip",
-                      "percentageQuestion": 33.4,
-                      "percentageSurvey": 2.2,
+                      "percentageQuestion": 33.33,
+                      "percentageSurvey": 2.1,
                       "entity": {
                         "name": "Pip",
                         "nameClean": "Pip",
                         "id": "pip",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://pypi.org/project/pip/"
                         }
@@ -86,12 +93,13 @@
                     {
                       "count": 13,
                       "id": "homebrew",
-                      "percentageQuestion": 28.9,
-                      "percentageSurvey": 1.9,
+                      "percentageQuestion": 28.89,
+                      "percentageSurvey": 1.82,
                       "entity": {
                         "name": "Homebrew",
                         "nameClean": "Homebrew",
                         "id": "homebrew",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://brew.sh/"
                         }
@@ -100,12 +108,13 @@
                     {
                       "count": 12,
                       "id": "make",
-                      "percentageQuestion": 26.7,
-                      "percentageSurvey": 1.7,
+                      "percentageQuestion": 26.67,
+                      "percentageSurvey": 1.68,
                       "entity": {
                         "name": "Make",
                         "nameClean": "Make",
                         "id": "make",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/Make_(software)"
                         }
@@ -121,9 +130,20 @@
                         "name": "Ansible",
                         "nameClean": "Ansible",
                         "id": "ansible",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.ansible.com/"
                         }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
                       }
                     },
                     {
@@ -136,9 +156,20 @@
                         "name": "Cargo",
                         "nameClean": "Cargo",
                         "id": "cargo",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://doc.rust-lang.org/cargo/"
                         }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
                       }
                     },
                     {
@@ -150,13 +181,26 @@
                       "entity": {
                         "name": "pnpm",
                         "nameClean": "pnpm",
+                        "description": "Fast, disk space efficient package manager",
+                        "descriptionClean": "Fast, disk space efficient package manager",
                         "id": "pnpm",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://pnpm.js.org"
                         },
                         "npm": {
                           "url": "https://www.npmjs.com/package/pnpm"
                         }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
                       }
                     },
                     {
@@ -168,10 +212,24 @@
                       "entity": {
                         "name": "Vite",
                         "nameClean": "Vite",
+                        "description": "Native-ESM powered web dev build tool. It's fast.",
+                        "descriptionHtml": "Native-ESM powered web dev build tool. It's fast.",
+                        "descriptionClean": "Native-ESM powered web dev build tool. It's fast.",
                         "id": "vite",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://github.com/vitejs/vite"
                         }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
                       }
                     },
                     {
@@ -183,18 +241,41 @@
                       "entity": {
                         "name": "Yarn",
                         "nameClean": "Yarn",
+                        "description": "Fast, reliable, and secure dependency management.",
+                        "descriptionClean": "Fast, reliable, and secure dependency management.",
                         "id": "yarn",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://classic.yarnpkg.com"
                         }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
                       }
                     },
                     {
                       "count": 0,
-                      "id": "no_answer",
+                      "id": "other_answers",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      }
                     }
                   ]
                 }

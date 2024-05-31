@@ -9,19 +9,20 @@
                 "currentEdition": {
                   "completion": {
                     "count": 558,
-                    "percentageSurvey": 78.3,
-                    "total": 713
+                    "percentageSurvey": 78.15,
+                    "total": 714
                   },
                   "buckets": [
                     {
                       "count": 225,
                       "id": "postgresql",
-                      "percentageQuestion": 40.4,
-                      "percentageSurvey": 31.6,
+                      "percentageQuestion": 40.32,
+                      "percentageSurvey": 31.51,
                       "entity": {
                         "name": "PostgreSQL",
                         "nameClean": "PostgreSQL",
                         "id": "postgresql",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.postgresql.org/"
                         }
@@ -30,12 +31,13 @@
                     {
                       "count": 204,
                       "id": "mysql",
-                      "percentageQuestion": 36.6,
-                      "percentageSurvey": 28.7,
+                      "percentageQuestion": 36.56,
+                      "percentageSurvey": 28.57,
                       "entity": {
                         "name": "MySQL",
                         "nameClean": "MySQL",
                         "id": "mysql",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.mysql.com/"
                         }
@@ -44,12 +46,13 @@
                     {
                       "count": 149,
                       "id": "redis",
-                      "percentageQuestion": 26.8,
-                      "percentageSurvey": 20.9,
+                      "percentageQuestion": 26.7,
+                      "percentageSurvey": 20.87,
                       "entity": {
                         "name": "Redis",
                         "nameClean": "Redis",
                         "id": "redis",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://redis.io/"
                         }
@@ -58,12 +61,13 @@
                     {
                       "count": 86,
                       "id": "mongodb",
-                      "percentageQuestion": 15.5,
-                      "percentageSurvey": 12.1,
+                      "percentageQuestion": 15.41,
+                      "percentageSurvey": 12.04,
                       "entity": {
                         "name": "MongoDB",
                         "nameClean": "MongoDB",
                         "id": "mongodb",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.mongodb.com/"
                         }
@@ -72,12 +76,13 @@
                     {
                       "count": 70,
                       "id": "elasticsearch",
-                      "percentageQuestion": 12.6,
-                      "percentageSurvey": 9.9,
+                      "percentageQuestion": 12.54,
+                      "percentageSurvey": 9.8,
                       "entity": {
                         "name": "ElasticSearch",
                         "nameClean": "ElasticSearch",
                         "id": "elasticsearch",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.elastic.co/"
                         }
@@ -86,12 +91,13 @@
                     {
                       "count": 66,
                       "id": "dynamodb",
-                      "percentageQuestion": 11.9,
-                      "percentageSurvey": 9.3,
+                      "percentageQuestion": 11.83,
+                      "percentageSurvey": 9.24,
                       "entity": {
                         "name": "DynamoDB",
                         "nameClean": "DynamoDB",
                         "id": "dynamodb",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://aws.amazon.com/dynamodb/"
                         }
@@ -100,12 +106,13 @@
                     {
                       "count": 55,
                       "id": "sqlite",
-                      "percentageQuestion": 9.9,
-                      "percentageSurvey": 7.8,
+                      "percentageQuestion": 9.86,
+                      "percentageSurvey": 7.7,
                       "entity": {
                         "name": "SQLite",
                         "nameClean": "SQLite",
                         "id": "sqlite",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.sqlite.org/"
                         }
@@ -114,12 +121,13 @@
                     {
                       "count": 33,
                       "id": "mariadb",
-                      "percentageQuestion": 6,
-                      "percentageSurvey": 4.7,
+                      "percentageQuestion": 5.91,
+                      "percentageSurvey": 4.62,
                       "entity": {
                         "name": "MariaDB",
                         "nameClean": "MariaDB",
                         "id": "mariadb",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://mariadb.org/"
                         }
@@ -128,35 +136,42 @@
                     {
                       "count": 19,
                       "id": "microsoft_sql_server",
-                      "percentageQuestion": 3.5,
-                      "percentageSurvey": 2.7,
+                      "percentageQuestion": 3.41,
+                      "percentageSurvey": 2.66,
                       "entity": {
                         "name": "Microsoft SQL Server",
                         "nameClean": "Microsoft SQL Server",
                         "id": "microsoft_sql_server",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://www.microsoft.com/en-us/sql-server/"
                         }
                       }
                     },
                     {
+                      "count": 29,
+                      "id": "no_match",
+                      "percentageQuestion": 5.2,
+                      "percentageSurvey": 4.06,
+                      "isFreeformData": true,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
                       "count": 95,
                       "id": "na",
-                      "percentageQuestion": 17.1,
-                      "percentageSurvey": 13.4
+                      "percentageQuestion": 17.03,
+                      "percentageSurvey": 13.31,
+                      "entity": {
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 25,
+                      "count": 170,
                       "id": "other_answers",
-                      "percentageQuestion": 4.5,
-                      "percentageSurvey": 3.6,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 150,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 21.1
+                      "percentageQuestion": 3.42,
+                      "percentageSurvey": 23.81
                     }
                   ]
                 }

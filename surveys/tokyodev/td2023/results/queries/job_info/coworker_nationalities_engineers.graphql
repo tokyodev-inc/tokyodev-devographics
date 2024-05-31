@@ -4,12 +4,21 @@ query td2023coworkerNationalitiesEngineersQuery {
       td2023 {
         job_info {
           coworker_nationalities_engineers {
-            responses(parameters: { showNoAnswer: true }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: true
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +31,19 @@ query td2023coworkerNationalitiesEngineersQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

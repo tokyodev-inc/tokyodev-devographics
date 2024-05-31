@@ -4,12 +4,22 @@ query td2023hoursPerDayQuery {
       td2023 {
         job_info {
           hours_per_day {
-            responses(parameters: { showNoAnswer: true, cutoff: 10 }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: true
+                cutoff: 10
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +32,19 @@ query td2023hoursPerDayQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

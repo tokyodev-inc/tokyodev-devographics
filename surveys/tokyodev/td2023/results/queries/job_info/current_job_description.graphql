@@ -4,12 +4,22 @@ query td2023currentJobDescriptionQuery {
       td2023 {
         job_info {
           current_job_description {
-            combined(parameters: { showNoAnswer: true }) {
+            combined(
+              parameters: {
+                showNoAnswer: true
+                cutoffPercent: 1
+                mergeOtherBuckets: true
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +32,19 @@ query td2023currentJobDescriptionQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

@@ -7,6 +7,7 @@ query td2023languageProficiencyJapaneseQuery {
             responses(
               parameters: {
                 showNoAnswer: true
+                mergeOtherBuckets: true
                 sort: {
                   property: options
                 }
@@ -17,6 +18,10 @@ query td2023languageProficiencyJapaneseQuery {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -29,12 +34,19 @@ query td2023languageProficiencyJapaneseQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

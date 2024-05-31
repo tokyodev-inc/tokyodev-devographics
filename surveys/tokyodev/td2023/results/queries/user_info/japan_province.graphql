@@ -7,6 +7,7 @@ query td2023japanProvinceQuery {
             responses(
               parameters: {
                 showNoAnswer: true
+                mergeOtherBuckets: true
                 cutoff: 10
                 enableAddMissingBuckets: false
                 sort: {
@@ -20,6 +21,10 @@ query td2023japanProvinceQuery {
                   percentageSurvey
                   total
                 }
+                average
+                percentiles {
+                  p50
+                }
                 buckets {
                   count
                   id
@@ -31,12 +36,19 @@ query td2023japanProvinceQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

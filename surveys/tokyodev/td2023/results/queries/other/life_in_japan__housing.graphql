@@ -4,12 +4,21 @@ query td2023lifeInJapanHousingQuery {
       td2023 {
         other {
           life_in_japan__housing {
-            responses(parameters: { showNoAnswer: true }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: true
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +31,19 @@ query td2023lifeInJapanHousingQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

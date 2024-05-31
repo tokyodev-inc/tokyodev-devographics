@@ -4,12 +4,23 @@ query td2023programmingLanguagesQuery {
       td2023 {
         technology {
           programming_languages {
-            combined(parameters: { showNoAnswer: true, cutoff: 10 }) {
+            combined(
+              parameters: {
+                showNoAnswer: true
+                cutoffPercent: 1
+                mergeOtherBuckets: true
+                cutoff: 10
+              }
+            ) {
               currentEdition {
                 completion {
                   count
                   percentageSurvey
                   total
+                }
+                average
+                percentiles {
+                  p50
                 }
                 buckets {
                   count
@@ -22,12 +33,19 @@ query td2023programmingLanguagesQuery {
                     name
                     nameHtml
                     nameClean
+                    description
+                    descriptionHtml
+                    descriptionClean
                     id
+                    entityType
                     example {
                       label
                       language
                       code
                       codeHighlighted
+                    }
+                    avatar {
+                      url
                     }
                     homepage {
                       url

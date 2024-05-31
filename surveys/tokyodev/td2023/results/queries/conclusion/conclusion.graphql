@@ -1,5 +1,5 @@
 query td2023conclusionQuery {
-  entities(ids: ["paul_mcmahon"]) {
+  author: entity(id: "paul_mcmahon") {
     id
     name
     homepage {
@@ -9,6 +9,9 @@ query td2023conclusionQuery {
     twitterName
     twitter {
       name
+      url
+    }
+    avatar {
       url
     }
   }
