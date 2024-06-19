@@ -575,26 +575,51 @@
                     },
                     {
                       "count": 51,
-                      "id": "other_answers",
+                      "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 7.14,
-                      "averageByFacet": 7050000,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "averageByFacet": 14100000,
                       "percentilesByFacet": {
-                        "p0": 2250000,
-                        "p10": 3200000,
-                        "p25": 4375000,
-                        "p50": 5500000,
-                        "p75": 8125000,
-                        "p90": 14800000,
-                        "p100": 15250000
+                        "p0": 4500000,
+                        "p10": 6400000,
+                        "p25": 8750000,
+                        "p50": 11000000,
+                        "p75": 16250000,
+                        "p90": 29600000,
+                        "p100": 30500000
                       },
                       "facetBuckets": [
                         {
                           "id": "no_answer",
                           "count": 21,
                           "percentageBucket": 41.18
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 30,
+                          "percentageBucket": 59
                         }
                       ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      }
                     }
                   ]
                 }

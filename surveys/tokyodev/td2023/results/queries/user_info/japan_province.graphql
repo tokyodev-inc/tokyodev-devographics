@@ -7,8 +7,9 @@ query td2023japanProvinceQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: true
                 cutoff: 10
+                limit: 20
+                mergeOtherBuckets: false
                 enableAddMissingBuckets: false
                 sort: {
                   property: count
@@ -36,6 +37,7 @@ query td2023japanProvinceQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

@@ -466,7 +466,7 @@
                         "name": "Terraform",
                         "nameClean": "Terraform",
                         "id": "terraform",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.terraform.io/"
                         }
@@ -789,9 +789,12 @@
                     },
                     {
                       "count": 140,
-                      "id": "other_answers",
+                      "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 19.61,
+                      "entity": {
+                        "entityType": "default"
+                      },
                       "averageByFacet": 11184210.5,
                       "percentilesByFacet": {
                         "p0": 500000,
@@ -799,19 +802,24 @@
                         "p25": 5750000,
                         "p50": 7500000,
                         "p75": 14250000,
-                        "p90": 27000000,
+                        "p90": 27000000.000000022,
                         "p100": 30500000
                       },
                       "facetBuckets": [
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 11,
-                          "percentageBucket": 7.86
+                          "percentageBucket": 7.85
                         },
                         {
                           "id": "no_answer",
                           "count": 102,
                           "percentageBucket": 72.86
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 27,
+                          "percentageBucket": 19
                         }
                       ]
                     }

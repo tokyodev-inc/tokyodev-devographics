@@ -7,9 +7,9 @@ query td2023countryQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: true
                 cutoff: 10
                 limit: 0
+                mergeOtherBuckets: false
                 enableAddMissingBuckets: false
               }
             ) {
@@ -34,6 +34,7 @@ query td2023countryQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

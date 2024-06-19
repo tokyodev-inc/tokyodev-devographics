@@ -325,9 +325,12 @@
                     },
                     {
                       "count": 39,
-                      "id": "other_answers",
+                      "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 5.46,
+                      "entity": {
+                        "entityType": "default"
+                      },
                       "averageByFacet": 13857142.9,
                       "percentilesByFacet": {
                         "p0": 500000,
@@ -335,7 +338,7 @@
                         "p25": 7750000,
                         "p50": 11500000,
                         "p75": 16250000,
-                        "p90": 28700000,
+                        "p90": 28700000.000000007,
                         "p100": 30500000
                       },
                       "facetBuckets": [
@@ -343,6 +346,11 @@
                           "id": "no_answer",
                           "count": 25,
                           "percentageBucket": 64.1
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 36
                         }
                       ]
                     }

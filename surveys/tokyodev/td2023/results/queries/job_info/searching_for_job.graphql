@@ -4,7 +4,14 @@ query td2023searchingForJobQuery {
       td2023 {
         job_info {
           searching_for_job {
-            responses(parameters: { showNoAnswer: true }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: false
+              }
+            ) {
               currentEdition {
                 completion {
                   count
@@ -26,6 +33,7 @@ query td2023searchingForJobQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

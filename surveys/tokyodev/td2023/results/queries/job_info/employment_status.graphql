@@ -7,7 +7,8 @@ query td2023employmentStatusQuery {
             combined(
               parameters: {
                 showNoAnswer: true
-                cutoffPercent: 1
+                cutoff: 10
+                limit: 20
                 mergeOtherBuckets: true
                 sort: {
                   property: count
@@ -35,6 +36,7 @@ query td2023employmentStatusQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

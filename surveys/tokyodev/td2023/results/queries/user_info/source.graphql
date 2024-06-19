@@ -4,7 +4,14 @@ query td2023sourceQuery {
       td2023 {
         user_info {
           source {
-            freeform(parameters: { cutoff: 10, mergeOtherBuckets: true }) {
+            freeform(
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: true
+              }
+            ) {
               currentEdition {
                 completion {
                   count
@@ -26,6 +33,7 @@ query td2023sourceQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean
@@ -89,6 +97,7 @@ query td2023sourceQuery {
                       name
                       nameHtml
                       nameClean
+                      alias
                       description
                       descriptionHtml
                       descriptionClean

@@ -7,9 +7,9 @@ query td2023industrySectorQuery {
             combined(
               parameters: {
                 showNoAnswer: true
-                cutoffPercent: 1
-                mergeOtherBuckets: true
                 cutoff: 10
+                limit: 20
+                mergeOtherBuckets: true
               }
             ) {
               currentEdition {
@@ -33,6 +33,7 @@ query td2023industrySectorQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

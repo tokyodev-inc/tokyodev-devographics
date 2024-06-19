@@ -80,7 +80,7 @@
                         "name": "JavaScript",
                         "nameClean": "JavaScript",
                         "id": "javascript",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.javascript.com/"
                         }
@@ -152,7 +152,7 @@
                         "name": "TypeScript",
                         "nameClean": "TypeScript",
                         "id": "typescript",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "typescriptlang.org/"
                         }
@@ -219,7 +219,7 @@
                         "name": "Python",
                         "nameClean": "Python",
                         "id": "python",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.python.org/"
                         }
@@ -286,7 +286,7 @@
                         "name": "HTML/CSS",
                         "nameClean": "HTML/CSS",
                         "id": "html_css",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://whatwg.org/"
                         }
@@ -348,7 +348,7 @@
                         "name": "SQL",
                         "nameClean": "SQL",
                         "id": "sql",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/SQL"
                         }
@@ -405,7 +405,7 @@
                         "name": "Bash/Shell",
                         "nameClean": "Bash/Shell",
                         "id": "bash_shell",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                         }
@@ -467,7 +467,7 @@
                         "name": "Java",
                         "nameClean": "Java",
                         "id": "java",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.java.com/"
                         }
@@ -529,7 +529,7 @@
                         "name": "Go",
                         "nameClean": "Go",
                         "id": "golang",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://go.dev/"
                         }
@@ -581,7 +581,7 @@
                         "name": "Ruby",
                         "nameClean": "Ruby",
                         "id": "ruby",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.ruby-lang.org/"
                         }
@@ -633,7 +633,7 @@
                         "name": "C++",
                         "nameClean": "C++",
                         "id": "cplusplus",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://cplusplus.com/"
                         }
@@ -680,7 +680,7 @@
                         "name": "PHP",
                         "nameClean": "PHP",
                         "id": "php",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.php.net/"
                         }
@@ -722,7 +722,7 @@
                         "name": "Kotlin",
                         "nameClean": "Kotlin",
                         "id": "kotlin",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://kotlinlang.org"
                         }
@@ -769,7 +769,7 @@
                         "name": "Rust",
                         "nameClean": "Rust",
                         "id": "rust",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.rust-lang.org/"
                         }
@@ -806,7 +806,7 @@
                         "name": "C#",
                         "nameClean": "C#",
                         "id": "csharp",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
                         }
@@ -843,7 +843,7 @@
                         "name": "C",
                         "nameClean": "C",
                         "id": "c",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
                         }
@@ -875,7 +875,7 @@
                         "name": "Swift",
                         "nameClean": "Swift",
                         "id": "swift",
-                        "entityType": "default",
+                        "entityType": "library",
                         "homepage": {
                           "url": "https://www.swift.org/"
                         }
@@ -925,9 +925,12 @@
                     },
                     {
                       "count": 114,
-                      "id": "other_answers",
+                      "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 15.97,
+                      "entity": {
+                        "entityType": "default"
+                      },
                       "averageByFacet": 9605263.2,
                       "percentilesByFacet": {
                         "p0": 500000,
@@ -935,7 +938,7 @@
                         "p25": 6000000,
                         "p50": 7500000,
                         "p75": 12000000,
-                        "p90": 16900000,
+                        "p90": 16899999.999999996,
                         "p100": 30500000
                       },
                       "facetBuckets": [
@@ -943,6 +946,11 @@
                           "id": "no_answer",
                           "count": 95,
                           "percentageBucket": 83.33
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 17
                         }
                       ]
                     }

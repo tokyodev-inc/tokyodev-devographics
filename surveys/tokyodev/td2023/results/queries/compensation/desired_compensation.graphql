@@ -7,7 +7,9 @@ query td2023desiredCompensationQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: true
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: false
               }
             ) {
               currentEdition {
@@ -31,6 +33,7 @@ query td2023desiredCompensationQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean

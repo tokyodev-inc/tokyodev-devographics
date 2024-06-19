@@ -7,7 +7,9 @@ query td2023languageProficiencyJapaneseQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: true
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: false
                 sort: {
                   property: options
                 }
@@ -34,6 +36,7 @@ query td2023languageProficiencyJapaneseQuery {
                     name
                     nameHtml
                     nameClean
+                    alias
                     description
                     descriptionHtml
                     descriptionClean
