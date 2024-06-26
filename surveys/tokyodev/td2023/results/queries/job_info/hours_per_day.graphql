@@ -7,9 +7,9 @@ query td2023hoursPerDayQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
                 mergeOtherBuckets: false
+                cutoff: 10
+                enableCache: false
               }
             ) {
               currentEdition {

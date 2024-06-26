@@ -13,6 +13,9 @@ query td2023howDidYouFindYourCurrentJobByCurrentEmployerQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
+                sort: {
+                  property: count
+                }
               }
             ) {
               currentEdition {
@@ -113,6 +116,9 @@ query td2023howDidYouFindYourCurrentJobByCurrentEmployerQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
+                sort: {
+                  property: count
+                }
               }
             ) {
               currentEdition {

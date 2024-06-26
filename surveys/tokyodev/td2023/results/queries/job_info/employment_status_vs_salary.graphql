@@ -9,6 +9,9 @@ query td2023employmentStatusVsSalaryQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
               }
             ) {
               currentEdition {

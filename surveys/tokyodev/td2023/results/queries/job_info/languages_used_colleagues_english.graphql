@@ -7,9 +7,8 @@ query td2023languagesUsedColleaguesEnglishQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
                 mergeOtherBuckets: false
+                enableCache: false
               }
             ) {
               currentEdition {

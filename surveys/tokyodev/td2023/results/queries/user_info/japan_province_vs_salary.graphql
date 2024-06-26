@@ -9,6 +9,9 @@ query td2023japanProvinceVsSalaryQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
                 cutoff: 10
               }
             ) {

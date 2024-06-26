@@ -7,10 +7,11 @@ query td2023countryQuery {
             responses(
               parameters: {
                 showNoAnswer: true
+                mergeOtherBuckets: false
                 cutoff: 10
                 limit: 0
-                mergeOtherBuckets: false
                 enableAddMissingBuckets: false
+                enableCache: false
               }
             ) {
               currentEdition {

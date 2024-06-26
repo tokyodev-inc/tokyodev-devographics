@@ -7,13 +7,13 @@ query td2023japanProvinceQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
                 mergeOtherBuckets: false
+                cutoff: 10
                 enableAddMissingBuckets: false
                 sort: {
                   property: count
                 }
+                enableCache: false
               }
             ) {
               currentEdition {

@@ -7,9 +7,8 @@ query td2023desiredCompensationQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
                 mergeOtherBuckets: false
+                enableCache: false
               }
             ) {
               currentEdition {

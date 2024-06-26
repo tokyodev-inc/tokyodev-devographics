@@ -13,6 +13,7 @@ query td2023employmentStatusQuery {
                 sort: {
                   property: count
                 }
+                enableCache: false
               }
             ) {
               currentEdition {

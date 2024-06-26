@@ -14,60 +14,49 @@
                   },
                   "buckets": [
                     {
-                      "count": 587,
-                      "id": "overall",
-                      "percentageQuestion": 119.55,
-                      "percentageSurvey": 82.21,
-                      "averageByFacet": 10149063,
+                      "count": 60,
+                      "id": "azure",
+                      "percentageQuestion": 12.22,
+                      "percentageSurvey": 8.4,
+                      "entity": {
+                        "name": "Azure",
+                        "nameClean": "Azure",
+                        "id": "azure",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://azure.microsoft.com/"
+                        }
+                      },
+                      "averageByFacet": 10982142.9,
                       "percentilesByFacet": {
-                        "p0": 500000,
-                        "p10": 4500000,
-                        "p25": 5500000,
-                        "p50": 8500000,
-                        "p75": 12500000,
-                        "p90": 18899999.999999978,
+                        "p0": 1500000,
+                        "p10": 3500000,
+                        "p25": 6500000,
+                        "p50": 9000000,
+                        "p75": 13750000,
+                        "p90": 24000000,
                         "p100": 30500000
                       },
                       "facetBuckets": [
                         {
-                          "id": "range_under_2999999",
-                          "count": 23,
-                          "percentageBucket": 3.91
-                        },
-                        {
                           "id": "range_3000000_to_5999999",
-                          "count": 134,
-                          "percentageBucket": 22.83
+                          "count": 10,
+                          "percentageBucket": 16.67
                         },
                         {
                           "id": "range_6000000_to_8999999",
-                          "count": 172,
-                          "percentageBucket": 29.31
+                          "count": 15,
+                          "percentageBucket": 25
                         },
                         {
                           "id": "range_9000000_to_11999999",
-                          "count": 93,
-                          "percentageBucket": 15.84
-                        },
-                        {
-                          "id": "range_12000000_to_14999999",
-                          "count": 70,
-                          "percentageBucket": 11.93
-                        },
-                        {
-                          "id": "range_15000000_to_19999999",
-                          "count": 42,
-                          "percentageBucket": 7.15
-                        },
-                        {
-                          "id": "range_over_20000000",
-                          "count": 53,
-                          "percentageBucket": 9.02
+                          "count": 12,
+                          "percentageBucket": 20
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 0,
-                          "percentageBucket": 0
+                          "count": 27,
+                          "percentageBucket": 45
                         }
                       ]
                     },
@@ -139,6 +128,75 @@
                       ]
                     },
                     {
+                      "count": 46,
+                      "id": "cloudflare",
+                      "percentageQuestion": 9.37,
+                      "percentageSurvey": 6.44,
+                      "entity": {
+                        "name": "Cloudflare",
+                        "nameClean": "Cloudflare",
+                        "id": "cloudflare",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.cloudflare.com/"
+                        }
+                      },
+                      "averageByFacet": 10255555.6,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 4500000,
+                        "p25": 6500000,
+                        "p50": 8500000,
+                        "p75": 12500000,
+                        "p90": 15500000,
+                        "p100": 30500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 15,
+                          "percentageBucket": 32.6
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 70
+                        }
+                      ]
+                    },
+                    {
+                      "count": 15,
+                      "id": "digital_ocean",
+                      "percentageQuestion": 3.05,
+                      "percentageSurvey": 2.1,
+                      "entity": {
+                        "name": "Digital Ocean",
+                        "nameClean": "Digital Ocean",
+                        "id": "digital_ocean",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://digitalocean.com/"
+                        }
+                      },
+                      "averageByFacet": 10571428.6,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 2100000,
+                        "p25": 4750000,
+                        "p50": 8500000,
+                        "p75": 12500000,
+                        "p90": 23100000.000000007,
+                        "p100": 30500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 107
+                        }
+                      ]
+                    },
+                    {
                       "count": 154,
                       "id": "google_cloud",
                       "percentageQuestion": 31.36,
@@ -201,6 +259,96 @@
                       ]
                     },
                     {
+                      "count": 587,
+                      "id": "overall",
+                      "percentageQuestion": 119.55,
+                      "percentageSurvey": 82.21,
+                      "averageByFacet": 10149063,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 4500000,
+                        "p25": 5500000,
+                        "p50": 8500000,
+                        "p75": 12500000,
+                        "p90": 18899999.999999978,
+                        "p100": 30500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_under_2999999",
+                          "count": 23,
+                          "percentageBucket": 3.91
+                        },
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 134,
+                          "percentageBucket": 22.83
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 172,
+                          "percentageBucket": 29.31
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 93,
+                          "percentageBucket": 15.84
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 70,
+                          "percentageBucket": 11.93
+                        },
+                        {
+                          "id": "range_15000000_to_19999999",
+                          "count": 42,
+                          "percentageBucket": 7.15
+                        },
+                        {
+                          "id": "range_over_20000000",
+                          "count": 53,
+                          "percentageBucket": 9.02
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 26,
+                      "id": "vercel",
+                      "percentageQuestion": 5.3,
+                      "percentageSurvey": 3.64,
+                      "entity": {
+                        "name": "Vercel",
+                        "nameClean": "Vercel",
+                        "id": "vercel",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://vercel.com/"
+                        }
+                      },
+                      "averageByFacet": 9180000,
+                      "percentilesByFacet": {
+                        "p0": 3500000,
+                        "p10": 5500000,
+                        "p25": 6500000,
+                        "p50": 8500000,
+                        "p75": 12500000,
+                        "p90": 14500000,
+                        "p100": 17500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 27,
+                          "percentageBucket": 104
+                        }
+                      ]
+                    },
+                    {
                       "count": 65,
                       "id": "firebase",
                       "percentageQuestion": 13.24,
@@ -243,90 +391,6 @@
                       ]
                     },
                     {
-                      "count": 60,
-                      "id": "azure",
-                      "percentageQuestion": 12.22,
-                      "percentageSurvey": 8.4,
-                      "entity": {
-                        "name": "Azure",
-                        "nameClean": "Azure",
-                        "id": "azure",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://azure.microsoft.com/"
-                        }
-                      },
-                      "averageByFacet": 10982142.9,
-                      "percentilesByFacet": {
-                        "p0": 1500000,
-                        "p10": 3500000,
-                        "p25": 6500000,
-                        "p50": 9000000,
-                        "p75": 13750000,
-                        "p90": 24000000,
-                        "p100": 30500000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_3000000_to_5999999",
-                          "count": 10,
-                          "percentageBucket": 16.67
-                        },
-                        {
-                          "id": "range_6000000_to_8999999",
-                          "count": 15,
-                          "percentageBucket": 25
-                        },
-                        {
-                          "id": "range_9000000_to_11999999",
-                          "count": 12,
-                          "percentageBucket": 20
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 27,
-                          "percentageBucket": 45
-                        }
-                      ]
-                    },
-                    {
-                      "count": 46,
-                      "id": "cloudflare",
-                      "percentageQuestion": 9.37,
-                      "percentageSurvey": 6.44,
-                      "entity": {
-                        "name": "Cloudflare",
-                        "nameClean": "Cloudflare",
-                        "id": "cloudflare",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.cloudflare.com/"
-                        }
-                      },
-                      "averageByFacet": 10255555.6,
-                      "percentilesByFacet": {
-                        "p0": 500000,
-                        "p10": 4500000,
-                        "p25": 6500000,
-                        "p50": 8500000,
-                        "p75": 12500000,
-                        "p90": 15500000,
-                        "p100": 30500000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_6000000_to_8999999",
-                          "count": 15,
-                          "percentageBucket": 32.6
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 32,
-                          "percentageBucket": 70
-                        }
-                      ]
-                    },
-                    {
                       "count": 26,
                       "id": "heroku",
                       "percentageQuestion": 5.3,
@@ -355,70 +419,6 @@
                           "id": "insufficient_data",
                           "count": 29,
                           "percentageBucket": 112
-                        }
-                      ]
-                    },
-                    {
-                      "count": 26,
-                      "id": "vercel",
-                      "percentageQuestion": 5.3,
-                      "percentageSurvey": 3.64,
-                      "entity": {
-                        "name": "Vercel",
-                        "nameClean": "Vercel",
-                        "id": "vercel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://vercel.com/"
-                        }
-                      },
-                      "averageByFacet": 9180000,
-                      "percentilesByFacet": {
-                        "p0": 3500000,
-                        "p10": 5500000,
-                        "p25": 6500000,
-                        "p50": 8500000,
-                        "p75": 12500000,
-                        "p90": 14500000,
-                        "p100": 17500000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 27,
-                          "percentageBucket": 104
-                        }
-                      ]
-                    },
-                    {
-                      "count": 15,
-                      "id": "digital_ocean",
-                      "percentageQuestion": 3.05,
-                      "percentageSurvey": 2.1,
-                      "entity": {
-                        "name": "Digital Ocean",
-                        "nameClean": "Digital Ocean",
-                        "id": "digital_ocean",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://digitalocean.com/"
-                        }
-                      },
-                      "averageByFacet": 10571428.6,
-                      "percentilesByFacet": {
-                        "p0": 500000,
-                        "p10": 2100000,
-                        "p25": 4750000,
-                        "p50": 8500000,
-                        "p75": 12500000,
-                        "p90": 23100000.000000007,
-                        "p100": 30500000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 16,
-                          "percentageBucket": 107
                         }
                       ]
                     },

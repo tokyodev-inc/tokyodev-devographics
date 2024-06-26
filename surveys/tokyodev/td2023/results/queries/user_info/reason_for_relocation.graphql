@@ -13,6 +13,7 @@ query td2023reasonForRelocationQuery {
                 sort: {
                   property: count
                 }
+                enableCache: false
               }
             ) {
               currentEdition {

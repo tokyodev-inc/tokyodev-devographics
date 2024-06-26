@@ -9,6 +9,9 @@ query td2023industrySectorVsSalaryQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
               }
             ) {
               currentEdition {

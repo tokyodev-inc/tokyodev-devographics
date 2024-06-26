@@ -7,12 +7,11 @@ query td2023languageProficiencyEnglishQuery {
             responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
                 mergeOtherBuckets: false
                 sort: {
                   property: options
                 }
+                enableCache: false
               }
             ) {
               currentEdition {

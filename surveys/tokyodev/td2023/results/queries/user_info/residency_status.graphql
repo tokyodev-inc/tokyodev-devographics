@@ -13,6 +13,7 @@ query td2023residencyStatusQuery {
                 sort: {
                   property: count
                 }
+                enableCache: false
               }
             ) {
               currentEdition {
