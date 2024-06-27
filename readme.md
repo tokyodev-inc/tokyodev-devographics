@@ -10,7 +10,7 @@ Node.js TypeScript app.
 
 - Make the outlines of each survey available to the survey form app.
 - Connect to the database and generate the data for the results app's charts.
-- Provide the internationalisation strings for each locale.
+- Provide the internationalisation strings for each locale
 
 ##### Code
 
