@@ -165,9 +165,10 @@
     - id: years_of_experience
       label: "How many years of professional experience do you have in software development?"
       template: years
-      optionsAreRange: true
-      optionsAreSequential: true
-      optionsAreNumeric: true
+
+    - id: total_employers
+      label: How many employers have you had while working in software development?
+      template: number
 
     - id: years_in_japan
       label: "How many years have you lived in Japan?"
@@ -176,17 +177,18 @@
       optionsAreSequential: true
       optionsAreNumeric: true
 
-    - id: educational_attainment
-      template: singleWithOther
-      options:
-        - id: primary_elementary_school
-        - id: secondary_school
-        - id: college_no_degree
-        - id: short_cycle
-        - id: bachelors_degree
-        - id: masters_degree
-        - id: professional_degree
-        - id: na
+    # removed in 2024
+    # - id: educational_attainment
+    #   template: singleWithOther
+    #   options:
+    #     - id: primary_elementary_school
+    #     - id: secondary_school
+    #     - id: college_no_degree
+    #     - id: short_cycle
+    #     - id: bachelors_degree
+    #     - id: masters_degree
+    #     - id: professional_degree
+    #     - id: na
 
     # - id: learning_to_code
     #   template: multipleWithOther
@@ -298,12 +300,16 @@
       template: single
       optionsAreSequential: true
       options:
-        - id: all_or_mostly_japanese
+        - id: all_japanese
+          label: All Japanese
+        - id: mostly_japanese
           label: All or mostly Japanese
         - id: mix_japanese_non_japanese
           label: A mix of Japanese and non-Japanese
-        - id: all_mostly_non_japanese
-          label: All or mostly non-Japanese
+        - id: mostly_non_japanese
+          label: Mostly non-Japanese
+        - id: all_non_japanese
+          label: All non-Japanese
         # - id: na
 
     - id: coworker_nationalities_non_engineers
@@ -311,12 +317,16 @@
       template: single
       optionsAreSequential: true
       options:
-        - id: all_or_mostly_japanese
+        - id: all_japanese
+          label: All Japanese
+        - id: mostly_japanese
           label: All or mostly Japanese
         - id: mix_japanese_non_japanese
           label: A mix of Japanese and non-Japanese
-        - id: all_mostly_non_japanese
-          label: All or mostly non-Japanese
+        - id: mostly_non_japanese
+          label: Mostly non-Japanese
+        - id: all_non_japanese
+          label: All non-Japanese
         # - id: na
 
     - id: languages_used_colleagues_japanese
@@ -347,11 +357,23 @@
           label: Frequently
         # - id: na
 
-    - id: years_employed
-      label: "How many years have you been employed by your current employer?"
-      template: years
-      optionsAreRange: true
+    - id: coworker_gender_engineers
+      label: What is gender of your colleagues who are engineers?
+      template: single
       optionsAreSequential: true
+      options:
+        - id: all_male
+        - id: mostly_made
+        - id: mixed
+        - id: mostly_female
+        - id: all_female
+
+    # removed in 2024
+    # - id: years_employed
+    #   label: "How many years have you been employed by your current employer?"
+    #   template: years
+    #   optionsAreRange: true
+    #   optionsAreSequential: true
 
     # - id: work_hours_per_week
     #   label: "In a typical week, how many hours do you work?"
@@ -390,56 +412,58 @@
     #     - id: range_40_49
     #     - id: range_over_50
 
-    - id: hours_per_day
-      template: number
-      optionsAreSequential: true
-      groups:
-        - id: range_under_4
-          upperBound: 5
-          average: 4
-        - id: range_5
-          average: 5
-          lowerBound: 5
-          upperBound: 6
-        - id: range_6
-          average: 6
-          lowerBound: 6
-          upperBound: 7
-        - id: range_7
-          average: 7
-          lowerBound: 7
-          upperBound: 8
-        - id: range_8
-          average: 8
-          lowerBound: 8
-          upperBound: 9
-        - id: range_9
-          average: 9
-          lowerBound: 9
-          upperBound: 10
-        - id: range_over_10
-          average: 10
-          lowerBound: 10
+    # removed in 2024
+    # - id: hours_per_day
+    #   template: number
+    #   optionsAreSequential: true
+    #   groups:
+    #     - id: range_under_4
+    #       upperBound: 5
+    #       average: 4
+    #     - id: range_5
+    #       average: 5
+    #       lowerBound: 5
+    #       upperBound: 6
+    #     - id: range_6
+    #       average: 6
+    #       lowerBound: 6
+    #       upperBound: 7
+    #     - id: range_7
+    #       average: 7
+    #       lowerBound: 7
+    #       upperBound: 8
+    #     - id: range_8
+    #       average: 8
+    #       lowerBound: 8
+    #       upperBound: 9
+    #     - id: range_9
+    #       average: 9
+    #       lowerBound: 9
+    #       upperBound: 10
+    #     - id: range_over_10
+    #       average: 10
+    #       lowerBound: 10
 
-    - id: how_did_you_find_your_current_job
-      label: "How did you find your current job?"
-      template: single
-      allowOther: true
-      options:
-        - id: company_website
-          label: Company website
-        - id: job_board
-          label: Job Board
-        - id: job_fair
-          label: Job Fair
-        - id: headhunter_external_recruiter
-          label: Headhunter / external recruiter
-        - id: internal_recruiter_from_company
-          label: Internal recruiter from company
-        - id: networking
-          label: Networking
-        - id: referral
-          label: Referral
+    # removed in 2024
+    # - id: how_did_you_find_your_current_job
+    #   label: "How did you find your current job?"
+    #   template: single
+    #   allowOther: true
+    #   options:
+    #     - id: company_website
+    #       label: Company website
+    #     - id: job_board
+    #       label: Job Board
+    #     - id: job_fair
+    #       label: Job Fair
+    #     - id: headhunter_external_recruiter
+    #       label: Headhunter / external recruiter
+    #     - id: internal_recruiter_from_company
+    #       label: Internal recruiter from company
+    #     - id: networking
+    #       label: Networking
+    #     - id: referral
+    #       label: Referral
 
     # - id: how_did_you_find_your_current_job_others
     #   label: "How did you find your current job? (other)"
@@ -452,6 +476,48 @@
     #   to: 10
     #   fromLabel: Unsatisfied
     #   toLabel: Satisfied
+
+    - id: finding_first_job_difficulty
+      label: "How difficult was it to get your first job in software development job in Japan?"
+      template: single
+      options:
+        - id: value_0
+        - id: value_1
+        - id: value_2
+        - id: value_3
+        - id: value_4
+
+    - id: workplace_difficulties
+      label: Which difficulties have you encountered while working in Japan?
+      template: multipleWithOther
+      options:
+        - id: sexual_harassment
+        - id: power_harassment
+        - id: burnout
+        - id: language_barrier
+        - id: cultural_differences
+        - id: late_working_hours
+        - id: lack_of_tasks_given
+        - id: tasks_outside_job_scope
+        - id: excessive_nonwork_events
+        - id: coworker_conflicts
+        - id: company_culture
+        - id: insufficient_compensation
+        - id: bad_equipment
+        - id: unfulfilling_work_topics
+
+    - id: workplace_perks
+      label: What do you like most about working in Japan?
+      template: multipleWithOther
+      options:
+        - id: coworkers
+        - id: company_culture
+        - id: flexibility
+        - id: work_life_balance
+        - id: fulfilling_work_topics
+        - id: remote_work_friendly
+        - id: salary
+        - id: job_safety
 
 - id: employer_info
   # messageId: sections.employer_info.intro
@@ -699,34 +765,44 @@
           label: ¥30,000,000 or more per year
           average: 30500000
 
-    - id: previous_compensation
-      template: single
-      optionsAreSequential: true
-      options:
-        - id: disclosed
-        - id: not_disclosed
-        - id: not_asked
-        # - id: na
+    # removed in 2024
+    # - id: previous_compensation
+    #   template: single
+    #   optionsAreSequential: true
+    #   options:
+    #     - id: disclosed
+    #     - id: not_disclosed
+    #     - id: not_asked
+    #     # - id: na
 
-    - id: desired_compensation
-      template: single
-      optionsAreSequential: true
-      options:
-        - id: disclosed
-        - id: not_disclosed
-        - id: not_asked
-        # - id: na
+    # removed in 2024
+    # - id: desired_compensation
+    #   template: single
+    #   optionsAreSequential: true
+    #   options:
+    #     - id: disclosed
+    #     - id: not_disclosed
+    #     - id: not_asked
+    #     # - id: na
 
-    - id: negotiated_compensation
-      template: single
-      optionsAreSequential: true
-      options:
-        - id: success
-        - id: failure
-        - id: no_negotiation
-        # - id: na
+    # removed in 2024
+    # - id: negotiated_compensation
+    #   template: single
+    #   optionsAreSequential: true
+    #   options:
+    #     - id: success
+    #     - id: failure
+    #     - id: no_negotiation
+    #     # - id: na
 
-    - id: annual_paid_leave
+    - id: paid_leave_policy
+      template: singleWithOther
+      options:
+        - id: fixed
+        - id: unlimited
+        - id: none
+
+    - id: paid_leave_days_taken
       template: number
       optionsAreRange: true
       optionsAreSequential: true
@@ -754,6 +830,19 @@
         - id: range_over_40
           lowerBound: 40
           average: 45
+
+    - id: additional_vacations
+      label: In addition to your normal paid leave, which of the following does your employer offer?
+      template: multipleWithOther
+      options:
+        - id: public_holidays
+          label: Public holidays
+        - id: new_years_holidays
+          label: New Year's holidays
+        - id: obon_or_summer_holidays
+          label: Obon or Summer holidays
+        - id: sick_leave
+          label: Sick leave
 
 # - id: vacations
 #   questions:
@@ -1155,13 +1244,57 @@
         - id: idcf_cloud
         - id: z_com_cloud
 
+    - id: development_processes
+      label: Which of the following software development processes does your current employer use?
+      template: multipleWithOther
+      order: alphabetical
+      matchTags: [services]
+      options:
+        - id: agile
+        - id: scrum
+        - id: kanban
+        - id: waterfall
+        - id: extreme_programming
+        - id: rapid_application_development
+        - id: spiral_model
+        # - id: lean
+        # - id: feature_driven_development
+
+    - id: productivity_tools
+      label: Which of the following productivity tools do you use?
+      template: multipleWithOther
+      order: alphabetical
+      matchTags: [services]
+      options:
+        - id: notion
+        - id: slack
+        - id: discord
+        - id: google_docs
+        - id: jira
+        - id: trello
+        - id: evernote
+        - id: asana
+        - id: zapier
+        - id: calendly
+        - id: google_calendar
+        - id: zoom
+        - id: obsidian
+        - id: hubspot
+        - id: todoist
+        - id: docusign
+        - id: grammarly
+        - id: airtable
+        - id: basecamp
+        - id: rescuetime
+        - id: one_note
+
 - id: other
   questions:
     - id: life_in_japan
       template: likert
       order: random
       options:
-        - id: visa_situation
+        # - id: visa_situation # removed in 2024
         - id: professional_life
         - id: family_life
         - id: social_life
@@ -1170,8 +1303,8 @@
         - id: housing
         - id: financial_situation
 
-    - id: life_in_japan__visa_situation
-      template: likert_option
+    # - id: life_in_japan__visa_situation # removed in 2024
+    #   template: likert_option
     - id: life_in_japan__professional_life
       template: likert_option
     - id: life_in_japan__family_life
@@ -1209,11 +1342,14 @@
         - id: women_who_code_tokyo
         - id: women_in_technology_japan
 
-    - id: keyboard_layout
-      template: multipleWithOther
-      options:
-        - id: us_layout
-        - id: japan_layout
+    # - id: keyboard_layout
+    #   template: multipleWithOther
+    #   options:
+    #     - id: us_layout
+    #     - id: japan_layout
+
+    - id: best_thing_about_japan
+      template: text
 
     - id: how_did_user_find_out_about_the_survey
       template: text
