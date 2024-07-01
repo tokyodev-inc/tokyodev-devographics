@@ -358,7 +358,7 @@
         # - id: na
 
     - id: coworker_gender_engineers
-      label: What is gender of your colleagues who are engineers?
+      label: What is the gender of your colleagues who are engineers?
       template: single
       optionsAreSequential: true
       options:
@@ -477,47 +477,58 @@
     #   fromLabel: Unsatisfied
     #   toLabel: Satisfied
 
-    - id: finding_first_job_difficulty
-      label: "How difficult was it to get your first job in software development job in Japan?"
+    # - id: finding_first_job_difficulty
+    #   label: "How difficult was it to get your first job in software development job in Japan?"
+    #   template: single
+    #   options:
+    #     - id: value_0
+    #     - id: value_1
+    #     - id: value_2
+    #     - id: value_3
+    #     - id: value_4
+
+    - id: finding_first_job_number_of_applications
+      label: "How many positions did you have to apply to in order to find your first software developer job in Japan?"
       template: single
       options:
-        - id: value_0
-        - id: value_1
-        - id: value_2
-        - id: value_3
-        - id: value_4
+        - id: range_1
+        - id: range_2_5
+        - id: range_6_10
+        - id: range_11_20
+        - id: range_21_30
+        - id: range_31_50
+        - id: range_51_100
+        - id: range_over_100
 
     - id: workplace_difficulties
       label: Which difficulties have you encountered while working in Japan?
       template: multipleWithOther
       options:
-        - id: sexual_harassment
-        - id: power_harassment
-        - id: burnout
-        - id: language_barrier
-        - id: cultural_differences
-        - id: late_working_hours
-        - id: lack_of_tasks_given
-        - id: tasks_outside_job_scope
-        - id: excessive_nonwork_events
-        - id: coworker_conflicts
+        - id: coworker_relations
         - id: company_culture
-        - id: insufficient_compensation
-        - id: bad_equipment
-        - id: unfulfilling_work_topics
+        - id: working_conditions
+        - id: job_security
+        - id: work_content
+        - id: work_life_balance
+        - id: compensation
+        - id: training
+        - id: cultural_differences
+        - id: language_differences
 
     - id: workplace_perks
       label: What do you like most about working in Japan?
       template: multipleWithOther
       options:
-        - id: coworkers
+        - id: coworker_relations
         - id: company_culture
-        - id: flexibility
+        - id: working_conditions
+        - id: job_security
+        - id: work_content
         - id: work_life_balance
-        - id: fulfilling_work_topics
-        - id: remote_work_friendly
-        - id: salary
-        - id: job_safety
+        - id: compensation
+        - id: training
+        - id: cultural_differences
+        - id: language_differences
 
 - id: employer_info
   # messageId: sections.employer_info.intro

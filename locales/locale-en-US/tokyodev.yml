@@ -1332,6 +1332,160 @@ translations:
   - key: job_info.overall_satisfaction.description
     t: On a scale of 1 (very unsatisfied) to 10 (very satisfied).
 
+  # coworker_gender_engineers
+  - key: job_info.coworker_gender_engineers
+    t: Co-workers Gender
+  - key: job_info.coworker_gender_engineers.question
+    t: What is the gender of your colleagues who are engineers?
+  - key: options.coworker_gender_engineers.all_male
+    t: All male
+  - key: options.coworker_gender_engineers.mostly_made
+    t: Mostly male
+  - key: options.coworker_gender_engineers.mixed
+    t: Mixed
+  - key: options.coworker_gender_engineers.mostly_female_nb
+    t: Mostly female or non-binary
+  - key: options.coworker_gender_engineers.all_female_nb
+    t: All female or non-binary
+  - key: options.coworker_gender_engineers.na
+    t: Not applicable
+
+  # finding_first_job_difficulty
+  - key: job_info.finding_first_job_difficulty
+    t: First Job Search
+  - key: job_info.finding_first_job_difficulty.question
+    t: How difficult was it to find your first job in Japan?
+  - key: options.finding_first_job_difficulty.value_0
+    t: Very easy
+  - key: options.finding_first_job_difficulty.value_1
+    t: Easy
+  - key: options.finding_first_job_difficulty.value_2
+    t: Moderate
+  - key: options.finding_first_job_difficulty.value_3
+    t: Difficult
+  - key: options.finding_first_job_difficulty.value_4
+    t: Very Difficult
+  - key: options.finding_first_job_difficulty.na
+    t: Not applicable
+
+  # finding_first_job_number_of_applications
+  - key: job_info.finding_first_job_number_of_applications
+    t: Number of Applications
+  - key: job_info.finding_first_job_number_of_applications.question
+    t: How many positions did you have to apply to in order to find your first software developer job in Japan?
+
+  - key: options.finding_first_job_number_of_applications.range_1
+    t: Just one
+  - key: options.finding_first_job_number_of_applications.range_2_5
+    t: 2 to 5
+  - key: options.finding_first_job_number_of_applications.range_6_10
+    t: 6 to 10
+  - key: options.finding_first_job_number_of_applications.range_11_20
+    t: 11 to 20
+  - key: options.finding_first_job_number_of_applications.range_21_30
+    t: 21 to 30
+  - key: options.finding_first_job_number_of_applications.range_31_50
+    t: 31 to 50
+  - key: options.finding_first_job_number_of_applications.range_51_100
+    t: 51 to 100
+  - key: options.finding_first_job_number_of_applications.range_over_100
+    t: Over 100
+
+    # workplace_difficulties
+  - key: job_info.workplace_difficulties
+    t: Workplace Difficulties
+  - key: job_info.workplace_difficulties.question
+    t: What are the negative aspects of the working environment at your current employer?
+
+  # - key: options.workplace_difficulties.sexual_harassment
+  #   t: Sexual harassment
+  # - key: options.workplace_difficulties.power_harassment
+  #   t: Power harassment
+  - key: options.workplace_difficulties.language_differences
+    t: Language barrier
+  - key: options.workplace_difficulties.cultural_differences
+    t: Cultural differences
+  - key: options.workplace_difficulties.late_working_hours
+    t: Late working hour
+
+  - key: options.workplace_difficulties.lack_of_tasks_given
+    t: Lack of tasks
+  - key: options.workplace_difficulties.lack_of_tasks_given.description
+    t: Not being assigned enough tasks, excessive idle time
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: Poor work-life-balance
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: Burnout, excessive overtime, forced company events, etc.
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: Coworkers tensions
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: Sexual or power harassment, poor communication, etc.
+
+  - key: options.workplace_difficulties.company_culture
+    t: Bad company culture
+  - key: options.workplace_difficulties.company_culture.description
+    t: Toxic culture, bad work practices, etc.
+
+  - key: options.workplace_difficulties.compensation
+    t: Insufficient compensation
+
+  - key: options.workplace_difficulties.working_conditions
+    t: Bad working conditions
+  - key: options.workplace_difficulties.working_conditions.description
+    t: Old equipment, cramped spaces, etc.
+
+  - key: options.workplace_difficulties.work_content
+    t: Unfulfilling tasks
+  - key: options.workplace_difficulties.work_content.description
+    t: Being assigned uninteresting tasks, tasks outside the scope of your job description, etc.
+
+  - key: options.workplace_difficulties.job_security
+    t: Poor job security
+
+  - key: options.workplace_difficulties.training
+    t: Lack of training and development
+
+    # workplace_perks
+  - key: job_info.workplace_perks
+    t: Workplace Perks
+  - key: job_info.workplace_perks.question
+    t: What are the positive aspects of the working environment at your current employer?
+
+  - key: options.workplace_perks.coworker_relations
+    t: Coworker relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: Good relations with coworkers
+
+  - key: options.workplace_perks.company_culture
+    t: Company culture
+  - key: options.workplace_perks.company_culture.description
+    t: Positive company culture, attention to quality, etc.
+
+  - key: options.workplace_perks.work_content
+    t: Interesting tasks
+  - key: options.workplace_perks.working_conditions
+    t: Good working conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: Good work environment, modern equipment, etc.
+
+  - key: options.workplace_perks.job_security
+    t: Job security
+
+  - key: options.workplace_perks.training
+    t: Training & development
+
+  - key: options.workplace_perks.compensation
+    t: Good compensation
+  - key: options.workplace_perks.work_life_balance
+    t: Work-life balance
+
+  - key: options.workplace_perks.cultural_differences
+    t: New cultural experiences
+  - key: options.workplace_perks.language_differences
+    t: Language acquisition
+
   # COMPENSATION
 
   - key: sections.compensation.title
@@ -1593,6 +1747,31 @@ translations:
   - key: vacations.asking_for_time_off.description.td2022
     t: >
       While most respondents said they were comfortable with asking for time off, perhaps this question was too vague to give meaningful data, as someone may be comfortable with asking for a day off while not being comfortable with asking for two weeks.
+
+  # paid_leave_policy
+  - key: compensation.paid_leave_policy
+    t: Paid Leave Policy
+  - key: compensation.paid_leave_policy.question
+    t: Which paid leave policy does your current employer adopt?
+
+  - key: options.paid_leave_policy.fixed
+    t: Fixed paid leave days
+  - key: options.paid_leave_policy.unlimited
+    t: Unlimited paid leave days
+  - key: options.paid_leave_policy.none
+    t: No paid leave days
+
+  # paid_leave_days_taken
+  - key: compensation.paid_leave_days_taken
+    t: Paid Leave Days Taken
+  - key: compensation.paid_leave_days_taken.question
+    t: How many paid leave days do you usually take in a year?
+
+  # additional_vacations
+  - key: compensation.additional_vacations
+    t: Additional Vacations
+  - key: compensation.additional_vacations.question
+    t: In addition to your normal paid leave, which of the following does your employer offer?
 
   # TECHNOLOGY
 
@@ -1940,6 +2119,12 @@ translations:
     aliasFor: future_surveys.how_to_improve_survey
   - key: other.how_to_improve_survey.question
     aliasFor: future_surveys.how_to_improve_survey.question
+
+  # total_employers
+  - key: user_info.total_employers
+    t: Total Employers
+  - key: user_info.total_employers.question
+    t: How many employers have you had so far while working in Japan?
 
   # receive_notifications
 
