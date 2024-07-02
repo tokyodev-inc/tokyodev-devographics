@@ -1259,7 +1259,7 @@
       label: Which of the following software development processes does your current employer use?
       template: multipleWithOther
       order: alphabetical
-      matchTags: [services]
+      matchTags: [processes]
       options:
         - id: agile
         - id: scrum
@@ -1275,7 +1275,7 @@
       label: Which of the following productivity tools do you use?
       template: multipleWithOther
       order: alphabetical
-      matchTags: [services]
+      matchTags: [services, apps]
       options:
         - id: notion
         - id: slack
@@ -1298,6 +1298,12 @@
         - id: basecamp
         - id: rescuetime
         - id: one_note
+        - id: teams
+        - id: confluence
+        - id: backlog
+        - id: typetalk
+        - id: kintone
+        - id: cacoo
 
 - id: other
   questions:
