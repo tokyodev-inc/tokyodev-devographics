@@ -813,6 +813,19 @@
         - id: unlimited
         - id: none
 
+    - id: additional_vacations
+      label: In addition to your normal paid leave, which of the following does your employer offer?
+      template: multipleWithOther
+      options:
+        - id: public_holidays
+          label: Public holidays
+        - id: new_years_holidays
+          label: New Year's holidays
+        - id: obon_or_summer_holidays
+          label: Obon or Summer holidays
+        - id: sick_leave
+          label: Sick leave
+
     - id: paid_leave_days_taken
       template: number
       optionsAreRange: true
@@ -841,20 +854,6 @@
         - id: range_over_40
           lowerBound: 40
           average: 45
-
-    - id: additional_vacations
-      label: In addition to your normal paid leave, which of the following does your employer offer?
-      template: multipleWithOther
-      options:
-        - id: public_holidays
-          label: Public holidays
-        - id: new_years_holidays
-          label: New Year's holidays
-        - id: obon_or_summer_holidays
-          label: Obon or Summer holidays
-        - id: sick_leave
-          label: Sick leave
-
 # - id: vacations
 #   questions:
 # - id: paid_leave
@@ -930,14 +929,14 @@
           label: Kotlin
         - id: php
           label: PHP
-        - id: csharp
-          label: C#
-        - id: swift
-          label: Swift
         - id: rust
           label: Rust
-        - id: c
-          label: C
+        # - id: csharp
+        #   label: C#
+        # - id: swift
+        #   label: Swift
+        # - id: c
+        #   label: C
         - id: na
 
         # - id: assembly
@@ -1082,25 +1081,24 @@
           label: .NET
         - id: react_native
           label: React Native
-        - id: apache_spark
-          label: Apache Spark
-        - id: keras
-          label: Keras
-        - id: hadoop
-          label: Hadoop
-        - id: hugging_face_transformers
-          label: Hugging Face Transformers
-        - id: qt
-          label: Qt
         - id: flutter
           label: Flutter
-
-        - id: rabbitmq
-          label: RabbitMQ
-        - id: opengl
-          label: OpenGL
         - id: opencv
           label: Opencv
+        - id: rabbitmq
+          label: RabbitMQ
+        # - id: apache_spark
+        #   label: Apache Spark
+        # - id: keras
+        #   label: Keras
+        # - id: hadoop
+        #   label: Hadoop
+        # - id: hugging_face_transformers
+        #   label: Hugging Face Transformers
+        # - id: qt
+        #   label: Qt
+        # - id: opengl
+        #   label: OpenGL
         - id: na
 
         # - id: capacitor
@@ -1248,12 +1246,12 @@
         - id: digital_ocean
         - id: heroku
         - id: vercel
-        - id: vmware
-        - id: hetzner
-        - id: sakura_cloud
-        - id: nifcloud
-        - id: idcf_cloud
-        - id: z_com_cloud
+        # - id: vmware
+        # - id: hetzner
+        # - id: sakura_cloud
+        # - id: nifcloud
+        # - id: idcf_cloud
+        # - id: z_com_cloud
 
     - id: development_processes
       label: Which of the following software development processes does your current employer use?
@@ -1277,33 +1275,34 @@
       order: alphabetical
       matchTags: [services, apps]
       options:
-        - id: notion
+        - id: teams
+        - id: zoom
         - id: slack
-        - id: discord
         - id: google_docs
-        - id: jira
+        - id: google_calendar
+        - id: discord
+        - id: asana
+        - id: notion
         - id: trello
         - id: evernote
-        - id: asana
-        - id: zapier
-        - id: calendly
-        - id: google_calendar
-        - id: zoom
-        - id: obsidian
-        - id: hubspot
-        - id: todoist
-        - id: docusign
         - id: grammarly
-        - id: airtable
-        - id: basecamp
-        - id: rescuetime
+        - id: hubspot
+        - id: jira
         - id: one_note
-        - id: teams
-        - id: confluence
-        - id: backlog
-        - id: typetalk
-        - id: kintone
-        - id: cacoo
+        - id: docusign
+
+        # - id: zapier
+        # - id: calendly
+        # - id: obsidian
+        # - id: todoist
+        # - id: airtable
+        # - id: basecamp
+        # - id: rescuetime
+        # - id: confluence
+        # - id: backlog
+        # - id: typetalk
+        # - id: kintone
+        # - id: cacoo
 
 - id: other
   questions:
@@ -1365,7 +1364,7 @@
     #     - id: us_layout
     #     - id: japan_layout
 
-    - id: best_thing_about_japan
+    - id: favourite_thing_about_japan
       template: text
 
     - id: how_did_user_find_out_about_the_survey
