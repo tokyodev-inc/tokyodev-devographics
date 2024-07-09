@@ -806,54 +806,80 @@
     #     - id: no_negotiation
     #     # - id: na
 
-    - id: paid_leave_policy
-      template: singleWithOther
-      options:
-        - id: fixed
-        - id: unlimited
-        - id: none
+    # - id: paid_leave_policy
+    #   template: singleWithOther
+    #   options:
+    #     - id: fixed
+    #     - id: unlimited
+    #     - id: none
 
-    - id: additional_vacations
-      label: In addition to your normal paid leave, which of the following does your employer offer?
-      template: multipleWithOther
-      options:
-        - id: public_holidays
-          label: Public holidays
-        - id: new_years_holidays
-          label: New Year's holidays
-        - id: obon_or_summer_holidays
-          label: Obon or Summer holidays
-        - id: sick_leave
-          label: Sick leave
+    # - id: additional_vacations
+    #   label: In addition to your normal paid leave, which of the following does your employer offer?
+    #   template: multipleWithOther
+    #   options:
+    #     - id: public_holidays
+    #       label: Public holidays
+    #     - id: new_years_holidays
+    #       label: New Year's holidays
+    #     - id: obon_or_summer_holidays
+    #       label: Obon or Summer holidays
+    #     - id: sick_leave
+    #       label: Sick leave
 
-    - id: paid_leave_days_taken
-      template: number
+    # - id: paid_leave_days_taken
+    #   template: number
+    #   optionsAreRange: true
+    #   optionsAreSequential: true
+    #   groups:
+    #     - id: range_under_10
+    #       lowerBound: 0
+    #       average: 5
+    #       upperBound: 10
+    #     - id: range_10_14
+    #       lowerBound: 10
+    #       average: 12.5
+    #       upperBound: 15
+    #     - id: range_15_19
+    #       lowerBound: 15
+    #       average: 17.5
+    #       upperBound: 20
+    #     - id: range_20_29
+    #       lowerBound: 20
+    #       average: 25
+    #       upperBound: 30
+    #     - id: range_30_39
+    #       lowerBound: 30
+    #       average: 35
+    #       upperBound: 40
+    #     - id: range_over_40
+    #       lowerBound: 40
+    #       average: 45
+
+    - id: paid_leave_percentage
       optionsAreRange: true
       optionsAreSequential: true
       groups:
-        - id: range_under_10
+        - id: range_under_20
           lowerBound: 0
           average: 5
           upperBound: 10
-        - id: range_10_14
+        - id: range_20_39
           lowerBound: 10
           average: 12.5
           upperBound: 15
-        - id: range_15_19
+        - id: range_40_59
           lowerBound: 15
           average: 17.5
           upperBound: 20
-        - id: range_20_29
+        - id: range_60_79
           lowerBound: 20
           average: 25
           upperBound: 30
-        - id: range_30_39
+        - id: range_80_100
           lowerBound: 30
           average: 35
           upperBound: 40
-        - id: range_over_40
-          lowerBound: 40
-          average: 45
+
 # - id: vacations
 #   questions:
 # - id: paid_leave
@@ -1278,8 +1304,6 @@
         - id: teams
         - id: zoom
         - id: slack
-        - id: google_docs
-        - id: google_calendar
         - id: discord
         - id: asana
         - id: notion
@@ -1289,7 +1313,10 @@
         - id: hubspot
         - id: jira
         - id: one_note
-        - id: docusign
+
+        # - id: docusign
+        # - id: google_docs
+        # - id: google_calendar
 
         # - id: zapier
         # - id: calendly
@@ -1303,6 +1330,10 @@
         # - id: typetalk
         # - id: kintone
         # - id: cacoo
+
+        # - id: cybozu_office
+        # - id: cosense
+        # - id: chatwork
 
 - id: other
   questions:
