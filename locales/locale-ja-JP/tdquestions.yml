@@ -1,0 +1,1465 @@
+# question strings used by survey form and survey results
+
+locale: ja-JP
+translations:
+  #######################################################
+  #                                                     #
+  #                       GENERAL                       #
+  #                                                     #
+  #######################################################
+
+  - key: general.title
+    t: TokyoDev Surveys
+  - key: tokyodev.founder
+    t: TokyoDev Founder Paul McMahon
+  - key: tokyodev.about
+    t: About TokyoDev
+  - key: tokyodev.description
+    t: >
+      [TokyoDev](tokyodev.com/) started off with me writing about my own experiences being a developer in Tokyo. 
+            
+      As other international developers asked me questions about working here, I wrote articles to answer them. 
+
+      Now TokyoDev has evolved into a site dedicated to helping international developers start and grow their career in Japan.
+  - key: tokyodev.learn_more
+    t: Learn More
+
+  - key: sections.introduction.title
+    t: Introduction
+
+  - key: newsletter.stay_tuned
+    t: Don't Miss the Next Survey
+  - key: newsletter.leave_your_email
+    t: >
+      Join the TokyoDev mailing list to receive a curated selection of Japan-based software engineer jobs for English speakers, and know when the next survey takes place.
+
+  - key: newsletter.email
+    t: Your Email
+  - key: newsletter.submit
+    t: Notify Me
+
+  #######################################################
+  #                                                     #
+  #                      USER INFO                      #
+  #                                                     #
+  #######################################################
+
+  # japan_province
+  - key: user_info.japan_province
+    t: Japanese Prefecture
+  - key: user_info.japan_province.question
+    t: What prefecture is your primary residence in?
+
+  - key: options.japan_province.outside_of_japan
+    t: Outside of Japan
+  - key: options.japan_province.aichi
+    t: Aichi
+  - key: options.japan_province.akita
+    t: Akita
+  - key: options.japan_province.aomori
+    t: Aomori
+  - key: options.japan_province.chiba
+    t: Chiba
+  - key: options.japan_province.ehime
+    t: Ehime
+  - key: options.japan_province.fukui
+    t: Fukui
+  - key: options.japan_province.fukuoka
+    t: Fukuoka
+  - key: options.japan_province.fukushima
+    t: Fukushima
+  - key: options.japan_province.gifu
+    t: Gifu
+  - key: options.japan_province.gunma
+    t: Gunma
+  - key: options.japan_province.hiroshima
+    t: Hiroshima
+  - key: options.japan_province.hokkaido
+    t: Hokkaido
+  - key: options.japan_province.hyogo
+    t: Hyogo
+  - key: options.japan_province.ibaraki
+    t: Ibaraki
+  - key: options.japan_province.ishikawa
+    t: Ishikawa
+  - key: options.japan_province.iwate
+    t: Iwate
+  - key: options.japan_province.kagawa
+    t: Kagawa
+  - key: options.japan_province.kagoshima
+    t: Kagoshima
+  - key: options.japan_province.kanagawa
+    t: Kanagawa
+  - key: options.japan_province.kochi
+    t: Kochi
+  - key: options.japan_province.kumamoto
+    t: Kumamoto
+  - key: options.japan_province.kyoto
+    t: Kyoto
+  - key: options.japan_province.mie
+    t: Mie
+  - key: options.japan_province.miyagi
+    t: Miyagi
+  - key: options.japan_province.miyazaki
+    t: Miyazaki
+  - key: options.japan_province.nagano
+    t: Nagano
+  - key: options.japan_province.nagasaki
+    t: Nagasaki
+  - key: options.japan_province.nara
+    t: Nara
+  - key: options.japan_province.niigata
+    t: Niigata
+  - key: options.japan_province.oita
+    t: Oita
+  - key: options.japan_province.okayama
+    t: Okayama
+  - key: options.japan_province.okinawa
+    t: Okinawa
+  - key: options.japan_province.osaka
+    t: Osaka
+  - key: options.japan_province.saga
+    t: Saga
+  - key: options.japan_province.saitama
+    t: Saitama
+  - key: options.japan_province.shiga
+    t: Shiga
+  - key: options.japan_province.shimane
+    t: Shimane
+  - key: options.japan_province.shizuoka
+    t: Shizuoka
+  - key: options.japan_province.tochigi
+    t: Tochigi
+  - key: options.japan_province.tokushima
+    t: Tokushima
+  - key: options.japan_province.tokyo
+    t: Tokyo
+  - key: options.japan_province.tottori
+    t: Tottori
+  - key: options.japan_province.toyama
+    t: Toyama
+  - key: options.japan_province.wakayama
+    t: Wakayama
+  - key: options.japan_province.yamagata
+    t: Yamagata
+  - key: options.japan_province.yamaguchi
+    t: Yamaguchi
+  - key: options.japan_province.yamanashi
+    t: Yamanashi
+
+  # residency_status
+  - key: user_info.residency_status
+    t: Residency Status
+  - key: user_info.residency_status.question
+    t: Which residency status do you currently have in Japan?
+
+  - key: options.residency_status.japanese_citizen
+    t: Japanese citizen
+  - key: options.residency_status.permanent_resident
+    t: Permanent resident
+  - key: options.residency_status.spouse_dependent_japanese_permanent_resident
+    t: Spouse/Dependent of a Japanese National or Permanent Resident
+  - key: options.residency_status.hsfp
+    t: Highly Skilled Foreign Professional
+  - key: options.residency_status.engineer
+    t: Engineer/Specialist in Humanities/International Services
+  - key: options.residency_status.student
+    t: Student
+  - key: options.residency_status.investor_business_manager
+    t: Investor / Business Manager
+  - key: options.residency_status.dependent_foreign_resident
+    t: Dependent (of foreign resident)
+
+  - key: options.residency_status.working_holiday
+    t: Working Holiday
+  - key: options.residency_status.long_term_resident
+    t: Long-term Resident
+  - key: options.residency_status.tourist
+    t: Tourist
+
+  # reason_for_relocation
+  - key: user_info.reason_for_relocation
+    t: Reason for Relocation
+  - key: user_info.reason_for_relocation.question
+    t: Under what circumstances did you initially move to Japan?
+
+  - key: options.reason_for_relocation.sponsored_by_company
+    t: Hired from abroad by a Japan-based company
+  - key: options.reason_for_relocation.sent_by_company
+    t: Sent to Japan by my existing employer
+  - key: options.reason_for_relocation.student
+    t: As a student
+  - key: options.reason_for_relocation.dependent
+    t: As a dependent/spouse
+  - key: options.reason_for_relocation.working_holiday
+    t: On a working holiday
+  - key: options.reason_for_relocation.born_in_japan
+    t: I was born in Japan
+  - key: options.reason_for_relocation.tourist
+    t: On a tourist visa
+
+  # country
+
+  - key: user_info.country
+    t: Country or Region
+  - key: user_info.country.question
+    t: What is your country or region of citizenship?
+  - key: user_info.country.description
+    t: If you have multiple nationalities, please choose one.
+
+  # gender
+
+  - key: user_info.gender
+    t: Gender
+  - key: user_info.gender.question
+    t: Which of the following describe you?
+
+  - key: options.gender.man
+    t: Man
+  - key: options.gender.woman
+    t: Woman
+  - key: options.gender.nb_gq_gnc
+    t: Non-binary, genderqueer, or gender non-conforming
+  - key: options.gender.prefer_not_to_disclose
+    t: Prefer not to disclose
+
+  # age
+  - key: user_info.age
+    t: Age
+  - key: user_info.age.question
+    t: How old are you?
+
+  # years_of_experience
+  - key: user_info.years_of_experience
+    t: Professional Experience
+  - key: user_info.years_of_experience.question
+    t: How many years of professional experience do you have in software development?
+
+  # years_in_japan
+  - key: user_info.years_in_japan
+    t: Years in Japan
+  - key: user_info.years_in_japan.question
+    t: How many years have you lived in Japan?
+
+  # educational_attainment
+  - key: user_info.educational_attainment
+    t: Educational Attainments
+  - key: user_info.educational_attainment.question
+    t: Which of the following best describes the **highest level** of formal education that you’ve completed?
+
+  - key: options.educational_attainment.primary_elementary_school
+    t: Primary/elementary school
+
+  - key: options.educational_attainment.secondary_school
+    t: Secondary school
+  - key: options.educational_attainment.secondary_school.description
+    t: American high school, German Realschule or Gymnasium, etc.
+
+  - key: options.educational_attainment.college_no_degree
+    t: Some college/university study without earning a degree
+
+  - key: options.educational_attainment.associate_degree
+    t: Associate degree
+  - key: options.educational_attainment.associate_degree.description
+    t: A.A., A.S., etc.
+
+  - key: options.educational_attainment.bachelors_degree
+    t: Bachelor’s degree
+  - key: options.educational_attainment.bachelors_degree.description
+    t: B.A., B.S., B.Eng., etc.
+
+  - key: options.educational_attainment.masters_degree
+    t: Master’s degree
+  - key: options.educational_attainment.masters_degree.description
+    t: M.A., M.S., M.Eng., MBA, etc.
+
+  - key: options.educational_attainment.professional_degree
+    t: Professional degree
+  - key: options.educational_attainment.professional_degree.description
+    t: JD, MD, Ph.D, Ed.D, etc.
+
+  - key: options.educational_attainment.short_cycle
+    t: Short-cycle tertiary education
+  - key: options.educational_attainment.short_cycle.description
+    t: Advanced vocational training, associate degree, professional training college (*senmon gakko*), etc.
+
+  - key: options.educational_attainment.na
+    t: 🚫 None
+
+  # professional_qualifications
+  - key: user_info.professional_qualifications
+    t: Professional Qualifications
+  - key: user_info.professional_qualifications.question
+    t: What professional qualifications in **computer science** (or related fields) do you have?
+
+  - key: options.professional_qualifications.short_cycle
+    aliasFor: options.educational_attainment.short_cycle
+  - key: options.professional_qualifications.short_cycle.description
+    aliasFor: options.educational_attainment.short_cycle.description
+
+  - key: options.professional_qualifications.bachelors_degree
+    aliasFor: options.educational_attainment.bachelors_degree
+  - key: options.professional_qualifications.bachelors_degree.description
+    aliasFor: options.educational_attainment.bachelors_degree.description
+
+  - key: options.professional_qualifications.masters_degree
+    aliasFor: options.educational_attainment.masters_degree
+  - key: options.professional_qualifications.masters_degree.description
+    aliasFor: options.educational_attainment.masters_degree.description
+
+  - key: options.professional_qualifications.college_no_degree
+    aliasFor: options.educational_attainment.college_no_degree
+
+  - key: options.professional_qualifications.phd
+    t: Doctorate degree
+  - key: options.professional_qualifications.coding_bootcamp
+    t: Coding bootcamp
+  - key: options.professional_qualifications.professional_qualification
+    t: Professional qualification
+  - key: options.professional_qualifications.professional_qualification.description
+    t: AWS Devops Professional, Salesforce Certified Platform Developer, etc.
+
+  - key: options.professional_qualifications.self_taught
+    t: Self-taught
+  - key: options.professional_qualifications.online_course
+    t: Online Course
+
+  - key: options.professional_qualifications.masters_degree_unrelated
+    t: University degree (Bachelor's, Master's, or PhD) unrelated to computer science
+
+  - key: options.professional_qualifications.na
+    t: 🚫 None
+
+  # learning_how_to_code
+  - key: user_info.learning_to_code
+    t: Learning To Code
+  - key: user_info.learning_to_code.question
+    t: How do you learn to code?
+
+  - key: options.learning_to_code.other_online_resources
+    t: Other online resources (e.g., videos, blogs, forum)
+  - key: options.learning_to_code.books_physical_media
+    t: Books / Physical media
+  - key: options.learning_to_code.school
+    t: School (i.e., University, College, etc)
+  - key: options.learning_to_code.online_courses
+    t: Online Courses or Certification
+  - key: options.learning_to_code.on_the_job
+    t: On-the-job training
+  - key: options.learning_to_code.colleagues
+    t: Colleagues
+  - key: options.learning_to_code.friend_family
+    t: Friend or family member
+  - key: options.learning_to_code.bootcamp
+    t: Coding Bootcamp
+  - key: options.learning_to_code.hackathons
+    t: Hackathons (virtual or in-person)
+
+  # language_proficiency_english
+  - key: user_info.language_proficiency_english
+    t: English Ability
+  - key: user_info.language_proficiency_english.question
+    t: What is your English proficiency?
+  - key: options.language_proficiency_english.none
+    t: None
+  - key: options.language_proficiency_english.basic
+    t: Basic
+  - key: options.language_proficiency_english.conversational
+    t: Conversational
+  - key: options.language_proficiency_english.fluent
+    t: Fluent
+  - key: options.language_proficiency_english.native_bilingual
+    t: Native / bilingual
+
+  # language_proficiency_japanese
+  - key: user_info.language_proficiency_japanese
+    t: Japanese Ability
+  - key: user_info.language_proficiency_japanese.question
+    t: What is your Japanese proficiency?
+  - key: options.language_proficiency_japanese.none
+    aliasFor: options.language_proficiency_english.none
+  - key: options.language_proficiency_japanese.basic
+    aliasFor: options.language_proficiency_english.basic
+  - key: options.language_proficiency_japanese.conversational
+    aliasFor: options.language_proficiency_english.conversational
+  - key: options.language_proficiency_japanese.fluent
+    aliasFor: options.language_proficiency_english.fluent
+  - key: options.language_proficiency_japanese.native_bilingual
+    aliasFor: options.language_proficiency_english.native_bilingual
+
+  # searching_for_job
+  - key: user_info.searching_for_job
+    t: Job Search Status
+  - key: user_info.searching_for_job.question
+    t: Are you currently searching for a new job?
+
+  - key: options.searching_for_job.yes
+    t: Yes, I'm actively looking for a new job.
+  - key: options.searching_for_job.no_but_would_consider
+    t: No, but I would consider a switch if a new opportunity came along.
+  - key: options.searching_for_job.no
+    t: No
+
+  - key: options.searching_for_job.yes.short
+    t: Actively looking
+  - key: options.searching_for_job.no_but_would_consider.short
+    t: Would consider switching
+  - key: options.searching_for_job.no.short
+    t: Not looking
+
+  # employment_status
+  - key: user_info.employment_status
+    t: Employment Status
+  - key: user_info.employment_status.question
+    t: Which of the following best describes your employment status?
+
+  - key: options.employment_status.permanent_employee
+    t: Permanent employee (Seishain, 正社員)
+  - key: options.employment_status.contract_employee
+    t: Contract employee (Keiyakushain, 契約社員)
+  - key: options.employment_status.temporary_worker
+    t: Temporary worker (Haken、派遣)
+  - key: options.employment_status.freelancer_self_employed
+    t: Freelancer or self-employed (Jieigyō, 自営業)
+  - key: options.employment_status.company_director
+    t: Company director (Yakuin, 役員)
+  - key: options.employment_status.part_time
+    t: Part-time (Arubaito, アルバイト)
+  - key: options.employment_status.internship
+    t: Internship
+  - key: options.employment_status.not_employed_not_looking_for_work
+    t: Not employed, and not looking for work
+  - key: options.employment_status.not_employed_looking_for_work
+    t: Not employed, but looking for work
+  - key: options.employment_status.student
+    t: Student
+  - key: options.employment_status.retired
+    t: Retired
+
+  #######################################################
+  #                                                     #
+  #                    EMPLOYER INFO                    #
+  #                                                     #
+  #######################################################
+
+  - key: sections.employer_info.title
+    t: Employer
+
+  # current_employer
+  - key: employer_info.current_employer
+    t: Employer Type
+  - key: employer_info.current_employer.question
+    t: Which of the following best describes your current employer?
+
+  - key: options.current_employer.japanese_company
+    t: A company headquartered in Japan
+  - key: options.current_employer.japanese_subsidiary
+    t: A Japanese subsidiary of an international company
+  - key: options.current_employer.international_company
+    t: An international company without a corporate entity in Japan
+  - key: options.current_employer.sole_proprietorship
+    t: A sole proprietorship
+  - key: options.current_employer.university
+    t: A university
+
+  # industry_sector
+  - key: employer_info.industry_sector
+    t: Employer Industry
+  - key: employer_info.industry_sector.question
+    t: What industry or business domain is your current employer in?
+
+  # remote_work_policy
+  - key: employer_info.remote_work_policy
+    t: Remote Work Policy
+  - key: employer_info.remote_work_policy.question
+    t: What best describes your employer's remote work policy?
+
+  - key: options.remote_work_policy.no_remote_work
+    t: No remote work. All employees must attend the office.
+  - key: options.remote_work_policy.hybrid
+    t: Hybrid. Some remote work is permitted, but employees must regularly attend the office.
+  - key: options.remote_work_policy.up_to_employee
+    t: Up to the employee. Employees can choose whether to work remotely or in the office.
+  - key: options.remote_work_policy.fully_remote
+    t: Fully remote. All employees work completely remotely.
+  - key: options.remote_work_policy.na
+    t: 🚫 Not applicable (solo worker)
+
+  - key: options.remote_work_policy.no_remote_work.short
+    t: No remote work
+  - key: options.remote_work_policy.hybrid.short
+    t: Hybrid
+  - key: options.remote_work_policy.up_to_employee.short
+    t: Up to the employee
+  - key: options.remote_work_policy.fully_remote.short
+    t: Fully remote
+  - key: options.remote_work_policy.na.short
+    t: 🚫 Not applicable
+
+  # company_size
+  - key: employer_info.company_size
+    t: Employer Size
+  - key: employer_info.company_size.question
+    t: How many employees does your employer have (worldwide)?
+  - key: options.company_size.range_1
+    t: 1 employee
+  - key: options.company_size.range_2_9
+    t: 2 to 9 employees
+  - key: options.company_size.range_10_19
+    t: 10 to 19 employees
+  - key: options.company_size.range_20_99
+    t: 20 to 99 employees
+  - key: options.company_size.range_100_499
+    t: 100 to 499 employees
+  - key: options.company_size.range_500_999
+    t: 500 to 999 employees
+  - key: options.company_size.range_1000_4999
+    t: 1,000 to 4,999 employees
+  - key: options.company_size.range_5000_9999
+    t: 5,000 to 9,999 employees
+  - key: options.company_size.range_over_10000
+    t: 10,000 or more employees
+
+  - key: options.company_size.range_1.short
+    t: 1
+  - key: options.company_size.range_2_9.short
+    t: 2-9
+  - key: options.company_size.range_10_19.short
+    t: 10-19
+  - key: options.company_size.range_20_99.short
+    t: 20-99
+  - key: options.company_size.range_100_499.short
+    t: 100-499
+  - key: options.company_size.range_500_999.short
+    t: 500-999
+  - key: options.company_size.range_1000_4999.short
+    t: 1,000-4,999
+  - key: options.company_size.range_5000_9999.short
+    t: 5,000-9,999
+  - key: options.company_size.range_over_10000.short
+    t: 10,000+
+
+  # total_employers
+  - key: user_info.total_employers
+    t: Total Employers
+  - key: user_info.total_employers.question
+    t: How many employers have you had while working in software development?
+
+  #######################################################
+  #                                                     #
+  #                      JOB INFO                       #
+  #                                                     #
+  #######################################################
+
+  - key: sections.job_info.title
+    t: Current Job
+  - key: sections.job_info.intro
+    t: >
+      If you have multiple employers and/or clients, please answer
+      the survey based on your primary employer.
+
+  # searching_for_job
+  - key: job_info.searching_for_job
+    aliasFor: user_info.searching_for_job
+  - key: job_info.searching_for_job.question
+    aliasFor: user_info.searching_for_job.question
+
+  # employment_status
+  - key: job_info.employment_status
+    aliasFor: user_info.employment_status
+  - key: job_info.employment_status.question
+    aliasFor: user_info.employment_status.question
+
+  # current_job_description
+  - key: job_info.current_job_description
+    t: Role
+  - key: job_info.current_job_description.question
+    t: Which of the following describes your current job?
+  - key: job_info.current_job_description.description
+    t: Please select all that apply.
+
+  - key: options.current_job_description.academic_researcher
+    t: Academic researcher
+  - key: options.current_job_description.blockchain
+    t: Blockchain engineer
+  - key: options.current_job_description.cloud_infrastructure_engineer
+    t: Cloud infrastructure engineer
+  - key: options.current_job_description.data_or_business_analyst
+    t: Data or business analyst
+  - key: options.current_job_description.data_scientist_or_machine_learning
+    t: Data scientist or machine learning specialist
+  - key: options.current_job_description.database_administrator
+    t: Database administrator
+  - key: options.current_job_description.designer
+    t: Designer
+  - key: options.current_job_description.developer_back_end
+    t: Developer, back-end
+  - key: options.current_job_description.developer_desktop_or_enterprise_applications
+    t: Developer, desktop or enterprise applications
+  - key: options.current_job_description.developer_embedded_applications_or_devices
+    t: Developer, embedded applications or devices
+  - key: options.current_job_description.developer_front_end
+    t: Developer, front-end
+  - key: options.current_job_description.developer_full_stack
+    t: Developer, full-stack
+  - key: options.current_job_description.developer_game_or_graphics
+    t: Developer, game or graphics
+  - key: options.current_job_description.developer_qa_or_test
+    t: Developer, QA or test
+  - key: options.current_job_description.developer_mobile
+    t: Developer, mobile
+  - key: options.current_job_description.devops_specialist
+    t: DevOps specialist
+  - key: options.current_job_description.educator
+    t: Educator
+  - key: options.current_job_description.engineer_data
+    t: Engineer, data
+  - key: options.current_job_description.engineer_site_reliability
+    t: Engineer, site reliability
+  - key: options.current_job_description.engineering_manager
+    t: Engineering manager
+  - key: options.current_job_description.marketing_or_sales
+    t: Marketing or sales professional
+  - key: options.current_job_description.product_manager
+    t: Product manager
+  - key: options.current_job_description.scientist
+    t: Scientist
+  - key: options.current_job_description.security_professional
+    t: Security professional
+  - key: options.current_job_description.senior_executive
+    t: Senior executive (C-Suite, VP, etc.)
+  - key: options.current_job_description.system_administrator
+    t: System administrator
+
+  # coworker_nationalities_engineers
+  - key: job_info.coworker_nationalities_engineers
+    t: Colleague Nationality (Engineers)
+  - key: job_info.coworker_nationalities_engineers.question
+    t: What are the nationalities of your colleagues who are engineers?
+
+  - key: options.coworker_nationalities_engineers.all_or_mostly_japanese
+    t: All or mostly Japanese
+  - key: options.coworker_nationalities_engineers.mix_japanese_non_japanese
+    t: A mix of Japanese and non-Japanese
+  - key: options.coworker_nationalities_engineers.all_mostly_non_japanese
+    t: All or mostly non-Japanese
+  - key: options.coworker_nationalities_engineers.na
+    t: 🚫 Not applicable (solo worker)
+
+  - key: options.coworker_nationalities_engineers.all_or_mostly_japanese.short
+    t: All/mostly Japanese
+  - key: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
+    t: A mix of both
+  - key: options.coworker_nationalities_engineers.all_mostly_non_japanese.short
+    t: All/mostly non-Japanese
+  - key: options.coworker_nationalities_engineers.na.short
+    t: 🚫 Not applicable
+
+  # coworker_nationalities_non_engineers
+  - key: job_info.coworker_nationalities_non_engineers
+    t: Colleague Nationality (Non-Engineers)
+  - key: job_info.coworker_nationalities_non_engineers.question
+    t: What are the nationalities of your colleagues who are **not** engineers?
+
+  - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese
+  - key: options.coworker_nationalities_non_engineers.mix_japanese_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese
+  - key: options.coworker_nationalities_non_engineers.all_mostly_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_mostly_non_japanese
+  - key: options.coworker_nationalities_non_engineers.na
+    aliasFor: options.coworker_nationalities_engineers.na
+
+  - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese.short
+  - key: options.coworker_nationalities_non_engineers.mix_japanese_non_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
+  - key: options.coworker_nationalities_non_engineers.all_mostly_non_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.all_mostly_non_japanese.short
+  - key: options.coworker_nationalities_non_engineers.na.short
+    aliasFor: options.coworker_nationalities_engineers.na.short
+
+  # languages_used_colleagues_japanese
+  - key: job_info.languages_used_colleagues_japanese
+    t: Japanese Usage
+  - key: job_info.languages_used_colleagues_japanese.question
+    t: How frequently do you use Japanese at your workplace?
+
+  - key: options.languages_used_colleagues_japanese.never
+    t: Never
+  - key: options.languages_used_colleagues_japanese.rarely
+    t: Rarely
+  - key: options.languages_used_colleagues_japanese.sometimes
+    t: Sometimes
+  - key: options.languages_used_colleagues_japanese.frequently
+    t: Frequently
+  - key: options.languages_used_colleagues_japanese.na
+    t: 🚫 Not applicable (solo worker)
+
+  # languages_used_colleagues_english
+  - key: job_info.languages_used_colleagues_english
+    t: English Usage
+  - key: job_info.languages_used_colleagues_english.question
+    t: How frequently do you use English at your workplace?
+
+  - key: options.languages_used_colleagues_english.never
+    t: Never
+  - key: options.languages_used_colleagues_english.rarely
+    t: Rarely
+  - key: options.languages_used_colleagues_english.sometimes
+    t: Sometimes
+  - key: options.languages_used_colleagues_english.frequently
+    t: Frequently
+  - key: options.languages_used_colleagues_english.na
+    t: 🚫 Not applicable (solo worker)
+
+  # years_employed
+  - key: job_info.years_employed
+    t: Years at Current Employer
+  - key: job_info.years_employed.question
+    t: How many years have you been employed by your current employer?
+
+  # work_hours_per_week
+  - key: job_info.work_hours_per_week
+    t: Hours worked in a typical week
+  - key: job_info.work_hours_per_week.question
+    t: In a typical week, how many hours do you work?
+
+  - key: job_info.overtime_per_month
+    t: Overtime per Month
+  - key: job_info.overtime_per_month.question
+    t: In a typical month, how many hours of overtime do you work?
+
+  - key: options.overtime_per_month.range_0
+    t: No overtime
+  - key: options.overtime_per_month.range_1_9
+    t: 1 to 9 hours
+  - key: options.overtime_per_month.range_10_19
+    t: 10 to 19 hours
+  - key: options.overtime_per_month.range_20_29
+    t: 20 to 29 hours
+  - key: options.overtime_per_month.range_30_39
+    t: 30 to 39 hours
+  - key: options.overtime_per_month.range_40_49
+    t: 40 to 49 hours
+  - key: options.overtime_per_month.range_over_50
+    t: Over 50 hours
+
+  # hours_per_day
+  - key: job_info.hours_per_day
+    t: Hours per Day
+  - key: job_info.hours_per_day.question
+    t: How many hours do you work in a typical day?
+
+  - key: options.hours_per_day.range_under_4
+    t: Under 4
+  - key: options.hours_per_day.range_5
+    t: 5
+  - key: options.hours_per_day.range_6
+    t: 6
+  - key: options.hours_per_day.range_7
+    t: 7
+  - key: options.hours_per_day.range_8
+    t: 8
+  - key: options.hours_per_day.range_9
+    t: 9
+  - key: options.hours_per_day.range_over_10
+    t: Over 10
+
+  # work_days_per_week
+  - key: job_info.work_days_per_week
+    t: Days worked in a typical week
+  - key: job_info.work_days_per_week.question
+    t: In a typical week, how many days do you work?
+
+  - key: options.work_days_per_week.1
+    t: 1
+  - key: options.work_days_per_week.2
+    t: 2
+  - key: options.work_days_per_week.3
+    t: 3
+  - key: options.work_days_per_week.4
+    t: 4
+  - key: options.work_days_per_week.5
+    t: 5
+  - key: options.work_days_per_week.6
+    t: 6
+  - key: options.work_days_per_week.7
+    t: 7
+
+  # how_did_you_find_your_current_job
+  - key: job_info.how_did_you_find_your_current_job
+    t: Job-Finding Method
+  - key: job_info.how_did_you_find_your_current_job.question
+    t: How did you find your current job?
+
+  - key: options.how_did_you_find_your_current_job.company_website
+    t: Company website
+  - key: options.how_did_you_find_your_current_job.job_board
+    t: Job Board
+  - key: options.how_did_you_find_your_current_job.job_fair
+    t: Job Fair
+  - key: options.how_did_you_find_your_current_job.headhunter_external_recruiter
+    t: Headhunter / external recruiter
+  - key: options.how_did_you_find_your_current_job.internal_recruiter_from_company
+    t: Internal recruiter from company
+  - key: options.how_did_you_find_your_current_job.networking
+    t: Networking
+  - key: options.how_did_you_find_your_current_job.referral
+    t: Referral
+
+  - key: options.how_did_you_find_your_current_job.founder
+    t: Started the company
+  - key: options.how_did_you_find_your_current_job.linked_in
+    t: LinkedIn
+  - key: options.how_did_you_find_your_current_job.university
+    t: University
+  - key: options.how_did_you_find_your_current_job.friend
+    t: Through a friend
+  - key: options.how_did_you_find_your_current_job.social_media
+    t: Social media
+
+  # overall_satisfaction
+  - key: job_info.overall_satisfaction
+    aliasFor: satisfaction.overall_satisfaction
+  - key: job_info.overall_satisfaction.question
+    aliasFor: satisfaction.overall_satisfaction.question
+
+  - key: job_info.overall_satisfaction.description
+    t: On a scale of 1 (very unsatisfied) to 10 (very satisfied).
+
+  # coworker_gender_engineers
+  - key: job_info.coworker_gender_engineers
+    t: Co-workers Gender
+  - key: job_info.coworker_gender_engineers.question
+    t: What is the gender of your colleagues who are engineers?
+  - key: options.coworker_gender_engineers.all_male
+    t: All male
+  - key: options.coworker_gender_engineers.mostly_made
+    t: Mostly male
+  - key: options.coworker_gender_engineers.mixed
+    t: Mixed
+  - key: options.coworker_gender_engineers.mostly_female_nb
+    t: Mostly female or non-binary
+  - key: options.coworker_gender_engineers.all_female_nb
+    t: All female or non-binary
+  - key: options.coworker_gender_engineers.na
+    t: Not applicable
+
+  # finding_first_job_difficulty
+  - key: job_info.finding_first_job_difficulty
+    t: First Job Search
+  - key: job_info.finding_first_job_difficulty.question
+    t: How difficult was it to find your first job in Japan?
+  - key: options.finding_first_job_difficulty.value_0
+    t: Very easy
+  - key: options.finding_first_job_difficulty.value_1
+    t: Easy
+  - key: options.finding_first_job_difficulty.value_2
+    t: Moderate
+  - key: options.finding_first_job_difficulty.value_3
+    t: Difficult
+  - key: options.finding_first_job_difficulty.value_4
+    t: Very Difficult
+  - key: options.finding_first_job_difficulty.na
+    t: Not applicable
+
+  # finding_first_job_number_of_applications
+  - key: job_info.finding_first_job_number_of_applications
+    t: Number of Applications
+  - key: job_info.finding_first_job_number_of_applications.question
+    t: To get your first software developer job in Japan, how many positions did you apply to?
+
+  - key: job_info.finding_first_job_number_of_applications.prompt
+    t: Please only count applications where you initiated the process.
+
+  - key: options.finding_first_job_number_of_applications.range_0
+    t: 0 (internal transfer, recruiter, etc. )
+  - key: options.finding_first_job_number_of_applications.range_1_5
+    t: 1 to 5
+  - key: options.finding_first_job_number_of_applications.range_6_10
+    t: 6 to 10
+  - key: options.finding_first_job_number_of_applications.range_11_20
+    t: 11 to 20
+  - key: options.finding_first_job_number_of_applications.range_21_50
+    t: 21 to 50
+  - key: options.finding_first_job_number_of_applications.range_over_50
+    t: Over 50
+
+    # workplace_difficulties
+  - key: job_info.workplace_difficulties
+    t: Workplace Difficulties
+  - key: job_info.workplace_difficulties.question
+    t: What are the negative aspects of the working environment at your current employer?
+
+  # - key: options.workplace_difficulties.sexual_harassment
+  #   t: Sexual harassment
+  # - key: options.workplace_difficulties.power_harassment
+  #   t: Power harassment
+  - key: options.workplace_difficulties.language_differences
+    t: Language barrier
+  - key: options.workplace_difficulties.cultural_differences
+    t: Cultural differences
+  - key: options.workplace_difficulties.late_working_hours
+    t: Late working hour
+
+  - key: options.workplace_difficulties.lack_of_tasks_given
+    t: Lack of tasks
+  - key: options.workplace_difficulties.lack_of_tasks_given.description
+    t: Not being assigned enough tasks, excessive idle time
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: Poor work-life-balance
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: Burnout, excessive overtime, forced company events, etc.
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: Coworkers tensions
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: Sexual or power harassment, poor communication, etc.
+
+  - key: options.workplace_difficulties.company_culture
+    t: Bad company culture
+  - key: options.workplace_difficulties.company_culture.description
+    t: Toxic culture, bad work practices, etc.
+
+  - key: options.workplace_difficulties.compensation
+    t: Insufficient compensation
+
+  - key: options.workplace_difficulties.working_conditions
+    t: Bad working conditions
+  - key: options.workplace_difficulties.working_conditions.description
+    t: Old equipment, cramped spaces, etc.
+
+  - key: options.workplace_difficulties.work_content
+    t: Unfulfilling tasks
+  - key: options.workplace_difficulties.work_content.description
+    t: Being assigned uninteresting tasks, tasks outside the scope of your job description, etc.
+
+  - key: options.workplace_difficulties.job_security
+    t: Poor job security
+
+  - key: options.workplace_difficulties.training
+    t: Lack of training and development
+
+    # workplace_perks
+  - key: job_info.workplace_perks
+    t: Workplace Perks
+  - key: job_info.workplace_perks.question
+    t: What are the positive aspects of the working environment at your current employer?
+
+  - key: options.workplace_perks.coworker_relations
+    t: Coworker relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: Good relations with coworkers
+
+  - key: options.workplace_perks.company_culture
+    t: Company culture
+  - key: options.workplace_perks.company_culture.description
+    t: Positive company culture, attention to quality, etc.
+
+  - key: options.workplace_perks.work_content
+    t: Interesting tasks
+  - key: options.workplace_perks.working_conditions
+    t: Good working conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: Good work environment, modern equipment, etc.
+
+  - key: options.workplace_perks.job_security
+    t: Job security
+
+  - key: options.workplace_perks.training
+    t: Training & development
+
+  - key: options.workplace_perks.compensation
+    t: Good compensation
+  - key: options.workplace_perks.work_life_balance
+    t: Work-life balance
+
+  - key: options.workplace_perks.cultural_differences
+    t: New cultural experiences
+  - key: options.workplace_perks.language_differences
+    t: Language acquisition
+
+  #######################################################
+  #                                                     #
+  #                    COMPENSATION                     #
+  #                                                     #
+  #######################################################
+
+  - key: sections.compensation.title
+    t: Compensation
+
+  # current_total_annual_compensation
+  - key: compensation.current_total_annual_compensation
+    t: Salary
+  - key: compensation.current_total_annual_compensation.question
+    t: What is your current total annual compensation from your current employer?
+  - key: compensation.current_total_annual_compensation.description
+    t: Salary, bonuses, perks, and overtime pay, before taxes and deductions, in Japanese yen.
+
+  - key: options.current_total_annual_compensation.range_under_1000000
+    t: Under ¥1,000,000 per year
+  - key: options.current_total_annual_compensation.range_1000000_to_1999999
+    t: ¥1,000,000 to ¥1,999,999
+  - key: options.current_total_annual_compensation.range_2000000_to_2999999
+    t: ¥2,000,000 to ¥2,999,999 per year
+  - key: options.current_total_annual_compensation.range_3000000_to_3999999
+    t: ¥3,000,000 to ¥3,999,999 per year
+  - key: options.current_total_annual_compensation.range_4000000_to_4999999
+    t: ¥4,000,000 to ¥4,999,999 per year
+  - key: options.current_total_annual_compensation.range_5000000_to_5999999
+    t: ¥5,000,000 to ¥5,999,999 per year
+  - key: options.current_total_annual_compensation.range_6000000_to_6999999
+    t: ¥6,000,000 to ¥6,999,999 per year
+  - key: options.current_total_annual_compensation.range_7000000_to_7999999
+    t: ¥7,000,000 to ¥7,999,999 per year
+  - key: options.current_total_annual_compensation.range_8000000_to_8999999
+    t: ¥8,000,000 to ¥8,999,999 per year
+  - key: options.current_total_annual_compensation.range_9000000_to_9999999
+    t: ¥9,000,000 to ¥9,999,999 per year
+  - key: options.current_total_annual_compensation.range_10000000_to_10999999
+    t: ¥10,000,000 to ¥10,999,999 per year
+  - key: options.current_total_annual_compensation.range_11000000_to_11999999
+    t: ¥11,000,000 to ¥11,999,999 per year
+  - key: options.current_total_annual_compensation.range_12000000_to_12999999
+    t: ¥12,000,000 to ¥12,999,999 per year
+  - key: options.current_total_annual_compensation.range_13000000_to_13999999
+    t: ¥13,000,000 to ¥13,999,999 per year
+  - key: options.current_total_annual_compensation.range_14000000_to_14999999
+    t: ¥14,000,000 to ¥14,999,999 per year
+  - key: options.current_total_annual_compensation.range_15000000_to_15999999
+    t: ¥15,000,000 to ¥15,999,999 per year
+  - key: options.current_total_annual_compensation.range_16000000_to_16999999
+    t: ¥16,000,000 to ¥16,999,999 per year
+  - key: options.current_total_annual_compensation.range_17000000_to_17999999
+    t: ¥17,000,000 to ¥17,999,999 per year
+  - key: options.current_total_annual_compensation.range_18000000_to_18999999
+    t: ¥18,000,000 to ¥18,999,999 per year
+  - key: options.current_total_annual_compensation.range_19000000_to_19999999
+    t: ¥19,000,000 to ¥19,999,999 per year
+  - key: options.current_total_annual_compensation.range_20000000_to_20999999
+    t: ¥20,000,000 to ¥20,999,999 per year
+  - key: options.current_total_annual_compensation.range_21000000_to_21999999
+    t: ¥21,000,000 to ¥21,999,999 per year
+  - key: options.current_total_annual_compensation.range_22000000_to_22999999
+    t: ¥22,000,000 to ¥22,999,999 per year
+  - key: options.current_total_annual_compensation.range_23000000_to_23999999
+    t: ¥23,000,000 to ¥23,999,999 per year
+  - key: options.current_total_annual_compensation.range_24000000_to_24999999
+    t: ¥24,000,000 to ¥24,999,999 per year
+  - key: options.current_total_annual_compensation.range_25000000_to_25999999
+    t: ¥25,000,000 to ¥25,999,999 per year
+  - key: options.current_total_annual_compensation.range_26000000_to_26999999
+    t: ¥26,000,000 to ¥26,999,999 per year
+  - key: options.current_total_annual_compensation.range_27000000_to_27999999
+    t: ¥27,000,000 to ¥27,999,999 per year
+  - key: options.current_total_annual_compensation.range_28000000_to_28999999
+    t: ¥28,000,000 to ¥28,999,999 per year
+  - key: options.current_total_annual_compensation.range_29000000_to_29999999
+    t: ¥29,000,000 to ¥29,999,999 per year
+  - key: options.current_total_annual_compensation.range_30000000_or_more
+    t: ¥30,000,000 or more per year
+
+  # annual_paid_leave
+  - key: compensation.annual_paid_leave
+    t: Paid Leave
+  - key: compensation.annual_paid_leave.question
+    t: How many days of annual paid leave do you currently receive?
+  - key: compensation.annual_paid_leave.description
+    t: This excludes any additional leave, such as public holidays, New Year's holidays, Obon or summer holidays, or sick leave.
+  - key: compensation.annual_paid_leave.note
+    t: |
+      If you have unlimited paid leave, please put in the number of days you usually take in a year.
+
+  - key: options.annual_paid_leave.range_under_10
+    t: Under 10
+  - key: options.annual_paid_leave.range_10_14
+    t: 10-14
+  - key: options.annual_paid_leave.range_15_19
+    t: 15-19
+  - key: options.annual_paid_leave.range_20_29
+    t: 20-29
+  - key: options.annual_paid_leave.range_30_39
+    t: 30-39
+  - key: options.annual_paid_leave.range_over_40
+    t: Over 40
+
+  # previous_compensation
+  - key: compensation.previous_compensation
+    t: Previous Compensation
+  - key: compensation.previous_compensation.question
+    t: When interviewing for your current job, were you asked about your previous compensation?
+  - key: options.previous_compensation.disclosed
+    t: Yes, and I disclosed it.
+  - key: options.previous_compensation.not_disclosed
+    t: Yes, but I didn’t disclose it.
+  - key: options.previous_compensation.not_asked
+    t: No, I was never asked.
+  - key: options.previous_compensation.na
+    t: 🚫 Not Applicable
+
+  - key: options.previous_compensation.disclosed.short
+    t: Yes, disclosed it
+  - key: options.previous_compensation.not_disclosed.short
+    t: Yes, didn’t disclose it
+  - key: options.previous_compensation.not_asked.short
+    t: No, not asked
+  - key: options.previous_compensation.na.short
+    t: 🚫 Not Applicable
+
+  # desired_compensation
+  - key: compensation.desired_compensation
+    t: Desired Compensation
+  - key: compensation.desired_compensation.question
+    t: When interviewing for your current job, were you asked about your desired compensation for the new position?
+  - key: options.desired_compensation.disclosed
+    aliasFor: options.previous_compensation.disclosed
+  - key: options.desired_compensation.not_disclosed
+    aliasFor: options.previous_compensation.not_disclosed
+  - key: options.desired_compensation.not_asked
+    aliasFor: options.previous_compensation.not_asked
+  - key: options.desired_compensation.na
+    aliasFor: options.previous_compensation.na
+
+  - key: options.desired_compensation.disclosed.short
+    aliasFor: options.previous_compensation.disclosed.short
+  - key: options.desired_compensation.not_disclosed.short
+    aliasFor: options.previous_compensation.not_disclosed.short
+  - key: options.desired_compensation.not_asked.short
+    aliasFor: options.previous_compensation.not_asked.short
+  - key: options.desired_compensation.na.short
+    aliasFor: options.previous_compensation.na.short
+
+  # negotiated_compensation
+  - key: compensation.negotiated_compensation
+    t: Negotiated Compensation
+  - key: compensation.negotiated_compensation.question
+    t: When interviewing for your current job, did you attempt to negotiate your compensation?
+
+  - key: options.negotiated_compensation.success
+    t: Yes, and I successfully obtained more than the initial offer.
+  - key: options.negotiated_compensation.failure
+    t: Yes, but I wasn’t able to obtain more than the initial offer.
+  - key: options.negotiated_compensation.no_negotiation
+    t: No, I didn’t negotiate.
+  - key: options.negotiated_compensation.na
+    t: 🚫 Not Applicable
+
+  - key: options.negotiated_compensation.success.short
+    t: Yes, successfully
+  - key: options.negotiated_compensation.failure.short
+    t: Yes, unsuccessfully
+  - key: options.negotiated_compensation.no_negotiation.short
+    t: No
+  - key: options.negotiated_compensation.na.short
+    t: 🚫 Not Applicable
+
+  # country_vs_salary
+
+  - key: compensation.country_vs_salary
+    t: Salary Average by Country of Origin
+
+  - key: compensation.gender_vs_salary
+    t: Salary Percentiles by Gender
+
+  - key: compensation.salary_by_age
+    t: Salary Percentiles by Age
+
+  - key: compensation.salary_by_experience
+    t: Salary Percentiles by Professional Experience
+
+  # paid_leave_policy
+  - key: compensation.paid_leave_policy
+    t: Paid Leave Policy
+  - key: compensation.paid_leave_policy.question
+    t: Which paid leave policy does your current employer adopt?
+
+  - key: options.paid_leave_policy.fixed
+    t: Fixed paid leave days
+  - key: options.paid_leave_policy.unlimited
+    t: Unlimited paid leave days
+  - key: options.paid_leave_policy.none
+    t: No paid leave days
+
+  # additional_vacations
+  - key: compensation.additional_vacations
+    t: Additional Vacations
+  - key: compensation.additional_vacations.question
+    t: In addition to your normal paid leave, which of the following does your employer offer?
+
+  # paid_leave_days_taken
+  - key: compensation.paid_leave_days_taken
+    t: Paid Leave Days Taken
+  - key: compensation.paid_leave_days_taken.question
+    t: How many days of normal paid leave do you usually take in a year?
+
+  # paid_leave_percentage
+
+  - key: compensation.paid_leave_percentage
+    t: Paid Leave Percentage
+  - key: compensation.paid_leave_percentage.question
+    t: What percentage of your paid leave do you anticipate you'll use this year?
+
+  #######################################################
+  #                                                     #
+  #                     TECHNOLOGY                      #
+  #                                                     #
+  #######################################################
+
+  - key: sections.technology.title
+    t: Technology
+
+  # programming_languages
+  - key: technology.programming_languages
+    t: Programming Languages
+  - key: technology.programming_languages.question
+    t: Which programming languages do you regularly use on your job?
+
+  # databases
+  - key: technology.databases
+    t: Databases
+  - key: technology.databases.question
+    t: Which databases do you regularly use at your job?
+
+  # web_frameworks
+  - key: technology.web_frameworks
+    t: Web Frameworks
+  - key: technology.web_frameworks.question
+    t: "Which web frameworks do you regularly use at your job?"
+
+  # other_frameworks_libraries
+  - key: technology.other_frameworks_libraries
+    t: Other Frameworks and Libraries
+  - key: technology.other_frameworks_libraries.question
+    t: Which other frameworks and libraries do you regularly use at your job?
+
+  # developer_tools
+  - key: technology.developer_tools
+    t: Developer Tools
+  - key: technology.developer_tools.question
+    t: Which developer tools do you regularly use at your job?
+
+  # developer_environments
+  - key: technology.developer_environments
+    t: Developer Environments
+  - key: technology.developer_environments.question
+    t: Which developer environments do you regularly use at your job?
+
+  # cloud_platforms
+  - key: technology.cloud_platforms
+    t: Cloud Platforms
+  - key: technology.cloud_platforms.question
+    t: Which cloud platforms do you regularly use at your job?
+
+  # development_processes
+  - key: technology.development_processes
+    t: Development Processes
+  - key: technology.development_processes.question
+    t: Which of the following software development processes does your current employer use?
+
+  # productivity_tools
+  - key: technology.productivity_tools
+    t: Productivity Tools
+  - key: technology.productivity_tools.question
+    t: Which of the following productivity tools do you use?
+
+  - key: options.programming_languages.na
+    t: Not Applicable
+  - key: options.databases.na
+    aliasFor: options.programming_languages.na
+  - key: options.web_frameworks.na
+    aliasFor: options.programming_languages.na
+  - key: options.other_frameworks_libraries.na
+    aliasFor: options.programming_languages.na
+  - key: options.developer_tools.na
+    aliasFor: options.programming_languages.na
+  - key: options.developer_environments.na
+    aliasFor: options.programming_languages.na
+  - key: options.cloud_platforms.na
+    aliasFor: options.programming_languages.na
+
+  #######################################################
+  #                                                     #
+  #                        OTHER                        #
+  #                                                     #
+  #######################################################
+
+  - key: sections.other.title
+    t: Other Questions
+
+  # life_in_japan
+  - key: other.life_in_japan
+    t: Life in Japan
+  - key: other.life_in_japan.question
+    t: How satisfied are you with life in Japan?
+
+  - key: options.life_in_japan.visa_situation
+    t: Visa Situation Satisfaction
+  - key: options.life_in_japan.visa_situation.description
+    t: Visa type, length of visa, ease of renewal, etc.
+  - key: satisfaction.life_in_japan__visa_situation.description
+    aliasFor: options.life_in_japan.visa_situation.description
+
+  - key: options.life_in_japan.professional_life
+    t: Professional Life Satisfaction
+  - key: options.life_in_japan.professional_life.description
+    t: Career prospects, working conditions, work-life balance, etc.
+  - key: satisfaction.life_in_japan__professional_life.description
+    aliasFor: options.life_in_japan.professional_life.description
+
+  - key: options.life_in_japan.family_life
+    t: Family Life Satisfaction
+  - key: options.life_in_japan.family_life.description
+    t: Romantic relationships, children, etc.
+  - key: satisfaction.life_in_japan__family_life.description
+    aliasFor: options.life_in_japan.family_life.description
+
+  - key: options.life_in_japan.social_life
+    t: Social Life Satisfaction
+  - key: options.life_in_japan.social_life.description
+    t: Friends, hobbies, community, etc.
+  - key: satisfaction.life_in_japan__social_life.description
+    aliasFor: options.life_in_japan.social_life.description
+
+  - key: options.life_in_japan.cultural_adjustment
+    t: Cultural Adjustment Satisfaction
+  - key: options.life_in_japan.cultural_adjustment.description
+    t: Culture fit, language proficiency, etc.
+  - key: satisfaction.life_in_japan__cultural_adjustment.description
+    aliasFor: options.life_in_japan.cultural_adjustment.description
+
+  - key: options.life_in_japan.quality_of_life
+    t: Quality of Life Satisfaction
+  - key: options.life_in_japan.quality_of_life.description
+    t: Environment, healthcare, safety, etc.
+  - key: satisfaction.life_in_japan__quality_of_life.description
+    aliasFor: options.life_in_japan.quality_of_life.description
+
+  - key: options.life_in_japan.housing
+    t: Housing Satisfaction
+  - key: options.life_in_japan.housing.description
+    t: Amenities, location, housing size, etc.
+  - key: satisfaction.life_in_japan__housing.description
+    aliasFor: options.life_in_japan.housing.description
+
+  - key: options.life_in_japan.financial_situation
+    t: Financial Situation Satisfaction
+  - key: options.life_in_japan.financial_situation.description
+    t: Compensation, cost of living, managing finances, etc.
+  - key: satisfaction.life_in_japan__financial_situation.description
+    aliasFor: options.life_in_japan.financial_situation.description
+
+  # online_communities
+  - key: other.online_communities
+    t: Online Communities
+  - key: other.online_communities.question
+    t: Which Japan-based developer-focused online communities do you regularly participate in?
+
+  - key: options.online_communities.tokyodev_discord
+    t: TokyoDev Discord
+  - key: options.online_communities.hn_tokyo
+    t: HN Tokyo
+  - key: options.online_communities.hn_kansai
+    t: HN Kansai
+  - key: options.online_communities.owddm
+    t: Osaka Web Designers and Developers Meetup
+  # - key: options.online_communities.reddit_japan
+  #   t: r/japan
+  # - key: options.online_communities.reddit_japanlife
+  #   t: r/japanlife
+  # - key: options.online_communities.gaijinpot
+  #   t: GaijinPot
+  # - key: options.online_communities.facebook_groups
+  #   t: Japan-focused Facebook groups
+  # - key: options.online_communities.meetup_groups
+  #   t: Japan-focused LinkedIn groups
+
+  - key: other.communities
+    t: Developer Communities
+  - key: other.communities.question
+    t: Which Japan-based developer communities are you a member of?
+
+  # keyboard_layout
+  - key: other.keyboard_layout
+    t: Keyboard Layout
+  - key: other.keyboard_layout.question
+    t: What kind of keyboard layout do you use?
+  - key: other.keyboard_layout.takeaway.td2023
+    t: The U.S. keyboard layout was used by the majority of respondents, even those who were native Japanese speakers.
+
+  - key: options.keyboard_layout.us_layout
+    t: U.S. Keyboard Layout
+  - key: options.keyboard_layout.japan_layout
+    t: Japanese Keyboard Layout
+
+  - key: other.how_did_user_find_out_about_the_survey
+    t: Survey Referrer
+  - key: other.how_did_user_find_out_about_the_survey.question
+    t: How did you hear about the survey?
+
+  # how_to_improve_survey
+  - key: other.how_to_improve_survey
+    t: Future Surveys
+  - key: other.how_to_improve_survey.question
+    t: How can we improve future surveys?
+
+  # best_thing_about_japan
+  - key: other.favourite_thing_about_japan
+    t: Favourite Thing
+  - key: other.favourite_thing_about_japan.question
+    t: In a word, what is your favourite thing about Japan?
+
+  # receive_notifications
+
+  - key: other.receive_notifications
+    t: Notifications
+  - key: other.receive_notifications.question
+    t: Do you want to be notified when the survey results are released?
+  - key: other.receive_notifications.note
+    t: >
+      We don't store any private data, so after your email address is sent to our
+      mailing list provider it will be deleted from our own records.
+
+  - key: other.receive_notifications.yes
+    t: Yes, email me when the survey results are published
+
+  #######################################################
+  #                                                     #
+  #                    PRIVACY POLICY                   #
+  #                                                     #
+  #######################################################
+
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Data Collection
+
+      In addition to the data collected through a survey's questions, we collect your device, browser, OS, browser version, and referrer.
+
+      Note that all questions are entirely optional, and we never link any identifiable information (such as email addresses) to your survey answers. 
+
+      ### 2. Email Collection
+
+      We may optionally collect your email to:
+
+
+      1. Generate a magic log-in link, after which we discard your email and only keep a one-way hash in our user database.
+
+      2. Contact you once survey results are available, as well as when we launch future editions of a survey and for infrequent announcements. You can unsubscribe from our mailing list at any time, and your email is discarded from our records once it is sent to our email newsletter provider.
+
+      3. Send you a recap list of features or tools you want to learn more about. We will discard your address once the email has been sent out through our transactional email provider. 
+
+
+      When we do collect your email address, it is never linked to your responses for a survey, or to your user account. 
+
+      ### 3. Cookies
+
+      We set a log-in cookie, and our hosting provider (Render) may also sets its own cookie. We do not set any other cookie or use client-side analytics or ads.
+
+      ### 4. Data Use
+
+      We process the data and then use it to publish reports. We also make the entire dataset publicly available.
+
+      ### 5. Data/Account Deletion
+
+      You can email us at [surveys@tokyodev.com](mailto:surveys@tokyodev.com) if you'd like us to delete all or part of your data.

@@ -1,0 +1,209 @@
+# used by all survey results
+
+locale: ja-JP
+translations:
+  - key: user_info.country_vs_salary
+    t: Country vs Salary
+
+  # Years Grouped
+  - key: options.years.range_under_1
+    t: Under 1
+  - key: options.years.range_1_3
+    t: 1-3
+  - key: options.years.range_4_6
+    t: 4-6
+  - key: options.years.range_7_9
+    t: 7-9
+  - key: options.years.range_10_12
+    t: 10-12
+  - key: options.years.range_13_15
+    t: 13-15
+  - key: options.years.range_16_20
+    t: 16-20
+  - key: options.years.range_over_20
+    t: Over 20
+
+  # compensation.current_total_annual_compensation
+
+  - key: options.current_total_annual_compensation.range_under_2999999
+    t: Under ¥2.9m
+  - key: options.current_total_annual_compensation.range_3000000_to_5999999
+    t: ¥3.0-5.9m
+  - key: options.current_total_annual_compensation.range_6000000_to_8999999
+    t: ¥6.0-8.9m
+  - key: options.current_total_annual_compensation.range_9000000_to_11999999
+    t: ¥9.0-11.9m
+  - key: options.current_total_annual_compensation.range_12000000_to_14999999
+    t: ¥12.0-14.9m
+  - key: options.current_total_annual_compensation.range_15000000_to_19999999
+    t: ¥15.0-19.9m
+  - key: options.current_total_annual_compensation.range_over_20000000
+    t: Over ¥20.0m
+
+  # satisfaction
+
+  - key: options.satisfaction.0
+    aliasFor: likert.option.0
+  - key: options.satisfaction.1
+    aliasFor: likert.option.1
+  - key: options.satisfaction.2
+    aliasFor: likert.option.2
+  - key: options.satisfaction.3
+    aliasFor: likert.option.3
+  - key: options.satisfaction.4
+    aliasFor: likert.option.4
+
+  # - key: options.satisfaction.0.short
+  #   t: 1
+  # - key: options.satisfaction.1.short
+  #   t: 2
+  # - key: options.satisfaction.2.short
+  #   t: 3
+  # - key: options.satisfaction.3.short
+  #   t: 4
+  # - key: options.satisfaction.4.short
+  #   t: 5
+
+  - key: satisfaction.life_in_japan__visa_situation
+    aliasFor: options.life_in_japan.visa_situation
+  - key: satisfaction.life_in_japan__professional_life
+    aliasFor: options.life_in_japan.professional_life
+  - key: satisfaction.life_in_japan__family_life
+    aliasFor: options.life_in_japan.family_life
+  - key: satisfaction.life_in_japan__social_life
+    aliasFor: options.life_in_japan.social_life
+  - key: satisfaction.life_in_japan__cultural_adjustment
+    aliasFor: options.life_in_japan.cultural_adjustment
+  - key: satisfaction.life_in_japan__quality_of_life
+    aliasFor: options.life_in_japan.quality_of_life
+  - key: satisfaction.life_in_japan__housing
+    aliasFor: options.life_in_japan.housing
+  - key: satisfaction.life_in_japan__financial_situation
+    aliasFor: options.life_in_japan.financial_situation
+
+  - key: other.life_in_japan_option.question
+    t: On a scale of 1 (very unsatisfied) to 5 (very satisfied), how satisfied are you with this aspect of life in Japan?
+
+  - key: satisfaction.life_in_japan__visa_situation.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__professional_life.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__family_life.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__social_life.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__cultural_adjustment.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__quality_of_life.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__housing.question
+    aliasFor: other.life_in_japan_option.question
+  - key: satisfaction.life_in_japan__financial_situation.question
+    aliasFor: other.life_in_japan_option.question
+
+  ### TokyoDev
+
+  - key: user_info.nationality.description
+    t: |
+      This survey was conducted in English. Despite this, the respondents were incredibly diverse, representing 72 different countries. The top three nationalities were American (21%), French (8%), and British (7%).
+
+  - key: user_info.nationality_vs_salary
+    t: Nationality correlated with salary
+
+  - key: user_info.nationality_vs_salary.description
+    t: |
+      Respondents' nationalities correlated with their salary, with those from Oceania having the highest median compensation, while those from North America had the highest 75th percentile salary. The disparity in salaries extended across experience levels.
+
+  - key: user_info.gender_vs_salary
+    t: Gender vs Salary
+  - key: user_info.gender_vs_salary.description
+    t: |
+      Women tended to be less experienced than men, having a mean of 5 years experience compared to 8 years for men, partially explaining the difference in compensation. However, even when comparing the genders across similar experience levels, this gap in pay remained.
+
+      Men were also more likely then women to have a high paying role: while 21% of men had a role that was among the top five highest paying, only 4% of women did.
+
+  - key: options.age.range_under_20
+    t: Under 20
+  - key: options.age.range_20_29
+    t: 20-29
+  - key: options.age.range_30_39
+    t: 30-39
+  - key: options.age.range_40_49
+    t: 40-49
+  - key: options.age.range_50_59
+    t: 50-59
+  - key: options.age.range_over_60
+    t: Over 60
+
+  - key: user_info.salary_by_age
+    t: Salary by Age
+  - key: user_info.salary_by_age.description.td2022
+    t: 47% of respondents in their 30s made at least ¥10 million.
+
+  - key: user_info.salary_by_experience
+    t: Salary by Experience
+  - key: user_info.salary_by_experience.description.td2022
+    t: |
+      Compared with the previous year, median salary increased across experience levels, the only exception being respondents with 4 - 7 years of experience, for whom it remained unchanged.
+
+  - key: options.experience.range_under_1
+    t: Under 1 year
+  - key: options.experience.range_1_3
+    t: 1-3 years
+  - key: options.experience.range_4_6
+    t: 4-6 years
+  - key: options.experience.range_7_9
+    t: 7-9 years
+  - key: options.experience.range_10_12
+    t: 10-12 years
+  - key: options.experience.range_13_15
+    t: 13-15 years
+  - key: options.experience.range_16_20
+    t: 16-20 years
+  - key: options.experience.range_over_20
+    t: Over 20 years
+
+  - key: tabs.overall
+    t: Overall
+  - key: tabs.compensation
+    t: Compensation
+  - key: tabs.by_salary
+    t: Salary Breakdown
+  - key: tabs.by_years_in_japan
+    t: By Years in Japan
+  - key: tabs.by_remote_work
+    t: By Remote Work
+  - key: tabs.by_current_employer
+    t: By Employer Type
+  - key: tabs.by_japanese_province
+    t: By Prefecture
+  - key: tabs.by_gender
+    t: By Gender
+  - key: tabs.by_years_of_experience
+    t: By Years of Experience
+  - key: tabs.by_company_size
+    t: By Employer Size
+  - key: tabs.by_educational_attainment
+    t: By Educational Attainment
+  - key: tabs.by_residency_status
+    t: By Residency Status
+  - key: tabs.by_negotiated_compensation
+    t: By Negotiated Compensation
+  - key: tabs.by_japanese_proficiency
+    t: By Japanese Proficiency
+  - key: tabs.by_age
+    t: By Age
+
+  - key: tabs.frontend_vs_backend
+    t: Front-end vs Back-end
+  - key: tabs.data_science
+    t: Data Science
+  - key: tabs.devops
+    t: Devops
+
+  - key: user_info.gender_vs_overall_satisfaction
+    t: |
+      Lower compensation for women drove lower overall job satisfaction
+  - key: user_info.gender_vs_overall_satisfaction.description.td2022
+    t: |
+      Women were less satisfied with their job than men, with a median overall satisfaction score of 7 compared to 8 for men. This seems driven by their lower compensation, as the median satisfaction of their compensation was 6 compared to 7 for men, while other measures all had a median of 8.
