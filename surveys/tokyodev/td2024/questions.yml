@@ -488,17 +488,15 @@
     #     - id: value_4
 
     - id: finding_first_job_number_of_applications
-      label: "How many positions did you have to apply to in order to find your first software developer job in Japan?"
+      label: "To get your first software developer job in Japan, how many positions did you apply to?"
       template: single
       options:
-        - id: range_1
-        - id: range_2_5
+        - id: range_0
+        - id: range_1_5
         - id: range_6_10
         - id: range_11_20
-        - id: range_21_30
-        - id: range_31_50
-        - id: range_51_100
-        - id: range_over_100
+        - id: range_21_50
+        - id: range_over_50
 
     - id: workplace_difficulties
       label: Which difficulties have you encountered while working in Japan?

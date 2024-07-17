@@ -1,8 +1,13 @@
+# question strings used by survey form and survey results
+
 locale: en-US
 translations:
-  ### INTRODUCTION
+  #######################################################
+  #                                                     #
+  #                       GENERAL                       #
+  #                                                     #
+  #######################################################
 
-  ### About TokyoDev
   - key: general.title
     t: TokyoDev Surveys
   - key: tokyodev.founder
@@ -22,31 +27,6 @@ translations:
   - key: sections.introduction.title
     t: Introduction
 
-  - key: introduction.td2022
-    t: |
-      In October 2022, we asked 558 international software engineers living in Japan about their salary, working conditions, and technology used to better help you get an idea of what it's like working in Japan.
-  - key: introduction.td2023
-    t: |
-      [TokyoDev](https://tokyodev.com) helps international developers start and grow their career in Japan.
-
-      One way we do this is through conducting an annual survey of international developers already living here, and in this fifth edition, 713 developers told us about their salary, working conditions, and technology used.
-
-      We've also added the ability for readers like yourself to **customize any chart's data** with your own filters. We've highlighted some correlations we think are interesting as a starting point, but there's always more to be discovered.
-
-      Providing this functionality while preserving the anonymity of participants was paramount to us. It was only possible that we were able to do it thanks to the 713 developers who took the survey, so a big thank you to everyone who took it!
-
-      With all that said, we're excited to share the results of our largest survey yet!
-
-  - key: general.td2023.survey_intro
-    t: |
-      As Japan continues to attract engineering talent from around the world, it's worth taking a moment to try and get a better idea of what it's like working as an international software developer in Japan.
-
-      This is why once again, we are holding the annual TokyoDev Developer Survey to try and find out more about job satisfaction, compensation, technological choices, and much more. [Last year’s survey](https://www.tokyodev.com/insights/2022-developer-survey) got over 500 responses, and this year we intend to reach an even wider audience.
-
-      The survey is anonymous, and we will only release aggregated data to avoid disclosing any personal information. The more responses we get, the more interesting insights we’ll be able to share, so please help out by answering the survey and sharing it with your peers!
-
-  ### Newsletter
-
   - key: newsletter.stay_tuned
     t: Don't Miss the Next Survey
   - key: newsletter.leave_your_email
@@ -58,91 +38,17 @@ translations:
   - key: newsletter.submit
     t: Notify Me
 
-  ### TAKEAWAYS
-
-  - key: sections.takeaways.title
-    t: Takeaways
-
-  # - key: takeaways.median_salary_2023.heading
-  #   t: Median Salary
-  - key: takeaways.median_salary_2023
-    t: |
-      The median salary of respondents was [¥8.5 million](/en-US/compensation/#current_total_annual_compensation), down ¥1 million from last year. This may partially be explained by respondents [tending to be less experienced](/en-US/demographics/#years_of_experience) than the previous year.
-
-  # - key: takeaways.previous_compensation_2023.heading
-  #   t: Previous Compensation
-  - key: takeaways.previous_compensation_2023
-    t: |
-      Respondents who worked for a subsidiary of an international company were more [successful at negotiation](/en-US/compensation/#negotiated_compensation) than those working for a Japanese headquartered one.
-
-  # - key: takeaways.negotiated_compensation_2023.heading
-  #   t: Negotiated Compensation
-  - key: takeaways.negotiated_compensation_2023
-    t: |
-      Respondents [who declined to give their previous compensation](/en-US/compensation/#previous_compensation) when interviewing were more likely to successfully negotiate a higher salary.
-
-  # - key: takeaways.unemployed_respondents_2023.heading
-  #   t: Unemployed Respondents
-  - key: takeaways.unemployed_respondents_2023
-    t: |
-      [2.6% of respondents were unemployed](/en-US/job-info/#employment_status), up from 0.5% in 2022.
-
-  # - key: takeaways.job_search_status_2023.heading
-  #   t: Job Search
-  - key: takeaways.job_search_status_2023
-    t: |
-      19% of respondents were [actively looking for a job](/en-US/job-info/#searching_for_job), up from 11% last year.
-
-  # - key: takeaways.international_subsidiary_2023.heading
-  #   t: International Subsidaries
-  - key: takeaways.international_subsidiary_2023
-    t: |
-      Respondents working for a Japanese subsidiary of an international company had a [73% higher median compensation](/en-US/employer-info/#current_employer) than those working for a company headquartered in Japan.
-
-  # - key: takeaways.remote_work_2023.heading
-  #   t: Remote Work
-  - key: takeaways.remote_work_2023
-    t: |
-      [59% of respondents could work fully remotely](/en-US/employer-info/#remote_work_policy), down from 70% last year. Those working at companies that embraced remote work had a higher median professional experience.
-
-  # - key: takeaways.women_vs_men_experience_2023.heading
-  #   t: Men vs Women
-  - key: takeaways.women_vs_men_experience_2023
-    t: |
-      While male and female respondents had [lived in Japan](/en-US/demographics/#years_in_japan) for similar periods of time, female respondents had significantly less [professional software development experience](/en-US/demographics/#years_of_experience).
-
-  # - key: takeaways.women_vs_men_professional_qualifications_2023.heading
-  #   t: Professional Qualifications
-  - key: takeaways.women_vs_men_professional_qualifications_2023
-    t: |
-      Women respondents [were much more likely](/en-US/demographics/#professional_qualifications) to have attended a coding bootcamp than men. While 11.6% male of respondents had graduated from a coding bootcamp, 32.4% of female respondents did.
-
-  # - key: takeaways.overtime_2023.heading
-  #   t: Overtime
-  - key: takeaways.overtime_2023
-    t: |
-      79.4% of respondents worked [8 hours or less](/en-US/job-info/#hours_per_day) in a typical day.
-
-  # - key: takeaways.programming_languages_2023.heading
-  #   t: Programming Languages
-  - key: takeaways.programming_languages_2023
-    t: |
-      39.2% of [respondents using Java](/en-US/technology/#programming_languages) worked at a company of 10,000 or more employees, while 43.5% of respondents using Ruby worked at a company of 20 to 99 employees.
-
-  ### USER INFO
-  - key: sections.user_info.title
-    t: About You
-  - key: sections.demographics.title
-    t: Demographics
+  #######################################################
+  #                                                     #
+  #                      USER INFO                      #
+  #                                                     #
+  #######################################################
 
   # japan_province
   - key: user_info.japan_province
     t: Japanese Prefecture
   - key: user_info.japan_province.question
     t: What prefecture is your primary residence in?
-  - key: user_info.japan_province.takeaway.td2023
-    t: >
-      78.5% of respondents lived in the Greater Tokyo Area (Tokyo, Saitama, Chiba, and Kanagawa), down from 85% last year. While respondents in Tokyo went from 65% to 60.5%, the percentages for other respondents were largely unchanged.
 
   - key: options.japan_province.outside_of_japan
     t: Outside of Japan
@@ -246,12 +152,6 @@ translations:
     t: Residency Status
   - key: user_info.residency_status.question
     t: Which residency status do you currently have in Japan?
-  - key: user_info.residency_status.description.td2022
-    t: >
-      59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
-  - key: user_info.residency_status.takeaway.td2023
-    t: |
-      59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
 
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
@@ -277,17 +177,11 @@ translations:
   - key: options.residency_status.tourist
     t: Tourist
 
+  # reason_for_relocation
   - key: user_info.reason_for_relocation
     t: Reason for Relocation
   - key: user_info.reason_for_relocation.question
     t: Under what circumstances did you initially move to Japan?
-  - key: user_info.reason_for_relocation.takeaway.td2023
-    t: |
-      Just over half of respondents moved to Japan with a job already lined up, be it they were hired from abroad by a Japan based organization or sent to Japan with their existing employer.
-
-      Respondents who were sent by their employer to Japan had a median salary that was 70% above the overall median.
-
-      Those sent to Japan were also far more likely to be working for the subsidiary of an international company: 45% of such respondents said they did, compared to 19% of respondents overall.
 
   - key: options.reason_for_relocation.sponsored_by_company
     t: Hired from abroad by a Japan-based company
@@ -303,40 +197,8 @@ translations:
     t: I was born in Japan
   - key: options.reason_for_relocation.tourist
     t: On a tourist visa
-  # - key: options.reason_for_relocation.
-  #   t:
 
-  # residency_status at time of first job offer
-  # - key: user_info.residency_status_first_job_offer
-  #   t: Residency Status For First Job Offer
-  # - key: user_info.residency_status_first_job_offer.question
-  #   t: Which residency status did you have when you were first hired as a software developer in Japan?
-
-  # - key: options.residency_status_first_job_offer.outside_japan
-  #   t: None. I was residing outside of Japan at the time of the offer
-  # - key: options.residency_status_first_job_offer.tourist
-  #   t: Tourist. I was temporarily visiting Japan at the time of the offer
-  # - key: options.residency_status_first_job_offer.japanese_citizen
-  #   aliasFor: options.residency_status.japanese_citizen
-  # - key: options.residency_status_first_job_offer.permanent_resident
-  #   aliasFor: options.residency_status.permanent_resident
-  # - key: options.residency_status_first_job_offer.spouse_dependent_japanese_permanent_resident
-  #   aliasFor: options.residency_status.spouse_dependent_japanese_permanent_resident
-  # - key: options.residency_status_first_job_offer.hsfp
-  #   aliasFor: options.residency_status.hsfp
-  # - key: options.residency_status_first_job_offer.engineer
-  #   aliasFor: options.residency_status.engineer
-  # - key: options.residency_status_first_job_offer.student
-  #   aliasFor: options.residency_status.student
-  # - key: options.residency_status_first_job_offer.investor_business_manager
-  #   aliasFor: options.residency_status.investor_business_manager
-  # - key: options.residency_status_first_job_offer.dependent_foreign_resident
-  #   aliasFor: options.residency_status.dependent_foreign_resident
-
-  # - key: user_info.nationality
-  #   t: Nationality
-  # - key: user_info.nationality.question
-  #   t: What is your nationality?
+  # country
 
   - key: user_info.country
     t: Country or Region
@@ -344,21 +206,13 @@ translations:
     t: What is your country or region of citizenship?
   - key: user_info.country.description
     t: If you have multiple nationalities, please choose one.
-  - key: user_info.country.takeaway.td2023
-    t: |
-      Despite the survey being conducted in English, the respondents were quite diverse, holding citizenships from 68 countries or regions.
 
   # gender
+
   - key: user_info.gender
     t: Gender
   - key: user_info.gender.question
     t: Which of the following describe you?
-  - key: user_info.gender.description.td2022
-    t: >
-      The overwhelming majority of respondents described themselves as male. While we had respondents who identify as neither male or female, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
-  - key: user_info.gender.takeaway.td2023
-    t: |
-      The overwhelming majority of respondents described themselves as a man. While we had respondents who identify as neither a man or a woman, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
 
   - key: options.gender.man
     t: Man
@@ -374,242 +228,24 @@ translations:
     t: Age
   - key: user_info.age.question
     t: How old are you?
-  - key: user_info.age.description.td2022
-    t: >
-      79% of respondents were between 25 and 39 years of age.
-  - key: user_info.age.takeaway.td2023
-    t: |
-      The majority of respondents were in their thirties, and 81.9% were under fourty.
-
-
-      Women respondents tended to be younger than men, with 44.3% of them being under 30, compared to 28.7% of men.
 
   # years_of_experience
   - key: user_info.years_of_experience
     t: Professional Experience
   - key: user_info.years_of_experience.question
     t: How many years of professional experience do you have in software development?
-  - key: user_info.years_of_experience.description.td2022
-    t: |
-      The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
-  - key: user_info.years_of_experience.takeaway.td2023
-    t: |
-      The median respondent had 5 years of professional software development experience, down from 7 years from 2022’s survey.
-
-      Male respondents had a median of 8 years professional experience, while women had a median of 2 years.
-
-  - key: options.years_of_experience.0
-    t: Under a year
-  - key: options.years_of_experience.1
-    t: 1 year
-  - key: options.years_of_experience.2
-    t: 2 years
-  - key: options.years_of_experience.3
-    t: 3 years
-  - key: options.years_of_experience.4
-    t: 4 years
-  - key: options.years_of_experience.5
-    t: 5 years
-  - key: options.years_of_experience.6
-    t: 6 years
-  - key: options.years_of_experience.7
-    t: 7 years
-  - key: options.years_of_experience.8
-    t: 8 years
-  - key: options.years_of_experience.9
-    t: 9 years
-  - key: options.years_of_experience.10
-    t: 10 years
-  - key: options.years_of_experience.11
-    t: 11 years
-  - key: options.years_of_experience.12
-    t: 12 years
-  - key: options.years_of_experience.13
-    t: 13 years
-  - key: options.years_of_experience.14
-    t: 14 years
-  - key: options.years_of_experience.15
-    t: 15 years
-  - key: options.years_of_experience.16
-    t: 16 years
-  - key: options.years_of_experience.17
-    t: 17 years
-  - key: options.years_of_experience.18
-    t: 18 years
-  - key: options.years_of_experience.19
-    t: 19 years
-  - key: options.years_of_experience.20
-    t: 20 years
-  - key: options.years_of_experience.21
-    t: 21 years
-  - key: options.years_of_experience.22
-    t: 22 years
-  - key: options.years_of_experience.23
-    t: 23 years
-  - key: options.years_of_experience.24
-    t: 24 years
-  - key: options.years_of_experience.25
-    t: 25 years
-  - key: options.years_of_experience.26
-    t: 26 years
-  - key: options.years_of_experience.27
-    t: 27 years
-  - key: options.years_of_experience.28
-    t: 28 years
-  - key: options.years_of_experience.29
-    t: 29 years
-  - key: options.years_of_experience.30
-    t: 30 years
-  - key: options.years_of_experience.31
-    t: 31 years
-  - key: options.years_of_experience.32
-    t: 32 years
-  - key: options.years_of_experience.33
-    t: 33 years
-  - key: options.years_of_experience.34
-    t: 34 years
-  - key: options.years_of_experience.35
-    t: 35 years
-  - key: options.years_of_experience.36
-    t: 36 years
-  - key: options.years_of_experience.37
-    t: 37 years
-  - key: options.years_of_experience.38
-    t: 38 years
-  - key: options.years_of_experience.39
-    t: 39 years
-  - key: options.years_of_experience.40
-    t: 40 years
-  - key: options.years_of_experience.41
-    t: 41 years
-  - key: options.years_of_experience.42
-    t: 42 years
-  - key: options.years_of_experience.43
-    t: 43 years
-  - key: options.years_of_experience.44
-    t: 44 years
-  - key: options.years_of_experience.45
-    t: 45 years
-  - key: options.years_of_experience.46
-    t: More than 45 years
 
   # years_in_japan
   - key: user_info.years_in_japan
     t: Years in Japan
   - key: user_info.years_in_japan.question
     t: How many years have you lived in Japan?
-  - key: user_info.years_in_japan.description.td2022
-    t: |
-      Respondents lived in Japan for a median of 5 years.
-  - key: user_info.years_in_japan.takeaway.td2023
-    t: |
-      Respondents lived in Japan for a median of 5 years. Despite the considerable differences in professional experience between male and female respondents, the median time lived in Japan was the same.
-
-  - key: options.years_in_japan.0
-    t: Under a year
-  - key: options.years_in_japan.1
-    t: 1 year
-  - key: options.years_in_japan.2
-    t: 2 years
-  - key: options.years_in_japan.3
-    t: 3 years
-  - key: options.years_in_japan.4
-    t: 4 years
-  - key: options.years_in_japan.5
-    t: 5 years
-  - key: options.years_in_japan.6
-    t: 6 years
-  - key: options.years_in_japan.7
-    t: 7 years
-  - key: options.years_in_japan.8
-    t: 8 years
-  - key: options.years_in_japan.9
-    t: 9 years
-  - key: options.years_in_japan.10
-    t: 10 years
-  - key: options.years_in_japan.11
-    t: 11 years
-  - key: options.years_in_japan.12
-    t: 12 years
-  - key: options.years_in_japan.13
-    t: 13 years
-  - key: options.years_in_japan.14
-    t: 14 years
-  - key: options.years_in_japan.15
-    t: 15 years
-  - key: options.years_in_japan.16
-    t: 16 years
-  - key: options.years_in_japan.17
-    t: 17 years
-  - key: options.years_in_japan.18
-    t: 18 years
-  - key: options.years_in_japan.19
-    t: 19 years
-  - key: options.years_in_japan.20
-    t: 20 years
-  - key: options.years_in_japan.21
-    t: 21 years
-  - key: options.years_in_japan.22
-    t: 22 years
-  - key: options.years_in_japan.23
-    t: 23 years
-  - key: options.years_in_japan.24
-    t: 24 years
-  - key: options.years_in_japan.25
-    t: 25 years
-  - key: options.years_in_japan.26
-    t: 26 years
-  - key: options.years_in_japan.27
-    t: 27 years
-  - key: options.years_in_japan.28
-    t: 28 years
-  - key: options.years_in_japan.29
-    t: 29 years
-  - key: options.years_in_japan.30
-    t: 30 years
-  - key: options.years_in_japan.31
-    t: 31 years
-  - key: options.years_in_japan.32
-    t: 32 years
-  - key: options.years_in_japan.33
-    t: 33 years
-  - key: options.years_in_japan.34
-    t: 34 years
-  - key: options.years_in_japan.35
-    t: 35 years
-  - key: options.years_in_japan.36
-    t: 36 years
-  - key: options.years_in_japan.37
-    t: 37 years
-  - key: options.years_in_japan.38
-    t: 38 years
-  - key: options.years_in_japan.39
-    t: 39 years
-  - key: options.years_in_japan.40
-    t: 40 years
-  - key: options.years_in_japan.41
-    t: 41 years
-  - key: options.years_in_japan.42
-    t: 42 years
-  - key: options.years_in_japan.43
-    t: 43 years
-  - key: options.years_in_japan.44
-    t: 44 years
-  - key: options.years_in_japan.45
-    t: 45 years
-  - key: options.years_in_japan.46
-    t: More than 45 years
 
   # educational_attainment
   - key: user_info.educational_attainment
     t: Educational Attainments
   - key: user_info.educational_attainment.question
     t: Which of the following best describes the **highest level** of formal education that you’ve completed?
-  - key: user_info.educational_attainment.description.td2022
-    t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
-  - key: user_info.educational_attainment.takeaway.td2023
-    t: |
-      89.4% of respondents had an undergradudate or graduate degree.
 
   - key: options.educational_attainment.primary_elementary_school
     t: Primary/elementary school
@@ -655,15 +291,6 @@ translations:
     t: Professional Qualifications
   - key: user_info.professional_qualifications.question
     t: What professional qualifications in **computer science** (or related fields) do you have?
-  - key: user_info.professional_qualifications.description.td2022
-    t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
-  - key: user_info.professional_qualifications.takeaway.td2023
-    t: |
-      17.9% of respondents reported they had no professional qualifications related to computer science.
-
-      Coding bootcamp grads had the lowest median professional experience at only 1.9 years.
-
-      Women respondents were much more likely to have attended a coding bootcamp then men. While 11.6% male of respondents had graduated from a coding bootcamp, 32.4% of female respondents did.
 
   - key: options.professional_qualifications.short_cycle
     aliasFor: options.educational_attainment.short_cycle
@@ -733,9 +360,6 @@ translations:
     t: English Ability
   - key: user_info.language_proficiency_english.question
     t: What is your English proficiency?
-  - key: user_info.language_proficiency_english.takeaway.td2023
-    t: |
-      89% of respondents had a fluent or above English ability. A higher English ability correlated with a higher salary.
   - key: options.language_proficiency_english.none
     t: None
   - key: options.language_proficiency_english.basic
@@ -752,36 +376,22 @@ translations:
     t: Japanese Ability
   - key: user_info.language_proficiency_japanese.question
     t: What is your Japanese proficiency?
-  - key: user_info.language_proficiency_japanese.description.td2022
-    t: Only 28% of respondents spoke Japanese at a fluent level or above.
-  - key: user_info.language_proficiency_japanese.takeaway.td2023
-    t: |
-      Only 33% of respondents had a fluent or above Japanese ability. Higher Japanese ability correlated with a longer time living in Japan, with the median stay of those having no Japanese ability being 0.5 years, whereas those who were fluent having 5 years.
   - key: options.language_proficiency_japanese.none
-    t: None
+    aliasFor: options.language_proficiency_english.none
   - key: options.language_proficiency_japanese.basic
-    t: Basic
+    aliasFor: options.language_proficiency_english.basic
   - key: options.language_proficiency_japanese.conversational
-    t: Conversational
+    aliasFor: options.language_proficiency_english.conversational
   - key: options.language_proficiency_japanese.fluent
-    t: Fluent
+    aliasFor: options.language_proficiency_english.fluent
   - key: options.language_proficiency_japanese.native_bilingual
-    t: Native / bilingual
+    aliasFor: options.language_proficiency_english.native_bilingual
 
-  - key: user_info.source.takeaway.td2023
-    t: |
-      While the majority of respondents heard about the survey through their peers and developer communities, we also advertised it on Reddit and Facebook.
   # searching_for_job
   - key: user_info.searching_for_job
     t: Job Search Status
   - key: user_info.searching_for_job.question
     t: Are you currently searching for a new job?
-  - key: user_info.searching_for_job.description.td2022
-    t: |
-      Respondents who were actively looking for a new job had a median salary of ¥6.5 million, whereas for those who weren’t looking, it was ¥9.5 million. Part of the difference could be explained by those actively looking having a median of 5 years of professional experience, whereas those who weren’t had 7 years.
-  - key: user_info.searching_for_job.takeaway.td2023
-    t: |
-      19% of respondents were actively look for a new job, compared to 11% in last year's survey.
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
@@ -802,9 +412,6 @@ translations:
     t: Employment Status
   - key: user_info.employment_status.question
     t: Which of the following best describes your employment status?
-  - key: user_info.employment_status.description.td2022
-    t: >
-      Only 0.5% of respondents were unemployed, down from 2% in 2021.
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
@@ -829,7 +436,11 @@ translations:
   - key: options.employment_status.retired
     t: Retired
 
-  # EMPLOYER INFO
+  #######################################################
+  #                                                     #
+  #                    EMPLOYER INFO                    #
+  #                                                     #
+  #######################################################
 
   - key: sections.employer_info.title
     t: Employer
@@ -839,14 +450,6 @@ translations:
     t: Employer Type
   - key: employer_info.current_employer.question
     t: Which of the following best describes your current employer?
-  - key: employer_info.current_employer.description.td2022
-    t: |
-      63% of respondents worked at a company headquartered in Japan.
-  - key: employer_info.current_employer.takeaway.td2023
-    t: |
-      Respondents working for a Japanese subsidiary of an international company had a 73% higher median compensation than those working for a company headquartered in Japan.
-
-      42.9% of respondents working for an international company without a corporate entity in Japan were on the “Spouse/Dependent of a Japanese National or Permanent Resident” status, despite them only making up 14.9% of respondents to this question overall.
 
   - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
@@ -864,69 +467,12 @@ translations:
     t: Employer Industry
   - key: employer_info.industry_sector.question
     t: What industry or business domain is your current employer in?
-  - key: employer_info.industry_sector.description.td2022
-    t: |
-      SaaS, Finance, and E-Commerce were the most common industries.
-  - key: employer_info.industry_sector.takeaway.td2023
-    t: |
-      While 23.3% of respondents working for a company headquartered in Japan worked in E-commerce, only 10.5% of those working for a Japanese subsidiary did.
-
-  - key: options.industry_sector.ai
-    t: Artificial Intelligence (AI)
-  - key: options.industry_sector.advertising
-    t: Advertising
-  - key: options.industry_sector.blockchain_cryptocurrency
-    t: Blockchain / Cryptocurrency
-  - key: options.industry_sector.cloud_computing
-    t: Cloud Computing
-  - key: options.industry_sector.construction
-    t: Construction
-  - key: options.industry_sector.consulting
-    t: Consulting
-  - key: options.industry_sector.consumer_electronics
-    t: Consumer Electronics
-  - key: options.industry_sector.e_commerce
-    t: E-commerce
-  - key: options.industry_sector.education
-    t: Education
-  - key: options.industry_sector.finance
-    t: Finance
-  - key: options.industry_sector.food
-    t: Food
-  - key: options.industry_sector.games
-    t: Games
-  - key: options.industry_sector.healthcare
-    t: Healthcare
-  - key: options.industry_sector.hospitality_tourism
-    t: Hospitality / Tourism
-  - key: options.industry_sector.human_resources
-    t: Human Resources
-  - key: options.industry_sector.fashion
-    t: Fashion
-  - key: options.industry_sector.marketing
-    t: Marketing
-  - key: options.industry_sector.outsourced_development
-    t: Outsourced development
-  - key: options.industry_sector.real_estate
-    t: Real Estate
-  - key: options.industry_sector.robotics
-    t: Robotics
-  - key: options.industry_sector.saas
-    t: SaaS (Software as a Service)
 
   # remote_work_policy
   - key: employer_info.remote_work_policy
     t: Remote Work Policy
   - key: employer_info.remote_work_policy.question
     t: What best describes your employer's remote work policy?
-  - key: employer_info.remote_work_policy.description.td2022
-    t: |
-      70% of respondents either worked at a company that worked fully remotely, or who gave employees the option of working completely remotely. Only 4% of respondents were required to exclusively work from an office.
-  - key: employer_info.remote_work_policy.takeaway.td2023
-    t: |
-      59% of respondents could work fully remotely, down from 70% last year. Meanwhile, 9% of respondents were required to exclusively work from an office, compared to 4% last year.
-
-      The more a company embraced remote work, the higher the median experience of respondents. While respondents who were required to work from an office had a median of 4 years professional experience, those working for a fully remote company had a median of 8  years.
 
   - key: options.remote_work_policy.no_remote_work
     t: No remote work. All employees must attend the office.
@@ -955,12 +501,6 @@ translations:
     t: Employer Size
   - key: employer_info.company_size.question
     t: How many employees does your employer have (worldwide)?
-  - key: employer_info.company_size.description.td2022
-    t: |
-      39% of respondents worked at employers with 20 to 499 employees.
-  - key: employer_info.company_size.takeaway.td2023
-    t: |
-      Respondents working for larger companies were more likely to work for subsidiaries of international companies. Among respondents who worked for a company with 20-99 employees, 8.4% of them worked at a subsidiary of an international company. Among those working  for a company with 10,000 or more employees, that rose to 50.5%.
   - key: options.company_size.range_1
     t: 1 employee
   - key: options.company_size.range_2_9
@@ -1003,9 +543,13 @@ translations:
   - key: user_info.total_employers
     t: Total Employers
   - key: user_info.total_employers.question
-    t: How many employers have you had so far while working in Japan?
+    t: How many employers have you had while working in software development?
 
-  # JOB INFO
+  #######################################################
+  #                                                     #
+  #                      JOB INFO                       #
+  #                                                     #
+  #######################################################
 
   - key: sections.job_info.title
     t: Current Job
@@ -1019,18 +563,12 @@ translations:
     aliasFor: user_info.searching_for_job
   - key: job_info.searching_for_job.question
     aliasFor: user_info.searching_for_job.question
-  - key: job_info.searching_for_job.takeaway.td2023
-    t: |
-      19% of respondents were actively looking for a job, up from 11% last year.
 
   # employment_status
   - key: job_info.employment_status
     aliasFor: user_info.employment_status
   - key: job_info.employment_status.question
     aliasFor: user_info.employment_status.question
-  - key: job_info.employment_status.takeaway.td2023
-    t: |
-      2.6% of respondents were unemployed, up from 0.5% in 2022.
 
   # current_job_description
   - key: job_info.current_job_description
@@ -1039,12 +577,6 @@ translations:
     t: Which of the following describes your current job?
   - key: job_info.current_job_description.description
     t: Please select all that apply.
-  - key: job_info.current_job_description.question.td2022
-    t: |
-      74% of respondents had a role with a back-end, front-end, or full-stack component to it.
-  - key: job_info.current_job_description.takeaway.td2023
-    t: |
-      Data Scientists or Machine Learning Specialists were by far the most likely to have a postgraduate degree, with 72.8% of them achieving a Masters degree or above, compared to 32.8% of respondents overall.
 
   - key: options.current_job_description.academic_researcher
     t: Academic researcher
@@ -1104,14 +636,6 @@ translations:
     t: Colleague Nationality (Engineers)
   - key: job_info.coworker_nationalities_engineers.question
     t: What are the nationalities of your colleagues who are engineers?
-  - key: job_info.coworker_nationalities_engineers.description.td2022
-    t: |
-      Engineering teams tended to be highly international, whereas it wasn’t uncommon for non-engineers to be mostly Japanese.
-  - key: job_info.coworker_nationalities_engineers.takeaway.td2023
-    t: |
-      Engineering teams tended to be highly international, with only 18.4% of respondents being on a team that was all or mostly Japanese.
-
-      Respondents on a team that was primarily Japanese had lived in Japan longer, with a median of 7 years compared to the overall median of 4 years.
 
   - key: options.coworker_nationalities_engineers.all_or_mostly_japanese
     t: All or mostly Japanese
@@ -1136,9 +660,6 @@ translations:
     t: Colleague Nationality (Non-Engineers)
   - key: job_info.coworker_nationalities_non_engineers.question
     t: What are the nationalities of your colleagues who are **not** engineers?
-  - key: job_info.coworker_nationalities_non_engineers.takeaway.td2023
-    t: |
-      54.3% of respondents worked in an environment where all or most of the non-engineers were Japanese.
 
   - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese
     aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese
@@ -1163,11 +684,6 @@ translations:
     t: Japanese Usage
   - key: job_info.languages_used_colleagues_japanese.question
     t: How frequently do you use Japanese at your workplace?
-  - key: job_info.languages_used_colleagues_japanese.takeaway.td2023
-    t: |
-      54% of respondents never or rarely used Japanese professionally.
-
-      Those who used Japanese frequently reported lower salaries, and were most likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_japanese.never
     t: Never
@@ -1185,11 +701,6 @@ translations:
     t: English Usage
   - key: job_info.languages_used_colleagues_english.question
     t: How frequently do you use English at your workplace?
-  - key: job_info.languages_used_colleagues_english.takeaway.td2023
-    t: |
-      Only 12.7% of respondents never or rarely used English professionally.
-
-      Inversely to Japanese usage, respondents who used English frequently reported higher salaries, and were least likely to be working for a company headquartered in Japan.
 
   - key: options.languages_used_colleagues_english.never
     t: Never
@@ -1207,21 +718,12 @@ translations:
     t: Years at Current Employer
   - key: job_info.years_employed.question
     t: How many years have you been employed by your current employer?
-  - key: job_info.years_employed.description.td2022
-    t: |
-      The median number of years at the current employer was 2.
-  - key: job_info.years_employed.takeaway.td2023
-    t: |
-      The median number of years at the current employer was 1.5.
 
   # work_hours_per_week
   - key: job_info.work_hours_per_week
     t: Hours worked in a typical week
   - key: job_info.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
-  - key: job_info.work_hours_per_week.description.td2022
-    t: >
-      55% of respondents worked 40 hours in a typical week, and only 26% of respondents reported working over 40 hours.
 
   - key: job_info.overtime_per_month
     t: Overtime per Month
@@ -1248,9 +750,6 @@ translations:
     t: Hours per Day
   - key: job_info.hours_per_day.question
     t: How many hours do you work in a typical day?
-  - key: job_info.hours_per_day.takeaway.td2023
-    t: |
-      79.4% of respondents worked 8 hours or less in a typical day.
 
   - key: options.hours_per_day.range_under_4
     t: Under 4
@@ -1272,9 +771,6 @@ translations:
     t: Days worked in a typical week
   - key: job_info.work_days_per_week.question
     t: In a typical week, how many days do you work?
-  - key: job_info.work_days_per_week.description.td2022
-    t: >
-      97% of permanent employees worked a five-day work week.
 
   - key: options.work_days_per_week.1
     t: 1
@@ -1296,12 +792,6 @@ translations:
     t: Job-Finding Method
   - key: job_info.how_did_you_find_your_current_job.question
     t: How did you find your current job?
-  - key: job_info.how_did_you_find_your_current_job.description.td2022
-    t: |
-      34% of respondents found their job via a recruiter (internal or external).
-  - key: job_info.how_did_you_find_your_current_job.takeaway.td2023
-    t: |
-      While 33.2% of respondents working at a company headquartered in Japan were hired via an external recruiter, only 18.5% of them working for a Japanese subsidiary of an international company were.
 
   - key: options.how_did_you_find_your_current_job.company_website
     t: Company website
@@ -1378,24 +868,23 @@ translations:
   - key: job_info.finding_first_job_number_of_applications
     t: Number of Applications
   - key: job_info.finding_first_job_number_of_applications.question
-    t: How many positions did you have to apply to in order to find your first software developer job in Japan?
+    t: To get your first software developer job in Japan, how many positions did you apply to?
 
-  - key: options.finding_first_job_number_of_applications.range_1
-    t: Just one
-  - key: options.finding_first_job_number_of_applications.range_2_5
-    t: 2 to 5
+  - key: job_info.finding_first_job_number_of_applications.prompt
+    t: Please only count applications where you initiated the process.
+
+  - key: options.finding_first_job_number_of_applications.range_0
+    t: 0 (internal transfer, recruiter, etc. )
+  - key: options.finding_first_job_number_of_applications.range_1_5
+    t: 1 to 5
   - key: options.finding_first_job_number_of_applications.range_6_10
     t: 6 to 10
   - key: options.finding_first_job_number_of_applications.range_11_20
     t: 11 to 20
-  - key: options.finding_first_job_number_of_applications.range_21_30
-    t: 21 to 30
-  - key: options.finding_first_job_number_of_applications.range_31_50
-    t: 31 to 50
-  - key: options.finding_first_job_number_of_applications.range_51_100
-    t: 51 to 100
-  - key: options.finding_first_job_number_of_applications.range_over_100
-    t: Over 100
+  - key: options.finding_first_job_number_of_applications.range_21_50
+    t: 21 to 50
+  - key: options.finding_first_job_number_of_applications.range_over_50
+    t: Over 50
 
     # workplace_difficulties
   - key: job_info.workplace_difficulties
@@ -1492,7 +981,11 @@ translations:
   - key: options.workplace_perks.language_differences
     t: Language acquisition
 
-  # COMPENSATION
+  #######################################################
+  #                                                     #
+  #                    COMPENSATION                     #
+  #                                                     #
+  #######################################################
 
   - key: sections.compensation.title
     t: Compensation
@@ -1504,14 +997,6 @@ translations:
     t: What is your current total annual compensation from your current employer?
   - key: compensation.current_total_annual_compensation.description
     t: Salary, bonuses, perks, and overtime pay, before taxes and deductions, in Japanese yen.
-  - key: compensation.current_total_annual_compensation.description.td2022
-    t: |
-      Developer salaries continued to increase. The median salary was ¥9.5 million per year, up ¥1 million from last year’s survey. This may partially be explained by respondents tending to be more experienced than the previous year.
-
-      Respondents earning ¥10 million per year or over increased from 35% of respondents in 2021 to 42% in 2022.
-  - key: compensation.current_total_annual_compensation.takeaway.td2023
-    t: |
-      The median salary was ¥8.5 million per year, down ¥1 million from last year’s survey. This may partially be explained by respondents [tending to be less experienced](/en-US/demographics/#years_of_experience) than the previous year.
 
   - key: options.current_total_annual_compensation.range_under_1000000
     t: Under ¥1,000,000 per year
@@ -1583,9 +1068,6 @@ translations:
     t: How many days of annual paid leave do you currently receive?
   - key: compensation.annual_paid_leave.description
     t: This excludes any additional leave, such as public holidays, New Year's holidays, Obon or summer holidays, or sick leave.
-  - key: compensation.annual_paid_leave.takeaway.td2023
-    t: |
-      40.6% of respondents received 20 days or more of paid leave, excluding any additional leave they might receive, such as public holidays, New Year's holidays, Obon or summer holidays, or sick leave.
   - key: compensation.annual_paid_leave.note
     t: |
       If you have unlimited paid leave, please put in the number of days you usually take in a year.
@@ -1608,14 +1090,6 @@ translations:
     t: Previous Compensation
   - key: compensation.previous_compensation.question
     t: When interviewing for your current job, were you asked about your previous compensation?
-  - key: compensation.previous_compensation.takeaway.td2023
-    t: |
-      55.9% of respondents were asked to disclose their previous compensation when interviewing.
-
-      Respondents who declined to give their previous compensation when interviewing had slightly higher median compensation than those who gave it or were never asked about previous compensation.
-
-      Those respondents were also more likely to have been successful at negotiating a higher offer, with 37.8% of them doing so, compared to 30.8% of respondents overall.
-
   - key: options.previous_compensation.disclosed
     t: Yes, and I disclosed it.
   - key: options.previous_compensation.not_disclosed
@@ -1639,11 +1113,6 @@ translations:
     t: Desired Compensation
   - key: compensation.desired_compensation.question
     t: When interviewing for your current job, were you asked about your desired compensation for the new position?
-  - key: compensation.desired_compensation.takeaway.td2023
-    t: |
-      73.3% of respondents were asked to disclose their desired compensation when interviewing.
-
-      Those who were never asked their desired compensation were unlikely to negotiate their offer, with 73.3% of them not doing so.
   - key: options.desired_compensation.disclosed
     aliasFor: options.previous_compensation.disclosed
   - key: options.desired_compensation.not_disclosed
@@ -1667,11 +1136,6 @@ translations:
     t: Negotiated Compensation
   - key: compensation.negotiated_compensation.question
     t: When interviewing for your current job, did you attempt to negotiate your compensation?
-  - key: compensation.negotiated_compensation.takeaway.td2023
-    t: |
-      Respondents who successfully negotiated compensation had a median compensation that was 40% higher than those who were unsuccessful or did not negotiate.
-
-      Respondents who worked for a subsidiary of an international company were more likely to be successful at negotiation. 36.6% of respondents working for an international subsidiary reported that they successfully negotiated, whereas 27.7% of those working for a Japan headquartered company did. For both company types, about 50% of respondents reported they didn't even attempt to negotiate.
 
   - key: options.negotiated_compensation.success
     t: Yes, and I successfully obtained more than the initial offer.
@@ -1705,55 +1169,6 @@ translations:
   - key: compensation.salary_by_experience
     t: Salary Percentiles by Professional Experience
 
-  # VACATIONS (not used since 2022)
-
-  - key: sections.vacations.title
-    t: Vacations
-
-  # paid_leave
-  - key: vacations.paid_leave
-    t: Paid leave policy
-  - key: vacations.paid_leave.question
-    t: How does your employer grant paid leave?
-  - key: vacations.paid_leave.description.td2022
-    t: >
-      50% of respondents reported they received the legal minimum for leave: 10 days after 6 months, increasing by 1 day per year of service, to a maximum of 20 days.
-
-  - key: options.paid_leave.no_paid_leave
-    t: No paid leave
-  - key: options.paid_leave.minimum_required
-    t: The minimum required by Japanese law (10 days after 6 months, increasing by 1 day per year of service)
-  - key: options.paid_leave.twenty_days_per_year
-    t: 20 days per year immediately after joining
-  - key: options.paid_leave.unlimited_leave
-    t: Unlimited leave
-
-  # additional_vacations
-  - key: vacations.additional_vacations
-    t: Additional types of leave
-  - key: vacations.additional_vacations.question
-    t: In addition to your normal paid leave, which of the following does your employer offer?
-  - key: vacations.additional_vacations.description.td2022
-    t: Having national holidays off is not guaranteed under Japanese law, but 97% of respondents did receive them off.
-
-  - key: options.additional_vacations.public_holidays
-    t: Public holidays
-  - key: options.additional_vacations.new_years_holidays
-    t: New Year's holidays
-  - key: options.additional_vacations.obon_or_summer_holidays
-    t: Obon or Summer holidays
-  - key: options.additional_vacations.sick_leave
-    t: Sick leave
-
-  # asking_for_time_off
-  - key: vacations.asking_for_time_off
-    t: How comfortable are you with asking for time off?
-  - key: vacations.asking_for_time_off.question
-    t: How comfortable are you with asking for time off?
-  - key: vacations.asking_for_time_off.description.td2022
-    t: >
-      While most respondents said they were comfortable with asking for time off, perhaps this question was too vague to give meaningful data, as someone may be comfortable with asking for a day off while not being comfortable with asking for two weeks.
-
   # paid_leave_policy
   - key: compensation.paid_leave_policy
     t: Paid Leave Policy
@@ -1784,9 +1199,13 @@ translations:
   - key: compensation.paid_leave_percentage
     t: Paid Leave Percentage
   - key: compensation.paid_leave_percentage.question
-    t: What percentage of your paid leave do you typically use in a year?
+    t: What percentage of your paid leave do you anticipate you'll use this year?
 
-  # TECHNOLOGY
+  #######################################################
+  #                                                     #
+  #                     TECHNOLOGY                      #
+  #                                                     #
+  #######################################################
 
   - key: sections.technology.title
     t: Technology
@@ -1796,83 +1215,42 @@ translations:
     t: Programming Languages
   - key: technology.programming_languages.question
     t: Which programming languages do you regularly use on your job?
-  - key: technology.programming_languages.description.td2022
-    t: |
-      Python usage increased by 4% from last year, making it the second most popular programming language. Rust usage also notably increased, from 3% to 6%.
-  - key: technology.programming_languages.takeaway.td2023
-    t: |
-      JavaScript remained the most popular language.  TypeScript usage shot up, from 33% of respondents using it last year, to 42% of respondents this year.
-
-      Kotlin developers were the top compensated while PHP developers were the worst compensated.
-
-      39.2% of respondents using Java worked at a company of 10,000 or more employees, while 43.5% of respondents using Ruby worked at a company of 20 to 99 employees.
 
   # databases
   - key: technology.databases
     t: Databases
   - key: technology.databases.question
     t: Which databases do you regularly use at your job?
-  - key: technology.databases.description.td2022
-    t: 75% of respondents used PostgreSQL or MySQL (or both) as a database.
-  - key: technology.databases.takeaway.td2023
-    t: PostgreSQL remained the most popular database.
 
   # web_frameworks
   - key: technology.web_frameworks
     t: Web Frameworks
   - key: technology.web_frameworks.question
     t: "Which web frameworks do you regularly use at your job?"
-  - key: technology.web_frameworks.description.td2022
-    t: |
-      React.js solidified its lead over Vue.js, increasing its share from 48% last year to 57% this year.
-  - key: technology.web_frameworks.takeaway.td2023
-    t: |
-      React was the most popular web framework overall, and among front-end developers, 69.1% reported they used it.
-
-      Among back-end developers, React was also the most popular web framework with 34.6% of respondents using it. Ruby on Rails was the second most popular framework among backend developers, with 17.3% of them using it.
 
   # other_frameworks_libraries
   - key: technology.other_frameworks_libraries
     t: Other Frameworks and Libraries
   - key: technology.other_frameworks_libraries.question
     t: Which other frameworks and libraries do you regularly use at your job?
-  - key: technology.other_frameworks_libraries.description.td2022
-    t: |
-      .NET appears to be considerably less popular in Japan than internationally. While StackOverflow’s 2022 developer survey [reported](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-other-frameworks-and-libraries) 35% of respondents used it, our survey found only 15% used it.
-  - key: technology.other_frameworks_libraries.takeaway.td2023
-    t: |
-      86.1% of data scientists reported that they use NumPy
 
   # developer_tools
   - key: technology.developer_tools
     t: Developer Tools
   - key: technology.developer_tools.question
     t: Which developer tools do you regularly use at your job?
-  - key: technology.developer_tools.description.td2022
-    t: With 75% of respondents using Docker, it was by far the most popular tool.
-  - key: technology.developer_tools.takeaway.td2023
-    t: |
-      Among DevOps specialists, 91.2% of respondents used Docker, 64.5% of them used Kubernetes, and 62.3% of them used Terraform.
 
   # developer_environments
   - key: technology.developer_environments
     t: Developer Environments
   - key: technology.developer_environments.question
     t: Which developer environments do you regularly use at your job?
-  - key: technology.developer_environments.description.td2022
-    t: Visual Studio Code was respondents' preferred IDE.
-  - key: technology.developer_environments.takeaway.td2023
-    t: |
-      Visual Studio Code was respondents' preferred IDE.
 
   # cloud_platforms
   - key: technology.cloud_platforms
     t: Cloud Platforms
   - key: technology.cloud_platforms.question
     t: Which cloud platforms do you regularly use at your job?
-  - key: technology.cloud_platforms.takeaway.td2023
-    t: |
-      Although we provided respondents with Japanese cloud platforms as options, none of them received a significant number of responses.
 
   # development_processes
   - key: technology.development_processes
@@ -1886,64 +1264,31 @@ translations:
   - key: technology.productivity_tools.question
     t: Which of the following productivity tools do you use?
 
-  # SATISFACTION
+  - key: options.programming_languages.na
+    t: Not Applicable
+  - key: options.databases.na
+    aliasFor: options.programming_languages.na
+  - key: options.web_frameworks.na
+    aliasFor: options.programming_languages.na
+  - key: options.other_frameworks_libraries.na
+    aliasFor: options.programming_languages.na
+  - key: options.developer_tools.na
+    aliasFor: options.programming_languages.na
+  - key: options.developer_environments.na
+    aliasFor: options.programming_languages.na
+  - key: options.cloud_platforms.na
+    aliasFor: options.programming_languages.na
 
-  - key: sections.satisfaction.title
-    t: Satisfaction
-
-  # management_satisfaction
-  - key: satisfaction.management_satisfaction
-    t: Management Satisfaction
-  - key: satisfaction.management_satisfaction.question
-    t: How satisfied are you with the management of your current employer?
-
-  - key: satisfaction.colleagues_satisfaction
-    t: Colleagues Satisfaction
-  - key: satisfaction.colleagues_satisfaction.question
-    t: How satisfied are you with your colleagues?
-
-  - key: satisfaction.work_satisfaction
-    t: Work Satisfaction
-  - key: satisfaction.work_satisfaction.question
-    t: "How satisfied are you with the work itself?"
-
-  - key: satisfaction.compensation_satisfaction
-    t: Compensation Satisfaction
-  - key: satisfaction.compensation_satisfaction.question
-    t: "How satisfied are you with your compensation?"
-
-  - key: satisfaction.overall_satisfaction
-    t: Overall Satisfaction
-  - key: satisfaction.overall_satisfaction.question
-    t: Overall, how satisfied are you with your job?
-
-  - key: satisfaction.how_to_improve_job_satisfaction
-    t: How employer could improve job satisfaction
-  - key: satisfaction.how_to_improve_job_satisfaction.question
-    t: What could your employer do to improve your job satisfaction?
-
-  - key: satisfaction.how_to_improve_survey
-    aliasFor: future_surveys.how_to_improve_survey
-  - key: satisfaction.how_to_improve_survey.question
-    aliasFor: future_surveys.how_to_improve_survey.question
-
-  # FUTURE SURVEYS
-
-  - key: sections.future_surveys.title
-    t: Future Surveys
-
-  # how_to_improve_survey
-  - key: future_surveys.how_to_improve_survey
-    t: Future Surveys
-  - key: future_surveys.how_to_improve_survey.question
-    t: >
-      How can we improve future surveys?
-
-  # OTHER
+  #######################################################
+  #                                                     #
+  #                        OTHER                        #
+  #                                                     #
+  #######################################################
 
   - key: sections.other.title
     t: Other Questions
 
+  # life_in_japan
   - key: other.life_in_japan
     t: Life in Japan
   - key: other.life_in_japan.question
@@ -2005,42 +1350,7 @@ translations:
   - key: satisfaction.life_in_japan__financial_situation.description
     aliasFor: options.life_in_japan.financial_situation.description
 
-  - key: satisfaction.life_in_japan__visa_situation.takeaway.td2023
-    t: |
-      While 73.7% of respondents holding an Engineer status were satisifed with their visa situation, among permanent residents, that rose to 95%.
-
-  - key: satisfaction.life_in_japan__professional_life.takeaway.td2023
-    t: |
-      Higher compensation correlated with more professional satisfaction. While the median compensation of respondents reporting they were unsatisfied was ¥6.5 million, for those who were very satisfied it was ¥10.5 million.
-
-      Similarly, those who could work completely remotely were more sastified professionally. 49.9% of respondents who needed to attend an office at least part of the time were satisfied with their professional life, compared to 72.2% of those who had the option to work completely remotely.
-
-  - key: satisfaction.life_in_japan__family_life.takeaway.td2023
-    t: |
-      Older respondents were more satisfied with their family life. While 21.7% of respondents in their twenties were very satisfied with their family life, 38.4% of respondents in their thirties were.
-
-  - key: satisfaction.life_in_japan__social_life.takeaway.td2023
-    t: |
-      Respondents with lower salaries tended to be more satisfied with their social lives, with unsatsified respondents having a median salary of ¥9.5 million whereas very satisfied respondents had a median of ¥7.5 million. This was the only measure of satisfaction that was inversely correlated with salary.
-
-      Those with a higher Japanese ability were also more satisfied with their social life. While 42.2% of respondents with basic Japanese or below were satisfied with their social life, 59.9% of those with fluent or above were.
-
-  - key: satisfaction.life_in_japan__housing.takeaway.td2023
-    t: |
-      Respondents' salary did not appear to influence their satisfaction with housing. Those living outside the Greater Tokyo Area were more likely to be very satisfied with their housing, with 33% of them reporting that they were, compared to 21% of those living within it.
-
-  - key: satisfaction.life_in_japan__cultural_adjustment.takeaway.td2023
-    t: |
-      A higher degree of Japanese proficency correlated with a greater degree of cultural adjustment satisfaction. While 30.5% of respondents with at most basic Japanese reported that they were satisfied with their cultural adjustment, 81.3% of those who were fluent Japanese speakers were satisfied.
-
-  - key: satisfaction.life_in_japan__quality_of_life.takeaway.td2023
-    t: |
-      Respondents were satisfied with their quality of life in Japan, regardless of gender. 87.6% of male respondents and 90.3% of female respondents reported they were satisfied with it.
-
-  - key: satisfaction.life_in_japan__financial_situation.takeaway.td2023
-    t: |
-      Respondents who reported they were very satisfied with their financial situation had a median salary of ¥12.5 million.
-
+  # online_communities
   - key: other.online_communities
     t: Online Communities
   - key: other.online_communities.question
@@ -2069,60 +1379,8 @@ translations:
     t: Developer Communities
   - key: other.communities.question
     t: Which Japan-based developer communities are you a member of?
-  - key: other.communities.takeaway.td2023
-    t: |
-      While 7.1% of respondents overall participated in Tokyo iOS Meetup, among mobile developers, that rose to 47.9% of respondents.
 
-      Of all the communities our respondents participated in, Creative Tokyo had the most balanced gender ratio, with women making up 56.6% of respondents.
-
-  # - key: options.communities.kwddm
-  #   t: Kyoto Web Developers & Designers Meetup
-  # - key: options.communities.tokyo_business_meetup
-  #   t: Tokyo Business Meetup
-  # - key: options.communities.tokyo_digital_marketers
-  #   t: Tokyo Digital Marketers
-  # - key: options.communities.dev_japan
-  #   t: Dev Japan
-  # - key: options.communities.tokyo_tech_startups
-  #   t: Tokyo Tech Startups
-  # - key: options.communities.tokyo_startup_founder_101
-  #   t: Tokyo Startup Founder 101
-
-  # - key: options.communities.code_chrysalis
-  #   t: Code Chrysalis
-  # - key: options.communities.coffee_and_code
-  #   t: Coffee and Code (Tokyo)
-  # - key: options.communities.creative_tokyo
-  #   t: Creative Tokyo
-  # - key: options.communities.engineer_cafe
-  #   t: Engineer Cafe (Fukuoka)
-  # - key: options.communities.hn_tokyo
-  #   t: Hacker News Tokyo
-  # - key: options.communities.hn_kansai
-  #   t: Hacker News Kansai
-  # - key: options.communities.le_wagon
-  #   t: Le Wagon (Tokyo)
-  # - key: options.communities.owddm
-  #   t: Osaka Web Developers & Designers Meetup
-  # - key: options.communities.tokyodev_discord
-  #   t: TokyoDev
-  # - key: options.communities.tokyo_ios_meetup
-  #   t: Tokyo iOS Meetup
-  # - key: options.communities.tokyo_rubyist_meetup
-  #   t: Tokyo Rubyist Meetup
-  # - key: options.communities.tokyo_net_developers_meetup
-  #   t: Tokyo .NET Developers Meetup
-  # - key: options.communities.tokyo_tech_leads_circle
-  #   t: Tokyo Tech Leads Circle
-  # - key: options.communities.tokyo_tech_meetup
-  #   t: Tokyo Tech Meetup
-  # - key: options.communities.women_in_science_japan
-  #   t: Women in Science Japan
-  # - key: options.communities.women_who_code_tokyo
-  #   t: Women Who Code Tokyo
-  # - key: options.communities.women_in_technology_japan
-  #   t: Women In Technology Japan
-
+  # keyboard_layout
   - key: other.keyboard_layout
     t: Keyboard Layout
   - key: other.keyboard_layout.question
@@ -2140,10 +1398,11 @@ translations:
   - key: other.how_did_user_find_out_about_the_survey.question
     t: How did you hear about the survey?
 
+  # how_to_improve_survey
   - key: other.how_to_improve_survey
-    aliasFor: future_surveys.how_to_improve_survey
+    t: Future Surveys
   - key: other.how_to_improve_survey.question
-    aliasFor: future_surveys.how_to_improve_survey.question
+    t: How can we improve future surveys?
 
   # best_thing_about_japan
   - key: other.favourite_thing_about_japan
@@ -2165,282 +1424,11 @@ translations:
   - key: other.receive_notifications.yes
     t: Yes, email me when the survey results are published
 
-  # faq
-
-  - key: faq.tokyodev_td2023
-    t: Who is behind this survey?
-  - key: faq.tokyodev_td2023.description
-    t: This survey is run by [TokyoDev](https://www.tokyodev.com/), a job board focusing on developer jobs in Japan for English speakers.
-
-  - key: faq.survey_goals_td2023
-    t: What are the survey's goals?
-  - key: faq.survey_goals_td2023.description
-    t: |
-      The survey's goals are to track the working conditions of international
-      developers in Japan ([see previous edition](https://www.tokyodev.com/insights/2022-developer-survey)).
-
-  - key: faq.data_used_td2023
-    t: How will this data be used?
-  - key: faq.data_used_td2023.description
-    t: |
-      All data collected will be kept strictly private and only be used
-      in aggregate to publish the 2023 TokyoDev Developer Survey.
-
-  - key: faq.who_should_take_survey_td2023
-    t: Who should take this survey?
-  - key: faq.who_should_take_survey_td2023.description
-    t: |
-      This is an open survey for any developer living in Japan.
-
-  - key: faq.how_long_will_survey_take_td2023
-    t: How long will answering the survey take?
-  - key: faq.how_long_will_survey_take_td2023.description
-    t: |
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 5-10 minutes.
-
-  - key: faq.results_released_td2023
-    t: When will the results be released?
-  - key: faq.results_released_td2023.description
-    t: The survey will run from October 5 to October 31, 2023, and the survey results will be released shortly after that.
-
-  ### Results
-
-  - key: user_info.country_vs_salary
-    t: Country vs Salary
-
-  # Years Grouped
-  - key: options.years.range_under_1
-    t: Under 1
-  - key: options.years.range_1_3
-    t: 1-3
-  - key: options.years.range_4_6
-    t: 4-6
-  - key: options.years.range_7_9
-    t: 7-9
-  - key: options.years.range_10_12
-    t: 10-12
-  - key: options.years.range_13_15
-    t: 13-15
-  - key: options.years.range_16_20
-    t: 16-20
-  - key: options.years.range_over_20
-    t: Over 20
-
-  # technologies
-  - key: options.programming_languages.na
-    t: Not Applicable
-  - key: options.databases.na
-    aliasFor: options.programming_languages.na
-  - key: options.web_frameworks.na
-    aliasFor: options.programming_languages.na
-  - key: options.other_frameworks_libraries.na
-    aliasFor: options.programming_languages.na
-  - key: options.developer_tools.na
-    aliasFor: options.programming_languages.na
-  - key: options.developer_environments.na
-    aliasFor: options.programming_languages.na
-  - key: options.cloud_platforms.na
-    aliasFor: options.programming_languages.na
-
-  # compensation.current_total_annual_compensation
-
-  - key: options.current_total_annual_compensation.range_under_2999999
-    t: Under ¥2.9m
-  - key: options.current_total_annual_compensation.range_3000000_to_5999999
-    t: ¥3.0-5.9m
-  - key: options.current_total_annual_compensation.range_6000000_to_8999999
-    t: ¥6.0-8.9m
-  - key: options.current_total_annual_compensation.range_9000000_to_11999999
-    t: ¥9.0-11.9m
-  - key: options.current_total_annual_compensation.range_12000000_to_14999999
-    t: ¥12.0-14.9m
-  - key: options.current_total_annual_compensation.range_15000000_to_19999999
-    t: ¥15.0-19.9m
-  - key: options.current_total_annual_compensation.range_over_20000000
-    t: Over ¥20.0m
-
-  # satisfaction
-
-  - key: options.satisfaction.0
-    aliasFor: likert.option.0
-  - key: options.satisfaction.1
-    aliasFor: likert.option.1
-  - key: options.satisfaction.2
-    aliasFor: likert.option.2
-  - key: options.satisfaction.3
-    aliasFor: likert.option.3
-  - key: options.satisfaction.4
-    aliasFor: likert.option.4
-
-  # - key: options.satisfaction.0.short
-  #   t: 1
-  # - key: options.satisfaction.1.short
-  #   t: 2
-  # - key: options.satisfaction.2.short
-  #   t: 3
-  # - key: options.satisfaction.3.short
-  #   t: 4
-  # - key: options.satisfaction.4.short
-  #   t: 5
-
-  - key: satisfaction.life_in_japan__visa_situation
-    aliasFor: options.life_in_japan.visa_situation
-  - key: satisfaction.life_in_japan__professional_life
-    aliasFor: options.life_in_japan.professional_life
-  - key: satisfaction.life_in_japan__family_life
-    aliasFor: options.life_in_japan.family_life
-  - key: satisfaction.life_in_japan__social_life
-    aliasFor: options.life_in_japan.social_life
-  - key: satisfaction.life_in_japan__cultural_adjustment
-    aliasFor: options.life_in_japan.cultural_adjustment
-  - key: satisfaction.life_in_japan__quality_of_life
-    aliasFor: options.life_in_japan.quality_of_life
-  - key: satisfaction.life_in_japan__housing
-    aliasFor: options.life_in_japan.housing
-  - key: satisfaction.life_in_japan__financial_situation
-    aliasFor: options.life_in_japan.financial_situation
-
-  - key: other.life_in_japan_option.question
-    t: On a scale of 1 (very unsatisfied) to 5 (very satisfied), how satisfied are you with this aspect of life in Japan?
-
-  - key: satisfaction.life_in_japan__visa_situation.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__professional_life.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__family_life.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__social_life.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__cultural_adjustment.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__quality_of_life.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__housing.question
-    aliasFor: other.life_in_japan_option.question
-  - key: satisfaction.life_in_japan__financial_situation.question
-    aliasFor: other.life_in_japan_option.question
-
-  # how_did
-
-  ### TokyoDev
-
-  - key: user_info.nationality.description
-    t: |
-      This survey was conducted in English. Despite this, the respondents were incredibly diverse, representing 72 different countries. The top three nationalities were American (21%), French (8%), and British (7%).
-
-  - key: user_info.nationality_vs_salary
-    t: Nationality correlated with salary
-
-  - key: user_info.nationality_vs_salary.description
-    t: |
-      Respondents' nationalities correlated with their salary, with those from Oceania having the highest median compensation, while those from North America had the highest 75th percentile salary. The disparity in salaries extended across experience levels.
-
-  - key: user_info.gender_vs_salary
-    t: Gender vs Salary
-  - key: user_info.gender_vs_salary.description
-    t: |
-      Women tended to be less experienced than men, having a mean of 5 years experience compared to 8 years for men, partially explaining the difference in compensation. However, even when comparing the genders across similar experience levels, this gap in pay remained.
-
-      Men were also more likely then women to have a high paying role: while 21% of men had a role that was among the top five highest paying, only 4% of women did.
-
-  - key: options.age.range_under_20
-    t: Under 20
-  - key: options.age.range_20_29
-    t: 20-29
-  - key: options.age.range_30_39
-    t: 30-39
-  - key: options.age.range_40_49
-    t: 40-49
-  - key: options.age.range_50_59
-    t: 50-59
-  - key: options.age.range_over_60
-    t: Over 60
-
-  - key: user_info.salary_by_age
-    t: Salary by Age
-  - key: user_info.salary_by_age.description.td2022
-    t: 47% of respondents in their 30s made at least ¥10 million.
-
-  - key: user_info.salary_by_experience
-    t: Salary by Experience
-  - key: user_info.salary_by_experience.description.td2022
-    t: |
-      Compared with the previous year, median salary increased across experience levels, the only exception being respondents with 4 - 7 years of experience, for whom it remained unchanged.
-
-  - key: options.experience.range_under_1
-    t: Under 1 year
-  - key: options.experience.range_1_3
-    t: 1-3 years
-  - key: options.experience.range_4_6
-    t: 4-6 years
-  - key: options.experience.range_7_9
-    t: 7-9 years
-  - key: options.experience.range_10_12
-    t: 10-12 years
-  - key: options.experience.range_13_15
-    t: 13-15 years
-  - key: options.experience.range_16_20
-    t: 16-20 years
-  - key: options.experience.range_over_20
-    t: Over 20 years
-
-  - key: tabs.overall
-    t: Overall
-  - key: tabs.compensation
-    t: Compensation
-  - key: tabs.by_salary
-    t: Salary Breakdown
-  - key: tabs.by_years_in_japan
-    t: By Years in Japan
-  - key: tabs.by_remote_work
-    t: By Remote Work
-  - key: tabs.by_current_employer
-    t: By Employer Type
-  - key: tabs.by_japanese_province
-    t: By Prefecture
-  - key: tabs.by_gender
-    t: By Gender
-  - key: tabs.by_years_of_experience
-    t: By Years of Experience
-  - key: tabs.by_company_size
-    t: By Employer Size
-  - key: tabs.by_educational_attainment
-    t: By Educational Attainment
-  - key: tabs.by_residency_status
-    t: By Residency Status
-  - key: tabs.by_negotiated_compensation
-    t: By Negotiated Compensation
-  - key: tabs.by_japanese_proficiency
-    t: By Japanese Proficiency
-  - key: tabs.by_age
-    t: By Age
-
-  - key: tabs.frontend_vs_backend
-    t: Front-end vs Back-end
-  - key: tabs.data_science
-    t: Data Science
-  - key: tabs.devops
-    t: Devops
-
-  - key: user_info.gender_vs_overall_satisfaction
-    t: |
-      Lower compensation for women drove lower overall job satisfaction
-  - key: user_info.gender_vs_overall_satisfaction.description.td2022
-    t: |
-      Women were less satisfied with their job than men, with a median overall satisfaction score of 7 compared to 8 for men. This seems driven by their lower compensation, as the median satisfaction of their compensation was 6 compared to 7 for men, while other measures all had a median of 8.
-
-  - key: conclusion.td2023.paul_mcmahon.bio
-    t: Founder, TokyoDev
-  - key: conclusion.td2023.paul_mcmahon
-    t: |
-      TokyoDev's survey wouldn't have been possible without the support of the developers and communities of Japan. Thank you to everyone who helped out!
-
-      Now that you have a better idea of what life is like as a developer in Japan, how about checking out [our guide on getting a developer job here](<https://www.tokyodev.com/articles/first-job-programmer-japan>), or jumping in to [our list of English-friendly developer jobs](https://www.tokyodev.com/jobs).
-
-      You can also join the [3000+ developers on our Discord](https://discord.gg/seUNe38YgV) to discuss developer life in Japan.
-
-      And finally, please sign up for our mailing list below if you're interested in hearing from us the next time we launch a survey!
+  #######################################################
+  #                                                     #
+  #                    PRIVACY POLICY                   #
+  #                                                     #
+  #######################################################
 
   - key: general.privacy_policy.description
     t: >
@@ -2466,7 +1454,7 @@ translations:
 
       ### 3. Cookies
 
-      We set a log-in cookie, and our hosting provider (Vercel) may also sets its own cookie. We do not set any other cookie or use client-side analytics or ads.
+      We set a log-in cookie, and our hosting provider (Render) may also sets its own cookie. We do not set any other cookie or use client-side analytics or ads.
 
       ### 4. Data Use
 

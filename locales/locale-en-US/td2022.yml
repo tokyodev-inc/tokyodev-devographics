@@ -1,0 +1,151 @@
+# used by the TokyoDev 2022 survey
+
+locale: en-US
+translations:
+  - key: introduction.td2022
+    t: |
+      In October 2022, we asked 558 international software engineers living in Japan about their salary, working conditions, and technology used to better help you get an idea of what it's like working in Japan.
+
+  #######################################################
+  #                                                     #
+  #                      User Info                      #
+  #                                                     #
+  #######################################################
+
+  - key: user_info.residency_status.description.td2022
+    t: >
+      59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
+
+  - key: user_info.gender.description.td2022
+    t: >
+      The overwhelming majority of respondents described themselves as male. While we had respondents who identify as neither male or female, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
+
+  - key: user_info.age.description.td2022
+    t: >
+      79% of respondents were between 25 and 39 years of age.
+
+  - key: user_info.years_of_experience.description.td2022
+    t: |
+      The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
+
+  - key: user_info.years_in_japan.description.td2022
+    t: |
+      Respondents lived in Japan for a median of 5 years.
+
+  - key: user_info.educational_attainment.description.td2022
+    t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
+
+  - key: user_info.professional_qualifications.description.td2022
+    t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
+
+  - key: user_info.language_proficiency_japanese.description.td2022
+    t: Only 28% of respondents spoke Japanese at a fluent level or above.
+
+  - key: user_info.searching_for_job.description.td2022
+    t: |
+      Respondents who were actively looking for a new job had a median salary of ¥6.5 million, whereas for those who weren’t looking, it was ¥9.5 million. Part of the difference could be explained by those actively looking having a median of 5 years of professional experience, whereas those who weren’t had 7 years.
+
+  - key: user_info.employment_status.description.td2022
+    t: >
+      Only 0.5% of respondents were unemployed, down from 2% in 2021.
+
+  #######################################################
+  #                                                     #
+  #                   Employer Info                     #
+  #                                                     #
+  #######################################################
+
+  - key: employer_info.current_employer.description.td2022
+    t: |
+      63% of respondents worked at a company headquartered in Japan.
+
+  - key: employer_info.industry_sector.description.td2022
+    t: |
+      SaaS, Finance, and E-Commerce were the most common industries.
+
+  - key: employer_info.remote_work_policy.description.td2022
+    t: |
+      70% of respondents either worked at a company that worked fully remotely, or who gave employees the option of working completely remotely. Only 4% of respondents were required to exclusively work from an office.
+
+  - key: employer_info.company_size.description.td2022
+    t: |
+      39% of respondents worked at employers with 20 to 499 employees.
+
+  #######################################################
+  #                                                     #
+  #                      JOB INFO                       #
+  #                                                     #
+  #######################################################
+
+  - key: job_info.current_job_description.question.td2022
+    t: |
+      74% of respondents had a role with a back-end, front-end, or full-stack component to it.
+
+  - key: job_info.coworker_nationalities_engineers.description.td2022
+    t: |
+      Engineering teams tended to be highly international, whereas it wasn’t uncommon for non-engineers to be mostly Japanese.
+
+  - key: job_info.years_employed.description.td2022
+    t: |
+      The median number of years at the current employer was 2.
+
+  - key: job_info.work_hours_per_week.description.td2022
+    t: >
+      55% of respondents worked 40 hours in a typical week, and only 26% of respondents reported working over 40 hours.
+
+  - key: job_info.work_days_per_week.description.td2022
+    t: >
+      97% of permanent employees worked a five-day work week.
+
+  - key: job_info.how_did_you_find_your_current_job.description.td2022
+    t: |
+      34% of respondents found their job via a recruiter (internal or external).
+
+  #######################################################
+  #                                                     #
+  #                    COMPENSATION                     #
+  #                                                     #
+  #######################################################
+
+  - key: compensation.current_total_annual_compensation.description.td2022
+    t: |
+      Developer salaries continued to increase. The median salary was ¥9.5 million per year, up ¥1 million from last year’s survey. This may partially be explained by respondents tending to be more experienced than the previous year.
+
+      Respondents earning ¥10 million per year or over increased from 35% of respondents in 2021 to 42% in 2022.
+
+  #######################################################
+  #                                                     #
+  #                      Vacations                      #
+  #                                                     #
+  #######################################################
+
+  - key: vacations.paid_leave.description.td2022
+    t: >
+      50% of respondents reported they received the legal minimum for leave: 10 days after 6 months, increasing by 1 day per year of service, to a maximum of 20 days.
+
+  #######################################################
+  #                                                     #
+  #                     TECHNOLOGY                      #
+  #                                                     #
+  #######################################################
+
+  - key: technology.programming_languages.description.td2022
+    t: |
+      Python usage increased by 4% from last year, making it the second most popular programming language. Rust usage also notably increased, from 3% to 6%.
+
+  - key: technology.databases.description.td2022
+    t: 75% of respondents used PostgreSQL or MySQL (or both) as a database.
+
+  - key: technology.web_frameworks.description.td2022
+    t: |
+      React.js solidified its lead over Vue.js, increasing its share from 48% last year to 57% this year.
+
+  - key: technology.other_frameworks_libraries.description.td2022
+    t: |
+      .NET appears to be considerably less popular in Japan than internationally. While StackOverflow’s 2022 developer survey [reported](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-other-frameworks-and-libraries) 35% of respondents used it, our survey found only 15% used it.
+
+  - key: technology.developer_tools.description.td2022
+    t: With 75% of respondents using Docker, it was by far the most popular tool.
+
+  - key: technology.developer_environments.description.td2022
+    t: Visual Studio Code was respondents' preferred IDE.
