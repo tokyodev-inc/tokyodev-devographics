@@ -553,13 +553,17 @@
       options:
         - id: saas
         - id: finance
-        - id: e_commerce
+        - id: ecommerce
         - id: ai
         - id: cloud_computing
         - id: advertising
         - id: consulting
-        - id: games
-        - id: blockchain_cryptocurrency
+        - id: gaming
+        - id: crypto
+        - id: tech_it
+        - id: education
+        - id: human_resources
+        - id: manufacturing
 
         # - id: construction
         # - id: consumer_electronics
@@ -770,9 +774,30 @@
         - id: range_29000000_to_29999999
           label: ¥29,000,000 to ¥29,999,999 per year
           average: 29500000
-        - id: range_30000000_or_more
-          label: ¥30,000,000 or more per year
-          average: 30500000
+        - id: range_30000000_to_39999999
+          label: ¥30,000,000 to ¥39,000,000 per year
+          average: 29500000
+        - id: range_40000000_to_49999999
+          label: ¥40,000,000 to ¥49,999,999 per year
+          average: 29500000
+        - id: range_50000000_to_59999999
+          label: ¥50,000,000 to ¥59,999,999 per year
+          average: 29500000
+        - id: range_60000000_to_69999999
+          label: ¥60,000,000 to ¥69,999,999 per year
+          average: 29500000
+        - id: range_70000000_to_79999999
+          label: ¥70,000,000 to ¥79,999,999 per year
+          average: 29500000
+        - id: range_80000000_to_89999999
+          label: ¥80,000,000 to ¥89,999,999 per year
+          average: 29500000
+        - id: range_90000000_to_99999999
+          label: ¥90,000,000 to ¥99,999,999 per year
+          average: 29500000
+        - id: range_100000000_or_more
+          label: ¥100,000,000 or more per year
+          average: 100500000
 
     # removed in 2024
     # - id: previous_compensation
@@ -854,11 +879,56 @@
     #       average: 45
 
     - id: paid_leave_percentage
-      template: multiple
+      template: single
       optionsAreRange: true
       optionsAreSequential: true
-      groups:
-        - id: range_under_20
+      # options:
+      # - id: range_0
+      #   lowerBound: 0
+      #   average: 0
+      #   upperBound: 0
+      # - id: range_0_9
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_10_19
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_20_29
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_30_39
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_40_49
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_50_59
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_60_69
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_70_79
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_80_89
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      # - id: range_90_100
+      #   lowerBound: 10
+      #   average: 12.5
+      #   upperBound: 15
+      options:
+        - id: range_0_19
           lowerBound: 0
           average: 5
           upperBound: 10
@@ -1308,10 +1378,12 @@
         - id: notion
         - id: trello
         - id: evernote
-        - id: grammarly
-        - id: hubspot
         - id: jira
         - id: one_note
+        - id: cybozu_office
+        - id: chatwork
+        - id: microsoft_excel
+        - id: google_workspace
 
         # - id: docusign
         # - id: google_docs
@@ -1329,10 +1401,10 @@
         # - id: typetalk
         # - id: kintone
         # - id: cacoo
+        # - id: grammarly
+        # - id: hubspot
 
-        # - id: cybozu_office
         # - id: cosense
-        # - id: chatwork
 
 - id: other
   questions:
@@ -1383,10 +1455,13 @@
         - id: tokyo_rubyist_meetup
         - id: tokyo_net_developers_meetup
         - id: tokyo_tech_leads_circle
-        - id: tokyo_tech_meetup
         - id: women_in_science_japan
         - id: wise_japan
         - id: women_in_technology_japan
+        - id: a11y_tokyo
+        - id: dev_japan
+        - id: japan_test_community
+        - id: mobile_dev_japan
 
     # - id: keyboard_layout
     #   template: multipleWithOther
