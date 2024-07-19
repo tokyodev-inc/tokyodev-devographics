@@ -547,6 +547,8 @@ translations:
     t: Total Employers
   - key: user_info.total_employers.question
     t: How many employers have you had while working in software development?
+  - key: user_info.total_employers.prompt
+    t: Over your entire career, both in Japan and abroad.
 
   #######################################################
   #                                                     #
@@ -877,7 +879,7 @@ translations:
     t: Please only count applications where you initiated the process.
 
   - key: options.finding_first_job_number_of_applications.range_0
-    t: 0 (internal transfer, recruiter, etc. )
+    t: 0 (internal transfer, scouted by recruiter, etc.)
   - key: options.finding_first_job_number_of_applications.range_1_5
     t: 1 to 5
   - key: options.finding_first_job_number_of_applications.range_6_10
@@ -903,6 +905,8 @@ translations:
     t: Language barrier
   - key: options.workplace_difficulties.cultural_differences
     t: Cultural differences
+  - key: options.workplace_difficulties.cultural_differences.description
+    t: Misunderstandings, communication difficulties, mismatched expectations, etc.
   - key: options.workplace_difficulties.late_working_hours
     t: Late working hour
 
@@ -977,12 +981,12 @@ translations:
   - key: options.workplace_perks.compensation
     t: Good compensation
   - key: options.workplace_perks.work_life_balance
-    t: Work-life balance
+    t: Good work-life balance
 
   - key: options.workplace_perks.cultural_differences
     t: New cultural experiences
   - key: options.workplace_perks.language_differences
-    t: Language acquisition
+    t: Language acquisition opportunities
 
   #######################################################
   #                                                     #
@@ -1061,6 +1065,25 @@ translations:
     t: ¥28,000,000 to ¥28,999,999 per year
   - key: options.current_total_annual_compensation.range_29000000_to_29999999
     t: ¥29,000,000 to ¥29,999,999 per year
+
+  - key: options.current_total_annual_compensation.range_30000000_to_39999999
+    t: ¥30,000,000 to ¥39,999,999 per year
+  - key: options.current_total_annual_compensation.range_40000000_to_49999999
+    t: ¥40,000,000 to ¥49,999,999 per year
+  - key: options.current_total_annual_compensation.range_50000000_to_59999999
+    t: ¥50,000,000 to ¥59,999,999 per year
+  - key: options.current_total_annual_compensation.range_60000000_to_69999999
+    t: ¥60,000,000 to ¥69,999,999 per year
+  - key: options.current_total_annual_compensation.range_70000000_to_79999999
+    t: ¥70,000,000 to ¥79,999,999 per year
+  - key: options.current_total_annual_compensation.range_80000000_to_89999999
+    t: ¥80,000,000 to ¥89,999,999 per year
+  - key: options.current_total_annual_compensation.range_90000000_to_99999999
+    t: ¥90,000,000 to ¥99,999,999 per year
+  - key: options.current_total_annual_compensation.range_100000000_or_more
+    t: ¥100,000,000 or more per year
+
+  # legacy
   - key: options.current_total_annual_compensation.range_30000000_or_more
     t: ¥30,000,000 or more per year
 
@@ -1203,6 +1226,17 @@ translations:
     t: Paid Leave Percentage
   - key: compensation.paid_leave_percentage.question
     t: What percentage of your paid leave do you anticipate you'll use this year?
+
+  - key: options.paid_leave_percentage.range_0_19
+    t: 0-19%
+  - key: options.paid_leave_percentage.range_20_39
+    t: 20-39%
+  - key: options.paid_leave_percentage.range_40_59
+    t: 40-59%
+  - key: options.paid_leave_percentage.range_60_79
+    t: 60-79%
+  - key: options.paid_leave_percentage.range_80_100
+    t: 80-100%
 
   #######################################################
   #                                                     #
