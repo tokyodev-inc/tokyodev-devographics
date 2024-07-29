@@ -239,6 +239,17 @@
         - id: fluent
         - id: native_bilingual
 
+    - id: finding_first_job_number_of_applications
+      label: "To get your first software developer job in Japan, how many positions did you apply to?"
+      template: single
+      options:
+        - id: range_0
+        - id: range_1_5
+        - id: range_6_10
+        - id: range_11_20
+        - id: range_21_50
+        - id: range_over_50
+
 - id: job_info
   messageId: sections.job_info.intro
   questions:
@@ -480,17 +491,6 @@
     #     - id: value_2
     #     - id: value_3
     #     - id: value_4
-
-    - id: finding_first_job_number_of_applications
-      label: "To get your first software developer job in Japan, how many positions did you apply to?"
-      template: single
-      options:
-        - id: range_0
-        - id: range_1_5
-        - id: range_6_10
-        - id: range_11_20
-        - id: range_21_50
-        - id: range_over_50
 
     - id: workplace_perks
       label: What do you like most about working in Japan?
