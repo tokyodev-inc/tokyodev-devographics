@@ -169,6 +169,7 @@
     - id: total_employers
       label: How many employers have you had while working in software development?
       template: number
+      units: employers
 
     - id: years_in_japan
       label: "How many years have you lived in Japan?"
@@ -222,6 +223,7 @@
         - id: none
         - id: basic
         - id: conversational
+        - id: business
         - id: fluent
         - id: native_bilingual
 
@@ -233,6 +235,7 @@
         - id: none
         - id: basic
         - id: conversational
+        - id: business
         - id: fluent
         - id: native_bilingual
 
@@ -301,15 +304,10 @@
       optionsAreSequential: true
       options:
         - id: all_japanese
-          label: All Japanese
         - id: mostly_japanese
-          label: All or mostly Japanese
         - id: mix_japanese_non_japanese
-          label: A mix of Japanese and non-Japanese
         - id: mostly_non_japanese
-          label: Mostly non-Japanese
         - id: all_non_japanese
-          label: All non-Japanese
         # - id: na
 
     - id: coworker_nationalities_non_engineers
@@ -318,15 +316,10 @@
       optionsAreSequential: true
       options:
         - id: all_japanese
-          label: All Japanese
         - id: mostly_japanese
-          label: All or mostly Japanese
         - id: mix_japanese_non_japanese
-          label: A mix of Japanese and non-Japanese
         - id: mostly_non_japanese
-          label: Mostly non-Japanese
         - id: all_non_japanese
-          label: All non-Japanese
         # - id: na
 
     - id: languages_used_colleagues_japanese
@@ -375,9 +368,10 @@
     #   optionsAreRange: true
     #   optionsAreSequential: true
 
-    # - id: work_hours_per_week
-    #   label: "In a typical week, how many hours do you work?"
-    #   template: number
+    - id: work_hours_per_week
+      label: "In a typical week, how many hours do you work?"
+      template: number
+      units: hours
 
     # - id: work_days_per_week
     #   label: "In a typical week, how many days do you work?"
@@ -498,8 +492,8 @@
         - id: range_21_50
         - id: range_over_50
 
-    - id: workplace_difficulties
-      label: Which difficulties have you encountered while working in Japan?
+    - id: workplace_perks
+      label: What do you like most about working in Japan?
       template: multipleWithOther
       options:
         - id: coworker_relations
@@ -513,8 +507,8 @@
         - id: cultural_differences
         - id: language_differences
 
-    - id: workplace_perks
-      label: What do you like most about working in Japan?
+    - id: workplace_difficulties
+      label: Which difficulties have you encountered while working in Japan?
       template: multipleWithOther
       options:
         - id: coworker_relations
@@ -948,6 +942,20 @@
           lowerBound: 30
           average: 35
           upperBound: 40
+
+    - id: most_important_benefit
+      template: singleWithOther
+      options:
+        - id: books
+        - id: company_activities
+        - id: food_drinks
+        - id: generous_vacation_policy
+        - id: japanese_lessons
+        - id: housing_support
+        - id: no_overtime
+        - id: remote_work
+        - id: stock_options
+        - id: training
 
 # - id: vacations
 #   questions:
