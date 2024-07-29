@@ -41,6 +41,9 @@ translations:
   - key: general.leave_issue2
     t: Leave an issue
 
+  - key: general.numeric_input.unit.employers
+    t: employers
+
   #######################################################
   #                                                     #
   #                      USER INFO                      #
@@ -189,7 +192,7 @@ translations:
   - key: options.reason_for_relocation.sponsored_by_company
     t: Hired from abroad by a Japan-based company
   - key: options.reason_for_relocation.sent_by_company
-    t: Sent to Japan by my existing employer
+    t: Transferred by my employer from abroad to Japan
   - key: options.reason_for_relocation.student
     t: As a student
   - key: options.reason_for_relocation.dependent
@@ -367,12 +370,24 @@ translations:
     t: None
   - key: options.language_proficiency_english.basic
     t: Basic
+  - key: options.language_proficiency_english.basic.description
+    t: You can ask and answer simple questions.
   - key: options.language_proficiency_english.conversational
     t: Conversational
+  - key: options.language_proficiency_english.conversational.description
+    t: You can have casual conversations about topics like current events, work, and yourself. You can get the gist of most conversations on non-technical subjects.
+  - key: options.language_proficiency_english.business
+    t: Business
+  - key: options.language_proficiency_english.business.description
+    t: You can function in the workplace. You may sometimes make minor mistakes or need occasional assistance on technical matters, but communication is smooth.
   - key: options.language_proficiency_english.fluent
     t: Fluent
+  - key: options.language_proficiency_english.fluent.description
+    t: You can use the language fluently and accurately on all levels and as normally pertinent to professional needs.
   - key: options.language_proficiency_english.native_bilingual
     t: Native / bilingual
+  - key: options.language_proficiency_english.native_bilingual.description
+    t: You were either raised speaking the language as your native tongue or you have been speaking it so long that you are completely fluent. You have little or no accent.
 
   # language_proficiency_japanese
   - key: user_info.language_proficiency_japanese
@@ -383,12 +398,24 @@ translations:
     aliasFor: options.language_proficiency_english.none
   - key: options.language_proficiency_japanese.basic
     aliasFor: options.language_proficiency_english.basic
+  - key: options.language_proficiency_japanese.basic.description
+    aliasFor: options.language_proficiency_english.basic.description
   - key: options.language_proficiency_japanese.conversational
     aliasFor: options.language_proficiency_english.conversational
+  - key: options.language_proficiency_japanese.conversational.description
+    aliasFor: options.language_proficiency_english.conversational.description
+  - key: options.language_proficiency_japanese.business
+    aliasFor: options.language_proficiency_english.business
+  - key: options.language_proficiency_japanese.business.description
+    aliasFor: options.language_proficiency_english.business.description
   - key: options.language_proficiency_japanese.fluent
     aliasFor: options.language_proficiency_english.fluent
+  - key: options.language_proficiency_japanese.fluent.description
+    aliasFor: options.language_proficiency_english.fluent.description
   - key: options.language_proficiency_japanese.native_bilingual
     aliasFor: options.language_proficiency_english.native_bilingual
+  - key: options.language_proficiency_japanese.native_bilingual.description
+    aliasFor: options.language_proficiency_english.native_bilingual.description
 
   # searching_for_job
   - key: user_info.searching_for_job
@@ -642,21 +669,21 @@ translations:
   - key: job_info.coworker_nationalities_engineers.question
     t: What are the nationalities of your colleagues who are engineers?
 
-  - key: options.coworker_nationalities_engineers.all_or_mostly_japanese
-    t: All or mostly Japanese
+  - key: options.coworker_nationalities_engineers.all_japanese
+    t: All Japanese
+  - key: options.coworker_nationalities_engineers.mostly_japanese
+    t: Mostly Japanese
   - key: options.coworker_nationalities_engineers.mix_japanese_non_japanese
     t: A mix of Japanese and non-Japanese
-  - key: options.coworker_nationalities_engineers.all_mostly_non_japanese
-    t: All or mostly non-Japanese
+  - key: options.coworker_nationalities_engineers.mostly_non_japanese
+    t: Mostly non-Japanese
+  - key: options.coworker_nationalities_engineers.all_non_japanese
+    t: All non-Japanese
   - key: options.coworker_nationalities_engineers.na
     t: 🚫 Not applicable (solo worker)
 
-  - key: options.coworker_nationalities_engineers.all_or_mostly_japanese.short
-    t: All/mostly Japanese
   - key: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
     t: A mix of both
-  - key: options.coworker_nationalities_engineers.all_mostly_non_japanese.short
-    t: All/mostly non-Japanese
   - key: options.coworker_nationalities_engineers.na.short
     t: 🚫 Not applicable
 
@@ -666,21 +693,21 @@ translations:
   - key: job_info.coworker_nationalities_non_engineers.question
     t: What are the nationalities of your colleagues who are **not** engineers?
 
-  - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese
-    aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese
+  - key: options.coworker_nationalities_non_engineers.all_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_japanese
+  - key: options.coworker_nationalities_non_engineers.mostly_japanese
+    aliasFor: options.coworker_nationalities_engineers.mostly_japanese
   - key: options.coworker_nationalities_non_engineers.mix_japanese_non_japanese
     aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese
-  - key: options.coworker_nationalities_non_engineers.all_mostly_non_japanese
-    aliasFor: options.coworker_nationalities_engineers.all_mostly_non_japanese
+  - key: options.coworker_nationalities_non_engineers.mostly_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.mostly_non_japanese
+  - key: options.coworker_nationalities_non_engineers.all_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_non_japanese
   - key: options.coworker_nationalities_non_engineers.na
     aliasFor: options.coworker_nationalities_engineers.na
 
-  - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.all_or_mostly_japanese.short
   - key: options.coworker_nationalities_non_engineers.mix_japanese_non_japanese.short
     aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
-  - key: options.coworker_nationalities_non_engineers.all_mostly_non_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.all_mostly_non_japanese.short
   - key: options.coworker_nationalities_non_engineers.na.short
     aliasFor: options.coworker_nationalities_engineers.na.short
 
@@ -726,7 +753,7 @@ translations:
 
   # work_hours_per_week
   - key: job_info.work_hours_per_week
-    t: Hours worked in a typical week
+    t: Hours per week
   - key: job_info.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
 
@@ -897,57 +924,55 @@ translations:
   - key: job_info.workplace_difficulties.question
     t: What are the negative aspects of the working environment at your current employer?
 
-  # - key: options.workplace_difficulties.sexual_harassment
-  #   t: Sexual harassment
-  # - key: options.workplace_difficulties.power_harassment
-  #   t: Power harassment
-  - key: options.workplace_difficulties.language_differences
-    t: Language barrier
-  - key: options.workplace_difficulties.cultural_differences
-    t: Cultural differences
-  - key: options.workplace_difficulties.cultural_differences.description
-    t: Misunderstandings, communication difficulties, mismatched expectations, etc.
-  - key: options.workplace_difficulties.late_working_hours
-    t: Late working hour
-
-  - key: options.workplace_difficulties.lack_of_tasks_given
-    t: Lack of tasks
-  - key: options.workplace_difficulties.lack_of_tasks_given.description
-    t: Not being assigned enough tasks, excessive idle time
-
-  - key: options.workplace_difficulties.work_life_balance
-    t: Poor work-life-balance
-  - key: options.workplace_difficulties.work_life_balance.description
-    t: Burnout, excessive overtime, forced company events, etc.
-
   - key: options.workplace_difficulties.coworker_relations
-    t: Coworkers tensions
+    t: Coworkers relations
   - key: options.workplace_difficulties.coworker_relations.description
     t: Sexual or power harassment, poor communication, etc.
 
   - key: options.workplace_difficulties.company_culture
-    t: Bad company culture
+    t: Company culture
   - key: options.workplace_difficulties.company_culture.description
     t: Toxic culture, bad work practices, etc.
 
-  - key: options.workplace_difficulties.compensation
-    t: Insufficient compensation
-
   - key: options.workplace_difficulties.working_conditions
-    t: Bad working conditions
+    t: Working conditions
   - key: options.workplace_difficulties.working_conditions.description
     t: Old equipment, cramped spaces, etc.
 
-  - key: options.workplace_difficulties.work_content
-    t: Unfulfilling tasks
-  - key: options.workplace_difficulties.work_content.description
-    t: Being assigned uninteresting tasks, tasks outside the scope of your job description, etc.
-
   - key: options.workplace_difficulties.job_security
-    t: Poor job security
+    t: Job security
+  - key: options.workplace_difficulties.job_security.description
+    t: Poor job security, short-term contracts, etc.
+
+  - key: options.workplace_difficulties.work_content
+    t: Work content
+  - key: options.workplace_difficulties.work_content.description
+    t: Uninteresting tasks, tasks not matching job description, excessive idle time, etc.
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: Work-life-balance
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: Burnout, excessive overtime, forced company events, etc.
+
+  - key: options.workplace_difficulties.compensation
+    t: Compensation
+  - key: options.workplace_difficulties.compensation.description
+    t: Insufficient compensation
 
   - key: options.workplace_difficulties.training
+    t: Training
+  - key: options.workplace_difficulties.training.description
     t: Lack of training and development
+
+  - key: options.workplace_difficulties.cultural_differences
+    t: Cultural differences
+  - key: options.workplace_difficulties.cultural_differences.description
+    t: Misunderstandings, communication difficulties, mismatched expectations, etc.
+
+  - key: options.workplace_difficulties.language_differences
+    t: Language differences
+  - key: options.workplace_difficulties.language_differences.description
+    t: Language barrier, miscommunications, etc.
 
     # workplace_perks
   - key: job_info.workplace_perks
@@ -956,36 +981,53 @@ translations:
     t: What are the positive aspects of the working environment at your current employer?
 
   - key: options.workplace_perks.coworker_relations
-    t: Coworker relations
+    aliasFor: options.workplace_difficulties.coworker_relations
   - key: options.workplace_perks.coworker_relations.description
     t: Good relations with coworkers
 
   - key: options.workplace_perks.company_culture
-    t: Company culture
+    aliasFor: options.workplace_difficulties.company_culture
   - key: options.workplace_perks.company_culture.description
     t: Positive company culture, attention to quality, etc.
 
-  - key: options.workplace_perks.work_content
-    t: Interesting tasks
   - key: options.workplace_perks.working_conditions
-    t: Good working conditions
+    aliasFor: options.workplace_difficulties.working_conditions
   - key: options.workplace_perks.working_conditions.description
     t: Good work environment, modern equipment, etc.
 
   - key: options.workplace_perks.job_security
-    t: Job security
+    aliasFor: options.workplace_difficulties.job_security
+  - key: options.workplace_perks.job_security.description
+    t: Stable job, long-term contracts, etc.
 
-  - key: options.workplace_perks.training
-    t: Training & development
+  - key: options.workplace_perks.work_content
+    aliasFor: options.workplace_difficulties.work_content
+  - key: options.workplace_perks.work_content.description
+    t: Interesting tasks, fulfilling job, etc.
+
+  - key: options.workplace_perks.work_life_balance
+    aliasFor: options.workplace_difficulties.work_life_balance
+  - key: options.workplace_perks.work_life_balance.description
+    t: No overtime, flexible hours, etc.
 
   - key: options.workplace_perks.compensation
+    aliasFor: options.workplace_difficulties.compensation
+  - key: options.workplace_perks.compensation.description
     t: Good compensation
-  - key: options.workplace_perks.work_life_balance
-    t: Good work-life balance
+
+  - key: options.workplace_perks.training
+    aliasFor: options.workplace_difficulties.training
+  - key: options.workplace_perks.training.description
+    t: Company-provided training and skill development
 
   - key: options.workplace_perks.cultural_differences
-    t: New cultural experiences
+    aliasFor: options.workplace_difficulties.cultural_differences
+  - key: options.workplace_perks.cultural_differences.description
+    t: Opportunities to learn about another culture
+
   - key: options.workplace_perks.language_differences
+    aliasFor: options.workplace_difficulties.language_differences
+  - key: options.workplace_perks.language_differences.description
     t: Language acquisition opportunities
 
   #######################################################
@@ -1240,6 +1282,32 @@ translations:
   - key: options.paid_leave_percentage.range_80_100
     t: 80-100%
 
+  - key: compensation.most_important_benefit
+    t: Most important benefit
+  - key: compensation.most_important_benefit.question
+    t: Besides your salary, which benefit your employer offers is most important to you (if any)?
+
+  - key: options.most_important_benefit.books
+    t: Books (free or subsidized)
+  - key: options.most_important_benefit.company_activities
+    t: Company clubs or activities
+  - key: options.most_important_benefit.food_drinks
+    t: Food and drinks (free or subsidized)
+  - key: options.most_important_benefit.generous_vacation_policy
+    t: Generous vacation policy
+  - key: options.most_important_benefit.japanese_lessons
+    t: Japanese lessons (free or subsidized)
+  - key: options.most_important_benefit.housing_support
+    t: Housing allowance or support
+  - key: options.most_important_benefit.no_overtime
+    t: No overtime
+  - key: options.most_important_benefit.remote_work
+    t: Remote work
+  - key: options.most_important_benefit.stock_options
+    t: RSUs or stock options
+  - key: options.most_important_benefit.training
+    t: Training (free or subsidized)
+
   #######################################################
   #                                                     #
   #                     TECHNOLOGY                      #
@@ -1334,56 +1402,56 @@ translations:
     t: How satisfied are you with life in Japan?
 
   - key: options.life_in_japan.visa_situation
-    t: Visa Situation Satisfaction
+    t: Visa Situation
   - key: options.life_in_japan.visa_situation.description
     t: Visa type, length of visa, ease of renewal, etc.
   - key: satisfaction.life_in_japan__visa_situation.description
     aliasFor: options.life_in_japan.visa_situation.description
 
   - key: options.life_in_japan.professional_life
-    t: Professional Life Satisfaction
+    t: Professional Life
   - key: options.life_in_japan.professional_life.description
     t: Career prospects, working conditions, work-life balance, etc.
   - key: satisfaction.life_in_japan__professional_life.description
     aliasFor: options.life_in_japan.professional_life.description
 
   - key: options.life_in_japan.family_life
-    t: Family Life Satisfaction
+    t: Family Life
   - key: options.life_in_japan.family_life.description
     t: Romantic relationships, children, etc.
   - key: satisfaction.life_in_japan__family_life.description
     aliasFor: options.life_in_japan.family_life.description
 
   - key: options.life_in_japan.social_life
-    t: Social Life Satisfaction
+    t: Social Life
   - key: options.life_in_japan.social_life.description
     t: Friends, hobbies, community, etc.
   - key: satisfaction.life_in_japan__social_life.description
     aliasFor: options.life_in_japan.social_life.description
 
   - key: options.life_in_japan.cultural_adjustment
-    t: Cultural Adjustment Satisfaction
+    t: Cultural Adjustment
   - key: options.life_in_japan.cultural_adjustment.description
     t: Culture fit, language proficiency, etc.
   - key: satisfaction.life_in_japan__cultural_adjustment.description
     aliasFor: options.life_in_japan.cultural_adjustment.description
 
   - key: options.life_in_japan.quality_of_life
-    t: Quality of Life Satisfaction
+    t: Quality of Life
   - key: options.life_in_japan.quality_of_life.description
     t: Environment, healthcare, safety, etc.
   - key: satisfaction.life_in_japan__quality_of_life.description
     aliasFor: options.life_in_japan.quality_of_life.description
 
   - key: options.life_in_japan.housing
-    t: Housing Satisfaction
+    t: Housing
   - key: options.life_in_japan.housing.description
     t: Amenities, location, housing size, etc.
   - key: satisfaction.life_in_japan__housing.description
     aliasFor: options.life_in_japan.housing.description
 
   - key: options.life_in_japan.financial_situation
-    t: Financial Situation Satisfaction
+    t: Financial Situation
   - key: options.life_in_japan.financial_situation.description
     t: Compensation, cost of living, managing finances, etc.
   - key: satisfaction.life_in_japan__financial_situation.description
@@ -1447,7 +1515,7 @@ translations:
   - key: other.favourite_thing_about_japan
     t: Favourite Thing
   - key: other.favourite_thing_about_japan.question
-    t: In a word, what is your favourite thing about Japan?
+    t: In a single word, what is your favourite thing about Japan?
 
   # receive_notifications
 
