@@ -1,4 +1,5 @@
 - id: user_info
+  messageId: user_info.user_info_intro_td2024
   questions:
     - id: referrer
       hidden: true
@@ -338,13 +339,10 @@
       optionsAreSequential: true
       options:
         - id: never
-          label: Never
         - id: rarely
-          label: Rarely
         - id: sometimes
-          label: Sometimes
         - id: frequently
-          label: Frequently
+        - id: always
         # - id: na
 
     - id: languages_used_colleagues_english
@@ -352,13 +350,10 @@
       optionsAreSequential: true
       options:
         - id: never
-          label: Never
         - id: rarely
-          label: Rarely
         - id: sometimes
-          label: Sometimes
         - id: frequently
-          label: Frequently
+        - id: always
         # - id: na
 
     - id: coworker_gender_engineers
@@ -1040,7 +1035,7 @@
         #   label: Swift
         # - id: c
         #   label: C
-        - id: na
+        # - id: na
 
         # - id: assembly
         #   label: Assembly
@@ -1101,7 +1096,7 @@
           label: MariaDB
         - id: microsoft_sql_server
           label: Microsoft SQL Server
-        - id: na
+        # - id: na
 
         # - id: cassandra
         #   label: Cassandra
@@ -1144,7 +1139,7 @@
         - id: nuxt
         - id: svelte
         - id: spring
-        - id: na
+        # - id: na
 
         # - id: angular_js
         #   label: Angular.js
@@ -1203,7 +1198,7 @@
         #   label: Qt
         # - id: opengl
         #   label: OpenGL
-        - id: na
+        # - id: na
 
         # - id: capacitor
         #   label: Capacitor
@@ -1254,7 +1249,7 @@
           label: Cargo
         - id: make
           label: Make
-        - id: na
+        # - id: na
 
         # - id: unity_3d
         #   label: Unity 3D
@@ -1301,7 +1296,7 @@
           label: Neovim
         - id: emacs
           label: Emacs
-        - id: na
+        # - id: na
 
         # - id: atom
         #   label: Atom
