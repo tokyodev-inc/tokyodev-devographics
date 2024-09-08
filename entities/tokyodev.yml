@@ -88,6 +88,12 @@
   tags:
     - how_did_you_find_your_current_job
 
+- id: reddit_ad
+  patterns:
+    - reddit_ad
+  tags:
+    - sourcetag
+
 # how_to_improve_job_satisfaction
 
 - id: increase_compensation
@@ -257,8 +263,12 @@
   name: TokyoDev
   patterns:
     - tokyo dev
+    - tokyodev_discord
+    - tokyodev_newsletter
+    - tokyodev_site
   tags:
     - sources_tokyodev
+    - sourcetag
 
 - id: tokyodev
   normalizationOnly: true
@@ -308,9 +318,12 @@
 - id: creative_tokyo
   name: Creative Tokyo
   homepageUrl: https://creativetokyo.com/
+  patterns:
+    - creative_tokyo_newsletter
   tags:
     - communities
     - sources_tokyodev
+    - sourcetag
 
 - id: engineer_cafe
   name: Engineer Cafe
@@ -355,9 +368,11 @@
   patterns:
     - osaka web developer
     - osaka web designer
+    - owddm_discord
   tags:
     - communities
     - sources_tokyodev
+    - sourcetag
 
 - id: tokyodev_discord
   name: TokyoDev Discord
