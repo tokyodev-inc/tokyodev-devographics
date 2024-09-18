@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 29,
-                    "percentageSurvey": 6.32,
-                    "total": 459
+                    "count": 43,
+                    "percentageSurvey": 6.04,
+                    "total": 712
                   },
                   "buckets": [
                     {
-                      "count": 26,
+                      "count": 38,
                       "id": "docker",
-                      "percentageQuestion": 89.66,
-                      "percentageSurvey": 5.66,
+                      "percentageQuestion": 88.37,
+                      "percentageSurvey": 5.34,
                       "entity": {
                         "name": "Docker",
                         "nameClean": "Docker",
@@ -29,10 +29,10 @@
                       }
                     },
                     {
-                      "count": 19,
+                      "count": 28,
                       "id": "terraform",
-                      "percentageQuestion": 65.52,
-                      "percentageSurvey": 4.14,
+                      "percentageQuestion": 65.12,
+                      "percentageSurvey": 3.93,
                       "entity": {
                         "name": "Terraform",
                         "nameClean": "Terraform",
@@ -44,10 +44,10 @@
                       }
                     },
                     {
-                      "count": 17,
+                      "count": 25,
                       "id": "kubernetes",
-                      "percentageQuestion": 58.62,
-                      "percentageSurvey": 3.7,
+                      "percentageQuestion": 58.14,
+                      "percentageSurvey": 3.51,
                       "entity": {
                         "name": "Kubernetes",
                         "nameClean": "Kubernetes",
@@ -59,10 +59,25 @@
                       }
                     },
                     {
-                      "count": 17,
+                      "count": 22,
+                      "id": "homebrew",
+                      "percentageQuestion": 51.16,
+                      "percentageSurvey": 3.09,
+                      "entity": {
+                        "name": "Homebrew",
+                        "nameClean": "Homebrew",
+                        "id": "homebrew",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://brew.sh/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 22,
                       "id": "pip",
-                      "percentageQuestion": 58.62,
-                      "percentageSurvey": 3.7,
+                      "percentageQuestion": 51.16,
+                      "percentageSurvey": 3.09,
                       "entity": {
                         "name": "Pip",
                         "nameClean": "Pip",
@@ -75,24 +90,9 @@
                     },
                     {
                       "count": 13,
-                      "id": "homebrew",
-                      "percentageQuestion": 44.83,
-                      "percentageSurvey": 2.83,
-                      "entity": {
-                        "name": "Homebrew",
-                        "nameClean": "Homebrew",
-                        "id": "homebrew",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://brew.sh/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
                       "id": "ansible",
-                      "percentageQuestion": 34.48,
-                      "percentageSurvey": 2.18,
+                      "percentageQuestion": 30.23,
+                      "percentageSurvey": 1.83,
                       "entity": {
                         "name": "Ansible",
                         "nameClean": "Ansible",
@@ -100,6 +100,36 @@
                         "entityType": "default",
                         "homepage": {
                           "url": "https://www.ansible.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "npm",
+                      "percentageQuestion": 27.91,
+                      "percentageSurvey": 1.69,
+                      "entity": {
+                        "name": "Npm",
+                        "nameClean": "Npm",
+                        "id": "npm",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://npm.community"
+                        }
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "make",
+                      "percentageQuestion": 25.58,
+                      "percentageSurvey": 1.54,
+                      "entity": {
+                        "name": "Make",
+                        "nameClean": "Make",
+                        "id": "make",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://en.wikipedia.org/wiki/Make_(software)"
                         }
                       }
                     },
@@ -116,58 +146,6 @@
                         "entityType": "default",
                         "homepage": {
                           "url": "https://doc.rust-lang.org/cargo/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "make",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Make",
-                        "nameClean": "Make",
-                        "id": "make",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/Make_(software)"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "npm",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Npm",
-                        "nameClean": "Npm",
-                        "id": "npm",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://npm.community"
                         }
                       },
                       "averageByFacet": 0,

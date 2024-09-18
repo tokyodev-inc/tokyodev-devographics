@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 387,
-                    "percentageSurvey": 84.31,
-                    "total": 459
+                    "count": 582,
+                    "percentageSurvey": 81.74,
+                    "total": 712
                   },
                   "buckets": [
                     {
-                      "count": 68,
+                      "count": 106,
                       "id": "java",
-                      "percentageQuestion": 17.57,
-                      "percentageSurvey": 14.81,
+                      "percentageQuestion": 18.21,
+                      "percentageSurvey": 14.89,
                       "entity": {
                         "name": "Java",
                         "nameClean": "Java",
@@ -27,7 +27,59 @@
                           "url": "https://www.java.com/"
                         }
                       },
-                      "averageByFacet": 4964.8,
+                      "averageByFacet": 5037.2,
+                      "percentilesByFacet": {
+                        "p0": 1,
+                        "p10": 60,
+                        "p25": 300,
+                        "p50": 3000,
+                        "p75": 10000,
+                        "p90": 10000,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_20_99",
+                          "count": 14,
+                          "percentageBucket": 13.21
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 13,
+                          "percentageBucket": 12.26
+                        },
+                        {
+                          "id": "range_1000_4999",
+                          "count": 16,
+                          "percentageBucket": 15.09
+                        },
+                        {
+                          "id": "range_over_10000",
+                          "count": 39,
+                          "percentageBucket": 36.79
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 24,
+                          "percentageBucket": 23
+                        }
+                      ]
+                    },
+                    {
+                      "count": 63,
+                      "id": "kotlin",
+                      "percentageQuestion": 10.82,
+                      "percentageSurvey": 8.85,
+                      "entity": {
+                        "name": "Kotlin",
+                        "nameClean": "Kotlin",
+                        "id": "kotlin",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://kotlinlang.org"
+                        }
+                      },
+                      "averageByFacet": 4075.3,
                       "percentilesByFacet": {
                         "p0": 5,
                         "p10": 60,
@@ -39,59 +91,32 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_20_99",
+                          "count": 11,
+                          "percentageBucket": 17.46
+                        },
+                        {
+                          "id": "range_1000_4999",
+                          "count": 16,
+                          "percentageBucket": 25.4
+                        },
+                        {
                           "id": "range_over_10000",
-                          "count": 25,
-                          "percentageBucket": 36.76
+                          "count": 19,
+                          "percentageBucket": 30.16
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 43,
-                          "percentageBucket": 63
+                          "count": 17,
+                          "percentageBucket": 27
                         }
                       ]
                     },
                     {
-                      "count": 41,
-                      "id": "kotlin",
-                      "percentageQuestion": 10.59,
-                      "percentageSurvey": 8.93,
-                      "entity": {
-                        "name": "Kotlin",
-                        "nameClean": "Kotlin",
-                        "id": "kotlin",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://kotlinlang.org"
-                        }
-                      },
-                      "averageByFacet": 4078.9,
-                      "percentilesByFacet": {
-                        "p0": 5,
-                        "p10": 60,
-                        "p25": 60,
-                        "p50": 3000,
-                        "p75": 10000,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_over_10000",
-                          "count": 13,
-                          "percentageBucket": 31.71
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 28,
-                          "percentageBucket": 68
-                        }
-                      ]
-                    },
-                    {
-                      "count": 118,
+                      "count": 179,
                       "id": "bash_shell",
-                      "percentageQuestion": 30.49,
-                      "percentageSurvey": 25.71,
+                      "percentageQuestion": 30.76,
+                      "percentageSurvey": 25.14,
                       "entity": {
                         "name": "Bash/Shell",
                         "nameClean": "Bash/Shell",
@@ -101,7 +126,7 @@
                           "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                         }
                       },
-                      "averageByFacet": 3531.1,
+                      "averageByFacet": 3490.8,
                       "percentilesByFacet": {
                         "p0": 1,
                         "p10": 60,
@@ -113,42 +138,52 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_10_19",
+                          "count": 11,
+                          "percentageBucket": 6.15
+                        },
+                        {
                           "id": "range_20_99",
-                          "count": 30,
-                          "percentageBucket": 25.42
+                          "count": 39,
+                          "percentageBucket": 21.79
                         },
                         {
                           "id": "range_100_499",
-                          "count": 11,
-                          "percentageBucket": 9.32
+                          "count": 23,
+                          "percentageBucket": 12.85
+                        },
+                        {
+                          "id": "range_500_999",
+                          "count": 10,
+                          "percentageBucket": 5.59
                         },
                         {
                           "id": "range_1000_4999",
-                          "count": 15,
-                          "percentageBucket": 12.71
+                          "count": 30,
+                          "percentageBucket": 16.76
                         },
                         {
                           "id": "range_5000_9999",
-                          "count": 10,
-                          "percentageBucket": 8.47
+                          "count": 12,
+                          "percentageBucket": 6.7
                         },
                         {
                           "id": "range_over_10000",
-                          "count": 26,
-                          "percentageBucket": 22.03
+                          "count": 40,
+                          "percentageBucket": 22.35
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 26,
-                          "percentageBucket": 22
+                          "count": 14,
+                          "percentageBucket": 8
                         }
                       ]
                     },
                     {
-                      "count": 64,
+                      "count": 91,
                       "id": "go",
-                      "percentageQuestion": 16.54,
-                      "percentageSurvey": 13.94,
+                      "percentageQuestion": 15.64,
+                      "percentageSurvey": 12.78,
                       "entity": {
                         "name": "Go",
                         "nameClean": "Go",
@@ -158,10 +193,10 @@
                           "url": "https://go.dev/"
                         }
                       },
-                      "averageByFacet": 3214.4,
+                      "averageByFacet": 2858.2,
                       "percentilesByFacet": {
                         "p0": 1,
-                        "p10": 60,
+                        "p10": 51.00000000000003,
                         "p25": 60,
                         "p50": 750,
                         "p75": 3000,
@@ -171,31 +206,36 @@
                       "facetBuckets": [
                         {
                           "id": "range_20_99",
-                          "count": 14,
-                          "percentageBucket": 21.88
+                          "count": 19,
+                          "percentageBucket": 20.88
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 13,
+                          "percentageBucket": 14.29
                         },
                         {
                           "id": "range_1000_4999",
-                          "count": 14,
-                          "percentageBucket": 21.88
+                          "count": 23,
+                          "percentageBucket": 25.27
                         },
                         {
                           "id": "range_over_10000",
-                          "count": 14,
-                          "percentageBucket": 21.88
+                          "count": 16,
+                          "percentageBucket": 17.58
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 22,
-                          "percentageBucket": 34
+                          "count": 20,
+                          "percentageBucket": 22
                         }
                       ]
                     },
                     {
-                      "count": 166,
+                      "count": 248,
                       "id": "python",
-                      "percentageQuestion": 42.89,
-                      "percentageSurvey": 36.17,
+                      "percentageQuestion": 42.61,
+                      "percentageSurvey": 34.83,
                       "entity": {
                         "name": "Python",
                         "nameClean": "Python",
@@ -205,7 +245,7 @@
                           "url": "https://www.python.org/"
                         }
                       },
-                      "averageByFacet": 3521.9,
+                      "averageByFacet": 3655.2,
                       "percentilesByFacet": {
                         "p0": 1,
                         "p10": 60,
@@ -218,51 +258,56 @@
                       "facetBuckets": [
                         {
                           "id": "range_10_19",
-                          "count": 10,
-                          "percentageBucket": 6.02
+                          "count": 15,
+                          "percentageBucket": 6.05
                         },
                         {
                           "id": "range_20_99",
-                          "count": 40,
-                          "percentageBucket": 24.1
+                          "count": 53,
+                          "percentageBucket": 21.37
                         },
                         {
                           "id": "range_100_499",
-                          "count": 18,
-                          "percentageBucket": 10.84
+                          "count": 32,
+                          "percentageBucket": 12.9
                         },
                         {
                           "id": "range_500_999",
-                          "count": 14,
-                          "percentageBucket": 8.43
+                          "count": 17,
+                          "percentageBucket": 6.85
                         },
                         {
                           "id": "range_1000_4999",
-                          "count": 21,
-                          "percentageBucket": 12.65
+                          "count": 36,
+                          "percentageBucket": 14.52
                         },
                         {
                           "id": "range_5000_9999",
-                          "count": 18,
-                          "percentageBucket": 10.84
+                          "count": 23,
+                          "percentageBucket": 9.27
                         },
                         {
                           "id": "range_over_10000",
-                          "count": 34,
-                          "percentageBucket": 20.48
+                          "count": 56,
+                          "percentageBucket": 22.58
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 11,
+                          "percentageBucket": 4.44
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 11,
-                          "percentageBucket": 7
+                          "count": 5,
+                          "percentageBucket": 2
                         }
                       ]
                     },
                     {
-                      "count": 38,
+                      "count": 61,
                       "id": "cplusplus",
-                      "percentageQuestion": 9.82,
-                      "percentageSurvey": 8.28,
+                      "percentageQuestion": 10.48,
+                      "percentageSurvey": 8.57,
                       "entity": {
                         "name": "C++",
                         "nameClean": "C++",
@@ -272,42 +317,10 @@
                           "url": "https://cplusplus.com/"
                         }
                       },
-                      "averageByFacet": 3154.6,
+                      "averageByFacet": 2748.5,
                       "percentilesByFacet": {
                         "p0": 1,
-                        "p10": 33.000000000000014,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 7500,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 38,
-                          "percentageBucket": 100
-                        }
-                      ]
-                    },
-                    {
-                      "count": 170,
-                      "id": "javascript",
-                      "percentageQuestion": 43.93,
-                      "percentageSurvey": 37.04,
-                      "entity": {
-                        "name": "JavaScript",
-                        "nameClean": "JavaScript",
-                        "id": "javascript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.javascript.com/"
-                        }
-                      },
-                      "averageByFacet": 2005.8,
-                      "percentilesByFacet": {
-                        "p0": 1,
-                        "p10": 15,
+                        "p10": 46.50000000000001,
                         "p25": 60,
                         "p50": 300,
                         "p75": 3000,
@@ -316,278 +329,42 @@
                       },
                       "facetBuckets": [
                         {
-                          "id": "range_10_19",
-                          "count": 10,
-                          "percentageBucket": 5.88
-                        },
-                        {
                           "id": "range_20_99",
-                          "count": 56,
-                          "percentageBucket": 32.94
-                        },
-                        {
-                          "id": "range_100_499",
-                          "count": 33,
-                          "percentageBucket": 19.41
-                        },
-                        {
-                          "id": "range_500_999",
-                          "count": 12,
-                          "percentageBucket": 7.06
-                        },
-                        {
-                          "id": "range_1000_4999",
                           "count": 17,
-                          "percentageBucket": 10
+                          "percentageBucket": 27.87
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 12,
+                          "percentageBucket": 19.67
                         },
                         {
                           "id": "range_over_10000",
+                          "count": 10,
+                          "percentageBucket": 16.39
+                        },
+                        {
+                          "id": "insufficient_data",
                           "count": 22,
-                          "percentageBucket": 12.94
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 20,
-                          "percentageBucket": 12
+                          "percentageBucket": 36
                         }
                       ]
                     },
                     {
-                      "count": 401,
-                      "id": "overall",
-                      "percentageQuestion": 103.62,
-                      "percentageSurvey": 87.36,
-                      "averageByFacet": 3137.1,
-                      "percentilesByFacet": {
-                        "p0": 1,
-                        "p10": 60,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 7500,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_10_19",
-                          "count": 19,
-                          "percentageBucket": 4.74
-                        },
-                        {
-                          "id": "range_20_99",
-                          "count": 106,
-                          "percentageBucket": 26.43
-                        },
-                        {
-                          "id": "range_100_499",
-                          "count": 60,
-                          "percentageBucket": 14.96
-                        },
-                        {
-                          "id": "range_500_999",
-                          "count": 25,
-                          "percentageBucket": 6.23
-                        },
-                        {
-                          "id": "range_1000_4999",
-                          "count": 64,
-                          "percentageBucket": 15.96
-                        },
-                        {
-                          "id": "range_5000_9999",
-                          "count": 27,
-                          "percentageBucket": 6.73
-                        },
-                        {
-                          "id": "range_over_10000",
-                          "count": 82,
-                          "percentageBucket": 20.45
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 18,
-                          "percentageBucket": 4
-                        }
-                      ]
-                    },
-                    {
-                      "count": 30,
-                      "id": "php",
-                      "percentageQuestion": 7.75,
-                      "percentageSurvey": 6.54,
+                      "count": 213,
+                      "id": "html_css",
+                      "percentageQuestion": 36.6,
+                      "percentageSurvey": 29.92,
                       "entity": {
-                        "name": "PHP",
-                        "nameClean": "PHP",
-                        "id": "php",
+                        "name": "HTML/CSS",
+                        "nameClean": "HTML/CSS",
+                        "id": "html_css",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://www.php.net/"
+                          "url": "https://whatwg.org/"
                         }
                       },
-                      "averageByFacet": 1657.9,
-                      "percentilesByFacet": {
-                        "p0": 1,
-                        "p10": 14.000000000000004,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 300,
-                        "p90": 7750.000000000004,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 30,
-                          "percentageBucket": 100
-                        }
-                      ]
-                    },
-                    {
-                      "count": 53,
-                      "id": "ruby",
-                      "percentageQuestion": 13.7,
-                      "percentageSurvey": 11.55,
-                      "entity": {
-                        "name": "Ruby",
-                        "nameClean": "Ruby",
-                        "id": "ruby",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.ruby-lang.org/"
-                        }
-                      },
-                      "averageByFacet": 1777.4,
-                      "percentilesByFacet": {
-                        "p0": 1,
-                        "p10": 60,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 637.5,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_20_99",
-                          "count": 19,
-                          "percentageBucket": 35.85
-                        },
-                        {
-                          "id": "range_100_499",
-                          "count": 14,
-                          "percentageBucket": 26.42
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 20,
-                          "percentageBucket": 38
-                        }
-                      ]
-                    },
-                    {
-                      "count": 21,
-                      "id": "rust",
-                      "percentageQuestion": 5.43,
-                      "percentageSurvey": 4.58,
-                      "entity": {
-                        "name": "Rust",
-                        "nameClean": "Rust",
-                        "id": "rust",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.rust-lang.org/"
-                        }
-                      },
-                      "averageByFacet": 2346.9,
-                      "percentilesByFacet": {
-                        "p0": 5,
-                        "p10": 15,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 3000,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 21,
-                          "percentageBucket": 100
-                        }
-                      ]
-                    },
-                    {
-                      "count": 127,
-                      "id": "sql",
-                      "percentageQuestion": 32.82,
-                      "percentageSurvey": 27.67,
-                      "entity": {
-                        "name": "SQL",
-                        "nameClean": "SQL",
-                        "id": "sql",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/SQL"
-                        }
-                      },
-                      "averageByFacet": 3001.7,
-                      "percentilesByFacet": {
-                        "p0": 1,
-                        "p10": 60,
-                        "p25": 60,
-                        "p50": 300,
-                        "p75": 7500,
-                        "p90": 10000,
-                        "p100": 10000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_20_99",
-                          "count": 35,
-                          "percentageBucket": 27.56
-                        },
-                        {
-                          "id": "range_100_499",
-                          "count": 20,
-                          "percentageBucket": 15.75
-                        },
-                        {
-                          "id": "range_1000_4999",
-                          "count": 18,
-                          "percentageBucket": 14.17
-                        },
-                        {
-                          "id": "range_5000_9999",
-                          "count": 11,
-                          "percentageBucket": 8.66
-                        },
-                        {
-                          "id": "range_over_10000",
-                          "count": 22,
-                          "percentageBucket": 17.32
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 21,
-                          "percentageBucket": 17
-                        }
-                      ]
-                    },
-                    {
-                      "count": 150,
-                      "id": "typescript",
-                      "percentageQuestion": 38.76,
-                      "percentageSurvey": 32.68,
-                      "entity": {
-                        "name": "TypeScript",
-                        "nameClean": "TypeScript",
-                        "id": "typescript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "typescriptlang.org/"
-                        }
-                      },
-                      "averageByFacet": 2240.9,
+                      "averageByFacet": 1995.9,
                       "percentilesByFacet": {
                         "p0": 1,
                         "p10": 15,
@@ -600,135 +377,440 @@
                       "facetBuckets": [
                         {
                           "id": "range_2_9",
-                          "count": 10,
-                          "percentageBucket": 6.67
+                          "count": 13,
+                          "percentageBucket": 6.1
+                        },
+                        {
+                          "id": "range_10_19",
+                          "count": 15,
+                          "percentageBucket": 7.04
                         },
                         {
                           "id": "range_20_99",
-                          "count": 50,
-                          "percentageBucket": 33.33
+                          "count": 65,
+                          "percentageBucket": 30.52
                         },
                         {
                           "id": "range_100_499",
-                          "count": 25,
-                          "percentageBucket": 16.67
+                          "count": 39,
+                          "percentageBucket": 18.31
+                        },
+                        {
+                          "id": "range_500_999",
+                          "count": 11,
+                          "percentageBucket": 5.16
                         },
                         {
                           "id": "range_1000_4999",
-                          "count": 23,
-                          "percentageBucket": 15.33
+                          "count": 28,
+                          "percentageBucket": 13.15
                         },
                         {
                           "id": "range_over_10000",
-                          "count": 21,
-                          "percentageBucket": 14
+                          "count": 26,
+                          "percentageBucket": 12.21
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 21,
-                          "percentageBucket": 14
+                          "count": 16,
+                          "percentageBucket": 8
                         }
                       ]
                     },
                     {
-                      "count": 144,
-                      "id": "html_css",
-                      "percentageQuestion": 37.21,
-                      "percentageSurvey": 31.37,
+                      "count": 250,
+                      "id": "javascript",
+                      "percentageQuestion": 42.96,
+                      "percentageSurvey": 35.11,
                       "entity": {
-                        "name": "HTML/CSS",
-                        "nameClean": "HTML/CSS",
-                        "id": "html_css",
+                        "name": "JavaScript",
+                        "nameClean": "JavaScript",
+                        "id": "javascript",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://whatwg.org/"
+                          "url": "https://www.javascript.com/"
                         }
                       },
-                      "averageByFacet": 1708.2,
+                      "averageByFacet": 2104.7,
                       "percentilesByFacet": {
                         "p0": 1,
                         "p10": 15,
                         "p25": 60,
-                        "p50": 60,
-                        "p75": 1875,
-                        "p90": 8000.000000000007,
+                        "p50": 300,
+                        "p75": 3000,
+                        "p90": 10000,
                         "p100": 10000
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_2_9",
+                          "count": 14,
+                          "percentageBucket": 5.6
+                        },
+                        {
                           "id": "range_10_19",
-                          "count": 11,
-                          "percentageBucket": 7.64
+                          "count": 16,
+                          "percentageBucket": 6.4
                         },
                         {
                           "id": "range_20_99",
-                          "count": 48,
-                          "percentageBucket": 33.33
+                          "count": 77,
+                          "percentageBucket": 30.8
                         },
                         {
                           "id": "range_100_499",
-                          "count": 27,
-                          "percentageBucket": 18.75
+                          "count": 48,
+                          "percentageBucket": 19.2
+                        },
+                        {
+                          "id": "range_500_999",
+                          "count": 16,
+                          "percentageBucket": 6.4
                         },
                         {
                           "id": "range_1000_4999",
-                          "count": 17,
-                          "percentageBucket": 11.81
+                          "count": 26,
+                          "percentageBucket": 10.4
                         },
                         {
                           "id": "range_over_10000",
-                          "count": 14,
-                          "percentageBucket": 9.72
+                          "count": 34,
+                          "percentageBucket": 13.6
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 27,
-                          "percentageBucket": 19
+                          "count": 19,
+                          "percentageBucket": 8
                         }
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "csharp",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "count": 607,
+                      "id": "overall",
+                      "percentageQuestion": 104.3,
+                      "percentageSurvey": 85.25,
+                      "averageByFacet": 3099.8,
+                      "percentilesByFacet": {
+                        "p0": 1,
+                        "p10": 60,
+                        "p25": 60,
+                        "p50": 300,
+                        "p75": 7500,
+                        "p90": 10000,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_1",
+                          "count": 10,
+                          "percentageBucket": 1.65
+                        },
+                        {
+                          "id": "range_2_9",
+                          "count": 18,
+                          "percentageBucket": 2.97
+                        },
+                        {
+                          "id": "range_10_19",
+                          "count": 32,
+                          "percentageBucket": 5.27
+                        },
+                        {
+                          "id": "range_20_99",
+                          "count": 153,
+                          "percentageBucket": 25.21
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 96,
+                          "percentageBucket": 15.82
+                        },
+                        {
+                          "id": "range_500_999",
+                          "count": 36,
+                          "percentageBucket": 5.93
+                        },
+                        {
+                          "id": "range_1000_4999",
+                          "count": 102,
+                          "percentageBucket": 16.8
+                        },
+                        {
+                          "id": "range_5000_9999",
+                          "count": 36,
+                          "percentageBucket": 5.93
+                        },
+                        {
+                          "id": "range_over_10000",
+                          "count": 124,
+                          "percentageBucket": 20.43
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 72,
+                      "id": "ruby",
+                      "percentageQuestion": 12.37,
+                      "percentageSurvey": 10.11,
                       "entity": {
-                        "name": "C#",
-                        "nameClean": "C#",
-                        "id": "csharp",
+                        "name": "Ruby",
+                        "nameClean": "Ruby",
+                        "id": "ruby",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+                          "url": "https://www.ruby-lang.org/"
                         }
                       },
-                      "averageByFacet": 0,
+                      "averageByFacet": 1918.7,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
+                        "p0": 1,
+                        "p10": 60,
+                        "p25": 60,
+                        "p50": 300,
+                        "p75": 750,
+                        "p90": 10000,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_20_99",
+                          "count": 26,
+                          "percentageBucket": 36.11
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 19,
+                          "percentageBucket": 26.39
+                        },
+                        {
+                          "id": "range_over_10000",
+                          "count": 10,
+                          "percentageBucket": 13.89
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 24
+                        }
+                      ]
+                    },
+                    {
+                      "count": 28,
+                      "id": "rust",
+                      "percentageQuestion": 4.81,
+                      "percentageSurvey": 3.93,
+                      "entity": {
+                        "name": "Rust",
+                        "nameClean": "Rust",
+                        "id": "rust",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.rust-lang.org/"
+                        }
+                      },
+                      "averageByFacet": 2087.6,
+                      "percentilesByFacet": {
+                        "p0": 5,
+                        "p10": 15,
+                        "p25": 60,
+                        "p50": 300,
+                        "p75": 3000,
+                        "p90": 8500.000000000005,
+                        "p100": 10000
                       },
                       "facetBuckets": [
                         {
                           "id": "insufficient_data",
-                          "count": 1,
+                          "count": 28,
                           "percentageBucket": 100
                         }
                       ]
                     },
                     {
-                      "count": 71,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 15.47,
-                      "averageByFacet": 4386.6,
+                      "count": 189,
+                      "id": "sql",
+                      "percentageQuestion": 32.47,
+                      "percentageSurvey": 26.54,
+                      "entity": {
+                        "name": "SQL",
+                        "nameClean": "SQL",
+                        "id": "sql",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://en.wikipedia.org/wiki/SQL"
+                        }
+                      },
+                      "averageByFacet": 3005.3,
                       "percentilesByFacet": {
                         "p0": 1,
                         "p10": 60,
+                        "p25": 60,
+                        "p50": 300,
+                        "p75": 7500,
+                        "p90": 10000,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_10_19",
+                          "count": 10,
+                          "percentageBucket": 5.29
+                        },
+                        {
+                          "id": "range_20_99",
+                          "count": 49,
+                          "percentageBucket": 25.93
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 32,
+                          "percentageBucket": 16.93
+                        },
+                        {
+                          "id": "range_1000_4999",
+                          "count": 27,
+                          "percentageBucket": 14.29
+                        },
+                        {
+                          "id": "range_5000_9999",
+                          "count": 15,
+                          "percentageBucket": 7.94
+                        },
+                        {
+                          "id": "range_over_10000",
+                          "count": 34,
+                          "percentageBucket": 17.99
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 22,
+                          "percentageBucket": 12
+                        }
+                      ]
+                    },
+                    {
+                      "count": 227,
+                      "id": "typescript",
+                      "percentageQuestion": 39,
+                      "percentageSurvey": 31.88,
+                      "entity": {
+                        "name": "TypeScript",
+                        "nameClean": "TypeScript",
+                        "id": "typescript",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "typescriptlang.org/"
+                        }
+                      },
+                      "averageByFacet": 2526.5,
+                      "percentilesByFacet": {
+                        "p0": 1,
+                        "p10": 15,
+                        "p25": 60,
+                        "p50": 300,
+                        "p75": 3000,
+                        "p90": 10000,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_2_9",
+                          "count": 13,
+                          "percentageBucket": 5.73
+                        },
+                        {
+                          "id": "range_10_19",
+                          "count": 13,
+                          "percentageBucket": 5.73
+                        },
+                        {
+                          "id": "range_20_99",
+                          "count": 67,
+                          "percentageBucket": 29.52
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 37,
+                          "percentageBucket": 16.3
+                        },
+                        {
+                          "id": "range_500_999",
+                          "count": 10,
+                          "percentageBucket": 4.41
+                        },
+                        {
+                          "id": "range_1000_4999",
+                          "count": 36,
+                          "percentageBucket": 15.86
+                        },
+                        {
+                          "id": "range_over_10000",
+                          "count": 37,
+                          "percentageBucket": 16.3
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 6
+                        }
+                      ]
+                    },
+                    {
+                      "count": 50,
+                      "id": "php",
+                      "percentageQuestion": 8.59,
+                      "percentageSurvey": 7.02,
+                      "entity": {
+                        "name": "PHP",
+                        "nameClean": "PHP",
+                        "id": "php",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.php.net/"
+                        }
+                      },
+                      "averageByFacet": 1527.4,
+                      "percentilesByFacet": {
+                        "p0": 1,
+                        "p10": 13.000000000000007,
+                        "p25": 60,
+                        "p50": 60,
+                        "p75": 300,
+                        "p90": 7500,
+                        "p100": 10000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_20_99",
+                          "count": 14,
+                          "percentageBucket": 28
+                        },
+                        {
+                          "id": "range_100_499",
+                          "count": 13,
+                          "percentageBucket": 26
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 23,
+                          "percentageBucket": 46
+                        }
+                      ]
+                    },
+                    {
+                      "count": 127,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 17.84,
+                      "averageByFacet": 3954.1,
+                      "percentilesByFacet": {
+                        "p0": 1,
+                        "p10": 42.00000000000003,
                         "p25": 60,
                         "p50": 3000,
                         "p75": 10000,
@@ -737,19 +819,24 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_20_99",
+                          "count": 11,
+                          "percentageBucket": 8.66
+                        },
+                        {
                           "id": "range_over_10000",
-                          "count": 10,
-                          "percentageBucket": 14.08
+                          "count": 14,
+                          "percentageBucket": 11.02
                         },
                         {
                           "id": "no_answer",
-                          "count": 40,
-                          "percentageBucket": 56.34
+                          "count": 80,
+                          "percentageBucket": 62.99
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 21,
-                          "percentageBucket": 30
+                          "count": 22,
+                          "percentageBucket": 17
                         }
                       ]
                     }
