@@ -652,8 +652,8 @@
             - range_17000000_to_17999999
             - range_18000000_to_18999999
             - range_19000000_to_19999999
-        - id: range_over_20000000
-          average: 20000000
+        - id: range_20000000_to_29999999
+          average: 25000000
           items:
             - range_20000000_to_20999999
             - range_21000000_to_21999999
@@ -665,7 +665,20 @@
             - range_27000000_to_27999999
             - range_28000000_to_28999999
             - range_29000000_to_29999999
-            - range_30000000_or_more
+        - id: range_30000000_to_49999999
+          average: 40000000
+          items:
+            - range_30000000_to_39999999
+            - range_40000000_to_49999999
+        - id: range_over_50000000
+          average: 50000000
+          items:
+            - range_50000000_to_59999999
+            - range_60000000_to_69999999
+            - range_70000000_to_79999999
+            - range_80000000_to_89999999
+            - range_90000000_to_99999999
+            - range_100000000_or_more
 
       options:
         - id: range_under_1000000
