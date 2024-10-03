@@ -378,6 +378,33 @@
       label: "In a typical week, how many hours do you work?"
       template: number
       units: hours
+      groups:
+        - id: range_under_10
+          upperBound: 10
+          average: 5
+        - id: range_10_19
+          average: 15
+          lowerBound: 10
+          upperBound: 20
+        - id: range_20_29
+          average: 25
+          lowerBound: 20
+          upperBound: 30
+        - id: range_30_39
+          average: 35
+          lowerBound: 30
+          upperBound: 40
+        - id: range_40_49
+          average: 45
+          lowerBound: 40
+          upperBound: 50
+        - id: range_50_59
+          average: 55
+          lowerBound: 50
+          upperBound: 60
+        - id: range_over_60
+          average: 60
+          lowerBound: 60
 
     # - id: work_days_per_week
     #   label: "In a typical week, how many days do you work?"
