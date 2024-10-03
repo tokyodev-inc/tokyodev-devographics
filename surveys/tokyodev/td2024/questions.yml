@@ -171,6 +171,34 @@
       label: How many employers have you had while working in software development?
       template: number
       units: employers
+      groups:
+        - id: range_0
+          average: 0
+          lowerBound: 0
+          upperBound: 1
+        - id: range_1
+          average: 1
+          lowerBound: 1
+          upperBound: 2
+        - id: range_2
+          average: 2
+          lowerBound: 2
+          upperBound: 3
+        - id: range_3_4
+          average: 3.5
+          lowerBound: 3
+          upperBound: 5
+        - id: range_5_6
+          average: 5.5
+          lowerBound: 5
+          upperBound: 7
+        - id: range_7_9
+          average: 8
+          lowerBound: 7
+          upperBound: 10
+        - id: range_over_10
+          average: 10
+          lowerBound: 10
 
     - id: years_in_japan
       label: "How many years have you lived in Japan?"
