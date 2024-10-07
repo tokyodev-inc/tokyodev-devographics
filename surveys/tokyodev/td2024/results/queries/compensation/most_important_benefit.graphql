@@ -8,6 +8,9 @@ query td2024mostImportantBenefitQuery {
               parameters: {
                 showNoAnswer: true
                 mergeOtherBuckets: false
+                sort: {
+                  property: count
+                }
                 enableCache: false
               }
             ) {
