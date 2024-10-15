@@ -4,6 +4,11 @@ query td2024lifeInJapanSocialLifeByLanguageProficiencyJapaneseQuery {
       td2024 {
         other {
           life_in_japan__social_life_by_language_proficiency_japanese_1: life_in_japan__social_life {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__language_proficiency_japanese: {
@@ -19,6 +24,16 @@ query td2024lifeInJapanSocialLifeByLanguageProficiencyJapaneseQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
@@ -107,6 +122,11 @@ query td2024lifeInJapanSocialLifeByLanguageProficiencyJapaneseQuery {
             }
           }
           life_in_japan__social_life_by_language_proficiency_japanese_2: life_in_japan__social_life {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__language_proficiency_japanese: {
@@ -122,6 +142,16 @@ query td2024lifeInJapanSocialLifeByLanguageProficiencyJapaneseQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

@@ -4,6 +4,11 @@ query td2024languagesUsedColleaguesJapaneseVsSalaryQuery {
       td2024 {
         job_info {
           languages_used_colleagues_japanese_vs_salary: languages_used_colleagues_japanese {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024languagesUsedColleaguesJapaneseVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

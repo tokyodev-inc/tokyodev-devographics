@@ -4,6 +4,11 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
       td2024 {
         technology {
           web_frameworks_by_current_job_description_1: web_frameworks {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 job_info__current_job_description: {
@@ -18,6 +23,16 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
@@ -106,6 +121,11 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
             }
           }
           web_frameworks_by_current_job_description_2: web_frameworks {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 job_info__current_job_description: {
@@ -118,6 +138,16 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

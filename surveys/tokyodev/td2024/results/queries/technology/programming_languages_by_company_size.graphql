@@ -4,6 +4,11 @@ query td2024programmingLanguagesByCompanySizeQuery {
       td2024 {
         technology {
           programming_languages_by_company_size: programming_languages {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: employer_info__company_size
               parameters: {
@@ -15,6 +20,16 @@ query td2024programmingLanguagesByCompanySizeQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

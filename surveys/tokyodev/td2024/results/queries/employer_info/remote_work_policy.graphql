@@ -4,6 +4,11 @@ query td2024remoteWorkPolicyQuery {
       td2024 {
         employer_info {
           remote_work_policy {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               parameters: {
                 showNoAnswer: true
@@ -12,6 +17,16 @@ query td2024remoteWorkPolicyQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

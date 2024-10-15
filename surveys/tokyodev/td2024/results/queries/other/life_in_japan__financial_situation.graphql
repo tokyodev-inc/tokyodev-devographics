@@ -4,6 +4,11 @@ query td2024lifeInJapanFinancialSituationQuery {
       td2024 {
         other {
           life_in_japan__financial_situation {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               parameters: {
                 showNoAnswer: true
@@ -12,6 +17,16 @@ query td2024lifeInJapanFinancialSituationQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

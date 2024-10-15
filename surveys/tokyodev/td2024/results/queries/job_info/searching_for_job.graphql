@@ -4,6 +4,11 @@ query td2024searchingForJobQuery {
       td2024 {
         job_info {
           searching_for_job {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               parameters: {
                 showNoAnswer: true
@@ -12,6 +17,16 @@ query td2024searchingForJobQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

@@ -4,6 +4,11 @@ query td2024industrySectorQuery {
       td2024 {
         employer_info {
           industry_sector {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             combined(
               parameters: {
                 showNoAnswer: true
@@ -14,6 +19,16 @@ query td2024industrySectorQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

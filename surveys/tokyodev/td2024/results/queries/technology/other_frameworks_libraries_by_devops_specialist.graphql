@@ -4,6 +4,11 @@ query td2024otherFrameworksLibrariesByDevopsSpecialistQuery {
       td2024 {
         technology {
           other_frameworks_libraries_by_devops_specialist_1: developer_tools {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 job_info__current_job_description: {
@@ -16,6 +21,16 @@ query td2024otherFrameworksLibrariesByDevopsSpecialistQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

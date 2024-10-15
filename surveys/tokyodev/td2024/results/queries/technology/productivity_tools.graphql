@@ -4,6 +4,11 @@ query td2024productivityToolsQuery {
       td2024 {
         technology {
           productivity_tools {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             combined(
               parameters: {
                 showNoAnswer: true
@@ -14,6 +19,16 @@ query td2024productivityToolsQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

@@ -4,6 +4,11 @@ query td2024developmentProcessesVsSalaryQuery {
       td2024 {
         technology {
           development_processes_vs_salary: development_processes {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024developmentProcessesVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

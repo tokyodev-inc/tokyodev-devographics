@@ -4,6 +4,11 @@ query td2024developerToolsVsSalaryQuery {
       td2024 {
         technology {
           developer_tools_vs_salary: developer_tools {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024developerToolsVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

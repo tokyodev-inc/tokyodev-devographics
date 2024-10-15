@@ -4,6 +4,11 @@ query td2024languageProficiencyEnglishQuery {
       td2024 {
         user_info {
           language_proficiency_english {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               parameters: {
                 showNoAnswer: true
@@ -15,6 +20,16 @@ query td2024languageProficiencyEnglishQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

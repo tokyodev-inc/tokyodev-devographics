@@ -4,6 +4,11 @@ query td2024lifeInJapanSocialLifeVsSalaryQuery {
       td2024 {
         other {
           life_in_japan__social_life_vs_salary: life_in_japan__social_life {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024lifeInJapanSocialLifeVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

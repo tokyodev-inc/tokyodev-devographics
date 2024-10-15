@@ -4,6 +4,11 @@ query td2024industrySectorVsCurrentEmployerQuery {
       td2024 {
         employer_info {
           industry_sector_vs_current_employer: industry_sector {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: employer_info__current_employer
               parameters: {
@@ -12,6 +17,16 @@ query td2024industrySectorVsCurrentEmployerQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

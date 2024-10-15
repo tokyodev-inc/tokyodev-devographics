@@ -4,6 +4,11 @@ query td2024programmingLanguagesVsSalaryQuery {
       td2024 {
         technology {
           programming_languages_vs_salary: programming_languages {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024programmingLanguagesVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

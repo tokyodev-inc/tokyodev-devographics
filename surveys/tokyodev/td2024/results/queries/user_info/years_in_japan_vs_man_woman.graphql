@@ -4,6 +4,11 @@ query td2024yearsInJapanVsManWomanQuery {
       td2024 {
         user_info {
           years_in_japan_vs_man_woman_1: years_in_japan {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__gender: {
@@ -16,6 +21,16 @@ query td2024yearsInJapanVsManWomanQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
@@ -104,6 +119,11 @@ query td2024yearsInJapanVsManWomanQuery {
             }
           }
           years_in_japan_vs_man_woman_2: years_in_japan {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__gender: {
@@ -116,6 +136,16 @@ query td2024yearsInJapanVsManWomanQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

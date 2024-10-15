@@ -4,6 +4,11 @@ query td2024cloudPlatformsQuery {
       td2024 {
         technology {
           cloud_platforms {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             combined(
               parameters: {
                 showNoAnswer: true
@@ -14,6 +19,16 @@ query td2024cloudPlatformsQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

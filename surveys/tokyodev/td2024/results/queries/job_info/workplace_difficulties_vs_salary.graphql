@@ -4,6 +4,11 @@ query td2024workplaceDifficultiesVsSalaryQuery {
       td2024 {
         job_info {
           workplace_difficulties_vs_salary: workplace_difficulties {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024workplaceDifficultiesVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

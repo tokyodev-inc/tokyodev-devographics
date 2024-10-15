@@ -4,6 +4,11 @@ query td2024companySizeVsCurrentEmployerQuery {
       td2024 {
         employer_info {
           company_size_vs_current_employer: company_size {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: employer_info__current_employer
               parameters: {
@@ -12,6 +17,16 @@ query td2024companySizeVsCurrentEmployerQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

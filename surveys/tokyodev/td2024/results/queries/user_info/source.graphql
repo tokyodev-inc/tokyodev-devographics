@@ -4,6 +4,11 @@ query td2024sourceQuery {
       td2024 {
         user_info {
           source {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             freeform(
               parameters: {
                 showNoAnswer: true
@@ -14,6 +19,16 @@ query td2024sourceQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

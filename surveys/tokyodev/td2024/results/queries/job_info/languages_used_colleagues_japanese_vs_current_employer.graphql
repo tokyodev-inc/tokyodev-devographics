@@ -4,6 +4,11 @@ query td2024languagesUsedColleaguesJapaneseVsCurrentEmployerQuery {
       td2024 {
         job_info {
           languages_used_colleagues_japanese_vs_current_employer: languages_used_colleagues_japanese {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: employer_info__current_employer
               parameters: {
@@ -12,6 +17,16 @@ query td2024languagesUsedColleaguesJapaneseVsCurrentEmployerQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

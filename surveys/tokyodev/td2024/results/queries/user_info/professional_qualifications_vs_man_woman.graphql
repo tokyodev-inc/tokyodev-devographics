@@ -4,6 +4,11 @@ query td2024professionalQualificationsVsManWomanQuery {
       td2024 {
         user_info {
           professional_qualifications_vs_man_woman_1: professional_qualifications {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__gender: {
@@ -16,6 +21,16 @@ query td2024professionalQualificationsVsManWomanQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
@@ -104,6 +119,11 @@ query td2024professionalQualificationsVsManWomanQuery {
             }
           }
           professional_qualifications_vs_man_woman_2: professional_qualifications {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 user_info__gender: {
@@ -116,6 +136,16 @@ query td2024professionalQualificationsVsManWomanQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

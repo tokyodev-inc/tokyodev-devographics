@@ -4,6 +4,11 @@ query td2024lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
       td2024 {
         other {
           life_in_japan__professional_life_by_remote_work_policy_1: life_in_japan__professional_life {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 employer_info__remote_work_policy: {
@@ -19,6 +24,16 @@ query td2024lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
@@ -107,6 +122,11 @@ query td2024lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
             }
           }
           life_in_japan__professional_life_by_remote_work_policy_2: life_in_japan__professional_life {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               filters: {
                 employer_info__remote_work_policy: {
@@ -122,6 +142,16 @@ query td2024lifeInJapanProfessionalLifeByRemoteWorkPolicyQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

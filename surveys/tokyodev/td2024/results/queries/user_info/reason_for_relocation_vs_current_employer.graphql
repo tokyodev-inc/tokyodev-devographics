@@ -4,6 +4,11 @@ query td2024reasonForRelocationVsCurrentEmployerQuery {
       td2024 {
         user_info {
           reason_for_relocation_vs_current_employer: reason_for_relocation {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: employer_info__current_employer
               parameters: {
@@ -12,6 +17,16 @@ query td2024reasonForRelocationVsCurrentEmployerQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

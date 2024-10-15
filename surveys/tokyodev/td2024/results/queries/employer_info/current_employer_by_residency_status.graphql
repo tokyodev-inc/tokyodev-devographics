@@ -4,6 +4,11 @@ query td2024currentEmployerByResidencyStatusQuery {
       td2024 {
         employer_info {
           current_employer_by_residency_status: current_employer {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: user_info__residency_status
               parameters: {
@@ -12,6 +17,16 @@ query td2024currentEmployerByResidencyStatusQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey

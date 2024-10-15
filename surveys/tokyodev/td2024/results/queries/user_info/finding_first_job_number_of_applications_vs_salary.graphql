@@ -4,6 +4,11 @@ query td2024findingFirstJobNumberOfApplicationsVsSalaryQuery {
       td2024 {
         user_info {
           finding_first_job_number_of_applications_vs_salary: finding_first_job_number_of_applications {
+            comments {
+              currentEdition {
+                count
+              }
+            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
@@ -15,6 +20,16 @@ query td2024findingFirstJobNumberOfApplicationsVsSalaryQuery {
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
                 completion {
                   count
                   percentageSurvey
