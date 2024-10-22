@@ -9,7 +9,7 @@
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
-                      "property": "medianByFacet",
+                      "property": "options",
                       "order": "desc"
                     },
                     "axis2Sort": {
@@ -23,6 +23,49 @@
                     "total": 814
                   },
                   "buckets": [
+                    {
+                      "count": 116,
+                      "id": "all_male",
+                      "percentageQuestion": 15.93,
+                      "percentageSurvey": 14.25,
+                      "averageByFacet": 9730769.2,
+                      "percentilesByFacet": {
+                        "p0": 1500000,
+                        "p10": 4500000,
+                        "p25": 5500000,
+                        "p50": 8500000,
+                        "p75": 11500000,
+                        "p90": 18200000.000000004,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 23,
+                          "percentageBucket": 19.82
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 33,
+                          "percentageBucket": 28.44
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 22,
+                          "percentageBucket": 18.97
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 12,
+                          "percentageBucket": 10.34
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 26,
+                          "percentageBucket": 22
+                        }
+                      ]
+                    },
                     {
                       "count": 456,
                       "id": "mostly_made",
@@ -87,49 +130,6 @@
                       ]
                     },
                     {
-                      "count": 116,
-                      "id": "all_male",
-                      "percentageQuestion": 15.93,
-                      "percentageSurvey": 14.25,
-                      "averageByFacet": 9730769.2,
-                      "percentilesByFacet": {
-                        "p0": 1500000,
-                        "p10": 4500000,
-                        "p25": 5500000,
-                        "p50": 8500000,
-                        "p75": 11500000,
-                        "p90": 18200000.000000004,
-                        "p100": 29500000
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "range_3000000_to_5999999",
-                          "count": 23,
-                          "percentageBucket": 19.82
-                        },
-                        {
-                          "id": "range_6000000_to_8999999",
-                          "count": 33,
-                          "percentageBucket": 28.44
-                        },
-                        {
-                          "id": "range_9000000_to_11999999",
-                          "count": 22,
-                          "percentageBucket": 18.97
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 12,
-                          "percentageBucket": 10.34
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 26,
-                          "percentageBucket": 22
-                        }
-                      ]
-                    },
-                    {
                       "count": 150,
                       "id": "mixed",
                       "percentageQuestion": 20.6,
@@ -179,6 +179,54 @@
                           "id": "insufficient_data",
                           "count": 23,
                           "percentageBucket": 15
+                        }
+                      ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "mostly_female_nb",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "all_female_nb",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 167
                         }
                       ]
                     },
@@ -237,54 +285,6 @@
                           "id": "insufficient_data",
                           "count": 24,
                           "percentageBucket": 4
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "all_female_nb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 5,
-                          "percentageBucket": 167
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "mostly_female_nb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "insufficient_data",
-                          "count": 3,
-                          "percentageBucket": 100
                         }
                       ]
                     },
