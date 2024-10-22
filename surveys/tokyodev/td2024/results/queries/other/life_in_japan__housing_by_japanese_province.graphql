@@ -4,11 +4,6 @@ query td2024lifeInJapanHousingByJapaneseProvinceQuery {
       td2024 {
         other {
           life_in_japan__housing_by_japanese_province_1: life_in_japan__housing {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__japan_province: {
@@ -144,11 +139,6 @@ query td2024lifeInJapanHousingByJapaneseProvinceQuery {
             }
           }
           life_in_japan__housing_by_japanese_province_2: life_in_japan__housing {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__japan_province: {

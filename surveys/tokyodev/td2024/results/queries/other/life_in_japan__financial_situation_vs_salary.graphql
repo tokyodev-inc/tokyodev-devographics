@@ -4,11 +4,6 @@ query td2024lifeInJapanFinancialSituationVsSalaryQuery {
       td2024 {
         other {
           life_in_japan__financial_situation_vs_salary: life_in_japan__financial_situation {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {

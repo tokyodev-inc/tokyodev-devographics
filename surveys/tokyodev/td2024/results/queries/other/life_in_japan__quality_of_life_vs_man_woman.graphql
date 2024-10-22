@@ -4,15 +4,12 @@ query td2024lifeInJapanQualityOfLifeVsManWomanQuery {
       td2024 {
         other {
           life_in_japan__quality_of_life_vs_man_woman_1: life_in_japan__quality_of_life {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__gender: {
-                  eq: man
+                  in: [
+                    man
+                  ]
                 }
               }
               parameters: {
@@ -139,15 +136,12 @@ query td2024lifeInJapanQualityOfLifeVsManWomanQuery {
             }
           }
           life_in_japan__quality_of_life_vs_man_woman_2: life_in_japan__quality_of_life {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__gender: {
-                  eq: woman
+                  nin: [
+                    man
+                  ]
                 }
               }
               parameters: {

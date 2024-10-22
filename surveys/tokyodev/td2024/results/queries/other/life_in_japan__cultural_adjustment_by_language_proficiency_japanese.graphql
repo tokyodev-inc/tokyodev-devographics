@@ -4,11 +4,6 @@ query td2024lifeInJapanCulturalAdjustmentByLanguageProficiencyJapaneseQuery {
       td2024 {
         other {
           life_in_japan__cultural_adjustment_by_language_proficiency_japanese_1: life_in_japan__cultural_adjustment {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__language_proficiency_japanese: {
@@ -142,11 +137,6 @@ query td2024lifeInJapanCulturalAdjustmentByLanguageProficiencyJapaneseQuery {
             }
           }
           life_in_japan__cultural_adjustment_by_language_proficiency_japanese_2: life_in_japan__cultural_adjustment {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               filters: {
                 user_info__language_proficiency_japanese: {

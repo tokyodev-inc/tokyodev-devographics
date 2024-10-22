@@ -4,11 +4,6 @@ query td2024lifeInJapanHousingVsSalaryQuery {
       td2024 {
         other {
           life_in_japan__housing_vs_salary: life_in_japan__housing {
-            comments {
-              currentEdition {
-                count
-              }
-            }
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
