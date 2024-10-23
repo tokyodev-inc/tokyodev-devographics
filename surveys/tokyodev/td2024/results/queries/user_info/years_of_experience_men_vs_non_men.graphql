@@ -1,9 +1,9 @@
-query td2024yearsOfExperienceVsManWomanQuery {
+query td2024yearsOfExperienceMenVsNonMenQuery {
   surveys {
     tokyodev {
       td2024 {
         user_info {
-          years_of_experience_vs_man_woman_1: years_of_experience {
+          years_of_experience_men_vs_non_men_1: years_of_experience {
             comments {
               currentEdition {
                 count
@@ -12,7 +12,9 @@ query td2024yearsOfExperienceVsManWomanQuery {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: man
+                  in: [
+                    man
+                  ]
                 }
               }
               parameters: {
@@ -138,7 +140,7 @@ query td2024yearsOfExperienceVsManWomanQuery {
               }
             }
           }
-          years_of_experience_vs_man_woman_2: years_of_experience {
+          years_of_experience_men_vs_non_men_2: years_of_experience {
             comments {
               currentEdition {
                 count
@@ -147,7 +149,7 @@ query td2024yearsOfExperienceVsManWomanQuery {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: woman
+                  nin: man
                 }
               }
               parameters: {

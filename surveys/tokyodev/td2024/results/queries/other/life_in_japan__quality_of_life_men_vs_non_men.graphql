@@ -1,18 +1,15 @@
-query td2024ageVsManWomanQuery {
+query td2024lifeInJapanQualityOfLifeMenVsNonMenQuery {
   surveys {
     tokyodev {
       td2024 {
-        user_info {
-          age_vs_man_woman_1: age {
-            comments {
-              currentEdition {
-                count
-              }
-            }
+        other {
+          life_in_japan__quality_of_life_men_vs_non_men_1: life_in_japan__quality_of_life {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: man
+                  in: [
+                    man
+                  ]
                 }
               }
               parameters: {
@@ -102,6 +99,26 @@ query td2024ageVsManWomanQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                   averageByFacet
@@ -118,16 +135,11 @@ query td2024ageVsManWomanQuery {
               }
             }
           }
-          age_vs_man_woman_2: age {
-            comments {
-              currentEdition {
-                count
-              }
-            }
+          life_in_japan__quality_of_life_men_vs_non_men_2: life_in_japan__quality_of_life {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: woman
+                  nin: man
                 }
               }
               parameters: {
@@ -217,6 +229,26 @@ query td2024ageVsManWomanQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                   averageByFacet

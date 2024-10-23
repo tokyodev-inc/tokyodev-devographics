@@ -1,16 +1,16 @@
-query td2024reasonForRelocationVsCurrentEmployerQuery {
+query td2024industrySectorByJapaneseUsageQuery {
   surveys {
     tokyodev {
       td2024 {
-        user_info {
-          reason_for_relocation_vs_current_employer: reason_for_relocation {
+        employer_info {
+          industry_sector_by_japanese_usage: industry_sector {
             comments {
               currentEdition {
                 count
               }
             }
             responses(
-              facet: employer_info__current_employer
+              facet: job_info__languages_used_colleagues_japanese
               parameters: {
                 enableCache: false
                 showNoAnswer: true
@@ -98,6 +98,26 @@ query td2024reasonForRelocationVsCurrentEmployerQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                   averageByFacet

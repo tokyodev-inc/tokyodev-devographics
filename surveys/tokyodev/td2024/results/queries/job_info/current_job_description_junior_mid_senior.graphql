@@ -3,13 +3,312 @@ query td2024currentJobDescriptionJuniorMidSeniorQuery {
     tokyodev {
       td2024 {
         job_info {
-          current_job_description_junior_mid_senior: current_job_description {
+          current_job_description_junior_mid_senior_1: current_job_description {
             comments {
               currentEdition {
                 count
               }
             }
-            responses {
+            responses(
+              filters: {
+                user_info__years_of_experience: {
+                  in: [
+                    range_1_3
+                  ]
+                }
+              }
+              parameters: {
+                enableCache: false
+                showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                }
+              }
+            }
+          }
+          current_job_description_junior_mid_senior_2: current_job_description {
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                user_info__years_of_experience: {
+                  in: [
+                    range_4_6
+                    range_7_9
+                  ]
+                }
+              }
+              parameters: {
+                enableCache: false
+                showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                }
+              }
+            }
+          }
+          current_job_description_junior_mid_senior_3: current_job_description {
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                user_info__years_of_experience: {
+                  in: [
+                    range_10_12
+                    range_13_15
+                    range_16_20
+                    range_over_20
+                  ]
+                }
+              }
+              parameters: {
+                enableCache: false
+                showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
+              }
+            ) {
               currentEdition {
                 _metadata {
                   axis1Sort {

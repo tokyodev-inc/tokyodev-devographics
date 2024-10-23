@@ -1,9 +1,9 @@
-query td2024yearsInJapanVsManWomanQuery {
+query td2024professionalQualificationsMenVsNonMenQuery {
   surveys {
     tokyodev {
       td2024 {
         user_info {
-          years_in_japan_vs_man_woman_1: years_in_japan {
+          professional_qualifications_men_vs_non_men_1: professional_qualifications {
             comments {
               currentEdition {
                 count
@@ -12,7 +12,9 @@ query td2024yearsInJapanVsManWomanQuery {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: man
+                  in: [
+                    man
+                  ]
                 }
               }
               parameters: {
@@ -138,7 +140,7 @@ query td2024yearsInJapanVsManWomanQuery {
               }
             }
           }
-          years_in_japan_vs_man_woman_2: years_in_japan {
+          professional_qualifications_men_vs_non_men_2: professional_qualifications {
             comments {
               currentEdition {
                 count
@@ -147,7 +149,7 @@ query td2024yearsInJapanVsManWomanQuery {
             responses(
               filters: {
                 user_info__gender: {
-                  eq: woman
+                  nin: man
                 }
               }
               parameters: {
