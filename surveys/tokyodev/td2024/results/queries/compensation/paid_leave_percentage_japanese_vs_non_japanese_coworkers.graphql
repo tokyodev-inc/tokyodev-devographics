@@ -149,7 +149,7 @@ query td2024paidLeavePercentageJapaneseVsNonJapaneseCoworkersQuery {
             responses(
               filters: {
                 job_info__coworker_nationalities_engineers: {
-                  nin: all_non_japanese
+                  in: all_non_japanese
                 }
               }
               parameters: {
