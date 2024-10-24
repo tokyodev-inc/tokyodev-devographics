@@ -1,9 +1,10 @@
-query td2024programmingLanguagesQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          programming_languages {
+          programming_languages: programming_languages {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024programmingLanguagesQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

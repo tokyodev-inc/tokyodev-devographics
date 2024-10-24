@@ -1,9 +1,10 @@
-query td2024cloudPlatformsQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          cloud_platforms {
+          cloud_platforms: cloud_platforms {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024cloudPlatformsQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

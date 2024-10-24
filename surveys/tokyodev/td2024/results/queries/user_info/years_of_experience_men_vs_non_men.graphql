@@ -1,9 +1,10 @@
-query td2024yearsOfExperienceMenVsNonMenQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         user_info {
           years_of_experience_men_vs_non_men_1: years_of_experience {
+            id
             comments {
               currentEdition {
                 count
@@ -18,7 +19,6 @@ query td2024yearsOfExperienceMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -126,21 +126,12 @@ query td2024yearsOfExperienceMenVsNonMenQuery {
                       }
                     }
                   }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
-                  }
                 }
               }
             }
           }
           years_of_experience_men_vs_non_men_2: years_of_experience {
+            id
             comments {
               currentEdition {
                 count
@@ -153,7 +144,6 @@ query td2024yearsOfExperienceMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -260,16 +250,6 @@ query td2024yearsOfExperienceMenVsNonMenQuery {
                         }
                       }
                     }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
                   }
                 }
               }

@@ -1,9 +1,10 @@
-query td2024developmentProcessesQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          development_processes {
+          development_processes: development_processes {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024developmentProcessesQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

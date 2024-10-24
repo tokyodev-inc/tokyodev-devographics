@@ -1,9 +1,10 @@
-query td2024productivityToolsQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          productivity_tools {
+          productivity_tools: productivity_tools {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024productivityToolsQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

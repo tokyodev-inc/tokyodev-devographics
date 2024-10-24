@@ -1,9 +1,10 @@
-query td2024companySizeVsSalaryQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         employer_info {
           company_size_vs_salary: company_size {
+            id
             comments {
               currentEdition {
                 count
@@ -12,7 +13,6 @@ query td2024companySizeVsSalaryQuery {
             responses(
               facet: compensation__current_total_annual_compensation
               parameters: {
-                enableCache: false
                 showNoAnswer: true
                 sort: {
                   property: options
@@ -46,83 +46,6 @@ query td2024companySizeVsSalaryQuery {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
-                  entity {
-                    name
-                    nameHtml
-                    nameClean
-                    alias
-                    description
-                    descriptionHtml
-                    descriptionClean
-                    id
-                    entityType
-                    example {
-                      label
-                      language
-                      code
-                      codeHighlighted
-                    }
-                    avatar {
-                      url
-                    }
-                    homepage {
-                      url
-                    }
-                    youtube {
-                      url
-                    }
-                    twitter {
-                      url
-                    }
-                    twitch {
-                      url
-                    }
-                    rss {
-                      url
-                    }
-                    blog {
-                      url
-                    }
-                    mastodon {
-                      url
-                    }
-                    github {
-                      url
-                    }
-                    npm {
-                      url
-                    }
-                    mdn {
-                      url
-                    }
-                    caniuse {
-                      url
-                    }
-                    resources {
-                      url
-                      title
-                    }
-                    webFeature {
-                      id
-                      description_html
-                      group
-                      name
-                      spec
-                      status {
-                        baseline
-                        baseline_low_date
-                        support {
-                          chrome
-                          chrome_android
-                          edge
-                          firefox
-                          firefox_android
-                          safari
-                          safari_ios
-                        }
-                      }
-                    }
-                  }
                   averageByFacet
                   percentilesByFacet {
                     p0
@@ -137,6 +60,7 @@ query td2024companySizeVsSalaryQuery {
                     id
                     count
                     percentageBucket
+                    percentageQuestion
                     hasInsufficientData
                   }
                 }

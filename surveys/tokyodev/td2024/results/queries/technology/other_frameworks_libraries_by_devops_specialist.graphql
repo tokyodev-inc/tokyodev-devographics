@@ -1,9 +1,10 @@
-query td2024otherFrameworksLibrariesByDevopsSpecialistQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
           other_frameworks_libraries_by_devops_specialist_1: developer_tools {
+            id
             comments {
               currentEdition {
                 count
@@ -16,7 +17,6 @@ query td2024otherFrameworksLibrariesByDevopsSpecialistQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -123,16 +123,6 @@ query td2024otherFrameworksLibrariesByDevopsSpecialistQuery {
                         }
                       }
                     }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
                   }
                 }
               }

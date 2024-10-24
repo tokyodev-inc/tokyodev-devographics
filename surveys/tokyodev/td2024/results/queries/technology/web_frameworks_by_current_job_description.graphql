@@ -1,9 +1,10 @@
-query td2024webFrameworksByCurrentJobDescriptionQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
           web_frameworks_by_current_job_description_1: web_frameworks {
+            id
             comments {
               currentEdition {
                 count
@@ -18,7 +19,6 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -126,21 +126,12 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
                       }
                     }
                   }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
-                  }
                 }
               }
             }
           }
           web_frameworks_by_current_job_description_2: web_frameworks {
+            id
             comments {
               currentEdition {
                 count
@@ -153,7 +144,6 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -260,16 +250,6 @@ query td2024webFrameworksByCurrentJobDescriptionQuery {
                         }
                       }
                     }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
                   }
                 }
               }

@@ -1,9 +1,10 @@
-query td2024professionalQualificationsMenVsNonMenQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         user_info {
           professional_qualifications_men_vs_non_men_1: professional_qualifications {
+            id
             comments {
               currentEdition {
                 count
@@ -18,7 +19,6 @@ query td2024professionalQualificationsMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -126,21 +126,12 @@ query td2024professionalQualificationsMenVsNonMenQuery {
                       }
                     }
                   }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
-                  }
                 }
               }
             }
           }
           professional_qualifications_men_vs_non_men_2: professional_qualifications {
+            id
             comments {
               currentEdition {
                 count
@@ -153,7 +144,6 @@ query td2024professionalQualificationsMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -260,16 +250,6 @@ query td2024professionalQualificationsMenVsNonMenQuery {
                         }
                       }
                     }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
                   }
                 }
               }

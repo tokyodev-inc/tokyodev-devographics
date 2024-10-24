@@ -5,11 +5,16 @@
         "td2024": {
           "job_info": {
             "current_job_description_junior_mid_senior_1": {
+              "id": "current_job_description",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
                       "property": "medianByFacet",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     }
                   },
@@ -23,25 +28,158 @@
                       "count": 15,
                       "id": "data_scientist_or_machine_learning",
                       "percentageQuestion": 13.16,
-                      "percentageSurvey": 1.84
+                      "percentageSurvey": 1.84,
+                      "averageByFacet": 7500000,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 4500000,
+                        "p25": 6500000,
+                        "p50": 8500000,
+                        "p75": 9000000,
+                        "p90": 10500000,
+                        "p100": 11500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 127
+                        }
+                      ]
                     },
                     {
                       "count": 40,
                       "id": "developer_back_end",
                       "percentageQuestion": 35.09,
-                      "percentageSurvey": 4.91
+                      "percentageSurvey": 4.91,
+                      "averageByFacet": 6439393.9,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 3500000,
+                        "p25": 4500000,
+                        "p50": 6500000,
+                        "p75": 8500000,
+                        "p90": 10300000,
+                        "p100": 15500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 13,
+                          "percentageBucket": 32.5,
+                          "percentageQuestion": 11.4
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 12,
+                          "percentageBucket": 30,
+                          "percentageQuestion": 10.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 22,
+                          "percentageBucket": 55
+                        }
+                      ]
                     },
                     {
                       "count": 27,
                       "id": "developer_front_end",
                       "percentageQuestion": 23.68,
-                      "percentageSurvey": 3.32
+                      "percentageSurvey": 3.32,
+                      "averageByFacet": 6300000,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 2900000.0000000005,
+                        "p25": 4500000,
+                        "p50": 5500000,
+                        "p75": 6500000,
+                        "p90": 8500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 13,
+                          "percentageBucket": 48.14,
+                          "percentageQuestion": 11.4
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 59
+                        }
+                      ]
+                    },
+                    {
+                      "count": 108,
+                      "id": "overall",
+                      "percentageQuestion": 94.74,
+                      "percentageSurvey": 13.27,
+                      "averageByFacet": 6175925.9,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 3500000,
+                        "p25": 4500000,
+                        "p50": 5500000,
+                        "p75": 7500000,
+                        "p90": 9500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 53,
+                          "percentageBucket": 49.08,
+                          "percentageQuestion": 46.49
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 34,
+                          "percentageBucket": 31.49,
+                          "percentageQuestion": 29.83
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 10,
+                          "percentageBucket": 9.26,
+                          "percentageQuestion": 8.78
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 10
+                        }
+                      ]
                     },
                     {
                       "count": 41,
                       "id": "developer_full_stack",
                       "percentageQuestion": 35.96,
-                      "percentageSurvey": 5.04
+                      "percentageSurvey": 5.04,
+                      "averageByFacet": 5064102.6,
+                      "percentilesByFacet": {
+                        "p0": 500000,
+                        "p10": 3300000,
+                        "p25": 3500000,
+                        "p50": 4500000,
+                        "p75": 6500000,
+                        "p90": 7700000.000000003,
+                        "p100": 9500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 24,
+                          "percentageBucket": 58.53,
+                          "percentageQuestion": 21.05
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 46
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -58,7 +196,14 @@
                         "p75": 0,
                         "p90": 0,
                         "p100": 0
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 117
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -75,7 +220,14 @@
                         "p75": 0,
                         "p90": 0,
                         "p100": 0
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -92,7 +244,14 @@
                         "p75": 0,
                         "p90": 0,
                         "p100": 0
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -109,7 +268,14 @@
                         "p75": 0,
                         "p90": 0,
                         "p100": 0
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 125
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -126,194 +292,70 @@
                         "p75": 0,
                         "p90": 0,
                         "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_data",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "product_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 120
+                        }
+                      ]
                     },
                     {
                       "count": 13,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 1.6
+                      "percentageSurvey": 1.6,
+                      "averageByFacet": 6100000,
+                      "percentilesByFacet": {
+                        "p0": 2500000,
+                        "p10": 2900000,
+                        "p25": 3500000,
+                        "p50": 7500000,
+                        "p75": 7500000,
+                        "p90": 8700000,
+                        "p100": 9500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 21,
+                          "percentageBucket": 162
+                        }
+                      ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      }
                     }
                   ]
                 }
               }
             },
             "current_job_description_junior_mid_senior_2": {
+              "id": "current_job_description",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
                       "property": "medianByFacet",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     }
                   },
@@ -324,228 +366,384 @@
                   },
                   "buckets": [
                     {
-                      "count": 29,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 10.9,
-                      "percentageSurvey": 3.56
-                    },
-                    {
                       "count": 31,
                       "id": "data_scientist_or_machine_learning",
                       "percentageQuestion": 11.65,
-                      "percentageSurvey": 3.81
-                    },
-                    {
-                      "count": 96,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 36.09,
-                      "percentageSurvey": 11.79
-                    },
-                    {
-                      "count": 16,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 6.02,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 11,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 4.14,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 60,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 22.56,
-                      "percentageSurvey": 7.37
-                    },
-                    {
-                      "count": 88,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 33.08,
-                      "percentageSurvey": 10.81
-                    },
-                    {
-                      "count": 10,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 3.76,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 13,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 4.89,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 11,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 4.14,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 16,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 6.02,
-                      "percentageSurvey": 1.97
+                      "percentageSurvey": 3.81,
+                      "averageByFacet": 13532258.1,
+                      "percentilesByFacet": {
+                        "p0": 6500000,
+                        "p10": 7500000,
+                        "p25": 9500000,
+                        "p50": 11500000,
+                        "p75": 17000000,
+                        "p90": 21500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 10,
+                          "percentageBucket": 32.26,
+                          "percentageQuestion": 3.76
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 21,
+                          "percentageBucket": 68
+                        }
+                      ]
                     },
                     {
                       "count": 17,
                       "id": "engineer_data",
                       "percentageQuestion": 6.39,
-                      "percentageSurvey": 2.09
+                      "percentageSurvey": 2.09,
+                      "averageByFacet": 13323529.4,
+                      "percentilesByFacet": {
+                        "p0": 2500000,
+                        "p10": 5700000,
+                        "p25": 7500000,
+                        "p50": 11500000,
+                        "p75": 16500000,
+                        "p90": 24700000.000000004,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 11,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 4.14,
-                      "percentageSurvey": 1.35
+                      "count": 13,
+                      "id": "developer_mobile",
+                      "percentageQuestion": 4.89,
+                      "percentageSurvey": 1.6,
+                      "averageByFacet": 12038461.5,
+                      "percentilesByFacet": {
+                        "p0": 6500000,
+                        "p10": 7500000,
+                        "p25": 8500000,
+                        "p50": 10500000,
+                        "p75": 14500000,
+                        "p90": 20300000.000000004,
+                        "p100": 22500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 14,
                       "id": "engineering_manager",
                       "percentageQuestion": 5.26,
-                      "percentageSurvey": 1.72
-                    },
-                    {
-                      "count": 0,
-                      "id": "blockchain",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "id": "blockchain",
-                        "entityType": "default"
+                      "percentageSurvey": 1.72,
+                      "averageByFacet": 12884615.4,
+                      "percentilesByFacet": {
+                        "p0": 7500000,
+                        "p10": 7500000,
+                        "p25": 7500000,
+                        "p50": 10500000,
+                        "p75": 12500000,
+                        "p90": 24100000.000000004,
+                        "p100": 29500000
                       },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 107
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "database_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 11,
+                      "id": "engineer_site_reliability",
+                      "percentageQuestion": 4.14,
+                      "percentageSurvey": 1.35,
+                      "averageByFacet": 11318181.8,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 5500000,
+                        "p10": 5500000,
+                        "p25": 7000000,
+                        "p50": 9500000,
+                        "p75": 13000000,
+                        "p90": 16500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "designer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 29,
+                      "id": "cloud_infrastructure_engineer",
+                      "percentageQuestion": 10.9,
+                      "percentageSurvey": 3.56,
+                      "averageByFacet": 11321428.6,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 5500000,
+                        "p10": 5500000,
+                        "p25": 7500000,
+                        "p50": 9000000,
+                        "p75": 14750000,
+                        "p90": 17700000.000000004,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 10,
+                          "percentageBucket": 34.48,
+                          "percentageQuestion": 3.76
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 20,
+                          "percentageBucket": 69
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "product_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 96,
+                      "id": "developer_back_end",
+                      "percentageQuestion": 36.09,
+                      "percentageSurvey": 11.79,
+                      "averageByFacet": 9766666.7,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 3500000,
+                        "p10": 4500000,
+                        "p25": 6500000,
+                        "p50": 8500000,
+                        "p75": 10500000,
+                        "p90": 14500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 17,
+                          "percentageBucket": 17.71,
+                          "percentageQuestion": 6.4
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 38,
+                          "percentageBucket": 39.59,
+                          "percentageQuestion": 14.29
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 15,
+                          "percentageBucket": 15.62,
+                          "percentageQuestion": 5.64
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 12,
+                          "percentageBucket": 12.5,
+                          "percentageQuestion": 4.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 20,
+                          "percentageBucket": 21
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 16,
+                      "id": "devops_specialist",
+                      "percentageQuestion": 6.02,
+                      "percentageSurvey": 1.97,
+                      "averageByFacet": 9566666.7,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 5500000,
+                        "p10": 5900000,
+                        "p25": 7500000,
+                        "p50": 8500000,
+                        "p75": 10500000,
+                        "p90": 15500000,
+                        "p100": 16500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 106
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "senior_executive",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 256,
+                      "id": "overall",
+                      "percentageQuestion": 96.24,
+                      "percentageSurvey": 31.45,
+                      "averageByFacet": 9980468.8,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 1500000,
+                        "p10": 4500000,
+                        "p25": 6500000,
+                        "p50": 8500000,
+                        "p75": 11750000,
+                        "p90": 16500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 45,
+                          "percentageBucket": 17.58,
+                          "percentageQuestion": 16.92
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 95,
+                          "percentageBucket": 37.11,
+                          "percentageQuestion": 35.71
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 49,
+                          "percentageBucket": 19.14,
+                          "percentageQuestion": 18.43
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 30,
+                          "percentageBucket": 11.72,
+                          "percentageQuestion": 11.28
+                        },
+                        {
+                          "id": "range_15000000_to_19999999",
+                          "count": 18,
+                          "percentageBucket": 7.02,
+                          "percentageQuestion": 6.77
+                        },
+                        {
+                          "id": "range_20000000_to_29999999",
+                          "count": 10,
+                          "percentageBucket": 3.9,
+                          "percentageQuestion": 3.76
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 16,
+                      "id": "developer_desktop_or_enterprise_applications",
+                      "percentageQuestion": 6.02,
+                      "percentageSurvey": 1.97,
+                      "averageByFacet": 9900000,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 3500000,
+                        "p10": 4500000,
+                        "p25": 5500000,
+                        "p50": 7500000,
+                        "p75": 10500000,
+                        "p90": 16099999.999999998,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 106
+                        }
+                      ]
                     },
                     {
                       "count": 22,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2.7
+                      "percentageSurvey": 2.7,
+                      "averageByFacet": 10642857.1,
+                      "percentilesByFacet": {
+                        "p0": 7500000,
+                        "p10": 8100000,
+                        "p25": 9000000,
+                        "p50": 10500000,
+                        "p75": 12000000,
+                        "p90": 13900000,
+                        "p100": 14500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "no_answer",
+                          "count": 15,
+                          "percentageBucket": 68.18,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 32
+                        }
+                      ]
+                    },
+                    {
+                      "count": 180,
+                      "id": "other_answers",
+                      "percentageQuestion": 67.68,
+                      "percentageSurvey": 22.11,
+                      "averageByFacet": 3508193.04,
+                      "percentilesByFacet": {
+                        "p0": 1291666.67,
+                        "p10": 1783333.33,
+                        "p25": 2354166.67,
+                        "p50": 3041666.67,
+                        "p75": 4250000,
+                        "p90": 5383333.33,
+                        "p100": 9041666.67
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 34,
+                          "percentageBucket": 18.89
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 62,
+                          "percentageBucket": 34.44
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 22,
+                          "percentageBucket": 12.22
+                        }
+                      ]
                     }
                   ]
                 }
               }
             },
             "current_job_description_junior_mid_senior_3": {
+              "id": "current_job_description",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
                       "property": "medianByFacet",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     }
                   },
@@ -556,217 +754,352 @@
                   },
                   "buckets": [
                     {
-                      "count": 27,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 11.74,
-                      "percentageSurvey": 3.32
+                      "count": 12,
+                      "id": "engineer_data",
+                      "percentageQuestion": 5.22,
+                      "percentageSurvey": 1.47,
+                      "averageByFacet": 15318181.8,
+                      "percentilesByFacet": {
+                        "p0": 8500000,
+                        "p10": 8500000,
+                        "p25": 9500000,
+                        "p50": 15500000,
+                        "p75": 18500000,
+                        "p90": 23500000,
+                        "p100": 24500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 108
+                        }
+                      ]
                     },
                     {
                       "count": 16,
                       "id": "data_scientist_or_machine_learning",
                       "percentageQuestion": 6.96,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 78,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 33.91,
-                      "percentageSurvey": 9.58
-                    },
-                    {
-                      "count": 11,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 4.78,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 16,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 6.96,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 38,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 16.52,
-                      "percentageSurvey": 4.67
-                    },
-                    {
-                      "count": 66,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 28.7,
-                      "percentageSurvey": 8.11
-                    },
-                    {
-                      "count": 13,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 5.65,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 26,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 11.3,
-                      "percentageSurvey": 3.19
-                    },
-                    {
-                      "count": 18,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 7.83,
-                      "percentageSurvey": 2.21
-                    },
-                    {
-                      "count": 12,
-                      "id": "engineer_data",
-                      "percentageQuestion": 5.22,
-                      "percentageSurvey": 1.47
+                      "percentageSurvey": 1.97,
+                      "averageByFacet": 15812500,
+                      "percentilesByFacet": {
+                        "p0": 2500000,
+                        "p10": 9500000,
+                        "p25": 10500000,
+                        "p50": 13000000,
+                        "p75": 20750000,
+                        "p90": 27000000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 16,
                       "id": "engineer_site_reliability",
                       "percentageQuestion": 6.96,
-                      "percentageSurvey": 1.97
+                      "percentageSurvey": 1.97,
+                      "averageByFacet": 14142857.1,
+                      "percentilesByFacet": {
+                        "p0": 7500000,
+                        "p10": 8100000,
+                        "p25": 10500000,
+                        "p50": 13000000,
+                        "p75": 18250000,
+                        "p90": 19500000,
+                        "p100": 24500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 18,
+                          "percentageBucket": 113
+                        }
+                      ]
+                    },
+                    {
+                      "count": 27,
+                      "id": "cloud_infrastructure_engineer",
+                      "percentageQuestion": 11.74,
+                      "percentageSurvey": 3.32,
+                      "averageByFacet": 13500000,
+                      "percentilesByFacet": {
+                        "p0": 6500000,
+                        "p10": 7900000,
+                        "p25": 9500000,
+                        "p50": 12500000,
+                        "p75": 18500000,
+                        "p90": 20100000,
+                        "p100": 24500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 29,
+                          "percentageBucket": 107
+                        }
+                      ]
                     },
                     {
                       "count": 47,
                       "id": "engineering_manager",
                       "percentageQuestion": 20.43,
-                      "percentageSurvey": 5.77
-                    },
-                    {
-                      "count": 15,
-                      "id": "product_manager",
-                      "percentageQuestion": 6.52,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 0,
-                      "id": "blockchain",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "id": "blockchain",
-                        "entityType": "default"
+                      "percentageSurvey": 5.77,
+                      "averageByFacet": 14309523.8,
+                      "percentilesByFacet": {
+                        "p0": 1500000,
+                        "p10": 8500000,
+                        "p25": 10500000,
+                        "p50": 12500000,
+                        "p75": 19250000,
+                        "p90": 24400000,
+                        "p100": 29500000
                       },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                      "facetBuckets": [
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 10,
+                          "percentageBucket": 21.28,
+                          "percentageQuestion": 4.35
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 12,
+                          "percentageBucket": 25.54,
+                          "percentageQuestion": 5.21
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 30,
+                          "percentageBucket": 64
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "database_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 16,
+                      "id": "developer_embedded_applications_or_devices",
+                      "percentageQuestion": 6.96,
+                      "percentageSurvey": 1.97,
+                      "averageByFacet": 14633333.3,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 8500000,
+                        "p10": 8900000,
+                        "p25": 10000000,
+                        "p50": 10500000,
+                        "p75": 19000000,
+                        "p90": 22900000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 106
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "designer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 38,
+                      "id": "developer_front_end",
+                      "percentageQuestion": 16.52,
+                      "percentageSurvey": 4.67,
+                      "averageByFacet": 12843750,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 1500000,
+                        "p10": 6600000,
+                        "p25": 8500000,
+                        "p50": 10500000,
+                        "p75": 14500000,
+                        "p90": 28900000.000000015,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 44,
+                          "percentageBucket": 116
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 66,
+                      "id": "developer_full_stack",
+                      "percentageQuestion": 28.7,
+                      "percentageSurvey": 8.11,
+                      "averageByFacet": 12822033.9,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 1500000,
+                        "p10": 7500000,
+                        "p25": 8500000,
+                        "p50": 10500000,
+                        "p75": 14500000,
+                        "p90": 23700000.000000004,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 14,
+                          "percentageBucket": 21.21,
+                          "percentageQuestion": 6.09
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 17,
+                          "percentageBucket": 25.76,
+                          "percentageQuestion": 7.39
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 11,
+                          "percentageBucket": 16.67,
+                          "percentageQuestion": 4.78
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 31,
+                          "percentageBucket": 47
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 13,
+                      "id": "developer_game_or_graphics",
+                      "percentageQuestion": 5.65,
+                      "percentageSurvey": 1.6,
+                      "averageByFacet": 15318181.8,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 5500000,
+                        "p10": 5500000,
+                        "p25": 7500000,
+                        "p50": 10500000,
+                        "p75": 25000000,
+                        "p90": 29500000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 115
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "senior_executive",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "count": 26,
+                      "id": "developer_mobile",
+                      "percentageQuestion": 11.3,
+                      "percentageSurvey": 3.19,
+                      "averageByFacet": 13083333.3,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 3500000,
+                        "p10": 7800000,
+                        "p25": 10500000,
+                        "p50": 10500000,
+                        "p75": 16250000,
+                        "p90": 19200000,
+                        "p100": 29500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 10,
+                          "percentageBucket": 38.46,
+                          "percentageQuestion": 4.35
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 18,
+                          "percentageBucket": 69
+                        }
+                      ]
                     },
                     {
                       "count": 23,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2.83
+                      "percentageSurvey": 2.83,
+                      "averageByFacet": 12750000,
+                      "percentilesByFacet": {
+                        "p0": 6500000,
+                        "p10": 7200000,
+                        "p25": 9750000,
+                        "p50": 12000000,
+                        "p75": 15750000,
+                        "p90": 18000000,
+                        "p100": 21500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "no_answer",
+                          "count": 15,
+                          "percentageBucket": 65.22,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 35
+                        }
+                      ]
+                    },
+                    {
+                      "count": 340,
+                      "id": "other_answers",
+                      "percentageQuestion": 147.82,
+                      "percentageSurvey": 41.76,
+                      "averageByFacet": 4993852.85,
+                      "percentilesByFacet": {
+                        "p0": 1708333.33,
+                        "p10": 3083333.33,
+                        "p25": 3541666.67,
+                        "p50": 4083333.33,
+                        "p75": 5895833.33,
+                        "p90": 7858333.33,
+                        "p100": 10708333.33
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 11,
+                          "percentageBucket": 3.24
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 63,
+                          "percentageBucket": 18.53
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 86,
+                          "percentageBucket": 25.29
+                        },
+                        {
+                          "id": "range_12000000_to_14999999",
+                          "count": 30,
+                          "percentageBucket": 8.82
+                        },
+                        {
+                          "id": "range_15000000_to_19999999",
+                          "count": 30,
+                          "percentageBucket": 8.82
+                        },
+                        {
+                          "id": "range_20000000_to_29999999",
+                          "count": 22,
+                          "percentageBucket": 6.47
+                        },
+                        {
+                          "id": "range_30000000_to_49999999",
+                          "count": 13,
+                          "percentageBucket": 3.82
+                        }
+                      ]
                     }
                   ]
                 }

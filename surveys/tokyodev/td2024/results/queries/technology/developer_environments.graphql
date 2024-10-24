@@ -1,9 +1,10 @@
-query td2024developerEnvironmentsQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          developer_environments {
+          developer_environments: developer_environments {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024developerEnvironmentsQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

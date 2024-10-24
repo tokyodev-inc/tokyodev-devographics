@@ -1,9 +1,10 @@
-query td2024communitiesQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         other {
-          communities {
+          communities: communities {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024communitiesQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

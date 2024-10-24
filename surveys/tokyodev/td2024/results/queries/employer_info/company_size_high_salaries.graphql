@@ -1,9 +1,10 @@
-query td2024companySizeHighSalariesQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         employer_info {
           company_size_high_salaries_1: company_size {
+            id
             comments {
               currentEdition {
                 count
@@ -20,7 +21,6 @@ query td2024companySizeHighSalariesQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -51,93 +51,6 @@ query td2024companySizeHighSalariesQuery {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
-                  entity {
-                    name
-                    nameHtml
-                    nameClean
-                    alias
-                    description
-                    descriptionHtml
-                    descriptionClean
-                    id
-                    entityType
-                    example {
-                      label
-                      language
-                      code
-                      codeHighlighted
-                    }
-                    avatar {
-                      url
-                    }
-                    homepage {
-                      url
-                    }
-                    youtube {
-                      url
-                    }
-                    twitter {
-                      url
-                    }
-                    twitch {
-                      url
-                    }
-                    rss {
-                      url
-                    }
-                    blog {
-                      url
-                    }
-                    mastodon {
-                      url
-                    }
-                    github {
-                      url
-                    }
-                    npm {
-                      url
-                    }
-                    mdn {
-                      url
-                    }
-                    caniuse {
-                      url
-                    }
-                    resources {
-                      url
-                      title
-                    }
-                    webFeature {
-                      id
-                      description_html
-                      group
-                      name
-                      spec
-                      status {
-                        baseline
-                        baseline_low_date
-                        support {
-                          chrome
-                          chrome_android
-                          edge
-                          firefox
-                          firefox_android
-                          safari
-                          safari_ios
-                        }
-                      }
-                    }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
-                  }
                 }
               }
             }

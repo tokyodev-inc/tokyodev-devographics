@@ -1,9 +1,10 @@
-query td2024otherFrameworksLibrariesQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         technology {
-          other_frameworks_libraries {
+          other_frameworks_libraries: other_frameworks_libraries {
+            id
             comments {
               currentEdition {
                 count
@@ -15,7 +16,6 @@ query td2024otherFrameworksLibrariesQuery {
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {

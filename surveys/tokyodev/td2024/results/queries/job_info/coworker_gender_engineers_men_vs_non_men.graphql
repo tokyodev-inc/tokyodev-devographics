@@ -1,9 +1,10 @@
-query td2024coworkerGenderEngineersMenVsNonMenQuery {
+query {
   surveys {
     tokyodev {
       td2024 {
         job_info {
           coworker_gender_engineers_men_vs_non_men_1: coworker_gender_engineers {
+            id
             comments {
               currentEdition {
                 count
@@ -18,7 +19,6 @@ query td2024coworkerGenderEngineersMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -126,21 +126,12 @@ query td2024coworkerGenderEngineersMenVsNonMenQuery {
                       }
                     }
                   }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
-                  }
                 }
               }
             }
           }
           coworker_gender_engineers_men_vs_non_men_2: coworker_gender_engineers {
+            id
             comments {
               currentEdition {
                 count
@@ -153,7 +144,6 @@ query td2024coworkerGenderEngineersMenVsNonMenQuery {
                 }
               }
               parameters: {
-                enableCache: false
                 showNoAnswer: true
               }
             ) {
@@ -260,16 +250,6 @@ query td2024coworkerGenderEngineersMenVsNonMenQuery {
                         }
                       }
                     }
-                  }
-                  averageByFacet
-                  percentilesByFacet {
-                    p0
-                    p10
-                    p25
-                    p50
-                    p75
-                    p90
-                    p100
                   }
                 }
               }
