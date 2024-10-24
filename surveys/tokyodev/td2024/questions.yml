@@ -251,6 +251,38 @@
       optionsAreRange: true
       optionsAreSequential: true
       optionsAreNumeric: true
+      groups:
+        - id: range_under_1
+          lowerBound: 0
+          upperBound: 1
+          average: 0.5
+        - id: range_1_3
+          lowerBound: 1
+          upperBound: 4
+          average: 2
+        - id: range_4_6
+          lowerBound: 4
+          upperBound: 7
+          average: 5
+        - id: range_7_9
+          lowerBound: 7
+          upperBound: 10
+          average: 8
+        - id: range_10_12
+          lowerBound: 10
+          upperBound: 13
+          average: 11
+        - id: range_13_15
+          lowerBound: 13
+          upperBound: 16
+          average: 14
+        - id: range_16_20
+          lowerBound: 16
+          upperBound: 21
+          average: 18
+        - id: range_over_20
+          lowerBound: 20
+          average: 20
 
     # removed in 2024
     # - id: educational_attainment
