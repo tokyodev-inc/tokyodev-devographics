@@ -1,0 +1,71 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        job_info {
+          coworker_nationalities_non_engineers_by_coworker_nationalities_engineers: coworker_nationalities_non_engineers {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              facet: job_info__coworker_nationalities_engineers
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

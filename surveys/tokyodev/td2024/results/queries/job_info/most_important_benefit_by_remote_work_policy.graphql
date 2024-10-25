@@ -1,0 +1,202 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        job_info {
+          most_important_benefit_by_remote_work_policy_1: searching_for_job {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__remote_work_policy: {
+                  eq: no_remote_work
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          most_important_benefit_by_remote_work_policy_2: searching_for_job {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__remote_work_policy: {
+                  eq: hybrid
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          most_important_benefit_by_remote_work_policy_3: searching_for_job {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__remote_work_policy: {
+                  eq: up_to_employee
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          most_important_benefit_by_remote_work_policy_4: searching_for_job {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__remote_work_policy: {
+                  eq: fully_remote
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
