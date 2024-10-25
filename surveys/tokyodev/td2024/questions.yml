@@ -144,15 +144,15 @@
     - id: gender
       label: "Which of the following describe you, if any?"
       template: single
-      groups:
-        - id: man
-          items:
-            - man
-        - id: non_man
-          items:
-            - woman
-            - nb_gq_gnc
-            - not_listed
+      # groups:
+      #   - id: man
+      #     items:
+      #       - man
+      #   - id: non_man
+      #     items:
+      #       - woman
+      #       - nb_gq_gnc
+      #       - not_listed
       options:
         - id: man
           label: Man
