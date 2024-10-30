@@ -1,0 +1,71 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        user_info {
+          total_employers_by_years_of_experience: total_employers {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              facet: user_info__years_of_experience
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
