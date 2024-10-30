@@ -424,8 +424,14 @@ translations:
   # searching_for_job
   - key: user_info.searching_for_job
     t: 🔍 Job Search Status
+    aliases:
+      - job_info.searching_for_job
+      - other.searching_for_job
   - key: user_info.searching_for_job.question
     t: Are you currently searching for a new job?
+    aliases:
+      - job_info.searching_for_job.question
+      - other.searching_for_job.question
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
@@ -446,6 +452,11 @@ translations:
     t: 🧑‍💼️ Employment Status
   - key: user_info.employment_status.question
     t: Which of the following best describes your employment status?
+
+  - key: employer_info.employment_status
+    aliasFor: user_info.employment_status
+  - key: employer_info.employment_status.question
+    aliasFor: user_info.employment_status.question
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
@@ -472,6 +483,8 @@ translations:
 
   - key: user_info.source
     t: 🔗 Source
+    aliases:
+      - other.source
 
   #######################################################
   #                                                     #
@@ -510,6 +523,11 @@ translations:
     t: 🏝️ Remote Work Policy
   - key: employer_info.remote_work_policy.question
     t: What best describes your employer's remote work policy?
+
+  - key: job_info.remote_work_policy
+    aliasFor: employer_info.remote_work_policy
+  - key: job_info.remote_work_policy.question
+    aliasFor: employer_info.remote_work_policy.question
 
   - key: options.remote_work_policy.no_remote_work
     t: No remote work. All employees must attend the office.
@@ -587,8 +605,12 @@ translations:
   # finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications
     t: 📨 Number of Applications
+    aliases:
+      - other.finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications.question
     t: To get your first software developer job in Japan, how many positions did you apply to?
+    aliases:
+      - other.finding_first_job_number_of_applications.question
 
   - key: options.finding_first_job_number_of_applications.range_0
     t: 0 (internal transfer)
@@ -616,12 +638,6 @@ translations:
       If you have multiple employers and/or clients, please answer
       the survey based on your primary employer.
 
-  # searching_for_job
-  - key: job_info.searching_for_job
-    aliasFor: user_info.searching_for_job
-  - key: job_info.searching_for_job.question
-    aliasFor: user_info.searching_for_job.question
-
   # employment_status
   - key: job_info.employment_status
     aliasFor: user_info.employment_status
@@ -635,6 +651,11 @@ translations:
     t: Which of the following describes your current job?
   - key: job_info.current_job_description.description
     t: Please select all that apply.
+
+  - key: employer_info.current_job_description
+    aliasFor: job_info.current_job_description
+  - key: employer_info.current_job_description.question
+    aliasFor: job_info.current_job_description.question
 
   - key: options.current_job_description.academic_researcher
     t: Academic researcher
@@ -1027,6 +1048,15 @@ translations:
 
   #######################################################
   #                                                     #
+  #                 WORK ENVIRONMENT                    #
+  #                                                     #
+  #######################################################
+
+  - key: sections.work_environment.title
+    t: Work Environment
+
+  #######################################################
+  #                                                     #
   #                    COMPENSATION                     #
   #                                                     #
   #######################################################
@@ -1260,11 +1290,18 @@ translations:
   # paid_leave_percentage
 
   - key: compensation.paid_leave_percentage
-    t: Paid Leave Percentage
+    t: 💸 Paid Leave Percentage
   - key: compensation.paid_leave_percentage.question
     t: What percentage of your paid leave do you anticipate you'll use this year?
   - key: compensation.paid_leave_percentage.prompt
     t: This only refers to your usage of annual paid leave, and not to other holidays like national holidays, New Year's holidays, Obon, etc.
+
+  - key: job_info.paid_leave_percentage
+    aliasFor: compensation.paid_leave_percentage
+  - key: job_info.paid_leave_percentage.question
+    aliasFor: compensation.paid_leave_percentage.question
+  - key: job_info.paid_leave_percentage.prompt
+    aliasFor: compensation.paid_leave_percentage.prompt
 
   - key: options.paid_leave_percentage.range_0_19
     t: 0-19%
@@ -1281,8 +1318,12 @@ translations:
 
   - key: compensation.most_important_benefit
     t: 🍣 Most Important Benefit
+    aliases:
+      - job_info.most_important_benefit
   - key: compensation.most_important_benefit.question
     t: Besides your salary, which benefit offered by your employer is the most important to you?
+    aliases:
+      - job_info.most_important_benefit.question
 
   - key: options.most_important_benefit.books
     t: Books (free or subsidized)
@@ -1401,6 +1442,15 @@ translations:
 
   #######################################################
   #                                                     #
+  #                 SATISFACTION                    #
+  #                                                     #
+  #######################################################
+
+  - key: sections.satisfaction.title
+    t: Satisfaction
+
+  #######################################################
+  #                                                     #
   #                        OTHER                        #
   #                                                     #
   #######################################################
@@ -1507,7 +1557,7 @@ translations:
   #   t: Japan-focused LinkedIn groups
 
   - key: other.communities
-    t: Developer Communities
+    t: 🧑‍🏫 Developer Communities
   - key: other.communities.question
     t: Which Japan-based developer communities are you a member of?
 
