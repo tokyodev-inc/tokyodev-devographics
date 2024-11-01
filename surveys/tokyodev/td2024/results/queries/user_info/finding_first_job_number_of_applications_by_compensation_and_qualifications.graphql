@@ -1,0 +1,106 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        user_info {
+          finding_first_job_number_of_applications_by_compensation_and_qualifications_1: finding_first_job_number_of_applications {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                user_info__professional_qualifications: {
+                  eq: coding_bootcamp
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          finding_first_job_number_of_applications_by_compensation_and_qualifications_2: finding_first_job_number_of_applications {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                user_info__professional_qualifications: {
+                  eq: bachelors_degree
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
