@@ -1,0 +1,138 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        other {
+          favourite_thing_by_years_in_japan_1: favourite_thing_about_japan {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            freeform(
+              filters: {
+                user_info__years_in_japan: {
+                  in: [
+                    range_under_1
+                    range_1_3
+                  ]
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+                limit: 10
+                mergeOtherBuckets: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+          favourite_thing_by_years_in_japan_2: favourite_thing_about_japan {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            freeform(
+              filters: {
+                user_info__years_in_japan: {
+                  in: [
+                    range_4_6
+                    range_7_9
+                    range_10_12
+                    range_13_15
+                    range_16_20
+                    range_over_20
+                  ]
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+                limit: 10
+                mergeOtherBuckets: true
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
