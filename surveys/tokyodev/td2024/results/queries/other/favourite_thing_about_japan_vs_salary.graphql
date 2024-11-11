@@ -1,0 +1,101 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        other {
+          favourite_thing_about_japan_vs_salary: favourite_thing_about_japan {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            freeform(
+              facet: compensation__current_total_annual_compensation
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: medianByFacet
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                    averageByFacet
+                    percentilesByFacet {
+                      p0
+                      p10
+                      p25
+                      p50
+                      p75
+                      p90
+                      p100
+                    }
+                    facetBuckets {
+                      id
+                      count
+                      percentageBucket
+                      percentageQuestion
+                      hasInsufficientData
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

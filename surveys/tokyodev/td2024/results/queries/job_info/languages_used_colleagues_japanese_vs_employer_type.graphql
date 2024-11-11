@@ -1,0 +1,222 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        job_info {
+          languages_used_colleagues_japanese_vs_employer_type_1: languages_used_colleagues_japanese {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_company
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: options
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          languages_used_colleagues_japanese_vs_employer_type_2: languages_used_colleagues_japanese {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_subsidiary
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: options
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          languages_used_colleagues_japanese_vs_employer_type_3: languages_used_colleagues_japanese {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: international_company
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: options
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          languages_used_colleagues_japanese_vs_employer_type_4: languages_used_colleagues_japanese {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: sole_proprietorship
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: options
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

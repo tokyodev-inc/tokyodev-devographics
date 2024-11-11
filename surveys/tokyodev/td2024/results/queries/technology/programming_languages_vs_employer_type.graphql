@@ -1,0 +1,530 @@
+query {
+  surveys {
+    tokyodev {
+      td2024 {
+        technology {
+          programming_languages_vs_employer_type_1: programming_languages {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_company
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: count
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          programming_languages_vs_employer_type_2: programming_languages {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: japanese_subsidiary
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: count
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          programming_languages_vs_employer_type_3: programming_languages {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: international_company
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: count
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          programming_languages_vs_employer_type_4: programming_languages {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            responses(
+              filters: {
+                employer_info__current_employer: {
+                  eq: sole_proprietorship
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: count
+                }
+              }
+            ) {
+              currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
