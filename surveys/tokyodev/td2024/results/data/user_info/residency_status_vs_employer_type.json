@@ -4,314 +4,282 @@
       "tokyodev": {
         "td2024": {
           "user_info": {
-            "residency_status_vs_employer_type_1": {
+            "residency_status_vs_employer_type": {
               "id": "residency_status",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
-                      "property": "count",
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 487,
-                    "percentageSurvey": 59.83,
+                    "count": 774,
+                    "percentageSurvey": 95.09,
                     "total": 814
                   },
                   "buckets": [
-                    {
-                      "count": 273,
-                      "id": "engineer",
-                      "percentageQuestion": 56.06,
-                      "percentageSurvey": 33.54
-                    },
-                    {
-                      "count": 74,
-                      "id": "permanent_resident",
-                      "percentageQuestion": 15.2,
-                      "percentageSurvey": 9.09
-                    },
-                    {
-                      "count": 53,
-                      "id": "hsfp",
-                      "percentageQuestion": 10.88,
-                      "percentageSurvey": 6.51
-                    },
-                    {
-                      "count": 50,
-                      "id": "spouse_dependent_japanese_permanent_resident",
-                      "percentageQuestion": 10.27,
-                      "percentageSurvey": 6.14
-                    },
-                    {
-                      "count": 32,
-                      "id": "japanese_citizen",
-                      "percentageQuestion": 6.57,
-                      "percentageSurvey": 3.93
-                    },
-                    {
-                      "count": 0,
-                      "id": "dependent_foreign_resident",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "investor_business_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "student",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
                     {
                       "count": 14,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 1.72
-                    }
-                  ]
-                }
-              }
-            },
-            "residency_status_vs_employer_type_2": {
-              "id": "residency_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 129,
-                    "percentageSurvey": 15.85,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 48,
-                      "id": "engineer",
-                      "percentageQuestion": 37.21,
-                      "percentageSurvey": 5.9
-                    },
-                    {
-                      "count": 42,
-                      "id": "permanent_resident",
-                      "percentageQuestion": 32.56,
-                      "percentageSurvey": 5.16
-                    },
-                    {
-                      "count": 16,
-                      "id": "hsfp",
-                      "percentageQuestion": 12.4,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 12,
-                      "id": "spouse_dependent_japanese_permanent_resident",
-                      "percentageQuestion": 9.3,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "dependent_foreign_resident",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "investor_business_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "japanese_citizen",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "residency_status_vs_employer_type_3": {
-              "id": "residency_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 40,
-                    "percentageSurvey": 4.91,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "permanent_resident",
-                      "percentageQuestion": 30,
-                      "percentageSurvey": 1.47
+                      "id": "student",
+                      "percentageQuestion": 1.81,
+                      "percentageSurvey": 1.72,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 11,
-                      "id": "spouse_dependent_japanese_permanent_resident",
-                      "percentageQuestion": 27.5,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 0,
                       "id": "dependent_foreign_resident",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageQuestion": 1.42,
+                      "percentageSurvey": 1.35,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "engineer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "hsfp",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "investor_business_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "japanese_citizen",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "student",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "residency_status_vs_employer_type_4": {
-              "id": "residency_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 26,
-                    "percentageSurvey": 3.19,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 13,
-                      "id": "engineer",
-                      "percentageQuestion": 50,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 0,
-                      "id": "hsfp",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "investor_business_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "japanese_citizen",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "permanent_resident",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
+                      "count": 93,
                       "id": "spouse_dependent_japanese_permanent_resident",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageQuestion": 12.02,
+                      "percentageSurvey": 11.43,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 50,
+                          "percentageBucket": 53.76,
+                          "percentageQuestion": 6.46
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 12,
+                          "percentageBucket": 12.9,
+                          "percentageQuestion": 1.55
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 14,
+                          "percentageBucket": 15.05,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 18
+                        }
+                      ]
+                    },
+                    {
+                      "count": 75,
+                      "id": "hsfp",
+                      "percentageQuestion": 9.69,
+                      "percentageSurvey": 9.21,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 53,
+                          "percentageBucket": 70.67,
+                          "percentageQuestion": 6.85
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 16,
+                          "percentageBucket": 21.33,
+                          "percentageQuestion": 2.07
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 8
+                        }
+                      ]
+                    },
+                    {
+                      "count": 379,
+                      "id": "engineer",
+                      "percentageQuestion": 48.97,
+                      "percentageSurvey": 46.56,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 273,
+                          "percentageBucket": 72.03,
+                          "percentageQuestion": 35.27
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 48,
+                          "percentageBucket": 12.66,
+                          "percentageQuestion": 6.2
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 13,
+                          "percentageBucket": 3.43,
+                          "percentageQuestion": 1.68
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 35,
+                          "percentageBucket": 9.23,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 3
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "student",
+                      "id": "investor_business_manager",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
+                      "count": 145,
+                      "id": "permanent_resident",
+                      "percentageQuestion": 18.73,
+                      "percentageSurvey": 17.81,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 74,
+                          "percentageBucket": 51.03,
+                          "percentageQuestion": 9.56
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 42,
+                          "percentageBucket": 28.97,
+                          "percentageQuestion": 5.43
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 12,
+                          "percentageBucket": 8.28,
+                          "percentageQuestion": 1.55
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 12,
+                          "percentageBucket": 8.28,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 52,
+                      "id": "japanese_citizen",
+                      "percentageQuestion": 6.72,
+                      "percentageSurvey": 6.39,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 32,
+                          "percentageBucket": 61.54,
+                          "percentageQuestion": 4.13
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 20,
+                          "percentageBucket": 38
+                        }
+                      ]
+                    },
+                    {
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 91.21,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 64.73
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 16.93
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.43
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 40,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 4.91,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 14,
+                          "percentageBucket": 35,
+                          "percentageQuestion": 1.81
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 21,
+                          "percentageBucket": 52.5,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 13
+                        }
+                      ]
                     }
                   ]
                 }

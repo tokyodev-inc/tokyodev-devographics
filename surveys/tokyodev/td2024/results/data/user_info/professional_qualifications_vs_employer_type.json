@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "user_info": {
-            "professional_qualifications_vs_employer_type_1": {
+            "professional_qualifications_vs_employer_type": {
               "id": "professional_qualifications",
               "responses": {
                 "currentEdition": {
@@ -13,257 +13,230 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 448,
-                    "percentageSurvey": 55.04,
+                    "count": 705,
+                    "percentageSurvey": 86.61,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 273,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 100.14,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 71.06
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 18.58
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.96
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 444,
                       "id": "bachelors_degree",
-                      "percentageQuestion": 60.94,
-                      "percentageSurvey": 33.54
+                      "percentageQuestion": 62.98,
+                      "percentageSurvey": 54.55,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 273,
+                          "percentageBucket": 61.49,
+                          "percentageQuestion": 38.72
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 92,
+                          "percentageBucket": 20.72,
+                          "percentageQuestion": 13.05
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 21,
+                          "percentageBucket": 4.73,
+                          "percentageQuestion": 2.98
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 43,
+                          "percentageBucket": 9.68,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 3
+                        }
+                      ]
                     },
                     {
-                      "count": 138,
+                      "count": 209,
                       "id": "masters_degree",
-                      "percentageQuestion": 30.8,
-                      "percentageSurvey": 16.95
+                      "percentageQuestion": 29.65,
+                      "percentageSurvey": 25.68,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 138,
+                          "percentageBucket": 66.03,
+                          "percentageQuestion": 19.57
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 40,
+                          "percentageBucket": 19.14,
+                          "percentageQuestion": 5.67
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 16,
+                          "percentageBucket": 7.66,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 7
+                        }
+                      ]
                     },
                     {
-                      "count": 58,
+                      "count": 90,
                       "id": "coding_bootcamp",
-                      "percentageQuestion": 12.95,
-                      "percentageSurvey": 7.13
+                      "percentageQuestion": 12.77,
+                      "percentageSurvey": 11.06,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 58,
+                          "percentageBucket": 64.44,
+                          "percentageQuestion": 8.23
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 13,
+                          "percentageBucket": 14.44,
+                          "percentageQuestion": 1.84
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 11.11,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 10
+                        }
+                      ]
                     },
                     {
-                      "count": 46,
+                      "count": 74,
                       "id": "professional_qualification",
-                      "percentageQuestion": 10.27,
-                      "percentageSurvey": 5.65
+                      "percentageQuestion": 10.5,
+                      "percentageSurvey": 9.09,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 46,
+                          "percentageBucket": 62.16,
+                          "percentageQuestion": 6.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 28,
+                          "percentageBucket": 38
+                        }
+                      ]
                     },
                     {
-                      "count": 28,
+                      "count": 45,
                       "id": "short_cycle",
-                      "percentageQuestion": 6.25,
-                      "percentageSurvey": 3.44
+                      "percentageQuestion": 6.38,
+                      "percentageSurvey": 5.53,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 28,
+                          "percentageBucket": 62.22,
+                          "percentageQuestion": 3.97
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 38
+                        }
+                      ]
                     },
                     {
-                      "count": 21,
+                      "count": 31,
                       "id": "phd",
-                      "percentageQuestion": 4.69,
-                      "percentageSurvey": 2.58
+                      "percentageQuestion": 4.4,
+                      "percentageSurvey": 3.81,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 21,
+                          "percentageBucket": 67.74,
+                          "percentageQuestion": 2.98
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 32
+                        }
+                      ]
                     },
                     {
-                      "count": 53,
+                      "count": 105,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 6.51
-                    }
-                  ]
-                }
-              }
-            },
-            "professional_qualifications_vs_employer_type_2": {
-              "id": "professional_qualifications",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 127,
-                    "percentageSurvey": 15.6,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 92,
-                      "id": "bachelors_degree",
-                      "percentageQuestion": 72.44,
-                      "percentageSurvey": 11.3
-                    },
-                    {
-                      "count": 40,
-                      "id": "masters_degree",
-                      "percentageQuestion": 31.5,
-                      "percentageSurvey": 4.91
-                    },
-                    {
-                      "count": 13,
-                      "id": "coding_bootcamp",
-                      "percentageQuestion": 10.24,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 0,
-                      "id": "phd",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "professional_qualification",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "short_cycle",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "professional_qualifications_vs_employer_type_3": {
-              "id": "professional_qualifications",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 32,
-                    "percentageSurvey": 3.93,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 21,
-                      "id": "bachelors_degree",
-                      "percentageQuestion": 65.63,
-                      "percentageSurvey": 2.58
-                    },
-                    {
-                      "count": 0,
-                      "id": "coding_bootcamp",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "masters_degree",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "professional_qualification",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "short_cycle",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "professional_qualifications_vs_employer_type_4": {
-              "id": "professional_qualifications",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 24,
-                    "percentageSurvey": 2.95,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "bachelors_degree",
-                      "percentageQuestion": 50,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "coding_bootcamp",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "masters_degree",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "phd",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "professional_qualification",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "short_cycle",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 12.9,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 53,
+                          "percentageBucket": 50.48,
+                          "percentageQuestion": 7.52
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 37,
+                          "percentageBucket": 35.24,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 14
+                        }
+                      ]
                     }
                   ]
                 }

@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "technology": {
-            "productivity_tools_vs_employer_type_1": {
+            "productivity_tools_vs_employer_type": {
               "id": "productivity_tools",
               "responses": {
                 "currentEdition": {
@@ -13,20 +13,55 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 461,
-                    "percentageSurvey": 56.63,
+                    "count": 658,
+                    "percentageSurvey": 80.84,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 342,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 107.29,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 76.14
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 19.91
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 6.38
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 466,
                       "id": "slack",
-                      "percentageQuestion": 74.19,
-                      "percentageSurvey": 42.01,
+                      "percentageQuestion": 70.82,
+                      "percentageSurvey": 57.25,
                       "entity": {
                         "name": "Slack",
                         "nameClean": "Slack",
@@ -35,13 +70,44 @@
                         "homepage": {
                           "url": "https://slack.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 342,
+                          "percentageBucket": 73.39,
+                          "percentageQuestion": 51.98
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 79,
+                          "percentageBucket": 16.95,
+                          "percentageQuestion": 12.01
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 23,
+                          "percentageBucket": 4.94,
+                          "percentageQuestion": 3.5
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 11,
+                          "percentageBucket": 2.36,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 259,
+                      "count": 338,
                       "id": "jira",
-                      "percentageQuestion": 56.18,
-                      "percentageSurvey": 31.82,
+                      "percentageQuestion": 51.37,
+                      "percentageSurvey": 41.52,
                       "entity": {
                         "name": "Jira",
                         "nameClean": "Jira",
@@ -50,28 +116,38 @@
                         "homepage": {
                           "url": "https://www.atlassian.com/software/jira"
                         }
-                      }
-                    },
-                    {
-                      "count": 183,
-                      "id": "zoom",
-                      "percentageQuestion": 39.7,
-                      "percentageSurvey": 22.48,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
-                        "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 259,
+                          "percentageBucket": 76.63,
+                          "percentageQuestion": 39.36
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 53,
+                          "percentageBucket": 15.68,
+                          "percentageQuestion": 8.05
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 14,
+                          "percentageBucket": 4.14,
+                          "percentageQuestion": 2.13
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 4
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 174,
+                      "count": 249,
                       "id": "google_workspace",
-                      "percentageQuestion": 37.74,
-                      "percentageSurvey": 21.38,
+                      "percentageQuestion": 37.84,
+                      "percentageSurvey": 30.59,
                       "entity": {
                         "name": "Google Workspace",
                         "nameClean": "Google Workspace",
@@ -80,13 +156,78 @@
                         "homepage": {
                           "url": "https://workspace.google.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 174,
+                          "percentageBucket": 69.88,
+                          "percentageQuestion": 26.44
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 41,
+                          "percentageBucket": 16.47,
+                          "percentageQuestion": 6.23
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 19,
+                          "percentageBucket": 7.63,
+                          "percentageQuestion": 2.89
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 6
+                        }
+                      ]
                     },
                     {
-                      "count": 123,
+                      "count": 246,
+                      "id": "zoom",
+                      "percentageQuestion": 37.39,
+                      "percentageSurvey": 30.22,
+                      "entity": {
+                        "name": "Zoom",
+                        "nameClean": "Zoom",
+                        "id": "zoom",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://zoom.us/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 183,
+                          "percentageBucket": 74.39,
+                          "percentageQuestion": 27.81
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 35,
+                          "percentageBucket": 14.23,
+                          "percentageQuestion": 5.32
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 4.47,
+                          "percentageQuestion": 1.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 7
+                        }
+                      ]
+                    },
+                    {
+                      "count": 175,
                       "id": "teams",
-                      "percentageQuestion": 26.68,
-                      "percentageSurvey": 15.11,
+                      "percentageQuestion": 26.6,
+                      "percentageSurvey": 21.5,
                       "entity": {
                         "name": "Microsoft Teams",
                         "nameClean": "Microsoft Teams",
@@ -95,13 +236,32 @@
                         "homepage": {
                           "url": "https://teams.microsoft.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 123,
+                          "percentageBucket": 70.29,
+                          "percentageQuestion": 18.69
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 33,
+                          "percentageBucket": 18.86,
+                          "percentageQuestion": 5.02
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 11
+                        }
+                      ]
                     },
                     {
-                      "count": 112,
+                      "count": 166,
                       "id": "notion",
-                      "percentageQuestion": 24.3,
-                      "percentageSurvey": 13.76,
+                      "percentageQuestion": 25.23,
+                      "percentageSurvey": 20.39,
                       "entity": {
                         "name": "Notion",
                         "nameClean": "Notion",
@@ -110,13 +270,38 @@
                         "homepage": {
                           "url": "https://www.notion.so/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 112,
+                          "percentageBucket": 67.47,
+                          "percentageQuestion": 17.02
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 28,
+                          "percentageBucket": 16.87,
+                          "percentageQuestion": 4.26
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 12,
+                          "percentageBucket": 7.23,
+                          "percentageQuestion": 1.82
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 8
+                        }
+                      ]
                     },
                     {
-                      "count": 83,
+                      "count": 121,
                       "id": "microsoft_excel",
-                      "percentageQuestion": 18,
-                      "percentageSurvey": 10.2,
+                      "percentageQuestion": 18.39,
+                      "percentageSurvey": 14.86,
                       "entity": {
                         "name": "Microsoft Excel",
                         "nameClean": "Microsoft Excel",
@@ -125,28 +310,32 @@
                         "homepage": {
                           "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
                         }
-                      }
-                    },
-                    {
-                      "count": 24,
-                      "id": "trello",
-                      "percentageQuestion": 5.21,
-                      "percentageSurvey": 2.95,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
-                        "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 83,
+                          "percentageBucket": 68.6,
+                          "percentageQuestion": 12.61
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 20,
+                          "percentageBucket": 16.53,
+                          "percentageQuestion": 3.04
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 18,
+                          "percentageBucket": 15
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 20,
+                      "count": 53,
                       "id": "asana",
-                      "percentageQuestion": 4.34,
-                      "percentageSurvey": 2.46,
+                      "percentageQuestion": 8.05,
+                      "percentageSurvey": 6.51,
                       "entity": {
                         "name": "Asana",
                         "nameClean": "Asana",
@@ -155,13 +344,32 @@
                         "homepage": {
                           "url": "https://asana.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 20,
+                          "percentageBucket": 37.74,
+                          "percentageQuestion": 3.04
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 27,
+                          "percentageBucket": 50.94,
+                          "percentageQuestion": 4.1
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 11
+                        }
+                      ]
                     },
                     {
-                      "count": 18,
+                      "count": 42,
                       "id": "discord",
-                      "percentageQuestion": 3.9,
-                      "percentageSurvey": 2.21,
+                      "percentageQuestion": 6.38,
+                      "percentageSurvey": 5.16,
                       "entity": {
                         "name": "Discord",
                         "nameClean": "Discord",
@@ -170,13 +378,54 @@
                         "homepage": {
                           "url": "https://discord.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 18,
+                          "percentageBucket": 42.86,
+                          "percentageQuestion": 2.74
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 24,
+                          "percentageBucket": 57
+                        }
+                      ]
                     },
                     {
-                      "count": 17,
+                      "count": 36,
+                      "id": "trello",
+                      "percentageQuestion": 5.47,
+                      "percentageSurvey": 4.42,
+                      "entity": {
+                        "name": "Trello",
+                        "nameClean": "Trello",
+                        "id": "trello",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://trello.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 24,
+                          "percentageBucket": 66.67,
+                          "percentageQuestion": 3.65
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 33
+                        }
+                      ]
+                    },
+                    {
+                      "count": 28,
                       "id": "one_note",
-                      "percentageQuestion": 3.69,
-                      "percentageSurvey": 2.09,
+                      "percentageQuestion": 4.26,
+                      "percentageSurvey": 3.44,
                       "entity": {
                         "name": "Microsoft OneNote",
                         "nameClean": "Microsoft OneNote",
@@ -185,13 +434,26 @@
                         "homepage": {
                           "url": "https://www.onenote.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 17,
+                          "percentageBucket": 60.71,
+                          "percentageQuestion": 2.58
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 39
+                        }
+                      ]
                     },
                     {
-                      "count": 14,
+                      "count": 17,
                       "id": "chatwork",
-                      "percentageQuestion": 3.04,
-                      "percentageSurvey": 1.72,
+                      "percentageQuestion": 2.58,
+                      "percentageSurvey": 2.09,
                       "entity": {
                         "name": "Chatwork",
                         "nameClean": "Chatwork",
@@ -200,13 +462,26 @@
                         "homepage": {
                           "url": "https://go.chatwork.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 14,
+                          "percentageBucket": 82.35,
+                          "percentageQuestion": 2.13
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 18
+                        }
+                      ]
                     },
                     {
-                      "count": 11,
+                      "count": 12,
                       "id": "cybozu_office",
-                      "percentageQuestion": 2.39,
-                      "percentageSurvey": 1.35,
+                      "percentageQuestion": 1.82,
+                      "percentageSurvey": 1.47,
                       "entity": {
                         "name": "Cybozu Office",
                         "nameClean": "Cybozu Office",
@@ -215,7 +490,14 @@
                         "homepage": {
                           "url": "https://office.cybozu.co.jp/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -231,629 +513,55 @@
                         "homepage": {
                           "url": "https://evernote.com/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 40,
+                      "count": 156,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 4.91
-                    }
-                  ]
-                }
-              }
-            },
-            "productivity_tools_vs_employer_type_2": {
-              "id": "productivity_tools",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 116,
-                    "percentageSurvey": 14.25,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 79,
-                      "id": "slack",
-                      "percentageQuestion": 68.1,
-                      "percentageSurvey": 9.71,
-                      "entity": {
-                        "name": "Slack",
-                        "nameClean": "Slack",
-                        "id": "slack",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://slack.com/"
+                      "percentageSurvey": 19.16,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 40,
+                          "percentageBucket": 25.64,
+                          "percentageQuestion": 6.08
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 15,
+                          "percentageBucket": 9.62,
+                          "percentageQuestion": 2.28
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 93,
+                          "percentageBucket": 59.62,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 5
                         }
-                      }
-                    },
-                    {
-                      "count": 53,
-                      "id": "jira",
-                      "percentageQuestion": 45.69,
-                      "percentageSurvey": 6.51,
-                      "entity": {
-                        "name": "Jira",
-                        "nameClean": "Jira",
-                        "id": "jira",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.atlassian.com/software/jira"
-                        }
-                      }
-                    },
-                    {
-                      "count": 41,
-                      "id": "google_workspace",
-                      "percentageQuestion": 35.34,
-                      "percentageSurvey": 5.04,
-                      "entity": {
-                        "name": "Google Workspace",
-                        "nameClean": "Google Workspace",
-                        "id": "google_workspace",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://workspace.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 35,
-                      "id": "zoom",
-                      "percentageQuestion": 30.17,
-                      "percentageSurvey": 4.3,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
-                        "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 33,
-                      "id": "teams",
-                      "percentageQuestion": 28.45,
-                      "percentageSurvey": 4.05,
-                      "entity": {
-                        "name": "Microsoft Teams",
-                        "nameClean": "Microsoft Teams",
-                        "id": "teams",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://teams.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 28,
-                      "id": "notion",
-                      "percentageQuestion": 24.14,
-                      "percentageSurvey": 3.44,
-                      "entity": {
-                        "name": "Notion",
-                        "nameClean": "Notion",
-                        "id": "notion",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notion.so/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 27,
-                      "id": "asana",
-                      "percentageQuestion": 23.28,
-                      "percentageSurvey": 3.32,
-                      "entity": {
-                        "name": "Asana",
-                        "nameClean": "Asana",
-                        "id": "asana",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://asana.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "microsoft_excel",
-                      "percentageQuestion": 17.24,
-                      "percentageSurvey": 2.46,
-                      "entity": {
-                        "name": "Microsoft Excel",
-                        "nameClean": "Microsoft Excel",
-                        "id": "microsoft_excel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "discord",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Discord",
-                        "nameClean": "Discord",
-                        "id": "discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "one_note",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft OneNote",
-                        "nameClean": "Microsoft OneNote",
-                        "id": "one_note",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.onenote.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "trello",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
-                        "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 15,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 1.84
-                    }
-                  ]
-                }
-              }
-            },
-            "productivity_tools_vs_employer_type_3": {
-              "id": "productivity_tools",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 40,
-                    "percentageSurvey": 4.91,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 23,
-                      "id": "slack",
-                      "percentageQuestion": 57.5,
-                      "percentageSurvey": 2.83,
-                      "entity": {
-                        "name": "Slack",
-                        "nameClean": "Slack",
-                        "id": "slack",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://slack.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 19,
-                      "id": "google_workspace",
-                      "percentageQuestion": 47.5,
-                      "percentageSurvey": 2.33,
-                      "entity": {
-                        "name": "Google Workspace",
-                        "nameClean": "Google Workspace",
-                        "id": "google_workspace",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://workspace.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 14,
-                      "id": "jira",
-                      "percentageQuestion": 35,
-                      "percentageSurvey": 1.72,
-                      "entity": {
-                        "name": "Jira",
-                        "nameClean": "Jira",
-                        "id": "jira",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.atlassian.com/software/jira"
-                        }
-                      }
-                    },
-                    {
-                      "count": 12,
-                      "id": "notion",
-                      "percentageQuestion": 30,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Notion",
-                        "nameClean": "Notion",
-                        "id": "notion",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notion.so/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "zoom",
-                      "percentageQuestion": 27.5,
-                      "percentageSurvey": 1.35,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
-                        "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "asana",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Asana",
-                        "nameClean": "Asana",
-                        "id": "asana",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://asana.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "discord",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Discord",
-                        "nameClean": "Discord",
-                        "id": "discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "microsoft_excel",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft Excel",
-                        "nameClean": "Microsoft Excel",
-                        "id": "microsoft_excel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "one_note",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft OneNote",
-                        "nameClean": "Microsoft OneNote",
-                        "id": "one_note",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.onenote.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "teams",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft Teams",
-                        "nameClean": "Microsoft Teams",
-                        "id": "teams",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://teams.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "trello",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
-                        "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "productivity_tools_vs_employer_type_4": {
-              "id": "productivity_tools",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 23,
-                    "percentageSurvey": 2.83,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 10,
-                      "id": "slack",
-                      "percentageQuestion": 43.48,
-                      "percentageSurvey": 1.23,
-                      "entity": {
-                        "name": "Slack",
-                        "nameClean": "Slack",
-                        "id": "slack",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://slack.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "chatwork",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Chatwork",
-                        "nameClean": "Chatwork",
-                        "id": "chatwork",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://go.chatwork.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "cybozu_office",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Cybozu Office",
-                        "nameClean": "Cybozu Office",
-                        "id": "cybozu_office",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://office.cybozu.co.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "discord",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Discord",
-                        "nameClean": "Discord",
-                        "id": "discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "google_workspace",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Google Workspace",
-                        "nameClean": "Google Workspace",
-                        "id": "google_workspace",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://workspace.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "jira",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Jira",
-                        "nameClean": "Jira",
-                        "id": "jira",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.atlassian.com/software/jira"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "microsoft_excel",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft Excel",
-                        "nameClean": "Microsoft Excel",
-                        "id": "microsoft_excel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "notion",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Notion",
-                        "nameClean": "Notion",
-                        "id": "notion",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notion.so/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "one_note",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft OneNote",
-                        "nameClean": "Microsoft OneNote",
-                        "id": "one_note",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.onenote.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "teams",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft Teams",
-                        "nameClean": "Microsoft Teams",
-                        "id": "teams",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://teams.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "trello",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
-                        "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "zoom",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
-                        "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      ]
                     }
                   ]
                 }

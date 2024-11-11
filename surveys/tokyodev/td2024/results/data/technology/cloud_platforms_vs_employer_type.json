@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "technology": {
-            "cloud_platforms_vs_employer_type_1": {
+            "cloud_platforms_vs_employer_type": {
               "id": "cloud_platforms",
               "responses": {
                 "currentEdition": {
@@ -13,20 +13,55 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 383,
-                    "percentageSurvey": 47.05,
+                    "count": 553,
+                    "percentageSurvey": 67.94,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 279,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 127.67,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 90.6
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 23.69
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 7.59
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 411,
                       "id": "aws",
-                      "percentageQuestion": 72.85,
-                      "percentageSurvey": 34.28,
+                      "percentageQuestion": 74.32,
+                      "percentageSurvey": 50.49,
                       "entity": {
                         "name": "AWS",
                         "nameClean": "AWS",
@@ -35,13 +70,50 @@
                         "homepage": {
                           "url": "https://aws.amazon.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 279,
+                          "percentageBucket": 67.88,
+                          "percentageQuestion": 50.45
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 83,
+                          "percentageBucket": 20.19,
+                          "percentageQuestion": 15.01
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 24,
+                          "percentageBucket": 5.84,
+                          "percentageQuestion": 4.34
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 15,
+                          "percentageBucket": 3.65,
+                          "percentageQuestion": 2.71
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 2.43,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
                     },
                     {
-                      "count": 124,
+                      "count": 173,
                       "id": "google_cloud",
-                      "percentageQuestion": 32.38,
-                      "percentageSurvey": 15.23,
+                      "percentageQuestion": 31.28,
+                      "percentageSurvey": 21.25,
                       "entity": {
                         "name": "Google Cloud",
                         "nameClean": "Google Cloud",
@@ -50,13 +122,32 @@
                         "homepage": {
                           "url": "https://cloud.google.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 124,
+                          "percentageBucket": 71.68,
+                          "percentageQuestion": 22.42
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 31,
+                          "percentageBucket": 17.92,
+                          "percentageQuestion": 5.61
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 18,
+                          "percentageBucket": 10
+                        }
+                      ]
                     },
                     {
-                      "count": 67,
+                      "count": 98,
                       "id": "azure",
-                      "percentageQuestion": 17.49,
-                      "percentageSurvey": 8.23,
+                      "percentageQuestion": 17.72,
+                      "percentageSurvey": 12.04,
                       "entity": {
                         "name": "Azure",
                         "nameClean": "Azure",
@@ -65,28 +156,32 @@
                         "homepage": {
                           "url": "https://azure.microsoft.com/"
                         }
-                      }
-                    },
-                    {
-                      "count": 30,
-                      "id": "cloudflare",
-                      "percentageQuestion": 7.83,
-                      "percentageSurvey": 3.69,
-                      "entity": {
-                        "name": "Cloudflare",
-                        "nameClean": "Cloudflare",
-                        "id": "cloudflare",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.cloudflare.com/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 67,
+                          "percentageBucket": 68.37,
+                          "percentageQuestion": 12.12
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 19,
+                          "percentageBucket": 19.39,
+                          "percentageQuestion": 3.44
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 12
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 29,
+                      "count": 40,
                       "id": "firebase",
-                      "percentageQuestion": 7.57,
-                      "percentageSurvey": 3.56,
+                      "percentageQuestion": 7.23,
+                      "percentageSurvey": 4.91,
                       "entity": {
                         "name": "Firebase",
                         "nameClean": "Firebase",
@@ -95,13 +190,54 @@
                         "homepage": {
                           "url": "https://firebase.google.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 29,
+                          "percentageBucket": 72.5,
+                          "percentageQuestion": 5.24
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 28
+                        }
+                      ]
                     },
                     {
-                      "count": 15,
+                      "count": 38,
+                      "id": "cloudflare",
+                      "percentageQuestion": 6.87,
+                      "percentageSurvey": 4.67,
+                      "entity": {
+                        "name": "Cloudflare",
+                        "nameClean": "Cloudflare",
+                        "id": "cloudflare",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.cloudflare.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 30,
+                          "percentageBucket": 78.95,
+                          "percentageQuestion": 5.42
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 21
+                        }
+                      ]
+                    },
+                    {
+                      "count": 21,
                       "id": "vercel",
-                      "percentageQuestion": 3.92,
-                      "percentageSurvey": 1.84,
+                      "percentageQuestion": 3.8,
+                      "percentageSurvey": 2.58,
                       "entity": {
                         "name": "Vercel",
                         "nameClean": "Vercel",
@@ -110,7 +246,42 @@
                         "homepage": {
                           "url": "https://vercel.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 15,
+                          "percentageBucket": 71.43,
+                          "percentageQuestion": 2.71
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 29
+                        }
+                      ]
+                    },
+                    {
+                      "count": 13,
+                      "id": "heroku",
+                      "percentageQuestion": 2.35,
+                      "percentageSurvey": 1.6,
+                      "entity": {
+                        "name": "Heroku",
+                        "nameClean": "Heroku",
+                        "id": "heroku",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://heroku.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
@@ -126,445 +297,61 @@
                         "homepage": {
                           "url": "https://digitalocean.com/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "heroku",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Heroku",
-                        "nameClean": "Heroku",
-                        "id": "heroku",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://heroku.com/"
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 100
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 116,
+                      "count": 258,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 14.25
-                    }
-                  ]
-                }
-              }
-            },
-            "cloud_platforms_vs_employer_type_2": {
-              "id": "cloud_platforms",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 105,
-                    "percentageSurvey": 12.9,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 83,
-                      "id": "aws",
-                      "percentageQuestion": 79.05,
-                      "percentageSurvey": 10.2,
-                      "entity": {
-                        "name": "AWS",
-                        "nameClean": "AWS",
-                        "id": "aws",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/"
+                      "percentageSurvey": 31.7,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 116,
+                          "percentageBucket": 44.96,
+                          "percentageQuestion": 20.98
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 26,
+                          "percentageBucket": 10.08,
+                          "percentageQuestion": 4.7
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 10,
+                          "percentageBucket": 3.88,
+                          "percentageQuestion": 1.81
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 96,
+                          "percentageBucket": 37.21,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 4
                         }
-                      }
-                    },
-                    {
-                      "count": 31,
-                      "id": "google_cloud",
-                      "percentageQuestion": 29.52,
-                      "percentageSurvey": 3.81,
-                      "entity": {
-                        "name": "Google Cloud",
-                        "nameClean": "Google Cloud",
-                        "id": "google_cloud",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://cloud.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 19,
-                      "id": "azure",
-                      "percentageQuestion": 18.1,
-                      "percentageSurvey": 2.33,
-                      "entity": {
-                        "name": "Azure",
-                        "nameClean": "Azure",
-                        "id": "azure",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://azure.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "cloudflare",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Cloudflare",
-                        "nameClean": "Cloudflare",
-                        "id": "cloudflare",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.cloudflare.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "digital_ocean",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Digital Ocean",
-                        "nameClean": "Digital Ocean",
-                        "id": "digital_ocean",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://digitalocean.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "firebase",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Firebase",
-                        "nameClean": "Firebase",
-                        "id": "firebase",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://firebase.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "heroku",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Heroku",
-                        "nameClean": "Heroku",
-                        "id": "heroku",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://heroku.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "vercel",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Vercel",
-                        "nameClean": "Vercel",
-                        "id": "vercel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://vercel.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 26,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 3.19
-                    }
-                  ]
-                }
-              }
-            },
-            "cloud_platforms_vs_employer_type_3": {
-              "id": "cloud_platforms",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 32,
-                    "percentageSurvey": 3.93,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 24,
-                      "id": "aws",
-                      "percentageQuestion": 75,
-                      "percentageSurvey": 2.95,
-                      "entity": {
-                        "name": "AWS",
-                        "nameClean": "AWS",
-                        "id": "aws",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "azure",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Azure",
-                        "nameClean": "Azure",
-                        "id": "azure",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://azure.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "cloudflare",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Cloudflare",
-                        "nameClean": "Cloudflare",
-                        "id": "cloudflare",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.cloudflare.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "digital_ocean",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Digital Ocean",
-                        "nameClean": "Digital Ocean",
-                        "id": "digital_ocean",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://digitalocean.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "firebase",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Firebase",
-                        "nameClean": "Firebase",
-                        "id": "firebase",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://firebase.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "google_cloud",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Google Cloud",
-                        "nameClean": "Google Cloud",
-                        "id": "google_cloud",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://cloud.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "heroku",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Heroku",
-                        "nameClean": "Heroku",
-                        "id": "heroku",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://heroku.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "vercel",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Vercel",
-                        "nameClean": "Vercel",
-                        "id": "vercel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://vercel.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 1.23
-                    }
-                  ]
-                }
-              }
-            },
-            "cloud_platforms_vs_employer_type_4": {
-              "id": "cloud_platforms",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 21,
-                    "percentageSurvey": 2.58,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 15,
-                      "id": "aws",
-                      "percentageQuestion": 71.43,
-                      "percentageSurvey": 1.84,
-                      "entity": {
-                        "name": "AWS",
-                        "nameClean": "AWS",
-                        "id": "aws",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "azure",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Azure",
-                        "nameClean": "Azure",
-                        "id": "azure",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://azure.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "firebase",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Firebase",
-                        "nameClean": "Firebase",
-                        "id": "firebase",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://firebase.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "google_cloud",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Google Cloud",
-                        "nameClean": "Google Cloud",
-                        "id": "google_cloud",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://cloud.google.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "heroku",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Heroku",
-                        "nameClean": "Heroku",
-                        "id": "heroku",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://heroku.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      ]
                     }
                   ]
                 }

@@ -4,268 +4,335 @@
       "tokyodev": {
         "td2024": {
           "job_info": {
-            "employment_status_vs_employer_type_1": {
+            "employment_status_vs_employer_type": {
               "id": "employment_status",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
-                      "property": "count",
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 499,
-                    "percentageSurvey": 61.3,
+                    "count": 753,
+                    "percentageSurvey": 92.51,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 435,
+                      "count": 612,
                       "id": "permanent_employee",
-                      "percentageQuestion": 87.17,
-                      "percentageSurvey": 53.44
+                      "percentageQuestion": 81.27,
+                      "percentageSurvey": 75.18,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 435,
+                          "percentageBucket": 71.08,
+                          "percentageQuestion": 57.77
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 121,
+                          "percentageBucket": 19.77,
+                          "percentageQuestion": 16.07
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 23,
+                          "percentageBucket": 3.76,
+                          "percentageQuestion": 3.05
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 10,
+                          "percentageBucket": 1.63,
+                          "percentageQuestion": 1.33
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 23,
+                          "percentageBucket": 3.76,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
                     },
                     {
-                      "count": 24,
+                      "count": 38,
                       "id": "contract_employee",
-                      "percentageQuestion": 4.81,
-                      "percentageSurvey": 2.95
+                      "percentageQuestion": 5.05,
+                      "percentageSurvey": 4.67,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 24,
+                          "percentageBucket": 63.16,
+                          "percentageQuestion": 3.19
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 37
+                        }
+                      ]
                     },
                     {
-                      "count": 15,
+                      "count": 19,
                       "id": "temporary_worker",
-                      "percentageQuestion": 3.01,
-                      "percentageSurvey": 1.84
+                      "percentageQuestion": 2.52,
+                      "percentageSurvey": 2.33,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 15,
+                          "percentageBucket": 78.95,
+                          "percentageQuestion": 1.99
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 21
+                        }
+                      ]
                     },
                     {
-                      "count": 12,
+                      "count": 38,
                       "id": "freelancer_self_employed",
-                      "percentageQuestion": 2.4,
-                      "percentageSurvey": 1.47
+                      "percentageQuestion": 5.05,
+                      "percentageSurvey": 4.67,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 12,
+                          "percentageBucket": 31.58,
+                          "percentageQuestion": 1.59
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 11,
+                          "percentageBucket": 28.95,
+                          "percentageQuestion": 1.46
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 39
+                        }
+                      ]
                     },
                     {
-                      "count": 10,
+                      "count": 13,
                       "id": "company_director",
-                      "percentageQuestion": 2,
-                      "percentageSurvey": 1.23
+                      "percentageQuestion": 1.73,
+                      "percentageSurvey": 1.6,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 10,
+                          "percentageBucket": 76.92,
+                          "percentageQuestion": 1.33
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 23
+                        }
+                      ]
                     },
                     {
                       "count": 0,
                       "id": "part_time",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "student",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "employment_status_vs_employer_type_2": {
-              "id": "employment_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 131,
-                    "percentageSurvey": 16.09,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 121,
-                      "id": "permanent_employee",
-                      "percentageQuestion": 92.37,
-                      "percentageSurvey": 14.86
-                    },
-                    {
-                      "count": 0,
-                      "id": "company_director",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "contract_employee",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
                       "id": "internship",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 2,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
+                      "id": "not_employed_not_looking_for_work",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 15,
                       "id": "not_employed_looking_for_work",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "part_time",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "employment_status_vs_employer_type_3": {
-              "id": "employment_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 42,
-                    "percentageSurvey": 5.16,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 23,
-                      "id": "permanent_employee",
-                      "percentageQuestion": 54.76,
-                      "percentageSurvey": 2.83
-                    },
-                    {
-                      "count": 10,
-                      "id": "freelancer_self_employed",
-                      "percentageQuestion": 23.81,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 0,
-                      "id": "contract_employee",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "not_employed_looking_for_work",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "part_time",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "temporary_worker",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "employment_status_vs_employer_type_4": {
-              "id": "employment_status",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 27,
-                    "percentageSurvey": 3.32,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 11,
-                      "id": "freelancer_self_employed",
-                      "percentageQuestion": 40.74,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 10,
-                      "id": "permanent_employee",
-                      "percentageQuestion": 37.04,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 0,
-                      "id": "company_director",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "contract_employee",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "not_employed_looking_for_work",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageQuestion": 1.99,
+                      "percentageSurvey": 1.84,
+                      "facetBuckets": [
+                        {
+                          "id": "no_answer",
+                          "count": 11,
+                          "percentageBucket": 73.33,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 27
+                        }
+                      ]
                     },
                     {
                       "count": 0,
                       "id": "student",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "temporary_worker",
+                      "id": "retired",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 93.76,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 66.53
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 17.4
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.58
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 61,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 7.49,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 61,
+                          "percentageBucket": 100
+                        }
+                      ]
                     }
                   ]
                 }

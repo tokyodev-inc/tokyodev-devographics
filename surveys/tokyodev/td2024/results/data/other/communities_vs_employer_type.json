@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "other": {
-            "communities_vs_employer_type_1": {
+            "communities_vs_employer_type": {
               "id": "communities",
               "responses": {
                 "currentEdition": {
@@ -13,20 +13,55 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 183,
-                    "percentageSurvey": 22.48,
+                    "count": 277,
+                    "percentageSurvey": 34.03,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 85,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 254.87,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 180.87
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 47.29
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 15.16
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 120,
                       "id": "tokyodev_discord",
-                      "percentageQuestion": 46.45,
-                      "percentageSurvey": 10.44,
+                      "percentageQuestion": 43.32,
+                      "percentageSurvey": 14.74,
                       "entity": {
                         "name": "TokyoDev Discord",
                         "nameClean": "TokyoDev Discord",
@@ -35,13 +70,32 @@
                         "homepage": {
                           "url": "https://discord.gg/seUNe38YgV"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 85,
+                          "percentageBucket": 70.83,
+                          "percentageQuestion": 30.69
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 17,
+                          "percentageBucket": 14.17,
+                          "percentageQuestion": 6.14
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 18,
+                          "percentageBucket": 15
+                        }
+                      ]
                     },
                     {
-                      "count": 59,
+                      "count": 93,
                       "id": "hn_tokyo",
-                      "percentageQuestion": 32.24,
-                      "percentageSurvey": 7.25,
+                      "percentageQuestion": 33.57,
+                      "percentageSurvey": 11.43,
                       "entity": {
                         "name": "HN Tokyo",
                         "nameClean": "HN Tokyo",
@@ -50,13 +104,32 @@
                         "homepage": {
                           "url": "https://hntokyo.doorkeeper.jp/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 59,
+                          "percentageBucket": 63.44,
+                          "percentageQuestion": 21.3
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 18,
+                          "percentageBucket": 19.35,
+                          "percentageQuestion": 6.5
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 17
+                        }
+                      ]
                     },
                     {
-                      "count": 26,
+                      "count": 47,
                       "id": "dev_japan",
-                      "percentageQuestion": 14.21,
-                      "percentageSurvey": 3.19,
+                      "percentageQuestion": 16.97,
+                      "percentageSurvey": 5.77,
                       "entity": {
                         "name": "Dev Japan",
                         "nameClean": "Dev Japan",
@@ -65,28 +138,32 @@
                         "homepage": {
                           "url": "https://www.meetup.com/ja-JP/devjapan/"
                         }
-                      }
-                    },
-                    {
-                      "count": 24,
-                      "id": "le_wagon",
-                      "percentageQuestion": 13.11,
-                      "percentageSurvey": 2.95,
-                      "entity": {
-                        "name": "Le Wagon",
-                        "nameClean": "Le Wagon",
-                        "id": "le_wagon",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.lewagon.com/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 26,
+                          "percentageBucket": 55.32,
+                          "percentageQuestion": 9.39
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 12,
+                          "percentageBucket": 25.53,
+                          "percentageQuestion": 4.33
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 19
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 22,
+                      "count": 36,
                       "id": "code_chrysalis",
-                      "percentageQuestion": 12.02,
-                      "percentageSurvey": 2.7,
+                      "percentageQuestion": 13,
+                      "percentageSurvey": 4.42,
                       "entity": {
                         "name": "Code Chrysalis",
                         "nameClean": "Code Chrysalis",
@@ -95,13 +172,60 @@
                         "homepage": {
                           "url": "https://www.codechrysalis.io/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 22,
+                          "percentageBucket": 61.11,
+                          "percentageQuestion": 7.94
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 10,
+                          "percentageBucket": 27.78,
+                          "percentageQuestion": 3.61
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 11
+                        }
+                      ]
                     },
                     {
-                      "count": 21,
+                      "count": 35,
+                      "id": "le_wagon",
+                      "percentageQuestion": 12.64,
+                      "percentageSurvey": 4.3,
+                      "entity": {
+                        "name": "Le Wagon",
+                        "nameClean": "Le Wagon",
+                        "id": "le_wagon",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.lewagon.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 24,
+                          "percentageBucket": 68.57,
+                          "percentageQuestion": 8.66
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 31
+                        }
+                      ]
+                    },
+                    {
+                      "count": 34,
                       "id": "wise_japan",
-                      "percentageQuestion": 11.48,
-                      "percentageSurvey": 2.58,
+                      "percentageQuestion": 12.27,
+                      "percentageSurvey": 4.18,
                       "entity": {
                         "name": "Women in Software Engineering Japan",
                         "nameClean": "Women in Software Engineering Japan",
@@ -110,13 +234,26 @@
                         "homepage": {
                           "url": "https://womeninsoftware.jp/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 21,
+                          "percentageBucket": 61.76,
+                          "percentageQuestion": 7.58
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 38
+                        }
+                      ]
                     },
                     {
-                      "count": 17,
+                      "count": 27,
                       "id": "creative_tokyo",
-                      "percentageQuestion": 9.29,
-                      "percentageSurvey": 2.09,
+                      "percentageQuestion": 9.75,
+                      "percentageSurvey": 3.32,
                       "entity": {
                         "name": "Creative Tokyo",
                         "nameClean": "Creative Tokyo",
@@ -125,13 +262,26 @@
                         "homepage": {
                           "url": "https://creativetokyo.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 17,
+                          "percentageBucket": 62.96,
+                          "percentageQuestion": 6.14
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 37
+                        }
+                      ]
                     },
                     {
-                      "count": 16,
+                      "count": 23,
                       "id": "tokyo_tech_leads_circle",
-                      "percentageQuestion": 8.74,
-                      "percentageSurvey": 1.97,
+                      "percentageQuestion": 8.3,
+                      "percentageSurvey": 2.83,
                       "entity": {
                         "name": "Tokyo Tech Leads Circle",
                         "nameClean": "Tokyo Tech Leads Circle",
@@ -140,13 +290,20 @@
                         "homepage": {
                           "url": "https://tokyo-tech-leads-circle.doorkeeper.jp/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 23,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 11,
+                      "count": 15,
                       "id": "tokyo_rubyist_meetup",
-                      "percentageQuestion": 6.01,
-                      "percentageSurvey": 1.35,
+                      "percentageQuestion": 5.42,
+                      "percentageSurvey": 1.84,
                       "entity": {
                         "name": "Tokyo Rubyist Meetup",
                         "nameClean": "Tokyo Rubyist Meetup",
@@ -155,375 +312,26 @@
                         "homepage": {
                           "url": "https://trbmeetup.doorkeeper.jp/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "a11y_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "A11y Tokyo Meetup",
-                        "nameClean": "A11y Tokyo Meetup",
-                        "id": "a11y_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://a11ytyo.connpass.com/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 11,
+                          "percentageBucket": 73.33,
+                          "percentageQuestion": 3.97
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 27
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "coffee_and_code",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Coffee and Code",
-                        "nameClean": "Coffee and Code",
-                        "id": "coffee_and_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/coffee-and-code-tokyo/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "hn_kansai",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Hacker News Kansai",
-                        "nameClean": "Hacker News Kansai",
-                        "id": "hn_kansai",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hnkansai.org"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "japan_test_community",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Japan Test Community",
-                        "nameClean": "Japan Test Community",
-                        "id": "japan_test_community",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/japan-test-community/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mobile_dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Mobile Dev Japan",
-                        "nameClean": "Mobile Dev Japan",
-                        "id": "mobile_dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mobiledev-japan.connpass.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "owddm",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Osaka Web Developers & Designers Meetup",
-                        "nameHtml": "Osaka Web Developers &amp; Designers Meetup",
-                        "nameClean": "Osaka Web Developers  Designers Meetup",
-                        "id": "owddm",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://owddm.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_ios_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo iOS Meetup",
-                        "nameClean": "Tokyo iOS Meetup",
-                        "id": "tokyo_ios_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/tokyoiosmeetup/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_net_developers_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo .NET Developers Meetup",
-                        "nameClean": "Tokyo .NET Developers Meetup",
-                        "id": "tokyo_net_developers_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/tokyo-net-developers-meetup/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_science_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Science Japan",
-                        "nameClean": "Women in Science Japan",
-                        "id": "women_in_science_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.womeninsciencejapan.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_technology_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women In Technology Japan",
-                        "nameClean": "Women In Technology Japan",
-                        "id": "women_in_technology_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womenintech.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 311,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 38.21
-                    }
-                  ]
-                }
-              }
-            },
-            "communities_vs_employer_type_2": {
-              "id": "communities",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 48,
-                    "percentageSurvey": 5.9,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 18,
-                      "id": "hn_tokyo",
-                      "percentageQuestion": 37.5,
-                      "percentageSurvey": 2.21,
-                      "entity": {
-                        "name": "HN Tokyo",
-                        "nameClean": "HN Tokyo",
-                        "id": "hn_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hntokyo.doorkeeper.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 17,
-                      "id": "tokyodev_discord",
-                      "percentageQuestion": 35.42,
-                      "percentageSurvey": 2.09,
-                      "entity": {
-                        "name": "TokyoDev Discord",
-                        "nameClean": "TokyoDev Discord",
-                        "id": "tokyodev_discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.gg/seUNe38YgV"
-                        }
-                      }
+                      ]
                     },
                     {
                       "count": 12,
-                      "id": "dev_japan",
-                      "percentageQuestion": 25,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Dev Japan",
-                        "nameClean": "Dev Japan",
-                        "id": "dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/devjapan/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "code_chrysalis",
-                      "percentageQuestion": 20.83,
-                      "percentageSurvey": 1.23,
-                      "entity": {
-                        "name": "Code Chrysalis",
-                        "nameClean": "Code Chrysalis",
-                        "id": "code_chrysalis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.codechrysalis.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "a11y_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "A11y Tokyo Meetup",
-                        "nameClean": "A11y Tokyo Meetup",
-                        "id": "a11y_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://a11ytyo.connpass.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "coffee_and_code",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Coffee and Code",
-                        "nameClean": "Coffee and Code",
-                        "id": "coffee_and_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/coffee-and-code-tokyo/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "creative_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Creative Tokyo",
-                        "nameClean": "Creative Tokyo",
-                        "id": "creative_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://creativetokyo.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "hn_kansai",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Hacker News Kansai",
-                        "nameClean": "Hacker News Kansai",
-                        "id": "hn_kansai",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hnkansai.org"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "japan_test_community",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Japan Test Community",
-                        "nameClean": "Japan Test Community",
-                        "id": "japan_test_community",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/japan-test-community/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "le_wagon",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Le Wagon",
-                        "nameClean": "Le Wagon",
-                        "id": "le_wagon",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.lewagon.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mobile_dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Mobile Dev Japan",
-                        "nameClean": "Mobile Dev Japan",
-                        "id": "mobile_dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mobiledev-japan.connpass.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
                       "id": "owddm",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "percentageQuestion": 4.33,
+                      "percentageSurvey": 1.47,
                       "entity": {
                         "name": "Osaka Web Developers & Designers Meetup",
                         "nameHtml": "Osaka Web Developers &amp; Designers Meetup",
@@ -533,14 +341,20 @@
                         "homepage": {
                           "url": "https://owddm.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
+                      "count": 12,
                       "id": "tokyo_ios_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "percentageQuestion": 4.33,
+                      "percentageSurvey": 1.47,
                       "entity": {
                         "name": "Tokyo iOS Meetup",
                         "nameClean": "Tokyo iOS Meetup",
@@ -549,100 +363,15 @@
                         "homepage": {
                           "url": "https://www.meetup.com/tokyoiosmeetup/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_rubyist_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo Rubyist Meetup",
-                        "nameClean": "Tokyo Rubyist Meetup",
-                        "id": "tokyo_rubyist_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trbmeetup.doorkeeper.jp/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 100
                         }
-                      }
+                      ]
                     },
-                    {
-                      "count": 0,
-                      "id": "tokyo_tech_leads_circle",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo Tech Leads Circle",
-                        "nameClean": "Tokyo Tech Leads Circle",
-                        "id": "tokyo_tech_leads_circle",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://tokyo-tech-leads-circle.doorkeeper.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "wise_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Software Engineering Japan",
-                        "nameClean": "Women in Software Engineering Japan",
-                        "id": "wise_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womeninsoftware.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_science_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Science Japan",
-                        "nameClean": "Women in Science Japan",
-                        "id": "women_in_science_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.womeninsciencejapan.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 79,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 9.71
-                    }
-                  ]
-                }
-              }
-            },
-            "communities_vs_employer_type_3": {
-              "id": "communities",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 19,
-                    "percentageSurvey": 2.33,
-                    "total": 814
-                  },
-                  "buckets": [
                     {
                       "count": 0,
                       "id": "a11y_tokyo",
@@ -657,23 +386,24 @@
                         "homepage": {
                           "url": "https://a11ytyo.connpass.com/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "code_chrysalis",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Code Chrysalis",
-                        "nameClean": "Code Chrysalis",
-                        "id": "code_chrysalis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.codechrysalis.io/"
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 100
                         }
-                      }
+                      ]
                     },
                     {
                       "count": 0,
@@ -689,39 +419,24 @@
                         "homepage": {
                           "url": "https://www.meetup.com/coffee-and-code-tokyo/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "creative_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Creative Tokyo",
-                        "nameClean": "Creative Tokyo",
-                        "id": "creative_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://creativetokyo.com/"
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 100
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Dev Japan",
-                        "nameClean": "Dev Japan",
-                        "id": "dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/devjapan/"
-                        }
-                      }
+                      ]
                     },
                     {
                       "count": 0,
@@ -737,244 +452,123 @@
                         "homepage": {
                           "url": "https://engineercafe.jp/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "hn_tokyo",
+                      "id": "hn_kansai",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true,
                       "entity": {
-                        "name": "HN Tokyo",
-                        "nameClean": "HN Tokyo",
-                        "id": "hn_tokyo",
+                        "name": "Hacker News Kansai",
+                        "nameClean": "Hacker News Kansai",
+                        "id": "hn_kansai",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://hntokyo.doorkeeper.jp/"
+                          "url": "https://hnkansai.org"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "le_wagon",
+                      "id": "japan_test_community",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true,
                       "entity": {
-                        "name": "Le Wagon",
-                        "nameClean": "Le Wagon",
-                        "id": "le_wagon",
+                        "name": "Japan Test Community",
+                        "nameClean": "Japan Test Community",
+                        "id": "japan_test_community",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://www.lewagon.com/"
+                          "url": "https://www.meetup.com/ja-JP/japan-test-community/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "owddm",
+                      "id": "mobile_dev_japan",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true,
                       "entity": {
-                        "name": "Osaka Web Developers & Designers Meetup",
-                        "nameHtml": "Osaka Web Developers &amp; Designers Meetup",
-                        "nameClean": "Osaka Web Developers  Designers Meetup",
-                        "id": "owddm",
+                        "name": "Mobile Dev Japan",
+                        "nameClean": "Mobile Dev Japan",
+                        "id": "mobile_dev_japan",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://owddm.com/"
+                          "url": "https://mobiledev-japan.connpass.com/"
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_rubyist_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo Rubyist Meetup",
-                        "nameClean": "Tokyo Rubyist Meetup",
-                        "id": "tokyo_rubyist_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trbmeetup.doorkeeper.jp/"
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 100
                         }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyodev_discord",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "TokyoDev Discord",
-                        "nameClean": "TokyoDev Discord",
-                        "id": "tokyodev_discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.gg/seUNe38YgV"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "wise_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Software Engineering Japan",
-                        "nameClean": "Women in Software Engineering Japan",
-                        "id": "wise_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womeninsoftware.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_technology_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women In Technology Japan",
-                        "nameClean": "Women In Technology Japan",
-                        "id": "women_in_technology_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womenintech.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 22,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 2.7
-                    }
-                  ]
-                }
-              }
-            },
-            "communities_vs_employer_type_4": {
-              "id": "communities",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 16,
-                    "percentageSurvey": 1.97,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "a11y_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "A11y Tokyo Meetup",
-                        "nameClean": "A11y Tokyo Meetup",
-                        "id": "a11y_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://a11ytyo.connpass.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "code_chrysalis",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Code Chrysalis",
-                        "nameClean": "Code Chrysalis",
-                        "id": "code_chrysalis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.codechrysalis.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "creative_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Creative Tokyo",
-                        "nameClean": "Creative Tokyo",
-                        "id": "creative_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://creativetokyo.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Dev Japan",
-                        "nameClean": "Dev Japan",
-                        "id": "dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/devjapan/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "hn_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "HN Tokyo",
-                        "nameClean": "HN Tokyo",
-                        "id": "hn_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hntokyo.doorkeeper.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "le_wagon",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Le Wagon",
-                        "nameClean": "Le Wagon",
-                        "id": "le_wagon",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.lewagon.com/"
-                        }
-                      }
+                      ]
                     },
                     {
                       "count": 0,
@@ -990,61 +584,127 @@
                         "homepage": {
                           "url": "https://www.meetup.com/tokyo-net-developers-meetup/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 2,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "tokyo_rubyist_meetup",
+                      "id": "women_in_science_japan",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true,
                       "entity": {
-                        "name": "Tokyo Rubyist Meetup",
-                        "nameClean": "Tokyo Rubyist Meetup",
-                        "id": "tokyo_rubyist_meetup",
+                        "name": "Women in Science Japan",
+                        "nameClean": "Women in Science Japan",
+                        "id": "women_in_science_japan",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://trbmeetup.doorkeeper.jp/"
+                          "url": "https://www.womeninsciencejapan.com/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
-                      "id": "tokyodev_discord",
+                      "id": "women_in_technology_japan",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true,
                       "entity": {
-                        "name": "TokyoDev Discord",
-                        "nameClean": "TokyoDev Discord",
-                        "id": "tokyodev_discord",
+                        "name": "Women In Technology Japan",
+                        "nameClean": "Women In Technology Japan",
+                        "id": "women_in_technology_japan",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://discord.gg/seUNe38YgV"
+                          "url": "https://womenintech.jp/"
                         }
-                      }
+                      },
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "wise_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Software Engineering Japan",
-                        "nameClean": "Women in Software Engineering Japan",
-                        "id": "wise_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womeninsoftware.jp/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
+                      "count": 525,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 1.35
+                      "percentageSurvey": 64.5,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 311,
+                          "percentageBucket": 59.24,
+                          "percentageQuestion": 112.27
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 79,
+                          "percentageBucket": 15.05,
+                          "percentageQuestion": 28.52
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 22,
+                          "percentageBucket": 4.19,
+                          "percentageQuestion": 7.94
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 99,
+                          "percentageBucket": 18.86,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 3
+                        }
+                      ]
                     }
                   ]
                 }

@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "technology": {
-            "programming_languages_vs_employer_type_1": {
+            "programming_languages_vs_employer_type": {
               "id": "programming_languages",
               "responses": {
                 "currentEdition": {
@@ -13,20 +13,55 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 454,
-                    "percentageSurvey": 55.77,
+                    "count": 660,
+                    "percentageSurvey": 81.08,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 208,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 106.97,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 75.91
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 19.85
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 6.36
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 289,
                       "id": "javascript",
-                      "percentageQuestion": 45.81,
-                      "percentageSurvey": 25.55,
+                      "percentageQuestion": 43.79,
+                      "percentageSurvey": 35.5,
                       "entity": {
                         "name": "JavaScript",
                         "nameClean": "JavaScript",
@@ -35,28 +70,44 @@
                         "homepage": {
                           "url": "https://www.javascript.com/"
                         }
-                      }
-                    },
-                    {
-                      "count": 182,
-                      "id": "typescript",
-                      "percentageQuestion": 40.09,
-                      "percentageSurvey": 22.36,
-                      "entity": {
-                        "name": "TypeScript",
-                        "nameClean": "TypeScript",
-                        "id": "typescript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "typescriptlang.org/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 208,
+                          "percentageBucket": 71.97,
+                          "percentageQuestion": 31.52
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 40,
+                          "percentageBucket": 13.84,
+                          "percentageQuestion": 6.06
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 17,
+                          "percentageBucket": 5.88,
+                          "percentageQuestion": 2.58
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 12,
+                          "percentageBucket": 4.15,
+                          "percentageQuestion": 1.82
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 4
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 176,
+                      "count": 272,
                       "id": "python",
-                      "percentageQuestion": 38.77,
-                      "percentageSurvey": 21.62,
+                      "percentageQuestion": 41.21,
+                      "percentageSurvey": 33.42,
                       "entity": {
                         "name": "Python",
                         "nameClean": "Python",
@@ -65,13 +116,90 @@
                         "homepage": {
                           "url": "https://www.python.org/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 176,
+                          "percentageBucket": 64.71,
+                          "percentageQuestion": 26.67
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 69,
+                          "percentageBucket": 25.37,
+                          "percentageQuestion": 10.45
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 4.04,
+                          "percentageQuestion": 1.67
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 3.68,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 171,
+                      "count": 258,
+                      "id": "typescript",
+                      "percentageQuestion": 39.09,
+                      "percentageSurvey": 31.7,
+                      "entity": {
+                        "name": "TypeScript",
+                        "nameClean": "TypeScript",
+                        "id": "typescript",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "typescriptlang.org/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 182,
+                          "percentageBucket": 70.54,
+                          "percentageQuestion": 27.58
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 43,
+                          "percentageBucket": 16.67,
+                          "percentageQuestion": 6.52
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 15,
+                          "percentageBucket": 5.81,
+                          "percentageQuestion": 2.27
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 10,
+                          "percentageBucket": 3.88,
+                          "percentageQuestion": 1.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 244,
                       "id": "html_css",
-                      "percentageQuestion": 37.67,
-                      "percentageSurvey": 21.01,
+                      "percentageQuestion": 36.97,
+                      "percentageSurvey": 29.98,
                       "entity": {
                         "name": "HTML/CSS",
                         "nameClean": "HTML/CSS",
@@ -80,13 +208,44 @@
                         "homepage": {
                           "url": "https://whatwg.org/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 171,
+                          "percentageBucket": 70.08,
+                          "percentageQuestion": 25.91
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 32,
+                          "percentageBucket": 13.11,
+                          "percentageQuestion": 4.85
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 18,
+                          "percentageBucket": 7.38,
+                          "percentageQuestion": 2.73
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 12,
+                          "percentageBucket": 4.92,
+                          "percentageQuestion": 1.82
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 5
+                        }
+                      ]
                     },
                     {
-                      "count": 148,
+                      "count": 214,
                       "id": "sql",
-                      "percentageQuestion": 32.6,
-                      "percentageSurvey": 18.18,
+                      "percentageQuestion": 32.42,
+                      "percentageSurvey": 26.29,
                       "entity": {
                         "name": "SQL",
                         "nameClean": "SQL",
@@ -95,13 +254,38 @@
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/SQL"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 148,
+                          "percentageBucket": 69.16,
+                          "percentageQuestion": 22.42
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 39,
+                          "percentageBucket": 18.22,
+                          "percentageQuestion": 5.91
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 4.67,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 8
+                        }
+                      ]
                     },
                     {
-                      "count": 145,
+                      "count": 201,
                       "id": "bash_shell",
-                      "percentageQuestion": 31.94,
-                      "percentageSurvey": 17.81,
+                      "percentageQuestion": 30.45,
+                      "percentageSurvey": 24.69,
                       "entity": {
                         "name": "Bash/Shell",
                         "nameClean": "Bash/Shell",
@@ -110,28 +294,38 @@
                         "homepage": {
                           "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                         }
-                      }
-                    },
-                    {
-                      "count": 80,
-                      "id": "go",
-                      "percentageQuestion": 17.62,
-                      "percentageSurvey": 9.83,
-                      "entity": {
-                        "name": "Go",
-                        "nameClean": "Go",
-                        "id": "golang",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://go.dev/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 145,
+                          "percentageBucket": 72.14,
+                          "percentageQuestion": 21.97
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 35,
+                          "percentageBucket": 17.41,
+                          "percentageQuestion": 5.3
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 10,
+                          "percentageBucket": 4.98,
+                          "percentageQuestion": 1.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 5
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 69,
+                      "count": 118,
                       "id": "java",
-                      "percentageQuestion": 15.2,
-                      "percentageSurvey": 8.48,
+                      "percentageQuestion": 17.88,
+                      "percentageSurvey": 14.5,
                       "entity": {
                         "name": "Java",
                         "nameClean": "Java",
@@ -140,13 +334,66 @@
                         "homepage": {
                           "url": "https://www.java.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 69,
+                          "percentageBucket": 58.47,
+                          "percentageQuestion": 10.45
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 34,
+                          "percentageBucket": 28.81,
+                          "percentageQuestion": 5.15
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 13
+                        }
+                      ]
                     },
                     {
-                      "count": 57,
+                      "count": 99,
+                      "id": "go",
+                      "percentageQuestion": 15,
+                      "percentageSurvey": 12.16,
+                      "entity": {
+                        "name": "Go",
+                        "nameClean": "Go",
+                        "id": "golang",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://go.dev/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 80,
+                          "percentageBucket": 80.81,
+                          "percentageQuestion": 12.12
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 11.11,
+                          "percentageQuestion": 1.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 8
+                        }
+                      ]
+                    },
+                    {
+                      "count": 79,
                       "id": "ruby",
-                      "percentageQuestion": 12.56,
-                      "percentageSurvey": 7,
+                      "percentageQuestion": 11.97,
+                      "percentageSurvey": 9.71,
                       "entity": {
                         "name": "Ruby",
                         "nameClean": "Ruby",
@@ -155,28 +402,32 @@
                         "homepage": {
                           "url": "https://www.ruby-lang.org/"
                         }
-                      }
-                    },
-                    {
-                      "count": 51,
-                      "id": "kotlin",
-                      "percentageQuestion": 11.23,
-                      "percentageSurvey": 6.27,
-                      "entity": {
-                        "name": "Kotlin",
-                        "nameClean": "Kotlin",
-                        "id": "kotlin",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://kotlinlang.org"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 57,
+                          "percentageBucket": 72.15,
+                          "percentageQuestion": 8.64
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 13.92,
+                          "percentageQuestion": 1.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 14
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 48,
+                      "count": 70,
                       "id": "cplusplus",
-                      "percentageQuestion": 10.57,
-                      "percentageSurvey": 5.9,
+                      "percentageQuestion": 10.61,
+                      "percentageSurvey": 8.6,
                       "entity": {
                         "name": "C++",
                         "nameClean": "C++",
@@ -185,13 +436,66 @@
                         "homepage": {
                           "url": "https://cplusplus.com/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 48,
+                          "percentageBucket": 68.57,
+                          "percentageQuestion": 7.27
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 13,
+                          "percentageBucket": 18.57,
+                          "percentageQuestion": 1.97
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 13
+                        }
+                      ]
                     },
                     {
-                      "count": 44,
+                      "count": 70,
+                      "id": "kotlin",
+                      "percentageQuestion": 10.61,
+                      "percentageSurvey": 8.6,
+                      "entity": {
+                        "name": "Kotlin",
+                        "nameClean": "Kotlin",
+                        "id": "kotlin",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://kotlinlang.org"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 51,
+                          "percentageBucket": 72.86,
+                          "percentageQuestion": 7.73
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 15.71,
+                          "percentageQuestion": 1.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 11
+                        }
+                      ]
+                    },
+                    {
+                      "count": 60,
                       "id": "php",
-                      "percentageQuestion": 9.69,
-                      "percentageSurvey": 5.41,
+                      "percentageQuestion": 9.09,
+                      "percentageSurvey": 7.37,
                       "entity": {
                         "name": "PHP",
                         "nameClean": "PHP",
@@ -200,13 +504,26 @@
                         "homepage": {
                           "url": "https://www.php.net/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 44,
+                          "percentageBucket": 73.33,
+                          "percentageQuestion": 6.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 27
+                        }
+                      ]
                     },
                     {
-                      "count": 22,
+                      "count": 31,
                       "id": "rust",
-                      "percentageQuestion": 4.85,
-                      "percentageSurvey": 2.7,
+                      "percentageQuestion": 4.7,
+                      "percentageSurvey": 3.81,
                       "entity": {
                         "name": "Rust",
                         "nameClean": "Rust",
@@ -215,689 +532,45 @@
                         "homepage": {
                           "url": "https://www.rust-lang.org/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 22,
+                          "percentageBucket": 70.97,
+                          "percentageQuestion": 3.33
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 29
+                        }
+                      ]
                     },
                     {
-                      "count": 46,
+                      "count": 151,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 5.65
-                    }
-                  ]
-                }
-              }
-            },
-            "programming_languages_vs_employer_type_2": {
-              "id": "programming_languages",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 124,
-                    "percentageSurvey": 15.23,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 69,
-                      "id": "python",
-                      "percentageQuestion": 55.65,
-                      "percentageSurvey": 8.48,
-                      "entity": {
-                        "name": "Python",
-                        "nameClean": "Python",
-                        "id": "python",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.python.org/"
+                      "percentageSurvey": 18.55,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 46,
+                          "percentageBucket": 30.46,
+                          "percentageQuestion": 6.97
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 88,
+                          "percentageBucket": 58.28,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 11
                         }
-                      }
-                    },
-                    {
-                      "count": 43,
-                      "id": "typescript",
-                      "percentageQuestion": 34.68,
-                      "percentageSurvey": 5.28,
-                      "entity": {
-                        "name": "TypeScript",
-                        "nameClean": "TypeScript",
-                        "id": "typescript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "typescriptlang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 40,
-                      "id": "javascript",
-                      "percentageQuestion": 32.26,
-                      "percentageSurvey": 4.91,
-                      "entity": {
-                        "name": "JavaScript",
-                        "nameClean": "JavaScript",
-                        "id": "javascript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.javascript.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 39,
-                      "id": "sql",
-                      "percentageQuestion": 31.45,
-                      "percentageSurvey": 4.79,
-                      "entity": {
-                        "name": "SQL",
-                        "nameClean": "SQL",
-                        "id": "sql",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/SQL"
-                        }
-                      }
-                    },
-                    {
-                      "count": 35,
-                      "id": "bash_shell",
-                      "percentageQuestion": 28.23,
-                      "percentageSurvey": 4.3,
-                      "entity": {
-                        "name": "Bash/Shell",
-                        "nameClean": "Bash/Shell",
-                        "id": "bash_shell",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
-                        }
-                      }
-                    },
-                    {
-                      "count": 34,
-                      "id": "java",
-                      "percentageQuestion": 27.42,
-                      "percentageSurvey": 4.18,
-                      "entity": {
-                        "name": "Java",
-                        "nameClean": "Java",
-                        "id": "java",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.java.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 32,
-                      "id": "html_css",
-                      "percentageQuestion": 25.81,
-                      "percentageSurvey": 3.93,
-                      "entity": {
-                        "name": "HTML/CSS",
-                        "nameClean": "HTML/CSS",
-                        "id": "html_css",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://whatwg.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 13,
-                      "id": "cplusplus",
-                      "percentageQuestion": 10.48,
-                      "percentageSurvey": 1.6,
-                      "entity": {
-                        "name": "C++",
-                        "nameClean": "C++",
-                        "id": "cplusplus",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://cplusplus.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "go",
-                      "percentageQuestion": 8.87,
-                      "percentageSurvey": 1.35,
-                      "entity": {
-                        "name": "Go",
-                        "nameClean": "Go",
-                        "id": "golang",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://go.dev/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "kotlin",
-                      "percentageQuestion": 8.87,
-                      "percentageSurvey": 1.35,
-                      "entity": {
-                        "name": "Kotlin",
-                        "nameClean": "Kotlin",
-                        "id": "kotlin",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://kotlinlang.org"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "ruby",
-                      "percentageQuestion": 8.87,
-                      "percentageSurvey": 1.35,
-                      "entity": {
-                        "name": "Ruby",
-                        "nameClean": "Ruby",
-                        "id": "ruby",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.ruby-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "php",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "PHP",
-                        "nameClean": "PHP",
-                        "id": "php",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.php.net/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "rust",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Rust",
-                        "nameClean": "Rust",
-                        "id": "rust",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.rust-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "programming_languages_vs_employer_type_3": {
-              "id": "programming_languages",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 36,
-                    "percentageSurvey": 4.42,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 18,
-                      "id": "html_css",
-                      "percentageQuestion": 50,
-                      "percentageSurvey": 2.21,
-                      "entity": {
-                        "name": "HTML/CSS",
-                        "nameClean": "HTML/CSS",
-                        "id": "html_css",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://whatwg.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 17,
-                      "id": "javascript",
-                      "percentageQuestion": 47.22,
-                      "percentageSurvey": 2.09,
-                      "entity": {
-                        "name": "JavaScript",
-                        "nameClean": "JavaScript",
-                        "id": "javascript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.javascript.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 15,
-                      "id": "typescript",
-                      "percentageQuestion": 41.67,
-                      "percentageSurvey": 1.84,
-                      "entity": {
-                        "name": "TypeScript",
-                        "nameClean": "TypeScript",
-                        "id": "typescript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "typescriptlang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "python",
-                      "percentageQuestion": 30.56,
-                      "percentageSurvey": 1.35,
-                      "entity": {
-                        "name": "Python",
-                        "nameClean": "Python",
-                        "id": "python",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.python.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "bash_shell",
-                      "percentageQuestion": 27.78,
-                      "percentageSurvey": 1.23,
-                      "entity": {
-                        "name": "Bash/Shell",
-                        "nameClean": "Bash/Shell",
-                        "id": "bash_shell",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "cplusplus",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "C++",
-                        "nameClean": "C++",
-                        "id": "cplusplus",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://cplusplus.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "go",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Go",
-                        "nameClean": "Go",
-                        "id": "golang",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://go.dev/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "java",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Java",
-                        "nameClean": "Java",
-                        "id": "java",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.java.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "kotlin",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Kotlin",
-                        "nameClean": "Kotlin",
-                        "id": "kotlin",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://kotlinlang.org"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "php",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "PHP",
-                        "nameClean": "PHP",
-                        "id": "php",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.php.net/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "ruby",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Ruby",
-                        "nameClean": "Ruby",
-                        "id": "ruby",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.ruby-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "rust",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Rust",
-                        "nameClean": "Rust",
-                        "id": "rust",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.rust-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "sql",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "SQL",
-                        "nameClean": "SQL",
-                        "id": "sql",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/SQL"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "programming_languages_vs_employer_type_4": {
-              "id": "programming_languages",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 24,
-                    "percentageSurvey": 2.95,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "html_css",
-                      "percentageQuestion": 50,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "HTML/CSS",
-                        "nameClean": "HTML/CSS",
-                        "id": "html_css",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://whatwg.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 12,
-                      "id": "javascript",
-                      "percentageQuestion": 50,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "JavaScript",
-                        "nameClean": "JavaScript",
-                        "id": "javascript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.javascript.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "typescript",
-                      "percentageQuestion": 41.67,
-                      "percentageSurvey": 1.23,
-                      "entity": {
-                        "name": "TypeScript",
-                        "nameClean": "TypeScript",
-                        "id": "typescript",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "typescriptlang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "bash_shell",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Bash/Shell",
-                        "nameClean": "Bash/Shell",
-                        "id": "bash_shell",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "cplusplus",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "C++",
-                        "nameClean": "C++",
-                        "id": "cplusplus",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://cplusplus.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "go",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Go",
-                        "nameClean": "Go",
-                        "id": "golang",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://go.dev/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "java",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Java",
-                        "nameClean": "Java",
-                        "id": "java",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.java.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "kotlin",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Kotlin",
-                        "nameClean": "Kotlin",
-                        "id": "kotlin",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://kotlinlang.org"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "php",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "PHP",
-                        "nameClean": "PHP",
-                        "id": "php",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.php.net/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "python",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Python",
-                        "nameClean": "Python",
-                        "id": "python",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.python.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "ruby",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Ruby",
-                        "nameClean": "Ruby",
-                        "id": "ruby",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.ruby-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "sql",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "SQL",
-                        "nameClean": "SQL",
-                        "id": "sql",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://en.wikipedia.org/wiki/SQL"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      ]
                     }
                   ]
                 }

@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "job_info": {
-            "current_job_description_vs_employer_type_1": {
+            "current_job_description_vs_employer_type": {
               "id": "current_job_description",
               "responses": {
                 "currentEdition": {
@@ -13,623 +13,544 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 481,
-                    "percentageSurvey": 59.09,
+                    "count": 706,
+                    "percentageSurvey": 86.73,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 169,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 70.96
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 18.56
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.95
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 254,
                       "id": "developer_back_end",
-                      "percentageQuestion": 35.14,
-                      "percentageSurvey": 20.76
+                      "percentageQuestion": 35.98,
+                      "percentageSurvey": 31.2,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 169,
+                          "percentageBucket": 66.54,
+                          "percentageQuestion": 23.94
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 50,
+                          "percentageBucket": 19.69,
+                          "percentageQuestion": 7.08
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 4.33,
+                          "percentageQuestion": 1.56
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 15,
+                          "percentageBucket": 5.91,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
                     {
-                      "count": 158,
+                      "count": 226,
                       "id": "developer_full_stack",
-                      "percentageQuestion": 32.85,
-                      "percentageSurvey": 19.41
+                      "percentageQuestion": 32.01,
+                      "percentageSurvey": 27.76,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 158,
+                          "percentageBucket": 69.91,
+                          "percentageQuestion": 22.38
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 33,
+                          "percentageBucket": 14.6,
+                          "percentageQuestion": 4.67
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 12,
+                          "percentageBucket": 5.31,
+                          "percentageQuestion": 1.7
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 11,
+                          "percentageBucket": 4.87,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 5
+                        }
+                      ]
                     },
                     {
-                      "count": 99,
+                      "count": 145,
                       "id": "developer_front_end",
-                      "percentageQuestion": 20.58,
-                      "percentageSurvey": 12.16
+                      "percentageQuestion": 20.54,
+                      "percentageSurvey": 17.81,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 99,
+                          "percentageBucket": 68.28,
+                          "percentageQuestion": 14.02
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 20,
+                          "percentageBucket": 13.79,
+                          "percentageQuestion": 2.83
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 15,
+                          "percentageBucket": 10.34,
+                          "percentageQuestion": 2.12
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 8
+                        }
+                      ]
                     },
                     {
-                      "count": 62,
+                      "count": 86,
                       "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 12.89,
-                      "percentageSurvey": 7.62
+                      "percentageQuestion": 12.18,
+                      "percentageSurvey": 10.57,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 62,
+                          "percentageBucket": 72.09,
+                          "percentageQuestion": 8.78
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 12,
+                          "percentageBucket": 13.95,
+                          "percentageQuestion": 1.7
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 14
+                        }
+                      ]
+                    },
+                    {
+                      "count": 75,
+                      "id": "engineering_manager",
+                      "percentageQuestion": 10.62,
+                      "percentageSurvey": 9.21,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 50,
+                          "percentageBucket": 66.67,
+                          "percentageQuestion": 7.08
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 15,
+                          "percentageBucket": 20,
+                          "percentageQuestion": 2.12
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 13
+                        }
+                      ]
+                    },
+                    {
+                      "count": 68,
+                      "id": "data_scientist_or_machine_learning",
+                      "percentageQuestion": 9.63,
+                      "percentageSurvey": 8.35,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 46,
+                          "percentageBucket": 67.65,
+                          "percentageQuestion": 6.52
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 18,
+                          "percentageBucket": 26.47,
+                          "percentageQuestion": 2.55
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 6
+                        }
+                      ]
+                    },
+                    {
+                      "count": 53,
+                      "id": "developer_mobile",
+                      "percentageQuestion": 7.51,
+                      "percentageSurvey": 6.51,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 37,
+                          "percentageBucket": 69.81,
+                          "percentageQuestion": 5.24
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 30
+                        }
+                      ]
                     },
                     {
                       "count": 50,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 10.4,
-                      "percentageSurvey": 6.14
-                    },
-                    {
-                      "count": 46,
-                      "id": "data_scientist_or_machine_learning",
-                      "percentageQuestion": 9.56,
-                      "percentageSurvey": 5.65
-                    },
-                    {
-                      "count": 37,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 7.69,
-                      "percentageSurvey": 4.55
-                    },
-                    {
-                      "count": 37,
                       "id": "devops_specialist",
-                      "percentageQuestion": 7.69,
-                      "percentageSurvey": 4.55
+                      "percentageQuestion": 7.08,
+                      "percentageSurvey": 6.14,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 37,
+                          "percentageBucket": 74,
+                          "percentageQuestion": 5.24
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 26
+                        }
+                      ]
                     },
                     {
-                      "count": 30,
+                      "count": 49,
                       "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 6.24,
-                      "percentageSurvey": 3.69
+                      "percentageQuestion": 6.94,
+                      "percentageSurvey": 6.02,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 30,
+                          "percentageBucket": 61.22,
+                          "percentageQuestion": 4.25
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 10,
+                          "percentageBucket": 20.41,
+                          "percentageQuestion": 1.42
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 18
+                        }
+                      ]
+                    },
+                    {
+                      "count": 39,
+                      "id": "engineer_data",
+                      "percentageQuestion": 5.52,
+                      "percentageSurvey": 4.79,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 20,
+                          "percentageBucket": 51.28,
+                          "percentageQuestion": 2.83
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 13,
+                          "percentageBucket": 33.33,
+                          "percentageQuestion": 1.84
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 15
+                        }
+                      ]
+                    },
+                    {
+                      "count": 36,
+                      "id": "developer_embedded_applications_or_devices",
+                      "percentageQuestion": 5.1,
+                      "percentageSurvey": 4.42,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 22,
+                          "percentageBucket": 61.11,
+                          "percentageQuestion": 3.12
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 39
+                        }
+                      ]
+                    },
+                    {
+                      "count": 36,
+                      "id": "engineer_site_reliability",
+                      "percentageQuestion": 5.1,
+                      "percentageSurvey": 4.42,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 21,
+                          "percentageBucket": 58.33,
+                          "percentageQuestion": 2.97
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 42
+                        }
+                      ]
+                    },
+                    {
+                      "count": 32,
+                      "id": "developer_game_or_graphics",
+                      "percentageQuestion": 4.53,
+                      "percentageSurvey": 3.93,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 19,
+                          "percentageBucket": 59.38,
+                          "percentageQuestion": 2.69
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 41
+                        }
+                      ]
+                    },
+                    {
+                      "count": 28,
+                      "id": "system_administrator",
+                      "percentageQuestion": 3.97,
+                      "percentageSurvey": 3.44,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 20,
+                          "percentageBucket": 71.43,
+                          "percentageQuestion": 2.83
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 29
+                        }
+                      ]
+                    },
+                    {
+                      "count": 26,
+                      "id": "product_manager",
+                      "percentageQuestion": 3.68,
+                      "percentageSurvey": 3.19,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 14,
+                          "percentageBucket": 53.85,
+                          "percentageQuestion": 1.98
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 46
+                        }
+                      ]
+                    },
+                    {
+                      "count": 25,
+                      "id": "developer_qa_or_test",
+                      "percentageQuestion": 3.54,
+                      "percentageSurvey": 3.07,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 20,
+                          "percentageBucket": 80,
+                          "percentageQuestion": 2.83
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 20
+                        }
+                      ]
                     },
                     {
                       "count": 22,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 4.57,
-                      "percentageSurvey": 2.7
-                    },
-                    {
-                      "count": 21,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 4.37,
-                      "percentageSurvey": 2.58
-                    },
-                    {
-                      "count": 20,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 4.16,
-                      "percentageSurvey": 2.46
-                    },
-                    {
-                      "count": 20,
-                      "id": "engineer_data",
-                      "percentageQuestion": 4.16,
-                      "percentageSurvey": 2.46
-                    },
-                    {
-                      "count": 20,
-                      "id": "system_administrator",
-                      "percentageQuestion": 4.16,
-                      "percentageSurvey": 2.46
-                    },
-                    {
-                      "count": 19,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 3.95,
-                      "percentageSurvey": 2.33
-                    },
-                    {
-                      "count": 14,
-                      "id": "product_manager",
-                      "percentageQuestion": 2.91,
-                      "percentageSurvey": 1.72
-                    },
-                    {
-                      "count": 13,
-                      "id": "database_administrator",
-                      "percentageQuestion": 2.7,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 12,
                       "id": "designer",
-                      "percentageQuestion": 2.49,
-                      "percentageSurvey": 1.47
+                      "percentageQuestion": 3.12,
+                      "percentageSurvey": 2.7,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 12,
+                          "percentageBucket": 54.55,
+                          "percentageQuestion": 1.7
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 45
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "blockchain",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "senior_executive",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 19,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 2.33
-                    }
-                  ]
-                }
-              }
-            },
-            "current_job_description_vs_employer_type_2": {
-              "id": "current_job_description",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 121,
-                    "percentageSurvey": 14.86,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 50,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 41.32,
-                      "percentageSurvey": 6.14
-                    },
-                    {
-                      "count": 33,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 27.27,
-                      "percentageSurvey": 4.05
-                    },
-                    {
-                      "count": 20,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 16.53,
-                      "percentageSurvey": 2.46
-                    },
-                    {
-                      "count": 18,
-                      "id": "data_scientist_or_machine_learning",
-                      "percentageQuestion": 14.88,
-                      "percentageSurvey": 2.21
-                    },
-                    {
-                      "count": 15,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 12.4,
-                      "percentageSurvey": 1.84
+                      "count": 16,
+                      "id": "database_administrator",
+                      "percentageQuestion": 2.27,
+                      "percentageSurvey": 1.97,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 13,
+                          "percentageBucket": 81.25,
+                          "percentageQuestion": 1.84
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 19
+                        }
+                      ]
                     },
                     {
                       "count": 13,
-                      "id": "engineer_data",
-                      "percentageQuestion": 10.74,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 12,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 9.92,
-                      "percentageSurvey": 1.47
+                      "id": "senior_executive",
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 1.6,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 10,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 8.26,
-                      "percentageSurvey": 1.23
+                      "id": "security_professional",
+                      "percentageQuestion": 1.42,
+                      "percentageSurvey": 1.23,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
                       "id": "blockchain",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
-                      "id": "database_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "designer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "product_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "senior_executive",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
+                      "count": 105,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "current_job_description_vs_employer_type_3": {
-              "id": "current_job_description",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 40,
-                    "percentageSurvey": 4.91,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 15,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 37.5,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 11,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 27.5,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 11,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 27.5,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 0,
-                      "id": "blockchain",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "data_scientist_or_machine_learning",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "database_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "designer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_data",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "product_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "current_job_description_vs_employer_type_4": {
-              "id": "current_job_description",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 26,
-                    "percentageSurvey": 3.19,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 46.15,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "designer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_data",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "product_manager",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "security_professional",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "senior_executive",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "system_administrator",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 12.9,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 19,
+                          "percentageBucket": 18.1,
+                          "percentageQuestion": 2.69
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 73,
+                          "percentageBucket": 69.52,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 12
+                        }
+                      ]
                     }
                   ]
                 }

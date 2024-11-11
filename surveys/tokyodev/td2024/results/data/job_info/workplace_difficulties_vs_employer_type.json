@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "job_info": {
-            "workplace_difficulties_vs_employer_type_1": {
+            "workplace_difficulties_vs_employer_type": {
               "id": "workplace_difficulties",
               "responses": {
                 "currentEdition": {
@@ -13,355 +13,354 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 399,
-                    "percentageSurvey": 49.02,
+                    "count": 565,
+                    "percentageSurvey": 69.41,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 194,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 124.96,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 88.67
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 23.19
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 7.43
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 252,
                       "id": "compensation",
-                      "percentageQuestion": 48.62,
-                      "percentageSurvey": 23.83
+                      "percentageQuestion": 44.6,
+                      "percentageSurvey": 30.96,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 194,
+                          "percentageBucket": 76.98,
+                          "percentageQuestion": 34.34
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 33,
+                          "percentageBucket": 13.1,
+                          "percentageQuestion": 5.84
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 10,
+                          "percentageBucket": 3.97,
+                          "percentageQuestion": 1.77
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 6
+                        }
+                      ]
                     },
                     {
-                      "count": 141,
+                      "count": 193,
                       "id": "training",
-                      "percentageQuestion": 35.34,
-                      "percentageSurvey": 17.32
+                      "percentageQuestion": 34.16,
+                      "percentageSurvey": 23.71,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 141,
+                          "percentageBucket": 73.06,
+                          "percentageQuestion": 24.96
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 26,
+                          "percentageBucket": 13.47,
+                          "percentageQuestion": 4.6
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 13,
+                          "percentageBucket": 6.74,
+                          "percentageQuestion": 2.3
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 7
+                        }
+                      ]
                     },
                     {
-                      "count": 132,
+                      "count": 168,
                       "id": "company_culture",
-                      "percentageQuestion": 33.08,
-                      "percentageSurvey": 16.22
+                      "percentageQuestion": 29.73,
+                      "percentageSurvey": 20.64,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 132,
+                          "percentageBucket": 78.57,
+                          "percentageQuestion": 23.36
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 25,
+                          "percentageBucket": 14.88,
+                          "percentageQuestion": 4.42
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 7
+                        }
+                      ]
                     },
                     {
-                      "count": 114,
+                      "count": 154,
                       "id": "work_content",
-                      "percentageQuestion": 28.57,
-                      "percentageSurvey": 14
+                      "percentageQuestion": 27.26,
+                      "percentageSurvey": 18.92,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 114,
+                          "percentageBucket": 74.03,
+                          "percentageQuestion": 20.18
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 28,
+                          "percentageBucket": 18.18,
+                          "percentageQuestion": 4.96
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 8
+                        }
+                      ]
                     },
                     {
-                      "count": 97,
+                      "count": 120,
                       "id": "language_differences",
-                      "percentageQuestion": 24.31,
-                      "percentageSurvey": 11.92
+                      "percentageQuestion": 21.24,
+                      "percentageSurvey": 14.74,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 97,
+                          "percentageBucket": 80.83,
+                          "percentageQuestion": 17.17
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 9.17,
+                          "percentageQuestion": 1.95
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 10
+                        }
+                      ]
                     },
                     {
-                      "count": 88,
+                      "count": 110,
                       "id": "cultural_differences",
-                      "percentageQuestion": 22.06,
-                      "percentageSurvey": 10.81
+                      "percentageQuestion": 19.47,
+                      "percentageSurvey": 13.51,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 88,
+                          "percentageBucket": 80,
+                          "percentageQuestion": 15.58
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 15,
+                          "percentageBucket": 13.64,
+                          "percentageQuestion": 2.65
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 6
+                        }
+                      ]
                     },
                     {
-                      "count": 67,
+                      "count": 103,
                       "id": "work_life_balance",
-                      "percentageQuestion": 16.79,
-                      "percentageSurvey": 8.23
+                      "percentageQuestion": 18.23,
+                      "percentageSurvey": 12.65,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 67,
+                          "percentageBucket": 65.05,
+                          "percentageQuestion": 11.86
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 21,
+                          "percentageBucket": 20.39,
+                          "percentageQuestion": 3.72
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 15
+                        }
+                      ]
                     },
                     {
-                      "count": 48,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 12.03,
-                      "percentageSurvey": 5.9
-                    },
-                    {
-                      "count": 47,
+                      "count": 90,
                       "id": "job_security",
-                      "percentageQuestion": 11.78,
-                      "percentageSurvey": 5.77
+                      "percentageQuestion": 15.93,
+                      "percentageSurvey": 11.06,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 47,
+                          "percentageBucket": 52.22,
+                          "percentageQuestion": 8.32
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 17,
+                          "percentageBucket": 18.89,
+                          "percentageQuestion": 3.01
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 12,
+                          "percentageBucket": 13.33,
+                          "percentageQuestion": 2.12
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 16
+                        }
+                      ]
                     },
                     {
-                      "count": 47,
+                      "count": 66,
+                      "id": "coworker_relations",
+                      "percentageQuestion": 11.68,
+                      "percentageSurvey": 8.11,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 48,
+                          "percentageBucket": 72.73,
+                          "percentageQuestion": 8.5
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 16.67,
+                          "percentageQuestion": 1.95
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 11
+                        }
+                      ]
+                    },
+                    {
+                      "count": 66,
                       "id": "working_conditions",
-                      "percentageQuestion": 11.78,
-                      "percentageSurvey": 5.77
+                      "percentageQuestion": 11.68,
+                      "percentageSurvey": 8.11,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 47,
+                          "percentageBucket": 71.21,
+                          "percentageQuestion": 8.32
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 16.67,
+                          "percentageQuestion": 1.95
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 12
+                        }
+                      ]
                     },
                     {
-                      "count": 83,
+                      "count": 226,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 10.2
-                    }
-                  ]
-                }
-              }
-            },
-            "workplace_difficulties_vs_employer_type_2": {
-              "id": "workplace_difficulties",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 92,
-                    "percentageSurvey": 11.3,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 33,
-                      "id": "compensation",
-                      "percentageQuestion": 35.87,
-                      "percentageSurvey": 4.05
-                    },
-                    {
-                      "count": 28,
-                      "id": "work_content",
-                      "percentageQuestion": 30.43,
-                      "percentageSurvey": 3.44
-                    },
-                    {
-                      "count": 26,
-                      "id": "training",
-                      "percentageQuestion": 28.26,
-                      "percentageSurvey": 3.19
-                    },
-                    {
-                      "count": 25,
-                      "id": "company_culture",
-                      "percentageQuestion": 27.17,
-                      "percentageSurvey": 3.07
-                    },
-                    {
-                      "count": 21,
-                      "id": "work_life_balance",
-                      "percentageQuestion": 22.83,
-                      "percentageSurvey": 2.58
-                    },
-                    {
-                      "count": 17,
-                      "id": "job_security",
-                      "percentageQuestion": 18.48,
-                      "percentageSurvey": 2.09
-                    },
-                    {
-                      "count": 15,
-                      "id": "cultural_differences",
-                      "percentageQuestion": 16.3,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 11,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 11.96,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 11,
-                      "id": "language_differences",
-                      "percentageQuestion": 11.96,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 11,
-                      "id": "working_conditions",
-                      "percentageQuestion": 11.96,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 38,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 4.67
-                    }
-                  ]
-                }
-              }
-            },
-            "workplace_difficulties_vs_employer_type_3": {
-              "id": "workplace_difficulties",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 29,
-                    "percentageSurvey": 3.56,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 13,
-                      "id": "training",
-                      "percentageQuestion": 44.83,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 12,
-                      "id": "job_security",
-                      "percentageQuestion": 41.38,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "company_culture",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "compensation",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "cultural_differences",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "language_differences",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "work_content",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "work_life_balance",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "working_conditions",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 12,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 1.47
-                    }
-                  ]
-                }
-              }
-            },
-            "workplace_difficulties_vs_employer_type_4": {
-              "id": "workplace_difficulties",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 21,
-                    "percentageSurvey": 2.58,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 10,
-                      "id": "compensation",
-                      "percentageQuestion": 47.62,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 0,
-                      "id": "company_culture",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "cultural_differences",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "job_security",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "language_differences",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "training",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "work_content",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "work_life_balance",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 27.76,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 83,
+                          "percentageBucket": 36.73,
+                          "percentageQuestion": 14.69
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 38,
+                          "percentageBucket": 16.81,
+                          "percentageQuestion": 6.73
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 12,
+                          "percentageBucket": 5.31,
+                          "percentageQuestion": 2.12
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 86,
+                          "percentageBucket": 38.05,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 3
+                        }
+                      ]
                     }
                   ]
                 }

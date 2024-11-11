@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "user_info": {
-            "japan_province_vs_employer_type_1": {
+            "japan_province_vs_employer_type": {
               "id": "japan_province",
               "responses": {
                 "currentEdition": {
@@ -13,191 +13,285 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 10
                   },
                   "completion": {
-                    "count": 458,
-                    "percentageSurvey": 56.27,
+                    "count": 725,
+                    "percentageSurvey": 89.07,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 283,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 97.38,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 69.1
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 18.07
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.79
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 444,
                       "id": "tokyo",
-                      "percentageQuestion": 61.79,
-                      "percentageSurvey": 34.77
+                      "percentageQuestion": 61.24,
+                      "percentageSurvey": 54.55,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 283,
+                          "percentageBucket": 63.74,
+                          "percentageQuestion": 39.03
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 81,
+                          "percentageBucket": 18.24,
+                          "percentageQuestion": 11.17
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 21,
+                          "percentageBucket": 4.73,
+                          "percentageQuestion": 2.9
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 40,
+                          "percentageBucket": 9.01,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
-                    {
-                      "count": 54,
-                      "id": "kanagawa",
-                      "percentageQuestion": 11.79,
-                      "percentageSurvey": 6.63
-                    },
-                    {
-                      "count": 25,
-                      "id": "chiba",
-                      "percentageQuestion": 5.46,
-                      "percentageSurvey": 3.07
-                    },
-                    {
-                      "count": 18,
-                      "id": "osaka",
-                      "percentageQuestion": 3.93,
-                      "percentageSurvey": 2.21
-                    },
-                    {
-                      "count": 17,
-                      "id": "saitama",
-                      "percentageQuestion": 3.71,
-                      "percentageSurvey": 2.09
-                    },
-                    {
-                      "count": 10,
-                      "id": "fukuoka",
-                      "percentageQuestion": 2.18,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 43,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 5.28
-                    },
-                    {
-                      "count": 51,
-                      "id": "other_answers",
-                      "percentageQuestion": 11.18,
-                      "percentageSurvey": 6.26
-                    }
-                  ]
-                }
-              }
-            },
-            "japan_province_vs_employer_type_2": {
-              "id": "japan_province",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 120,
-                    "percentageSurvey": 14.74,
-                    "total": 814
-                  },
-                  "buckets": [
                     {
                       "count": 81,
-                      "id": "tokyo",
-                      "percentageQuestion": 67.5,
-                      "percentageSurvey": 9.95
+                      "id": "kanagawa",
+                      "percentageQuestion": 11.17,
+                      "percentageSurvey": 9.95,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 54,
+                          "percentageBucket": 66.67,
+                          "percentageQuestion": 7.45
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 16,
+                          "percentageBucket": 19.75,
+                          "percentageQuestion": 2.21
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 14
+                        }
+                      ]
+                    },
+                    {
+                      "count": 38,
+                      "id": "chiba",
+                      "percentageQuestion": 5.24,
+                      "percentageSurvey": 4.67,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 25,
+                          "percentageBucket": 65.79,
+                          "percentageQuestion": 3.45
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 34
+                        }
+                      ]
+                    },
+                    {
+                      "count": 24,
+                      "id": "saitama",
+                      "percentageQuestion": 3.31,
+                      "percentageSurvey": 2.95,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 17,
+                          "percentageBucket": 70.83,
+                          "percentageQuestion": 2.34
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 29
+                        }
+                      ]
+                    },
+                    {
+                      "count": 22,
+                      "id": "osaka",
+                      "percentageQuestion": 3.03,
+                      "percentageSurvey": 2.7,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 18,
+                          "percentageBucket": 81.82,
+                          "percentageQuestion": 2.48
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 18
+                        }
+                      ]
                     },
                     {
                       "count": 16,
-                      "id": "kanagawa",
-                      "percentageQuestion": 13.33,
-                      "percentageSurvey": 1.97
+                      "id": "kyoto",
+                      "percentageQuestion": 2.21,
+                      "percentageSurvey": 1.97,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 11,
+                      "count": 15,
+                      "id": "fukuoka",
+                      "percentageQuestion": 2.07,
+                      "percentageSurvey": 1.84,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 10,
+                          "percentageBucket": 66.67,
+                          "percentageQuestion": 1.38
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 33
+                        }
+                      ]
+                    },
+                    {
+                      "count": 13,
+                      "id": "hokkaido",
+                      "percentageQuestion": 1.79,
+                      "percentageSurvey": 1.6,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 12,
+                      "id": "hyogo",
+                      "percentageQuestion": 1.66,
+                      "percentageSurvey": 1.47,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 89,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 1.35
+                      "percentageSurvey": 10.93,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 43,
+                          "percentageBucket": 48.31,
+                          "percentageQuestion": 5.93
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 12.36,
+                          "percentageQuestion": 1.52
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 31,
+                          "percentageBucket": 34.83,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 5
+                        }
+                      ]
                     },
                     {
-                      "count": 23,
+                      "count": 60,
                       "id": "other_answers",
-                      "percentageQuestion": 19.17,
-                      "percentageSurvey": 2.84
-                    }
-                  ]
-                }
-              }
-            },
-            "japan_province_vs_employer_type_3": {
-              "id": "japan_province",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 40,
-                    "percentageSurvey": 4.91,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 21,
-                      "id": "tokyo",
-                      "percentageQuestion": 52.5,
-                      "percentageSurvey": 2.58
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 19,
-                      "id": "other_answers",
-                      "percentageQuestion": 47.5,
-                      "percentageSurvey": 2.32
-                    }
-                  ]
-                }
-              }
-            },
-            "japan_province_vs_employer_type_4": {
-              "id": "japan_province",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 25,
-                    "percentageSurvey": 3.07,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 17,
-                      "id": "tokyo",
-                      "percentageQuestion": 68,
-                      "percentageSurvey": 2.09
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "other_answers",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageQuestion": 8.32,
+                      "percentageSurvey": 7.36,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 33,
+                          "percentageBucket": 55
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 14,
+                          "percentageBucket": 23.33
+                        }
+                      ]
                     }
                   ]
                 }

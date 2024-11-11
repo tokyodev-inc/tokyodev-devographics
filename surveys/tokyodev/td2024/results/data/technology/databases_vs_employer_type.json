@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "technology": {
-            "databases_vs_employer_type_1": {
+            "databases_vs_employer_type": {
               "id": "databases",
               "responses": {
                 "currentEdition": {
@@ -13,35 +13,55 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 371,
-                    "percentageSurvey": 45.58,
+                    "count": 541,
+                    "percentageSurvey": 66.46,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 165,
-                      "id": "mysql",
-                      "percentageQuestion": 44.47,
-                      "percentageSurvey": 20.27,
-                      "entity": {
-                        "name": "MySQL",
-                        "nameClean": "MySQL",
-                        "id": "mysql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mysql.com/"
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 130.5,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 92.61
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 24.21
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 7.76
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 163,
+                      "count": 249,
                       "id": "postgresql",
-                      "percentageQuestion": 43.94,
-                      "percentageSurvey": 20.02,
+                      "percentageQuestion": 46.03,
+                      "percentageSurvey": 30.59,
                       "entity": {
                         "name": "PostgreSQL",
                         "nameClean": "PostgreSQL",
@@ -50,13 +70,90 @@
                         "homepage": {
                           "url": "https://www.postgresql.org/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 163,
+                          "percentageBucket": 65.46,
+                          "percentageQuestion": 30.13
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 54,
+                          "percentageBucket": 21.69,
+                          "percentageQuestion": 9.98
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 13,
+                          "percentageBucket": 5.22,
+                          "percentageQuestion": 2.4
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 4.02,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
                     {
-                      "count": 108,
+                      "count": 235,
+                      "id": "mysql",
+                      "percentageQuestion": 43.44,
+                      "percentageSurvey": 28.87,
+                      "entity": {
+                        "name": "MySQL",
+                        "nameClean": "MySQL",
+                        "id": "mysql",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.mysql.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 165,
+                          "percentageBucket": 70.21,
+                          "percentageQuestion": 30.5
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 38,
+                          "percentageBucket": 16.17,
+                          "percentageQuestion": 7.02
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 10,
+                          "percentageBucket": 4.26,
+                          "percentageQuestion": 1.85
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 14,
+                          "percentageBucket": 5.96,
+                          "percentageQuestion": 2.59
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 144,
                       "id": "redis",
-                      "percentageQuestion": 29.11,
-                      "percentageSurvey": 13.27,
+                      "percentageQuestion": 26.62,
+                      "percentageSurvey": 17.69,
                       "entity": {
                         "name": "Redis",
                         "nameClean": "Redis",
@@ -65,13 +162,32 @@
                         "homepage": {
                           "url": "https://redis.io/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 108,
+                          "percentageBucket": 75,
+                          "percentageQuestion": 19.96
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 20,
+                          "percentageBucket": 13.89,
+                          "percentageQuestion": 3.7
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 11
+                        }
+                      ]
                     },
                     {
-                      "count": 66,
+                      "count": 91,
                       "id": "elasticsearch",
-                      "percentageQuestion": 17.79,
-                      "percentageSurvey": 8.11,
+                      "percentageQuestion": 16.82,
+                      "percentageSurvey": 11.18,
                       "entity": {
                         "name": "ElasticSearch",
                         "nameClean": "ElasticSearch",
@@ -80,43 +196,32 @@
                         "homepage": {
                           "url": "https://www.elastic.co/"
                         }
-                      }
-                    },
-                    {
-                      "count": 48,
-                      "id": "mongodb",
-                      "percentageQuestion": 12.94,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "MongoDB",
-                        "nameClean": "MongoDB",
-                        "id": "mongodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mongodb.com/"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 66,
+                          "percentageBucket": 72.53,
+                          "percentageQuestion": 12.2
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 13,
+                          "percentageBucket": 14.29,
+                          "percentageQuestion": 2.4
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 13
                         }
-                      }
+                      ]
                     },
                     {
-                      "count": 48,
-                      "id": "sqlite",
-                      "percentageQuestion": 12.94,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "SQLite",
-                        "nameClean": "SQLite",
-                        "id": "sqlite",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sqlite.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 46,
+                      "count": 78,
                       "id": "dynamodb",
-                      "percentageQuestion": 12.4,
-                      "percentageSurvey": 5.65,
+                      "percentageQuestion": 14.42,
+                      "percentageSurvey": 9.58,
                       "entity": {
                         "name": "DynamoDB",
                         "nameClean": "DynamoDB",
@@ -125,29 +230,123 @@
                         "homepage": {
                           "url": "https://aws.amazon.com/dynamodb/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 46,
+                          "percentageBucket": 58.97,
+                          "percentageQuestion": 8.5
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 20,
+                          "percentageBucket": 25.64,
+                          "percentageQuestion": 3.7
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 15
+                        }
+                      ]
+                    },
+                    {
+                      "count": 77,
+                      "id": "mongodb",
+                      "percentageQuestion": 14.23,
+                      "percentageSurvey": 9.46,
+                      "entity": {
+                        "name": "MongoDB",
+                        "nameClean": "MongoDB",
+                        "id": "mongodb",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.mongodb.com/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 48,
+                          "percentageBucket": 62.34,
+                          "percentageQuestion": 8.87
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 18,
+                          "percentageBucket": 23.38,
+                          "percentageQuestion": 3.33
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 14
+                        }
+                      ]
+                    },
+                    {
+                      "count": 65,
+                      "id": "sqlite",
+                      "percentageQuestion": 12.01,
+                      "percentageSurvey": 7.99,
+                      "entity": {
+                        "name": "SQLite",
+                        "nameClean": "SQLite",
+                        "id": "sqlite",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.sqlite.org/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 48,
+                          "percentageBucket": 73.85,
+                          "percentageQuestion": 8.87
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 17,
+                          "percentageBucket": 26
+                        }
+                      ]
+                    },
+                    {
+                      "count": 43,
+                      "id": "mariadb",
+                      "percentageQuestion": 7.95,
+                      "percentageSurvey": 5.28,
+                      "entity": {
+                        "name": "MariaDB",
+                        "nameClean": "MariaDB",
+                        "id": "mariadb",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://mariadb.org/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 33,
+                          "percentageBucket": 76.74,
+                          "percentageQuestion": 6.1
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 23
+                        }
+                      ]
                     },
                     {
                       "count": 33,
-                      "id": "mariadb",
-                      "percentageQuestion": 8.89,
+                      "id": "microsoft_sql_server",
+                      "percentageQuestion": 6.1,
                       "percentageSurvey": 4.05,
                       "entity": {
-                        "name": "MariaDB",
-                        "nameClean": "MariaDB",
-                        "id": "mariadb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mariadb.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "microsoft_sql_server",
-                      "percentageQuestion": 5.39,
-                      "percentageSurvey": 2.46,
-                      "entity": {
                         "name": "Microsoft SQL Server",
                         "nameClean": "Microsoft SQL Server",
                         "id": "microsoft_sql_server",
@@ -155,522 +354,51 @@
                         "homepage": {
                           "url": "https://www.microsoft.com/en-us/sql-server/"
                         }
-                      }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 20,
+                          "percentageBucket": 60.61,
+                          "percentageQuestion": 3.7
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 39
+                        }
+                      ]
                     },
                     {
-                      "count": 126,
+                      "count": 269,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 15.48
-                    }
-                  ]
-                }
-              }
-            },
-            "databases_vs_employer_type_2": {
-              "id": "databases",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 96,
-                    "percentageSurvey": 11.79,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 54,
-                      "id": "postgresql",
-                      "percentageQuestion": 56.25,
-                      "percentageSurvey": 6.63,
-                      "entity": {
-                        "name": "PostgreSQL",
-                        "nameClean": "PostgreSQL",
-                        "id": "postgresql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.postgresql.org/"
+                      "percentageSurvey": 33.05,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 126,
+                          "percentageBucket": 46.84,
+                          "percentageQuestion": 23.29
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 35,
+                          "percentageBucket": 13.01,
+                          "percentageQuestion": 6.47
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 93,
+                          "percentageBucket": 34.57,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 6
                         }
-                      }
-                    },
-                    {
-                      "count": 38,
-                      "id": "mysql",
-                      "percentageQuestion": 39.58,
-                      "percentageSurvey": 4.67,
-                      "entity": {
-                        "name": "MySQL",
-                        "nameClean": "MySQL",
-                        "id": "mysql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mysql.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "dynamodb",
-                      "percentageQuestion": 20.83,
-                      "percentageSurvey": 2.46,
-                      "entity": {
-                        "name": "DynamoDB",
-                        "nameClean": "DynamoDB",
-                        "id": "dynamodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/dynamodb/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "redis",
-                      "percentageQuestion": 20.83,
-                      "percentageSurvey": 2.46,
-                      "entity": {
-                        "name": "Redis",
-                        "nameClean": "Redis",
-                        "id": "redis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://redis.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 18,
-                      "id": "mongodb",
-                      "percentageQuestion": 18.75,
-                      "percentageSurvey": 2.21,
-                      "entity": {
-                        "name": "MongoDB",
-                        "nameClean": "MongoDB",
-                        "id": "mongodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mongodb.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 13,
-                      "id": "elasticsearch",
-                      "percentageQuestion": 13.54,
-                      "percentageSurvey": 1.6,
-                      "entity": {
-                        "name": "ElasticSearch",
-                        "nameClean": "ElasticSearch",
-                        "id": "elasticsearch",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.elastic.co/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mariadb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "MariaDB",
-                        "nameClean": "MariaDB",
-                        "id": "mariadb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mariadb.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "microsoft_sql_server",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft SQL Server",
-                        "nameClean": "Microsoft SQL Server",
-                        "id": "microsoft_sql_server",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/sql-server/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "sqlite",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "SQLite",
-                        "nameClean": "SQLite",
-                        "id": "sqlite",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sqlite.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 35,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 4.3
-                    }
-                  ]
-                }
-              }
-            },
-            "databases_vs_employer_type_3": {
-              "id": "databases",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 35,
-                    "percentageSurvey": 4.3,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 13,
-                      "id": "postgresql",
-                      "percentageQuestion": 37.14,
-                      "percentageSurvey": 1.6,
-                      "entity": {
-                        "name": "PostgreSQL",
-                        "nameClean": "PostgreSQL",
-                        "id": "postgresql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.postgresql.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "mysql",
-                      "percentageQuestion": 28.57,
-                      "percentageSurvey": 1.23,
-                      "entity": {
-                        "name": "MySQL",
-                        "nameClean": "MySQL",
-                        "id": "mysql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mysql.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "dynamodb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "DynamoDB",
-                        "nameClean": "DynamoDB",
-                        "id": "dynamodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/dynamodb/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "elasticsearch",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "ElasticSearch",
-                        "nameClean": "ElasticSearch",
-                        "id": "elasticsearch",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.elastic.co/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mariadb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "MariaDB",
-                        "nameClean": "MariaDB",
-                        "id": "mariadb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mariadb.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "microsoft_sql_server",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft SQL Server",
-                        "nameClean": "Microsoft SQL Server",
-                        "id": "microsoft_sql_server",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/sql-server/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mongodb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "MongoDB",
-                        "nameClean": "MongoDB",
-                        "id": "mongodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mongodb.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "redis",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Redis",
-                        "nameClean": "Redis",
-                        "id": "redis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://redis.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "sqlite",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "SQLite",
-                        "nameClean": "SQLite",
-                        "id": "sqlite",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sqlite.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "databases_vs_employer_type_4": {
-              "id": "databases",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 22,
-                    "percentageSurvey": 2.7,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 14,
-                      "id": "mysql",
-                      "percentageQuestion": 63.64,
-                      "percentageSurvey": 1.72,
-                      "entity": {
-                        "name": "MySQL",
-                        "nameClean": "MySQL",
-                        "id": "mysql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mysql.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "dynamodb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "DynamoDB",
-                        "nameClean": "DynamoDB",
-                        "id": "dynamodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://aws.amazon.com/dynamodb/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "elasticsearch",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "ElasticSearch",
-                        "nameClean": "ElasticSearch",
-                        "id": "elasticsearch",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.elastic.co/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mariadb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "MariaDB",
-                        "nameClean": "MariaDB",
-                        "id": "mariadb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mariadb.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "microsoft_sql_server",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Microsoft SQL Server",
-                        "nameClean": "Microsoft SQL Server",
-                        "id": "microsoft_sql_server",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/sql-server/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "mongodb",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "MongoDB",
-                        "nameClean": "MongoDB",
-                        "id": "mongodb",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.mongodb.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "postgresql",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "PostgreSQL",
-                        "nameClean": "PostgreSQL",
-                        "id": "postgresql",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.postgresql.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "redis",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Redis",
-                        "nameClean": "Redis",
-                        "id": "redis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://redis.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "sqlite",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "SQLite",
-                        "nameClean": "SQLite",
-                        "id": "sqlite",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sqlite.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      ]
                     }
                   ]
                 }

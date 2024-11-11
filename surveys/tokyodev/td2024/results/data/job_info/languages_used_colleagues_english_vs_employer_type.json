@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "job_info": {
-            "languages_used_colleagues_english_vs_employer_type_1": {
+            "languages_used_colleagues_english_vs_employer_type": {
               "id": "languages_used_colleagues_english",
               "responses": {
                 "currentEdition": {
@@ -13,226 +13,187 @@
                       "property": "options",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 499,
-                    "percentageSurvey": 61.3,
+                    "count": 739,
+                    "percentageSurvey": 90.79,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 37,
+                      "count": 45,
                       "id": "never",
-                      "percentageQuestion": 7.41,
-                      "percentageSurvey": 4.55
+                      "percentageQuestion": 6.09,
+                      "percentageSurvey": 5.53,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 37,
+                          "percentageBucket": 82.22,
+                          "percentageQuestion": 5.01
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 18
+                        }
+                      ]
                     },
                     {
-                      "count": 49,
+                      "count": 65,
                       "id": "rarely",
-                      "percentageQuestion": 9.82,
-                      "percentageSurvey": 6.02
+                      "percentageQuestion": 8.8,
+                      "percentageSurvey": 7.99,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 49,
+                          "percentageBucket": 75.38,
+                          "percentageQuestion": 6.63
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 25
+                        }
+                      ]
                     },
                     {
-                      "count": 33,
+                      "count": 47,
                       "id": "sometimes",
-                      "percentageQuestion": 6.61,
-                      "percentageSurvey": 4.05
+                      "percentageQuestion": 6.36,
+                      "percentageSurvey": 5.77,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 33,
+                          "percentageBucket": 70.21,
+                          "percentageQuestion": 4.47
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 30
+                        }
+                      ]
                     },
                     {
-                      "count": 98,
+                      "count": 140,
                       "id": "frequently",
-                      "percentageQuestion": 19.64,
-                      "percentageSurvey": 12.04
+                      "percentageQuestion": 18.94,
+                      "percentageSurvey": 17.2,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 98,
+                          "percentageBucket": 70,
+                          "percentageQuestion": 13.26
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 26,
+                          "percentageBucket": 18.57,
+                          "percentageQuestion": 3.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 16,
+                          "percentageBucket": 11
+                        }
+                      ]
                     },
                     {
-                      "count": 282,
+                      "count": 442,
                       "id": "always",
-                      "percentageQuestion": 56.51,
-                      "percentageSurvey": 34.64
+                      "percentageQuestion": 59.81,
+                      "percentageSurvey": 54.3,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 282,
+                          "percentageBucket": 63.8,
+                          "percentageQuestion": 38.16
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 96,
+                          "percentageBucket": 21.72,
+                          "percentageQuestion": 12.99
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 38,
+                          "percentageBucket": 8.6,
+                          "percentageQuestion": 5.14
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 16,
+                          "percentageBucket": 3.62,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 95.53,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 67.79
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 17.73
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.68
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 75,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "languages_used_colleagues_english_vs_employer_type_2": {
-              "id": "languages_used_colleagues_english",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 131,
-                    "percentageSurvey": 16.09,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "never",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "rarely",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sometimes",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 26,
-                      "id": "frequently",
-                      "percentageQuestion": 19.85,
-                      "percentageSurvey": 3.19
-                    },
-                    {
-                      "count": 96,
-                      "id": "always",
-                      "percentageQuestion": 73.28,
-                      "percentageSurvey": 11.79
-                    }
-                  ]
-                }
-              }
-            },
-            "languages_used_colleagues_english_vs_employer_type_3": {
-              "id": "languages_used_colleagues_english",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 42,
-                    "percentageSurvey": 5.16,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "never",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "rarely",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sometimes",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "frequently",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 38,
-                      "id": "always",
-                      "percentageQuestion": 90.48,
-                      "percentageSurvey": 4.67
-                    }
-                  ]
-                }
-              }
-            },
-            "languages_used_colleagues_english_vs_employer_type_4": {
-              "id": "languages_used_colleagues_english",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 26,
-                    "percentageSurvey": 3.19,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "never",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "rarely",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sometimes",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "frequently",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "always",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 9.21,
+                      "facetBuckets": [
+                        {
+                          "id": "no_answer",
+                          "count": 71,
+                          "percentageBucket": 94.67,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 5
+                        }
+                      ]
                     }
                   ]
                 }

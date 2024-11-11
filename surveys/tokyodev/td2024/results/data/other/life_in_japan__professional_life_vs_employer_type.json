@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "other": {
-            "life_in_japan__professional_life_vs_employer_type_1": {
+            "life_in_japan__professional_life_vs_employer_type": {
               "id": "life_in_japan__professional_life",
               "responses": {
                 "currentEdition": {
@@ -13,12 +13,16 @@
                       "property": "options",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 471,
-                    "percentageSurvey": 57.86,
+                    "count": 686,
+                    "percentageSurvey": 84.28,
                     "total": 814
                   },
                   "average": 2.6,
@@ -27,238 +31,185 @@
                   },
                   "buckets": [
                     {
-                      "count": 13,
+                      "count": 22,
                       "id": "0",
-                      "percentageQuestion": 2.76,
-                      "percentageSurvey": 1.6
+                      "percentageQuestion": 3.21,
+                      "percentageSurvey": 2.7,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 13,
+                          "percentageBucket": 59.09,
+                          "percentageQuestion": 1.9
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 41
+                        }
+                      ]
                     },
                     {
-                      "count": 67,
+                      "count": 86,
                       "id": "1",
-                      "percentageQuestion": 14.23,
-                      "percentageSurvey": 8.23
+                      "percentageQuestion": 12.54,
+                      "percentageSurvey": 10.57,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 67,
+                          "percentageBucket": 77.91,
+                          "percentageQuestion": 9.77
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 22
+                        }
+                      ]
                     },
                     {
-                      "count": 97,
+                      "count": 149,
                       "id": "2",
-                      "percentageQuestion": 20.59,
-                      "percentageSurvey": 11.92
+                      "percentageQuestion": 21.72,
+                      "percentageSurvey": 18.3,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 97,
+                          "percentageBucket": 65.1,
+                          "percentageQuestion": 14.14
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 32,
+                          "percentageBucket": 21.48,
+                          "percentageQuestion": 4.66
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 20,
+                          "percentageBucket": 13
+                        }
+                      ]
                     },
                     {
-                      "count": 227,
+                      "count": 323,
                       "id": "3",
-                      "percentageQuestion": 48.2,
-                      "percentageSurvey": 27.89
+                      "percentageQuestion": 47.08,
+                      "percentageSurvey": 39.68,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 227,
+                          "percentageBucket": 70.28,
+                          "percentageQuestion": 33.09
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 58,
+                          "percentageBucket": 17.96,
+                          "percentageQuestion": 8.45
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 18,
+                          "percentageBucket": 5.57,
+                          "percentageQuestion": 2.62
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 12,
+                          "percentageBucket": 3.72,
+                          "percentageQuestion": 1.75
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 67,
+                      "count": 106,
                       "id": "4",
-                      "percentageQuestion": 14.23,
-                      "percentageSurvey": 8.23
+                      "percentageQuestion": 15.45,
+                      "percentageSurvey": 13.02,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 67,
+                          "percentageBucket": 63.21,
+                          "percentageQuestion": 9.77
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 25,
+                          "percentageBucket": 23.58,
+                          "percentageQuestion": 3.64
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 13
+                        }
+                      ]
                     },
                     {
-                      "count": 30,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 102.92,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 73.03
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 19.1
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 6.12
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 128,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 3.69
-                    }
-                  ]
-                }
-              }
-            },
-            "life_in_japan__professional_life_vs_employer_type_2": {
-              "id": "life_in_japan__professional_life",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 123,
-                    "percentageSurvey": 15.11,
-                    "total": 814
-                  },
-                  "average": 2.8,
-                  "percentiles": {
-                    "p50": 3
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "0",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "1",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 32,
-                      "id": "2",
-                      "percentageQuestion": 26.02,
-                      "percentageSurvey": 3.93
-                    },
-                    {
-                      "count": 58,
-                      "id": "3",
-                      "percentageQuestion": 47.15,
-                      "percentageSurvey": 7.13
-                    },
-                    {
-                      "count": 25,
-                      "id": "4",
-                      "percentageQuestion": 20.33,
-                      "percentageSurvey": 3.07
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "life_in_japan__professional_life_vs_employer_type_3": {
-              "id": "life_in_japan__professional_life",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 39,
-                    "percentageSurvey": 4.79,
-                    "total": 814
-                  },
-                  "average": 3,
-                  "percentiles": {
-                    "p50": 3
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "0",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "1",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "2",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 18,
-                      "id": "3",
-                      "percentageQuestion": 46.15,
-                      "percentageSurvey": 2.21
-                    },
-                    {
-                      "count": 12,
-                      "id": "4",
-                      "percentageQuestion": 30.77,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "life_in_japan__professional_life_vs_employer_type_4": {
-              "id": "life_in_japan__professional_life",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 26,
-                    "percentageSurvey": 3.19,
-                    "total": 814
-                  },
-                  "average": 2.4,
-                  "percentiles": {
-                    "p50": 3
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "0",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "1",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "2",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 12,
-                      "id": "3",
-                      "percentageQuestion": 46.15,
-                      "percentageSurvey": 1.47
-                    },
-                    {
-                      "count": 0,
-                      "id": "4",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 15.72,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 30,
+                          "percentageBucket": 23.44,
+                          "percentageQuestion": 4.37
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 84,
+                          "percentageBucket": 65.63,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 11
+                        }
+                      ]
                     }
                   ]
                 }

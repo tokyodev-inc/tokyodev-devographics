@@ -3,14 +3,10 @@ query {
     tokyodev {
       td2024 {
         other {
-          life_in_japan__professional_life_vs_employer_type_1: life_in_japan__professional_life {
+          life_in_japan__professional_life_vs_employer_type: life_in_japan__professional_life {
             id
             responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: japanese_company
-                }
-              }
+              facet: employer_info__current_employer
               parameters: {
                 showNoAnswer: true
                 sort: {
@@ -47,150 +43,23 @@ query {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
-                }
-              }
-            }
-          }
-          life_in_japan__professional_life_vs_employer_type_2: life_in_japan__professional_life {
-            id
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: japanese_subsidiary
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
                   }
-                  axis2Sort {
-                    property
-                    order
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
                   }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
-                }
-              }
-            }
-          }
-          life_in_japan__professional_life_vs_employer_type_3: life_in_japan__professional_life {
-            id
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: international_company
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
-                  }
-                  axis2Sort {
-                    property
-                    order
-                  }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
-                }
-              }
-            }
-          }
-          life_in_japan__professional_life_vs_employer_type_4: life_in_japan__professional_life {
-            id
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: sole_proprietorship
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
-                  }
-                  axis2Sort {
-                    property
-                    order
-                  }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
                 }
               }
             }

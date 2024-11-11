@@ -3,7 +3,7 @@ query {
     tokyodev {
       td2024 {
         job_info {
-          coworker_nationalities_non_engineers_vs_employer_type_1: coworker_nationalities_non_engineers {
+          coworker_nationalities_non_engineers_vs_employer_type: coworker_nationalities_non_engineers {
             id
             comments {
               currentEdition {
@@ -11,11 +11,7 @@ query {
               }
             }
             responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: japanese_company
-                }
-              }
+              facet: employer_info__current_employer
               parameters: {
                 showNoAnswer: true
                 sort: {
@@ -52,165 +48,23 @@ query {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
-                }
-              }
-            }
-          }
-          coworker_nationalities_non_engineers_vs_employer_type_2: coworker_nationalities_non_engineers {
-            id
-            comments {
-              currentEdition {
-                count
-              }
-            }
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: japanese_subsidiary
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
                   }
-                  axis2Sort {
-                    property
-                    order
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
                   }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
-                }
-              }
-            }
-          }
-          coworker_nationalities_non_engineers_vs_employer_type_3: coworker_nationalities_non_engineers {
-            id
-            comments {
-              currentEdition {
-                count
-              }
-            }
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: international_company
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
-                  }
-                  axis2Sort {
-                    property
-                    order
-                  }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
-                }
-              }
-            }
-          }
-          coworker_nationalities_non_engineers_vs_employer_type_4: coworker_nationalities_non_engineers {
-            id
-            comments {
-              currentEdition {
-                count
-              }
-            }
-            responses(
-              filters: {
-                employer_info__current_employer: {
-                  eq: sole_proprietorship
-                }
-              }
-              parameters: {
-                showNoAnswer: true
-                sort: {
-                  property: options
-                }
-              }
-            ) {
-              currentEdition {
-                _metadata {
-                  axis1Sort {
-                    property
-                    order
-                  }
-                  axis2Sort {
-                    property
-                    order
-                  }
-                  limit
-                  cutoff
-                }
-                completion {
-                  count
-                  percentageSurvey
-                  total
-                }
-                average
-                percentiles {
-                  p50
-                }
-                buckets {
-                  count
-                  id
-                  percentageQuestion
-                  percentageSurvey
-                  isFreeformData
-                  hasInsufficientData
                 }
               }
             }

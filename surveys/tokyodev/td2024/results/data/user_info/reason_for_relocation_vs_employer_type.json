@@ -4,285 +4,270 @@
       "tokyodev": {
         "td2024": {
           "user_info": {
-            "reason_for_relocation_vs_employer_type_1": {
+            "reason_for_relocation_vs_employer_type": {
               "id": "reason_for_relocation",
               "responses": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
-                      "property": "count",
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "axis2Sort": {
+                      "property": "options",
                       "order": "desc"
                     },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 478,
-                    "percentageSurvey": 58.72,
+                    "count": 766,
+                    "percentageSurvey": 94.1,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 265,
+                      "count": 377,
                       "id": "sponsored_by_company",
-                      "percentageQuestion": 55.44,
-                      "percentageSurvey": 32.56
+                      "percentageQuestion": 49.22,
+                      "percentageSurvey": 46.31,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 265,
+                          "percentageBucket": 70.29,
+                          "percentageQuestion": 34.6
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 57,
+                          "percentageBucket": 15.12,
+                          "percentageQuestion": 7.44
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 2.92,
+                          "percentageQuestion": 1.44
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 35,
+                          "percentageBucket": 9.28,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 87,
-                      "id": "student",
-                      "percentageQuestion": 18.2,
-                      "percentageSurvey": 10.69
-                    },
-                    {
-                      "count": 36,
-                      "id": "dependent",
-                      "percentageQuestion": 7.53,
-                      "percentageSurvey": 4.42
-                    },
-                    {
-                      "count": 32,
-                      "id": "working_holiday",
-                      "percentageQuestion": 6.69,
-                      "percentageSurvey": 3.93
-                    },
-                    {
-                      "count": 26,
-                      "id": "born_in_japan",
-                      "percentageQuestion": 5.44,
-                      "percentageSurvey": 3.19
-                    },
-                    {
-                      "count": 22,
+                      "count": 61,
                       "id": "sent_by_company",
-                      "percentageQuestion": 4.6,
-                      "percentageSurvey": 2.7
+                      "percentageQuestion": 7.96,
+                      "percentageSurvey": 7.49,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 22,
+                          "percentageBucket": 36.07,
+                          "percentageQuestion": 2.87
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 27,
+                          "percentageBucket": 44.26,
+                          "percentageQuestion": 3.52
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 20
+                        }
+                      ]
                     },
                     {
-                      "count": 10,
+                      "count": 142,
+                      "id": "student",
+                      "percentageQuestion": 18.54,
+                      "percentageSurvey": 17.44,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 87,
+                          "percentageBucket": 61.27,
+                          "percentageQuestion": 11.36
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 16,
+                          "percentageBucket": 11.27,
+                          "percentageQuestion": 2.09
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 10,
+                          "percentageBucket": 7.04,
+                          "percentageQuestion": 1.31
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 18,
+                          "percentageBucket": 12.68,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 8
+                        }
+                      ]
+                    },
+                    {
+                      "count": 74,
+                      "id": "dependent",
+                      "percentageQuestion": 9.66,
+                      "percentageSurvey": 9.09,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 36,
+                          "percentageBucket": 48.65,
+                          "percentageQuestion": 4.7
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 11,
+                          "percentageBucket": 14.86,
+                          "percentageQuestion": 1.44
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 13,
+                          "percentageBucket": 17.57,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 19
+                        }
+                      ]
+                    },
+                    {
+                      "count": 51,
+                      "id": "working_holiday",
+                      "percentageQuestion": 6.66,
+                      "percentageSurvey": 6.27,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 32,
+                          "percentageBucket": 62.75,
+                          "percentageQuestion": 4.18
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 37
+                        }
+                      ]
+                    },
+                    {
+                      "count": 21,
                       "id": "tourist",
-                      "percentageQuestion": 2.09,
-                      "percentageSurvey": 1.23
+                      "percentageQuestion": 2.74,
+                      "percentageSurvey": 2.58,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 10,
+                          "percentageBucket": 47.62,
+                          "percentageQuestion": 1.31
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 52
+                        }
+                      ]
                     },
                     {
-                      "count": 23,
+                      "count": 40,
+                      "id": "born_in_japan",
+                      "percentageQuestion": 5.22,
+                      "percentageSurvey": 4.91,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 26,
+                          "percentageBucket": 65,
+                          "percentageQuestion": 3.39
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 35
+                        }
+                      ]
+                    },
+                    {
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 92.17,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 65.4
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 17.1
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 5.48
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 48,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2.83
-                    }
-                  ]
-                }
-              }
-            },
-            "reason_for_relocation_vs_employer_type_2": {
-              "id": "reason_for_relocation",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 124,
-                    "percentageSurvey": 15.23,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 57,
-                      "id": "sponsored_by_company",
-                      "percentageQuestion": 45.97,
-                      "percentageSurvey": 7
-                    },
-                    {
-                      "count": 27,
-                      "id": "sent_by_company",
-                      "percentageQuestion": 21.77,
-                      "percentageSurvey": 3.32
-                    },
-                    {
-                      "count": 16,
-                      "id": "student",
-                      "percentageQuestion": 12.9,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 11,
-                      "id": "dependent",
-                      "percentageQuestion": 8.87,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 0,
-                      "id": "born_in_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "tourist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "working_holiday",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "reason_for_relocation_vs_employer_type_3": {
-              "id": "reason_for_relocation",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 41,
-                    "percentageSurvey": 5.04,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 11,
-                      "id": "sponsored_by_company",
-                      "percentageQuestion": 26.83,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 10,
-                      "id": "student",
-                      "percentageQuestion": 24.39,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 0,
-                      "id": "born_in_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "dependent",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sent_by_company",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "tourist",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "working_holiday",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    }
-                  ]
-                }
-              }
-            },
-            "reason_for_relocation_vs_employer_type_4": {
-              "id": "reason_for_relocation",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 27,
-                    "percentageSurvey": 3.32,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 0,
-                      "id": "born_in_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "dependent",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sent_by_company",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "sponsored_by_company",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "student",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "working_holiday",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 5.9,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 23,
+                          "percentageBucket": 47.92,
+                          "percentageQuestion": 3
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 17,
+                          "percentageBucket": 35.42,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 8,
+                          "percentageBucket": 17
+                        }
+                      ]
                     }
                   ]
                 }

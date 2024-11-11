@@ -4,7 +4,7 @@
       "tokyodev": {
         "td2024": {
           "technology": {
-            "development_processes_vs_employer_type_1": {
+            "development_processes_vs_employer_type": {
               "id": "development_processes",
               "responses": {
                 "currentEdition": {
@@ -13,281 +13,266 @@
                       "property": "count",
                       "order": "desc"
                     },
+                    "axis2Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
                     "limit": 50,
                     "cutoff": 1
                   },
                   "completion": {
-                    "count": 405,
-                    "percentageSurvey": 49.75,
+                    "count": 556,
+                    "percentageSurvey": 68.3,
                     "total": 814
                   },
                   "buckets": [
                     {
-                      "count": 266,
+                      "count": 706,
+                      "id": "overall",
+                      "percentageQuestion": 126.98,
+                      "percentageSurvey": 86.73,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 501,
+                          "percentageBucket": 70.96,
+                          "percentageQuestion": 90.11
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 131,
+                          "percentageBucket": 18.56,
+                          "percentageQuestion": 23.56
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 42,
+                          "percentageBucket": 5.95,
+                          "percentageQuestion": 7.55
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 32,
+                          "percentageBucket": 5
+                        }
+                      ]
+                    },
+                    {
+                      "count": 364,
                       "id": "agile",
-                      "percentageQuestion": 65.68,
-                      "percentageSurvey": 32.68
+                      "percentageQuestion": 65.47,
+                      "percentageSurvey": 44.72,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 266,
+                          "percentageBucket": 73.08,
+                          "percentageQuestion": 47.84
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 59,
+                          "percentageBucket": 16.21,
+                          "percentageQuestion": 10.61
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 19,
+                          "percentageBucket": 5.22,
+                          "percentageQuestion": 3.42
+                        },
+                        {
+                          "id": "sole_proprietorship",
+                          "count": 13,
+                          "percentageBucket": 3.57,
+                          "percentageQuestion": 2.34
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 2
+                        }
+                      ]
                     },
                     {
-                      "count": 165,
+                      "count": 216,
                       "id": "scrum",
-                      "percentageQuestion": 40.74,
-                      "percentageSurvey": 20.27
+                      "percentageQuestion": 38.85,
+                      "percentageSurvey": 26.54,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 165,
+                          "percentageBucket": 76.39,
+                          "percentageQuestion": 29.68
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 32,
+                          "percentageBucket": 14.81,
+                          "percentageQuestion": 5.76
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 10,
+                          "percentageBucket": 4.63,
+                          "percentageQuestion": 1.8
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
                     {
-                      "count": 149,
+                      "count": 201,
                       "id": "kanban",
-                      "percentageQuestion": 36.79,
-                      "percentageSurvey": 18.3
+                      "percentageQuestion": 36.15,
+                      "percentageSurvey": 24.69,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 149,
+                          "percentageBucket": 74.13,
+                          "percentageQuestion": 26.8
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 30,
+                          "percentageBucket": 14.93,
+                          "percentageQuestion": 5.4
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 13,
+                          "percentageBucket": 6.47,
+                          "percentageQuestion": 2.34
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 4
+                        }
+                      ]
                     },
                     {
-                      "count": 84,
+                      "count": 106,
                       "id": "waterfall",
-                      "percentageQuestion": 20.74,
-                      "percentageSurvey": 10.32
+                      "percentageQuestion": 19.06,
+                      "percentageSurvey": 13.02,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 84,
+                          "percentageBucket": 79.25,
+                          "percentageQuestion": 15.11
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 13,
+                          "percentageBucket": 12.26,
+                          "percentageQuestion": 2.34
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 9,
+                          "percentageBucket": 8
+                        }
+                      ]
                     },
                     {
-                      "count": 11,
+                      "count": 15,
                       "id": "extreme_programming",
-                      "percentageQuestion": 2.72,
-                      "percentageSurvey": 1.35
+                      "percentageQuestion": 2.7,
+                      "percentageSurvey": 1.84,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 11,
+                          "percentageBucket": 73.33,
+                          "percentageQuestion": 1.98
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 27
+                        }
+                      ]
                     },
                     {
-                      "count": 0,
+                      "count": 14,
                       "id": "rapid_application_development",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageQuestion": 2.52,
+                      "percentageSurvey": 1.72,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 14,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
                       "count": 0,
                       "id": "spiral_model",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 100
+                        }
+                      ]
                     },
                     {
-                      "count": 92,
+                      "count": 251,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 11.3
-                    }
-                  ]
-                }
-              }
-            },
-            "development_processes_vs_employer_type_2": {
-              "id": "development_processes",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 94,
-                    "percentageSurvey": 11.55,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 59,
-                      "id": "agile",
-                      "percentageQuestion": 62.77,
-                      "percentageSurvey": 7.25
-                    },
-                    {
-                      "count": 32,
-                      "id": "scrum",
-                      "percentageQuestion": 34.04,
-                      "percentageSurvey": 3.93
-                    },
-                    {
-                      "count": 30,
-                      "id": "kanban",
-                      "percentageQuestion": 31.91,
-                      "percentageSurvey": 3.69
-                    },
-                    {
-                      "count": 13,
-                      "id": "waterfall",
-                      "percentageQuestion": 13.83,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 0,
-                      "id": "extreme_programming",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "rapid_application_development",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "spiral_model",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 36,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 4.42
-                    }
-                  ]
-                }
-              }
-            },
-            "development_processes_vs_employer_type_3": {
-              "id": "development_processes",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 31,
-                    "percentageSurvey": 3.81,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 19,
-                      "id": "agile",
-                      "percentageQuestion": 61.29,
-                      "percentageSurvey": 2.33
-                    },
-                    {
-                      "count": 13,
-                      "id": "kanban",
-                      "percentageQuestion": 41.94,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 10,
-                      "id": "scrum",
-                      "percentageQuestion": 32.26,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 0,
-                      "id": "rapid_application_development",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "spiral_model",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "waterfall",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 11,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 1.35
-                    }
-                  ]
-                }
-              }
-            },
-            "development_processes_vs_employer_type_4": {
-              "id": "development_processes",
-              "responses": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
-                    },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 18,
-                    "percentageSurvey": 2.21,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 13,
-                      "id": "agile",
-                      "percentageQuestion": 72.22,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 0,
-                      "id": "extreme_programming",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "kanban",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "rapid_application_development",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "scrum",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "spiral_model",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "waterfall",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                      "percentageSurvey": 30.84,
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 92,
+                          "percentageBucket": 36.65,
+                          "percentageQuestion": 16.55
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 36,
+                          "percentageBucket": 14.34,
+                          "percentageQuestion": 6.47
+                        },
+                        {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 4.38,
+                          "percentageQuestion": 1.98
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 101,
+                          "percentageBucket": 40.24,
+                          "percentageQuestion": 0
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 4
+                        }
+                      ]
                     }
                   ]
                 }
