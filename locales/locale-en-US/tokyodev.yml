@@ -513,9 +513,9 @@ translations:
     t: A university
 
   - key: options.current_employer.japanese_company.short
-    t: Japanese co.
+    t: Japanese company
   - key: options.current_employer.japanese_subsidiary.short
-    t: Japanese subsidiary of international co.
+    t: Japanese subsidiary of international company
   - key: options.current_employer.international_company.short
     t: International company
   - key: options.current_employer.sole_proprietorship.short
@@ -541,26 +541,25 @@ translations:
     aliasFor: employer_info.remote_work_policy.question
 
   - key: options.remote_work_policy.no_remote_work
-    t: No remote work. All employees must attend the office.
-  - key: options.remote_work_policy.hybrid
-    t: Hybrid. Some remote work is permitted, but employees must regularly attend the office.
-  - key: options.remote_work_policy.up_to_employee
-    t: Up to the employee. Employees can choose whether to work remotely or in the office.
-  - key: options.remote_work_policy.fully_remote
-    t: Fully remote. All employees work completely remotely.
-  - key: options.remote_work_policy.na
-    t: 🚫 Not applicable (solo worker)
-
-  - key: options.remote_work_policy.no_remote_work.short
     t: No remote work
-  - key: options.remote_work_policy.hybrid.short
+  - key: options.remote_work_policy.no_remote_work.description
+    t: All employees must attend the office.
+  - key: options.remote_work_policy.hybrid
     t: Hybrid
-  - key: options.remote_work_policy.up_to_employee.short
+  - key: options.remote_work_policy.hybrid.description
+    t: Some remote work is permitted, but employees must regularly attend the office.
+  - key: options.remote_work_policy.up_to_employee
     t: Up to the employee
-  - key: options.remote_work_policy.fully_remote.short
+  - key: options.remote_work_policy.up_to_employee.description
+    t: Employees can choose whether to work remotely or in the office.
+  - key: options.remote_work_policy.fully_remote
     t: Fully remote
-  - key: options.remote_work_policy.na.short
+  - key: options.remote_work_policy.fully_remote.description
+    t: All employees work completely remotely.
+  - key: options.remote_work_policy.na
     t: 🚫 Not applicable
+  - key: options.remote_work_policy.na.description
+    t: Solo worker
 
   # company_size
   - key: employer_info.company_size
@@ -1488,6 +1487,8 @@ translations:
 
   - key: options.life_in_japan.visa_situation
     t: Visa Situation
+    aliases:
+      - other.life_in_japan__visa_situation
   - key: options.life_in_japan.visa_situation.description
     t: Visa type, length of visa, ease of renewal, etc.
   - key: satisfaction.life_in_japan__visa_situation.description
@@ -1495,6 +1496,8 @@ translations:
 
   - key: options.life_in_japan.professional_life
     t: 🧑‍💻 Professional Life
+    aliases:
+      - other.life_in_japan__professional_life
   - key: options.life_in_japan.professional_life.description
     t: Career prospects, working conditions, work-life balance, etc.
   - key: satisfaction.life_in_japan__professional_life.description
@@ -1502,6 +1505,8 @@ translations:
 
   - key: options.life_in_japan.family_life
     t: 👨‍👩‍👧 Family Life
+    aliases:
+      - other.life_in_japan__family_life
   - key: options.life_in_japan.family_life.description
     t: Romantic relationships, children, etc.
   - key: satisfaction.life_in_japan__family_life.description
@@ -1509,6 +1514,8 @@ translations:
 
   - key: options.life_in_japan.social_life
     t: 💃 Social Life
+    aliases:
+      - other.life_in_japan__social_life
   - key: options.life_in_japan.social_life.description
     t: Friends, hobbies, community, etc.
   - key: satisfaction.life_in_japan__social_life.description
@@ -1516,6 +1523,8 @@ translations:
 
   - key: options.life_in_japan.cultural_adjustment
     t: ⛩️ Cultural Adjustment
+    aliases:
+      - other.life_in_japan__cultural_adjustment
   - key: options.life_in_japan.cultural_adjustment.description
     t: Culture fit, language proficiency, etc.
   - key: satisfaction.life_in_japan__cultural_adjustment.description
@@ -1523,6 +1532,8 @@ translations:
 
   - key: options.life_in_japan.quality_of_life
     t: ❤️‍🩹 Quality of Life
+    aliases:
+      - other.life_in_japan__quality_of_life
   - key: options.life_in_japan.quality_of_life.description
     t: Environment, healthcare, safety, etc.
   - key: satisfaction.life_in_japan__quality_of_life.description
@@ -1530,6 +1541,8 @@ translations:
 
   - key: options.life_in_japan.housing
     t: 🏠 Housing
+    aliases:
+      - other.life_in_japan__housing
   - key: options.life_in_japan.housing.description
     t: Amenities, location, housing size, etc.
   - key: satisfaction.life_in_japan__housing.description
@@ -1537,6 +1550,8 @@ translations:
 
   - key: options.life_in_japan.financial_situation
     t: 💹 Financial Situation
+    aliases:
+      - other.life_in_japan__financial_situation
   - key: options.life_in_japan.financial_situation.description
     t: Compensation, cost of living, managing finances, etc.
   - key: satisfaction.life_in_japan__financial_situation.description
