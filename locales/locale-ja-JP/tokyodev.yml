@@ -421,8 +421,14 @@ translations:
   # searching_for_job
   - key: user_info.searching_for_job
     t: 転職活動
+    aliases:
+      - job_info.searching_for_job
+      - other.searching_for_job
   - key: user_info.searching_for_job.question
     t: 現在、転職を考えていますか？
+    aliases:
+      - job_info.searching_for_job.question
+      - other.searching_for_job.question
 
   - key: options.searching_for_job.yes
     t: はい、積極的に転職活動中です。
@@ -443,6 +449,11 @@ translations:
     t: 雇用状況
   - key: user_info.employment_status.question
     t: 下記のうち、あなたの雇用状況に当てはまるのは？
+
+  - key: employer_info.employment_status
+    aliasFor: user_info.employment_status
+  - key: employer_info.employment_status.question
+    aliasFor: user_info.employment_status.question
 
   - key: options.employment_status.permanent_employee
     t: 正社員
@@ -470,11 +481,14 @@ translations:
   # finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications
     t: 応募集
+    aliases:
+      - other.finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications.question
     t: 日本で最初にソフトウェアエンジニアとしての仕事を得るために、何件の求人に応募しましたか？
-
   - key: user_info.finding_first_job_number_of_applications.prompt
     t: ご自身で手続きを進めた応募だけを数えてください。
+    aliases:
+      - other.finding_first_job_number_of_applications.question
 
   - key: options.finding_first_job_number_of_applications.range_0
     t: 0件（社内の人事異動）
@@ -488,6 +502,11 @@ translations:
     t: 21〜50件
   - key: options.finding_first_job_number_of_applications.range_over_50
     t: 50件以上
+
+  - key: user_info.source
+    t: ソース
+    aliases:
+      - other.source
 
   #######################################################
   #                                                     #
@@ -537,6 +556,11 @@ translations:
     t: リモートワークポリシー
   - key: employer_info.remote_work_policy.question
     t: あなたの勤務先のリモートワークポリシーは？
+
+  - key: job_info.remote_work_policy
+    aliasFor: employer_info.remote_work_policy
+  - key: job_info.remote_work_policy.question
+    aliasFor: employer_info.remote_work_policy.question
 
   - key: options.remote_work_policy.no_remote_work
     t: リモートワークはなく
@@ -640,8 +664,13 @@ translations:
     t: ポジション
   - key: job_info.current_job_description.question
     t: 下記のうち、あなたのポジションに当てはまるのは？
-  - key: job_info.current_job_description.description
+  - key: job_info.current_job_description.prompt
     t: 当てはまるものをすべて選択してください。
+
+  - key: employer_info.current_job_description
+    aliasFor: job_info.current_job_description
+  - key: employer_info.current_job_description.question
+    aliasFor: job_info.current_job_description.question
 
   - key: options.current_job_description.academic_researcher
     t: 学術研究者
@@ -1317,9 +1346,15 @@ translations:
     t: 有給休暇の取得率
   - key: compensation.paid_leave_percentage.question
     t: 取得できる有給休暇数のうち、今年は何%を取得する予定ですか？
-
   - key: compensation.paid_leave_percentage.prompt
     t: 国民の祝日や年末年始、お盆休暇を除き、ご自身が取得する有給休暇について回答してください。
+
+  - key: job_info.paid_leave_percentage
+    aliasFor: compensation.paid_leave_percentage
+  - key: job_info.paid_leave_percentage.question
+    aliasFor: compensation.paid_leave_percentage.question
+  - key: job_info.paid_leave_percentage.prompt
+    aliasFor: compensation.paid_leave_percentage.prompt
 
   - key: options.paid_leave_percentage.range_0_19
     t: 0〜19%
@@ -1336,8 +1371,13 @@ translations:
 
   - key: compensation.most_important_benefit
     t: 重視する福利厚生
+    aliases:
+      - job_info.most_important_benefit
   - key: compensation.most_important_benefit.question
     t: 給与を除いて、現在の雇用主が提供する福利厚生であなたが最も重要だと考えるのはどれですか（あれば）
+    aliases:
+      - job_info.most_important_benefit.question
+
   - key: options.most_important_benefit.books
     t: 書籍購入（無料または補助金あり）
   - key: options.most_important_benefit.company_activities
