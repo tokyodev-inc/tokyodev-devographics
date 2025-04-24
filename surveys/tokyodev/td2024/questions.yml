@@ -350,11 +350,21 @@
       template: single
       options:
         - id: range_0
+          upperBound: 0
         - id: range_1_5
+          lowerBound: 1
+          upperBound: 6
         - id: range_6_10
+          lowerBound: 6
+          upperBound: 11
         - id: range_11_20
+          lowerBound: 11
+          upperBound: 21
         - id: range_21_50
+          lowerBound: 21
+          upperBound: 51
         - id: range_over_50
+          lowerBound: 51
 
 - id: job_info
   messageId: sections.job_info.intro
@@ -716,22 +726,38 @@
       options:
         - id: range_1
           average: 1
+          upperBound: 2
         - id: range_2_9
           average: 5
+          lowerBound: 2
+          upperBound: 10
         - id: range_10_19
           average: 15
+          lowerBound: 10
+          upperBound: 20
         - id: range_20_99
           average: 60
+          lowerBound: 20
+          upperBound: 100
         - id: range_100_499
           average: 300
+          lowerBound: 100
+          upperBound: 500
         - id: range_500_999
           average: 750
+          lowerBound: 500
+          upperBound: 1000
         - id: range_1000_4999
           average: 3000
+          lowerBound: 1000
+          upperBound: 5000
         - id: range_5000_9999
           average: 7500
+          lowerBound: 5000
+          upperBound: 10000
         - id: range_over_10000
           average: 10000
+          lowerBound: 10000
 
 - id: compensation
   questions:
@@ -744,36 +770,47 @@
       groups:
         - id: range_under_2999999
           average: 1500000
+          upperBound: 3000000
           items:
             - range_under_1000000
             - range_1000000_to_1999999
             - range_2000000_to_2999999
         - id: range_3000000_to_5999999
           average: 4500000
+          lowerBound: 3000000
+          upperBound: 6000000
           items:
             - range_3000000_to_3999999
             - range_4000000_to_4999999
             - range_5000000_to_5999999
         - id: range_6000000_to_8999999
           average: 7500000
+          lowerBound: 6000000
+          upperBound: 9000000
           items:
             - range_6000000_to_6999999
             - range_7000000_to_7999999
             - range_8000000_to_8999999
         - id: range_9000000_to_11999999
           average: 10500000
+          lowerBound: 9000000
+          upperBound: 12000000
           items:
             - range_9000000_to_9999999
             - range_10000000_to_10999999
             - range_11000000_to_11999999
         - id: range_12000000_to_14999999
           average: 13500000
+          lowerBound: 12000000
+          upperBound: 15000000
           items:
             - range_12000000_to_12999999
             - range_13000000_to_13999999
             - range_14000000_to_14999999
         - id: range_15000000_to_19999999
           average: 17500000
+          lowerBound: 15000000
+          upperBound: 20000000
           items:
             - range_15000000_to_15999999
             - range_16000000_to_16999999
@@ -782,6 +819,8 @@
             - range_19000000_to_19999999
         - id: range_20000000_to_29999999
           average: 25000000
+          lowerBound: 20000000
+          upperBound: 30000000
           items:
             - range_20000000_to_20999999
             - range_21000000_to_21999999
@@ -795,11 +834,14 @@
             - range_29000000_to_29999999
         - id: range_30000000_to_49999999
           average: 40000000
+          lowerBound: 30000000
+          upperBound: 50000000
           items:
             - range_30000000_to_39999999
             - range_40000000_to_49999999
         - id: range_over_50000000
           average: 50000000
+          lowerBound: 50000000
           items:
             - range_50000000_to_59999999
             - range_60000000_to_69999999
@@ -812,117 +854,191 @@
         - id: range_under_1000000
           label: Under ¥1,000,000 per year
           average: 500000
+          upperBound: 1000001
         - id: range_1000000_to_1999999
           label: ¥1,000,000 to ¥1,999,999
           average: 1500000
+          lowerBound: 1000001
+          upperBound: 2000000
         - id: range_2000000_to_2999999
           label: ¥2,000,000 to ¥2,999,999 per year
           average: 2500000
+          lowerBound: 2000000
+          upperBound: 3000000
         - id: range_3000000_to_3999999
           label: ¥3,000,000 to ¥3,999,999 per year
           average: 3500000
+          lowerBound: 3000000
+          upperBound: 4000000
         - id: range_4000000_to_4999999
           label: ¥4,000,000 to ¥4,999,999 per year
           average: 4500000
+          lowerBound: 4000000
+          upperBound: 5000000
         - id: range_5000000_to_5999999
           label: ¥5,000,000 to ¥5,999,999 per year
           average: 5500000
+          lowerBound: 5000000
+          upperBound: 6000000
         - id: range_6000000_to_6999999
           label: ¥6,000,000 to ¥6,999,999 per year
           average: 6500000
+          lowerBound: 6000000
+          upperBound: 7000000
         - id: range_7000000_to_7999999
           label: ¥7,000,000 to ¥7,999,999 per year
           average: 7500000
+          lowerBound: 7000000
+          upperBound: 8000000
         - id: range_8000000_to_8999999
           label: ¥8,000,000 to ¥8,999,999 per year
           average: 8500000
+          lowerBound: 8000000
+          upperBound: 9000000
         - id: range_9000000_to_9999999
           label: ¥9,000,000 to ¥9,999,999 per year
           average: 9500000
+          lowerBound: 9000000
+          upperBound: 10000000
         - id: range_10000000_to_10999999
           label: ¥10,000,000 to ¥10,999,999 per year
           average: 10500000
+          lowerBound: 10000000
+          upperBound: 11000000
         - id: range_11000000_to_11999999
           label: ¥11,000,000 to ¥11,999,999 per year
           average: 11500000
+          lowerBound: 11000000
+          upperBound: 12000000
         - id: range_12000000_to_12999999
           label: ¥12,000,000 to ¥12,999,999 per year
           average: 12500000
+          lowerBound: 12000000
+          upperBound: 13000000
         - id: range_13000000_to_13999999
           label: ¥13,000,000 to ¥13,999,999 per year
           average: 13500000
+          lowerBound: 13000000
+          upperBound: 14000000
         - id: range_14000000_to_14999999
           label: ¥14,000,000 to ¥14,999,999 per year
           average: 14500000
+          lowerBound: 14000000
+          upperBound: 15000000
         - id: range_15000000_to_15999999
           label: ¥15,000,000 to ¥15,999,999 per year
           average: 15500000
+          lowerBound: 15000000
+          upperBound: 16000000
         - id: range_16000000_to_16999999
           label: ¥16,000,000 to ¥16,999,999 per year
           average: 16500000
+          lowerBound: 16000000
+          upperBound: 17000000
         - id: range_17000000_to_17999999
           label: ¥17,000,000 to ¥17,999,999 per year
           average: 17500000
+          lowerBound: 17000000
+          upperBound: 18000000
         - id: range_18000000_to_18999999
           label: ¥18,000,000 to ¥18,999,999 per year
           average: 18500000
+          lowerBound: 18000000
+          upperBound: 19000000
         - id: range_19000000_to_19999999
           label: ¥19,000,000 to ¥19,999,999 per year
           average: 19500000
+          lowerBound: 19000000
+          upperBound: 20000000
         - id: range_20000000_to_20999999
           label: ¥20,000,000 to ¥20,999,999 per year
           average: 20500000
+          lowerBound: 20000000
+          upperBound: 21000000
         - id: range_21000000_to_21999999
           label: ¥21,000,000 to ¥21,999,999 per year
           average: 21500000
+          lowerBound: 21000000
+          upperBound: 22000000
         - id: range_22000000_to_22999999
           label: ¥22,000,000 to ¥22,999,999 per year
           average: 22500000
+          lowerBound: 22000000
+          upperBound: 23000000
         - id: range_23000000_to_23999999
           label: ¥23,000,000 to ¥23,999,999 per year
           average: 23500000
+          lowerBound: 23000000
+          upperBound: 24000000
         - id: range_24000000_to_24999999
           label: ¥24,000,000 to ¥24,999,999 per year
           average: 24500000
+          lowerBound: 24000000
+          upperBound: 25000000
         - id: range_25000000_to_25999999
           label: ¥25,000,000 to ¥25,999,999 per year
           average: 25500000
+          lowerBound: 25000000
+          upperBound: 26000000
         - id: range_26000000_to_26999999
           label: ¥26,000,000 to ¥26,999,999 per year
           average: 26500000
+          lowerBound: 26000000
+          upperBound: 27000000
         - id: range_27000000_to_27999999
           label: ¥27,000,000 to ¥27,999,999 per year
           average: 27500000
+          lowerBound: 27000000
+          upperBound: 28000000
         - id: range_28000000_to_28999999
           label: ¥28,000,000 to ¥28,999,999 per year
           average: 28500000
+          lowerBound: 28000000
+          upperBound: 29000000
         - id: range_29000000_to_29999999
           label: ¥29,000,000 to ¥29,999,999 per year
           average: 29500000
+          lowerBound: 29000000
+          upperBound: 30000000
         - id: range_30000000_to_39999999
           label: ¥30,000,000 to ¥39,000,000 per year
           average: 29500000
+          lowerBound: 30000000
+          upperBound: 40000000
         - id: range_40000000_to_49999999
           label: ¥40,000,000 to ¥49,999,999 per year
           average: 29500000
+          lowerBound: 40000000
+          upperBound: 50000000
         - id: range_50000000_to_59999999
           label: ¥50,000,000 to ¥59,999,999 per year
           average: 29500000
+          lowerBound: 50000000
+          upperBound: 60000000
         - id: range_60000000_to_69999999
           label: ¥60,000,000 to ¥69,999,999 per year
           average: 29500000
+          lowerBound: 60000000
+          upperBound: 70000000
         - id: range_70000000_to_79999999
           label: ¥70,000,000 to ¥79,999,999 per year
           average: 29500000
+          lowerBound: 70000000
+          upperBound: 80000000
         - id: range_80000000_to_89999999
           label: ¥80,000,000 to ¥89,999,999 per year
           average: 29500000
+          lowerBound: 80000000
+          upperBound: 90000000
         - id: range_90000000_to_99999999
           label: ¥90,000,000 to ¥99,999,999 per year
           average: 29500000
+          lowerBound: 90000000
+          upperBound: 100000000
         - id: range_100000000_or_more
           label: ¥100,000,000 or more per year
           average: 100500000
+          lowerBound: 100000000
 
     # removed in 2024
     # - id: previous_compensation

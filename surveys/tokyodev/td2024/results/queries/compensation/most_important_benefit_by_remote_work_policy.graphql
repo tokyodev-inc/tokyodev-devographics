@@ -23,6 +23,9 @@ query {
                 }
                 limit: 1
               }
+              bucketsFilter: [
+                remote_work
+              ]
             ) {
               currentEdition {
                 _metadata {
@@ -49,6 +52,7 @@ query {
                 buckets {
                   count
                   id
+                  value
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -77,6 +81,9 @@ query {
                 }
                 limit: 1
               }
+              bucketsFilter: [
+                remote_work
+              ]
             ) {
               currentEdition {
                 _metadata {
@@ -103,6 +110,7 @@ query {
                 buckets {
                   count
                   id
+                  value
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -131,6 +139,9 @@ query {
                 }
                 limit: 1
               }
+              bucketsFilter: [
+                remote_work
+              ]
             ) {
               currentEdition {
                 _metadata {
@@ -157,6 +168,7 @@ query {
                 buckets {
                   count
                   id
+                  value
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
