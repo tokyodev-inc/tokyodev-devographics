@@ -450,13 +450,12 @@ translations:
   # employment_status
   - key: user_info.employment_status
     t: 🧑‍💼️ Employment Status
+    aliases:
+      - employer_info.employment_status
   - key: user_info.employment_status.question
     t: Which of the following best describes your employment status?
-
-  - key: employer_info.employment_status
-    aliasFor: user_info.employment_status
-  - key: employer_info.employment_status.question
-    aliasFor: user_info.employment_status.question
+    aliases:
+      - user_info.employment_status.question
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
