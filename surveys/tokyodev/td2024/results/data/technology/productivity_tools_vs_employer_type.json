@@ -6,7 +6,7 @@
           "technology": {
             "productivity_tools_vs_employer_type": {
               "id": "productivity_tools",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 658,
@@ -35,25 +35,31 @@
                         {
                           "id": "japanese_company",
                           "count": 501,
-                          "percentageBucket": 70.96,
+                          "percentageBucket": 61.55,
                           "percentageQuestion": 76.14
                         },
                         {
                           "id": "japanese_subsidiary",
                           "count": 131,
-                          "percentageBucket": 18.56,
+                          "percentageBucket": 16.09,
                           "percentageQuestion": 19.91
                         },
                         {
                           "id": "international_company",
                           "count": 42,
-                          "percentageBucket": 5.95,
+                          "percentageBucket": 5.16,
                           "percentageQuestion": 6.38
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 108,
+                          "percentageBucket": 13.27,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 32,
-                          "percentageBucket": 5,
+                          "percentageBucket": 4,
                           "percentageQuestion": 0
                         }
                       ]
@@ -514,34 +520,24 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "evernote",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "count": 10,
+                      "id": "linear",
+                      "percentageQuestion": 1.52,
+                      "percentageSurvey": 1.23,
+                      "isFreeformData": true,
                       "entity": {
-                        "name": "Evernote",
-                        "nameClean": "Evernote",
-                        "id": "evernote",
+                        "name": "Linear",
+                        "nameClean": "Linear",
+                        "id": "linear",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://evernote.com/"
+                          "url": "https://linear.app/"
                         }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
                       },
                       "facetBuckets": [
                         {
                           "id": "other_answers",
-                          "count": 1,
+                          "count": 10,
                           "percentageBucket": 100,
                           "percentageQuestion": 0
                         }
@@ -576,6 +572,29 @@
                           "count": 8,
                           "percentageBucket": 5,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 69,
+                      "id": "other_answers",
+                      "percentageQuestion": 10.49,
+                      "percentageSurvey": 8.47,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 36,
+                          "percentageBucket": 52.17
                         }
                       ]
                     }

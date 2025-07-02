@@ -6,7 +6,7 @@
           "job_info": {
             "current_job_description_vs_employer_type": {
               "id": "current_job_description",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 706,
@@ -35,25 +35,31 @@
                         {
                           "id": "japanese_company",
                           "count": 501,
-                          "percentageBucket": 70.96,
+                          "percentageBucket": 61.55,
                           "percentageQuestion": 70.96
                         },
                         {
                           "id": "japanese_subsidiary",
                           "count": 131,
-                          "percentageBucket": 18.56,
+                          "percentageBucket": 16.09,
                           "percentageQuestion": 18.56
                         },
                         {
                           "id": "international_company",
                           "count": 42,
-                          "percentageBucket": 5.95,
+                          "percentageBucket": 5.16,
                           "percentageQuestion": 5.95
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 108,
+                          "percentageBucket": 13.27,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 32,
-                          "percentageBucket": 5,
+                          "percentageBucket": 4,
                           "percentageQuestion": 0
                         }
                       ]
@@ -115,16 +121,16 @@
                           "percentageQuestion": 4.67
                         },
                         {
+                          "id": "international_company",
+                          "count": 11,
+                          "percentageBucket": 4.87,
+                          "percentageQuestion": 1.56
+                        },
+                        {
                           "id": "sole_proprietorship",
                           "count": 12,
                           "percentageBucket": 5.31,
                           "percentageQuestion": 1.7
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 11,
-                          "percentageBucket": 4.87,
-                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -511,6 +517,21 @@
                       ]
                     },
                     {
+                      "count": 12,
+                      "id": "engineer",
+                      "percentageQuestion": 1.7,
+                      "percentageSurvey": 1.47,
+                      "isFreeformData": true,
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 12,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
                       "count": 10,
                       "id": "security_professional",
                       "percentageQuestion": 1.42,
@@ -519,31 +540,6 @@
                         {
                           "id": "other_answers",
                           "count": 10,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "blockchain",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 6,
                           "percentageBucket": 100,
                           "percentageQuestion": 0
                         }
@@ -572,6 +568,29 @@
                           "count": 13,
                           "percentageBucket": 12,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 40,
+                      "id": "other_answers",
+                      "percentageQuestion": 5.67,
+                      "percentageSurvey": 4.92,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 21,
+                          "percentageBucket": 52.5
                         }
                       ]
                     }

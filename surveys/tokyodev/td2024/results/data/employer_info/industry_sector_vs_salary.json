@@ -6,7 +6,7 @@
           "employer_info": {
             "industry_sector_vs_salary": {
               "id": "industry_sector",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -17,8 +17,8 @@
                       "property": "options",
                       "order": "desc"
                     },
-                    "limit": 50,
-                    "cutoff": 1
+                    "limit": 20,
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 576,
@@ -405,6 +405,31 @@
                       ]
                     },
                     {
+                      "count": 13,
+                      "id": "energy",
+                      "percentageQuestion": 2.26,
+                      "percentageSurvey": 1.6,
+                      "isFreeformData": true,
+                      "averageByFacet": 8961538.5,
+                      "percentilesByFacet": {
+                        "p0": 4500000,
+                        "p10": 5700000,
+                        "p25": 7500000,
+                        "p50": 8500000,
+                        "p75": 10500000,
+                        "p90": 11300000,
+                        "p100": 15500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 13,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
                       "count": 672,
                       "id": "overall",
                       "percentageQuestion": 116.67,
@@ -423,49 +448,80 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 4.69
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 22.22
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 33.33
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 23.61
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 12.34
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 9.37
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 6.94
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 12,
+                      "id": "robotics",
+                      "percentageQuestion": 2.08,
+                      "percentageSurvey": 1.47,
+                      "isFreeformData": true,
+                      "averageByFacet": 8250000,
+                      "percentilesByFacet": {
+                        "p0": 5500000,
+                        "p10": 6500000,
+                        "p25": 7250000,
+                        "p50": 8500000,
+                        "p75": 9500000,
+                        "p90": 10400000,
+                        "p100": 10500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 12,
+                          "percentageBucket": 100,
                           "percentageQuestion": 0
                         }
                       ]
@@ -617,6 +673,39 @@
                           "count": 13,
                           "percentageBucket": 6,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 84,
+                      "id": "other_answers",
+                      "percentageQuestion": 14.55,
+                      "percentageSurvey": 10.31,
+                      "averageByFacet": 10157472.99,
+                      "percentilesByFacet": {
+                        "p0": 5552631.58,
+                        "p10": 6660526.32,
+                        "p25": 7546052.63,
+                        "p50": 9486842.11,
+                        "p75": 11381578.95,
+                        "p90": 14800000,
+                        "p100": 21657894.74
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 10,
+                          "percentageBucket": 11.9
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 28,
+                          "percentageBucket": 33.33
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 10,
+                          "percentageBucket": 11.9
                         }
                       ]
                     }

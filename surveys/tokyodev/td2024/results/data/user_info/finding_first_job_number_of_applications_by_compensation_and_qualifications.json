@@ -6,7 +6,7 @@
           "user_info": {
             "finding_first_job_number_of_applications_by_compensation_and_qualifications_1": {
               "id": "finding_first_job_number_of_applications",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -14,7 +14,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 88,
@@ -22,13 +22,6 @@
                     "total": 814
                   },
                   "buckets": [
-                    {
-                      "count": 0,
-                      "id": "range_0",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
                     {
                       "count": 18,
                       "id": "range_1_5",
@@ -65,6 +58,13 @@
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true
                     }
                   ]
                 }
@@ -72,7 +72,7 @@
             },
             "finding_first_job_number_of_applications_by_compensation_and_qualifications_2": {
               "id": "finding_first_job_number_of_applications",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -80,7 +80,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 430,

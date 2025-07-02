@@ -6,7 +6,7 @@
           "employer_info": {
             "industry_sector_by_japanese_usage": {
               "id": "industry_sector",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -17,8 +17,8 @@
                       "property": "options",
                       "order": "desc"
                     },
-                    "limit": 50,
-                    "cutoff": 1
+                    "limit": 20,
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 576,
@@ -35,32 +35,38 @@
                         {
                           "id": "never",
                           "count": 179,
-                          "percentageBucket": 24.32,
+                          "percentageBucket": 21.99,
                           "percentageQuestion": 31.08
                         },
                         {
                           "id": "rarely",
                           "count": 198,
-                          "percentageBucket": 26.9,
+                          "percentageBucket": 24.32,
                           "percentageQuestion": 34.38
                         },
                         {
                           "id": "sometimes",
                           "count": 123,
-                          "percentageBucket": 16.71,
+                          "percentageBucket": 15.11,
                           "percentageQuestion": 21.35
                         },
                         {
                           "id": "frequently",
                           "count": 103,
-                          "percentageBucket": 13.99,
+                          "percentageBucket": 12.65,
                           "percentageQuestion": 17.88
                         },
                         {
                           "id": "always",
                           "count": 133,
-                          "percentageBucket": 18.07,
+                          "percentageBucket": 16.34,
                           "percentageQuestion": 23.09
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 78,
+                          "percentageBucket": 9.58,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -101,9 +107,15 @@
                           "percentageQuestion": 5.9
                         },
                         {
+                          "id": "always",
+                          "count": 31,
+                          "percentageBucket": 15.05,
+                          "percentageQuestion": 5.38
+                        },
+                        {
                           "id": "other_answers",
-                          "count": 32,
-                          "percentageBucket": 16,
+                          "count": 1,
+                          "percentageBucket": 0,
                           "percentageQuestion": 0
                         }
                       ]
@@ -139,9 +151,15 @@
                           "percentageQuestion": 2.6
                         },
                         {
+                          "id": "always",
+                          "count": 14,
+                          "percentageBucket": 10,
+                          "percentageQuestion": 2.43
+                        },
+                        {
                           "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 11,
+                          "count": 1,
+                          "percentageBucket": 1,
                           "percentageQuestion": 0
                         }
                       ]
@@ -197,6 +215,12 @@
                       "percentageSurvey": 13.27,
                       "facetBuckets": [
                         {
+                          "id": "never",
+                          "count": 11,
+                          "percentageBucket": 10.19,
+                          "percentageQuestion": 1.91
+                        },
+                        {
                           "id": "rarely",
                           "count": 26,
                           "percentageBucket": 24.07,
@@ -222,8 +246,8 @@
                         },
                         {
                           "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 11,
+                          "count": 1,
+                          "percentageBucket": 1,
                           "percentageQuestion": 0
                         }
                       ]
@@ -413,6 +437,36 @@
                       ]
                     },
                     {
+                      "count": 13,
+                      "id": "energy",
+                      "percentageQuestion": 2.26,
+                      "percentageSurvey": 1.6,
+                      "isFreeformData": true,
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 13,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 12,
+                      "id": "robotics",
+                      "percentageQuestion": 2.08,
+                      "percentageSurvey": 1.47,
+                      "isFreeformData": true,
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 12,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
                       "count": 232,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -459,6 +513,44 @@
                           "count": 0,
                           "percentageBucket": 0,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 91,
+                      "id": "other_answers",
+                      "percentageQuestion": 15.77,
+                      "percentageSurvey": 11.17,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "never",
+                          "count": 13,
+                          "percentageBucket": 14.29
+                        },
+                        {
+                          "id": "rarely",
+                          "count": 15,
+                          "percentageBucket": 16.48
+                        },
+                        {
+                          "id": "sometimes",
+                          "count": 10,
+                          "percentageBucket": 10.99
+                        },
+                        {
+                          "id": "always",
+                          "count": 10,
+                          "percentageBucket": 10.99
                         }
                       ]
                     }

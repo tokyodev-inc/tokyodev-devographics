@@ -6,7 +6,7 @@
           "technology": {
             "productivity_tools_vs_salary": {
               "id": "productivity_tools",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 658,
@@ -26,6 +26,40 @@
                     "total": 814
                   },
                   "buckets": [
+                    {
+                      "count": 10,
+                      "id": "linear",
+                      "percentageQuestion": 1.52,
+                      "percentageSurvey": 1.23,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Linear",
+                        "nameClean": "Linear",
+                        "id": "linear",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://linear.app/"
+                        }
+                      },
+                      "averageByFacet": 11500000,
+                      "percentilesByFacet": {
+                        "p0": 2500000,
+                        "p10": 7000000,
+                        "p25": 7750000,
+                        "p50": 11000000,
+                        "p75": 13500000,
+                        "p90": 15599999.999999996,
+                        "p100": 25500000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 10,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
                     {
                       "count": 249,
                       "id": "google_workspace",
@@ -573,49 +607,55 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 4.1
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 19.45
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 29.18
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 20.67
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 10.8
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 8.2
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 6.08
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
                           "percentageQuestion": 0
                         }
                       ]
@@ -828,40 +868,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "evernote",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Evernote",
-                        "nameClean": "Evernote",
-                        "id": "evernote",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://evernote.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 1,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 156,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -900,6 +906,39 @@
                           "count": 30,
                           "percentageBucket": 19,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 70,
+                      "id": "other_answers",
+                      "percentageQuestion": 10.63,
+                      "percentageSurvey": 8.6,
+                      "averageByFacet": 9591703.22,
+                      "percentilesByFacet": {
+                        "p0": 6031250,
+                        "p10": 6359375,
+                        "p25": 7468750,
+                        "p50": 9218750,
+                        "p75": 11953125,
+                        "p90": 13490625,
+                        "p100": 13812500
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 11,
+                          "percentageBucket": 15.71
+                        },
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 17,
+                          "percentageBucket": 24.29
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 12,
+                          "percentageBucket": 17.14
                         }
                       ]
                     }

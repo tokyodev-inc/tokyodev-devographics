@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 compensation__current_total_annual_compensation: {
                   in: [
@@ -22,6 +22,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

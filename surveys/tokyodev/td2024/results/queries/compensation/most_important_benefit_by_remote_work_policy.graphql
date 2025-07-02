@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 employer_info__remote_work_policy: {
                   eq: hybrid
@@ -18,14 +18,17 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 sort: {
                   property: count
                 }
                 limit: 1
               }
-              bucketsFilter: [
-                remote_work
-              ]
+              bucketsFilter: {
+                in: [
+                  remote_work
+                ]
+              }
             ) {
               currentEdition {
                 _metadata {
@@ -68,7 +71,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 employer_info__remote_work_policy: {
                   eq: up_to_employee
@@ -76,14 +79,17 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 sort: {
                   property: count
                 }
                 limit: 1
               }
-              bucketsFilter: [
-                remote_work
-              ]
+              bucketsFilter: {
+                in: [
+                  remote_work
+                ]
+              }
             ) {
               currentEdition {
                 _metadata {
@@ -126,7 +132,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 employer_info__remote_work_policy: {
                   eq: fully_remote
@@ -134,14 +140,17 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 sort: {
                   property: count
                 }
                 limit: 1
               }
-              bucketsFilter: [
-                remote_work
-              ]
+              bucketsFilter: {
+                in: [
+                  remote_work
+                ]
+              }
             ) {
               currentEdition {
                 _metadata {

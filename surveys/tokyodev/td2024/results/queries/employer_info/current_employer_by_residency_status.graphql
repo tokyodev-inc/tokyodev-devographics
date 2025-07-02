@@ -10,10 +10,11 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: user_info__residency_status
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

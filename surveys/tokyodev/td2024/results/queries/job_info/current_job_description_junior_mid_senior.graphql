@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -21,6 +21,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 limit: 10
                 sort: {
                   property: medianByFacet
@@ -85,7 +86,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -97,6 +98,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 limit: 10
                 sort: {
                   property: medianByFacet
@@ -161,7 +163,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -175,6 +177,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 limit: 10
                 sort: {
                   property: medianByFacet

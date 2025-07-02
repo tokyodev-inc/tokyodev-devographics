@@ -6,7 +6,7 @@
           "job_info": {
             "workplace_difficulties_vs_salary": {
               "id": "workplace_difficulties",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 565,
@@ -255,49 +255,55 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 4.78
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 22.65
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 33.98
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 24.07
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 12.57
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 9.55
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 7.08
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
                           "percentageQuestion": 0
                         }
                       ]
@@ -691,6 +697,22 @@
                           "percentageQuestion": 0
                         }
                       ]
+                    },
+                    {
+                      "count": 30,
+                      "id": "other_answers",
+                      "percentageQuestion": 5.31,
+                      "percentageSurvey": 3.69,
+                      "averageByFacet": 6200000,
+                      "percentilesByFacet": {
+                        "p0": 1750000,
+                        "p10": 2750000,
+                        "p25": 4250000,
+                        "p50": 5000000,
+                        "p75": 6750000,
+                        "p90": 11800000,
+                        "p100": 14750000
+                      }
                     }
                   ]
                 }

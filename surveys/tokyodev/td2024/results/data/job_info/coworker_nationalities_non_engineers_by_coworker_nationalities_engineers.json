@@ -6,7 +6,7 @@
           "job_info": {
             "coworker_nationalities_non_engineers_by_coworker_nationalities_engineers": {
               "id": "coworker_nationalities_non_engineers",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 721,
@@ -177,32 +177,38 @@
                         {
                           "id": "all_japanese",
                           "count": 48,
-                          "percentageBucket": 6.61,
+                          "percentageBucket": 5.9,
                           "percentageQuestion": 6.66
                         },
                         {
                           "id": "mostly_japanese",
                           "count": 108,
-                          "percentageBucket": 14.88,
+                          "percentageBucket": 13.27,
                           "percentageQuestion": 14.98
                         },
                         {
                           "id": "mix_japanese_non_japanese",
                           "count": 235,
-                          "percentageBucket": 32.37,
+                          "percentageBucket": 28.87,
                           "percentageQuestion": 32.59
                         },
                         {
                           "id": "mostly_non_japanese",
                           "count": 238,
-                          "percentageBucket": 32.78,
+                          "percentageBucket": 29.24,
                           "percentageQuestion": 33.01
                         },
                         {
                           "id": "all_non_japanese",
                           "count": 97,
-                          "percentageBucket": 13.36,
+                          "percentageBucket": 11.92,
                           "percentageQuestion": 13.45
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 88,
+                          "percentageBucket": 10.81,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",

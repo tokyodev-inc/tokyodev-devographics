@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 job_info__coworker_nationalities_engineers: {
                   in: [
@@ -20,6 +20,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -63,7 +64,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 job_info__coworker_nationalities_engineers: {
                   in: all_non_japanese
@@ -71,6 +72,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

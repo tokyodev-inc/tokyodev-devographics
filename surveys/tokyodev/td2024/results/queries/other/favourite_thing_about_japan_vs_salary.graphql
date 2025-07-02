@@ -17,6 +17,7 @@ query {
                 sort: {
                   property: medianByFacet
                 }
+                cutoff: 10
               }
             ) {
               currentEdition {

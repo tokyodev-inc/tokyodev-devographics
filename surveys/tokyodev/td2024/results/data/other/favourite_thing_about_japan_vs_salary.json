@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 474,
@@ -201,49 +201,55 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 5.7
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 27
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 40.5
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 28.7
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 14.98
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 11.4
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 8.44
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
                           "percentageQuestion": 0
                         }
                       ]
@@ -381,256 +387,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "cleanliness",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 114,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "comfort",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 7,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "freedom",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 3,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "healthcare",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 2,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "infrastructure",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 7,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "politeness",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 113,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "service",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "technology",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 3,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "transportation",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 7,
-                          "percentageBucket": 117,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "travel",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 6,
-                          "percentageBucket": 120,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 340,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -703,33 +459,81 @@
                       ]
                     },
                     {
-                      "count": 55,
+                      "count": 107,
                       "id": "other_answers",
-                      "percentageQuestion": 11.6,
-                      "percentageSurvey": 6.76,
-                      "averageByFacet": 10365384.6,
+                      "percentageQuestion": 22.57,
+                      "percentageSurvey": 13.15,
+                      "averageByFacet": 10243049.44,
                       "percentilesByFacet": {
-                        "p0": 500000,
-                        "p10": 3600000,
-                        "p25": 6500000,
-                        "p50": 7500000,
-                        "p75": 11500000,
-                        "p90": 22300000,
-                        "p100": 29500000
+                        "p0": 2250000,
+                        "p10": 4340000,
+                        "p25": 6575000,
+                        "p50": 8125000,
+                        "p75": 12450000,
+                        "p90": 19290000,
+                        "p100": 23950000
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_3000000_to_5999999",
+                          "count": 10,
+                          "percentageBucket": 9.35
+                        },
+                        {
                           "id": "range_6000000_to_8999999",
-                          "count": 17,
-                          "percentageBucket": 30.91
+                          "count": 32,
+                          "percentageBucket": 29.91
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 11,
-                          "percentageBucket": 20
+                          "percentageBucket": 10.28
+                        },
+                        {
+                          "id": "range_15000000_to_19999999",
+                          "count": 11,
+                          "percentageBucket": 10.28
                         }
                       ],
                       "groupedBuckets": [
+                        {
+                          "count": 52,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 10.97,
+                          "percentageSurvey": 6.39,
+                          "averageByFacet": 10120714.28,
+                          "percentilesByFacet": {
+                            "p0": 4000000,
+                            "p10": 5080000,
+                            "p25": 6650000,
+                            "p50": 8750000,
+                            "p75": 13400000,
+                            "p90": 16280000,
+                            "p100": 18400000
+                          },
+                          "facetBuckets": [
+                            {
+                              "id": "range_3000000_to_5999999",
+                              "count": 10,
+                              "percentageBucket": 19.23
+                            },
+                            {
+                              "id": "range_6000000_to_8999999",
+                              "count": 15,
+                              "percentageBucket": 28.85
+                            },
+                            {
+                              "id": "range_15000000_to_19999999",
+                              "count": 11,
+                              "percentageBucket": 21.15
+                            },
+                            {
+                              "id": "insufficient_data",
+                              "count": 16,
+                              "percentageBucket": 31
+                            }
+                          ]
+                        },
                         {
                           "count": 55,
                           "id": "no_match",

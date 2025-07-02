@@ -6,7 +6,7 @@
           "technology": {
             "databases_vs_employer_type": {
               "id": "databases",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 541,
@@ -35,25 +35,31 @@
                         {
                           "id": "japanese_company",
                           "count": 501,
-                          "percentageBucket": 70.96,
+                          "percentageBucket": 61.55,
                           "percentageQuestion": 92.61
                         },
                         {
                           "id": "japanese_subsidiary",
                           "count": 131,
-                          "percentageBucket": 18.56,
+                          "percentageBucket": 16.09,
                           "percentageQuestion": 24.21
                         },
                         {
                           "id": "international_company",
                           "count": 42,
-                          "percentageBucket": 5.95,
+                          "percentageBucket": 5.16,
                           "percentageQuestion": 7.76
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 108,
+                          "percentageBucket": 13.27,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 32,
-                          "percentageBucket": 5,
+                          "percentageBucket": 4,
                           "percentageQuestion": 0
                         }
                       ]
@@ -380,6 +386,30 @@
                       ]
                     },
                     {
+                      "count": 11,
+                      "id": "oracle_db",
+                      "percentageQuestion": 2.03,
+                      "percentageSurvey": 1.35,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Oracle Database",
+                        "nameClean": "Oracle Database",
+                        "id": "oracle_db",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.oracle.com/database/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 11,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
                       "count": 269,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -408,6 +438,34 @@
                           "count": 15,
                           "percentageBucket": 6,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 59,
+                      "id": "other_answers",
+                      "percentageQuestion": 10.9,
+                      "percentageSurvey": 7.26,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "japanese_company",
+                          "count": 34,
+                          "percentageBucket": 57.63
+                        },
+                        {
+                          "id": "japanese_subsidiary",
+                          "count": 12,
+                          "percentageBucket": 20.34
                         }
                       ]
                     }

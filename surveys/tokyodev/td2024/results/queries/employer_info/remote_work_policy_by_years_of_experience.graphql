@@ -10,10 +10,11 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: user_info__years_of_experience
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

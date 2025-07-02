@@ -6,7 +6,7 @@
           "user_info": {
             "reason_for_relocation_vs_salary": {
               "id": "reason_for_relocation",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 766,
@@ -207,49 +207,55 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 3.52
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 16.71
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 25.06
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 17.76
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 9.27
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 7.04
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 5.21
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
                           "percentageQuestion": 0
                         }
                       ]
@@ -407,6 +413,29 @@
                           "count": 17,
                           "percentageBucket": 35,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 24,
+                      "id": "other_answers",
+                      "percentageQuestion": 3.13,
+                      "percentageSurvey": 2.95,
+                      "averageByFacet": 3854166.65,
+                      "percentilesByFacet": {
+                        "p0": 1750000,
+                        "p10": 1750000,
+                        "p25": 2625000,
+                        "p50": 2750000,
+                        "p75": 4375000,
+                        "p90": 6450000,
+                        "p100": 12250000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_3000000_to_5999999",
+                          "count": 14,
+                          "percentageBucket": 58.33
                         }
                       ]
                     }

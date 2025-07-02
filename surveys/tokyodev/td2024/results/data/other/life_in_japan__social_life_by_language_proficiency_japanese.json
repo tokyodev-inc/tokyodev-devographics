@@ -6,7 +6,7 @@
           "other": {
             "life_in_japan__social_life_by_language_proficiency_japanese_1": {
               "id": "life_in_japan__social_life",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -14,7 +14,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 180,
@@ -73,7 +73,7 @@
             },
             "life_in_japan__social_life_by_language_proficiency_japanese_2": {
               "id": "life_in_japan__social_life",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -81,7 +81,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 114,
@@ -93,14 +93,6 @@
                     "p50": 3
                   },
                   "buckets": [
-                    {
-                      "count": 0,
-                      "id": "0",
-                      "value": 0,
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
-                    },
                     {
                       "count": 15,
                       "id": "1",
@@ -134,6 +126,13 @@
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 3.19
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true
                     }
                   ]
                 }

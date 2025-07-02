@@ -10,10 +10,11 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: employer_info__current_employer
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
                 sort: {
                   property: options
                 }

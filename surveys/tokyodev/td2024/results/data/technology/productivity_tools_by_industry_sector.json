@@ -6,7 +6,7 @@
           "technology": {
             "productivity_tools_by_industry_sector": {
               "id": "productivity_tools",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 658,
@@ -208,7 +208,7 @@
                         {
                           "id": "saas",
                           "count": 206,
-                          "percentageBucket": 22.25,
+                          "percentageBucket": 17.7,
                           "percentageQuestion": 31.31,
                           "entity": {
                             "id": "saas",
@@ -221,13 +221,13 @@
                         {
                           "id": "ecommerce",
                           "count": 140,
-                          "percentageBucket": 15.12,
+                          "percentageBucket": 12.03,
                           "percentageQuestion": 21.28
                         },
                         {
                           "id": "finance",
                           "count": 110,
-                          "percentageBucket": 11.88,
+                          "percentageBucket": 9.45,
                           "percentageQuestion": 16.72,
                           "entity": {
                             "id": "finance",
@@ -240,13 +240,13 @@
                         {
                           "id": "consulting",
                           "count": 108,
-                          "percentageBucket": 11.66,
+                          "percentageBucket": 9.28,
                           "percentageQuestion": 16.41
                         },
                         {
                           "id": "ai",
                           "count": 102,
-                          "percentageBucket": 11.02,
+                          "percentageBucket": 8.76,
                           "percentageQuestion": 15.5,
                           "entity": {
                             "name": "AI",
@@ -261,7 +261,7 @@
                         {
                           "id": "advertising",
                           "count": 47,
-                          "percentageBucket": 5.08,
+                          "percentageBucket": 4.04,
                           "percentageQuestion": 7.14,
                           "entity": {
                             "id": "advertising",
@@ -274,7 +274,7 @@
                         {
                           "id": "cloud_computing",
                           "count": 47,
-                          "percentageBucket": 5.08,
+                          "percentageBucket": 4.04,
                           "percentageQuestion": 7.14,
                           "entity": {
                             "id": "cloud_computing",
@@ -287,7 +287,7 @@
                         {
                           "id": "manufacturing",
                           "count": 40,
-                          "percentageBucket": 4.32,
+                          "percentageBucket": 3.44,
                           "percentageQuestion": 6.08,
                           "entity": {
                             "id": "manufacturing",
@@ -300,7 +300,7 @@
                         {
                           "id": "gaming",
                           "count": 37,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3.18,
                           "percentageQuestion": 5.62,
                           "entity": {
                             "id": "gaming",
@@ -313,7 +313,7 @@
                         {
                           "id": "crypto",
                           "count": 33,
-                          "percentageBucket": 3.56,
+                          "percentageBucket": 2.84,
                           "percentageQuestion": 5.02,
                           "entity": {
                             "id": "crypto",
@@ -326,7 +326,7 @@
                         {
                           "id": "human_resources",
                           "count": 31,
-                          "percentageBucket": 3.35,
+                          "percentageBucket": 2.66,
                           "percentageQuestion": 4.71,
                           "entity": {
                             "id": "human_resources",
@@ -339,7 +339,7 @@
                         {
                           "id": "education",
                           "count": 25,
-                          "percentageBucket": 2.7,
+                          "percentageBucket": 2.15,
                           "percentageQuestion": 3.8,
                           "entity": {
                             "id": "education",
@@ -348,6 +348,12 @@
                           "token": {
                             "id": "education"
                           }
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 238,
+                          "percentageBucket": 20.45,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -772,16 +778,16 @@
                           }
                         },
                         {
-                          "id": "gaming",
+                          "id": "crypto",
                           "count": 11,
                           "percentageBucket": 3.01,
                           "percentageQuestion": 1.67,
                           "entity": {
-                            "id": "gaming",
+                            "id": "crypto",
                             "entityType": "default"
                           },
                           "token": {
-                            "id": "gaming"
+                            "id": "crypto"
                           }
                         },
                         {
@@ -1283,6 +1289,30 @@
                       ]
                     },
                     {
+                      "count": 18,
+                      "id": "linear",
+                      "percentageQuestion": 2.74,
+                      "percentageSurvey": 2.21,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Linear",
+                        "nameClean": "Linear",
+                        "id": "linear",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://linear.app/"
+                        }
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "other_answers",
+                          "count": 18,
+                          "percentageBucket": 100,
+                          "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
                       "count": 15,
                       "id": "cybozu_office",
                       "percentageQuestion": 2.28,
@@ -1306,40 +1336,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "evernote",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Evernote",
-                        "nameClean": "Evernote",
-                        "id": "evernote",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://evernote.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 2,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 172,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -1356,6 +1352,34 @@
                           "count": 58,
                           "percentageBucket": 34,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 82,
+                      "id": "other_answers",
+                      "percentageQuestion": 12.47,
+                      "percentageSurvey": 10.08,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "saas",
+                          "count": 15,
+                          "percentageBucket": 18.29
+                        },
+                        {
+                          "id": "consulting",
+                          "count": 10,
+                          "percentageBucket": 12.2
                         }
                       ]
                     }

@@ -10,10 +10,11 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: job_info__coworker_nationalities_engineers
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

@@ -5,7 +5,7 @@ query {
         other {
           life_in_japan__social_life_by_language_proficiency_japanese_1: life_in_japan__social_life {
             id
-            responses(
+            combined(
               filters: {
                 user_info__language_proficiency_japanese: {
                   in: [
@@ -16,6 +16,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -54,7 +55,7 @@ query {
           }
           life_in_japan__social_life_by_language_proficiency_japanese_2: life_in_japan__social_life {
             id
-            responses(
+            combined(
               filters: {
                 user_info__language_proficiency_japanese: {
                   in: [
@@ -65,6 +66,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: employer_info__current_employer
               parameters: {
                 showNoAnswer: true

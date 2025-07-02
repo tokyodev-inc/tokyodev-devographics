@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 user_info__gender: {
                   in: [
@@ -146,7 +146,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 user_info__gender: {
                   nin: man

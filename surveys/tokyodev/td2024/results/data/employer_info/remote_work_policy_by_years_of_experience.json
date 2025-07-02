@@ -6,7 +6,7 @@
           "employer_info": {
             "remote_work_policy_by_years_of_experience": {
               "id": "remote_work_policy",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 707,
@@ -279,50 +279,56 @@
                         {
                           "id": "range_under_1",
                           "count": 50,
-                          "percentageBucket": 6.41,
+                          "percentageBucket": 6.15,
                           "percentageQuestion": 7.07
                         },
                         {
                           "id": "range_1_3",
                           "count": 138,
-                          "percentageBucket": 17.68,
+                          "percentageBucket": 16.95,
                           "percentageQuestion": 19.52
                         },
                         {
                           "id": "range_4_6",
                           "count": 175,
-                          "percentageBucket": 22.44,
+                          "percentageBucket": 21.5,
                           "percentageQuestion": 24.75
                         },
                         {
                           "id": "range_7_9",
                           "count": 115,
-                          "percentageBucket": 14.75,
+                          "percentageBucket": 14.13,
                           "percentageQuestion": 16.26
                         },
                         {
                           "id": "range_10_12",
                           "count": 116,
-                          "percentageBucket": 14.86,
+                          "percentageBucket": 14.25,
                           "percentageQuestion": 16.41
                         },
                         {
                           "id": "range_13_15",
                           "count": 65,
-                          "percentageBucket": 8.34,
+                          "percentageBucket": 7.98,
                           "percentageQuestion": 9.2
                         },
                         {
                           "id": "range_16_20",
                           "count": 73,
-                          "percentageBucket": 9.35,
+                          "percentageBucket": 8.96,
                           "percentageQuestion": 10.34
                         },
                         {
                           "id": "range_over_20",
                           "count": 74,
-                          "percentageBucket": 9.49,
+                          "percentageBucket": 9.08,
                           "percentageQuestion": 10.46
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 34,
+                          "percentageBucket": 4.18,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",

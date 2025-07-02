@@ -6,7 +6,7 @@
           "technology": {
             "programming_languages_by_current_employer_1": {
               "id": "programming_languages",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -14,7 +14,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 454,
@@ -33,22 +33,27 @@
                         "id": "javascript",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://www.javascript.com/"
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                         }
                       }
                     },
                     {
-                      "count": 182,
+                      "count": 183,
                       "id": "typescript",
-                      "percentageQuestion": 40.09,
-                      "percentageSurvey": 22.36,
+                      "percentageQuestion": 40.31,
+                      "percentageSurvey": 22.48,
                       "entity": {
                         "name": "TypeScript",
                         "nameClean": "TypeScript",
+                        "description": "A superset of JavaScript that compiles to clean JavaScript output.",
+                        "descriptionClean": "A superset of JavaScript that compiles to clean JavaScript output.",
                         "id": "typescript",
                         "entityType": "library",
                         "homepage": {
-                          "url": "typescriptlang.org/"
+                          "url": "https://www.typescriptlang.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/typescript"
                         }
                       }
                     },
@@ -83,10 +88,10 @@
                       }
                     },
                     {
-                      "count": 148,
+                      "count": 149,
                       "id": "sql",
-                      "percentageQuestion": 32.6,
-                      "percentageSurvey": 18.18,
+                      "percentageQuestion": 32.82,
+                      "percentageSurvey": 18.3,
                       "entity": {
                         "name": "SQL",
                         "nameClean": "SQL",
@@ -203,6 +208,22 @@
                       }
                     },
                     {
+                      "count": 28,
+                      "id": "c",
+                      "percentageQuestion": 6.17,
+                      "percentageSurvey": 3.44,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "C",
+                        "nameClean": "C",
+                        "id": "c",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+                        }
+                      }
+                    },
+                    {
                       "count": 22,
                       "id": "rust",
                       "percentageQuestion": 4.85,
@@ -218,10 +239,32 @@
                       }
                     },
                     {
+                      "count": 12,
+                      "id": "swift",
+                      "percentageQuestion": 2.64,
+                      "percentageSurvey": 1.47,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Swift",
+                        "nameClean": "Swift",
+                        "id": "swift",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.swift.org/"
+                        }
+                      }
+                    },
+                    {
                       "count": 47,
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 5.77
+                    },
+                    {
+                      "count": 54,
+                      "id": "other_answers",
+                      "percentageQuestion": 11.88,
+                      "percentageSurvey": 6.62
                     }
                   ]
                 }
@@ -229,7 +272,7 @@
             },
             "programming_languages_by_current_employer_2": {
               "id": "programming_languages",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -237,7 +280,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 124,
@@ -268,10 +311,15 @@
                       "entity": {
                         "name": "TypeScript",
                         "nameClean": "TypeScript",
+                        "description": "A superset of JavaScript that compiles to clean JavaScript output.",
+                        "descriptionClean": "A superset of JavaScript that compiles to clean JavaScript output.",
                         "id": "typescript",
                         "entityType": "library",
                         "homepage": {
-                          "url": "typescriptlang.org/"
+                          "url": "https://www.typescriptlang.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/typescript"
                         }
                       }
                     },
@@ -286,7 +334,7 @@
                         "id": "javascript",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://www.javascript.com/"
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                         }
                       }
                     },
@@ -412,42 +460,16 @@
                     },
                     {
                       "count": 0,
-                      "id": "php",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "PHP",
-                        "nameClean": "PHP",
-                        "id": "php",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.php.net/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
-                      "id": "rust",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Rust",
-                        "nameClean": "Rust",
-                        "id": "rust",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.rust-lang.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 0,
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 0,
                       "hasInsufficientData": true
+                    },
+                    {
+                      "count": 32,
+                      "id": "other_answers",
+                      "percentageQuestion": 25.82,
+                      "percentageSurvey": 3.92
                     }
                   ]
                 }

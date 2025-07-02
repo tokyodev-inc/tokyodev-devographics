@@ -10,10 +10,11 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: job_info__searching_for_job
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

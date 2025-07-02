@@ -6,7 +6,7 @@
           "other": {
             "communities_by_gender": {
               "id": "communities",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 277,
@@ -35,19 +35,25 @@
                         {
                           "id": "man",
                           "count": 698,
-                          "percentageBucket": 88.47,
+                          "percentageBucket": 85.75,
                           "percentageQuestion": 251.99
                         },
                         {
                           "id": "woman",
                           "count": 79,
-                          "percentageBucket": 10.01,
+                          "percentageBucket": 9.71,
                           "percentageQuestion": 28.52
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 25,
+                          "percentageBucket": 3.07,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 12,
-                          "percentageBucket": 2,
+                          "percentageBucket": 1,
                           "percentageQuestion": 0
                         }
                       ]
@@ -373,312 +379,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "a11y_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "A11y Tokyo Meetup",
-                        "nameClean": "A11y Tokyo Meetup",
-                        "id": "a11y_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://a11ytyo.connpass.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "coffee_and_code",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Coffee and Code",
-                        "nameClean": "Coffee and Code",
-                        "id": "coffee_and_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/coffee-and-code-tokyo/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_cafe",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Engineer Cafe",
-                        "nameClean": "Engineer Cafe",
-                        "id": "engineer_cafe",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://engineercafe.jp/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 1,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "hn_kansai",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Hacker News Kansai",
-                        "nameClean": "Hacker News Kansai",
-                        "id": "hn_kansai",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hnkansai.org"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 7,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "japan_test_community",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Japan Test Community",
-                        "nameClean": "Japan Test Community",
-                        "id": "japan_test_community",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/japan-test-community/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "mobile_dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Mobile Dev Japan",
-                        "nameClean": "Mobile Dev Japan",
-                        "id": "mobile_dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mobiledev-japan.connpass.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 5,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_net_developers_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo .NET Developers Meetup",
-                        "nameClean": "Tokyo .NET Developers Meetup",
-                        "id": "tokyo_net_developers_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/tokyo-net-developers-meetup/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 2,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_science_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Science Japan",
-                        "nameClean": "Women in Science Japan",
-                        "id": "women_in_science_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.womeninsciencejapan.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 5,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_technology_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women In Technology Japan",
-                        "nameClean": "Women In Technology Japan",
-                        "id": "women_in_technology_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womenintech.jp/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 525,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -701,6 +401,34 @@
                           "count": 28,
                           "percentageBucket": 5,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 71,
+                      "id": "other_answers",
+                      "percentageQuestion": 25.63,
+                      "percentageSurvey": 8.71,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "man",
+                          "count": 33,
+                          "percentageBucket": 46.48
+                        },
+                        {
+                          "id": "woman",
+                          "count": 20,
+                          "percentageBucket": 28.17
                         }
                       ]
                     }

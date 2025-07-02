@@ -6,7 +6,7 @@
           "technology": {
             "productivity_tools_by_job_search_status": {
               "id": "productivity_tools",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 658,
@@ -35,20 +35,26 @@
                         {
                           "id": "yes",
                           "count": 130,
-                          "percentageBucket": 17.24,
+                          "percentageBucket": 15.97,
                           "percentageQuestion": 19.76
                         },
                         {
                           "id": "no_but_would_consider",
                           "count": 400,
-                          "percentageBucket": 53.05,
+                          "percentageBucket": 49.14,
                           "percentageQuestion": 60.79
                         },
                         {
                           "id": "no",
                           "count": 224,
-                          "percentageBucket": 29.71,
+                          "percentageBucket": 27.52,
                           "percentageQuestion": 34.04
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 60,
+                          "percentageBucket": 7.37,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -520,34 +526,24 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "evernote",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "count": 10,
+                      "id": "linear",
+                      "percentageQuestion": 1.52,
+                      "percentageSurvey": 1.23,
+                      "isFreeformData": true,
                       "entity": {
-                        "name": "Evernote",
-                        "nameClean": "Evernote",
-                        "id": "evernote",
+                        "name": "Linear",
+                        "nameClean": "Linear",
+                        "id": "linear",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://evernote.com/"
+                          "url": "https://linear.app/"
                         }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
                       },
                       "facetBuckets": [
                         {
                           "id": "other_answers",
-                          "count": 1,
+                          "count": 10,
                           "percentageBucket": 100,
                           "percentageQuestion": 0
                         }
@@ -588,6 +584,39 @@
                           "count": 0,
                           "percentageBucket": 0,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 72,
+                      "id": "other_answers",
+                      "percentageQuestion": 10.94,
+                      "percentageSurvey": 8.85,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "yes",
+                          "count": 12,
+                          "percentageBucket": 16.67
+                        },
+                        {
+                          "id": "no_but_would_consider",
+                          "count": 35,
+                          "percentageBucket": 48.61
+                        },
+                        {
+                          "id": "no",
+                          "count": 17,
+                          "percentageBucket": 23.61
                         }
                       ]
                     }

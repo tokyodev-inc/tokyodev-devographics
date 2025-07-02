@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 job_info__current_job_description: {
                   in: [
@@ -20,6 +20,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -146,7 +147,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 job_info__current_job_description: {
                   eq: developer_back_end
@@ -154,6 +155,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

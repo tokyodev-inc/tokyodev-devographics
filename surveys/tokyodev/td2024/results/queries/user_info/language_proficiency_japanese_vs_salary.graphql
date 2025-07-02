@@ -10,13 +10,14 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               parameters: {
                 showNoAnswer: true
                 sort: {
                   property: options
                 }
+                cutoff: 10
               }
             ) {
               currentEdition {

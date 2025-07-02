@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 user_info__professional_qualifications: {
                   eq: coding_bootcamp
@@ -18,6 +18,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -61,7 +62,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               filters: {
                 user_info__professional_qualifications: {
                   eq: bachelors_degree
@@ -69,6 +70,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {

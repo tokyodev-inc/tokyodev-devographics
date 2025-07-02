@@ -6,7 +6,7 @@
           "employer_info": {
             "current_employer_by_residency_status": {
               "id": "current_employer",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 706,
@@ -161,31 +161,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "university",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 5,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 774,
                       "id": "overall",
                       "percentageQuestion": 109.63,
@@ -194,38 +169,44 @@
                         {
                           "id": "student",
                           "count": 14,
-                          "percentageBucket": 1.81,
+                          "percentageBucket": 1.72,
                           "percentageQuestion": 1.98
                         },
                         {
                           "id": "spouse_dependent_japanese_permanent_resident",
                           "count": 93,
-                          "percentageBucket": 12.02,
+                          "percentageBucket": 11.43,
                           "percentageQuestion": 13.17
                         },
                         {
                           "id": "hsfp",
                           "count": 75,
-                          "percentageBucket": 9.69,
+                          "percentageBucket": 9.21,
                           "percentageQuestion": 10.62
                         },
                         {
                           "id": "engineer",
                           "count": 379,
-                          "percentageBucket": 48.97,
+                          "percentageBucket": 46.56,
                           "percentageQuestion": 53.68
                         },
                         {
                           "id": "permanent_resident",
                           "count": 145,
-                          "percentageBucket": 18.73,
+                          "percentageBucket": 17.81,
                           "percentageQuestion": 20.54
                         },
                         {
                           "id": "japanese_citizen",
                           "count": 52,
-                          "percentageBucket": 6.72,
+                          "percentageBucket": 6.39,
                           "percentageQuestion": 7.37
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 40,
+                          "percentageBucket": 4.91,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -272,6 +253,23 @@
                           "percentageQuestion": 0
                         }
                       ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      }
                     }
                   ]
                 }

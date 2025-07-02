@@ -6,7 +6,7 @@
           "user_info": {
             "gender_by_experience": {
               "id": "gender",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 789,
@@ -177,31 +177,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "not_listed",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 1,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 780,
                       "id": "overall",
                       "percentageQuestion": 98.86,
@@ -220,50 +195,56 @@
                         {
                           "id": "range_under_1",
                           "count": 50,
-                          "percentageBucket": 6.41,
+                          "percentageBucket": 6.15,
                           "percentageQuestion": 6.33
                         },
                         {
                           "id": "range_1_3",
                           "count": 138,
-                          "percentageBucket": 17.68,
+                          "percentageBucket": 16.95,
                           "percentageQuestion": 17.48
                         },
                         {
                           "id": "range_4_6",
                           "count": 175,
-                          "percentageBucket": 22.44,
+                          "percentageBucket": 21.5,
                           "percentageQuestion": 22.19
                         },
                         {
                           "id": "range_7_9",
                           "count": 115,
-                          "percentageBucket": 14.75,
+                          "percentageBucket": 14.13,
                           "percentageQuestion": 14.58
                         },
                         {
                           "id": "range_10_12",
                           "count": 116,
-                          "percentageBucket": 14.86,
+                          "percentageBucket": 14.25,
                           "percentageQuestion": 14.71
                         },
                         {
                           "id": "range_13_15",
                           "count": 65,
-                          "percentageBucket": 8.34,
+                          "percentageBucket": 7.98,
                           "percentageQuestion": 8.24
                         },
                         {
                           "id": "range_16_20",
                           "count": 73,
-                          "percentageBucket": 9.35,
+                          "percentageBucket": 8.96,
                           "percentageQuestion": 9.24
                         },
                         {
                           "id": "range_over_20",
                           "count": 74,
-                          "percentageBucket": 9.49,
+                          "percentageBucket": 9.08,
                           "percentageQuestion": 9.39
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 34,
+                          "percentageBucket": 4.18,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
@@ -302,6 +283,23 @@
                           "percentageQuestion": 0
                         }
                       ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "other_answers",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      }
                     }
                   ]
                 }

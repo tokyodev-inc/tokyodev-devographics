@@ -6,7 +6,7 @@
           "other": {
             "communities_vs_salary": {
               "id": "communities",
-              "responses": {
+              "combined": {
                 "currentEdition": {
                   "_metadata": {
                     "axis1Sort": {
@@ -18,7 +18,7 @@
                       "order": "desc"
                     },
                     "limit": 50,
-                    "cutoff": 1
+                    "cutoff": 10
                   },
                   "completion": {
                     "count": 277,
@@ -201,49 +201,55 @@
                         {
                           "id": "range_under_2999999",
                           "count": 27,
-                          "percentageBucket": 4.01,
+                          "percentageBucket": 3.32,
                           "percentageQuestion": 9.75
                         },
                         {
                           "id": "range_3000000_to_5999999",
                           "count": 128,
-                          "percentageBucket": 19.05,
+                          "percentageBucket": 15.73,
                           "percentageQuestion": 46.2
                         },
                         {
                           "id": "range_6000000_to_8999999",
                           "count": 192,
-                          "percentageBucket": 28.58,
+                          "percentageBucket": 23.59,
                           "percentageQuestion": 69.31
                         },
                         {
                           "id": "range_9000000_to_11999999",
                           "count": 136,
-                          "percentageBucket": 20.24,
+                          "percentageBucket": 16.71,
                           "percentageQuestion": 49.1
                         },
                         {
                           "id": "range_12000000_to_14999999",
                           "count": 71,
-                          "percentageBucket": 10.57,
+                          "percentageBucket": 8.72,
                           "percentageQuestion": 25.64
                         },
                         {
                           "id": "range_15000000_to_19999999",
                           "count": 54,
-                          "percentageBucket": 8.04,
+                          "percentageBucket": 6.64,
                           "percentageQuestion": 19.5
                         },
                         {
                           "id": "range_20000000_to_29999999",
                           "count": 40,
-                          "percentageBucket": 5.96,
+                          "percentageBucket": 4.92,
                           "percentageQuestion": 14.44
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 142,
+                          "percentageBucket": 17.44,
+                          "percentageQuestion": 0
                         },
                         {
                           "id": "other_answers",
                           "count": 24,
-                          "percentageBucket": 4,
+                          "percentageBucket": 3,
                           "percentageQuestion": 0
                         }
                       ]
@@ -529,312 +535,6 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "a11y_tokyo",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "A11y Tokyo Meetup",
-                        "nameClean": "A11y Tokyo Meetup",
-                        "id": "a11y_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://a11ytyo.connpass.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "coffee_and_code",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Coffee and Code",
-                        "nameClean": "Coffee and Code",
-                        "id": "coffee_and_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/coffee-and-code-tokyo/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "engineer_cafe",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Engineer Cafe",
-                        "nameClean": "Engineer Cafe",
-                        "id": "engineer_cafe",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://engineercafe.jp/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 1,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "hn_kansai",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Hacker News Kansai",
-                        "nameClean": "Hacker News Kansai",
-                        "id": "hn_kansai",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hnkansai.org"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 114,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "japan_test_community",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Japan Test Community",
-                        "nameClean": "Japan Test Community",
-                        "id": "japan_test_community",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/japan-test-community/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "mobile_dev_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Mobile Dev Japan",
-                        "nameClean": "Mobile Dev Japan",
-                        "id": "mobile_dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://mobiledev-japan.connpass.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 6,
-                          "percentageBucket": 120,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "tokyo_net_developers_meetup",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Tokyo .NET Developers Meetup",
-                        "nameClean": "Tokyo .NET Developers Meetup",
-                        "id": "tokyo_net_developers_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/tokyo-net-developers-meetup/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 2,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_science_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women in Science Japan",
-                        "nameClean": "Women in Science Japan",
-                        "id": "women_in_science_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.womeninsciencejapan.com/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 5,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 0,
-                      "id": "women_in_technology_japan",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "entity": {
-                        "name": "Women In Technology Japan",
-                        "nameClean": "Women In Technology Japan",
-                        "id": "women_in_technology_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womenintech.jp/"
-                        }
-                      },
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 5,
-                          "percentageBucket": 125,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
                       "count": 525,
                       "id": "no_answer",
                       "percentageQuestion": 0,
@@ -903,6 +603,34 @@
                           "count": 16,
                           "percentageBucket": 3,
                           "percentageQuestion": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 69,
+                      "id": "other_answers",
+                      "percentageQuestion": 24.91,
+                      "percentageSurvey": 8.47,
+                      "averageByFacet": 10736124.71,
+                      "percentilesByFacet": {
+                        "p0": 5583333.34,
+                        "p10": 7070833.34,
+                        "p25": 7593750,
+                        "p50": 8854166.67,
+                        "p75": 12614583.34,
+                        "p90": 17425000,
+                        "p100": 22625000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_6000000_to_8999999",
+                          "count": 17,
+                          "percentageBucket": 24.64
+                        },
+                        {
+                          "id": "range_9000000_to_11999999",
+                          "count": 12,
+                          "percentageBucket": 17.39
                         }
                       ]
                     }

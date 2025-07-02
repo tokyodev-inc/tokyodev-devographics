@@ -10,10 +10,12 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: job_info__languages_used_colleagues_japanese
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
+                limit: 20
               }
             ) {
               currentEdition {

@@ -10,7 +10,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -19,6 +19,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -79,7 +80,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -88,6 +89,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -148,7 +150,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -160,6 +162,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
@@ -220,7 +223,7 @@ query {
                 count
               }
             }
-            responses(
+            combined(
               facet: compensation__current_total_annual_compensation
               filters: {
                 user_info__years_of_experience: {
@@ -234,6 +237,7 @@ query {
               }
               parameters: {
                 showNoAnswer: true
+                cutoff: 10
               }
             ) {
               currentEdition {
