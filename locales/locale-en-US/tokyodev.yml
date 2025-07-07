@@ -235,7 +235,7 @@ translations:
 
   # age
   - key: user_info.age
-    t: 🧑‍💼 Age
+    t: ⏳ Age
   - key: user_info.age.question
     t: How old are you?
 
@@ -813,6 +813,44 @@ translations:
   - key: job_info.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
 
+  - key: options.work_hours_per_week.range_under_30
+    t: Less than 30 hours
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35 hours
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40 hours
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45 hours
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50 hours
+  - key: options.work_hours_per_week.range_over_50
+    t: Over 50 hours
+
+  # regular_work_location
+  - key: job_info.regular_work_location
+    t: 🗄️ Work Location
+  - key: job_info.regular_work_location.question
+    t: Where do you usually work from?
+
+  - key: options.regular_work_location.company_offices
+    t: Company office
+  - key: options.regular_work_location.coworking_space
+    t: Coworking space
+  - key: options.regular_work_location.cafe
+    t: Café
+  - key: options.regular_work_location.dedicated_private_office
+    t: Separate private office
+  - key: options.regular_work_location.dedicated_private_office.description
+    t: Your own private office physically separate from your home
+  - key: options.regular_work_location.dedicated_room
+    t: Dedicated office
+  - key: options.regular_work_location.dedicated_room.description
+    t: A dedicated office room within your home
+  - key: options.regular_work_location.common_room
+    t: Shared-purpose room
+  - key: options.regular_work_location.common_room.description
+    t: A multi-purpose room such as bedroom, living room, etc.
+
   - key: job_info.overtime_per_month
     t: Overtime per Month
   - key: job_info.overtime_per_month.question
@@ -1054,6 +1092,52 @@ translations:
     aliasFor: options.workplace_difficulties.language_differences
   - key: options.workplace_perks.language_differences.description
     t: Language acquisition opportunities
+
+  # job title
+
+  - key: job_info.job_title
+    t: 🧑‍💼️ Job Title
+  - key: job_info.job_title.question
+    t: What is your job title?
+
+  # discrimination_issues
+
+  - key: job_info.discrimination_issues
+    t: 😡 Discrimination
+  - key: job_info.discrimination_issues.question
+    t: Have you ever experienced discrimination in the workplace based on any of the following factors?
+
+  - key: options.discrimination_issues.gender
+    t: Gender or gender identity
+  - key: options.discrimination_issues.sexual_orientation
+    t: Sexual orientation
+  - key: options.discrimination_issues.race
+    t: Race
+  - key: options.discrimination_issues.religion
+    t: Religion or spiritual beliefs
+  - key: options.discrimination_issues.age
+    t: Age
+  - key: options.discrimination_issues.political_views
+    t: Political beliefs or affiliations
+  - key: options.discrimination_issues.caregiving_status
+    t: Caregiving responsibilities
+  - key: options.discrimination_issues.caregiving_status.description
+    t: Such as pregnancy, parenting, elder care, etc.
+  - key: options.discrimination_issues.disability
+    t: Disabilities
+  - key: options.discrimination_issues.disability.description
+    t: Including physical, mental, or neurodivergent conditions.
+
+  - key: options.discrimination_issues.country_citizenship
+    t: Country of origin
+  - key: options.discrimination_issues.appearance_body
+    t: Physical appearance or characteristics
+
+  # job_happiness
+  - key: job_info.job_happiness
+    t: 😁 Job Happiness
+  - key: job_info.job_happiness.question
+    t: How happy are you with your current job?
 
   #######################################################
   #                                                     #
@@ -1355,6 +1439,12 @@ translations:
   - key: options.most_important_benefit.training
     t: Training (free or subsidized)
 
+  # income_evolution
+  - key: compensation.income_evolution
+    t: 💹 Income Evolution
+  - key: compensation.income_evolution.question
+    t: How has your total income evolved over the past 12 months?
+
   #######################################################
   #                                                     #
   #                     TECHNOLOGY                      #
@@ -1406,11 +1496,46 @@ translations:
   - key: technology.cloud_platforms.question
     t: Which cloud platforms do you regularly use at your job?
 
+  # social_media
+  - key: technology.social_media
+    t: Social Media
+  - key: technology.social_media.question
+    t: Which social media sites do you use regularly?
+
   # development_processes
   - key: technology.development_processes
     t: Development Processes
   - key: technology.development_processes.question
     t: Which of the following software development processes does your current employer use?
+
+  # software_engineering_practices
+  - key: technology.software_engineering_practices
+    t: Software Engineering Practices
+  - key: technology.software_engineering_practices.question
+    t: Which of the following software engineering practices does your current employer use?
+
+  - key: options.software_engineering_practices.agile
+    t: Agile Development
+  - key: options.software_engineering_practices.automated_testing
+    t: Automated Testing
+  - key: options.software_engineering_practices.blameless_postmortems
+    t: Blameless Postmortems
+  - key: options.software_engineering_practices.code_reviews
+    t: Code Reviews
+  - key: options.software_engineering_practices.continuous_deployment_delivery
+    t: Continuous Deployment/Delivery
+  - key: options.software_engineering_practices.continuous_integration
+    t: Continuous Integration
+  - key: options.software_engineering_practices.infrastructure_as_code
+    t: Infrastructure as Code (IaC)
+  - key: options.software_engineering_practices.monitoring_and_logging
+    t: Monitoring and Logging
+  - key: options.software_engineering_practices.pair_programming
+    t: Pair Programming
+  - key: options.software_engineering_practices.waterfall
+    t: Waterfall Development
+  - key: options.software_engineering_practices.version_control
+    t: Version Control
 
   # productivity_tools
   - key: technology.productivity_tools
@@ -1451,7 +1576,392 @@ translations:
 
   #######################################################
   #                                                     #
-  #                 SATISFACTION                    #
+  #                       AI.                           #
+  #                                                     #
+  #######################################################
+
+  - key: sections.ai_usage.title
+    t: AI Usage
+
+  - key: ai_usage.ai_tools
+    t: AI Tools
+  - key: ai_usage.ai_tools.question
+    t: Which AI tools do you use regularly?
+  - key: ai_usage.ai_tools.prompt
+    t: Only select tools that you use once a week or more.
+
+    # ai_uses
+
+  - key: ai_usage.ai_uses
+    t: Use Cases
+  - key: ai_usage.ai_uses.question
+    t: What do you use AI tools for?
+
+  - key: options.ai_uses.code_generation
+    t: Code generation
+
+  - key: options.ai_uses.code_generation.description
+    t: Generating or refactoring code based on a prompt.
+
+  - key: options.ai_uses.translation
+    t: Translation
+
+  - key: options.ai_uses.translation.description
+    t: Translating content from one language to another.
+
+  - key: options.ai_uses.language_detection
+    t: Language detection
+
+  - key: options.ai_uses.language_detection.description
+    t: Detecting the language a text is written in.
+
+  - key: options.ai_uses.summarization
+    t: Summarization
+
+  - key: options.ai_uses.summarization.description
+    t: Summarizing a text or dataset into its main themes.
+
+  - key: options.ai_uses.text_generation
+    t: Text generation
+
+  - key: options.ai_uses.text_generation.description
+    t: Generating a text based on a prompt.
+
+  - key: options.ai_uses.image_generation
+    t: Image generation
+
+  - key: options.ai_uses.image_generation.description
+    t: Generating an image based on a prompt
+
+  - key: options.ai_uses.speech_generation
+    t: Speech generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: Generating speech based on a prompt or a text.
+
+  - key: options.ai_uses.speech_recognition
+    t: Speech recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: Transcribing recorded or real-time speech into text.
+
+  - key: options.ai_uses.computer_vision
+    t: Computer vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: Detecting items in a photo or video feed.
+
+  - key: options.ai_uses.sentiment_analysis
+    t: Sentiment analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: Classifying text data based on sentiment.
+
+  - key: options.ai_uses.caption_generation
+    t: Captions generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: Generating captions or subtitles for images or videos.
+
+  - key: options.ai_uses.learning_research
+    t: Learning & research
+
+  - key: options.ai_uses.learning_research.description
+    t: Learning new skills or researching a topic.
+
+  - key: options.ai_uses.code_assistance
+    t: Code review & assistance
+  - key: options.ai_uses.search_information_gathering
+    t: Search & information gathering
+  - key: options.ai_uses.text_processing
+    t: Text processing
+  - key: options.ai_uses.not_using
+    t: Not currently using
+  - key: options.ai_uses.data_manipulation_processing
+    t: Data processing
+
+  # ai_pain_points
+  - key: ai_usage.ai_pain_points
+    t: Pain Points
+  - key: ai_usage.ai_pain_points.question
+    t: What are your top pain points when it comes to using AI tools?
+
+  - key: options.ai_pain_points.misunderstood_prompt
+    t: Prompt comprehension
+  - key: options.ai_pain_points.misunderstood_prompt.description
+    t: AI not correctly understanding the prompt.
+
+  - key: options.ai_pain_points.poor_generated_code
+    t: Code quality
+  - key: options.ai_pain_points.poor_generated_code.description
+    t: Code with low performance, excessive repetition, outdated imports, etc.
+
+  - key: options.ai_pain_points.training_data_concerns
+    t: Copyright concerns
+  - key: options.ai_pain_points.training_data_concerns.description
+    t: Concerns about training on copyrighted materials.
+
+  - key: options.ai_pain_points.integration_difficulties
+    t: Integration difficulties
+  - key: options.ai_pain_points.integration_difficulties.description
+    t: Difficulties integrating AI tools with your existing workflow.
+
+  - key: options.ai_pain_points.costs
+    t: Financial costs
+  - key: options.ai_pain_points.costs.description
+    t: AI tools being too expensive.
+
+  - key: options.ai_pain_points.environmental_impact
+    t: Environmental impact
+  - key: options.ai_pain_points.environmental_impact.description
+    t: Concerns about the energy consumption of AI tools.
+
+  - key: options.ai_pain_points.lack_of_context
+    t: Lack of context
+  - key: options.ai_pain_points.lack_of_context.description
+    t: AI not taking into account entire project context
+
+  - key: options.ai_pain_points.lack_of_memory
+    t: Lack of memory
+  - key: options.ai_pain_points.lack_of_memory.description
+    t: AI not having memory over time
+
+  - key: options.ai_pain_points.privacy_concerns
+    t: Privacy concerns
+  - key: options.ai_pain_points.privacy_concerns.description
+    t: Concerns about private code or data leaking to AI providers.
+
+  - key: options.ai_pain_points.hallucinations_inaccuracies
+    t: Hallucination & inaccuracies
+  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+    t: Concerns about AI tools making up content.
+
+  - key: options.ai_pain_points.ethical_concerns
+    t: Ethical concerns
+  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+    t: Concerns about how the companies developing AI tools are being run.
+
+  - key: ai_usage.ai_generated_code_balance
+    t: AI Code Generation
+  - key: ai_usage.ai_generated_code_balance.question
+    t: What proportion of the code you produce is AI-generated?
+  - key: ai_usage.ai_generated_code_balance.prompt
+    t: Including code copy-pasted from ChatGPT or other chatbots.
+
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
+  # ai_code_generation_frequency
+
+  - key: ai_usage.ai_code_generation_frequency
+    t: Code Generation Frequency
+  - key: ai_usage.ai_code_generation_frequency.question
+    t: How frequently do you use AI tools to generate or refactor code?
+  - key: options.ai_code_generation_frequency.0
+    t: Never
+  - key: options.ai_code_generation_frequency.1
+    t: A few times per year
+  - key: options.ai_code_generation_frequency.2
+    t: A few times per month
+  - key: options.ai_code_generation_frequency.3
+    t: A few times per week
+  - key: options.ai_code_generation_frequency.4
+    t: A few times per day
+  - key: options.ai_code_generation_frequency.5
+    t: A few times per hour
+  - key: options.ai_code_generation_frequency.6
+    t: Constantly
+
+  # more_productive
+
+  - key: ai_usage.more_productive
+    t: Productivity
+  - key: ai_usage.more_productive.question
+    t: AI tools have made me a lot more productive
+
+  # job_security_threat
+
+  - key: ai_usage.job_security_threat
+    t: Job Security
+  - key: ai_usage.job_security_threat.question
+    t: AI tools are a threat to my job security
+
+  #######################################################
+  #                                                     #
+  #                   PERSONAL LIFE                     #
+  #                                                     #
+  #######################################################
+
+  - key: sections.personal_life.title
+    t: Personal Life
+
+  # relationship_status
+
+  - key: personal_life.relationship_status
+    t: Relationship Status
+  - key: personal_life.relationship_status.question
+    t: What is your current relationship status?
+
+  - key: options.relationship_status.single
+    t: Single
+  - key: options.relationship_status.in_a_relationship
+    t: In a relationship
+  - key: options.relationship_status.its_complicated
+    t: It's complicated
+  - key: options.relationship_status.divorced_separated
+    t: Divorced or separated
+  - key: options.relationship_status.married
+    t: Married
+  - key: options.relationship_status.polyamorous
+    t: Polyamorous
+  - key: options.relationship_status.widowed
+    t: Widowed
+
+  # number_of_kids
+
+  - key: personal_life.number_of_kids
+    t: Number of Kids
+  - key: personal_life.number_of_kids.question
+    t: How many children do you have?
+
+  - key: options.number_of_kids.range_0
+    t: 0
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 or more
+
+  # friend_group_balance
+
+  - key: personal_life.friend_group_balance
+    t: Friend Group
+  - key: personal_life.friend_group_balance.description
+    t: Among your friends, what is the balance of Japanese and non-Japanese?
+
+  - key: options.friend_group_balance.all_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_japanese
+  - key: options.friend_group_balance.mostly_japanese
+    aliasFor: options.coworker_nationalities_engineers.mostly_japanese
+  - key: options.friend_group_balance.mix_japanese_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese
+  - key: options.friend_group_balance.mostly_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.mostly_non_japanese
+  - key: options.friend_group_balance.all_non_japanese
+    aliasFor: options.coworker_nationalities_engineers.all_non_japanese
+
+  - key: options.friend_group_balance.all_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.all_japanese.short
+  - key: options.friend_group_balance.mostly_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.mostly_japanese.short
+  - key: options.friend_group_balance.mix_japanese_non_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
+  - key: options.friend_group_balance.mostly_non_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.mostly_non_japanese.short
+  - key: options.friend_group_balance.all_non_japanese.short
+    aliasFor: options.coworker_nationalities_engineers.all_non_japanese.short
+
+  # initial_attraction
+  - key: personal_life.initial_attraction
+    t: Initial Attraction
+  - key: personal_life.initial_attraction.question
+    t: What initially attracted you to Japan?
+  - key: personal_life.initial_attraction.prompt
+    t: The thing that first triggered your interest for Japan, if applicable.
+
+  - key: options.initial_attraction.anime_manga
+    t: Anime/manga
+  - key: options.initial_attraction.food
+    t: Japanese Food
+  - key: options.initial_attraction.martial_arts
+    t: Japanese Martial Arts
+  - key: options.initial_attraction.relationship
+    t: Relationship
+  - key: options.initial_attraction.career
+    t: Career
+  - key: options.initial_attraction.studies
+    t: Studies
+  - key: options.initial_attraction.culture
+    t: Japanese culture
+  - key: options.initial_attraction.travel
+    t: Travel
+  - key: options.initial_attraction.family
+    t: Family
+  - key: options.initial_attraction.craftsmanship
+    t: Japanese craftmanship
+
+  # hobbies
+
+  - key: personal_life.hobbies
+    t: Hobbies
+  - key: personal_life.hobbies.question
+    t: What are your hobbies?
+
+  - key: options.hobbies.woodworking
+    t: Woodworking/DIY
+  - key: options.hobbies.table_top_gaming
+    t: Table-top gaming
+  - key: options.hobbies.video_games
+    t: Video games
+  - key: options.hobbies.music
+    t: Playing music
+  - key: options.hobbies.cooking
+    t: Cooking
+  - key: options.hobbies.reading
+    t: Reading
+  - key: options.hobbies.arts_and_crafts
+    t: Arts and crafts
+  - key: options.hobbies.electronics
+    t: Electronics
+  - key: options.hobbies.gardening
+    t: Gardening
+  - key: options.hobbies.camping
+    t: Camping
+  - key: options.hobbies.sports_exercise
+    t: Sports/exercise
+  - key: options.hobbies.movies_tv
+    t: Movies/TV
+  - key: options.hobbies.programming
+    t: Programming
+  - key: options.hobbies.photography
+    t: Photography
+  - key: options.hobbies.hiking_walking
+    t: Hiking or walking
+  - key: options.hobbies.writing
+    t: Writing
+  - key: options.hobbies.travel
+    t: Travel
+  - key: options.hobbies.dancing
+    t: Dancing
+  - key: options.hobbies.3d_printing
+    t: 3D-printing
+  - key: options.hobbies.language_learning
+    t: Language learning
+
+  #######################################################
+  #                                                     #
+  #                   SATISFACTION                      #
   #                                                     #
   #######################################################
 
