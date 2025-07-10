@@ -1886,6 +1886,32 @@
         - id: sports_exercise
         - id: programming
 
+    - id: life_japan_positive_aspects
+      template: multipleWithOther
+      limit: 3
+      options:
+        - id: safety
+        - id: infrastructure
+        - id: healthcare
+        - id: politeness
+        - id: culture
+        - id: convenience
+        - id: food
+        - id: cost_of_living
+        - id: nature_environment
+
+    - id: life_japan_negative_aspects
+      template: multipleWithOther
+      limit: 3
+      options:
+        - id: language_barrier
+        - id: work_culture
+        - id: social_isolation
+        - id: bureaucracy
+        - id: low_compensation
+        - id: natural_disaster_risk
+        - id: discrimination
+
 - id: other
   questions:
     # removed in 2025
