@@ -1752,29 +1752,30 @@
       options:
         - id: chat_gpt
         - id: claude
-        - id: gemini
-        - id: microsoft_copilot
-        - id: cursor
         - id: copilot
-        - id: v0
-        - id: midjourney
-        - id: stable_diffusion
-        - id: grok
-        - id: perplexity
+        - id: cursor
         - id: deepl
+        - id: devin
+        - id: gemini
+        - id: grok
+        - id: microsoft_copilot
+        - id: midjourney
+        - id: perplexity
+        - id: stable_diffusion
+        - id: v0
 
     - id: ai_uses
       template: multipleWithOther
       options:
         - id: code_generation
-        - id: translation
-        - id: summarization
-        - id: text_generation
+        - id: computer_vision
         - id: image_generation
+        - id: learning_research
         - id: speech_generation
         - id: speech_recognition
-        - id: computer_vision
-        - id: learning_research
+        - id: summarization
+        - id: text_generation
+        - id: translation
 
     - id: ai_generated_code_balance
       template: slider
@@ -1794,16 +1795,16 @@
     - id: ai_pain_points
       template: multipleWithOther
       options:
-        - id: misunderstood_prompt
-        - id: poor_generated_code
-        - id: training_data_concerns
-        - id: integration_difficulties
         - id: costs
         - id: environmental_impact
-        - id: lack_of_context
-        - id: privacy_concerns
-        - id: hallucinations_inaccuracies
         - id: ethical_concerns
+        - id: hallucinations_inaccuracies
+        - id: integration_difficulties
+        - id: lack_of_context
+        - id: misunderstood_prompt
+        - id: poor_generated_code
+        - id: privacy_concerns
+        - id: training_data_concerns
 
     - id: more_productive
       template: opinion
@@ -1821,9 +1822,9 @@
         - id: its_complicated
 
     - id: number_of_kids
-      template: number
+      template: single
       optionsAreSequential: true
-      groups:
+      options:
         - id: range_0
           upperBound: 1
           average: 0
@@ -1860,57 +1861,57 @@
       template: multipleWithOther
       options:
         - id: anime_manga
+        - id: career
+        - id: craftsmanship
+        - id: culture
         - id: food
         - id: martial_arts
         - id: relationship
-        - id: career
         - id: studies
-        - id: culture
         - id: travel
-        - id: craftsmanship
 
     - id: hobbies
       template: multipleWithOther
       options:
-        - id: woodworking
-        - id: table_top_gaming
-        - id: video_games
-        - id: music
-        - id: movies_tv
-        - id: cooking
-        - id: reading
         - id: arts_and_crafts
+        - id: camping
+        - id: cooking
         - id: electronics
         - id: gardening
-        - id: camping
-        - id: sports_exercise
+        - id: movies_tv
+        - id: music
         - id: programming
+        - id: reading
+        - id: sports_exercise
+        - id: table_top_gaming
+        - id: video_games
+        - id: woodworking
 
     - id: life_japan_positive_aspects
       template: multipleWithOther
       limit: 3
       options:
-        - id: safety
-        - id: infrastructure
-        - id: healthcare
-        - id: politeness
-        - id: culture
         - id: convenience
-        - id: food
         - id: cost_of_living
+        - id: culture
+        - id: food
+        - id: healthcare
+        - id: infrastructure
         - id: nature_environment
+        - id: politeness
+        - id: safety
 
     - id: life_japan_negative_aspects
       template: multipleWithOther
       limit: 3
       options:
-        - id: language_barrier
-        - id: work_culture
-        - id: social_isolation
         - id: bureaucracy
+        - id: discrimination
+        - id: language_barrier
         - id: low_compensation
         - id: natural_disaster_risk
-        - id: discrimination
+        - id: social_isolation
+        - id: work_culture
 
 - id: other
   questions:
