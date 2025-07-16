@@ -170,8 +170,63 @@
     #   template: others
 
     - id: age
-      template: age_number
+      # template: age_number
+      template: single
       optionsAreSequential: true
+      options:
+        - id: range_under_20
+          lowerBound: 0
+          average: 17.5
+          upperBound: 20
+        - id: range_20_29
+          lowerBound: 20
+          upperBound: 30
+        - id: range_30_39
+          lowerBound: 30
+          upperBound: 40
+        - id: range_40_49
+          lowerBound: 40
+          upperBound: 50
+        - id: range_50_59
+          lowerBound: 50
+          upperBound: 60
+        - id: range_over_60
+          lowerBound: 60
+          average: 65
+
+    - id: relationship_status
+      template: singleWithOther
+      options:
+        - id: single
+        - id: in_a_relationship
+        - id: its_complicated
+
+    - id: number_of_kids
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: range_0
+          upperBound: 1
+          average: 0
+        - id: range_1
+          lowerBound: 1
+          upperBound: 2
+          average: 1
+        - id: range_2
+          lowerBound: 2
+          upperBound: 3
+          average: 2
+        - id: range_3
+          lowerBound: 3
+          upperBound: 4
+          average: 3
+        - id: range_4
+          lowerBound: 4
+          upperBound: 5
+          average: 4
+        - id: range_over_5
+          lowerBound: 5
+          average: 5
 
     - id: years_of_experience
       label: "How many years of professional experience do you have in software development?"
@@ -388,14 +443,6 @@
         - id: student
         - id: retired
 
-    - id: searching_for_job
-      label: "Are you currently searching for a new job?"
-      template: single
-      options:
-        - id: yes
-        - id: no_but_would_consider
-        - id: no
-
     - id: job_title
       template: text
 
@@ -480,16 +527,16 @@
         - id: always
         # - id: na
 
-    - id: coworker_gender_engineers
-      label: What is the gender of your colleagues who are engineers?
-      template: single
-      optionsAreSequential: true
-      options:
-        - id: all_male
-        - id: mostly_made
-        - id: mixed
-        - id: mostly_female_nb
-        - id: all_female_nb
+    # - id: coworker_gender_engineers
+    #   label: What is the gender of your colleagues who are engineers?
+    #   template: single
+    #   optionsAreSequential: true
+    #   options:
+    #     - id: all_male
+    #     - id: mostly_made
+    #     - id: mixed
+    #     - id: mostly_female_nb
+    #     - id: all_female_nb
 
     # removed in 2024
     # - id: years_employed
@@ -536,6 +583,14 @@
         - id: dedicated_room
         - id: common_room
 
+    - id: searching_for_job
+      sectionId: job_info
+      label: "Are you currently searching for a new job?"
+      template: single
+      options:
+        - id: yes
+        - id: no_but_would_consider
+        - id: no
     # - id: work_days_per_week
     #   label: "In a typical week, how many days do you work?"
     #   optionsAreNumeric: true
@@ -644,35 +699,35 @@
     #     - id: value_3
     #     - id: value_4
 
-    - id: workplace_perks
-      label: What do you like most about working in Japan?
-      template: multipleWithOther
-      options:
-        - id: coworker_relations
-        - id: company_culture
-        - id: working_conditions
-        - id: job_security
-        - id: work_content
-        - id: work_life_balance
-        - id: compensation
-        - id: training
-        - id: cultural_differences
-        - id: language_differences
+    # - id: workplace_perks
+    #   label: What do you like most about working in Japan?
+    #   template: multipleWithOther
+    #   options:
+    #     - id: coworker_relations
+    #     - id: company_culture
+    #     - id: working_conditions
+    #     - id: job_security
+    #     - id: work_content
+    #     - id: work_life_balance
+    #     - id: compensation
+    #     - id: training
+    #     - id: cultural_differences
+    #     - id: language_differences
 
-    - id: workplace_difficulties
-      label: Which difficulties have you encountered while working in Japan?
-      template: multipleWithOther
-      options:
-        - id: coworker_relations
-        - id: company_culture
-        - id: working_conditions
-        - id: job_security
-        - id: work_content
-        - id: work_life_balance
-        - id: compensation
-        - id: training
-        - id: cultural_differences
-        - id: language_differences
+    # - id: workplace_difficulties
+    #   label: Which difficulties have you encountered while working in Japan?
+    #   template: multipleWithOther
+    #   options:
+    #     - id: coworker_relations
+    #     - id: company_culture
+    #     - id: working_conditions
+    #     - id: job_security
+    #     - id: work_content
+    #     - id: work_life_balance
+    #     - id: compensation
+    #     - id: training
+    #     - id: cultural_differences
+    #     - id: language_differences
 
     - id: discrimination_issues
       template: multipleWithOther
@@ -692,10 +747,8 @@
     - id: job_happiness
       template: happiness
 
-- id: employer_info
-  # messageId: sections.employer_info.intro
-  questions:
     - id: current_employer
+      sectionId: employer_info
       label: "Which of the following best describes your current employer?"
       template: singleWithOther
       options:
@@ -710,6 +763,7 @@
     #   template: others
 
     - id: industry_sector
+      sectionId: employer_info
       label: "What industry or business domain is your current employer in?"
       template: multipleWithOther
       matchTags: [industry_sectors]
@@ -746,6 +800,7 @@
     #   template: others
 
     - id: remote_work_policy
+      sectionId: employer_info
       label: "What best describes your employer's remote work policy?"
       template: single
       options:
@@ -756,6 +811,7 @@
         # - id: na
 
     - id: company_size
+      sectionId: employer_info
       label: "How many employees does your employer have (worldwide)?"
       template: single
       optionsAreRange: true
@@ -796,9 +852,8 @@
           average: 10000
           lowerBound: 10000
 
-- id: compensation
-  questions:
     - id: current_total_annual_compensation
+      sectionId: compensation
       label: "What is your current total annual compensation (salary, bonuses, perks, and overtime pay, before taxes and deductions) in Japanese yen?"
       template: dropdown
       optionsAreRange: true
@@ -1078,6 +1133,7 @@
           lowerBound: 100000000
 
     - id: income_evolution
+      sectionId: compensation
       template: single
       options:
         - id: increased
@@ -1812,42 +1868,8 @@
     - id: job_security_threat
       template: opinion
 
-- id: personal_life
+- id: life_in_japan
   questions:
-    - id: relationship_status
-      template: singleWithOther
-      options:
-        - id: single
-        - id: in_a_relationship
-        - id: its_complicated
-
-    - id: number_of_kids
-      template: single
-      optionsAreSequential: true
-      options:
-        - id: range_0
-          upperBound: 1
-          average: 0
-        - id: range_1
-          lowerBound: 1
-          upperBound: 2
-          average: 1
-        - id: range_2
-          lowerBound: 2
-          upperBound: 3
-          average: 2
-        - id: range_3
-          lowerBound: 3
-          upperBound: 4
-          average: 3
-        - id: range_4
-          lowerBound: 4
-          upperBound: 5
-          average: 4
-        - id: range_over_5
-          lowerBound: 5
-          average: 5
-
     - id: friend_group_balance
       template: single
       options:
@@ -1913,6 +1935,31 @@
         - id: social_isolation
         - id: work_culture
 
+    - id: communities
+      sectionId: other
+      template: multipleWithOther
+      order: alphabetical
+      options:
+        - id: code_chrysalis
+        - id: coffee_and_code
+        - id: creative_tokyo
+        - id: engineer_cafe
+        - id: hn_tokyo
+        - id: hn_kansai
+        - id: le_wagon
+        - id: owddm
+        - id: tokyodev_discord
+        - id: tokyo_ios_meetup
+        - id: tokyo_rubyist_meetup
+        - id: tokyo_net_developers_meetup
+        - id: tokyo_tech_leads_circle
+        - id: women_in_science_japan
+        - id: wise_japan
+        - id: women_in_technology_japan
+        - id: a11y_tokyo
+        - id: dev_japan
+        - id: japan_test_community
+        - id: mobile_dev_japan
 - id: other
   questions:
     # removed in 2025
@@ -1952,31 +1999,6 @@
     # - id: life_in_japan__financial_situation
     #   i18nNamespace: satisfaction
     #   template: likert_option
-
-    - id: communities
-      template: multipleWithOther
-      order: alphabetical
-      options:
-        - id: code_chrysalis
-        - id: coffee_and_code
-        - id: creative_tokyo
-        - id: engineer_cafe
-        - id: hn_tokyo
-        - id: hn_kansai
-        - id: le_wagon
-        - id: owddm
-        - id: tokyodev_discord
-        - id: tokyo_ios_meetup
-        - id: tokyo_rubyist_meetup
-        - id: tokyo_net_developers_meetup
-        - id: tokyo_tech_leads_circle
-        - id: women_in_science_japan
-        - id: wise_japan
-        - id: women_in_technology_japan
-        - id: a11y_tokyo
-        - id: dev_japan
-        - id: japan_test_community
-        - id: mobile_dev_japan
 
     # - id: keyboard_layout
     #   template: multipleWithOther
