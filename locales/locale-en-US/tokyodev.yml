@@ -485,6 +485,48 @@ translations:
     aliases:
       - other.source
 
+  # relationship_status
+
+  - key: user_info.relationship_status
+    t: 💕 Relationship Status
+  - key: user_info.relationship_status.question
+    t: What is your current relationship status?
+
+  - key: options.relationship_status.single
+    t: Single
+  - key: options.relationship_status.in_a_relationship
+    t: In a relationship
+  - key: options.relationship_status.its_complicated
+    t: It's complicated
+  - key: options.relationship_status.divorced_separated
+    t: Divorced or separated
+  - key: options.relationship_status.married
+    t: Married
+  - key: options.relationship_status.polyamorous
+    t: Polyamorous
+  - key: options.relationship_status.widowed
+    t: Widowed
+
+  # number_of_kids
+
+  - key: user_info.number_of_kids
+    t: 👶 Number of Kids
+  - key: user_info.number_of_kids.question
+    t: How many children do you have?
+
+  - key: options.number_of_kids.range_0
+    t: None
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 or more
+
   #######################################################
   #                                                     #
   #                    EMPLOYER INFO                    #
@@ -1584,7 +1626,7 @@ translations:
     t: AI Usage
 
   - key: ai_usage.ai_tools
-    t: AI Tools
+    t: 🤖 AI Tools
   - key: ai_usage.ai_tools.question
     t: Which AI tools do you use regularly?
   - key: ai_usage.ai_tools.prompt
@@ -1593,12 +1635,12 @@ translations:
     # ai_uses
 
   - key: ai_usage.ai_uses
-    t: Use Cases
+    t: ⚙️ Use Cases
   - key: ai_usage.ai_uses.question
     t: What do you use AI tools for?
 
   - key: options.ai_uses.code_generation
-    t: Code generation
+    t: 💾 Code generation
 
   - key: options.ai_uses.code_generation.description
     t: Generating or refactoring code based on a prompt.
@@ -1682,7 +1724,7 @@ translations:
 
   # ai_pain_points
   - key: ai_usage.ai_pain_points
-    t: Pain Points
+    t: 😖 Pain Points
   - key: ai_usage.ai_pain_points.question
     t: What are your top pain points when it comes to using AI tools?
 
@@ -1770,7 +1812,7 @@ translations:
   # ai_code_generation_frequency
 
   - key: ai_usage.ai_code_generation_frequency
-    t: Code Generation Frequency
+    t: ⏱️ Code Generation Frequency
   - key: ai_usage.ai_code_generation_frequency.question
     t: How frequently do you use AI tools to generate or refactor code?
   - key: options.ai_code_generation_frequency.0
@@ -1791,73 +1833,31 @@ translations:
   # more_productive
 
   - key: ai_usage.more_productive
-    t: Productivity
+    t: 🏭 Productivity
   - key: ai_usage.more_productive.question
     t: AI tools have made me a lot more productive
 
   # job_security_threat
 
   - key: ai_usage.job_security_threat
-    t: Job Security
+    t: 🔒 Job Security
   - key: ai_usage.job_security_threat.question
     t: AI tools are a threat to my job security
 
   #######################################################
   #                                                     #
-  #                   PERSONAL LIFE                     #
+  #                   LIFE IN JAPAN                     #
   #                                                     #
   #######################################################
 
-  - key: sections.personal_life.title
-    t: Personal Life
-
-  # relationship_status
-
-  - key: personal_life.relationship_status
-    t: Relationship Status
-  - key: personal_life.relationship_status.question
-    t: What is your current relationship status?
-
-  - key: options.relationship_status.single
-    t: Single
-  - key: options.relationship_status.in_a_relationship
-    t: In a relationship
-  - key: options.relationship_status.its_complicated
-    t: It's complicated
-  - key: options.relationship_status.divorced_separated
-    t: Divorced or separated
-  - key: options.relationship_status.married
-    t: Married
-  - key: options.relationship_status.polyamorous
-    t: Polyamorous
-  - key: options.relationship_status.widowed
-    t: Widowed
-
-  # number_of_kids
-
-  - key: personal_life.number_of_kids
-    t: Number of Kids
-  - key: personal_life.number_of_kids.question
-    t: How many children do you have?
-
-  - key: options.number_of_kids.range_0
-    t: 0
-  - key: options.number_of_kids.range_1
-    t: 1
-  - key: options.number_of_kids.range_2
-    t: 2
-  - key: options.number_of_kids.range_3
-    t: 3
-  - key: options.number_of_kids.range_4
-    t: 4
-  - key: options.number_of_kids.range_over_5
-    t: 5 or more
+  - key: sections.life_in_japan.title
+    t: Life in Japan
 
   # friend_group_balance
 
-  - key: personal_life.friend_group_balance
-    t: Friend Group
-  - key: personal_life.friend_group_balance.description
+  - key: life_in_japan.friend_group_balance
+    t: 👭 Friend Group
+  - key: life_in_japan.friend_group_balance.description
     t: Among your friends, what is the balance of Japanese and non-Japanese?
 
   - key: options.friend_group_balance.all_japanese
@@ -1883,11 +1883,11 @@ translations:
     aliasFor: options.coworker_nationalities_engineers.all_non_japanese.short
 
   # initial_attraction
-  - key: personal_life.initial_attraction
-    t: Initial Attraction
-  - key: personal_life.initial_attraction.question
+  - key: life_in_japan.initial_attraction
+    t: 🗾 Initial Attraction
+  - key: life_in_japan.initial_attraction.question
     t: What initially attracted you to Japan?
-  - key: personal_life.initial_attraction.prompt
+  - key: life_in_japan.initial_attraction.prompt
     t: The thing that first triggered your interest for Japan, if applicable.
 
   - key: options.initial_attraction.anime_manga
@@ -1913,9 +1913,9 @@ translations:
 
   # hobbies
 
-  - key: personal_life.hobbies
-    t: Hobbies
-  - key: personal_life.hobbies.question
+  - key: life_in_japan.hobbies
+    t: 🗻 Hobbies
+  - key: life_in_japan.hobbies.question
     t: What are your hobbies?
 
   - key: options.hobbies.woodworking
@@ -1961,9 +1961,9 @@ translations:
 
   # life_japan_positive_aspects
 
-  - key: personal_life.life_japan_positive_aspects
-    t: Positive Aspects
-  - key: personal_life.life_japan_positive_aspects.question
+  - key: life_in_japan.life_japan_positive_aspects
+    t: 👍 Positive Aspects
+  - key: life_in_japan.life_japan_positive_aspects.question
     t: What are the positive aspects of living in Japan?
 
   - key: options.life_japan_positive_aspects.safety
@@ -1987,9 +1987,9 @@ translations:
 
   # life_japan_negative_aspects
 
-  - key: personal_life.life_japan_negative_aspects
-    t: Negative Aspects
-  - key: personal_life.life_japan_negative_aspects.question
+  - key: life_in_japan.life_japan_negative_aspects
+    t: 👎 Negative Aspects
+  - key: life_in_japan.life_japan_negative_aspects.question
     t: What are the negative aspects of living in Japan?
 
   - key: options.life_japan_negative_aspects.language_barrier
