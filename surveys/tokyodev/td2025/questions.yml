@@ -1383,8 +1383,8 @@
           label: PHP
         - id: rust
           label: Rust
-        # - id: csharp
-        #   label: C#
+        - id: csharp
+          label: C#
         - id: swift
           label: Swift
         - id: c
@@ -1882,15 +1882,19 @@
     - id: initial_attraction
       template: multipleWithOther
       options:
-        - id: anime_manga
+        - id: adventure
         - id: career
-        - id: craftsmanship
-        - id: culture
+        - id: family
         - id: food
+        - id: friendship_romance
+        - id: infrastructure
+        - id: language
         - id: martial_arts
-        - id: relationship
-        - id: studies
-        - id: travel
+        - id: nature
+        - id: pop_culture
+        - id: culture_history
+        - id: safety
+        - id: tourism
 
     - id: hobbies
       template: multipleWithOther
@@ -1900,6 +1904,7 @@
         - id: cooking
         - id: electronics
         - id: gardening
+        - id: language_learning
         - id: movies_tv
         - id: music
         - id: programming
@@ -1913,26 +1918,34 @@
       template: multipleWithOther
       limit: 3
       options:
+        - id: adventure
+        - id: career
+        - id: collectivist_culture
+        - id: compensation
         - id: convenience
         - id: cost_of_living
-        - id: culture
         - id: food
         - id: healthcare
         - id: infrastructure
-        - id: nature_environment
-        - id: politeness
+        - id: nature
+        - id: pop_culture
+        - id: culture_history
         - id: safety
 
     - id: life_japan_negative_aspects
       template: multipleWithOther
       limit: 3
       options:
-        - id: bureaucracy
-        - id: discrimination
-        - id: language_barrier
-        - id: low_compensation
+        - id: cultural_barriers
+        - id: compensation
+        - id: cost_of_living
+        - id: food
+        - id: healthcare
+        - id: housing
+        - id: isolation
+        - id: limited_career_growth
         - id: natural_disaster_risk
-        - id: social_isolation
+        - id: pressure_to_conform
         - id: work_culture
 
     - id: communities
