@@ -244,6 +244,8 @@ translations:
     t: 🧑‍💼 Professional Experience
   - key: user_info.years_of_experience.question
     t: How many years of professional experience do you have in software development?
+  - key: user_info.years_of_experience.prompt
+    t: Over your entire career, both in Japan and abroad.
 
   # years_in_japan
   - key: user_info.years_in_japan
@@ -1911,6 +1913,66 @@ translations:
   - key: options.initial_attraction.craftsmanship
     t: Japanese craftmanship
 
+  - key: options.initial_attraction.adventure
+    t: Tourism & adventure
+  - key: options.initial_attraction.adventure.description
+    t: Seeking new and unique experiences through travel, nature, and exploration in Japan.
+
+  - key: options.initial_attraction.career
+    t: Career opportunities
+  - key: options.initial_attraction.career.description
+    t: Interest in working in Japan or gaining international job experience.
+
+  - key: options.initial_attraction.family
+    t: Family
+  - key: options.initial_attraction.family.description
+    t: Family connections in Japan or a desire to explore Japanese ancestry.
+
+  - key: options.initial_attraction.food
+    t: Food
+  - key: options.initial_attraction.food.description
+    t: Love for Japanese cuisine like sushi, ramen, and street food, or dining culture in general.
+
+  - key: options.initial_attraction.friendship_romance
+    t: Friendship or romantic relationship
+  - key: options.initial_attraction.friendship_romance.description
+    t: Having close personal ties with someone from or in Japan.
+
+  - key: options.initial_attraction.infrastructure
+    t: Infrastructure
+  - key: options.initial_attraction.infrastructure.description
+    t: Appreciation for Japan’s clean, efficient, and advanced public systems.
+
+  - key: options.initial_attraction.language
+    t: Japanese language
+  - key: options.initial_attraction.language.description
+    t: Interest in learning, speaking, or improving Japanese language skills.
+
+  - key: options.initial_attraction.martial_arts
+    t: Martial arts
+  - key: options.initial_attraction.martial_arts.description
+    t: Interest in practicing or learning about disciplines like judo, kendo, or karate.
+
+  - key: options.initial_attraction.nature
+    t: Nature
+  - key: options.initial_attraction.nature.description
+    t: Drawn to Japan’s diverse landscapes, from mountains and forests to coastlines and hot springs.
+
+  - key: options.initial_attraction.pop_culture
+    t: Pop culture and entertainment
+  - key: options.initial_attraction.pop_culture.description
+    t: Drawn by anime, manga, video games, J-pop, fashion, and related media.
+
+  - key: options.initial_attraction.culture_history
+    t: Culture and history
+  - key: options.initial_attraction.culture_history.description
+    t: Fascinated by traditional arts, customs, and historical landmarks.
+
+  - key: options.initial_attraction.safety
+    t: Safety
+  - key: options.initial_attraction.safety.description
+    t: Attracted by Japan’s low crime rate and general sense of public security.
+
   # hobbies
 
   - key: life_in_japan.hobbies
@@ -1966,24 +2028,70 @@ translations:
   - key: life_in_japan.life_japan_positive_aspects.question
     t: What are the positive aspects of living in Japan?
 
-  - key: options.life_japan_positive_aspects.safety
-    t: Safety
-  - key: options.life_japan_positive_aspects.infrastructure
-    t: Infrastructure and cleanliness
-  - key: options.life_japan_positive_aspects.healthcare
-    t: Access to healthcare
-  - key: options.life_japan_positive_aspects.politeness
-    t: Politeness
-  - key: options.life_japan_positive_aspects.culture
-    t: Culture
+  - key: options.life_japan_positive_aspects.adventure
+    t: Travel & adventure
+  - key: options.life_japan_positive_aspects.adventure.description
+    t: Chances for travel, exploration, and new experiences.
+
+  - key: options.life_japan_positive_aspects.career
+    t: Career opportunities
+  - key: options.life_japan_positive_aspects.career.description
+    t: Access to unique roles and international work experience.
+
+  - key: options.life_japan_positive_aspects.collectivist_culture
+    t: Collectivist culture
+  - key: options.life_japan_positive_aspects.collectivist_culture.description
+    t: A strong sense of community, cooperation, and shared responsibility.
+
+  - key: options.life_japan_positive_aspects.compensation
+    t: Compensation
+  - key: options.life_japan_positive_aspects.compensation.description
+    t: High salaries compared to other places I’ve considered working.
+
   - key: options.life_japan_positive_aspects.convenience
-    t: Overall convenience
+    t: Convenience
+  - key: options.life_japan_positive_aspects.convenience.description
+    t: Easy access to everything I need through 24-hour stores, vending machines, and efficient services.
+
+  - key: options.life_japan_positive_aspects.cost_of_living
+    t: Cost of living
+  - key: options.life_japan_positive_aspects.cost_of_living.description
+    t: Affordable options for housing, shopping, and entertainment.
+
   - key: options.life_japan_positive_aspects.food
     t: Food
-  - key: options.life_japan_positive_aspects.cost_of_living
-    t: Low cost of living
-  - key: options.life_japan_positive_aspects.nature_environment
-    t: Nature & environment
+  - key: options.life_japan_positive_aspects.food.description
+    t: Fresh, delicious meals available everywhere, from convenience stores to high-end restaurants.
+
+  - key: options.life_japan_positive_aspects.healthcare
+    t: Healthcare
+  - key: options.life_japan_positive_aspects.healthcare.description
+    t: High-quality, accessible medical care with relatively low costs.
+
+  - key: options.life_japan_positive_aspects.infrastructure
+    t: Infrastructure
+  - key: options.life_japan_positive_aspects.infrastructure.description
+    t: Clean, reliable public systems that work well day to day.
+
+  - key: options.life_japan_positive_aspects.nature
+    t: Nature
+  - key: options.life_japan_positive_aspects.nature.description
+    t: Diverse and beautiful natural landscapes, from mountains to coastlines.
+
+  - key: options.life_japan_positive_aspects.pop_culture
+    t: Pop culture and entertainment
+  - key: options.life_japan_positive_aspects.pop_culture.description
+    t: A vibrant scene of anime, games, music, fashion, and more.
+
+  - key: options.life_japan_positive_aspects.culture_history
+    t: Culture and history
+  - key: options.life_japan_positive_aspects.culture_history.description
+    t: Opportunities to experience traditional arts, customs, and historic sites.
+
+  - key: options.life_japan_positive_aspects.safety
+    t: Safety
+  - key: options.life_japan_positive_aspects.safety.description
+    t: A strong sense of public security and low crime.
 
   # life_japan_negative_aspects
 
@@ -1992,20 +2100,60 @@ translations:
   - key: life_in_japan.life_japan_negative_aspects.question
     t: What are the negative aspects of living in Japan?
 
-  - key: options.life_japan_negative_aspects.language_barrier
-    t: Language barrier
+  - key: options.life_japan_negative_aspects.cultural_barriers
+    t: Cultural barriers
+  - key: options.life_japan_negative_aspects.cultural_barriers.description
+    t: Difficult to navigate daily life due to language gaps and unfamiliar social norms.
+
+  - key: options.life_japan_negative_aspects.compensation
+    t: Compensation
+  - key: options.life_japan_negative_aspects.compensation.description
+    t: Lower salaries than I’d expect in similar roles elsewhere.
+
+  - key: options.life_japan_negative_aspects.cost_of_living
+    t: Cost of living
+  - key: options.life_japan_negative_aspects.cost_of_living.description
+    t: High rent and small living spaces, especially in large cities.
+
+  - key: options.life_japan_negative_aspects.food
+    t: Food
+  - key: options.life_japan_negative_aspects.food.description
+    t: Hard to find variety or options for specific dietary needs.
+
+  - key: options.life_japan_negative_aspects.healthcare
+    t: Healthcare access
+  - key: options.life_japan_negative_aspects.healthcare.description
+    t: Challenging to find English-speaking providers or understand medical procedures.
+
+  - key: options.life_japan_negative_aspects.housing
+    t: Housing quality
+  - key: options.life_japan_negative_aspects.housing.description
+    t: Many apartments are small, old, or poorly insulated.
+
+  - key: options.life_japan_negative_aspects.isolation
+    t: Isolation
+  - key: options.life_japan_negative_aspects.isolation.description
+    t: Making close friends or integrating into local communities can be difficult.
+
+  - key: options.life_japan_negative_aspects.limited_career_growth
+    t: Limited career growth
+  - key: options.life_japan_negative_aspects.limited_career_growth.description
+    t: Few clear paths for advancement or professional development.
+
+  - key: options.life_japan_negative_aspects.natural_disaster_risk
+    t: Natural disasters
+  - key: options.life_japan_negative_aspects.natural_disaster_risk.description
+    t: Frequent earthquakes, typhoons, and other risks add stress to daily life.
+
+  - key: options.life_japan_negative_aspects.pressure_to_conform
+    t: Pressure to conform
+  - key: options.life_japan_negative_aspects.pressure_to_conform.description
+    t: Social expectations can make it hard to express individuality or new ideas.
+
   - key: options.life_japan_negative_aspects.work_culture
     t: Work culture
-  - key: options.life_japan_negative_aspects.social_isolation
-    t: Social isolation
-  - key: options.life_japan_negative_aspects.bureaucracy
-    t: Excessive bureaucracy
-  - key: options.life_japan_negative_aspects.low_compensation
-    t: Low compensation
-  - key: options.life_japan_negative_aspects.natural_disaster_risk
-    t: Natural disasters risk
-  - key: options.life_japan_negative_aspects.discrimination
-    t: Discrimination & exclusion
+  - key: options.life_japan_negative_aspects.work_culture.description
+    t: Long hours, slow decision-making, and hierarchical environments can be draining.
 
   #######################################################
   #                                                     #
