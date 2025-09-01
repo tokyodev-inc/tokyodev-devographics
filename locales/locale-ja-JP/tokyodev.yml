@@ -470,52 +470,50 @@ translations:
   # relationship_status
 
   - key: user_info.relationship_status # TODO
-    t: 💕 Relationship Status
+    t: 💕 交際状況 # Gemini
   - key: user_info.relationship_status.question # TODO
-    t: What is your current relationship status?
+    t: 現在の交際状況について教えてください。 # Gemini
 
   - key: options.relationship_status.single # TODO
-    t: Single
+    t: 独身 # Gemini
   - key: options.relationship_status.casual_relationship # TODO
-    t: In a casual or early-stage relationship
+    t: カジュアルな、または初期段階の交際関係にある # Gemini
   - key: options.relationship_status.committed_partnership # TODO
-    t: In a committed partnership (not married)
-
+    t: （結婚はしていないが）真剣な交際関係にある # Gemini
   - key: options.relationship_status.committed_partnership.description # TODO
-    t: Long-term relationships, including domestic or civil unions.
-
+    t: 事実婚や内縁関係を含む長期的な関係。 # Gemini
   - key: options.relationship_status.in_a_relationship # TODO
-    t: In a relationship
+    t: 交際中 # Gemini
   - key: options.relationship_status.its_complicated # TODO
-    t: It's complicated
+    t: 複雑な関係 # Gemini
   - key: options.relationship_status.divorced_separated # TODO
-    t: Divorced or separated
+    t: 離婚または別居 # Gemini
   - key: options.relationship_status.married # TODO
-    t: Married
+    t: 既婚 # Gemini
   - key: options.relationship_status.polyamorous # TODO
-    t: Polyamorous
+    t: ポリアモリー # Gemini
   - key: options.relationship_status.widowed # TODO
-    t: Widowed
+    t: 死別 # Gemini
 
   # number_of_kids
 
   - key: user_info.number_of_kids # TODO
-    t: 👶 Number of Kids
+    t: 👶 子供の数 # Gemini
   - key: user_info.number_of_kids.question # TODO
-    t: How many children do you have?
+    t: 子供は何人いますか？ # Gemini
 
   - key: options.number_of_kids.range_0 # TODO
-    t: None
-  - key: options.number_of_kids.range_1
-    t: 1
-  - key: options.number_of_kids.range_2
-    t: 2
-  - key: options.number_of_kids.range_3
-    t: 3
-  - key: options.number_of_kids.range_4
-    t: 4
+    t: いない # Gemini
+  - key: options.number_of_kids.range_1 # TODO
+    t: 1人 # Gemini
+  - key: options.number_of_kids.range_2 # TODO
+    t: 2人 # Gemini
+  - key: options.number_of_kids.range_3 # TODO
+    t: 3人 # Gemini
+  - key: options.number_of_kids.range_4 # TODO
+    t: 4人 # Gemini
   - key: options.number_of_kids.range_over_5 # TODO
-    t: 5 or more
+    t: 5人以上 # Gemini
 
   #######################################################
   #                                                     #
@@ -563,22 +561,22 @@ translations:
   # meeting_hours_per_week
 
   - key: job_info.meeting_hours_per_week # TODO
-    t: ⏳ Meeting Hours
+    t: ⏳ 会議時間 # Gemini
   - key: job_info.meeting_hours_per_week.question # TODO
-    t: How many hours do spend in meetings in an average week?
+    t: 平均的な1週間で、会議に何時間費やしますか？ # Gemini
 
   - key: options.meeting_hours_per_week.range_0 # TODO
-    t: No time at all
+    t: 全くない # Gemini
   - key: options.meeting_hours_per_week.range_0_1 # TODO
-    t: Less than 1 hour
+    t: 1時間未満 # Gemini
   - key: options.meeting_hours_per_week.range_1_5 # TODO
-    t: 1 to 5 hours
+    t: 1～5時間 # Gemini
   - key: options.meeting_hours_per_week.range_5_10 # TODO
-    t: 5 to 10 hours
+    t: 5～10時間 # Gemini
   - key: options.meeting_hours_per_week.range_10_15 # TODO
-    t: 10 to 15 hours
+    t: 10～15時間 # Gemini
   - key: options.meeting_hours_per_week.range_over_15 # TODO
-    t: Over 15 hours
+    t: 15時間以上 # Gemini
 
   # remote_work_policy
   - key: employer_info.remote_work_policy
@@ -851,28 +849,28 @@ translations:
 
   # regular_work_location
   - key: job_info.regular_work_location # TODO
-    t: 🗄️ Work Location
+    t: 🗄️ 勤務場所
   - key: job_info.regular_work_location.question # TODO
-    t: Where do you usually work from?
+    t: 普段はどこで仕事をしていますか？
 
   - key: options.regular_work_location.company_offices # TODO
-    t: Company office
+    t: 会社のオフィス # Gemini
   - key: options.regular_work_location.coworking_space # TODO
-    t: Coworking space
+    t: コワーキングスペース # Gemini
   - key: options.regular_work_location.cafe # TODO
-    t: Café
+    t: カフェ # Gemini
   - key: options.regular_work_location.dedicated_private_office # TODO
-    t: Offsite personal office
+    t: 自宅外の個人オフィス # Gemini
   - key: options.regular_work_location.dedicated_private_office.description # TODO
-    t: Your own private office physically separate from your home.
+    t: 自宅とは物理的に離れた自分専用のオフィス。 # Gemini
   - key: options.regular_work_location.dedicated_room # TODO
-    t: Dedicated home office
+    t: 自宅の専用オフィス # Gemini
   - key: options.regular_work_location.dedicated_room.description # TODO
-    t: A dedicated office room within your home.
+    t: 自宅内の専用のオフィスルーム。 # Gemini
   - key: options.regular_work_location.common_room # TODO
-    t: Shared-purpose room
+    t: 共用スペース # Gemini
   - key: options.regular_work_location.common_room.description # TODO
-    t: A multi-purpose room such as bedroom, living room, etc.
+    t: 寝室、リビングルームなどの多目的の部屋。 # Gemini
 
   # overtime_per_month
 
@@ -1118,51 +1116,51 @@ translations:
   - key: options.workplace_perks.language_differences.description
     t: 言語を習得する機会がある
 
-  # job title
+  # job_title
 
   - key: job_info.job_title # TODO
-    t: Job Title
+    t: 🧑‍💼️ 役職名 # Gemini
   - key: job_info.job_title.question # TODO
-    t: What is your job title?
+    t: あなたの役職名は何ですか？ # Gemini
 
   # discrimination_issues
 
   - key: job_info.discrimination_issues # TODO
-    t: 😡 Discrimination
+    t: 😡 差別 # Gemini
   - key: job_info.discrimination_issues.question # TODO
-    t: Have you ever experienced discrimination in the workplace based on any of the following factors?
+    t: 職場で以下のいずれかの要因に基づく差別を経験したことがありますか？ # Gemini
 
   - key: options.discrimination_issues.gender # TODO
-    t: Gender or gender identity
+    t: 性別または性自認 # Gemini
   - key: options.discrimination_issues.sexual_orientation # TODO
-    t: Sexual orientation
+    t: 性的指向 # Gemini
   - key: options.discrimination_issues.race # TODO
-    t: Race
+    t: 人種 # Gemini
   - key: options.discrimination_issues.religion # TODO
-    t: Religion or spiritual beliefs
+    t: 宗教または精神的信条 # Gemini
   - key: options.discrimination_issues.age # TODO
-    t: Age
+    t: 年齢 # Gemini
   - key: options.discrimination_issues.political_views # TODO
-    t: Political beliefs or affiliations
+    t: 政治的信条または所属 # Gemini
   - key: options.discrimination_issues.caregiving_status # TODO
-    t: Caregiving responsibilities
+    t: 介護の責任 # Gemini
   - key: options.discrimination_issues.caregiving_status.description # TODO
-    t: Such as pregnancy, parenting, elder care, etc.
+    t: 妊娠、育児、高齢者介護など。 # Gemini
   - key: options.discrimination_issues.disability # TODO
-    t: Disabilities
+    t: 障害 # Gemini
   - key: options.discrimination_issues.disability.description # TODO
-    t: Including physical, mental, or neurodivergent conditions.
+    t: 身体的、精神的、または神経発達上の状態を含む。 # Gemini
 
   - key: options.discrimination_issues.country_citizenship # TODO
-    t: Country of origin
+    t: 出身国 # Gemini
   - key: options.discrimination_issues.appearance_body # TODO
-    t: Physical appearance or characteristics
+    t: 外見または身体的特徴 # Gemini
 
   # job_happiness
   - key: job_info.job_happiness # TODO
-    t: 😁 Job Happiness
+    t: 😁 仕事の満足度 # Gemini
   - key: job_info.job_happiness.question # TODO
-    t: How happy are you with your current job?
+    t: 現在の仕事にどのくらい満足していますか？ # Gemini
 
   #######################################################
   #                                                     #
@@ -1466,9 +1464,9 @@ translations:
 
   # income_evolution
   - key: compensation.income_evolution # TODO
-    t: 💹 Income Evolution
+    t: 💹 収入の推移 # Gemini
   - key: compensation.income_evolution.question # TODO
-    t: How has your total annual compensation evolved over the past 12 months?
+    t: 過去12ヶ月で、あなたの年間総収入はどのように変化しましたか？ # Gemini
 
   #######################################################
   #                                                     #
@@ -1523,9 +1521,9 @@ translations:
 
   # social_media
   - key: technology.social_media # TODO
-    t: Social Media
+    t: ソーシャルメディア
   - key: technology.social_media.question # TODO
-    t: Which social media sites do you use regularly?
+    t: 定期的に利用するソーシャルメディアサイトは何ですか？
 
   # development_processes
   - key: technology.development_processes
@@ -1534,33 +1532,33 @@ translations:
     t: 下記のうち、勤務先で現在使用している開発プロセスは？
 
   # software_engineering_practices
-  - key: technology.software_engineering_practices
-    t: Software Engineering Practices
-  - key: technology.software_engineering_practices.question
-    t: Which of the following software engineering practices does your current employer use?
+  - key: technology.software_engineering_practices # TODO
+    t: ソフトウェアエンジニアリングの実践 # Gemini
+  - key: technology.software_engineering_practices.question # TODO
+    t: 現在の勤務先では、以下のどのソフトウェアエンジニアリングの実践を使用していますか？ # Gemini
 
   - key: options.software_engineering_practices.agile # TODO
-    t: Agile Development
+    t: アジャイル開発 # Gemini
   - key: options.software_engineering_practices.automated_testing # TODO
-    t: Automated Testing
+    t: 自動テスト # Gemini
   - key: options.software_engineering_practices.blameless_postmortems # TODO
-    t: Blameless Postmortems
+    t: 非難なしのポストモーテム # Gemini
   - key: options.software_engineering_practices.code_reviews # TODO
-    t: Code Reviews
+    t: コードレビュー # Gemini
   - key: options.software_engineering_practices.continuous_deployment_delivery # TODO
-    t: Continuous Deployment/Delivery
+    t: 継続的デプロイメント／デリバリー # Gemini
   - key: options.software_engineering_practices.continuous_integration # TODO
-    t: Continuous Integration
+    t: 継続的インテグレーション # Gemini
   - key: options.software_engineering_practices.infrastructure_as_code # TODO
-    t: Infrastructure as Code (IaC)
+    t: Infrastructure as Code (IaC) # Gemini
   - key: options.software_engineering_practices.monitoring_and_logging # TODO
-    t: Monitoring and Logging
+    t: モニタリングとロギング # Gemini
   - key: options.software_engineering_practices.pair_programming # TODO
-    t: Pair Programming
+    t: ペアプログラミング # Gemini
   - key: options.software_engineering_practices.waterfall # TODO
-    t: Waterfall Development
+    t: ウォーターフォール開発 # Gemini
   - key: options.software_engineering_practices.version_control # TODO
-    t: Version Control
+    t: バージョン管理 # Gemini
 
   # productivity_tools
   - key: technology.productivity_tools
@@ -1601,188 +1599,188 @@ translations:
 
   #######################################################
   #                                                     #
-  #                         AI                          #
+  #                       AI                            #
   #                                                     #
   #######################################################
 
   - key: sections.ai_usage.title # TODO
-    t: AI Usage
+    t: AIの利用 # Gemini
 
   - key: ai_usage.ai_tools # TODO
-    t: 🤖 AI Tools
+    t: 🤖 AIツール # Gemini
   - key: ai_usage.ai_tools.question # TODO
-    t: Which AI tools do you use regularly?
+    t: どのAIツールを定期的に利用していますか？ # Gemini
   - key: ai_usage.ai_tools.prompt # TODO
-    t: Only select tools that you use once a week or more.
+    t: 週に1回以上利用するツールのみを選択してください。 # Gemini
 
     # ai_uses
 
   - key: ai_usage.ai_uses # TODO
-    t: ⚙️ Use Cases
+    t: ⚙️ 利用用途 # Gemini
   - key: ai_usage.ai_uses.question # TODO
-    t: What do you use AI tools for?
+    t: AIツールを何に利用していますか？ # Gemini
 
   - key: options.ai_uses.code_generation # TODO
-    t: Code generation
+    t: コード生成 # Gemini
 
   - key: options.ai_uses.code_generation.description # TODO
-    t: Generating or refactoring code based on a prompt.
+    t: プロンプトに基づいてコードを生成またはリファクタリングする。 # Gemini
 
   - key: options.ai_uses.translation # TODO
-    t: Translation
+    t: 翻訳 # Gemini
 
   - key: options.ai_uses.translation.description # TODO
-    t: Translating content from one language to another.
+    t: コンテンツをある言語から別の言語に翻訳する。 # Gemini
 
   - key: options.ai_uses.language_detection # TODO
-    t: Language detection
+    t: 言語検出 # Gemini
 
   - key: options.ai_uses.language_detection.description # TODO
-    t: Detecting the language a text is written in.
+    t: テキストがどの言語で書かれているかを検出する。 # Gemini
 
   - key: options.ai_uses.summarization # TODO
-    t: Summarization
+    t: 要約 # Gemini
 
   - key: options.ai_uses.summarization.description # TODO
-    t: Summarizing a text or dataset into its main themes.
+    t: テキストやデータセットを主要なテーマに要約する。 # Gemini
 
   - key: options.ai_uses.text_generation # TODO
-    t: Text generation
+    t: テキスト生成 # Gemini
 
   - key: options.ai_uses.text_generation.description # TODO
-    t: Generating a text based on a prompt.
+    t: プロンプトに基づいてテキストを生成する。 # Gemini
 
   - key: options.ai_uses.image_generation # TODO
-    t: Image generation
+    t: 画像生成 # Gemini
 
   - key: options.ai_uses.image_generation.description # TODO
-    t: Generating an image based on a prompt.
+    t: プロンプトに基づいて画像を生成する。 # Gemini
 
   - key: options.ai_uses.speech_generation # TODO
-    t: Speech generation
+    t: 音声生成 # Gemini
 
   - key: options.ai_uses.speech_generation.description # TODO
-    t: Generating speech based on a prompt or a text.
+    t: プロンプトやテキストに基づいて音声を生成する。 # Gemini
 
   - key: options.ai_uses.speech_recognition # TODO
-    t: Speech recognition
+    t: 音声認識 # Gemini
 
   - key: options.ai_uses.speech_recognition.description # TODO
-    t: Transcribing recorded or real-time speech into text.
+    t: 録音された音声やリアルタイムの音声をテキストに書き起こす。 # Gemini
 
   - key: options.ai_uses.computer_vision # TODO
-    t: Computer vision
+    t: コンピュータビジョン # Gemini
 
   - key: options.ai_uses.computer_vision.description # TODO
-    t: Detecting items in a photo or video feed.
+    t: 写真やビデオフィード内の物体を検出する。 # Gemini
 
   - key: options.ai_uses.sentiment_analysis # TODO
-    t: Sentiment analysis
+    t: 感情分析 # Gemini
 
   - key: options.ai_uses.sentiment_analysis.description # TODO
-    t: Classifying text data based on sentiment.
+    t: テキストデータを感情に基づいて分類する。 # Gemini
 
   - key: options.ai_uses.caption_generation # TODO
-    t: Captions generation
+    t: キャプション生成 # Gemini
 
   - key: options.ai_uses.caption_generation.description # TODO
-    t: Generating captions or subtitles for images or videos.
+    t: 画像やビデオのキャプションや字幕を生成する。 # Gemini
 
   - key: options.ai_uses.learning_research # TODO
-    t: Learning & research
+    t: 学習・調査 # Gemini
 
   - key: options.ai_uses.learning_research.description # TODO
-    t: Learning new skills or researching a topic.
+    t: 新しいスキルを学習したり、トピックを調査したりする。 # Gemini
 
   - key: options.ai_uses.code_assistance # TODO
-    t: Code review & assistance
+    t: コードレビュー・支援 # Gemini
   - key: options.ai_uses.search_information_gathering # TODO
-    t: Search & information gathering
+    t: 検索・情報収集 # Gemini
   - key: options.ai_uses.text_processing # TODO
-    t: Text processing
+    t: テキスト処理 # Gemini
   - key: options.ai_uses.not_using # TODO
-    t: Not currently using
+    t: 現在利用していない # Gemini
   - key: options.ai_uses.data_manipulation_processing # TODO
-    t: Data processing
+    t: データ処理 # Gemini
 
   # ai_pain_points
   - key: ai_usage.ai_pain_points # TODO
-    t: 😖 Pain Points
+    t: 😖 課題点 # Gemini
   - key: ai_usage.ai_pain_points.question # TODO
-    t: What are your top pain points when it comes to using AI tools?
+    t: AIツールを利用する上での主な課題は何ですか？ # Gemini
 
   - key: options.ai_pain_points.misunderstood_prompt # TODO
-    t: Prompt comprehension
+    t: プロンプトの理解 # Gemini
   - key: options.ai_pain_points.misunderstood_prompt.description # TODO
-    t: AI not correctly understanding the prompt.
+    t: AIがプロンプトを正しく理解しない。 # Gemini
 
   - key: options.ai_pain_points.poor_generated_code # TODO
-    t: Code quality
+    t: コードの品質 # Gemini
   - key: options.ai_pain_points.poor_generated_code.description # TODO
-    t: Code with low performance, excessive repetition, outdated imports, etc.
+    t: パフォーマンスが低い、過度な繰り返し、古いインポートなどを含むコード。 # Gemini
 
   - key: options.ai_pain_points.training_data_concerns # TODO
-    t: Copyright concerns
+    t: 著作権の懸念 # Gemini
   - key: options.ai_pain_points.training_data_concerns.description # TODO
-    t: Concerns about training on copyrighted materials.
+    t: 著作権で保護された素材でトレーニングされていることへの懸念。 # Gemini
 
   - key: options.ai_pain_points.integration_difficulties # TODO
-    t: Integration difficulties
+    t: 統合の難しさ # Gemini
   - key: options.ai_pain_points.integration_difficulties.description # TODO
-    t: Difficulties integrating AI tools with your existing workflow.
+    t: AIツールを既存のワークフローに統合する際の困難。 # Gemini
 
   - key: options.ai_pain_points.costs # TODO
-    t: Financial costs
+    t: 金銭的コスト # Gemini
   - key: options.ai_pain_points.costs.description # TODO
-    t: AI tools being too expensive.
+    t: AIツールが高価すぎる。 # Gemini
 
   - key: options.ai_pain_points.environmental_impact # TODO
-    t: Environmental impact
+    t: 環境への影響 # Gemini
   - key: options.ai_pain_points.environmental_impact.description # TODO
-    t: Concerns about the energy consumption of AI tools.
+    t: AIツールのエネルギー消費に関する懸念。 # Gemini
 
   - key: options.ai_pain_points.lack_of_context # TODO
-    t: Lack of context
+    t: コンテキストの欠如 # Gemini
   - key: options.ai_pain_points.lack_of_context.description # TODO
-    t: AI not taking into account entire project context.
+    t: AIがプロジェクト全体のコンテキストを考慮しない。 # Gemini
 
   - key: options.ai_pain_points.lack_of_memory # TODO
-    t: Lack of memory
+    t: 記憶の欠如 # Gemini
   - key: options.ai_pain_points.lack_of_memory.description # TODO
-    t: AI not having memory over time.
+    t: AIが長期的な記憶を持たない。 # Gemini
 
   - key: options.ai_pain_points.privacy_concerns # TODO
-    t: Privacy concerns
+    t: プライバシーの懸念 # Gemini
   - key: options.ai_pain_points.privacy_concerns.description # TODO
-    t: Concerns about private code or data leaking to AI providers.
+    t: プライベートなコードやデータがAIプロバイダーに漏洩する懸念。 # Gemini
 
   - key: options.ai_pain_points.hallucinations_inaccuracies # TODO
-    t: Hallucination & inaccuracies
+    t: ハルシネーション・不正確さ # Gemini
   - key: options.ai_pain_points.hallucinations_inaccuracies.description # TODO
-    t: Concerns about AI tools making up content.
+    t: AIツールが内容を捏造することへの懸念。 # Gemini
 
   - key: options.ai_pain_points.ethical_concerns # TODO
-    t: Ethical concerns
+    t: 倫理的な懸念 # Gemini
   - key: options.ai_pain_points.ethical_concerns.description # TODO
-    t: Concerns about how the companies developing AI tools are being run.
+    t: AIツールを開発する企業の運営方法に関する懸念。 # Gemini
 
   - key: ai_usage.ai_generated_code_balance # TODO
-    t: AI Code Generation
+    t: AIによるコード生成 # Gemini
   - key: ai_usage.ai_generated_code_balance.question # TODO
-    t: What proportion of the code you produce is AI-generated?
+    t: あなたが作成するコードのうち、AIが生成したものの割合はどのくらいですか？ # Gemini
   - key: ai_usage.ai_generated_code_balance.prompt # TODO
-    t: Including code copy-pasted from ChatGPT or other chatbots.
+    t: ChatGPTや他のチャットボットからコピー＆ペーストしたコードを含みます。 # Gemini
 
   - key: options.ai_generated_code_balance.0 # TODO
-    t: 0% AI
+    t: 0% AI # Gemini
   - key: options.ai_generated_code_balance.1
     t: "|"
   - key: options.ai_generated_code_balance.2
     t: "|"
   - key: options.ai_generated_code_balance.3
     t: "|"
-  - key: options.ai_generated_code_balance.4
-    t: "50%"
+  - key: options.ai_generated_code_balance.4 # TODO
+    t: "50%" # Gemini
   - key: options.ai_generated_code_balance.5
     t: "|"
   - key: options.ai_generated_code_balance.6
@@ -1790,42 +1788,42 @@ translations:
   - key: options.ai_generated_code_balance.7
     t: "|"
   - key: options.ai_generated_code_balance.8 # TODO
-    t: 100% AI
+    t: 100% AI # Gemini
 
   # ai_code_generation_frequency
 
   - key: ai_usage.ai_code_generation_frequency # TODO
-    t: ⏱️ Code Generation Frequency
+    t: ⏱️ コード生成の頻度 # Gemini
   - key: ai_usage.ai_code_generation_frequency.question # TODO
-    t: How frequently do you use AI tools to generate or refactor code?
+    t: どのくらいの頻度でAIツールを使ってコードを生成したりリファクタリングしたりしますか？ # Gemini
   - key: options.ai_code_generation_frequency.0 # TODO
-    t: Never
+    t: 全くしない # Gemini
   - key: options.ai_code_generation_frequency.1 # TODO
-    t: A few times per year
+    t: 年に数回 # Gemini
   - key: options.ai_code_generation_frequency.2 # TODO
-    t: A few times per month
+    t: 月に数回 # Gemini
   - key: options.ai_code_generation_frequency.3 # TODO
-    t: A few times per week
+    t: 週に数回 # Gemini
   - key: options.ai_code_generation_frequency.4 # TODO
-    t: A few times per day
+    t: 1日に数回 # Gemini
   - key: options.ai_code_generation_frequency.5 # TODO
-    t: A few times per hour
+    t: 1時間に数回 # Gemini
   - key: options.ai_code_generation_frequency.6 # TODO
-    t: Constantly
+    t: 常に # Gemini
 
   # more_productive
 
   - key: ai_usage.more_productive # TODO
-    t: 🏭 Productivity
+    t: 🏭 生産性 # Gemini
   - key: ai_usage.more_productive.question # TODO
-    t: AI tools have made me a lot more productive
+    t: AIツールによって生産性が大幅に向上した # Gemini
 
   # job_security_threat
 
   - key: ai_usage.job_security_threat # TODO
-    t: 🔒 Job Security
+    t: 🔒 雇用の安定 # Gemini
   - key: ai_usage.job_security_threat.question # TODO
-    t: AI tools are a threat to my job security
+    t: AIツールは私の雇用の安定を脅かすものである # Gemini
 
   #######################################################
   #                                                     #
@@ -1834,285 +1832,285 @@ translations:
   #######################################################
 
   - key: sections.life_in_japan.title # TODO
-    t: Life in Japan
+    t: 日本での生活 # Gemini
 
   # friend_group_balance
 
   - key: life_in_japan.friend_group_balance # TODO
-    t: 👭 Friend Group
+    t: 👭 友人の構成 # Gemini
   - key: life_in_japan.friend_group_balance.description # TODO
-    t: Among your friends, what is the balance of Japanese and non-Japanese?
+    t: あなたの友人の中で、日本人と日本人以外のバランスはどのようになっていますか？ # Gemini
 
   # initial_attraction
   - key: life_in_japan.initial_attraction # TODO
-    t: 🗾 Initial Attraction
+    t: 🗾 日本に惹かれたきっかけ # Gemini
   - key: life_in_japan.initial_attraction.question # TODO
-    t: What initially attracted you to Japan?
+    t: 当初、日本の何に惹かれましたか？ # Gemini
   - key: life_in_japan.initial_attraction.prompt # TODO
-    t: The thing that first triggered your interest for Japan, if applicable.
+    t: 該当する場合、最初に日本に興味を持ったきっかけ。 # Gemini
 
   - key: options.initial_attraction.anime_manga # TODO
-    t: Anime/manga
+    t: アニメ・漫画 # Gemini
   - key: options.initial_attraction.food # TODO
-    t: Japanese Food
+    t: 日本食 # Gemini
   - key: options.initial_attraction.martial_arts # TODO
-    t: Japanese Martial Arts
+    t: 日本の武道 # Gemini
   - key: options.initial_attraction.relationship # TODO
-    t: Relationship
+    t: 人間関係 # Gemini
   - key: options.initial_attraction.career # TODO
-    t: Career
+    t: キャリア # Gemini
   - key: options.initial_attraction.studies # TODO
-    t: Studies
+    t: 学業 # Gemini
   - key: options.initial_attraction.culture # TODO
-    t: Japanese culture
+    t: 日本文化 # Gemini
   - key: options.initial_attraction.travel # TODO
-    t: Travel
+    t: 旅行 # Gemini
   - key: options.initial_attraction.family # TODO
-    t: Family
+    t: 家族 # Gemini
   - key: options.initial_attraction.craftsmanship # TODO
-    t: Japanese craftmanship
+    t: 日本の職人技 # Gemini
 
   - key: options.initial_attraction.adventure # TODO
-    t: Adventure
+    t: 冒険 # Gemini
   - key: options.initial_attraction.adventure.description # TODO
-    t: Seeking new and unique experiences through travel, nature, and exploration in Japan.
+    t: 日本での旅行、自然、探検を通じて、新しくユニークな体験を求めること。 # Gemini
 
   - key: options.initial_attraction.career # TODO
-    t: Career opportunities
+    t: キャリアの機会 # Gemini
   - key: options.initial_attraction.career.description # TODO
-    t: Interest in working in Japan or gaining international job experience.
+    t: 日本で働くことや、国際的な職務経験を積むことへの関心。 # Gemini
 
   - key: options.initial_attraction.family # TODO
-    t: Family
+    t: 家族 # Gemini
   - key: options.initial_attraction.family.description # TODO
-    t: Family connections in Japan or a desire to explore Japanese ancestry.
+    t: 日本に家族がいる、または日本の家系を調べたいという願望。 # Gemini
 
   - key: options.initial_attraction.food # TODO
-    t: Food
+    t: 食 # Gemini
   - key: options.initial_attraction.food.description # TODO
-    t: Love for Japanese cuisine like sushi, ramen, and street food, or dining culture in general.
+    t: 寿司、ラーメン、屋台の食べ物などの日本料理、または一般的な食文化への愛情。 # Gemini
 
   - key: options.initial_attraction.friendship_romance # TODO
-    t: Friendship or romantic relationship
+    t: 友情または恋愛関係 # Gemini
   - key: options.initial_attraction.friendship_romance.description # TODO
-    t: Having close personal ties with someone from or in Japan.
+    t: 日本出身または日本在住の誰かと親密な個人的なつながりがあること。 # Gemini
 
   - key: options.initial_attraction.infrastructure # TODO
-    t: Infrastructure
+    t: インフラ # Gemini
   - key: options.initial_attraction.infrastructure.description # TODO
-    t: Appreciation for Japan’s clean, efficient, and advanced public systems.
+    t: 日本の清潔で効率的、そして先進的な公共システムへの評価。 # Gemini
 
   - key: options.initial_attraction.language # TODO
-    t: Japanese language
+    t: 日本語 # Gemini
   - key: options.initial_attraction.language.description # TODO
-    t: Interest in learning, speaking, or improving Japanese language skills.
+    t: 日本語の学習、会話、またはスキルの向上への関心。 # Gemini
 
   - key: options.initial_attraction.martial_arts # TODO
-    t: Martial arts
+    t: 武道 # Gemini
   - key: options.initial_attraction.martial_arts.description # TODO
-    t: Interest in practicing or learning about disciplines like judo, kendo, or karate.
+    t: 柔道、剣道、空手などの武道を実践したり学んだりすることへの関心。 # Gemini
 
   - key: options.initial_attraction.nature # TODO
-    t: Nature
+    t: 自然 # Gemini
   - key: options.initial_attraction.nature.description # TODO
-    t: Drawn to Japan’s diverse landscapes, from mountains and forests to coastlines and hot springs.
+    t: 山や森から海岸線や温泉まで、日本の多様な風景に惹かれること。 # Gemini
 
   - key: options.initial_attraction.pop_culture # TODO
-    t: Pop culture and entertainment
+    t: ポップカルチャーとエンターテインメント # Gemini
   - key: options.initial_attraction.pop_culture.description # TODO
-    t: Drawn by anime, manga, video games, J-pop, fashion, and related media.
+    t: アニメ、漫画、ビデオゲーム、J-POP、ファッション、および関連メディアに惹かれること。 # Gemini
 
   - key: options.initial_attraction.culture_history # TODO
-    t: Culture and history
+    t: 文化と歴史 # Gemini
   - key: options.initial_attraction.culture_history.description # TODO
-    t: Fascinated by traditional arts, customs, and historical landmarks.
+    t: 伝統芸術、慣習、歴史的建造物に魅了されること。 # Gemini
 
   - key: options.initial_attraction.safety # TODO
-    t: Safety
+    t: 安全性 # Gemini
   - key: options.initial_attraction.safety.description # TODO
-    t: Attracted by Japan’s low crime rate and general sense of public security.
+    t: 日本の低い犯罪率と一般的な治安の良さに惹かれること。 # Gemini
 
   # hobbies
 
   - key: life_in_japan.hobbies # TODO
-    t: 🗻 Hobbies
+    t: 🗻 趣味 # Gemini
   - key: life_in_japan.hobbies.question # TODO
-    t: What are your hobbies?
+    t: 趣味は何ですか？ # Gemini
 
   - key: options.hobbies.woodworking # TODO
-    t: Woodworking/DIY
+    t: 木工・DIY # Gemini
   - key: options.hobbies.table_top_gaming # TODO
-    t: Table-top gaming
+    t: テーブルトップゲーム # Gemini
   - key: options.hobbies.video_games # TODO
-    t: Video games
+    t: ビデオゲーム # Gemini
   - key: options.hobbies.music # TODO
-    t: Playing music
+    t: 楽器演奏 # Gemini
   - key: options.hobbies.cooking # TODO
-    t: Cooking
+    t: 料理 # Gemini
   - key: options.hobbies.reading # TODO
-    t: Reading
+    t: 読書 # Gemini
   - key: options.hobbies.arts_and_crafts # TODO
-    t: Arts and crafts
+    t: 美術・工芸 # Gemini
   - key: options.hobbies.electronics # TODO
-    t: Electronics
+    t: 電子工作 # Gemini
   - key: options.hobbies.gardening # TODO
-    t: Gardening
+    t: ガーデニング # Gemini
   - key: options.hobbies.camping # TODO
-    t: Camping
+    t: キャンプ # Gemini
   - key: options.hobbies.sports_exercise # TODO
-    t: Sports/exercise
+    t: スポーツ・運動 # Gemini
   - key: options.hobbies.movies_tv # TODO
-    t: Movies/TV
+    t: 映画・テレビ鑑賞 # Gemini
   - key: options.hobbies.programming # TODO
-    t: Programming
+    t: プログラミング # Gemini
   - key: options.hobbies.photography # TODO
-    t: Photography
+    t: 写真撮影 # Gemini
   - key: options.hobbies.hiking_walking # TODO
-    t: Hiking or walking
+    t: ハイキング・ウォーキング # Gemini
   - key: options.hobbies.writing # TODO
-    t: Writing
+    t: 執筆 # Gemini
   - key: options.hobbies.travel # TODO
-    t: Travel
+    t: 旅行 # Gemini
   - key: options.hobbies.dancing # TODO
-    t: Dancing
+    t: ダンス # Gemini
   - key: options.hobbies.3d_printing # TODO
-    t: 3D-printing
+    t: 3Dプリンティング # Gemini
   - key: options.hobbies.language_learning # TODO
-    t: Language learning
+    t: 語学学習 # Gemini
 
   # life_japan_positive_aspects
 
   - key: life_in_japan.life_japan_positive_aspects # TODO
-    t: 👍 Positive Aspects
+    t: 👍 良い点 # Gemini
   - key: life_in_japan.life_japan_positive_aspects.question # TODO
-    t: What are the positive aspects of living in Japan?
+    t: 日本に住むことの良い点は何ですか？ # Gemini
 
   - key: options.life_japan_positive_aspects.adventure # TODO
-    t: Travel & adventure
+    t: 旅行と冒険 # Gemini
   - key: options.life_japan_positive_aspects.adventure.description # TODO
-    t: Chances for travel, exploration, and new experiences.
+    t: 旅行、探検、そして新しい体験の機会。 # Gemini
 
   - key: options.life_japan_positive_aspects.career # TODO
-    t: Career opportunities
+    t: キャリアの機会 # Gemini
   - key: options.life_japan_positive_aspects.career.description # TODO
-    t: Access to unique roles and international work experience.
+    t: ユニークな役割や国際的な職務経験へのアクセス。 # Gemini
 
   - key: options.life_japan_positive_aspects.collectivist_culture # TODO
-    t: Collectivist culture
+    t: 集団主義文化 # Gemini
   - key: options.life_japan_positive_aspects.collectivist_culture.description # TODO
-    t: A strong sense of community, cooperation, and shared responsibility.
+    t: 強い共同体意識、協力、そして共同責任感。 # Gemini
 
   - key: options.life_japan_positive_aspects.compensation # TODO
-    t: Compensation
+    t: 報酬 # Gemini
   - key: options.life_japan_positive_aspects.compensation.description # TODO
-    t: High salaries compared to other places I’ve considered working.
+    t: 他に検討した職場と比較して高い給与。 # Gemini
 
   - key: options.life_japan_positive_aspects.convenience # TODO
-    t: Convenience
+    t: 利便性 # Gemini
   - key: options.life_japan_positive_aspects.convenience.description # TODO
-    t: Easy access to everything I need through 24-hour stores, vending machines, and efficient services.
+    t: 24時間営業の店舗、自動販売機、効率的なサービスを通じて必要なものすべてに簡単にアクセスできること。 # Gemini
 
   - key: options.life_japan_positive_aspects.cost_of_living # TODO
-    t: Cost of living
+    t: 生活費 # Gemini
   - key: options.life_japan_positive_aspects.cost_of_living.description # TODO
-    t: Affordable options for housing, shopping, and entertainment.
+    t: 住宅、買い物、エンターテインメントの手頃な選択肢。 # Gemini
 
   - key: options.life_japan_positive_aspects.food # TODO
-    t: Food
+    t: 食 # Gemini
   - key: options.life_japan_positive_aspects.food.description # TODO
-    t: Fresh, delicious meals available everywhere, from convenience stores to high-end restaurants.
+    t: コンビニから高級レストランまで、どこでも新鮮で美味しい食事が手に入ること。 # Gemini
 
   - key: options.life_japan_positive_aspects.healthcare # TODO
-    t: Healthcare
+    t: 医療 # Gemini
   - key: options.life_japan_positive_aspects.healthcare.description # TODO
-    t: High-quality, accessible medical care with relatively low costs.
+    t: 比較的低コストで質の高い、アクセスしやすい医療ケア。 # Gemini
 
   - key: options.life_japan_positive_aspects.infrastructure # TODO
-    t: Infrastructure
+    t: インフラ # Gemini
   - key: options.life_japan_positive_aspects.infrastructure.description # TODO
-    t: Clean, reliable public systems that work well day to day.
+    t: 日常的にうまく機能する清潔で信頼性の高い公共システム。 # Gemini
 
   - key: options.life_japan_positive_aspects.nature # TODO
-    t: Nature
+    t: 自然 # Gemini
   - key: options.life_japan_positive_aspects.nature.description # TODO
-    t: Diverse and beautiful natural landscapes, from mountains to coastlines.
+    t: 山から海岸線まで、多様で美しい自然景観。 # Gemini
 
   - key: options.life_japan_positive_aspects.pop_culture # TODO
-    t: Pop culture and entertainment
+    t: ポップカルチャーとエンターテインメント # Gemini
   - key: options.life_japan_positive_aspects.pop_culture.description # TODO
-    t: A vibrant scene of anime, games, music, fashion, and more.
+    t: アニメ、ゲーム、音楽、ファッションなどの活気あるシーン。 # Gemini
 
   - key: options.life_japan_positive_aspects.culture_history # TODO
-    t: Culture and history
+    t: 文化と歴史 # Gemini
   - key: options.life_japan_positive_aspects.culture_history.description # TODO
-    t: Opportunities to experience traditional arts, customs, and historic sites.
+    t: 伝統芸術、慣習、史跡を体験する機会。 # Gemini
 
   - key: options.life_japan_positive_aspects.safety # TODO
-    t: Safety
+    t: 安全性 # Gemini
   - key: options.life_japan_positive_aspects.safety.description # TODO
-    t: A strong sense of public security and low crime.
+    t: 強い治安意識と低い犯罪率。 # Gemini
 
   # life_japan_negative_aspects
 
   - key: life_in_japan.life_japan_negative_aspects # TODO
-    t: 👎 Negative Aspects
+    t: 👎 悪い点 # Gemini
   - key: life_in_japan.life_japan_negative_aspects.question # TODO
-    t: What are the negative aspects of living in Japan?
+    t: 日本に住むことの悪い点は何ですか？ # Gemini
 
   - key: options.life_japan_negative_aspects.cultural_barriers # TODO
-    t: Cultural barriers
+    t: 文化の壁 # Gemini
   - key: options.life_japan_negative_aspects.cultural_barriers.description # TODO
-    t: Difficult to navigate daily life due to language gaps and unfamiliar social norms.
+    t: 言語の壁や馴染みのない社会規範のため、日常生活を送るのが難しい。 # Gemini
 
   - key: options.life_japan_negative_aspects.compensation # TODO
-    t: Compensation
+    t: 報酬 # Gemini
   - key: options.life_japan_negative_aspects.compensation.description # TODO
-    t: Lower salaries than I’d expect in similar roles elsewhere.
+    t: 他の場所での同様の役職で期待するよりも低い給与。 # Gemini
 
   - key: options.life_japan_negative_aspects.cost_of_living # TODO
-    t: Cost of living
+    t: 生活費 # Gemini
   - key: options.life_japan_negative_aspects.cost_of_living.description # TODO
-    t: High rent and small living spaces, especially in large cities.
+    t: 特に大都市での高い家賃と狭い居住空間。 # Gemini
 
   - key: options.life_japan_negative_aspects.food # TODO
-    t: Food
+    t: 食 # Gemini
   - key: options.life_japan_negative_aspects.food.description # TODO
-    t: Hard to find variety or options for specific dietary needs.
+    t: 特定の食事制限に対応する多様な選択肢を見つけるのが難しい。 # Gemini
 
   - key: options.life_japan_negative_aspects.healthcare # TODO
-    t: Healthcare access
+    t: 医療へのアクセス # Gemini
   - key: options.life_japan_negative_aspects.healthcare.description # TODO
-    t: Challenging to find English-speaking providers or understand medical procedures.
+    t: 英語を話す医療提供者を見つけたり、医療処置を理解したりするのが難しい。 # Gemini
 
   - key: options.life_japan_negative_aspects.housing # TODO
-    t: Housing quality
+    t: 住宅の質 # Gemini
   - key: options.life_japan_negative_aspects.housing.description # TODO
-    t: Many apartments are small, old, or poorly insulated.
+    t: 多くのアパートは狭く、古く、断熱性が低い。 # Gemini
 
   - key: options.life_japan_negative_aspects.isolation # TODO
-    t: Isolation
+    t: 孤立 # Gemini
   - key: options.life_japan_negative_aspects.isolation.description # TODO
-    t: Making close friends or integrating into local communities can be difficult.
+    t: 親しい友人を作ったり、地域のコミュニティに溶け込んだりするのが難しいことがある。 # Gemini
 
   - key: options.life_japan_negative_aspects.limited_career_growth # TODO
-    t: Limited career growth
+    t: 限られたキャリア成長 # Gemini
   - key: options.life_japan_negative_aspects.limited_career_growth.description # TODO
-    t: Few clear paths for advancement or professional development.
+    t: 昇進や専門能力開発のための明確な道筋が少ない。 # Gemini
 
   - key: options.life_japan_negative_aspects.natural_disaster_risk # TODO
-    t: Natural disasters
+    t: 自然災害 # Gemini
   - key: options.life_japan_negative_aspects.natural_disaster_risk.description # TODO
-    t: Frequent earthquakes, typhoons, and other risks add stress to daily life.
+    t: 頻繁な地震、台風、その他のリスクが日常生活にストレスを与える。 # Gemini
 
   - key: options.life_japan_negative_aspects.pressure_to_conform # TODO
-    t: Pressure to conform
+    t: 同調圧力 # Gemini
   - key: options.life_japan_negative_aspects.pressure_to_conform.description # TODO
-    t: Social expectations can make it hard to express individuality or new ideas.
+    t: 社会的な期待が、個性や新しいアイデアを表現することを難しくすることがある。 # Gemini
 
   - key: options.life_japan_negative_aspects.work_culture # TODO
-    t: Work culture
+    t: 労働文化 # Gemini
   - key: options.life_japan_negative_aspects.work_culture.description # TODO
-    t: Long hours, slow decision-making, and hierarchical environments can be draining.
+    t: 長時間労働、遅い意思決定、階層的な環境が疲弊させることがある。 # Gemini
 
   #######################################################
   #                                                     #
