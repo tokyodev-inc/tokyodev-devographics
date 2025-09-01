@@ -329,7 +329,7 @@ translations:
   - key: options.professional_qualifications.professional_qualification
     t: Professional qualification
   - key: options.professional_qualifications.professional_qualification.description
-    t: AWS Devops Professional, Salesforce Certified Platform Developer, etc.
+    t: AWS Certified DevOps Engineer – Professional, Salesforce Certified Platform Developer, etc.
 
   - key: options.professional_qualifications.self_taught
     t: Self-taught
@@ -496,6 +496,14 @@ translations:
 
   - key: options.relationship_status.single
     t: Single
+  - key: options.relationship_status.casual_relationship
+    t: In a casual or early-stage relationship
+  - key: options.relationship_status.committed_partnership
+    t: In a committed partnership (not married)
+
+  - key: options.relationship_status.committed_partnership.description
+    t: Long-term relationships, including domestic or civil unions.
+
   - key: options.relationship_status.in_a_relationship
     t: In a relationship
   - key: options.relationship_status.its_complicated
@@ -571,6 +579,26 @@ translations:
     t: 🏭 Employer Industry
   - key: employer_info.industry_sector.question
     t: What industry or business domain is your current employer in?
+
+  # meeting_hours_per_week
+
+  - key: job_info.meeting_hours_per_week
+    t: ⏳ Meeting Hours
+  - key: job_info.meeting_hours_per_week.question
+    t: How many hours do spend in meetings in an average week?
+
+  - key: options.meeting_hours_per_week.range_0
+    t: No time at all
+  - key: options.meeting_hours_per_week.range_0_1
+    t: Less than 1 hour
+  - key: options.meeting_hours_per_week.range_1_5
+    t: 1 to 5 hours
+  - key: options.meeting_hours_per_week.range_5_10
+    t: 5 to 10 hours
+  - key: options.meeting_hours_per_week.range_10_15
+    t: 10 to 15 hours
+  - key: options.meeting_hours_per_week.range_over_15
+    t: Over 15 hours
 
   # remote_work_policy
   - key: employer_info.remote_work_policy
@@ -885,11 +913,11 @@ translations:
   - key: options.regular_work_location.dedicated_private_office
     t: Offsite personal office
   - key: options.regular_work_location.dedicated_private_office.description
-    t: Your own private office physically separate from your home
+    t: Your own private office physically separate from your home.
   - key: options.regular_work_location.dedicated_room
     t: Dedicated home office
   - key: options.regular_work_location.dedicated_room.description
-    t: A dedicated office room within your home
+    t: A dedicated office room within your home.
   - key: options.regular_work_location.common_room
     t: Shared-purpose room
   - key: options.regular_work_location.common_room.description
@@ -1487,7 +1515,7 @@ translations:
   - key: compensation.income_evolution
     t: 💹 Income Evolution
   - key: compensation.income_evolution.question
-    t: How has your total income evolved over the past 12 months?
+    t: How has your total annual compensation evolved over the past 12 months?
 
   #######################################################
   #                                                     #
@@ -1502,7 +1530,7 @@ translations:
   - key: technology.programming_languages
     t: Programming Languages
   - key: technology.programming_languages.question
-    t: Which programming languages do you regularly use on your job?
+    t: Which programming languages do you regularly use at your job?
 
   # databases
   - key: technology.databases
@@ -1642,7 +1670,7 @@ translations:
     t: What do you use AI tools for?
 
   - key: options.ai_uses.code_generation
-    t: 💾 Code generation
+    t: Code generation
 
   - key: options.ai_uses.code_generation.description
     t: Generating or refactoring code based on a prompt.
@@ -1675,7 +1703,7 @@ translations:
     t: Image generation
 
   - key: options.ai_uses.image_generation.description
-    t: Generating an image based on a prompt
+    t: Generating an image based on a prompt.
 
   - key: options.ai_uses.speech_generation
     t: Speech generation
@@ -1763,12 +1791,12 @@ translations:
   - key: options.ai_pain_points.lack_of_context
     t: Lack of context
   - key: options.ai_pain_points.lack_of_context.description
-    t: AI not taking into account entire project context
+    t: AI not taking into account entire project context.
 
   - key: options.ai_pain_points.lack_of_memory
     t: Lack of memory
   - key: options.ai_pain_points.lack_of_memory.description
-    t: AI not having memory over time
+    t: AI not having memory over time.
 
   - key: options.ai_pain_points.privacy_concerns
     t: Privacy concerns
@@ -1782,7 +1810,7 @@ translations:
 
   - key: options.ai_pain_points.ethical_concerns
     t: Ethical concerns
-  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+  - key: options.ai_pain_points.ethical_concerns.description
     t: Concerns about how the companies developing AI tools are being run.
 
   - key: ai_usage.ai_generated_code_balance
@@ -2375,3 +2403,34 @@ translations:
       ### 5. Data/Account Deletion
 
       You can email us at [surveys@tokyodev.com](mailto:surveys@tokyodev.com) if you'd like us to delete all or part of your data.
+
+  #######################################################
+  #                                                     #
+  #                         FAQ                         #
+  #                                                     #
+  #######################################################
+
+  - key: faq.tokyodev
+    t: Who is behind this survey?
+  - key: faq.tokyodev.description
+    t: This survey is run by [TokyoDev](https://www.tokyodev.com/), a job board focusing on developer jobs in Japan for English speakers.
+
+  - key: faq.data_used
+    t: How will this data be used?
+  - key: faq.data_used.description
+    t: |
+      All data collected will be kept strictly private and only be used
+      in aggregate to publish the survey results.
+
+  - key: faq.who_should_take_survey
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey.description
+    t: |
+      This is an open survey for any developer living in Japan.
+
+  - key: faq.how_long_will_survey_take
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take.description
+    t: |
+      Depending on how many questions you answer (all questions are optional),
+      filling out the survey should take around 5-10 minutes.
