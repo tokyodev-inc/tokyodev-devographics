@@ -198,8 +198,11 @@
       template: singleWithOther
       options:
         - id: single
-        - id: in_a_relationship
-        - id: its_complicated
+        - id: casual_relationship
+        - id: committed_partnership
+        - id: married
+        - id: divorced_separated
+        - id: widowed
 
     - id: number_of_kids
       template: single
@@ -798,6 +801,16 @@
     # - id: industry_sector_others
     #   label: "What industry or business domain is your current employer in? (other)"
     #   template: others
+
+    - id: meeting_hours_per_week
+      template: single
+      options:
+        - id: range_0
+        - id: range_0_1
+        - id: range_1_5
+        - id: range_5_10
+        - id: range_10_15
+        - id: range_over_15
 
     - id: remote_work_policy
       sectionId: employer_info
@@ -1799,6 +1812,7 @@
         - id: bluesky
         - id: mastodon
         - id: threads
+        - id: mixi2
         - id: na
 
 - id: ai_usage
