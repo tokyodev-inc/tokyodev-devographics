@@ -52,9 +52,11 @@ translations:
 
   # japan_province
   - key: user_info.japan_province
-    t: 🇯🇵 Japanese Prefecture
+    t: Japanese Prefecture
   - key: user_info.japan_province.question
     t: What prefecture is your primary residence in?
+  - key: user_info.japan_province.emoji
+    t: 🇯🇵
 
   - key: options.japan_province.outside_of_japan
     t: Outside of Japan
@@ -155,9 +157,11 @@ translations:
 
   # residency_status
   - key: user_info.residency_status
-    t: 🛂 Residency Status
+    t: Residency Status
   - key: user_info.residency_status.question
     t: Which residency status do you currently have in Japan?
+  - key: user_info.residency_status.emoji
+    t: 🛂
 
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
@@ -185,9 +189,11 @@ translations:
 
   # reason_for_relocation
   - key: user_info.reason_for_relocation
-    t: ✈️ Relocation Circumstances
+    t: Relocation Circumstances
   - key: user_info.reason_for_relocation.question
     t: Under what circumstances did you initially move to Japan?
+  - key: user_info.reason_for_relocation.emoji
+    t: Relocation Circumstances
 
   - key: options.reason_for_relocation.sponsored_by_company
     t: Hired from abroad by a Japan-based company
@@ -207,11 +213,13 @@ translations:
   # country
 
   - key: user_info.country
-    t: 🌏 Country or Region
+    t: Country or Region
   - key: user_info.country.question
     t: What is your country or region of citizenship?
   - key: user_info.country.description
     t: If you have multiple nationalities, please choose one.
+  - key: user_info.country.emoji
+    t: 🌏
 
   # gender
 
@@ -219,6 +227,8 @@ translations:
     t: ⚧ Gender
   - key: user_info.gender.question
     t: Which of the following describe you?
+  - key: user_info.gender.emoji
+    t: Gender
 
   - key: options.gender.man
     t: Man
@@ -235,23 +245,29 @@ translations:
 
   # age
   - key: user_info.age
-    t: ⏳ Age
+    t: Age
   - key: user_info.age.question
     t: How old are you?
+  - key: user_info.age.emoji
+    t: ⏳
 
   # years_of_experience
   - key: user_info.years_of_experience
-    t: 🧑‍💼 Professional Experience
+    t: Professional Experience
   - key: user_info.years_of_experience.question
     t: How many years of professional experience do you have in software development?
   - key: user_info.years_of_experience.prompt
     t: Over your entire career, both in Japan and abroad.
+  - key: user_info.years_of_experience.emoji
+    t: 🧑‍💼
 
   # years_in_japan
   - key: user_info.years_in_japan
-    t: 🇯🇵 Years in Japan
+    t: Years in Japan
   - key: user_info.years_in_japan.question
     t: How many years have you lived in Japan?
+  - key: user_info.years_in_japan.emoji
+    t: 🇯🇵
 
   # educational_attainment
   - key: user_info.educational_attainment
@@ -300,9 +316,11 @@ translations:
 
   # professional_qualifications
   - key: user_info.professional_qualifications
-    t: 🧑‍💼 Professional Qualifications
+    t: Professional Qualifications
   - key: user_info.professional_qualifications.question
     t: What professional qualifications in **computer science** (or related fields) do you have?
+  - key: user_info.professional_qualifications.emoji
+    t: 🧑‍💼
 
   - key: options.professional_qualifications.short_cycle
     aliasFor: options.educational_attainment.short_cycle
@@ -369,9 +387,11 @@ translations:
 
   # language_proficiency_english
   - key: user_info.language_proficiency_english
-    t: 💬 English Ability
+    t: English Ability
   - key: user_info.language_proficiency_english.question
     t: What is your English proficiency?
+  - key: user_info.language_proficiency_english.emoji
+    t: 💬
 
   - key: options.language_proficiency_english.none
     t: None
@@ -398,9 +418,11 @@ translations:
 
   # language_proficiency_japanese
   - key: user_info.language_proficiency_japanese
-    t: 💬 Japanese Ability
+    t: Japanese Ability
   - key: user_info.language_proficiency_japanese.question
     t: What is your Japanese proficiency?
+  - key: user_info.language_proficiency_japanese.emoji
+    t: 💬
 
   - key: options.language_proficiency_japanese.none
     aliasFor: options.language_proficiency_english.none
@@ -427,7 +449,7 @@ translations:
 
   # searching_for_job
   - key: user_info.searching_for_job
-    t: 🔍 Job Search Status
+    t: Job Search Status
     aliases:
       - job_info.searching_for_job
       - other.searching_for_job
@@ -436,13 +458,15 @@ translations:
     aliases:
       - job_info.searching_for_job.question
       - other.searching_for_job.question
+  - key: user_info.searching_for_job.emoji
+    t: 🔍
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
   - key: options.searching_for_job.no_but_would_consider
     t: No, but I would consider a switch if a new opportunity came along.
   - key: options.searching_for_job.no
-    t: No
+    t: "No"
 
   - key: options.searching_for_job.yes.short
     t: Actively looking
@@ -453,13 +477,15 @@ translations:
 
   # employment_status
   - key: user_info.employment_status
-    t: 🧑‍💼️ Employment Status
+    t: Employment Status
     aliases:
       - employer_info.employment_status
   - key: user_info.employment_status.question
     t: Which of the following best describes your employment status?
     aliases:
       - user_info.employment_status.question
+  - key: user_info.employment_status.emoji
+    t: 🧑‍💼️
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain, 正社員)
@@ -486,16 +512,20 @@ translations:
 
   # user_info.source
   - key: user_info.source
-    t: 🔗 Source
+    t: Source
     aliases:
       - other.source
+  - key: user_info.source.emoji
+    t: 🔗
 
   # relationship_status
 
   - key: user_info.relationship_status
-    t: 💕 Relationship Status
+    t: Relationship Status
   - key: user_info.relationship_status.question
     t: What is your current relationship status?
+  - key: user_info.relationship_status.emoji
+    t: 💕
 
   - key: options.relationship_status.single
     t: Single
@@ -523,9 +553,11 @@ translations:
   # number_of_kids
 
   - key: user_info.number_of_kids
-    t: 👶 Number of Kids
+    t: Number of Kids
   - key: user_info.number_of_kids.question
     t: How many children do you have?
+  - key: user_info.number_of_kids.emoji
+    t: 👶
 
   - key: options.number_of_kids.range_0
     t: None
@@ -551,9 +583,11 @@ translations:
 
   # current_employer
   - key: employer_info.current_employer
-    t: 🏢 Employer Type
+    t: Employer Type
   - key: employer_info.current_employer.question
     t: Which of the following best describes your current employer?
+  - key: employer_info.current_employer.emoji
+    t: 🏢
 
   - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
@@ -579,16 +613,20 @@ translations:
 
   # industry_sector
   - key: employer_info.industry_sector
-    t: 🏭 Employer Industry
+    t: Employer Industry
   - key: employer_info.industry_sector.question
     t: What industry or business domain is your current employer in?
+  - key: employer_info.industry_sector.emoji
+    t: 🏭
 
   # meeting_hours_per_week
 
   - key: job_info.meeting_hours_per_week
-    t: ⏳ Meeting Hours
+    t: Meeting Hours
   - key: job_info.meeting_hours_per_week.question
     t: How many hours do spend in meetings in an average week?
+  - key: job_info.meeting_hours_per_week.emoji
+    t: ⏳
 
   - key: options.meeting_hours_per_week.range_0
     t: No time at all
@@ -605,9 +643,11 @@ translations:
 
   # remote_work_policy
   - key: employer_info.remote_work_policy
-    t: 🏝️ Remote Work Policy
+    t: Remote Work Policy
   - key: employer_info.remote_work_policy.question
     t: What best describes your employer's remote work policy?
+  - key: employer_info.remote_work_policy
+    t: 🏝️
 
   - key: job_info.remote_work_policy
     aliasFor: employer_info.remote_work_policy
@@ -637,9 +677,12 @@ translations:
 
   # company_size
   - key: employer_info.company_size
-    t: 👥 Employer Size
+    t: Employer Size
   - key: employer_info.company_size.question
     t: How many employees does your employer have (worldwide)?
+  - key: employer_info.company_size.emoji
+    t: 👥
+
   - key: options.company_size.range_1
     t: 1 employee
   - key: options.company_size.range_2_9
@@ -680,21 +723,25 @@ translations:
 
   # total_employers
   - key: user_info.total_employers
-    t: 🧑‍💼 Total Employers
+    t: Total Employers
   - key: user_info.total_employers.question
     t: How many employers have you had while working in software development?
   - key: user_info.total_employers.prompt
     t: Over your entire career, both in Japan and abroad.
+  - key: user_info.total_employers.emoji
+    t: 🧑‍💼
 
   # finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications
-    t: 📨 Number of Applications
+    t: Number of Applications
     aliases:
       - other.finding_first_job_number_of_applications
   - key: user_info.finding_first_job_number_of_applications.question
     t: To get your first software developer job in Japan, how many positions did you apply to?
     aliases:
       - other.finding_first_job_number_of_applications.question
+  - key: user_info.finding_first_job_number_of_applications.emoji
+    t: 📨
 
   - key: options.finding_first_job_number_of_applications.range_0
     t: 0 (internal transfer)
@@ -730,11 +777,13 @@ translations:
 
   # current_job_description
   - key: job_info.current_job_description
-    t: 🧑‍💼️ Role
+    t: Role
   - key: job_info.current_job_description.question
     t: Which of the following describes your current job?
   - key: job_info.current_job_description.prompt
     t: Please select all that apply.
+  - key: job_info.current_job_description.emoji
+    t: 🧑‍💼️
 
   - key: employer_info.current_job_description
     aliasFor: job_info.current_job_description
@@ -796,9 +845,11 @@ translations:
 
   # coworker_nationalities_engineers
   - key: job_info.coworker_nationalities_engineers
-    t: 🌏 Colleague Nationality (Engineers)
+    t: Colleague Nationality (Engineers)
   - key: job_info.coworker_nationalities_engineers.question
     t: What are the nationalities of your colleagues who are engineers?
+  - key: job_info.coworker_nationalities_engineers.emoji
+    t: 🌏
 
   - key: options.coworker_nationalities_engineers.all_japanese
     t: All Japanese
@@ -820,9 +871,11 @@ translations:
 
   # coworker_nationalities_non_engineers
   - key: job_info.coworker_nationalities_non_engineers
-    t: 🌏 Colleague Nationality (Non-Engineers)
+    t: Colleague Nationality (Non-Engineers)
   - key: job_info.coworker_nationalities_non_engineers.question
     t: What are the nationalities of your colleagues who are **not** engineers?
+  - key: job_info.coworker_nationalities_non_engineers.emoji
+    t: 🌏
 
   - key: options.coworker_nationalities_non_engineers.all_japanese
     aliasFor: options.coworker_nationalities_engineers.all_japanese
@@ -844,9 +897,11 @@ translations:
 
   # languages_used_colleagues_japanese
   - key: job_info.languages_used_colleagues_japanese
-    t: 💬 Japanese Usage
+    t: Japanese Usage
   - key: job_info.languages_used_colleagues_japanese.question
     t: How frequently do you use Japanese at your workplace?
+  - key: job_info.languages_used_colleagues_japanese.emoji
+    t: 💬
 
   - key: options.languages_used_colleagues_japanese.never
     t: Never
@@ -863,9 +918,11 @@ translations:
 
   # languages_used_colleagues_english
   - key: job_info.languages_used_colleagues_english
-    t: 💬 English Usage
+    t: English Usage
   - key: job_info.languages_used_colleagues_english.question
     t: How frequently do you use English at your workplace?
+  - key: job_info.languages_used_colleagues_english.emoji
+    t: 💬
 
   - key: options.languages_used_colleagues_english.never
     aliasFor: options.languages_used_colleagues_japanese.never
@@ -888,9 +945,11 @@ translations:
 
   # work_hours_per_week
   - key: job_info.work_hours_per_week
-    t: 🕐 Hours per week
+    t: Hours per week
   - key: job_info.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
+  - key: job_info.work_hours_per_week.emoji
+    t: 🕐
 
   - key: options.work_hours_per_week.range_under_30
     t: Less than 30 hours
@@ -907,9 +966,11 @@ translations:
 
   # regular_work_location
   - key: job_info.regular_work_location
-    t: 🗄️ Work Location
+    t: Work Location
   - key: job_info.regular_work_location.question
     t: Where do you usually work from?
+  - key: job_info.regular_work_location.emoji
+    t: 🗄️
 
   - key: options.regular_work_location.company_offices
     t: Company office
@@ -1027,9 +1088,12 @@ translations:
 
   # coworker_gender_engineers
   - key: job_info.coworker_gender_engineers
-    t: ⚧ Colleague Gender
+    t: Colleague Gender
   - key: job_info.coworker_gender_engineers.question
     t: What is the gender of your colleagues who are engineers?
+  - key: job_info.coworker_gender_engineers.emoji
+    t: ⚧
+
   - key: options.coworker_gender_engineers.all_male
     t: All male
   - key: options.coworker_gender_engineers.mostly_made
@@ -1063,9 +1127,11 @@ translations:
 
     # workplace_difficulties
   - key: job_info.workplace_difficulties
-    t: ☹️ Workplace Difficulties
+    t: Workplace Difficulties
   - key: job_info.workplace_difficulties.question
     t: What are the negative aspects of the working environment at your current employer?
+  - key: job_info.workplace_difficulties.emoji
+    t: ☹️
 
   - key: options.workplace_difficulties.coworker_relations
     t: Coworkers relations
@@ -1119,9 +1185,11 @@ translations:
 
     # workplace_perks
   - key: job_info.workplace_perks
-    t: 😀 Workplace Perks
+    t: Workplace Perks
   - key: job_info.workplace_perks.question
     t: What are the positive aspects of the working environment at your current employer?
+  - key: job_info.workplace_perks.emoji
+    t: 😀
 
   - key: options.workplace_perks.coworker_relations
     aliasFor: options.workplace_difficulties.coworker_relations
@@ -1176,16 +1244,20 @@ translations:
   # job title
 
   - key: job_info.job_title
-    t: 🧑‍💼️ Job Title
+    t: Job Title
   - key: job_info.job_title.question
     t: What is your job title?
+  - key: job_info.job_title.emoji
+    t: 🧑‍💼️
 
   # discrimination_issues
 
   - key: job_info.discrimination_issues
-    t: 😡 Discrimination
+    t: Discrimination
   - key: job_info.discrimination_issues.question
     t: Have you ever experienced discrimination in the workplace based on any of the following factors?
+  - key: job_info.discrimination_issues.emoji
+    t: 😡
 
   - key: options.discrimination_issues.gender
     t: Gender or gender identity
@@ -1215,9 +1287,11 @@ translations:
 
   # job_happiness
   - key: job_info.job_happiness
-    t: 😁 Job Happiness
+    t: Job Happiness
   - key: job_info.job_happiness.question
     t: How happy are you with your current job?
+  - key: job_info.job_happiness.emoji
+    t: 😁
 
   #######################################################
   #                                                     #
@@ -1239,11 +1313,13 @@ translations:
 
   # current_total_annual_compensation
   - key: compensation.current_total_annual_compensation
-    t: 💴 Total Compensation
+    t: Total Compensation
   - key: compensation.current_total_annual_compensation.question
     t: What is your current total annual compensation from your current employer?
   - key: compensation.current_total_annual_compensation.description
     t: Salary, bonuses, perks, and overtime pay, before taxes and deductions, in Japanese yen.
+  - key: compensation.current_total_annual_compensation.emoji
+    t: 💴
 
   - key: options.current_total_annual_compensation.range_under_1000000
     t: Under ¥1,000,000 per year
@@ -1329,7 +1405,7 @@ translations:
 
   # annual_paid_leave
   - key: compensation.annual_paid_leave
-    t: 💸 Paid Leave
+    t: Paid Leave
   - key: compensation.annual_paid_leave.question
     t: How many days of annual paid leave do you currently receive?
   - key: compensation.annual_paid_leave.description
@@ -1337,6 +1413,8 @@ translations:
   - key: compensation.annual_paid_leave.note
     t: |
       If you have unlimited paid leave, please put in the number of days you usually take in a year.
+  - key: compensation.annual_paid_leave.emoji
+    t: 💸
 
   - key: options.annual_paid_leave.range_under_10
     t: Under 10
@@ -1417,7 +1495,7 @@ translations:
   - key: options.negotiated_compensation.failure.short
     t: Yes, unsuccessfully
   - key: options.negotiated_compensation.no_negotiation.short
-    t: No
+    t: "No"
   - key: options.negotiated_compensation.na.short
     t: 🚫 Not Applicable
 
@@ -1463,11 +1541,13 @@ translations:
   # paid_leave_percentage
 
   - key: compensation.paid_leave_percentage
-    t: 💸 Paid Leave Percentage
+    t: Paid Leave Percentage
   - key: compensation.paid_leave_percentage.question
     t: What percentage of your paid leave do you anticipate you'll use this year?
   - key: compensation.paid_leave_percentage.prompt
     t: This only refers to your usage of annual paid leave, and not to other holidays like national holidays, New Year's holidays, Obon, etc.
+  - key: compensation.paid_leave_percentage.emoji
+    t: 💸
 
   - key: job_info.paid_leave_percentage
     aliasFor: compensation.paid_leave_percentage
@@ -1490,13 +1570,15 @@ translations:
   # most_important_benefit
 
   - key: compensation.most_important_benefit
-    t: 🏆 Most Important Benefit
+    t: Most Important Benefit
     aliases:
       - job_info.most_important_benefit
   - key: compensation.most_important_benefit.question
     t: Besides your salary, which benefit offered by your employer is the most important to you?
     aliases:
       - job_info.most_important_benefit.question
+  - key: compensation.most_important_benefit.emoji
+    t: 🏆
 
   - key: options.most_important_benefit.books
     t: Books (free or subsidized)
@@ -1521,9 +1603,11 @@ translations:
 
   # income_evolution
   - key: compensation.income_evolution
-    t: 💹 Income Evolution
+    t: Income Evolution
   - key: compensation.income_evolution.question
     t: How has your total annual compensation evolved over the past 12 months?
+  - key: compensation.income_evolution.emoji
+    t: 💹
 
   #######################################################
   #                                                     #
@@ -1664,18 +1748,22 @@ translations:
     t: AI Usage
 
   - key: ai_usage.ai_tools
-    t: 🤖 AI Tools
+    t: AI Tools
   - key: ai_usage.ai_tools.question
     t: Which AI tools do you use regularly?
   - key: ai_usage.ai_tools.prompt
     t: Only select tools that you use once a week or more.
+  - key: ai_usage.ai_tools.emoji
+    t: 🤖
 
     # ai_uses
 
   - key: ai_usage.ai_uses
-    t: ⚙️ Use Cases
+    t: Use Cases
   - key: ai_usage.ai_uses.question
     t: What do you use AI tools for?
+  - key: ai_usage.ai_uses.emoji
+    t: ⚙️
 
   - key: options.ai_uses.code_generation
     t: Code generation
@@ -1762,9 +1850,11 @@ translations:
 
   # ai_pain_points
   - key: ai_usage.ai_pain_points
-    t: 😖 Pain Points
+    t: Pain Points
   - key: ai_usage.ai_pain_points.question
     t: What are your top pain points when it comes to using AI tools?
+  - key: ai_usage.ai_pain_points.emoji
+    t: 😖
 
   - key: options.ai_pain_points.misunderstood_prompt
     t: Prompt comprehension
@@ -1850,9 +1940,12 @@ translations:
   # ai_code_generation_frequency
 
   - key: ai_usage.ai_code_generation_frequency
-    t: ⏱️ Code Generation Frequency
+    t: Code Generation Frequency
   - key: ai_usage.ai_code_generation_frequency.question
     t: How frequently do you use AI tools to generate or refactor code?
+  - key: ai_usage.ai_code_generation_frequency.emoji
+    t: ⏱️
+
   - key: options.ai_code_generation_frequency.0
     t: Never
   - key: options.ai_code_generation_frequency.1
@@ -1871,16 +1964,20 @@ translations:
   # more_productive
 
   - key: ai_usage.more_productive
-    t: 🏭 Productivity
+    t: Productivity
   - key: ai_usage.more_productive.question
     t: AI tools have made me a lot more productive
+  - key: ai_usage.more_productive.emoji
+    t: 🏭
 
   # job_security_threat
 
   - key: ai_usage.job_security_threat
-    t: 🔒 Job Security
+    t: Job Security
   - key: ai_usage.job_security_threat.question
     t: AI tools are a threat to my job security
+  - key: ai_usage.job_security_threat.emoji
+    t: 🔒
 
   #######################################################
   #                                                     #
@@ -1894,9 +1991,11 @@ translations:
   # friend_group_balance
 
   - key: life_in_japan.friend_group_balance
-    t: 👭 Friend Group
+    t: Friend Group
   - key: life_in_japan.friend_group_balance.description
     t: Among your friends, what is the balance of Japanese and non-Japanese?
+  - key: life_in_japan.friend_group_balance.emoji
+    t: 👭
 
   - key: options.friend_group_balance.all_japanese
     aliasFor: options.coworker_nationalities_engineers.all_japanese
@@ -1922,11 +2021,13 @@ translations:
 
   # initial_attraction
   - key: life_in_japan.initial_attraction
-    t: 🗾 Initial Attraction
+    t: Initial Attraction
   - key: life_in_japan.initial_attraction.question
     t: What initially attracted you to Japan?
   - key: life_in_japan.initial_attraction.prompt
     t: The thing that first triggered your interest for Japan, if applicable.
+  - key: life_in_japan.initial_attraction.emoji
+    t: 🗾
 
   - key: options.initial_attraction.anime_manga
     t: Anime/manga
@@ -2012,9 +2113,11 @@ translations:
   # hobbies
 
   - key: life_in_japan.hobbies
-    t: 🗻 Hobbies
+    t: Hobbies
   - key: life_in_japan.hobbies.question
     t: What are your hobbies?
+  - key: life_in_japan.hobbies.emoji
+    t: 🗻
 
   - key: options.hobbies.woodworking
     t: Woodworking/DIY
@@ -2060,9 +2163,11 @@ translations:
   # life_japan_positive_aspects
 
   - key: life_in_japan.life_japan_positive_aspects
-    t: 👍 Positive Aspects
+    t: Positive Aspects
   - key: life_in_japan.life_japan_positive_aspects.question
     t: What are the positive aspects of living in Japan?
+  - key: life_in_japan.life_japan_positive_aspects.emoji
+    t: 👍
 
   - key: options.life_japan_positive_aspects.adventure
     t: Travel & adventure
@@ -2132,9 +2237,11 @@ translations:
   # life_japan_negative_aspects
 
   - key: life_in_japan.life_japan_negative_aspects
-    t: 👎 Negative Aspects
+    t: Negative Aspects
   - key: life_in_japan.life_japan_negative_aspects.question
     t: What are the negative aspects of living in Japan?
+  - key: life_in_japan.life_japan_negative_aspects.emoji
+    t: 👎
 
   - key: options.life_japan_negative_aspects.cultural_barriers
     t: Cultural barriers
@@ -2236,73 +2343,89 @@ translations:
     aliasFor: options.life_in_japan.visa_situation.description
 
   - key: options.life_in_japan.professional_life
-    t: 🧑‍💻 Professional Life
+    t: Professional Life
     aliases:
       - other.life_in_japan__professional_life
   - key: options.life_in_japan.professional_life.description
     t: Career prospects, working conditions, work-life balance, etc.
   - key: satisfaction.life_in_japan__professional_life.description
     aliasFor: options.life_in_japan.professional_life.description
+  - key: options.life_in_japan.professional_life.emoji
+    t: 🧑‍💻
 
   - key: options.life_in_japan.family_life
-    t: 👨‍👩‍👧 Family Life
+    t: Family Life
     aliases:
       - other.life_in_japan__family_life
   - key: options.life_in_japan.family_life.description
     t: Romantic relationships, children, etc.
   - key: satisfaction.life_in_japan__family_life.description
     aliasFor: options.life_in_japan.family_life.description
+  - key: options.life_in_japan.family_life.emoji
+    t: 👨‍👩‍👧
 
   - key: options.life_in_japan.social_life
-    t: 💃 Social Life
+    t: Social Life
     aliases:
       - other.life_in_japan__social_life
   - key: options.life_in_japan.social_life.description
     t: Friends, hobbies, community, etc.
   - key: satisfaction.life_in_japan__social_life.description
     aliasFor: options.life_in_japan.social_life.description
+  - key: options.life_in_japan.social_life.emoji
+    t: 💃
 
   - key: options.life_in_japan.cultural_adjustment
-    t: ⛩️ Cultural Adjustment
+    t: Cultural Adjustment
     aliases:
       - other.life_in_japan__cultural_adjustment
   - key: options.life_in_japan.cultural_adjustment.description
     t: Culture fit, language proficiency, etc.
   - key: satisfaction.life_in_japan__cultural_adjustment.description
     aliasFor: options.life_in_japan.cultural_adjustment.description
+  - key: options.life_in_japan.cultural_adjustment.emoji
+    t: ⛩️
 
   - key: options.life_in_japan.quality_of_life
-    t: ❤️‍🩹 Quality of Life
+    t: Quality of Life
     aliases:
       - other.life_in_japan__quality_of_life
   - key: options.life_in_japan.quality_of_life.description
     t: Environment, healthcare, safety, etc.
   - key: satisfaction.life_in_japan__quality_of_life.description
     aliasFor: options.life_in_japan.quality_of_life.description
+  - key: options.life_in_japan.quality_of_life.emoji
+    t: ❤️‍🩹
 
   - key: options.life_in_japan.housing
-    t: 🏠 Housing
+    t: Housing
     aliases:
       - other.life_in_japan__housing
   - key: options.life_in_japan.housing.description
     t: Amenities, location, housing size, etc.
   - key: satisfaction.life_in_japan__housing.description
     aliasFor: options.life_in_japan.housing.description
+  - key: options.life_in_japan.housing.emoji
+    t: 🏠
 
   - key: options.life_in_japan.financial_situation
-    t: 💹 Financial Situation
+    t: Financial Situation
     aliases:
       - other.life_in_japan__financial_situation
   - key: options.life_in_japan.financial_situation.description
     t: Compensation, cost of living, managing finances, etc.
   - key: satisfaction.life_in_japan__financial_situation.description
     aliasFor: options.life_in_japan.financial_situation.description
+  - key: options.life_in_japan.financial_situation.emoji
+    t: 💹
 
   # online_communities
   - key: other.online_communities
-    t: 💬 Online Communities
+    t: Online Communities
   - key: other.online_communities.question
     t: Which Japan-based developer-focused online communities do you regularly participate in?
+  - key: other.online_communities.emoji
+    t: 💬
 
   - key: options.online_communities.tokyodev_discord
     t: TokyoDev Discord
@@ -2324,9 +2447,11 @@ translations:
   #   t: Japan-focused LinkedIn groups
 
   - key: other.communities
-    t: 🧑‍🏫 Developer Communities
+    t: Developer Communities
   - key: other.communities.question
     t: Which Japan-based developer communities are you a member of?
+  - key: other.communities.emoji
+    t: 🧑‍🏫
 
   # keyboard_layout
   - key: other.keyboard_layout
@@ -2354,9 +2479,11 @@ translations:
 
   # best_thing_about_japan
   - key: other.favourite_thing_about_japan
-    t: 🍜 Favourite Thing
+    t: Favourite Thing
   - key: other.favourite_thing_about_japan.question
     t: In a single word, what is your favourite thing about Japan?
+  - key: other.favourite_thing_about_japan.emoji
+    t: 🍜
 
   # receive_notifications
 
