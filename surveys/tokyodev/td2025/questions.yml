@@ -1798,6 +1798,7 @@
         - id: perplexity
         - id: stable_diffusion
         - id: v0
+        - id: na
 
     - id: ai_uses
       template: multipleWithOther
@@ -1811,6 +1812,7 @@
         - id: summarization
         - id: text_generation
         - id: translation
+        - id: na
 
     - id: ai_generated_code_balance
       template: slider
@@ -1829,6 +1831,7 @@
 
     - id: ai_pain_points
       template: multipleWithOther
+      limit: 3
       options:
         - id: costs
         - id: environmental_impact
