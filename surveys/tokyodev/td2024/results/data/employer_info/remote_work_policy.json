@@ -7,53 +7,116 @@
             "remote_work_policy": {
               "id": "remote_work_policy",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 617,
+                      "percentageSurvey": 86.41,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 54,
+                        "id": "no_remote_work",
+                        "index": 0,
+                        "percentageQuestion": 8.75,
+                        "percentageSurvey": 7.56
+                      },
+                      {
+                        "count": 198,
+                        "id": "hybrid",
+                        "index": 1,
+                        "percentageQuestion": 32.09,
+                        "percentageSurvey": 27.73
+                      },
+                      {
+                        "count": 265,
+                        "id": "up_to_employee",
+                        "index": 2,
+                        "percentageQuestion": 42.95,
+                        "percentageSurvey": 37.11
+                      },
+                      {
+                        "count": 100,
+                        "id": "fully_remote",
+                        "index": 3,
+                        "percentageQuestion": 16.21,
+                        "percentageSurvey": 14.01
+                      },
+                      {
+                        "count": 97,
+                        "id": "no_answer",
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.59
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 707,
-                    "percentageSurvey": 86.86,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 62,
-                      "id": "no_remote_work",
-                      "percentageQuestion": 8.77,
-                      "percentageSurvey": 7.62
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    {
-                      "count": 265,
-                      "id": "hybrid",
-                      "percentageQuestion": 37.48,
-                      "percentageSurvey": 32.56
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 707,
+                      "percentageSurvey": 86.86,
+                      "total": 814
                     },
-                    {
-                      "count": 268,
-                      "id": "up_to_employee",
-                      "percentageQuestion": 37.91,
-                      "percentageSurvey": 32.92
-                    },
-                    {
-                      "count": 112,
-                      "id": "fully_remote",
-                      "percentageQuestion": 15.84,
-                      "percentageSurvey": 13.76
-                    },
-                    {
-                      "count": 107,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 13.14
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 62,
+                        "id": "no_remote_work",
+                        "index": 0,
+                        "percentageQuestion": 8.77,
+                        "percentageSurvey": 7.62
+                      },
+                      {
+                        "count": 265,
+                        "id": "hybrid",
+                        "index": 1,
+                        "percentageQuestion": 37.48,
+                        "percentageSurvey": 32.56
+                      },
+                      {
+                        "count": 268,
+                        "id": "up_to_employee",
+                        "index": 2,
+                        "percentageQuestion": 37.91,
+                        "percentageSurvey": 32.92
+                      },
+                      {
+                        "count": 112,
+                        "id": "fully_remote",
+                        "index": 3,
+                        "percentageQuestion": 15.84,
+                        "percentageSurvey": 13.76
+                      },
+                      {
+                        "count": 107,
+                        "id": "no_answer",
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.14
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

@@ -7,92 +7,197 @@
             "residency_status": {
               "id": "residency_status",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 682,
+                      "percentageSurvey": 95.52,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 341,
+                        "id": "engineer",
+                        "index": 0,
+                        "percentageQuestion": 50,
+                        "percentageSurvey": 47.76
+                      },
+                      {
+                        "count": 108,
+                        "id": "permanent_resident",
+                        "index": 1,
+                        "percentageQuestion": 15.84,
+                        "percentageSurvey": 15.13
+                      },
+                      {
+                        "count": 101,
+                        "id": "spouse_dependent_japanese_permanent_resident",
+                        "index": 2,
+                        "percentageQuestion": 14.81,
+                        "percentageSurvey": 14.15
+                      },
+                      {
+                        "count": 54,
+                        "id": "hsfp",
+                        "index": 3,
+                        "percentageQuestion": 7.92,
+                        "percentageSurvey": 7.56
+                      },
+                      {
+                        "count": 46,
+                        "id": "japanese_citizen",
+                        "index": 4,
+                        "percentageQuestion": 6.74,
+                        "percentageSurvey": 6.44
+                      },
+                      {
+                        "count": 23,
+                        "id": "student",
+                        "index": 5,
+                        "percentageQuestion": 3.37,
+                        "percentageSurvey": 3.22
+                      },
+                      {
+                        "count": 32,
+                        "id": "no_answer",
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.48
+                      },
+                      {
+                        "count": 29,
+                        "id": "other_answers",
+                        "index": 7,
+                        "percentageQuestion": 4.25,
+                        "percentageSurvey": 4.06,
+                        "groupedBuckets": [
+                          {
+                            "count": 18,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 2.64,
+                            "percentageSurvey": 2.52
+                          },
+                          {
+                            "count": 11,
+                            "id": "no_match",
+                            "index": 2,
+                            "percentageQuestion": 1.61,
+                            "percentageSurvey": 1.54,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 774,
-                    "percentageSurvey": 95.09,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 379,
-                      "id": "engineer",
-                      "percentageQuestion": 48.97,
-                      "percentageSurvey": 46.56
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 145,
-                      "id": "permanent_resident",
-                      "percentageQuestion": 18.73,
-                      "percentageSurvey": 17.81
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 774,
+                      "percentageSurvey": 95.09,
+                      "total": 814
                     },
-                    {
-                      "count": 93,
-                      "id": "spouse_dependent_japanese_permanent_resident",
-                      "percentageQuestion": 12.02,
-                      "percentageSurvey": 11.43
-                    },
-                    {
-                      "count": 75,
-                      "id": "hsfp",
-                      "percentageQuestion": 9.69,
-                      "percentageSurvey": 9.21
-                    },
-                    {
-                      "count": 52,
-                      "id": "japanese_citizen",
-                      "percentageQuestion": 6.72,
-                      "percentageSurvey": 6.39
-                    },
-                    {
-                      "count": 14,
-                      "id": "student",
-                      "percentageQuestion": 1.81,
-                      "percentageSurvey": 1.72
-                    },
-                    {
-                      "count": 11,
-                      "id": "dependent_foreign_resident",
-                      "percentageQuestion": 1.42,
-                      "percentageSurvey": 1.35
-                    },
-                    {
-                      "count": 40,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 4.91
-                    },
-                    {
-                      "count": 24,
-                      "id": "other_answers",
-                      "percentageQuestion": 3.11,
-                      "percentageSurvey": 2.94,
-                      "groupedBuckets": [
-                        {
-                          "count": 13,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 1.69,
-                          "percentageSurvey": 1.59
-                        },
-                        {
-                          "count": 11,
-                          "id": "no_match",
-                          "percentageQuestion": 1.42,
-                          "percentageSurvey": 1.35,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 379,
+                        "id": "engineer",
+                        "index": 0,
+                        "percentageQuestion": 48.97,
+                        "percentageSurvey": 46.56
+                      },
+                      {
+                        "count": 145,
+                        "id": "permanent_resident",
+                        "index": 1,
+                        "percentageQuestion": 18.73,
+                        "percentageSurvey": 17.81
+                      },
+                      {
+                        "count": 93,
+                        "id": "spouse_dependent_japanese_permanent_resident",
+                        "index": 2,
+                        "percentageQuestion": 12.02,
+                        "percentageSurvey": 11.43
+                      },
+                      {
+                        "count": 75,
+                        "id": "hsfp",
+                        "index": 3,
+                        "percentageQuestion": 9.69,
+                        "percentageSurvey": 9.21
+                      },
+                      {
+                        "count": 52,
+                        "id": "japanese_citizen",
+                        "index": 4,
+                        "percentageQuestion": 6.72,
+                        "percentageSurvey": 6.39
+                      },
+                      {
+                        "count": 14,
+                        "id": "student",
+                        "index": 5,
+                        "percentageQuestion": 1.81,
+                        "percentageSurvey": 1.72
+                      },
+                      {
+                        "count": 11,
+                        "id": "dependent_foreign_resident",
+                        "index": 6,
+                        "percentageQuestion": 1.42,
+                        "percentageSurvey": 1.35
+                      },
+                      {
+                        "count": 40,
+                        "id": "no_answer",
+                        "index": 7,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.91
+                      },
+                      {
+                        "count": 24,
+                        "id": "other_answers",
+                        "index": 8,
+                        "percentageQuestion": 3.11,
+                        "percentageSurvey": 2.94,
+                        "groupedBuckets": [
+                          {
+                            "count": 13,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 1.69,
+                            "percentageSurvey": 1.59
+                          },
+                          {
+                            "count": 11,
+                            "id": "no_match",
+                            "index": 2,
+                            "percentageQuestion": 1.42,
+                            "percentageSurvey": 1.35,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

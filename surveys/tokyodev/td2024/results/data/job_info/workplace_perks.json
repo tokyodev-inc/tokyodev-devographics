@@ -7,103 +7,120 @@
             "workplace_perks": {
               "id": "workplace_perks",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 707,
-                    "percentageSurvey": 86.86,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 498,
-                      "id": "work_life_balance",
-                      "percentageQuestion": 70.44,
-                      "percentageSurvey": 61.18
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 707,
+                      "percentageSurvey": 86.86,
+                      "total": 814
                     },
-                    {
-                      "count": 486,
-                      "id": "working_conditions",
-                      "percentageQuestion": 68.74,
-                      "percentageSurvey": 59.71
-                    },
-                    {
-                      "count": 470,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 66.48,
-                      "percentageSurvey": 57.74
-                    },
-                    {
-                      "count": 379,
-                      "id": "job_security",
-                      "percentageQuestion": 53.61,
-                      "percentageSurvey": 46.56
-                    },
-                    {
-                      "count": 356,
-                      "id": "company_culture",
-                      "percentageQuestion": 50.35,
-                      "percentageSurvey": 43.73
-                    },
-                    {
-                      "count": 335,
-                      "id": "compensation",
-                      "percentageQuestion": 47.38,
-                      "percentageSurvey": 41.15
-                    },
-                    {
-                      "count": 319,
-                      "id": "work_content",
-                      "percentageQuestion": 45.12,
-                      "percentageSurvey": 39.19
-                    },
-                    {
-                      "count": 133,
-                      "id": "cultural_differences",
-                      "percentageQuestion": 18.81,
-                      "percentageSurvey": 16.34
-                    },
-                    {
-                      "count": 132,
-                      "id": "language_differences",
-                      "percentageQuestion": 18.67,
-                      "percentageSurvey": 16.22
-                    },
-                    {
-                      "count": 99,
-                      "id": "training",
-                      "percentageQuestion": 14,
-                      "percentageSurvey": 12.16
-                    },
-                    {
-                      "count": 2,
-                      "id": "tokyodev",
-                      "percentageQuestion": 0.28,
-                      "percentageSurvey": 0.25,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 11,
-                      "id": "no_match",
-                      "percentageQuestion": 1.56,
-                      "percentageSurvey": 1.35,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 107,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 13.14
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 498,
+                        "id": "work_life_balance",
+                        "index": 0,
+                        "percentageQuestion": 70.44,
+                        "percentageSurvey": 61.18
+                      },
+                      {
+                        "count": 486,
+                        "id": "working_conditions",
+                        "index": 1,
+                        "percentageQuestion": 68.74,
+                        "percentageSurvey": 59.71
+                      },
+                      {
+                        "count": 470,
+                        "id": "coworker_relations",
+                        "index": 2,
+                        "percentageQuestion": 66.48,
+                        "percentageSurvey": 57.74
+                      },
+                      {
+                        "count": 379,
+                        "id": "job_security",
+                        "index": 3,
+                        "percentageQuestion": 53.61,
+                        "percentageSurvey": 46.56
+                      },
+                      {
+                        "count": 356,
+                        "id": "company_culture",
+                        "index": 4,
+                        "percentageQuestion": 50.35,
+                        "percentageSurvey": 43.73
+                      },
+                      {
+                        "count": 335,
+                        "id": "compensation",
+                        "index": 5,
+                        "percentageQuestion": 47.38,
+                        "percentageSurvey": 41.15
+                      },
+                      {
+                        "count": 319,
+                        "id": "work_content",
+                        "index": 6,
+                        "percentageQuestion": 45.12,
+                        "percentageSurvey": 39.19
+                      },
+                      {
+                        "count": 133,
+                        "id": "cultural_differences",
+                        "index": 7,
+                        "percentageQuestion": 18.81,
+                        "percentageSurvey": 16.34
+                      },
+                      {
+                        "count": 132,
+                        "id": "language_differences",
+                        "index": 8,
+                        "percentageQuestion": 18.67,
+                        "percentageSurvey": 16.22
+                      },
+                      {
+                        "count": 99,
+                        "id": "training",
+                        "index": 9,
+                        "percentageQuestion": 14,
+                        "percentageSurvey": 12.16
+                      },
+                      {
+                        "count": 2,
+                        "id": "tokyodev",
+                        "index": 10,
+                        "percentageQuestion": 0.28,
+                        "percentageSurvey": 0.25,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 11,
+                        "id": "no_match",
+                        "index": 11,
+                        "percentageQuestion": 1.56,
+                        "percentageSurvey": 1.35,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 107,
+                        "id": "no_answer",
+                        "index": 12,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.14
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

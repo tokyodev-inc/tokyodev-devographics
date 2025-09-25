@@ -7,80 +7,191 @@
             "professional_qualifications": {
               "id": "professional_qualifications",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 682,
+                      "percentageSurvey": 95.52,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 316,
+                        "id": "bachelors_degree",
+                        "index": 0,
+                        "percentageQuestion": 46.33,
+                        "percentageSurvey": 44.26
+                      },
+                      {
+                        "count": 148,
+                        "id": "masters_degree",
+                        "index": 1,
+                        "percentageQuestion": 21.7,
+                        "percentageSurvey": 20.73
+                      },
+                      {
+                        "count": 95,
+                        "id": "coding_bootcamp",
+                        "index": 2,
+                        "percentageQuestion": 13.93,
+                        "percentageSurvey": 13.31
+                      },
+                      {
+                        "count": 62,
+                        "id": "professional_qualification",
+                        "index": 3,
+                        "percentageQuestion": 9.09,
+                        "percentageSurvey": 8.68
+                      },
+                      {
+                        "count": 44,
+                        "id": "short_cycle",
+                        "index": 4,
+                        "percentageQuestion": 6.45,
+                        "percentageSurvey": 6.16
+                      },
+                      {
+                        "count": 16,
+                        "id": "phd",
+                        "index": 5,
+                        "percentageQuestion": 2.35,
+                        "percentageSurvey": 2.24
+                      },
+                      {
+                        "count": 120,
+                        "id": "na",
+                        "index": 6,
+                        "percentageQuestion": 17.6,
+                        "percentageSurvey": 16.81
+                      },
+                      {
+                        "count": 32,
+                        "id": "no_answer",
+                        "index": 7,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.48
+                      },
+                      {
+                        "count": 22,
+                        "id": "other_answers",
+                        "index": 8,
+                        "percentageQuestion": 3.23,
+                        "percentageSurvey": 3.08,
+                        "groupedBuckets": [
+                          {
+                            "count": 1,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 0.15,
+                            "percentageSurvey": 0.14
+                          },
+                          {
+                            "count": 21,
+                            "id": "no_match",
+                            "index": 0,
+                            "percentageQuestion": 3.08,
+                            "percentageSurvey": 2.94,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 705,
-                    "percentageSurvey": 86.61,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 444,
-                      "id": "bachelors_degree",
-                      "percentageQuestion": 62.98,
-                      "percentageSurvey": 54.55
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 209,
-                      "id": "masters_degree",
-                      "percentageQuestion": 29.65,
-                      "percentageSurvey": 25.68
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 705,
+                      "percentageSurvey": 86.61,
+                      "total": 814
                     },
-                    {
-                      "count": 90,
-                      "id": "coding_bootcamp",
-                      "percentageQuestion": 12.77,
-                      "percentageSurvey": 11.06
-                    },
-                    {
-                      "count": 74,
-                      "id": "professional_qualification",
-                      "percentageQuestion": 10.5,
-                      "percentageSurvey": 9.09
-                    },
-                    {
-                      "count": 45,
-                      "id": "short_cycle",
-                      "percentageQuestion": 6.38,
-                      "percentageSurvey": 5.53
-                    },
-                    {
-                      "count": 31,
-                      "id": "phd",
-                      "percentageQuestion": 4.4,
-                      "percentageSurvey": 3.81
-                    },
-                    {
-                      "count": 109,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 13.39
-                    },
-                    {
-                      "count": 35,
-                      "id": "other_answers",
-                      "percentageQuestion": 4.96,
-                      "percentageSurvey": 4.3,
-                      "groupedBuckets": [
-                        {
-                          "count": 35,
-                          "id": "no_match",
-                          "percentageQuestion": 4.96,
-                          "percentageSurvey": 4.3,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 444,
+                        "id": "bachelors_degree",
+                        "index": 0,
+                        "percentageQuestion": 62.98,
+                        "percentageSurvey": 54.55
+                      },
+                      {
+                        "count": 209,
+                        "id": "masters_degree",
+                        "index": 1,
+                        "percentageQuestion": 29.65,
+                        "percentageSurvey": 25.68
+                      },
+                      {
+                        "count": 90,
+                        "id": "coding_bootcamp",
+                        "index": 2,
+                        "percentageQuestion": 12.77,
+                        "percentageSurvey": 11.06
+                      },
+                      {
+                        "count": 74,
+                        "id": "professional_qualification",
+                        "index": 3,
+                        "percentageQuestion": 10.5,
+                        "percentageSurvey": 9.09
+                      },
+                      {
+                        "count": 45,
+                        "id": "short_cycle",
+                        "index": 4,
+                        "percentageQuestion": 6.38,
+                        "percentageSurvey": 5.53
+                      },
+                      {
+                        "count": 31,
+                        "id": "phd",
+                        "index": 5,
+                        "percentageQuestion": 4.4,
+                        "percentageSurvey": 3.81
+                      },
+                      {
+                        "count": 109,
+                        "id": "no_answer",
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.39
+                      },
+                      {
+                        "count": 35,
+                        "id": "other_answers",
+                        "index": 7,
+                        "percentageQuestion": 4.96,
+                        "percentageSurvey": 4.3,
+                        "groupedBuckets": [
+                          {
+                            "count": 35,
+                            "id": "no_match",
+                            "index": 0,
+                            "percentageQuestion": 4.96,
+                            "percentageSurvey": 4.3,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

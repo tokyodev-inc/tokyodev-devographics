@@ -7,103 +7,120 @@
             "workplace_difficulties": {
               "id": "workplace_difficulties",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 565,
-                    "percentageSurvey": 69.41,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 252,
-                      "id": "compensation",
-                      "percentageQuestion": 44.6,
-                      "percentageSurvey": 30.96
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 565,
+                      "percentageSurvey": 69.41,
+                      "total": 814
                     },
-                    {
-                      "count": 193,
-                      "id": "training",
-                      "percentageQuestion": 34.16,
-                      "percentageSurvey": 23.71
-                    },
-                    {
-                      "count": 168,
-                      "id": "company_culture",
-                      "percentageQuestion": 29.73,
-                      "percentageSurvey": 20.64
-                    },
-                    {
-                      "count": 154,
-                      "id": "work_content",
-                      "percentageQuestion": 27.26,
-                      "percentageSurvey": 18.92
-                    },
-                    {
-                      "count": 120,
-                      "id": "language_differences",
-                      "percentageQuestion": 21.24,
-                      "percentageSurvey": 14.74
-                    },
-                    {
-                      "count": 110,
-                      "id": "cultural_differences",
-                      "percentageQuestion": 19.47,
-                      "percentageSurvey": 13.51
-                    },
-                    {
-                      "count": 103,
-                      "id": "work_life_balance",
-                      "percentageQuestion": 18.23,
-                      "percentageSurvey": 12.65
-                    },
-                    {
-                      "count": 90,
-                      "id": "job_security",
-                      "percentageQuestion": 15.93,
-                      "percentageSurvey": 11.06
-                    },
-                    {
-                      "count": 66,
-                      "id": "coworker_relations",
-                      "percentageQuestion": 11.68,
-                      "percentageSurvey": 8.11
-                    },
-                    {
-                      "count": 66,
-                      "id": "working_conditions",
-                      "percentageQuestion": 11.68,
-                      "percentageSurvey": 8.11
-                    },
-                    {
-                      "count": 1,
-                      "id": "tokyodev",
-                      "percentageQuestion": 0.18,
-                      "percentageSurvey": 0.12,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 30,
-                      "id": "no_match",
-                      "percentageQuestion": 5.31,
-                      "percentageSurvey": 3.69,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 249,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 30.59
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 252,
+                        "id": "compensation",
+                        "index": 0,
+                        "percentageQuestion": 44.6,
+                        "percentageSurvey": 30.96
+                      },
+                      {
+                        "count": 193,
+                        "id": "training",
+                        "index": 1,
+                        "percentageQuestion": 34.16,
+                        "percentageSurvey": 23.71
+                      },
+                      {
+                        "count": 168,
+                        "id": "company_culture",
+                        "index": 2,
+                        "percentageQuestion": 29.73,
+                        "percentageSurvey": 20.64
+                      },
+                      {
+                        "count": 154,
+                        "id": "work_content",
+                        "index": 3,
+                        "percentageQuestion": 27.26,
+                        "percentageSurvey": 18.92
+                      },
+                      {
+                        "count": 120,
+                        "id": "language_differences",
+                        "index": 4,
+                        "percentageQuestion": 21.24,
+                        "percentageSurvey": 14.74
+                      },
+                      {
+                        "count": 110,
+                        "id": "cultural_differences",
+                        "index": 5,
+                        "percentageQuestion": 19.47,
+                        "percentageSurvey": 13.51
+                      },
+                      {
+                        "count": 103,
+                        "id": "work_life_balance",
+                        "index": 6,
+                        "percentageQuestion": 18.23,
+                        "percentageSurvey": 12.65
+                      },
+                      {
+                        "count": 90,
+                        "id": "job_security",
+                        "index": 7,
+                        "percentageQuestion": 15.93,
+                        "percentageSurvey": 11.06
+                      },
+                      {
+                        "count": 66,
+                        "id": "coworker_relations",
+                        "index": 8,
+                        "percentageQuestion": 11.68,
+                        "percentageSurvey": 8.11
+                      },
+                      {
+                        "count": 66,
+                        "id": "working_conditions",
+                        "index": 9,
+                        "percentageQuestion": 11.68,
+                        "percentageSurvey": 8.11
+                      },
+                      {
+                        "count": 1,
+                        "id": "tokyodev",
+                        "index": 10,
+                        "percentageQuestion": 0.18,
+                        "percentageSurvey": 0.12,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 30,
+                        "id": "no_match",
+                        "index": 11,
+                        "percentageQuestion": 5.31,
+                        "percentageSurvey": 3.69,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 249,
+                        "id": "no_answer",
+                        "index": 12,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 30.59
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

@@ -7,126 +7,300 @@
             "other_frameworks_libraries_by_data_scientist_or_machine_learning_1": {
               "id": "other_frameworks_libraries",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 59,
-                    "percentageSurvey": 7.25,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 46,
-                      "id": "torch_pytorch",
-                      "percentageQuestion": 77.97,
-                      "percentageSurvey": 5.65,
-                      "entity": {
-                        "name": "Torch/PyTorch",
-                        "nameClean": "Torch/PyTorch",
-                        "id": "torch_pytorch",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://pytorch.org/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 45,
-                      "id": "numpy",
-                      "percentageQuestion": 76.27,
-                      "percentageSurvey": 5.53,
-                      "entity": {
-                        "name": "NumPy",
-                        "nameClean": "NumPy",
-                        "id": "numpy",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://numpy.org/"
-                        }
-                      }
-                    },
-                    {
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
                       "count": 43,
-                      "id": "pandas",
-                      "percentageQuestion": 72.88,
-                      "percentageSurvey": 5.28,
-                      "entity": {
-                        "name": "Pandas",
-                        "nameClean": "Pandas",
+                      "percentageSurvey": 6.02,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 37,
+                        "id": "numpy",
+                        "index": 0,
+                        "percentageQuestion": 86.05,
+                        "percentageSurvey": 5.18,
+                        "entity": {
+                          "name": "NumPy",
+                          "nameClean": "NumPy",
+                          "id": "numpy",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://numpy.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 32,
                         "id": "pandas",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://pandas.pydata.org/"
+                        "index": 1,
+                        "percentageQuestion": 74.42,
+                        "percentageSurvey": 4.48,
+                        "entity": {
+                          "name": "Pandas",
+                          "nameClean": "Pandas",
+                          "id": "pandas",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://pandas.pydata.org/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 29,
-                      "id": "scikit_learn",
-                      "percentageQuestion": 49.15,
-                      "percentageSurvey": 3.56,
-                      "entity": {
-                        "name": "scikit-learn",
-                        "nameClean": "scikit-learn",
+                      },
+                      {
+                        "count": 28,
+                        "id": "torch_pytorch",
+                        "index": 2,
+                        "percentageQuestion": 65.12,
+                        "percentageSurvey": 3.92,
+                        "entity": {
+                          "name": "Torch/PyTorch",
+                          "nameClean": "Torch/PyTorch",
+                          "id": "torch_pytorch",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://pytorch.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 27,
                         "id": "scikit_learn",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://scikit-learn.org/stable/"
+                        "index": 3,
+                        "percentageQuestion": 62.79,
+                        "percentageSurvey": 3.78,
+                        "entity": {
+                          "name": "scikit-learn",
+                          "nameClean": "scikit-learn",
+                          "id": "scikit_learn",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://scikit-learn.org/stable/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 26,
-                      "id": "tensorflow",
-                      "percentageQuestion": 44.07,
-                      "percentageSurvey": 3.19,
-                      "entity": {
-                        "name": "TensorFlow",
-                        "nameClean": "TensorFlow",
+                      },
+                      {
+                        "count": 22,
                         "id": "tensorflow",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.tensorflow.org/"
+                        "index": 4,
+                        "percentageQuestion": 51.16,
+                        "percentageSurvey": 3.08,
+                        "entity": {
+                          "name": "TensorFlow",
+                          "nameClean": "TensorFlow",
+                          "id": "tensorflow",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.tensorflow.org/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 22,
-                      "id": "opencv",
-                      "percentageQuestion": 37.29,
-                      "percentageSurvey": 2.7,
-                      "entity": {
-                        "name": "OpenCV",
-                        "nameClean": "OpenCV",
+                      },
+                      {
+                        "count": 17,
                         "id": "opencv",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://opencv.org/"
+                        "index": 5,
+                        "percentageQuestion": 39.53,
+                        "percentageSurvey": 2.38,
+                        "entity": {
+                          "name": "OpenCV",
+                          "nameClean": "OpenCV",
+                          "id": "opencv",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://opencv.org/"
+                          }
                         }
+                      },
+                      {
+                        "count": 15,
+                        "id": "hugging_face_transformers",
+                        "index": 6,
+                        "percentageQuestion": 34.88,
+                        "percentageSurvey": 2.1,
+                        "entity": {
+                          "name": "Hugging Face Transformers",
+                          "nameClean": "Hugging Face Transformers",
+                          "id": "hugging_face_transformers",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://huggingface.co/docs/transformers/index"
+                          }
+                        }
+                      },
+                      {
+                        "count": 14,
+                        "id": "keras",
+                        "index": 7,
+                        "percentageQuestion": 32.56,
+                        "percentageSurvey": 1.96,
+                        "entity": {
+                          "name": "Keras",
+                          "nameClean": "Keras",
+                          "id": "keras",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://keras.io/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 0,
+                        "id": "no_answer",
+                        "index": 8,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0,
+                        "hasInsufficientData": true
+                      },
+                      {
+                        "count": 41,
+                        "id": "other_answers",
+                        "index": 9,
+                        "percentageQuestion": 95.36,
+                        "percentageSurvey": 5.74
                       }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 59,
+                      "percentageSurvey": 7.25,
+                      "total": 814
                     },
-                    {
-                      "count": 24,
-                      "id": "other_answers",
-                      "percentageQuestion": 40.67,
-                      "percentageSurvey": 2.96
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 46,
+                        "id": "torch_pytorch",
+                        "index": 0,
+                        "percentageQuestion": 77.97,
+                        "percentageSurvey": 5.65,
+                        "entity": {
+                          "name": "Torch/PyTorch",
+                          "nameClean": "Torch/PyTorch",
+                          "id": "torch_pytorch",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://pytorch.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 45,
+                        "id": "numpy",
+                        "index": 1,
+                        "percentageQuestion": 76.27,
+                        "percentageSurvey": 5.53,
+                        "entity": {
+                          "name": "NumPy",
+                          "nameClean": "NumPy",
+                          "id": "numpy",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://numpy.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 43,
+                        "id": "pandas",
+                        "index": 2,
+                        "percentageQuestion": 72.88,
+                        "percentageSurvey": 5.28,
+                        "entity": {
+                          "name": "Pandas",
+                          "nameClean": "Pandas",
+                          "id": "pandas",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://pandas.pydata.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 29,
+                        "id": "scikit_learn",
+                        "index": 3,
+                        "percentageQuestion": 49.15,
+                        "percentageSurvey": 3.56,
+                        "entity": {
+                          "name": "scikit-learn",
+                          "nameClean": "scikit-learn",
+                          "id": "scikit_learn",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://scikit-learn.org/stable/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 26,
+                        "id": "tensorflow",
+                        "index": 4,
+                        "percentageQuestion": 44.07,
+                        "percentageSurvey": 3.19,
+                        "entity": {
+                          "name": "TensorFlow",
+                          "nameClean": "TensorFlow",
+                          "id": "tensorflow",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.tensorflow.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 22,
+                        "id": "opencv",
+                        "index": 5,
+                        "percentageQuestion": 37.29,
+                        "percentageSurvey": 2.7,
+                        "entity": {
+                          "name": "OpenCV",
+                          "nameClean": "OpenCV",
+                          "id": "opencv",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://opencv.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 0,
+                        "id": "no_answer",
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0,
+                        "hasInsufficientData": true
+                      },
+                      {
+                        "count": 24,
+                        "id": "other_answers",
+                        "index": 7,
+                        "percentageQuestion": 40.67,
+                        "percentageSurvey": 2.96
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

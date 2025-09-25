@@ -7,281 +7,588 @@
             "web_frameworks": {
               "id": "web_frameworks",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 466,
-                    "percentageSurvey": 57.25,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 229,
-                      "id": "react",
-                      "percentageQuestion": 49.14,
-                      "percentageSurvey": 28.13,
-                      "entity": {
-                        "name": "React",
-                        "nameClean": "React",
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 537,
+                      "percentageSurvey": 75.21,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 232,
                         "id": "react",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://reactjs.org/"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/react"
+                        "index": 0,
+                        "percentageQuestion": 43.2,
+                        "percentageSurvey": 32.49,
+                        "entity": {
+                          "name": "React",
+                          "nameClean": "React",
+                          "id": "react",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://reactjs.org/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/react"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 118,
-                      "id": "nextjs",
-                      "percentageQuestion": 25.32,
-                      "percentageSurvey": 14.5,
-                      "entity": {
-                        "name": "Next.js",
-                        "nameClean": "Next.js",
+                      },
+                      {
+                        "count": 98,
                         "id": "nextjs",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://nextjs.org"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/next"
+                        "index": 1,
+                        "percentageQuestion": 18.25,
+                        "percentageSurvey": 13.73,
+                        "entity": {
+                          "name": "Next.js",
+                          "nameClean": "Next.js",
+                          "id": "nextjs",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://nextjs.org"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/next"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 86,
-                      "id": "vuejs",
-                      "percentageQuestion": 18.45,
-                      "percentageSurvey": 10.57,
-                      "entity": {
-                        "name": "Vue.js",
-                        "nameClean": "Vue.js",
+                      },
+                      {
+                        "count": 95,
                         "id": "vuejs",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "http://vuejs.org"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/vue"
+                        "index": 2,
+                        "percentageQuestion": 17.69,
+                        "percentageSurvey": 13.31,
+                        "entity": {
+                          "name": "Vue.js",
+                          "nameClean": "Vue.js",
+                          "id": "vuejs",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "http://vuejs.org"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/vue"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 78,
-                      "id": "rails",
-                      "percentageQuestion": 16.74,
-                      "percentageSurvey": 9.58,
-                      "entity": {
-                        "name": "Rails",
-                        "nameClean": "Rails",
+                      },
+                      {
+                        "count": 70,
                         "id": "rails",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://rubyonrails.org/"
+                        "index": 3,
+                        "percentageQuestion": 13.04,
+                        "percentageSurvey": 9.8,
+                        "entity": {
+                          "name": "Rails",
+                          "nameClean": "Rails",
+                          "id": "rails",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://rubyonrails.org/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 68,
-                      "id": "spring",
-                      "percentageQuestion": 14.59,
-                      "percentageSurvey": 8.35,
-                      "entity": {
-                        "name": "Spring",
-                        "nameClean": "Spring",
-                        "id": "spring",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://spring.io/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 65,
-                      "id": "fastapi",
-                      "percentageQuestion": 13.95,
-                      "percentageSurvey": 7.99,
-                      "entity": {
-                        "name": "FastAPI",
-                        "nameClean": "FastAPI",
-                        "id": "fastapi",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://fastapi.tiangolo.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 56,
-                      "id": "django",
-                      "percentageQuestion": 12.02,
-                      "percentageSurvey": 6.88,
-                      "entity": {
-                        "name": "Django",
-                        "nameClean": "Django",
-                        "id": "django",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.djangoproject.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 42,
-                      "id": "express",
-                      "percentageQuestion": 9.01,
-                      "percentageSurvey": 5.16,
-                      "entity": {
-                        "name": "Express",
-                        "nameClean": "Express",
-                        "id": "express",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://expressjs.com"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/express"
-                        }
-                      }
-                    },
-                    {
-                      "count": 42,
-                      "id": "jquery",
-                      "percentageQuestion": 9.01,
-                      "percentageSurvey": 5.16,
-                      "entity": {
-                        "name": "jQuery",
-                        "nameClean": "jQuery",
+                      },
+                      {
+                        "count": 51,
                         "id": "jquery",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://jquery.com/"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/jquery"
+                        "index": 4,
+                        "percentageQuestion": 9.5,
+                        "percentageSurvey": 7.14,
+                        "entity": {
+                          "name": "jQuery",
+                          "nameClean": "jQuery",
+                          "id": "jquery",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://jquery.com/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/jquery"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 37,
-                      "id": "laravel",
-                      "percentageQuestion": 7.94,
-                      "percentageSurvey": 4.55,
-                      "entity": {
-                        "name": "Laravel",
-                        "nameClean": "Laravel",
+                      },
+                      {
+                        "count": 45,
+                        "id": "django",
+                        "index": 5,
+                        "percentageQuestion": 8.38,
+                        "percentageSurvey": 6.3,
+                        "entity": {
+                          "name": "Django",
+                          "nameClean": "Django",
+                          "id": "django",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://www.djangoproject.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 40,
+                        "id": "express",
+                        "index": 6,
+                        "percentageQuestion": 7.45,
+                        "percentageSurvey": 5.6,
+                        "entity": {
+                          "name": "Express",
+                          "nameClean": "Express",
+                          "id": "express",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://expressjs.com"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/express"
+                          }
+                        }
+                      },
+                      {
+                        "count": 38,
+                        "id": "fastapi",
+                        "index": 7,
+                        "percentageQuestion": 7.08,
+                        "percentageSurvey": 5.32,
+                        "entity": {
+                          "name": "FastAPI",
+                          "nameClean": "FastAPI",
+                          "id": "fastapi",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://fastapi.tiangolo.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 34,
                         "id": "laravel",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://laravel.com/"
+                        "index": 8,
+                        "percentageQuestion": 6.33,
+                        "percentageSurvey": 4.76,
+                        "entity": {
+                          "name": "Laravel",
+                          "nameClean": "Laravel",
+                          "id": "laravel",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://laravel.com/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 33,
-                      "id": "flask",
-                      "percentageQuestion": 7.08,
-                      "percentageSurvey": 4.05,
-                      "entity": {
-                        "name": "Flask",
-                        "nameClean": "Flask",
+                      },
+                      {
+                        "count": 33,
                         "id": "flask",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://flask.palletsprojects.com/en/2.3.x/"
+                        "index": 9,
+                        "percentageQuestion": 6.15,
+                        "percentageSurvey": 4.62,
+                        "entity": {
+                          "name": "Flask",
+                          "nameClean": "Flask",
+                          "id": "flask",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://flask.palletsprojects.com/en/2.3.x/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 27,
-                      "id": "angular",
-                      "percentageQuestion": 5.79,
-                      "percentageSurvey": 3.32,
-                      "entity": {
-                        "name": "Angular",
-                        "nameClean": "Angular",
-                        "id": "angular",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://angular.dev/"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/@angular/core"
-                        }
-                      }
-                    },
-                    {
-                      "count": 21,
-                      "id": "nuxt",
-                      "percentageQuestion": 4.51,
-                      "percentageSurvey": 2.58,
-                      "entity": {
-                        "name": "Nuxt",
-                        "nameClean": "Nuxt",
+                      },
+                      {
+                        "count": 29,
                         "id": "nuxt",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://nuxt.com/"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/nuxt"
+                        "index": 10,
+                        "percentageQuestion": 5.4,
+                        "percentageSurvey": 4.06,
+                        "entity": {
+                          "name": "Nuxt",
+                          "nameClean": "Nuxt",
+                          "id": "nuxt",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://nuxt.com/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/nuxt"
+                          }
                         }
+                      },
+                      {
+                        "count": 18,
+                        "id": "angular",
+                        "index": 11,
+                        "percentageQuestion": 3.35,
+                        "percentageSurvey": 2.52,
+                        "entity": {
+                          "name": "Angular",
+                          "nameClean": "Angular",
+                          "id": "angular",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://angular.dev/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/@angular/core"
+                          }
+                        }
+                      },
+                      {
+                        "count": 15,
+                        "id": "spring",
+                        "index": 12,
+                        "percentageQuestion": 2.79,
+                        "percentageSurvey": 2.1,
+                        "isFreeformData": true,
+                        "entity": {
+                          "name": "Spring",
+                          "nameClean": "Spring",
+                          "id": "spring",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://spring.io/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 142,
+                        "id": "na",
+                        "index": 13,
+                        "percentageQuestion": 26.44,
+                        "percentageSurvey": 19.89
+                      },
+                      {
+                        "count": 177,
+                        "id": "no_answer",
+                        "index": 14,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 24.79
+                      },
+                      {
+                        "count": 53,
+                        "id": "other_answers",
+                        "index": 15,
+                        "percentageQuestion": 9.89,
+                        "percentageSurvey": 7.42,
+                        "groupedBuckets": [
+                          {
+                            "count": 31,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 5.79,
+                            "percentageSurvey": 4.34
+                          },
+                          {
+                            "count": 22,
+                            "id": "no_match",
+                            "index": 2,
+                            "percentageQuestion": 4.1,
+                            "percentageSurvey": 3.08,
+                            "isFreeformData": true
+                          }
+                        ]
                       }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 12,
-                      "id": "svelte",
-                      "percentageQuestion": 2.58,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Svelte",
-                        "nameClean": "Svelte",
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 466,
+                      "percentageSurvey": 57.25,
+                      "total": 814
+                    },
+                    "buckets": [
+                      {
+                        "count": 229,
+                        "id": "react",
+                        "index": 0,
+                        "percentageQuestion": 49.14,
+                        "percentageSurvey": 28.13,
+                        "entity": {
+                          "name": "React",
+                          "nameClean": "React",
+                          "id": "react",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://reactjs.org/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/react"
+                          }
+                        }
+                      },
+                      {
+                        "count": 118,
+                        "id": "nextjs",
+                        "index": 1,
+                        "percentageQuestion": 25.32,
+                        "percentageSurvey": 14.5,
+                        "entity": {
+                          "name": "Next.js",
+                          "nameClean": "Next.js",
+                          "id": "nextjs",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://nextjs.org"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/next"
+                          }
+                        }
+                      },
+                      {
+                        "count": 86,
+                        "id": "vuejs",
+                        "index": 2,
+                        "percentageQuestion": 18.45,
+                        "percentageSurvey": 10.57,
+                        "entity": {
+                          "name": "Vue.js",
+                          "nameClean": "Vue.js",
+                          "id": "vuejs",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "http://vuejs.org"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/vue"
+                          }
+                        }
+                      },
+                      {
+                        "count": 78,
+                        "id": "rails",
+                        "index": 3,
+                        "percentageQuestion": 16.74,
+                        "percentageSurvey": 9.58,
+                        "entity": {
+                          "name": "Rails",
+                          "nameClean": "Rails",
+                          "id": "rails",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://rubyonrails.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 68,
+                        "id": "spring",
+                        "index": 4,
+                        "percentageQuestion": 14.59,
+                        "percentageSurvey": 8.35,
+                        "entity": {
+                          "name": "Spring",
+                          "nameClean": "Spring",
+                          "id": "spring",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://spring.io/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 65,
+                        "id": "fastapi",
+                        "index": 5,
+                        "percentageQuestion": 13.95,
+                        "percentageSurvey": 7.99,
+                        "entity": {
+                          "name": "FastAPI",
+                          "nameClean": "FastAPI",
+                          "id": "fastapi",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://fastapi.tiangolo.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 56,
+                        "id": "django",
+                        "index": 6,
+                        "percentageQuestion": 12.02,
+                        "percentageSurvey": 6.88,
+                        "entity": {
+                          "name": "Django",
+                          "nameClean": "Django",
+                          "id": "django",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://www.djangoproject.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 42,
+                        "id": "express",
+                        "index": 7,
+                        "percentageQuestion": 9.01,
+                        "percentageSurvey": 5.16,
+                        "entity": {
+                          "name": "Express",
+                          "nameClean": "Express",
+                          "id": "express",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://expressjs.com"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/express"
+                          }
+                        }
+                      },
+                      {
+                        "count": 42,
+                        "id": "jquery",
+                        "index": 8,
+                        "percentageQuestion": 9.01,
+                        "percentageSurvey": 5.16,
+                        "entity": {
+                          "name": "jQuery",
+                          "nameClean": "jQuery",
+                          "id": "jquery",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://jquery.com/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/jquery"
+                          }
+                        }
+                      },
+                      {
+                        "count": 37,
+                        "id": "laravel",
+                        "index": 9,
+                        "percentageQuestion": 7.94,
+                        "percentageSurvey": 4.55,
+                        "entity": {
+                          "name": "Laravel",
+                          "nameClean": "Laravel",
+                          "id": "laravel",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://laravel.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 33,
+                        "id": "flask",
+                        "index": 10,
+                        "percentageQuestion": 7.08,
+                        "percentageSurvey": 4.05,
+                        "entity": {
+                          "name": "Flask",
+                          "nameClean": "Flask",
+                          "id": "flask",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://flask.palletsprojects.com/en/2.3.x/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 27,
+                        "id": "angular",
+                        "index": 11,
+                        "percentageQuestion": 5.79,
+                        "percentageSurvey": 3.32,
+                        "entity": {
+                          "name": "Angular",
+                          "nameClean": "Angular",
+                          "id": "angular",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://angular.dev/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/@angular/core"
+                          }
+                        }
+                      },
+                      {
+                        "count": 21,
+                        "id": "nuxt",
+                        "index": 12,
+                        "percentageQuestion": 4.51,
+                        "percentageSurvey": 2.58,
+                        "entity": {
+                          "name": "Nuxt",
+                          "nameClean": "Nuxt",
+                          "id": "nuxt",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://nuxt.com/"
+                          },
+                          "npm": {
+                            "url": "https://www.npmjs.com/package/nuxt"
+                          }
+                        }
+                      },
+                      {
+                        "count": 12,
                         "id": "svelte",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://svelte.dev"
+                        "index": 13,
+                        "percentageQuestion": 2.58,
+                        "percentageSurvey": 1.47,
+                        "entity": {
+                          "name": "Svelte",
+                          "nameClean": "Svelte",
+                          "id": "svelte",
+                          "entityType": "library",
+                          "homepage": {
+                            "url": "https://svelte.dev"
+                          }
                         }
+                      },
+                      {
+                        "count": 348,
+                        "id": "no_answer",
+                        "index": 14,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 42.75
+                      },
+                      {
+                        "count": 93,
+                        "id": "other_answers",
+                        "index": 15,
+                        "percentageQuestion": 19.86,
+                        "percentageSurvey": 11.38,
+                        "groupedBuckets": [
+                          {
+                            "count": 46,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 9.77,
+                            "percentageSurvey": 5.61
+                          },
+                          {
+                            "count": 47,
+                            "id": "no_match",
+                            "index": 9,
+                            "percentageQuestion": 10.09,
+                            "percentageSurvey": 5.77,
+                            "isFreeformData": true
+                          }
+                        ]
                       }
-                    },
-                    {
-                      "count": 348,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 42.75
-                    },
-                    {
-                      "count": 93,
-                      "id": "other_answers",
-                      "percentageQuestion": 19.86,
-                      "percentageSurvey": 11.38,
-                      "groupedBuckets": [
-                        {
-                          "count": 46,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 9.77,
-                          "percentageSurvey": 5.61
-                        },
-                        {
-                          "count": 47,
-                          "id": "no_match",
-                          "percentageQuestion": 10.09,
-                          "percentageSurvey": 5.77,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    ]
+                  }
+                ]
               }
             }
           }

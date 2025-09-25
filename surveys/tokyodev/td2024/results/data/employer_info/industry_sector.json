@@ -7,136 +7,285 @@
             "industry_sector": {
               "id": "industry_sector",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 473,
+                      "percentageSurvey": 66.25,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 200,
+                        "id": "saas",
+                        "index": 0,
+                        "percentageQuestion": 42.28,
+                        "percentageSurvey": 28.01
+                      },
+                      {
+                        "count": 97,
+                        "id": "e_commerce",
+                        "index": 1,
+                        "percentageQuestion": 20.51,
+                        "percentageSurvey": 13.59
+                      },
+                      {
+                        "count": 90,
+                        "id": "finance",
+                        "index": 2,
+                        "percentageQuestion": 19.03,
+                        "percentageSurvey": 12.61
+                      },
+                      {
+                        "count": 72,
+                        "id": "ai",
+                        "index": 3,
+                        "percentageQuestion": 15.22,
+                        "percentageSurvey": 10.08
+                      },
+                      {
+                        "count": 66,
+                        "id": "consulting",
+                        "index": 4,
+                        "percentageQuestion": 13.95,
+                        "percentageSurvey": 9.24
+                      },
+                      {
+                        "count": 43,
+                        "id": "cloud_computing",
+                        "index": 5,
+                        "percentageQuestion": 9.09,
+                        "percentageSurvey": 6.02
+                      },
+                      {
+                        "count": 42,
+                        "id": "advertising",
+                        "index": 6,
+                        "percentageQuestion": 8.88,
+                        "percentageSurvey": 5.88
+                      },
+                      {
+                        "count": 38,
+                        "id": "games",
+                        "index": 7,
+                        "percentageQuestion": 8.03,
+                        "percentageSurvey": 5.32
+                      },
+                      {
+                        "count": 30,
+                        "id": "blockchain_cryptocurrency",
+                        "index": 8,
+                        "percentageQuestion": 6.34,
+                        "percentageSurvey": 4.2
+                      },
+                      {
+                        "count": 13,
+                        "id": "education",
+                        "index": 9,
+                        "percentageQuestion": 2.75,
+                        "percentageSurvey": 1.82,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 12,
+                        "id": "robotics",
+                        "index": 10,
+                        "percentageQuestion": 2.54,
+                        "percentageSurvey": 1.68,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 241,
+                        "id": "no_answer",
+                        "index": 11,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 33.75
+                      },
+                      {
+                        "count": 126,
+                        "id": "other_answers",
+                        "index": 12,
+                        "percentageQuestion": 26.62,
+                        "percentageSurvey": 17.64,
+                        "groupedBuckets": [
+                          {
+                            "count": 79,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 16.68,
+                            "percentageSurvey": 11.06
+                          },
+                          {
+                            "count": 47,
+                            "id": "no_match",
+                            "index": 6,
+                            "percentageQuestion": 9.94,
+                            "percentageSurvey": 6.58,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 576,
-                    "percentageSurvey": 70.76,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 206,
-                      "id": "saas",
-                      "percentageQuestion": 35.76,
-                      "percentageSurvey": 25.31
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 140,
-                      "id": "ecommerce",
-                      "percentageQuestion": 24.31,
-                      "percentageSurvey": 17.2
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 576,
+                      "percentageSurvey": 70.76,
+                      "total": 814
                     },
-                    {
-                      "count": 110,
-                      "id": "finance",
-                      "percentageQuestion": 19.1,
-                      "percentageSurvey": 13.51
-                    },
-                    {
-                      "count": 108,
-                      "id": "consulting",
-                      "percentageQuestion": 18.75,
-                      "percentageSurvey": 13.27
-                    },
-                    {
-                      "count": 102,
-                      "id": "ai",
-                      "percentageQuestion": 17.71,
-                      "percentageSurvey": 12.53
-                    },
-                    {
-                      "count": 48,
-                      "id": "cloud_computing",
-                      "percentageQuestion": 8.33,
-                      "percentageSurvey": 5.9
-                    },
-                    {
-                      "count": 47,
-                      "id": "advertising",
-                      "percentageQuestion": 8.16,
-                      "percentageSurvey": 5.77
-                    },
-                    {
-                      "count": 41,
-                      "id": "manufacturing",
-                      "percentageQuestion": 7.12,
-                      "percentageSurvey": 5.04
-                    },
-                    {
-                      "count": 37,
-                      "id": "gaming",
-                      "percentageQuestion": 6.42,
-                      "percentageSurvey": 4.55
-                    },
-                    {
-                      "count": 33,
-                      "id": "crypto",
-                      "percentageQuestion": 5.73,
-                      "percentageSurvey": 4.05
-                    },
-                    {
-                      "count": 31,
-                      "id": "human_resources",
-                      "percentageQuestion": 5.38,
-                      "percentageSurvey": 3.81
-                    },
-                    {
-                      "count": 25,
-                      "id": "education",
-                      "percentageQuestion": 4.34,
-                      "percentageSurvey": 3.07
-                    },
-                    {
-                      "count": 13,
-                      "id": "energy",
-                      "percentageQuestion": 2.26,
-                      "percentageSurvey": 1.6,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 12,
-                      "id": "robotics",
-                      "percentageQuestion": 2.08,
-                      "percentageSurvey": 1.47,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 238,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 29.24
-                    },
-                    {
-                      "count": 94,
-                      "id": "other_answers",
-                      "percentageQuestion": 16.29,
-                      "percentageSurvey": 11.54,
-                      "groupedBuckets": [
-                        {
-                          "count": 48,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 8.3,
-                          "percentageSurvey": 5.89
-                        },
-                        {
-                          "count": 46,
-                          "id": "no_match",
-                          "percentageQuestion": 7.99,
-                          "percentageSurvey": 5.65,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 206,
+                        "id": "saas",
+                        "index": 0,
+                        "percentageQuestion": 35.76,
+                        "percentageSurvey": 25.31
+                      },
+                      {
+                        "count": 140,
+                        "id": "ecommerce",
+                        "index": 1,
+                        "percentageQuestion": 24.31,
+                        "percentageSurvey": 17.2
+                      },
+                      {
+                        "count": 110,
+                        "id": "finance",
+                        "index": 2,
+                        "percentageQuestion": 19.1,
+                        "percentageSurvey": 13.51
+                      },
+                      {
+                        "count": 108,
+                        "id": "consulting",
+                        "index": 3,
+                        "percentageQuestion": 18.75,
+                        "percentageSurvey": 13.27
+                      },
+                      {
+                        "count": 102,
+                        "id": "ai",
+                        "index": 4,
+                        "percentageQuestion": 17.71,
+                        "percentageSurvey": 12.53
+                      },
+                      {
+                        "count": 48,
+                        "id": "cloud_computing",
+                        "index": 5,
+                        "percentageQuestion": 8.33,
+                        "percentageSurvey": 5.9
+                      },
+                      {
+                        "count": 47,
+                        "id": "advertising",
+                        "index": 6,
+                        "percentageQuestion": 8.16,
+                        "percentageSurvey": 5.77
+                      },
+                      {
+                        "count": 41,
+                        "id": "manufacturing",
+                        "index": 7,
+                        "percentageQuestion": 7.12,
+                        "percentageSurvey": 5.04
+                      },
+                      {
+                        "count": 37,
+                        "id": "gaming",
+                        "index": 8,
+                        "percentageQuestion": 6.42,
+                        "percentageSurvey": 4.55
+                      },
+                      {
+                        "count": 33,
+                        "id": "crypto",
+                        "index": 9,
+                        "percentageQuestion": 5.73,
+                        "percentageSurvey": 4.05
+                      },
+                      {
+                        "count": 31,
+                        "id": "human_resources",
+                        "index": 10,
+                        "percentageQuestion": 5.38,
+                        "percentageSurvey": 3.81
+                      },
+                      {
+                        "count": 25,
+                        "id": "education",
+                        "index": 11,
+                        "percentageQuestion": 4.34,
+                        "percentageSurvey": 3.07
+                      },
+                      {
+                        "count": 13,
+                        "id": "energy",
+                        "index": 12,
+                        "percentageQuestion": 2.26,
+                        "percentageSurvey": 1.6,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 12,
+                        "id": "robotics",
+                        "index": 13,
+                        "percentageQuestion": 2.08,
+                        "percentageSurvey": 1.47,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 238,
+                        "id": "no_answer",
+                        "index": 14,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 29.24
+                      },
+                      {
+                        "count": 94,
+                        "id": "other_answers",
+                        "index": 15,
+                        "percentageQuestion": 16.29,
+                        "percentageSurvey": 11.54,
+                        "groupedBuckets": [
+                          {
+                            "count": 48,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 8.3,
+                            "percentageSurvey": 5.89
+                          },
+                          {
+                            "count": 46,
+                            "id": "no_match",
+                            "index": 1,
+                            "percentageQuestion": 7.99,
+                            "percentageSurvey": 5.65,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

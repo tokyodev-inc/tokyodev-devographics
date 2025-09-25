@@ -7,47 +7,102 @@
             "searching_for_job": {
               "id": "searching_for_job",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 654,
+                      "percentageSurvey": 91.6,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 125,
+                        "id": "yes",
+                        "index": 0,
+                        "percentageQuestion": 19.11,
+                        "percentageSurvey": 17.51
+                      },
+                      {
+                        "count": 343,
+                        "id": "no_but_would_consider",
+                        "index": 1,
+                        "percentageQuestion": 52.45,
+                        "percentageSurvey": 48.04
+                      },
+                      {
+                        "count": 186,
+                        "id": "no",
+                        "index": 2,
+                        "percentageQuestion": 28.44,
+                        "percentageSurvey": 26.05
+                      },
+                      {
+                        "count": 60,
+                        "id": "no_answer",
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 8.4
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 754,
-                    "percentageSurvey": 92.63,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 130,
-                      "id": "yes",
-                      "percentageQuestion": 17.24,
-                      "percentageSurvey": 15.97
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    {
-                      "count": 400,
-                      "id": "no_but_would_consider",
-                      "percentageQuestion": 53.05,
-                      "percentageSurvey": 49.14
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 754,
+                      "percentageSurvey": 92.63,
+                      "total": 814
                     },
-                    {
-                      "count": 224,
-                      "id": "no",
-                      "percentageQuestion": 29.71,
-                      "percentageSurvey": 27.52
-                    },
-                    {
-                      "count": 60,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 7.37
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 130,
+                        "id": "yes",
+                        "index": 0,
+                        "percentageQuestion": 17.24,
+                        "percentageSurvey": 15.97
+                      },
+                      {
+                        "count": 400,
+                        "id": "no_but_would_consider",
+                        "index": 1,
+                        "percentageQuestion": 53.05,
+                        "percentageSurvey": 49.14
+                      },
+                      {
+                        "count": 224,
+                        "id": "no",
+                        "index": 2,
+                        "percentageQuestion": 29.71,
+                        "percentageSurvey": 27.52
+                      },
+                      {
+                        "count": 60,
+                        "id": "no_answer",
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 7.37
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

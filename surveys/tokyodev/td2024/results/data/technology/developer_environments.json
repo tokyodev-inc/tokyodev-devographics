@@ -7,245 +7,513 @@
             "developer_environments": {
               "id": "developer_environments",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 653,
-                    "percentageSurvey": 80.22,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 506,
-                      "id": "visual_studio_code",
-                      "percentageQuestion": 77.49,
-                      "percentageSurvey": 62.16,
-                      "entity": {
-                        "name": "Visual Studio Code",
-                        "nameClean": "Visual Studio Code",
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 582,
+                      "percentageSurvey": 81.51,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 482,
                         "id": "visual_studio_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://code.visualstudio.com/"
+                        "index": 0,
+                        "percentageQuestion": 82.82,
+                        "percentageSurvey": 67.51,
+                        "entity": {
+                          "name": "Visual Studio Code",
+                          "nameClean": "Visual Studio Code",
+                          "id": "visual_studio_code",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://code.visualstudio.com/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 138,
-                      "id": "intellij",
-                      "percentageQuestion": 21.13,
-                      "percentageSurvey": 16.95,
-                      "entity": {
-                        "name": "IntelliJ IDEA",
-                        "nameClean": "IntelliJ IDEA",
+                      },
+                      {
+                        "count": 119,
                         "id": "intellij",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/idea/"
+                        "index": 1,
+                        "percentageQuestion": 20.45,
+                        "percentageSurvey": 16.67,
+                        "entity": {
+                          "name": "IntelliJ IDEA",
+                          "nameClean": "IntelliJ IDEA",
+                          "id": "intellij",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/idea/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 103,
-                      "id": "vim",
-                      "percentageQuestion": 15.77,
-                      "percentageSurvey": 12.65,
-                      "entity": {
-                        "name": "Vim",
-                        "nameClean": "Vim",
+                      },
+                      {
+                        "count": 114,
                         "id": "vim",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.vim.org/"
+                        "index": 2,
+                        "percentageQuestion": 19.59,
+                        "percentageSurvey": 15.97,
+                        "entity": {
+                          "name": "Vim",
+                          "nameClean": "Vim",
+                          "id": "vim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.vim.org/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 67,
-                      "id": "visual_studio_not_code",
-                      "percentageQuestion": 10.26,
-                      "percentageSurvey": 8.23,
-                      "entity": {
-                        "name": "Visual Studio",
-                        "nameClean": "Visual Studio",
-                        "id": "visual_studio_not_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://visualstudio.microsoft.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 56,
-                      "id": "xcode",
-                      "percentageQuestion": 8.58,
-                      "percentageSurvey": 6.88,
-                      "entity": {
-                        "name": "Xcode",
-                        "nameClean": "Xcode",
+                      },
+                      {
+                        "count": 56,
                         "id": "xcode",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://developer.apple.com/xcode/"
+                        "index": 3,
+                        "percentageQuestion": 9.62,
+                        "percentageSurvey": 7.84,
+                        "entity": {
+                          "name": "Xcode",
+                          "nameClean": "Xcode",
+                          "id": "xcode",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.apple.com/xcode/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 48,
-                      "id": "ipython_jupyter",
-                      "percentageQuestion": 7.35,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "IPython/Jupyter",
-                        "nameClean": "IPython/Jupyter",
-                        "id": "ipython_jupyter",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://ipython.org/notebook.html"
-                        }
-                      }
-                    },
-                    {
-                      "count": 48,
-                      "id": "neovim",
-                      "percentageQuestion": 7.35,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "Neovim",
-                        "nameClean": "Neovim",
+                      },
+                      {
+                        "count": 49,
                         "id": "neovim",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://neovim.io/"
+                        "index": 4,
+                        "percentageQuestion": 8.42,
+                        "percentageSurvey": 6.86,
+                        "entity": {
+                          "name": "Neovim",
+                          "nameClean": "Neovim",
+                          "id": "neovim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://neovim.io/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 47,
-                      "id": "sublime_text",
-                      "percentageQuestion": 7.2,
-                      "percentageSurvey": 5.77,
-                      "entity": {
-                        "name": "Sublime Text",
-                        "nameClean": "Sublime Text",
-                        "id": "sublime_text",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sublimetext.com/"
-                        }
-                      }
-                    },
-                    {
-                      "count": 43,
-                      "id": "android_studio",
-                      "percentageQuestion": 6.58,
-                      "percentageSurvey": 5.28,
-                      "entity": {
-                        "name": "Android Studio",
-                        "nameClean": "Android Studio",
+                      },
+                      {
+                        "count": 44,
                         "id": "android_studio",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://developer.android.com/studio"
+                        "index": 5,
+                        "percentageQuestion": 7.56,
+                        "percentageSurvey": 6.16,
+                        "entity": {
+                          "name": "Android Studio",
+                          "nameClean": "Android Studio",
+                          "id": "android_studio",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.android.com/studio"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 41,
-                      "id": "pycharm",
-                      "percentageQuestion": 6.28,
-                      "percentageSurvey": 5.04,
-                      "entity": {
-                        "name": "PyCharm",
-                        "nameClean": "PyCharm",
+                      },
+                      {
+                        "count": 44,
                         "id": "pycharm",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/pycharm/"
+                        "index": 6,
+                        "percentageQuestion": 7.56,
+                        "percentageSurvey": 6.16,
+                        "entity": {
+                          "name": "PyCharm",
+                          "nameClean": "PyCharm",
+                          "id": "pycharm",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/pycharm/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 40,
-                      "id": "notepad_plus_plus",
-                      "percentageQuestion": 6.13,
-                      "percentageSurvey": 4.91,
-                      "entity": {
-                        "name": "Notepad++",
-                        "nameClean": "Notepad++",
+                      },
+                      {
+                        "count": 43,
+                        "id": "sublime_text",
+                        "index": 7,
+                        "percentageQuestion": 7.39,
+                        "percentageSurvey": 6.02,
+                        "entity": {
+                          "name": "Sublime Text",
+                          "nameClean": "Sublime Text",
+                          "id": "sublime_text",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.sublimetext.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 39,
+                        "id": "ipython_jupyter",
+                        "index": 8,
+                        "percentageQuestion": 6.7,
+                        "percentageSurvey": 5.46,
+                        "entity": {
+                          "name": "IPython/Jupyter",
+                          "nameClean": "IPython/Jupyter",
+                          "id": "ipython_jupyter",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://ipython.org/notebook.html"
+                          }
+                        }
+                      },
+                      {
+                        "count": 29,
                         "id": "notepad_plus_plus",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://notepad-plus-plus.org"
+                        "index": 9,
+                        "percentageQuestion": 4.98,
+                        "percentageSurvey": 4.06,
+                        "entity": {
+                          "name": "Notepad++",
+                          "nameClean": "Notepad++",
+                          "id": "notepad_plus_plus",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://notepad-plus-plus.org"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 19,
-                      "id": "emacs",
-                      "percentageQuestion": 2.91,
-                      "percentageSurvey": 2.33,
-                      "entity": {
-                        "name": "Emacs",
-                        "nameClean": "Emacs",
+                      },
+                      {
+                        "count": 25,
                         "id": "emacs",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.gnu.org/software/emacs/"
+                        "index": 10,
+                        "percentageQuestion": 4.3,
+                        "percentageSurvey": 3.5,
+                        "entity": {
+                          "name": "Emacs",
+                          "nameClean": "Emacs",
+                          "id": "emacs",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.gnu.org/software/emacs/"
+                          }
                         }
-                      }
-                    },
-                    {
-                      "count": 17,
-                      "id": "goland",
-                      "percentageQuestion": 2.6,
-                      "percentageSurvey": 2.09,
-                      "entity": {
-                        "name": "GoLand",
-                        "nameClean": "GoLand",
+                      },
+                      {
+                        "count": 16,
                         "id": "goland",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/go/"
+                        "index": 11,
+                        "percentageQuestion": 2.75,
+                        "percentageSurvey": 2.24,
+                        "entity": {
+                          "name": "GoLand",
+                          "nameClean": "GoLand",
+                          "id": "goland",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/go/"
+                          }
                         }
+                      },
+                      {
+                        "count": 14,
+                        "id": "na",
+                        "index": 12,
+                        "percentageQuestion": 2.41,
+                        "percentageSurvey": 1.96
+                      },
+                      {
+                        "count": 132,
+                        "id": "no_answer",
+                        "index": 13,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 18.49
+                      },
+                      {
+                        "count": 38,
+                        "id": "other_answers",
+                        "index": 14,
+                        "percentageQuestion": 6.53,
+                        "percentageSurvey": 5.32,
+                        "groupedBuckets": [
+                          {
+                            "count": 26,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 4.47,
+                            "percentageSurvey": 3.64
+                          },
+                          {
+                            "count": 12,
+                            "id": "no_match",
+                            "index": 2,
+                            "percentageQuestion": 2.06,
+                            "percentageSurvey": 1.68,
+                            "isFreeformData": true
+                          }
+                        ]
                       }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 161,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 19.78
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 653,
+                      "percentageSurvey": 80.22,
+                      "total": 814
                     },
-                    {
-                      "count": 49,
-                      "id": "other_answers",
-                      "percentageQuestion": 7.5,
-                      "percentageSurvey": 6.01,
-                      "groupedBuckets": [
-                        {
-                          "count": 27,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 4.13,
-                          "percentageSurvey": 3.31
-                        },
-                        {
-                          "count": 22,
-                          "id": "no_match",
-                          "percentageQuestion": 3.37,
-                          "percentageSurvey": 2.7,
-                          "isFreeformData": true
+                    "buckets": [
+                      {
+                        "count": 506,
+                        "id": "visual_studio_code",
+                        "index": 0,
+                        "percentageQuestion": 77.49,
+                        "percentageSurvey": 62.16,
+                        "entity": {
+                          "name": "Visual Studio Code",
+                          "nameClean": "Visual Studio Code",
+                          "id": "visual_studio_code",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://code.visualstudio.com/"
+                          }
                         }
-                      ]
-                    }
-                  ]
-                }
+                      },
+                      {
+                        "count": 138,
+                        "id": "intellij",
+                        "index": 1,
+                        "percentageQuestion": 21.13,
+                        "percentageSurvey": 16.95,
+                        "entity": {
+                          "name": "IntelliJ IDEA",
+                          "nameClean": "IntelliJ IDEA",
+                          "id": "intellij",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/idea/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 103,
+                        "id": "vim",
+                        "index": 2,
+                        "percentageQuestion": 15.77,
+                        "percentageSurvey": 12.65,
+                        "entity": {
+                          "name": "Vim",
+                          "nameClean": "Vim",
+                          "id": "vim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.vim.org/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 67,
+                        "id": "visual_studio_not_code",
+                        "index": 3,
+                        "percentageQuestion": 10.26,
+                        "percentageSurvey": 8.23,
+                        "entity": {
+                          "name": "Visual Studio",
+                          "nameClean": "Visual Studio",
+                          "id": "visual_studio_not_code",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://visualstudio.microsoft.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 56,
+                        "id": "xcode",
+                        "index": 4,
+                        "percentageQuestion": 8.58,
+                        "percentageSurvey": 6.88,
+                        "entity": {
+                          "name": "Xcode",
+                          "nameClean": "Xcode",
+                          "id": "xcode",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.apple.com/xcode/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 48,
+                        "id": "ipython_jupyter",
+                        "index": 5,
+                        "percentageQuestion": 7.35,
+                        "percentageSurvey": 5.9,
+                        "entity": {
+                          "name": "IPython/Jupyter",
+                          "nameClean": "IPython/Jupyter",
+                          "id": "ipython_jupyter",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://ipython.org/notebook.html"
+                          }
+                        }
+                      },
+                      {
+                        "count": 48,
+                        "id": "neovim",
+                        "index": 6,
+                        "percentageQuestion": 7.35,
+                        "percentageSurvey": 5.9,
+                        "entity": {
+                          "name": "Neovim",
+                          "nameClean": "Neovim",
+                          "id": "neovim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://neovim.io/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 47,
+                        "id": "sublime_text",
+                        "index": 7,
+                        "percentageQuestion": 7.2,
+                        "percentageSurvey": 5.77,
+                        "entity": {
+                          "name": "Sublime Text",
+                          "nameClean": "Sublime Text",
+                          "id": "sublime_text",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.sublimetext.com/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 43,
+                        "id": "android_studio",
+                        "index": 8,
+                        "percentageQuestion": 6.58,
+                        "percentageSurvey": 5.28,
+                        "entity": {
+                          "name": "Android Studio",
+                          "nameClean": "Android Studio",
+                          "id": "android_studio",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.android.com/studio"
+                          }
+                        }
+                      },
+                      {
+                        "count": 41,
+                        "id": "pycharm",
+                        "index": 9,
+                        "percentageQuestion": 6.28,
+                        "percentageSurvey": 5.04,
+                        "entity": {
+                          "name": "PyCharm",
+                          "nameClean": "PyCharm",
+                          "id": "pycharm",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/pycharm/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 40,
+                        "id": "notepad_plus_plus",
+                        "index": 10,
+                        "percentageQuestion": 6.13,
+                        "percentageSurvey": 4.91,
+                        "entity": {
+                          "name": "Notepad++",
+                          "nameClean": "Notepad++",
+                          "id": "notepad_plus_plus",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://notepad-plus-plus.org"
+                          }
+                        }
+                      },
+                      {
+                        "count": 19,
+                        "id": "emacs",
+                        "index": 11,
+                        "percentageQuestion": 2.91,
+                        "percentageSurvey": 2.33,
+                        "entity": {
+                          "name": "Emacs",
+                          "nameClean": "Emacs",
+                          "id": "emacs",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.gnu.org/software/emacs/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 17,
+                        "id": "goland",
+                        "index": 12,
+                        "percentageQuestion": 2.6,
+                        "percentageSurvey": 2.09,
+                        "entity": {
+                          "name": "GoLand",
+                          "nameClean": "GoLand",
+                          "id": "goland",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/go/"
+                          }
+                        }
+                      },
+                      {
+                        "count": 161,
+                        "id": "no_answer",
+                        "index": 13,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.78
+                      },
+                      {
+                        "count": 49,
+                        "id": "other_answers",
+                        "index": 14,
+                        "percentageQuestion": 7.5,
+                        "percentageSurvey": 6.01,
+                        "groupedBuckets": [
+                          {
+                            "count": 27,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 4.13,
+                            "percentageSurvey": 3.31
+                          },
+                          {
+                            "count": 22,
+                            "id": "no_match",
+                            "index": 4,
+                            "percentageQuestion": 3.37,
+                            "percentageSurvey": 2.7,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

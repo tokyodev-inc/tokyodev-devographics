@@ -7,103 +7,118 @@
             "favourite_thing_about_japan": {
               "id": "favourite_thing_about_japan",
               "freeform": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 474,
-                    "percentageSurvey": 58.23,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 100,
-                      "id": "safety",
-                      "percentageQuestion": 21.1,
-                      "percentageSurvey": 12.29
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 474,
+                      "percentageSurvey": 58.23,
+                      "total": 814
                     },
-                    {
-                      "count": 60,
-                      "id": "food",
-                      "percentageQuestion": 12.66,
-                      "percentageSurvey": 7.37
-                    },
-                    {
-                      "count": 54,
-                      "id": "convenience",
-                      "percentageQuestion": 11.39,
-                      "percentageSurvey": 6.63
-                    },
-                    {
-                      "count": 50,
-                      "id": "lifestyle",
-                      "percentageQuestion": 10.55,
-                      "percentageSurvey": 6.14
-                    },
-                    {
-                      "count": 40,
-                      "id": "culture",
-                      "percentageQuestion": 8.44,
-                      "percentageSurvey": 4.91
-                    },
-                    {
-                      "count": 31,
-                      "id": "peacefulness",
-                      "percentageQuestion": 6.54,
-                      "percentageSurvey": 3.81
-                    },
-                    {
-                      "count": 23,
-                      "id": "nature",
-                      "percentageQuestion": 4.85,
-                      "percentageSurvey": 2.83
-                    },
-                    {
-                      "count": 15,
-                      "id": "people",
-                      "percentageQuestion": 3.16,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 10,
-                      "id": "stability",
-                      "percentageQuestion": 2.11,
-                      "percentageSurvey": 1.23
-                    },
-                    {
-                      "count": 340,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 41.77
-                    },
-                    {
-                      "count": 107,
-                      "id": "other_answers",
-                      "percentageQuestion": 22.57,
-                      "percentageSurvey": 13.15,
-                      "groupedBuckets": [
-                        {
-                          "count": 52,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 10.97,
-                          "percentageSurvey": 6.39
-                        },
-                        {
-                          "count": 55,
-                          "id": "no_match",
-                          "percentageQuestion": 11.6,
-                          "percentageSurvey": 6.76
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 100,
+                        "id": "safety",
+                        "index": 0,
+                        "percentageQuestion": 21.1,
+                        "percentageSurvey": 12.29
+                      },
+                      {
+                        "count": 60,
+                        "id": "food",
+                        "index": 1,
+                        "percentageQuestion": 12.66,
+                        "percentageSurvey": 7.37
+                      },
+                      {
+                        "count": 54,
+                        "id": "convenience",
+                        "index": 2,
+                        "percentageQuestion": 11.39,
+                        "percentageSurvey": 6.63
+                      },
+                      {
+                        "count": 50,
+                        "id": "lifestyle",
+                        "index": 3,
+                        "percentageQuestion": 10.55,
+                        "percentageSurvey": 6.14
+                      },
+                      {
+                        "count": 40,
+                        "id": "culture",
+                        "index": 4,
+                        "percentageQuestion": 8.44,
+                        "percentageSurvey": 4.91
+                      },
+                      {
+                        "count": 31,
+                        "id": "peacefulness",
+                        "index": 5,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 3.81
+                      },
+                      {
+                        "count": 23,
+                        "id": "nature",
+                        "index": 6,
+                        "percentageQuestion": 4.85,
+                        "percentageSurvey": 2.83
+                      },
+                      {
+                        "count": 15,
+                        "id": "people",
+                        "index": 7,
+                        "percentageQuestion": 3.16,
+                        "percentageSurvey": 1.84
+                      },
+                      {
+                        "count": 10,
+                        "id": "stability",
+                        "index": 8,
+                        "percentageQuestion": 2.11,
+                        "percentageSurvey": 1.23
+                      },
+                      {
+                        "count": 340,
+                        "id": "no_answer",
+                        "index": 9,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 41.77
+                      },
+                      {
+                        "count": 107,
+                        "id": "other_answers",
+                        "index": 10,
+                        "percentageQuestion": 22.57,
+                        "percentageSurvey": 13.15,
+                        "groupedBuckets": [
+                          {
+                            "count": 52,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 10.97,
+                            "percentageSurvey": 6.39
+                          },
+                          {
+                            "count": 55,
+                            "id": "no_match",
+                            "percentageQuestion": 11.6,
+                            "percentageSurvey": 6.76
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

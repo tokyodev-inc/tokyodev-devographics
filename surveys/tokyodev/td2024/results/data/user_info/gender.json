@@ -7,53 +7,116 @@
             "gender": {
               "id": "gender",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
-                  },
-                  "completion": {
-                    "count": 789,
-                    "percentageSurvey": 96.93,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
                       "count": 698,
-                      "id": "man",
-                      "percentageQuestion": 88.47,
-                      "percentageSurvey": 85.75
+                      "percentageSurvey": 97.76,
+                      "total": 714
                     },
-                    {
-                      "count": 79,
-                      "id": "woman",
-                      "percentageQuestion": 10.01,
-                      "percentageSurvey": 9.71
+                    "buckets": [
+                      {
+                        "count": 617,
+                        "id": "man",
+                        "index": 0,
+                        "percentageQuestion": 88.4,
+                        "percentageSurvey": 86.41
+                      },
+                      {
+                        "count": 72,
+                        "id": "woman",
+                        "index": 1,
+                        "percentageQuestion": 10.32,
+                        "percentageSurvey": 10.08
+                      },
+                      {
+                        "count": 6,
+                        "id": "nb_gq_gnc",
+                        "index": 2,
+                        "percentageQuestion": 0.86,
+                        "percentageSurvey": 0.84
+                      },
+                      {
+                        "count": 3,
+                        "id": "not_listed",
+                        "index": 3,
+                        "percentageQuestion": 0.43,
+                        "percentageSurvey": 0.42
+                      },
+                      {
+                        "count": 16,
+                        "id": "no_answer",
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 2.24
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    {
-                      "count": 11,
-                      "id": "nb_gq_gnc",
-                      "percentageQuestion": 1.39,
-                      "percentageSurvey": 1.35
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 789,
+                      "percentageSurvey": 96.93,
+                      "total": 814
                     },
-                    {
-                      "count": 1,
-                      "id": "not_listed",
-                      "percentageQuestion": 0.13,
-                      "percentageSurvey": 0.12
-                    },
-                    {
-                      "count": 25,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 3.07
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 698,
+                        "id": "man",
+                        "index": 0,
+                        "percentageQuestion": 88.47,
+                        "percentageSurvey": 85.75
+                      },
+                      {
+                        "count": 79,
+                        "id": "woman",
+                        "index": 1,
+                        "percentageQuestion": 10.01,
+                        "percentageSurvey": 9.71
+                      },
+                      {
+                        "count": 11,
+                        "id": "nb_gq_gnc",
+                        "index": 2,
+                        "percentageQuestion": 1.39,
+                        "percentageSurvey": 1.35
+                      },
+                      {
+                        "count": 1,
+                        "id": "not_listed",
+                        "index": 3,
+                        "percentageQuestion": 0.13,
+                        "percentageSurvey": 0.12
+                      },
+                      {
+                        "count": 25,
+                        "id": "no_answer",
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 3.07
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

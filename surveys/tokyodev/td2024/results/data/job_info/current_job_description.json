@@ -7,177 +7,399 @@
             "current_job_description": {
               "id": "current_job_description",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 628,
+                      "percentageSurvey": 87.96,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 242,
+                        "id": "developer_back_end",
+                        "index": 0,
+                        "percentageQuestion": 38.54,
+                        "percentageSurvey": 33.89
+                      },
+                      {
+                        "count": 222,
+                        "id": "developer_full_stack",
+                        "index": 1,
+                        "percentageQuestion": 35.35,
+                        "percentageSurvey": 31.09
+                      },
+                      {
+                        "count": 159,
+                        "id": "developer_front_end",
+                        "index": 2,
+                        "percentageQuestion": 25.32,
+                        "percentageSurvey": 22.27
+                      },
+                      {
+                        "count": 72,
+                        "id": "engineering_manager",
+                        "index": 3,
+                        "percentageQuestion": 11.46,
+                        "percentageSurvey": 10.08
+                      },
+                      {
+                        "count": 67,
+                        "id": "cloud_infrastructure_engineer",
+                        "index": 4,
+                        "percentageQuestion": 10.67,
+                        "percentageSurvey": 9.38
+                      },
+                      {
+                        "count": 57,
+                        "id": "developer_mobile",
+                        "index": 5,
+                        "percentageQuestion": 9.08,
+                        "percentageSurvey": 7.98
+                      },
+                      {
+                        "count": 48,
+                        "id": "devops_specialist",
+                        "index": 6,
+                        "percentageQuestion": 7.64,
+                        "percentageSurvey": 6.72
+                      },
+                      {
+                        "count": 46,
+                        "id": "data_scientist_or_machine_learning",
+                        "index": 7,
+                        "percentageQuestion": 7.32,
+                        "percentageSurvey": 6.44
+                      },
+                      {
+                        "count": 30,
+                        "id": "product_manager",
+                        "index": 8,
+                        "percentageQuestion": 4.78,
+                        "percentageSurvey": 4.2
+                      },
+                      {
+                        "count": 29,
+                        "id": "developer_embedded_applications_or_devices",
+                        "index": 9,
+                        "percentageQuestion": 4.62,
+                        "percentageSurvey": 4.06
+                      },
+                      {
+                        "count": 28,
+                        "id": "engineer_site_reliability",
+                        "index": 10,
+                        "percentageQuestion": 4.46,
+                        "percentageSurvey": 3.92
+                      },
+                      {
+                        "count": 27,
+                        "id": "developer_desktop_or_enterprise_applications",
+                        "index": 11,
+                        "percentageQuestion": 4.3,
+                        "percentageSurvey": 3.78
+                      },
+                      {
+                        "count": 27,
+                        "id": "developer_game_or_graphics",
+                        "index": 12,
+                        "percentageQuestion": 4.3,
+                        "percentageSurvey": 3.78
+                      },
+                      {
+                        "count": 27,
+                        "id": "engineer_data",
+                        "index": 13,
+                        "percentageQuestion": 4.3,
+                        "percentageSurvey": 3.78
+                      },
+                      {
+                        "count": 21,
+                        "id": "developer_qa_or_test",
+                        "index": 14,
+                        "percentageQuestion": 3.34,
+                        "percentageSurvey": 2.94
+                      },
+                      {
+                        "count": 17,
+                        "id": "senior_executive",
+                        "index": 15,
+                        "percentageQuestion": 2.71,
+                        "percentageSurvey": 2.38
+                      },
+                      {
+                        "count": 16,
+                        "id": "designer",
+                        "index": 16,
+                        "percentageQuestion": 2.55,
+                        "percentageSurvey": 2.24
+                      },
+                      {
+                        "count": 15,
+                        "id": "blockchain",
+                        "index": 17,
+                        "percentageQuestion": 2.39,
+                        "percentageSurvey": 2.1
+                      },
+                      {
+                        "count": 14,
+                        "id": "database_administrator",
+                        "index": 18,
+                        "percentageQuestion": 2.23,
+                        "percentageSurvey": 1.96
+                      },
+                      {
+                        "count": 14,
+                        "id": "system_administrator",
+                        "index": 19,
+                        "percentageQuestion": 2.23,
+                        "percentageSurvey": 1.96
+                      },
+                      {
+                        "count": 86,
+                        "id": "no_answer",
+                        "index": 20,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 12.04
+                      },
+                      {
+                        "count": 39,
+                        "id": "other_answers",
+                        "index": 21,
+                        "percentageQuestion": 6.21,
+                        "percentageSurvey": 5.46,
+                        "groupedBuckets": [
+                          {
+                            "count": 11,
+                            "id": "overlimit_answers",
+                            "percentageQuestion": 1.75,
+                            "percentageSurvey": 1.54
+                          },
+                          {
+                            "count": 11,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 1.75,
+                            "percentageSurvey": 1.54
+                          },
+                          {
+                            "count": 17,
+                            "id": "no_match",
+                            "index": 2,
+                            "percentageQuestion": 2.71,
+                            "percentageSurvey": 2.38,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 706,
-                    "percentageSurvey": 86.73,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 254,
-                      "id": "developer_back_end",
-                      "percentageQuestion": 35.98,
-                      "percentageSurvey": 31.2
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 226,
-                      "id": "developer_full_stack",
-                      "percentageQuestion": 32.01,
-                      "percentageSurvey": 27.76
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 706,
+                      "percentageSurvey": 86.73,
+                      "total": 814
                     },
-                    {
-                      "count": 145,
-                      "id": "developer_front_end",
-                      "percentageQuestion": 20.54,
-                      "percentageSurvey": 17.81
-                    },
-                    {
-                      "count": 86,
-                      "id": "cloud_infrastructure_engineer",
-                      "percentageQuestion": 12.18,
-                      "percentageSurvey": 10.57
-                    },
-                    {
-                      "count": 75,
-                      "id": "engineering_manager",
-                      "percentageQuestion": 10.62,
-                      "percentageSurvey": 9.21
-                    },
-                    {
-                      "count": 68,
-                      "id": "data_scientist_or_machine_learning",
-                      "percentageQuestion": 9.63,
-                      "percentageSurvey": 8.35
-                    },
-                    {
-                      "count": 53,
-                      "id": "developer_mobile",
-                      "percentageQuestion": 7.51,
-                      "percentageSurvey": 6.51
-                    },
-                    {
-                      "count": 50,
-                      "id": "devops_specialist",
-                      "percentageQuestion": 7.08,
-                      "percentageSurvey": 6.14
-                    },
-                    {
-                      "count": 49,
-                      "id": "developer_desktop_or_enterprise_applications",
-                      "percentageQuestion": 6.94,
-                      "percentageSurvey": 6.02
-                    },
-                    {
-                      "count": 39,
-                      "id": "engineer_data",
-                      "percentageQuestion": 5.52,
-                      "percentageSurvey": 4.79
-                    },
-                    {
-                      "count": 36,
-                      "id": "developer_embedded_applications_or_devices",
-                      "percentageQuestion": 5.1,
-                      "percentageSurvey": 4.42
-                    },
-                    {
-                      "count": 36,
-                      "id": "engineer_site_reliability",
-                      "percentageQuestion": 5.1,
-                      "percentageSurvey": 4.42
-                    },
-                    {
-                      "count": 32,
-                      "id": "developer_game_or_graphics",
-                      "percentageQuestion": 4.53,
-                      "percentageSurvey": 3.93
-                    },
-                    {
-                      "count": 28,
-                      "id": "system_administrator",
-                      "percentageQuestion": 3.97,
-                      "percentageSurvey": 3.44
-                    },
-                    {
-                      "count": 26,
-                      "id": "product_manager",
-                      "percentageQuestion": 3.68,
-                      "percentageSurvey": 3.19
-                    },
-                    {
-                      "count": 25,
-                      "id": "developer_qa_or_test",
-                      "percentageQuestion": 3.54,
-                      "percentageSurvey": 3.07
-                    },
-                    {
-                      "count": 22,
-                      "id": "designer",
-                      "percentageQuestion": 3.12,
-                      "percentageSurvey": 2.7
-                    },
-                    {
-                      "count": 16,
-                      "id": "database_administrator",
-                      "percentageQuestion": 2.27,
-                      "percentageSurvey": 1.97
-                    },
-                    {
-                      "count": 14,
-                      "id": "engineer",
-                      "percentageQuestion": 1.98,
-                      "percentageSurvey": 1.72,
-                      "isFreeformData": true
-                    },
-                    {
-                      "count": 13,
-                      "id": "senior_executive",
-                      "percentageQuestion": 1.84,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 108,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 13.27
-                    },
-                    {
-                      "count": 54,
-                      "id": "other_answers",
-                      "percentageQuestion": 7.65,
-                      "percentageSurvey": 6.64,
-                      "groupedBuckets": [
-                        {
-                          "count": 10,
-                          "id": "overlimit_answers",
-                          "percentageQuestion": 1.42,
-                          "percentageSurvey": 1.23
-                        },
-                        {
-                          "count": 14,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 1.98,
-                          "percentageSurvey": 1.72
-                        },
-                        {
-                          "count": 30,
-                          "id": "no_match",
-                          "percentageQuestion": 4.25,
-                          "percentageSurvey": 3.69,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 254,
+                        "id": "developer_back_end",
+                        "index": 0,
+                        "percentageQuestion": 35.98,
+                        "percentageSurvey": 31.2
+                      },
+                      {
+                        "count": 226,
+                        "id": "developer_full_stack",
+                        "index": 1,
+                        "percentageQuestion": 32.01,
+                        "percentageSurvey": 27.76
+                      },
+                      {
+                        "count": 145,
+                        "id": "developer_front_end",
+                        "index": 2,
+                        "percentageQuestion": 20.54,
+                        "percentageSurvey": 17.81
+                      },
+                      {
+                        "count": 86,
+                        "id": "cloud_infrastructure_engineer",
+                        "index": 3,
+                        "percentageQuestion": 12.18,
+                        "percentageSurvey": 10.57
+                      },
+                      {
+                        "count": 75,
+                        "id": "engineering_manager",
+                        "index": 4,
+                        "percentageQuestion": 10.62,
+                        "percentageSurvey": 9.21
+                      },
+                      {
+                        "count": 68,
+                        "id": "data_scientist_or_machine_learning",
+                        "index": 5,
+                        "percentageQuestion": 9.63,
+                        "percentageSurvey": 8.35
+                      },
+                      {
+                        "count": 53,
+                        "id": "developer_mobile",
+                        "index": 6,
+                        "percentageQuestion": 7.51,
+                        "percentageSurvey": 6.51
+                      },
+                      {
+                        "count": 50,
+                        "id": "devops_specialist",
+                        "index": 7,
+                        "percentageQuestion": 7.08,
+                        "percentageSurvey": 6.14
+                      },
+                      {
+                        "count": 49,
+                        "id": "developer_desktop_or_enterprise_applications",
+                        "index": 8,
+                        "percentageQuestion": 6.94,
+                        "percentageSurvey": 6.02
+                      },
+                      {
+                        "count": 39,
+                        "id": "engineer_data",
+                        "index": 9,
+                        "percentageQuestion": 5.52,
+                        "percentageSurvey": 4.79
+                      },
+                      {
+                        "count": 36,
+                        "id": "developer_embedded_applications_or_devices",
+                        "index": 10,
+                        "percentageQuestion": 5.1,
+                        "percentageSurvey": 4.42
+                      },
+                      {
+                        "count": 36,
+                        "id": "engineer_site_reliability",
+                        "index": 11,
+                        "percentageQuestion": 5.1,
+                        "percentageSurvey": 4.42
+                      },
+                      {
+                        "count": 32,
+                        "id": "developer_game_or_graphics",
+                        "index": 12,
+                        "percentageQuestion": 4.53,
+                        "percentageSurvey": 3.93
+                      },
+                      {
+                        "count": 28,
+                        "id": "system_administrator",
+                        "index": 13,
+                        "percentageQuestion": 3.97,
+                        "percentageSurvey": 3.44
+                      },
+                      {
+                        "count": 26,
+                        "id": "product_manager",
+                        "index": 14,
+                        "percentageQuestion": 3.68,
+                        "percentageSurvey": 3.19
+                      },
+                      {
+                        "count": 25,
+                        "id": "developer_qa_or_test",
+                        "index": 15,
+                        "percentageQuestion": 3.54,
+                        "percentageSurvey": 3.07
+                      },
+                      {
+                        "count": 22,
+                        "id": "designer",
+                        "index": 16,
+                        "percentageQuestion": 3.12,
+                        "percentageSurvey": 2.7
+                      },
+                      {
+                        "count": 16,
+                        "id": "database_administrator",
+                        "index": 17,
+                        "percentageQuestion": 2.27,
+                        "percentageSurvey": 1.97
+                      },
+                      {
+                        "count": 14,
+                        "id": "engineer",
+                        "index": 18,
+                        "percentageQuestion": 1.98,
+                        "percentageSurvey": 1.72,
+                        "isFreeformData": true
+                      },
+                      {
+                        "count": 13,
+                        "id": "senior_executive",
+                        "index": 19,
+                        "percentageQuestion": 1.84,
+                        "percentageSurvey": 1.6
+                      },
+                      {
+                        "count": 108,
+                        "id": "no_answer",
+                        "index": 20,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.27
+                      },
+                      {
+                        "count": 54,
+                        "id": "other_answers",
+                        "index": 21,
+                        "percentageQuestion": 7.65,
+                        "percentageSurvey": 6.64,
+                        "groupedBuckets": [
+                          {
+                            "count": 10,
+                            "id": "overlimit_answers",
+                            "percentageQuestion": 1.42,
+                            "percentageSurvey": 1.23
+                          },
+                          {
+                            "count": 14,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 1.98,
+                            "percentageSurvey": 1.72
+                          },
+                          {
+                            "count": 30,
+                            "id": "no_match",
+                            "index": 3,
+                            "percentageQuestion": 4.25,
+                            "percentageSurvey": 3.69,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

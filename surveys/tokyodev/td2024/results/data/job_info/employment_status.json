@@ -7,79 +7,175 @@
             "employment_status": {
               "id": "employment_status",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 652,
+                      "percentageSurvey": 91.32,
+                      "total": 714
+                    },
+                    "buckets": [
+                      {
+                        "count": 522,
+                        "id": "permanent_employee",
+                        "index": 0,
+                        "percentageQuestion": 80.06,
+                        "percentageSurvey": 73.11
+                      },
+                      {
+                        "count": 38,
+                        "id": "contract_employee",
+                        "index": 1,
+                        "percentageQuestion": 5.83,
+                        "percentageSurvey": 5.32
+                      },
+                      {
+                        "count": 35,
+                        "id": "freelancer_self_employed",
+                        "index": 2,
+                        "percentageQuestion": 5.37,
+                        "percentageSurvey": 4.9
+                      },
+                      {
+                        "count": 15,
+                        "id": "temporary_worker",
+                        "index": 3,
+                        "percentageQuestion": 2.3,
+                        "percentageSurvey": 2.1
+                      },
+                      {
+                        "count": 14,
+                        "id": "not_employed_looking_for_work",
+                        "index": 4,
+                        "percentageQuestion": 2.15,
+                        "percentageSurvey": 1.96
+                      },
+                      {
+                        "count": 62,
+                        "id": "no_answer",
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 8.68
+                      },
+                      {
+                        "count": 38,
+                        "id": "other_answers",
+                        "index": 6,
+                        "percentageQuestion": 5.82,
+                        "percentageSurvey": 5.32,
+                        "groupedBuckets": [
+                          {
+                            "count": 28,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 4.29,
+                            "percentageSurvey": 3.92
+                          },
+                          {
+                            "count": 10,
+                            "id": "no_match",
+                            "index": 0,
+                            "percentageQuestion": 1.53,
+                            "percentageSurvey": 1.4,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 753,
-                    "percentageSurvey": 92.51,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 612,
-                      "id": "permanent_employee",
-                      "percentageQuestion": 81.27,
-                      "percentageSurvey": 75.18
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 38,
-                      "id": "contract_employee",
-                      "percentageQuestion": 5.05,
-                      "percentageSurvey": 4.67
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 753,
+                      "percentageSurvey": 92.51,
+                      "total": 814
                     },
-                    {
-                      "count": 38,
-                      "id": "freelancer_self_employed",
-                      "percentageQuestion": 5.05,
-                      "percentageSurvey": 4.67
-                    },
-                    {
-                      "count": 19,
-                      "id": "temporary_worker",
-                      "percentageQuestion": 2.52,
-                      "percentageSurvey": 2.33
-                    },
-                    {
-                      "count": 15,
-                      "id": "not_employed_looking_for_work",
-                      "percentageQuestion": 1.99,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 13,
-                      "id": "company_director",
-                      "percentageQuestion": 1.73,
-                      "percentageSurvey": 1.6
-                    },
-                    {
-                      "count": 61,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 7.49
-                    },
-                    {
-                      "count": 18,
-                      "id": "other_answers",
-                      "percentageQuestion": 2.39,
-                      "percentageSurvey": 2.21,
-                      "groupedBuckets": [
-                        {
-                          "count": 18,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 2.39,
-                          "percentageSurvey": 2.21
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 612,
+                        "id": "permanent_employee",
+                        "index": 0,
+                        "percentageQuestion": 81.27,
+                        "percentageSurvey": 75.18
+                      },
+                      {
+                        "count": 38,
+                        "id": "contract_employee",
+                        "index": 1,
+                        "percentageQuestion": 5.05,
+                        "percentageSurvey": 4.67
+                      },
+                      {
+                        "count": 38,
+                        "id": "freelancer_self_employed",
+                        "index": 2,
+                        "percentageQuestion": 5.05,
+                        "percentageSurvey": 4.67
+                      },
+                      {
+                        "count": 19,
+                        "id": "temporary_worker",
+                        "index": 3,
+                        "percentageQuestion": 2.52,
+                        "percentageSurvey": 2.33
+                      },
+                      {
+                        "count": 15,
+                        "id": "not_employed_looking_for_work",
+                        "index": 4,
+                        "percentageQuestion": 1.99,
+                        "percentageSurvey": 1.84
+                      },
+                      {
+                        "count": 13,
+                        "id": "company_director",
+                        "index": 5,
+                        "percentageQuestion": 1.73,
+                        "percentageSurvey": 1.6
+                      },
+                      {
+                        "count": 61,
+                        "id": "no_answer",
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 7.49
+                      },
+                      {
+                        "count": 18,
+                        "id": "other_answers",
+                        "index": 7,
+                        "percentageQuestion": 2.39,
+                        "percentageSurvey": 2.21,
+                        "groupedBuckets": [
+                          {
+                            "count": 18,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 2.39,
+                            "percentageSurvey": 2.21
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

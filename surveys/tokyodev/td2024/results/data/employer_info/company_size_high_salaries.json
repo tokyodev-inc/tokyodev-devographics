@@ -7,52 +7,97 @@
             "company_size_high_salaries_1": {
               "id": "company_size",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "limit": 50,
-                    "cutoff": 10
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 30,
+                      "percentageSurvey": 4.2,
+                      "total": 714
+                    },
+                    "average": 5959.7,
+                    "percentiles": {
+                      "p50": 8750
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "range_over_10000",
+                        "index": 0,
+                        "percentageQuestion": 50,
+                        "percentageSurvey": 2.1
+                      },
+                      {
+                        "count": 15,
+                        "id": "other_answers",
+                        "index": 1,
+                        "percentageQuestion": 49.99,
+                        "percentageSurvey": 2.1
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 63,
-                    "percentageSurvey": 7.74,
-                    "total": 814
-                  },
-                  "average": 6633,
-                  "percentiles": {
-                    "p50": 10000
-                  },
-                  "buckets": [
-                    {
-                      "count": 10,
-                      "id": "range_1000_4999",
-                      "percentageQuestion": 15.87,
-                      "percentageSurvey": 1.23
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    {
-                      "count": 34,
-                      "id": "range_over_10000",
-                      "percentageQuestion": 53.97,
-                      "percentageSurvey": 4.18
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 63,
+                      "percentageSurvey": 7.74,
+                      "total": 814
                     },
-                    {
-                      "count": 0,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true
+                    "average": 6633,
+                    "percentiles": {
+                      "p50": 10000
                     },
-                    {
-                      "count": 19,
-                      "id": "other_answers",
-                      "percentageQuestion": 30.16,
-                      "percentageSurvey": 2.33
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 10,
+                        "id": "range_1000_4999",
+                        "index": 0,
+                        "percentageQuestion": 15.87,
+                        "percentageSurvey": 1.23
+                      },
+                      {
+                        "count": 34,
+                        "id": "range_over_10000",
+                        "index": 1,
+                        "percentageQuestion": 53.97,
+                        "percentageSurvey": 4.18
+                      },
+                      {
+                        "count": 0,
+                        "id": "no_answer",
+                        "index": 2,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0,
+                        "hasInsufficientData": true
+                      },
+                      {
+                        "count": 19,
+                        "id": "other_answers",
+                        "index": 3,
+                        "percentageQuestion": 30.16,
+                        "percentageSurvey": 2.33
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

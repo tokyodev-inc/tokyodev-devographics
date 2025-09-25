@@ -7,621 +7,642 @@
             "productivity_tools_by_job_search_status": {
               "id": "productivity_tools",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "axis2Sort": {
-                      "property": "options",
-                      "order": "desc"
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 658,
+                      "percentageSurvey": 80.84,
+                      "total": 814
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 658,
-                    "percentageSurvey": 80.84,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 754,
-                      "id": "overall",
-                      "percentageQuestion": 114.59,
-                      "percentageSurvey": 92.63,
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 130,
-                          "percentageBucket": 15.97,
-                          "percentageQuestion": 19.76
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 400,
-                          "percentageBucket": 49.14,
-                          "percentageQuestion": 60.79
-                        },
-                        {
-                          "id": "no",
-                          "count": 224,
-                          "percentageBucket": 27.52,
-                          "percentageQuestion": 34.04
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 60,
-                          "percentageBucket": 7.37,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 466,
-                      "id": "slack",
-                      "percentageQuestion": 70.82,
-                      "percentageSurvey": 57.25,
-                      "entity": {
-                        "name": "Slack",
-                        "nameClean": "Slack",
+                    "buckets": [
+                      {
+                        "count": 654,
+                        "id": "overall",
+                        "index": 0,
+                        "percentageQuestion": 99.39,
+                        "percentageSurvey": 80.34,
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 125,
+                            "percentageBucket": 17.51,
+                            "percentageQuestion": 19
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 343,
+                            "percentageBucket": 48.04,
+                            "percentageQuestion": 52.13
+                          },
+                          {
+                            "id": "no",
+                            "count": 186,
+                            "percentageBucket": 26.05,
+                            "percentageQuestion": 28.27
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 60,
+                            "percentageBucket": 8.4,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 466,
                         "id": "slack",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://slack.com/"
-                        }
+                        "index": 1,
+                        "percentageQuestion": 70.82,
+                        "percentageSurvey": 57.25,
+                        "entity": {
+                          "name": "Slack",
+                          "nameClean": "Slack",
+                          "id": "slack",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://slack.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 61,
+                            "percentageBucket": 13.09,
+                            "percentageQuestion": 9.27
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 249,
+                            "percentageBucket": 53.43,
+                            "percentageQuestion": 37.84
+                          },
+                          {
+                            "id": "no",
+                            "count": 156,
+                            "percentageBucket": 33.48,
+                            "percentageQuestion": 23.71
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 61,
-                          "percentageBucket": 13.09,
-                          "percentageQuestion": 9.27
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 249,
-                          "percentageBucket": 53.43,
-                          "percentageQuestion": 37.84
-                        },
-                        {
-                          "id": "no",
-                          "count": 156,
-                          "percentageBucket": 33.48,
-                          "percentageQuestion": 23.71
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 338,
-                      "id": "jira",
-                      "percentageQuestion": 51.37,
-                      "percentageSurvey": 41.52,
-                      "entity": {
-                        "name": "Jira",
-                        "nameClean": "Jira",
+                      {
+                        "count": 338,
                         "id": "jira",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.atlassian.com/software/jira"
-                        }
+                        "index": 2,
+                        "percentageQuestion": 51.37,
+                        "percentageSurvey": 41.52,
+                        "entity": {
+                          "name": "Jira",
+                          "nameClean": "Jira",
+                          "id": "jira",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.atlassian.com/software/jira"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 50,
+                            "percentageBucket": 14.79,
+                            "percentageQuestion": 7.6
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 191,
+                            "percentageBucket": 56.51,
+                            "percentageQuestion": 29.03
+                          },
+                          {
+                            "id": "no",
+                            "count": 97,
+                            "percentageBucket": 28.7,
+                            "percentageQuestion": 14.74
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 50,
-                          "percentageBucket": 14.79,
-                          "percentageQuestion": 7.6
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 191,
-                          "percentageBucket": 56.51,
-                          "percentageQuestion": 29.03
-                        },
-                        {
-                          "id": "no",
-                          "count": 97,
-                          "percentageBucket": 28.7,
-                          "percentageQuestion": 14.74
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 249,
-                      "id": "google_workspace",
-                      "percentageQuestion": 37.84,
-                      "percentageSurvey": 30.59,
-                      "entity": {
-                        "name": "Google Workspace",
-                        "nameClean": "Google Workspace",
+                      {
+                        "count": 249,
                         "id": "google_workspace",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://workspace.google.com/"
-                        }
+                        "index": 3,
+                        "percentageQuestion": 37.84,
+                        "percentageSurvey": 30.59,
+                        "entity": {
+                          "name": "Google Workspace",
+                          "nameClean": "Google Workspace",
+                          "id": "google_workspace",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://workspace.google.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 33,
+                            "percentageBucket": 13.25,
+                            "percentageQuestion": 5.02
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 127,
+                            "percentageBucket": 51,
+                            "percentageQuestion": 19.3
+                          },
+                          {
+                            "id": "no",
+                            "count": 89,
+                            "percentageBucket": 35.74,
+                            "percentageQuestion": 13.53
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 33,
-                          "percentageBucket": 13.25,
-                          "percentageQuestion": 5.02
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 127,
-                          "percentageBucket": 51,
-                          "percentageQuestion": 19.3
-                        },
-                        {
-                          "id": "no",
-                          "count": 89,
-                          "percentageBucket": 35.74,
-                          "percentageQuestion": 13.53
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 246,
-                      "id": "zoom",
-                      "percentageQuestion": 37.39,
-                      "percentageSurvey": 30.22,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
+                      {
+                        "count": 246,
                         "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
-                        }
+                        "index": 4,
+                        "percentageQuestion": 37.39,
+                        "percentageSurvey": 30.22,
+                        "entity": {
+                          "name": "Zoom",
+                          "nameClean": "Zoom",
+                          "id": "zoom",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://zoom.us/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 35,
+                            "percentageBucket": 14.23,
+                            "percentageQuestion": 5.32
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 132,
+                            "percentageBucket": 53.66,
+                            "percentageQuestion": 20.06
+                          },
+                          {
+                            "id": "no",
+                            "count": 79,
+                            "percentageBucket": 32.11,
+                            "percentageQuestion": 12.01
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 35,
-                          "percentageBucket": 14.23,
-                          "percentageQuestion": 5.32
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 132,
-                          "percentageBucket": 53.66,
-                          "percentageQuestion": 20.06
-                        },
-                        {
-                          "id": "no",
-                          "count": 79,
-                          "percentageBucket": 32.11,
-                          "percentageQuestion": 12.01
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 175,
-                      "id": "teams",
-                      "percentageQuestion": 26.6,
-                      "percentageSurvey": 21.5,
-                      "entity": {
-                        "name": "Microsoft Teams",
-                        "nameClean": "Microsoft Teams",
+                      {
+                        "count": 175,
                         "id": "teams",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://teams.microsoft.com/"
-                        }
+                        "index": 5,
+                        "percentageQuestion": 26.6,
+                        "percentageSurvey": 21.5,
+                        "entity": {
+                          "name": "Microsoft Teams",
+                          "nameClean": "Microsoft Teams",
+                          "id": "teams",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://teams.microsoft.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 35,
+                            "percentageBucket": 20,
+                            "percentageQuestion": 5.32
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 103,
+                            "percentageBucket": 58.86,
+                            "percentageQuestion": 15.65
+                          },
+                          {
+                            "id": "no",
+                            "count": 37,
+                            "percentageBucket": 21.14,
+                            "percentageQuestion": 5.62
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 35,
-                          "percentageBucket": 20,
-                          "percentageQuestion": 5.32
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 103,
-                          "percentageBucket": 58.86,
-                          "percentageQuestion": 15.65
-                        },
-                        {
-                          "id": "no",
-                          "count": 37,
-                          "percentageBucket": 21.14,
-                          "percentageQuestion": 5.62
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 166,
-                      "id": "notion",
-                      "percentageQuestion": 25.23,
-                      "percentageSurvey": 20.39,
-                      "entity": {
-                        "name": "Notion",
-                        "nameClean": "Notion",
+                      {
+                        "count": 166,
                         "id": "notion",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notion.so/"
-                        }
+                        "index": 6,
+                        "percentageQuestion": 25.23,
+                        "percentageSurvey": 20.39,
+                        "entity": {
+                          "name": "Notion",
+                          "nameClean": "Notion",
+                          "id": "notion",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.notion.so/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 28,
+                            "percentageBucket": 16.87,
+                            "percentageQuestion": 4.26
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 77,
+                            "percentageBucket": 46.39,
+                            "percentageQuestion": 11.7
+                          },
+                          {
+                            "id": "no",
+                            "count": 61,
+                            "percentageBucket": 36.75,
+                            "percentageQuestion": 9.27
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 28,
-                          "percentageBucket": 16.87,
-                          "percentageQuestion": 4.26
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 77,
-                          "percentageBucket": 46.39,
-                          "percentageQuestion": 11.7
-                        },
-                        {
-                          "id": "no",
-                          "count": 61,
-                          "percentageBucket": 36.75,
-                          "percentageQuestion": 9.27
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 121,
-                      "id": "microsoft_excel",
-                      "percentageQuestion": 18.39,
-                      "percentageSurvey": 14.86,
-                      "entity": {
-                        "name": "Microsoft Excel",
-                        "nameClean": "Microsoft Excel",
+                      {
+                        "count": 121,
                         "id": "microsoft_excel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
-                        }
+                        "index": 7,
+                        "percentageQuestion": 18.39,
+                        "percentageSurvey": 14.86,
+                        "entity": {
+                          "name": "Microsoft Excel",
+                          "nameClean": "Microsoft Excel",
+                          "id": "microsoft_excel",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 34,
+                            "percentageBucket": 28.1,
+                            "percentageQuestion": 5.17
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 56,
+                            "percentageBucket": 46.28,
+                            "percentageQuestion": 8.51
+                          },
+                          {
+                            "id": "no",
+                            "count": 31,
+                            "percentageBucket": 25.62,
+                            "percentageQuestion": 4.71
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 34,
-                          "percentageBucket": 28.1,
-                          "percentageQuestion": 5.17
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 56,
-                          "percentageBucket": 46.28,
-                          "percentageQuestion": 8.51
-                        },
-                        {
-                          "id": "no",
-                          "count": 31,
-                          "percentageBucket": 25.62,
-                          "percentageQuestion": 4.71
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 53,
-                      "id": "asana",
-                      "percentageQuestion": 8.05,
-                      "percentageSurvey": 6.51,
-                      "entity": {
-                        "name": "Asana",
-                        "nameClean": "Asana",
+                      {
+                        "count": 53,
                         "id": "asana",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://asana.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 25,
-                          "percentageBucket": 47.17,
-                          "percentageQuestion": 3.8
+                        "index": 8,
+                        "percentageQuestion": 8.05,
+                        "percentageSurvey": 6.51,
+                        "entity": {
+                          "name": "Asana",
+                          "nameClean": "Asana",
+                          "id": "asana",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://asana.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 28,
-                          "percentageBucket": 53,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 42,
-                      "id": "discord",
-                      "percentageQuestion": 6.38,
-                      "percentageSurvey": 5.16,
-                      "entity": {
-                        "name": "Discord",
-                        "nameClean": "Discord",
+                        "facetBuckets": [
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 25,
+                            "percentageBucket": 47.17,
+                            "percentageQuestion": 3.8
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 28,
+                            "percentageBucket": 53,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 42,
                         "id": "discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/"
-                        }
+                        "index": 9,
+                        "percentageQuestion": 6.38,
+                        "percentageSurvey": 5.16,
+                        "entity": {
+                          "name": "Discord",
+                          "nameClean": "Discord",
+                          "id": "discord",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://discord.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 10,
+                            "percentageBucket": 23.81,
+                            "percentageQuestion": 1.52
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 19,
+                            "percentageBucket": 45.24,
+                            "percentageQuestion": 2.89
+                          },
+                          {
+                            "id": "no",
+                            "count": 13,
+                            "percentageBucket": 30.95,
+                            "percentageQuestion": 1.98
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 10,
-                          "percentageBucket": 23.81,
-                          "percentageQuestion": 1.52
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 19,
-                          "percentageBucket": 45.24,
-                          "percentageQuestion": 2.89
-                        },
-                        {
-                          "id": "no",
-                          "count": 13,
-                          "percentageBucket": 30.95,
-                          "percentageQuestion": 1.98
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 36,
-                      "id": "trello",
-                      "percentageQuestion": 5.47,
-                      "percentageSurvey": 4.42,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
+                      {
+                        "count": 36,
                         "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 19,
-                          "percentageBucket": 52.78,
-                          "percentageQuestion": 2.89
+                        "index": 10,
+                        "percentageQuestion": 5.47,
+                        "percentageSurvey": 4.42,
+                        "entity": {
+                          "name": "Trello",
+                          "nameClean": "Trello",
+                          "id": "trello",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://trello.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 17,
-                          "percentageBucket": 47,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 28,
-                      "id": "one_note",
-                      "percentageQuestion": 4.26,
-                      "percentageSurvey": 3.44,
-                      "entity": {
-                        "name": "Microsoft OneNote",
-                        "nameClean": "Microsoft OneNote",
+                        "facetBuckets": [
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 19,
+                            "percentageBucket": 52.78,
+                            "percentageQuestion": 2.89
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 17,
+                            "percentageBucket": 47,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 28,
                         "id": "one_note",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.onenote.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 13,
-                          "percentageBucket": 46.43,
-                          "percentageQuestion": 1.98
+                        "index": 11,
+                        "percentageQuestion": 4.26,
+                        "percentageSurvey": 3.44,
+                        "entity": {
+                          "name": "Microsoft OneNote",
+                          "nameClean": "Microsoft OneNote",
+                          "id": "one_note",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.onenote.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 54,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 17,
-                      "id": "chatwork",
-                      "percentageQuestion": 2.58,
-                      "percentageSurvey": 2.09,
-                      "entity": {
-                        "name": "Chatwork",
-                        "nameClean": "Chatwork",
+                        "facetBuckets": [
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 13,
+                            "percentageBucket": 46.43,
+                            "percentageQuestion": 1.98
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 15,
+                            "percentageBucket": 54,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 17,
                         "id": "chatwork",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://go.chatwork.com/"
-                        }
+                        "index": 12,
+                        "percentageQuestion": 2.58,
+                        "percentageSurvey": 2.09,
+                        "entity": {
+                          "name": "Chatwork",
+                          "nameClean": "Chatwork",
+                          "id": "chatwork",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://go.chatwork.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 17,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 17,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 12,
-                      "id": "cybozu_office",
-                      "percentageQuestion": 1.82,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Cybozu Office",
-                        "nameClean": "Cybozu Office",
+                      {
+                        "count": 12,
                         "id": "cybozu_office",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://office.cybozu.co.jp/"
-                        }
+                        "index": 13,
+                        "percentageQuestion": 1.82,
+                        "percentageSurvey": 1.47,
+                        "entity": {
+                          "name": "Cybozu Office",
+                          "nameClean": "Cybozu Office",
+                          "id": "cybozu_office",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://office.cybozu.co.jp/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 12,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 10,
-                      "id": "linear",
-                      "percentageQuestion": 1.52,
-                      "percentageSurvey": 1.23,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "Linear",
-                        "nameClean": "Linear",
+                      {
+                        "count": 10,
                         "id": "linear",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://linear.app/"
-                        }
+                        "index": 14,
+                        "percentageQuestion": 1.52,
+                        "percentageSurvey": 1.23,
+                        "isFreeformData": true,
+                        "entity": {
+                          "name": "Linear",
+                          "nameClean": "Linear",
+                          "id": "linear",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://linear.app/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 10,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 10,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 156,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 19.16,
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 22,
-                          "percentageBucket": 14.1,
-                          "percentageQuestion": 3.34
-                        },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 45,
-                          "percentageBucket": 28.85,
-                          "percentageQuestion": 6.84
-                        },
-                        {
-                          "id": "no",
-                          "count": 29,
-                          "percentageBucket": 18.59,
-                          "percentageQuestion": 4.41
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 60,
-                          "percentageBucket": 38.46,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 72,
-                      "id": "other_answers",
-                      "percentageQuestion": 10.94,
-                      "percentageSurvey": 8.85,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
+                      {
+                        "count": 156,
+                        "id": "no_answer",
+                        "index": 15,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.16,
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 22,
+                            "percentageBucket": 14.1,
+                            "percentageQuestion": 3.34
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 45,
+                            "percentageBucket": 28.85,
+                            "percentageQuestion": 6.84
+                          },
+                          {
+                            "id": "no",
+                            "count": 29,
+                            "percentageBucket": 18.59,
+                            "percentageQuestion": 4.41
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 60,
+                            "percentageBucket": 38.46,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "yes",
-                          "count": 12,
-                          "percentageBucket": 16.67
+                      {
+                        "count": 72,
+                        "id": "other_answers",
+                        "index": 16,
+                        "percentageQuestion": 10.94,
+                        "percentageSurvey": 8.85,
+                        "averageByFacet": 0,
+                        "percentilesByFacet": {
+                          "p0": 0,
+                          "p10": 0,
+                          "p25": 0,
+                          "p50": 0,
+                          "p75": 0,
+                          "p90": 0,
+                          "p100": 0
                         },
-                        {
-                          "id": "no_but_would_consider",
-                          "count": 35,
-                          "percentageBucket": 48.61
-                        },
-                        {
-                          "id": "no",
-                          "count": 17,
-                          "percentageBucket": 23.61
-                        }
-                      ]
-                    }
-                  ]
-                }
+                        "facetBuckets": [
+                          {
+                            "id": "yes",
+                            "count": 12,
+                            "percentageBucket": 16.67
+                          },
+                          {
+                            "id": "no_but_would_consider",
+                            "count": 35,
+                            "percentageBucket": 48.61
+                          },
+                          {
+                            "id": "no",
+                            "count": 17,
+                            "percentageBucket": 23.61
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

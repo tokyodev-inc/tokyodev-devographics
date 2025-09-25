@@ -7,87 +7,194 @@
             "company_size": {
               "id": "company_size",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    "limit": 50,
-                    "cutoff": 1
+                    "editionId": "td2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 613,
+                      "percentageSurvey": 85.85,
+                      "total": 714
+                    },
+                    "average": 2668.6,
+                    "percentiles": {
+                      "p50": 300
+                    },
+                    "buckets": [
+                      {
+                        "count": 18,
+                        "id": "range_1",
+                        "index": 0,
+                        "percentageQuestion": 2.94,
+                        "percentageSurvey": 2.52
+                      },
+                      {
+                        "count": 28,
+                        "id": "range_2_9",
+                        "index": 1,
+                        "percentageQuestion": 4.57,
+                        "percentageSurvey": 3.92
+                      },
+                      {
+                        "count": 42,
+                        "id": "range_10_19",
+                        "index": 2,
+                        "percentageQuestion": 6.85,
+                        "percentageSurvey": 5.88
+                      },
+                      {
+                        "count": 167,
+                        "id": "range_20_99",
+                        "index": 3,
+                        "percentageQuestion": 27.24,
+                        "percentageSurvey": 23.39
+                      },
+                      {
+                        "count": 96,
+                        "id": "range_100_499",
+                        "index": 4,
+                        "percentageQuestion": 15.66,
+                        "percentageSurvey": 13.45
+                      },
+                      {
+                        "count": 39,
+                        "id": "range_500_999",
+                        "index": 5,
+                        "percentageQuestion": 6.36,
+                        "percentageSurvey": 5.46
+                      },
+                      {
+                        "count": 84,
+                        "id": "range_1000_4999",
+                        "index": 6,
+                        "percentageQuestion": 13.7,
+                        "percentageSurvey": 11.76
+                      },
+                      {
+                        "count": 30,
+                        "id": "range_5000_9999",
+                        "index": 7,
+                        "percentageQuestion": 4.89,
+                        "percentageSurvey": 4.2
+                      },
+                      {
+                        "count": 109,
+                        "id": "range_over_10000",
+                        "index": 8,
+                        "percentageQuestion": 17.78,
+                        "percentageSurvey": 15.27
+                      },
+                      {
+                        "count": 101,
+                        "id": "no_answer",
+                        "index": 9,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.15
+                      }
+                    ]
                   },
-                  "completion": {
-                    "count": 696,
-                    "percentageSurvey": 85.5,
-                    "total": 814
-                  },
-                  "average": 2986.3,
-                  "percentiles": {
-                    "p50": 300
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "range_1",
-                      "percentageQuestion": 1.72,
-                      "percentageSurvey": 1.47
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 1
                     },
-                    {
-                      "count": 23,
-                      "id": "range_2_9",
-                      "percentageQuestion": 3.3,
-                      "percentageSurvey": 2.83
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 696,
+                      "percentageSurvey": 85.5,
+                      "total": 814
                     },
-                    {
-                      "count": 39,
-                      "id": "range_10_19",
-                      "percentageQuestion": 5.6,
-                      "percentageSurvey": 4.79
+                    "average": 2986.3,
+                    "percentiles": {
+                      "p50": 300
                     },
-                    {
-                      "count": 180,
-                      "id": "range_20_99",
-                      "percentageQuestion": 25.86,
-                      "percentageSurvey": 22.11
-                    },
-                    {
-                      "count": 114,
-                      "id": "range_100_499",
-                      "percentageQuestion": 16.38,
-                      "percentageSurvey": 14
-                    },
-                    {
-                      "count": 39,
-                      "id": "range_500_999",
-                      "percentageQuestion": 5.6,
-                      "percentageSurvey": 4.79
-                    },
-                    {
-                      "count": 112,
-                      "id": "range_1000_4999",
-                      "percentageQuestion": 16.09,
-                      "percentageSurvey": 13.76
-                    },
-                    {
-                      "count": 41,
-                      "id": "range_5000_9999",
-                      "percentageQuestion": 5.89,
-                      "percentageSurvey": 5.04
-                    },
-                    {
-                      "count": 136,
-                      "id": "range_over_10000",
-                      "percentageQuestion": 19.54,
-                      "percentageSurvey": 16.71
-                    },
-                    {
-                      "count": 118,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 14.5
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "range_1",
+                        "index": 0,
+                        "percentageQuestion": 1.72,
+                        "percentageSurvey": 1.47
+                      },
+                      {
+                        "count": 23,
+                        "id": "range_2_9",
+                        "index": 1,
+                        "percentageQuestion": 3.3,
+                        "percentageSurvey": 2.83
+                      },
+                      {
+                        "count": 39,
+                        "id": "range_10_19",
+                        "index": 2,
+                        "percentageQuestion": 5.6,
+                        "percentageSurvey": 4.79
+                      },
+                      {
+                        "count": 180,
+                        "id": "range_20_99",
+                        "index": 3,
+                        "percentageQuestion": 25.86,
+                        "percentageSurvey": 22.11
+                      },
+                      {
+                        "count": 114,
+                        "id": "range_100_499",
+                        "index": 4,
+                        "percentageQuestion": 16.38,
+                        "percentageSurvey": 14
+                      },
+                      {
+                        "count": 39,
+                        "id": "range_500_999",
+                        "index": 5,
+                        "percentageQuestion": 5.6,
+                        "percentageSurvey": 4.79
+                      },
+                      {
+                        "count": 112,
+                        "id": "range_1000_4999",
+                        "index": 6,
+                        "percentageQuestion": 16.09,
+                        "percentageSurvey": 13.76
+                      },
+                      {
+                        "count": 41,
+                        "id": "range_5000_9999",
+                        "index": 7,
+                        "percentageQuestion": 5.89,
+                        "percentageSurvey": 5.04
+                      },
+                      {
+                        "count": 136,
+                        "id": "range_over_10000",
+                        "index": 8,
+                        "percentageQuestion": 19.54,
+                        "percentageSurvey": 16.71
+                      },
+                      {
+                        "count": 118,
+                        "id": "no_answer",
+                        "index": 9,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.5
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

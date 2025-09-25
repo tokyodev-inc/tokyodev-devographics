@@ -26,7 +26,7 @@ query {
                 mergeOtherBuckets: true
               }
             ) {
-              currentEdition {
+              allEditions(editionCount: 2) {
                 _metadata {
                   axis1Sort {
                     property
@@ -39,6 +39,8 @@ query {
                   limit
                   cutoff
                 }
+                editionId
+                year
                 completion {
                   count
                   percentageSurvey
@@ -52,6 +54,7 @@ query {
                   count
                   id
                   value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -60,6 +63,7 @@ query {
                     count
                     id
                     value
+                    index
                     percentageQuestion
                     percentageSurvey
                     isFreeformData
@@ -96,7 +100,7 @@ query {
                 mergeOtherBuckets: true
               }
             ) {
-              currentEdition {
+              allEditions(editionCount: 2) {
                 _metadata {
                   axis1Sort {
                     property
@@ -109,6 +113,8 @@ query {
                   limit
                   cutoff
                 }
+                editionId
+                year
                 completion {
                   count
                   percentageSurvey
@@ -122,6 +128,7 @@ query {
                   count
                   id
                   value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -130,6 +137,7 @@ query {
                     count
                     id
                     value
+                    index
                     percentageQuestion
                     percentageSurvey
                     isFreeformData

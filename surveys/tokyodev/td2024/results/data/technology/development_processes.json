@@ -7,86 +7,99 @@
             "development_processes": {
               "id": "development_processes",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
                     },
-                    "limit": 20,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 556,
-                    "percentageSurvey": 68.3,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 364,
-                      "id": "agile",
-                      "percentageQuestion": 65.47,
-                      "percentageSurvey": 44.72
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 556,
+                      "percentageSurvey": 68.3,
+                      "total": 814
                     },
-                    {
-                      "count": 216,
-                      "id": "scrum",
-                      "percentageQuestion": 38.85,
-                      "percentageSurvey": 26.54
-                    },
-                    {
-                      "count": 201,
-                      "id": "kanban",
-                      "percentageQuestion": 36.15,
-                      "percentageSurvey": 24.69
-                    },
-                    {
-                      "count": 106,
-                      "id": "waterfall",
-                      "percentageQuestion": 19.06,
-                      "percentageSurvey": 13.02
-                    },
-                    {
-                      "count": 15,
-                      "id": "extreme_programming",
-                      "percentageQuestion": 2.7,
-                      "percentageSurvey": 1.84
-                    },
-                    {
-                      "count": 14,
-                      "id": "rapid_application_development",
-                      "percentageQuestion": 2.52,
-                      "percentageSurvey": 1.72
-                    },
-                    {
-                      "count": 258,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 31.7
-                    },
-                    {
-                      "count": 28,
-                      "id": "other_answers",
-                      "percentageQuestion": 5.04,
-                      "percentageSurvey": 3.44,
-                      "groupedBuckets": [
-                        {
-                          "count": 5,
-                          "id": "cutoff_answers",
-                          "percentageQuestion": 0.9,
-                          "percentageSurvey": 0.61
-                        },
-                        {
-                          "count": 23,
-                          "id": "no_match",
-                          "percentageQuestion": 4.14,
-                          "percentageSurvey": 2.83,
-                          "isFreeformData": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 364,
+                        "id": "agile",
+                        "index": 0,
+                        "percentageQuestion": 65.47,
+                        "percentageSurvey": 44.72
+                      },
+                      {
+                        "count": 216,
+                        "id": "scrum",
+                        "index": 1,
+                        "percentageQuestion": 38.85,
+                        "percentageSurvey": 26.54
+                      },
+                      {
+                        "count": 201,
+                        "id": "kanban",
+                        "index": 2,
+                        "percentageQuestion": 36.15,
+                        "percentageSurvey": 24.69
+                      },
+                      {
+                        "count": 106,
+                        "id": "waterfall",
+                        "index": 3,
+                        "percentageQuestion": 19.06,
+                        "percentageSurvey": 13.02
+                      },
+                      {
+                        "count": 15,
+                        "id": "extreme_programming",
+                        "index": 4,
+                        "percentageQuestion": 2.7,
+                        "percentageSurvey": 1.84
+                      },
+                      {
+                        "count": 14,
+                        "id": "rapid_application_development",
+                        "index": 5,
+                        "percentageQuestion": 2.52,
+                        "percentageSurvey": 1.72
+                      },
+                      {
+                        "count": 258,
+                        "id": "no_answer",
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 31.7
+                      },
+                      {
+                        "count": 28,
+                        "id": "other_answers",
+                        "index": 7,
+                        "percentageQuestion": 5.04,
+                        "percentageSurvey": 3.44,
+                        "groupedBuckets": [
+                          {
+                            "count": 5,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 0.9,
+                            "percentageSurvey": 0.61
+                          },
+                          {
+                            "count": 23,
+                            "id": "no_match",
+                            "index": 1,
+                            "percentageQuestion": 4.14,
+                            "percentageSurvey": 2.83,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }
