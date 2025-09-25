@@ -1,0 +1,156 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        user_info {
+          years_of_experience_by_compensation_and_qualifications_1: years_of_experience {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              facet: compensation__current_total_annual_compensation
+              filters: {
+                user_info__professional_qualifications: {
+                  eq: coding_bootcamp
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 2) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+          years_of_experience_by_compensation_and_qualifications_2: years_of_experience {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              facet: compensation__current_total_annual_compensation
+              filters: {
+                user_info__professional_qualifications: {
+                  eq: bachelors_degree
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 2) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        user_info {
+          language_proficiency_japanese: language_proficiency_japanese {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: false
+                sort: {
+                  property: options
+                }
+              }
+            ) {
+              allEditions(editionCount: 2) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

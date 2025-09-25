@@ -1,0 +1,81 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        job_info {
+          work_hours_per_week_vs_salary: work_hours_per_week {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              facet: compensation__current_total_annual_compensation
+              parameters: {
+                showNoAnswer: true
+                sort: {
+                  property: options
+                }
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 2) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
