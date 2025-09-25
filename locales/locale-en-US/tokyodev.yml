@@ -584,10 +584,16 @@ translations:
   # current_employer
   - key: employer_info.current_employer
     t: Employer Type
+    aliases:
+      - job_info.current_employer
   - key: employer_info.current_employer.question
     t: Which of the following best describes your current employer?
+    aliases:
+      - job_info.current_employer.question
   - key: employer_info.current_employer.emoji
     t: 🏢
+    aliases:
+      - job_info.current_employer.emoji
 
   - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
@@ -614,10 +620,16 @@ translations:
   # industry_sector
   - key: employer_info.industry_sector
     t: Employer Industry
+    aliases:
+      - job_info.industry_sector
   - key: employer_info.industry_sector.question
     t: What industry or business domain is your current employer in?
+    aliases:
+      - job_info.industry_sector.question
   - key: employer_info.industry_sector.emoji
     t: 🏭
+    aliases:
+      - job_info.industry_sector.emoji
 
   # meeting_hours_per_week
 
@@ -678,10 +690,16 @@ translations:
   # company_size
   - key: employer_info.company_size
     t: Employer Size
+    aliases:
+      - job_info.company_size
   - key: employer_info.company_size.question
     t: How many employees does your employer have (worldwide)?
+    aliases:
+      - job_info.company_size.question
   - key: employer_info.company_size.emoji
     t: 👥
+    aliases:
+      - job_info.company_size.emoji
 
   - key: options.company_size.range_1
     t: 1 employee
@@ -764,6 +782,8 @@ translations:
 
   - key: sections.job_info.title
     t: Current Job
+    aliases:
+      - sections.current_job.title
   - key: sections.job_info.intro
     t: >
       If you have multiple employers and/or clients, please answer
@@ -1604,10 +1624,14 @@ translations:
   # income_evolution
   - key: compensation.income_evolution
     t: Income Evolution
+    aliases:
+      - job_info.income_evolution
   - key: compensation.income_evolution.question
     t: How has your total annual compensation evolved over the past 12 months?
+      - job_info.income_evolution.question
   - key: compensation.income_evolution.emoji
     t: 💹
+      - job_info.income_evolution.emoji
 
   #######################################################
   #                                                     #
@@ -2008,16 +2032,8 @@ translations:
   - key: options.friend_group_balance.all_non_japanese
     aliasFor: options.coworker_nationalities_engineers.all_non_japanese
 
-  - key: options.friend_group_balance.all_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.all_japanese.short
-  - key: options.friend_group_balance.mostly_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.mostly_japanese.short
   - key: options.friend_group_balance.mix_japanese_non_japanese.short
     aliasFor: options.coworker_nationalities_engineers.mix_japanese_non_japanese.short
-  - key: options.friend_group_balance.mostly_non_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.mostly_non_japanese.short
-  - key: options.friend_group_balance.all_non_japanese.short
-    aliasFor: options.coworker_nationalities_engineers.all_non_japanese.short
 
   # initial_attraction
   - key: life_in_japan.initial_attraction
@@ -2448,10 +2464,16 @@ translations:
 
   - key: other.communities
     t: Developer Communities
+    aliases:
+      - life_in_japan.communities
   - key: other.communities.question
     t: Which Japan-based developer communities are you a member of?
+    aliases:
+      - life_in_japan.communities.question
   - key: other.communities.emoji
     t: 🧑‍🏫
+    aliases:
+      - life_in_japan.communities.emoji
 
   - key: other.communities.na
     t: 🚫 None
