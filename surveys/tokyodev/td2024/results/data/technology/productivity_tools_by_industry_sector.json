@@ -7,1384 +7,1395 @@
             "productivity_tools_by_industry_sector": {
               "id": "productivity_tools",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "axis2Sort": {
-                      "property": "count",
-                      "order": "desc"
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 658,
+                      "percentageSurvey": 80.84,
+                      "total": 814
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 658,
-                    "percentageSurvey": 80.84,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 709,
-                      "id": "slack",
-                      "percentageQuestion": 107.75,
-                      "percentageSurvey": 87.1,
-                      "entity": {
-                        "name": "Slack",
-                        "nameClean": "Slack",
+                    "buckets": [
+                      {
+                        "count": 709,
                         "id": "slack",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://slack.com/"
-                        }
+                        "index": 0,
+                        "percentageQuestion": 107.75,
+                        "percentageSurvey": 87.1,
+                        "entity": {
+                          "name": "Slack",
+                          "nameClean": "Slack",
+                          "id": "slack",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://slack.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 151,
+                            "percentageBucket": 21.3,
+                            "percentageQuestion": 22.95,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "ecommerce",
+                            "count": 91,
+                            "percentageBucket": 12.83,
+                            "percentageQuestion": 13.83
+                          },
+                          {
+                            "id": "finance",
+                            "count": 77,
+                            "percentageBucket": 10.86,
+                            "percentageQuestion": 11.7,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "ai",
+                            "count": 68,
+                            "percentageBucket": 9.59,
+                            "percentageQuestion": 10.33,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
+                          },
+                          {
+                            "id": "consulting",
+                            "count": 67,
+                            "percentageBucket": 9.45,
+                            "percentageQuestion": 10.18
+                          },
+                          {
+                            "id": "advertising",
+                            "count": 30,
+                            "percentageBucket": 4.23,
+                            "percentageQuestion": 4.56,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
+                          },
+                          {
+                            "id": "cloud_computing",
+                            "count": 29,
+                            "percentageBucket": 4.09,
+                            "percentageQuestion": 4.41,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
+                          },
+                          {
+                            "id": "gaming",
+                            "count": 26,
+                            "percentageBucket": 3.67,
+                            "percentageQuestion": 3.95,
+                            "entity": {
+                              "id": "gaming",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "gaming"
+                            }
+                          },
+                          {
+                            "id": "crypto",
+                            "count": 25,
+                            "percentageBucket": 3.53,
+                            "percentageQuestion": 3.8,
+                            "entity": {
+                              "id": "crypto",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "crypto"
+                            }
+                          },
+                          {
+                            "id": "human_resources",
+                            "count": 24,
+                            "percentageBucket": 3.39,
+                            "percentageQuestion": 3.65,
+                            "entity": {
+                              "id": "human_resources",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "human_resources"
+                            }
+                          },
+                          {
+                            "id": "manufacturing",
+                            "count": 23,
+                            "percentageBucket": 3.24,
+                            "percentageQuestion": 3.5,
+                            "entity": {
+                              "id": "manufacturing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "manufacturing"
+                            }
+                          },
+                          {
+                            "id": "education",
+                            "count": 11,
+                            "percentageBucket": 1.55,
+                            "percentageQuestion": 1.67,
+                            "entity": {
+                              "id": "education",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "education"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 87,
+                            "percentageBucket": 12.27,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 151,
-                          "percentageBucket": 21.3,
-                          "percentageQuestion": 22.95,
-                          "entity": {
+                      {
+                        "count": 576,
+                        "id": "overall",
+                        "index": 1,
+                        "percentageQuestion": 87.54,
+                        "percentageSurvey": 70.76,
+                        "facetBuckets": [
+                          {
                             "id": "saas",
-                            "entityType": "default"
+                            "count": 206,
+                            "percentageBucket": 17.7,
+                            "percentageQuestion": 31.31,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
                           },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 91,
-                          "percentageBucket": 12.83,
-                          "percentageQuestion": 13.83
-                        },
-                        {
-                          "id": "finance",
-                          "count": 77,
-                          "percentageBucket": 10.86,
-                          "percentageQuestion": 11.7,
-                          "entity": {
+                          {
+                            "id": "ecommerce",
+                            "count": 140,
+                            "percentageBucket": 12.03,
+                            "percentageQuestion": 21.28
+                          },
+                          {
                             "id": "finance",
-                            "entityType": "default"
+                            "count": 110,
+                            "percentageBucket": 9.45,
+                            "percentageQuestion": 16.72,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
                           },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "ai",
-                          "count": 68,
-                          "percentageBucket": 9.59,
-                          "percentageQuestion": 10.33,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
+                          {
+                            "id": "consulting",
+                            "count": 108,
+                            "percentageBucket": 9.28,
+                            "percentageQuestion": 16.41
+                          },
+                          {
                             "id": "ai",
-                            "entityType": "default"
+                            "count": 102,
+                            "percentageBucket": 8.76,
+                            "percentageQuestion": 15.5,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
                           },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 67,
-                          "percentageBucket": 9.45,
-                          "percentageQuestion": 10.18
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 30,
-                          "percentageBucket": 4.23,
-                          "percentageQuestion": 4.56,
-                          "entity": {
+                          {
                             "id": "advertising",
-                            "entityType": "default"
+                            "count": 47,
+                            "percentageBucket": 4.04,
+                            "percentageQuestion": 7.14,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
                           },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 29,
-                          "percentageBucket": 4.09,
-                          "percentageQuestion": 4.41,
-                          "entity": {
+                          {
                             "id": "cloud_computing",
-                            "entityType": "default"
+                            "count": 47,
+                            "percentageBucket": 4.04,
+                            "percentageQuestion": 7.14,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
                           },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "gaming",
-                          "count": 26,
-                          "percentageBucket": 3.67,
-                          "percentageQuestion": 3.95,
-                          "entity": {
-                            "id": "gaming",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "gaming"
-                          }
-                        },
-                        {
-                          "id": "crypto",
-                          "count": 25,
-                          "percentageBucket": 3.53,
-                          "percentageQuestion": 3.8,
-                          "entity": {
-                            "id": "crypto",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "crypto"
-                          }
-                        },
-                        {
-                          "id": "human_resources",
-                          "count": 24,
-                          "percentageBucket": 3.39,
-                          "percentageQuestion": 3.65,
-                          "entity": {
-                            "id": "human_resources",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "human_resources"
-                          }
-                        },
-                        {
-                          "id": "manufacturing",
-                          "count": 23,
-                          "percentageBucket": 3.24,
-                          "percentageQuestion": 3.5,
-                          "entity": {
+                          {
                             "id": "manufacturing",
-                            "entityType": "default"
+                            "count": 40,
+                            "percentageBucket": 3.44,
+                            "percentageQuestion": 6.08,
+                            "entity": {
+                              "id": "manufacturing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "manufacturing"
+                            }
                           },
-                          "token": {
-                            "id": "manufacturing"
-                          }
-                        },
-                        {
-                          "id": "education",
-                          "count": 11,
-                          "percentageBucket": 1.55,
-                          "percentageQuestion": 1.67,
-                          "entity": {
-                            "id": "education",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "education"
-                          }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 87,
-                          "percentageBucket": 12.27,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 576,
-                      "id": "overall",
-                      "percentageQuestion": 87.54,
-                      "percentageSurvey": 70.76,
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 206,
-                          "percentageBucket": 17.7,
-                          "percentageQuestion": 31.31,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 140,
-                          "percentageBucket": 12.03,
-                          "percentageQuestion": 21.28
-                        },
-                        {
-                          "id": "finance",
-                          "count": 110,
-                          "percentageBucket": 9.45,
-                          "percentageQuestion": 16.72,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 108,
-                          "percentageBucket": 9.28,
-                          "percentageQuestion": 16.41
-                        },
-                        {
-                          "id": "ai",
-                          "count": 102,
-                          "percentageBucket": 8.76,
-                          "percentageQuestion": 15.5,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
-                            "id": "ai",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 47,
-                          "percentageBucket": 4.04,
-                          "percentageQuestion": 7.14,
-                          "entity": {
-                            "id": "advertising",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 47,
-                          "percentageBucket": 4.04,
-                          "percentageQuestion": 7.14,
-                          "entity": {
-                            "id": "cloud_computing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "manufacturing",
-                          "count": 40,
-                          "percentageBucket": 3.44,
-                          "percentageQuestion": 6.08,
-                          "entity": {
-                            "id": "manufacturing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "manufacturing"
-                          }
-                        },
-                        {
-                          "id": "gaming",
-                          "count": 37,
-                          "percentageBucket": 3.18,
-                          "percentageQuestion": 5.62,
-                          "entity": {
+                          {
                             "id": "gaming",
-                            "entityType": "default"
+                            "count": 37,
+                            "percentageBucket": 3.18,
+                            "percentageQuestion": 5.62,
+                            "entity": {
+                              "id": "gaming",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "gaming"
+                            }
                           },
-                          "token": {
-                            "id": "gaming"
-                          }
-                        },
-                        {
-                          "id": "crypto",
-                          "count": 33,
-                          "percentageBucket": 2.84,
-                          "percentageQuestion": 5.02,
-                          "entity": {
+                          {
                             "id": "crypto",
-                            "entityType": "default"
+                            "count": 33,
+                            "percentageBucket": 2.84,
+                            "percentageQuestion": 5.02,
+                            "entity": {
+                              "id": "crypto",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "crypto"
+                            }
                           },
-                          "token": {
-                            "id": "crypto"
-                          }
-                        },
-                        {
-                          "id": "human_resources",
-                          "count": 31,
-                          "percentageBucket": 2.66,
-                          "percentageQuestion": 4.71,
-                          "entity": {
+                          {
                             "id": "human_resources",
-                            "entityType": "default"
+                            "count": 31,
+                            "percentageBucket": 2.66,
+                            "percentageQuestion": 4.71,
+                            "entity": {
+                              "id": "human_resources",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "human_resources"
+                            }
                           },
-                          "token": {
-                            "id": "human_resources"
-                          }
-                        },
-                        {
-                          "id": "education",
-                          "count": 25,
-                          "percentageBucket": 2.15,
-                          "percentageQuestion": 3.8,
-                          "entity": {
+                          {
                             "id": "education",
-                            "entityType": "default"
+                            "count": 25,
+                            "percentageBucket": 2.15,
+                            "percentageQuestion": 3.8,
+                            "entity": {
+                              "id": "education",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "education"
+                            }
                           },
-                          "token": {
-                            "id": "education"
+                          {
+                            "id": "no_answer",
+                            "count": 238,
+                            "percentageBucket": 20.45,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
                           }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 238,
-                          "percentageBucket": 20.45,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 0,
-                          "percentageBucket": 0,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 517,
-                      "id": "jira",
-                      "percentageQuestion": 78.57,
-                      "percentageSurvey": 63.51,
-                      "entity": {
-                        "name": "Jira",
-                        "nameClean": "Jira",
+                        ]
+                      },
+                      {
+                        "count": 517,
                         "id": "jira",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.atlassian.com/software/jira"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 87,
-                          "percentageBucket": 16.83,
-                          "percentageQuestion": 13.22,
-                          "entity": {
+                        "index": 2,
+                        "percentageQuestion": 78.57,
+                        "percentageSurvey": 63.51,
+                        "entity": {
+                          "name": "Jira",
+                          "nameClean": "Jira",
+                          "id": "jira",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.atlassian.com/software/jira"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
                             "id": "saas",
-                            "entityType": "default"
+                            "count": 87,
+                            "percentageBucket": 16.83,
+                            "percentageQuestion": 13.22,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
                           },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 83,
-                          "percentageBucket": 16.05,
-                          "percentageQuestion": 12.61
-                        },
-                        {
-                          "id": "finance",
-                          "count": 78,
-                          "percentageBucket": 15.09,
-                          "percentageQuestion": 11.85,
-                          "entity": {
+                          {
+                            "id": "ecommerce",
+                            "count": 83,
+                            "percentageBucket": 16.05,
+                            "percentageQuestion": 12.61
+                          },
+                          {
                             "id": "finance",
-                            "entityType": "default"
+                            "count": 78,
+                            "percentageBucket": 15.09,
+                            "percentageQuestion": 11.85,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
                           },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "ai",
-                          "count": 48,
-                          "percentageBucket": 9.28,
-                          "percentageQuestion": 7.29,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
+                          {
                             "id": "ai",
-                            "entityType": "default"
+                            "count": 48,
+                            "percentageBucket": 9.28,
+                            "percentageQuestion": 7.29,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
                           },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 40,
-                          "percentageBucket": 7.74,
-                          "percentageQuestion": 6.08
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 29,
-                          "percentageBucket": 5.61,
-                          "percentageQuestion": 4.41,
-                          "entity": {
+                          {
+                            "id": "consulting",
+                            "count": 40,
+                            "percentageBucket": 7.74,
+                            "percentageQuestion": 6.08
+                          },
+                          {
                             "id": "advertising",
-                            "entityType": "default"
+                            "count": 29,
+                            "percentageBucket": 5.61,
+                            "percentageQuestion": 4.41,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
                           },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "human_resources",
-                          "count": 22,
-                          "percentageBucket": 4.26,
-                          "percentageQuestion": 3.34,
-                          "entity": {
+                          {
                             "id": "human_resources",
-                            "entityType": "default"
+                            "count": 22,
+                            "percentageBucket": 4.26,
+                            "percentageQuestion": 3.34,
+                            "entity": {
+                              "id": "human_resources",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "human_resources"
+                            }
                           },
-                          "token": {
-                            "id": "human_resources"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 19,
-                          "percentageBucket": 3.68,
-                          "percentageQuestion": 2.89,
-                          "entity": {
+                          {
                             "id": "cloud_computing",
-                            "entityType": "default"
+                            "count": 19,
+                            "percentageBucket": 3.68,
+                            "percentageQuestion": 2.89,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
                           },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "manufacturing",
-                          "count": 18,
-                          "percentageBucket": 3.48,
-                          "percentageQuestion": 2.74,
-                          "entity": {
+                          {
                             "id": "manufacturing",
-                            "entityType": "default"
+                            "count": 18,
+                            "percentageBucket": 3.48,
+                            "percentageQuestion": 2.74,
+                            "entity": {
+                              "id": "manufacturing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "manufacturing"
+                            }
                           },
-                          "token": {
-                            "id": "manufacturing"
-                          }
-                        },
-                        {
-                          "id": "gaming",
-                          "count": 15,
-                          "percentageBucket": 2.9,
-                          "percentageQuestion": 2.28,
-                          "entity": {
-                            "id": "gaming",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "gaming"
-                          }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 57,
-                          "percentageBucket": 11.03,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 21,
-                          "percentageBucket": 4,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 392,
-                      "id": "zoom",
-                      "percentageQuestion": 59.57,
-                      "percentageSurvey": 48.16,
-                      "entity": {
-                        "name": "Zoom",
-                        "nameClean": "Zoom",
-                        "id": "zoom",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://zoom.us/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 73,
-                          "percentageBucket": 18.62,
-                          "percentageQuestion": 11.09,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 56,
-                          "percentageBucket": 14.29,
-                          "percentageQuestion": 8.51
-                        },
-                        {
-                          "id": "finance",
-                          "count": 55,
-                          "percentageBucket": 14.03,
-                          "percentageQuestion": 8.36,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 40,
-                          "percentageBucket": 10.2,
-                          "percentageQuestion": 6.08
-                        },
-                        {
-                          "id": "ai",
-                          "count": 35,
-                          "percentageBucket": 8.93,
-                          "percentageQuestion": 5.32,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
-                            "id": "ai",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 24,
-                          "percentageBucket": 6.12,
-                          "percentageQuestion": 3.65,
-                          "entity": {
-                            "id": "advertising",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "human_resources",
-                          "count": 19,
-                          "percentageBucket": 4.85,
-                          "percentageQuestion": 2.89,
-                          "entity": {
-                            "id": "human_resources",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "human_resources"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 18,
-                          "percentageBucket": 4.59,
-                          "percentageQuestion": 2.74,
-                          "entity": {
-                            "id": "cloud_computing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "gaming",
-                          "count": 15,
-                          "percentageBucket": 3.83,
-                          "percentageQuestion": 2.28,
-                          "entity": {
-                            "id": "gaming",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "gaming"
-                          }
-                        },
-                        {
-                          "id": "education",
-                          "count": 11,
-                          "percentageBucket": 2.81,
-                          "percentageQuestion": 1.67,
-                          "entity": {
-                            "id": "education",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "education"
-                          }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 31,
-                          "percentageBucket": 7.91,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 4,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 365,
-                      "id": "google_workspace",
-                      "percentageQuestion": 55.47,
-                      "percentageSurvey": 44.84,
-                      "entity": {
-                        "name": "Google Workspace",
-                        "nameClean": "Google Workspace",
-                        "id": "google_workspace",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://workspace.google.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 86,
-                          "percentageBucket": 23.56,
-                          "percentageQuestion": 13.07,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ai",
-                          "count": 38,
-                          "percentageBucket": 10.41,
-                          "percentageQuestion": 5.78,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
-                            "id": "ai",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 37,
-                          "percentageBucket": 10.14,
-                          "percentageQuestion": 5.62
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 36,
-                          "percentageBucket": 9.86,
-                          "percentageQuestion": 5.47
-                        },
-                        {
-                          "id": "finance",
-                          "count": 23,
-                          "percentageBucket": 6.3,
-                          "percentageQuestion": 3.5,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "manufacturing",
-                          "count": 15,
-                          "percentageBucket": 4.11,
-                          "percentageQuestion": 2.28,
-                          "entity": {
-                            "id": "manufacturing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "manufacturing"
-                          }
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 14,
-                          "percentageBucket": 3.84,
-                          "percentageQuestion": 2.13,
-                          "entity": {
-                            "id": "advertising",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 14,
-                          "percentageBucket": 3.84,
-                          "percentageQuestion": 2.13,
-                          "entity": {
-                            "id": "cloud_computing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "human_resources",
-                          "count": 13,
-                          "percentageBucket": 3.56,
-                          "percentageQuestion": 1.98,
-                          "entity": {
-                            "id": "human_resources",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "human_resources"
-                          }
-                        },
-                        {
-                          "id": "crypto",
-                          "count": 11,
-                          "percentageBucket": 3.01,
-                          "percentageQuestion": 1.67,
-                          "entity": {
+                          {
                             "id": "crypto",
-                            "entityType": "default"
+                            "count": 15,
+                            "percentageBucket": 2.9,
+                            "percentageQuestion": 2.28,
+                            "entity": {
+                              "id": "crypto",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "crypto"
+                            }
                           },
-                          "token": {
-                            "id": "crypto"
+                          {
+                            "id": "no_answer",
+                            "count": 57,
+                            "percentageBucket": 11.03,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 21,
+                            "percentageBucket": 4,
+                            "percentageQuestion": 0
                           }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 60,
-                          "percentageBucket": 16.44,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 18,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 291,
-                      "id": "teams",
-                      "percentageQuestion": 44.22,
-                      "percentageSurvey": 35.75,
-                      "entity": {
-                        "name": "Microsoft Teams",
-                        "nameClean": "Microsoft Teams",
-                        "id": "teams",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://teams.microsoft.com/"
-                        }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "ecommerce",
-                          "count": 48,
-                          "percentageBucket": 16.49,
-                          "percentageQuestion": 7.29
-                        },
-                        {
-                          "id": "finance",
-                          "count": 38,
-                          "percentageBucket": 13.06,
-                          "percentageQuestion": 5.78,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
+                      {
+                        "count": 392,
+                        "id": "zoom",
+                        "index": 3,
+                        "percentageQuestion": 59.57,
+                        "percentageSurvey": 48.16,
+                        "entity": {
+                          "name": "Zoom",
+                          "nameClean": "Zoom",
+                          "id": "zoom",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://zoom.us/"
                           }
                         },
-                        {
-                          "id": "consulting",
-                          "count": 35,
-                          "percentageBucket": 12.03,
-                          "percentageQuestion": 5.32
-                        },
-                        {
-                          "id": "saas",
-                          "count": 31,
-                          "percentageBucket": 10.65,
-                          "percentageQuestion": 4.71,
-                          "entity": {
+                        "facetBuckets": [
+                          {
                             "id": "saas",
-                            "entityType": "default"
+                            "count": 73,
+                            "percentageBucket": 18.62,
+                            "percentageQuestion": 11.09,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
                           },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ai",
-                          "count": 27,
-                          "percentageBucket": 9.28,
-                          "percentageQuestion": 4.1,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
+                          {
+                            "id": "ecommerce",
+                            "count": 56,
+                            "percentageBucket": 14.29,
+                            "percentageQuestion": 8.51
+                          },
+                          {
+                            "id": "finance",
+                            "count": 55,
+                            "percentageBucket": 14.03,
+                            "percentageQuestion": 8.36,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "consulting",
+                            "count": 40,
+                            "percentageBucket": 10.2,
+                            "percentageQuestion": 6.08
+                          },
+                          {
                             "id": "ai",
-                            "entityType": "default"
+                            "count": 35,
+                            "percentageBucket": 8.93,
+                            "percentageQuestion": 5.32,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
                           },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 17,
-                          "percentageBucket": 5.84,
-                          "percentageQuestion": 2.58,
-                          "entity": {
+                          {
+                            "id": "advertising",
+                            "count": 24,
+                            "percentageBucket": 6.12,
+                            "percentageQuestion": 3.65,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
+                          },
+                          {
+                            "id": "human_resources",
+                            "count": 19,
+                            "percentageBucket": 4.85,
+                            "percentageQuestion": 2.89,
+                            "entity": {
+                              "id": "human_resources",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "human_resources"
+                            }
+                          },
+                          {
                             "id": "cloud_computing",
-                            "entityType": "default"
+                            "count": 18,
+                            "percentageBucket": 4.59,
+                            "percentageQuestion": 2.74,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
                           },
-                          "token": {
-                            "id": "cloud_computing"
-                          }
-                        },
-                        {
-                          "id": "manufacturing",
-                          "count": 17,
-                          "percentageBucket": 5.84,
-                          "percentageQuestion": 2.58,
-                          "entity": {
-                            "id": "manufacturing",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "manufacturing"
-                          }
-                        },
-                        {
-                          "id": "gaming",
-                          "count": 16,
-                          "percentageBucket": 5.5,
-                          "percentageQuestion": 2.43,
-                          "entity": {
+                          {
                             "id": "gaming",
-                            "entityType": "default"
+                            "count": 15,
+                            "percentageBucket": 3.83,
+                            "percentageQuestion": 2.28,
+                            "entity": {
+                              "id": "gaming",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "gaming"
+                            }
                           },
-                          "token": {
-                            "id": "gaming"
-                          }
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 14,
-                          "percentageBucket": 4.81,
-                          "percentageQuestion": 2.13,
-                          "entity": {
-                            "id": "advertising",
-                            "entityType": "default"
+                          {
+                            "id": "education",
+                            "count": 11,
+                            "percentageBucket": 2.81,
+                            "percentageQuestion": 1.67,
+                            "entity": {
+                              "id": "education",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "education"
+                            }
                           },
-                          "token": {
-                            "id": "advertising"
+                          {
+                            "id": "no_answer",
+                            "count": 31,
+                            "percentageBucket": 7.91,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 15,
+                            "percentageBucket": 4,
+                            "percentageQuestion": 0
                           }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 33,
-                          "percentageBucket": 11.34,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 254,
-                      "id": "notion",
-                      "percentageQuestion": 38.6,
-                      "percentageSurvey": 31.2,
-                      "entity": {
-                        "name": "Notion",
-                        "nameClean": "Notion",
-                        "id": "notion",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notion.so/"
-                        }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 75,
-                          "percentageBucket": 29.53,
-                          "percentageQuestion": 11.4,
-                          "entity": {
+                      {
+                        "count": 365,
+                        "id": "google_workspace",
+                        "index": 4,
+                        "percentageQuestion": 55.47,
+                        "percentageSurvey": 44.84,
+                        "entity": {
+                          "name": "Google Workspace",
+                          "nameClean": "Google Workspace",
+                          "id": "google_workspace",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://workspace.google.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
                             "id": "saas",
-                            "entityType": "default"
+                            "count": 86,
+                            "percentageBucket": 23.56,
+                            "percentageQuestion": 13.07,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
                           },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 33,
-                          "percentageBucket": 12.99,
-                          "percentageQuestion": 5.02
-                        },
-                        {
-                          "id": "ai",
-                          "count": 27,
-                          "percentageBucket": 10.63,
-                          "percentageQuestion": 4.1,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
+                          {
                             "id": "ai",
-                            "entityType": "default"
+                            "count": 38,
+                            "percentageBucket": 10.41,
+                            "percentageQuestion": 5.78,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
                           },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 21,
-                          "percentageBucket": 8.27,
-                          "percentageQuestion": 3.19
-                        },
-                        {
-                          "id": "advertising",
-                          "count": 14,
-                          "percentageBucket": 5.51,
-                          "percentageQuestion": 2.13,
-                          "entity": {
+                          {
+                            "id": "consulting",
+                            "count": 37,
+                            "percentageBucket": 10.14,
+                            "percentageQuestion": 5.62
+                          },
+                          {
+                            "id": "ecommerce",
+                            "count": 36,
+                            "percentageBucket": 9.86,
+                            "percentageQuestion": 5.47
+                          },
+                          {
+                            "id": "finance",
+                            "count": 23,
+                            "percentageBucket": 6.3,
+                            "percentageQuestion": 3.5,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "manufacturing",
+                            "count": 15,
+                            "percentageBucket": 4.11,
+                            "percentageQuestion": 2.28,
+                            "entity": {
+                              "id": "manufacturing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "manufacturing"
+                            }
+                          },
+                          {
                             "id": "advertising",
-                            "entityType": "default"
+                            "count": 14,
+                            "percentageBucket": 3.84,
+                            "percentageQuestion": 2.13,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
                           },
-                          "token": {
-                            "id": "advertising"
-                          }
-                        },
-                        {
-                          "id": "finance",
-                          "count": 13,
-                          "percentageBucket": 5.12,
-                          "percentageQuestion": 1.98,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 35,
-                          "percentageBucket": 13.78,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 36,
-                          "percentageBucket": 14,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 194,
-                      "id": "microsoft_excel",
-                      "percentageQuestion": 29.48,
-                      "percentageSurvey": 23.83,
-                      "entity": {
-                        "name": "Microsoft Excel",
-                        "nameClean": "Microsoft Excel",
-                        "id": "microsoft_excel",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "consulting",
-                          "count": 37,
-                          "percentageBucket": 19.07,
-                          "percentageQuestion": 5.62
-                        },
-                        {
-                          "id": "ai",
-                          "count": 23,
-                          "percentageBucket": 11.86,
-                          "percentageQuestion": 3.5,
-                          "entity": {
-                            "name": "AI",
-                            "nameClean": "AI",
-                            "id": "ai",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "ai"
-                          }
-                        },
-                        {
-                          "id": "saas",
-                          "count": 22,
-                          "percentageBucket": 11.34,
-                          "percentageQuestion": 3.34,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
-                          }
-                        },
-                        {
-                          "id": "ecommerce",
-                          "count": 20,
-                          "percentageBucket": 10.31,
-                          "percentageQuestion": 3.04
-                        },
-                        {
-                          "id": "finance",
-                          "count": 20,
-                          "percentageBucket": 10.31,
-                          "percentageQuestion": 3.04,
-                          "entity": {
-                            "id": "finance",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "finance"
-                          }
-                        },
-                        {
-                          "id": "cloud_computing",
-                          "count": 13,
-                          "percentageBucket": 6.7,
-                          "percentageQuestion": 1.98,
-                          "entity": {
+                          {
                             "id": "cloud_computing",
-                            "entityType": "default"
+                            "count": 14,
+                            "percentageBucket": 3.84,
+                            "percentageQuestion": 2.13,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
                           },
-                          "token": {
-                            "id": "cloud_computing"
+                          {
+                            "id": "human_resources",
+                            "count": 13,
+                            "percentageBucket": 3.56,
+                            "percentageQuestion": 1.98,
+                            "entity": {
+                              "id": "human_resources",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "human_resources"
+                            }
+                          },
+                          {
+                            "id": "gaming",
+                            "count": 11,
+                            "percentageBucket": 3.01,
+                            "percentageQuestion": 1.67,
+                            "entity": {
+                              "id": "gaming",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "gaming"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 60,
+                            "percentageBucket": 16.44,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 18,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 291,
+                        "id": "teams",
+                        "index": 5,
+                        "percentageQuestion": 44.22,
+                        "percentageSurvey": 35.75,
+                        "entity": {
+                          "name": "Microsoft Teams",
+                          "nameClean": "Microsoft Teams",
+                          "id": "teams",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://teams.microsoft.com/"
                           }
                         },
-                        {
-                          "id": "no_answer",
-                          "count": 21,
-                          "percentageBucket": 10.82,
-                          "percentageQuestion": 0
+                        "facetBuckets": [
+                          {
+                            "id": "ecommerce",
+                            "count": 48,
+                            "percentageBucket": 16.49,
+                            "percentageQuestion": 7.29
+                          },
+                          {
+                            "id": "finance",
+                            "count": 38,
+                            "percentageBucket": 13.06,
+                            "percentageQuestion": 5.78,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "consulting",
+                            "count": 35,
+                            "percentageBucket": 12.03,
+                            "percentageQuestion": 5.32
+                          },
+                          {
+                            "id": "saas",
+                            "count": 31,
+                            "percentageBucket": 10.65,
+                            "percentageQuestion": 4.71,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "ai",
+                            "count": 27,
+                            "percentageBucket": 9.28,
+                            "percentageQuestion": 4.1,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
+                          },
+                          {
+                            "id": "cloud_computing",
+                            "count": 17,
+                            "percentageBucket": 5.84,
+                            "percentageQuestion": 2.58,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
+                          },
+                          {
+                            "id": "manufacturing",
+                            "count": 17,
+                            "percentageBucket": 5.84,
+                            "percentageQuestion": 2.58,
+                            "entity": {
+                              "id": "manufacturing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "manufacturing"
+                            }
+                          },
+                          {
+                            "id": "gaming",
+                            "count": 16,
+                            "percentageBucket": 5.5,
+                            "percentageQuestion": 2.43,
+                            "entity": {
+                              "id": "gaming",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "gaming"
+                            }
+                          },
+                          {
+                            "id": "advertising",
+                            "count": 14,
+                            "percentageBucket": 4.81,
+                            "percentageQuestion": 2.13,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 33,
+                            "percentageBucket": 11.34,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 15,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 254,
+                        "id": "notion",
+                        "index": 6,
+                        "percentageQuestion": 38.6,
+                        "percentageSurvey": 31.2,
+                        "entity": {
+                          "name": "Notion",
+                          "nameClean": "Notion",
+                          "id": "notion",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.notion.so/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 38,
-                          "percentageBucket": 20,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 82,
-                      "id": "asana",
-                      "percentageQuestion": 12.46,
-                      "percentageSurvey": 10.07,
-                      "entity": {
-                        "name": "Asana",
-                        "nameClean": "Asana",
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 75,
+                            "percentageBucket": 29.53,
+                            "percentageQuestion": 11.4,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "consulting",
+                            "count": 33,
+                            "percentageBucket": 12.99,
+                            "percentageQuestion": 5.02
+                          },
+                          {
+                            "id": "ai",
+                            "count": 27,
+                            "percentageBucket": 10.63,
+                            "percentageQuestion": 4.1,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
+                          },
+                          {
+                            "id": "ecommerce",
+                            "count": 21,
+                            "percentageBucket": 8.27,
+                            "percentageQuestion": 3.19
+                          },
+                          {
+                            "id": "advertising",
+                            "count": 14,
+                            "percentageBucket": 5.51,
+                            "percentageQuestion": 2.13,
+                            "entity": {
+                              "id": "advertising",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "advertising"
+                            }
+                          },
+                          {
+                            "id": "finance",
+                            "count": 13,
+                            "percentageBucket": 5.12,
+                            "percentageQuestion": 1.98,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 35,
+                            "percentageBucket": 13.78,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 36,
+                            "percentageBucket": 14,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 194,
+                        "id": "microsoft_excel",
+                        "index": 7,
+                        "percentageQuestion": 29.48,
+                        "percentageSurvey": 23.83,
+                        "entity": {
+                          "name": "Microsoft Excel",
+                          "nameClean": "Microsoft Excel",
+                          "id": "microsoft_excel",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.microsoft.com/en-us/microsoft-365/excel"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "consulting",
+                            "count": 37,
+                            "percentageBucket": 19.07,
+                            "percentageQuestion": 5.62
+                          },
+                          {
+                            "id": "ai",
+                            "count": 23,
+                            "percentageBucket": 11.86,
+                            "percentageQuestion": 3.5,
+                            "entity": {
+                              "name": "AI",
+                              "nameClean": "AI",
+                              "id": "ai",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "ai"
+                            }
+                          },
+                          {
+                            "id": "saas",
+                            "count": 22,
+                            "percentageBucket": 11.34,
+                            "percentageQuestion": 3.34,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "ecommerce",
+                            "count": 20,
+                            "percentageBucket": 10.31,
+                            "percentageQuestion": 3.04
+                          },
+                          {
+                            "id": "finance",
+                            "count": 20,
+                            "percentageBucket": 10.31,
+                            "percentageQuestion": 3.04,
+                            "entity": {
+                              "id": "finance",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "finance"
+                            }
+                          },
+                          {
+                            "id": "cloud_computing",
+                            "count": 13,
+                            "percentageBucket": 6.7,
+                            "percentageQuestion": 1.98,
+                            "entity": {
+                              "id": "cloud_computing",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "cloud_computing"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 21,
+                            "percentageBucket": 10.82,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 38,
+                            "percentageBucket": 20,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 82,
                         "id": "asana",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://asana.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 25,
-                          "percentageBucket": 30.49,
-                          "percentageQuestion": 3.8,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
+                        "index": 8,
+                        "percentageQuestion": 12.46,
+                        "percentageSurvey": 10.07,
+                        "entity": {
+                          "name": "Asana",
+                          "nameClean": "Asana",
+                          "id": "asana",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://asana.com/"
                           }
                         },
-                        {
-                          "id": "no_answer",
-                          "count": 13,
-                          "percentageBucket": 15.85,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 44,
-                          "percentageBucket": 54,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 68,
-                      "id": "discord",
-                      "percentageQuestion": 10.33,
-                      "percentageSurvey": 8.35,
-                      "entity": {
-                        "name": "Discord",
-                        "nameClean": "Discord",
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 25,
+                            "percentageBucket": 30.49,
+                            "percentageQuestion": 3.8,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 13,
+                            "percentageBucket": 15.85,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 44,
+                            "percentageBucket": 54,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 68,
                         "id": "discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 12,
-                          "percentageBucket": 17.65,
-                          "percentageQuestion": 1.82,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
+                        "index": 9,
+                        "percentageQuestion": 10.33,
+                        "percentageSurvey": 8.35,
+                        "entity": {
+                          "name": "Discord",
+                          "nameClean": "Discord",
+                          "id": "discord",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://discord.com/"
                           }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 56,
-                          "percentageBucket": 82,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 63,
-                      "id": "trello",
-                      "percentageQuestion": 9.57,
-                      "percentageSurvey": 7.74,
-                      "entity": {
-                        "name": "Trello",
-                        "nameClean": "Trello",
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 12,
+                            "percentageBucket": 17.65,
+                            "percentageQuestion": 1.82,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 56,
+                            "percentageBucket": 82,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 63,
                         "id": "trello",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trello.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 15,
-                          "percentageBucket": 23.81,
-                          "percentageQuestion": 2.28,
-                          "entity": {
-                            "id": "saas",
-                            "entityType": "default"
-                          },
-                          "token": {
-                            "id": "saas"
+                        "index": 10,
+                        "percentageQuestion": 9.57,
+                        "percentageSurvey": 7.74,
+                        "entity": {
+                          "name": "Trello",
+                          "nameClean": "Trello",
+                          "id": "trello",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://trello.com/"
                           }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 48,
-                          "percentageBucket": 76,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 52,
-                      "id": "one_note",
-                      "percentageQuestion": 7.9,
-                      "percentageSurvey": 6.39,
-                      "entity": {
-                        "name": "Microsoft OneNote",
-                        "nameClean": "Microsoft OneNote",
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 15,
+                            "percentageBucket": 23.81,
+                            "percentageQuestion": 2.28,
+                            "entity": {
+                              "id": "saas",
+                              "entityType": "default"
+                            },
+                            "token": {
+                              "id": "saas"
+                            }
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 48,
+                            "percentageBucket": 76,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 52,
                         "id": "one_note",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.onenote.com/"
-                        }
+                        "index": 11,
+                        "percentageQuestion": 7.9,
+                        "percentageSurvey": 6.39,
+                        "entity": {
+                          "name": "Microsoft OneNote",
+                          "nameClean": "Microsoft OneNote",
+                          "id": "one_note",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.onenote.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 52,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 52,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 23,
-                      "id": "chatwork",
-                      "percentageQuestion": 3.5,
-                      "percentageSurvey": 2.83,
-                      "entity": {
-                        "name": "Chatwork",
-                        "nameClean": "Chatwork",
+                      {
+                        "count": 23,
                         "id": "chatwork",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://go.chatwork.com/"
-                        }
+                        "index": 12,
+                        "percentageQuestion": 3.5,
+                        "percentageSurvey": 2.83,
+                        "entity": {
+                          "name": "Chatwork",
+                          "nameClean": "Chatwork",
+                          "id": "chatwork",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://go.chatwork.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 23,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 23,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 18,
-                      "id": "linear",
-                      "percentageQuestion": 2.74,
-                      "percentageSurvey": 2.21,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "Linear",
-                        "nameClean": "Linear",
+                      {
+                        "count": 18,
                         "id": "linear",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://linear.app/"
-                        }
+                        "index": 13,
+                        "percentageQuestion": 2.74,
+                        "percentageSurvey": 2.21,
+                        "isFreeformData": true,
+                        "entity": {
+                          "name": "Linear",
+                          "nameClean": "Linear",
+                          "id": "linear",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://linear.app/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 18,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 18,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 15,
-                      "id": "cybozu_office",
-                      "percentageQuestion": 2.28,
-                      "percentageSurvey": 1.84,
-                      "entity": {
-                        "name": "Cybozu Office",
-                        "nameClean": "Cybozu Office",
+                      {
+                        "count": 15,
                         "id": "cybozu_office",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://office.cybozu.co.jp/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 172,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 21.13,
-                      "facetBuckets": [
-                        {
-                          "id": "no_answer",
-                          "count": 114,
-                          "percentageBucket": 66.28,
-                          "percentageQuestion": 0
+                        "index": 14,
+                        "percentageQuestion": 2.28,
+                        "percentageSurvey": 1.84,
+                        "entity": {
+                          "name": "Cybozu Office",
+                          "nameClean": "Cybozu Office",
+                          "id": "cybozu_office",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://office.cybozu.co.jp/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 58,
-                          "percentageBucket": 34,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 82,
-                      "id": "other_answers",
-                      "percentageQuestion": 12.47,
-                      "percentageSurvey": 10.08,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 15,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "saas",
-                          "count": 15,
-                          "percentageBucket": 18.29
-                        },
-                        {
-                          "id": "consulting",
-                          "count": 10,
-                          "percentageBucket": 12.2
-                        }
-                      ]
-                    }
-                  ]
-                }
+                      {
+                        "count": 172,
+                        "id": "no_answer",
+                        "index": 15,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 21.13,
+                        "facetBuckets": [
+                          {
+                            "id": "no_answer",
+                            "count": 114,
+                            "percentageBucket": 66.28,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 58,
+                            "percentageBucket": 34,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 82,
+                        "id": "other_answers",
+                        "index": 16,
+                        "percentageQuestion": 12.47,
+                        "percentageSurvey": 10.08,
+                        "facetBuckets": [
+                          {
+                            "id": "saas",
+                            "count": 15,
+                            "percentageBucket": 18.29
+                          },
+                          {
+                            "id": "consulting",
+                            "count": 10,
+                            "percentageBucket": 12.2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

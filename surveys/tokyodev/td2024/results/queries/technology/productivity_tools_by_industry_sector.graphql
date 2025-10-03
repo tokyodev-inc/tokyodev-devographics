@@ -11,13 +11,13 @@ query {
               }
             }
             combined(
-              facet: employer_info__industry_sector
+              facet: job_info__industry_sector
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

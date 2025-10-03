@@ -12,7 +12,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   eq: no_remote_work
                 }
               }
@@ -21,7 +21,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -67,7 +67,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   eq: hybrid
                 }
               }
@@ -76,7 +76,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -122,7 +122,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   eq: up_to_employee
                 }
               }
@@ -131,7 +131,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -177,7 +177,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   eq: fully_remote
                 }
               }
@@ -186,7 +186,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

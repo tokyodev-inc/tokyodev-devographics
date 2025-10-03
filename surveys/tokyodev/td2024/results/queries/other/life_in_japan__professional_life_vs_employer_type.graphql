@@ -6,7 +6,7 @@ query {
           life_in_japan__professional_life_vs_employer_type: life_in_japan__professional_life {
             id
             combined(
-              facet: employer_info__current_employer
+              facet: job_info__current_employer
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
@@ -15,7 +15,7 @@ query {
                 }
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

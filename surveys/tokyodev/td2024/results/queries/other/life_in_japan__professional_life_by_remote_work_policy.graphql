@@ -7,7 +7,7 @@ query {
             id
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   in: [
                     no_remote_work
                     hybrid
@@ -19,7 +19,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -60,7 +60,7 @@ query {
             id
             combined(
               filters: {
-                employer_info__remote_work_policy: {
+                job_info__remote_work_policy: {
                   in: [
                     up_to_employee
                     fully_remote
@@ -72,7 +72,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

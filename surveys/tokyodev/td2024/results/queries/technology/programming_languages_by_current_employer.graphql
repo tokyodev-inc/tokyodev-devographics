@@ -12,7 +12,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__current_employer: {
+                job_info__current_employer: {
                   eq: japanese_company
                 }
               }
@@ -21,7 +21,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -151,7 +151,7 @@ query {
             }
             combined(
               filters: {
-                employer_info__current_employer: {
+                job_info__current_employer: {
                   eq: japanese_subsidiary
                 }
               }
@@ -160,7 +160,7 @@ query {
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

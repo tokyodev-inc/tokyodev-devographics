@@ -7,457 +7,465 @@
             "communities_vs_employer_type": {
               "id": "communities",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "axis2Sort": {
-                      "property": "options",
-                      "order": "desc"
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 277,
+                      "percentageSurvey": 34.03,
+                      "total": 814
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 277,
-                    "percentageSurvey": 34.03,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 706,
-                      "id": "overall",
-                      "percentageQuestion": 254.87,
-                      "percentageSurvey": 86.73,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 501,
-                          "percentageBucket": 61.55,
-                          "percentageQuestion": 180.87
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 131,
-                          "percentageBucket": 16.09,
-                          "percentageQuestion": 47.29
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 42,
-                          "percentageBucket": 5.16,
-                          "percentageQuestion": 15.16
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 108,
-                          "percentageBucket": 13.27,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 32,
-                          "percentageBucket": 4,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 120,
-                      "id": "tokyodev_discord",
-                      "percentageQuestion": 43.32,
-                      "percentageSurvey": 14.74,
-                      "entity": {
-                        "name": "TokyoDev Discord",
-                        "nameClean": "TokyoDev Discord",
+                    "buckets": [
+                      {
+                        "count": 706,
+                        "id": "overall",
+                        "index": 0,
+                        "percentageQuestion": 254.87,
+                        "percentageSurvey": 86.73,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 501,
+                            "percentageBucket": 61.55,
+                            "percentageQuestion": 180.87
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 131,
+                            "percentageBucket": 16.09,
+                            "percentageQuestion": 47.29
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 42,
+                            "percentageBucket": 5.16,
+                            "percentageQuestion": 15.16
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 108,
+                            "percentageBucket": 13.27,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 32,
+                            "percentageBucket": 4,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 120,
                         "id": "tokyodev_discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.gg/seUNe38YgV"
-                        }
+                        "index": 1,
+                        "percentageQuestion": 43.32,
+                        "percentageSurvey": 14.74,
+                        "entity": {
+                          "name": "TokyoDev (Discord)",
+                          "nameClean": "TokyoDev (Discord)",
+                          "id": "tokyodev_discord",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://discord.gg/seUNe38YgV"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 85,
+                            "percentageBucket": 70.83,
+                            "percentageQuestion": 30.69
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 17,
+                            "percentageBucket": 14.17,
+                            "percentageQuestion": 6.14
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 18,
+                            "percentageBucket": 15,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 85,
-                          "percentageBucket": 70.83,
-                          "percentageQuestion": 30.69
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 17,
-                          "percentageBucket": 14.17,
-                          "percentageQuestion": 6.14
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 18,
-                          "percentageBucket": 15,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 93,
-                      "id": "hn_tokyo",
-                      "percentageQuestion": 33.57,
-                      "percentageSurvey": 11.43,
-                      "entity": {
-                        "name": "HN Tokyo",
-                        "nameClean": "HN Tokyo",
+                      {
+                        "count": 93,
                         "id": "hn_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://hntokyo.doorkeeper.jp/"
-                        }
+                        "index": 2,
+                        "percentageQuestion": 33.57,
+                        "percentageSurvey": 11.43,
+                        "entity": {
+                          "name": "HN Tokyo",
+                          "nameClean": "HN Tokyo",
+                          "id": "hn_tokyo",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://hntokyo.doorkeeper.jp/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 59,
+                            "percentageBucket": 63.44,
+                            "percentageQuestion": 21.3
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 18,
+                            "percentageBucket": 19.35,
+                            "percentageQuestion": 6.5
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 16,
+                            "percentageBucket": 17,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 59,
-                          "percentageBucket": 63.44,
-                          "percentageQuestion": 21.3
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 18,
-                          "percentageBucket": 19.35,
-                          "percentageQuestion": 6.5
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 16,
-                          "percentageBucket": 17,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 47,
-                      "id": "dev_japan",
-                      "percentageQuestion": 16.97,
-                      "percentageSurvey": 5.77,
-                      "entity": {
-                        "name": "Dev Japan",
-                        "nameClean": "Dev Japan",
+                      {
+                        "count": 47,
                         "id": "dev_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/ja-JP/devjapan/"
-                        }
+                        "index": 3,
+                        "percentageQuestion": 16.97,
+                        "percentageSurvey": 5.77,
+                        "entity": {
+                          "name": "Dev Japan",
+                          "nameClean": "Dev Japan",
+                          "id": "dev_japan",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.meetup.com/ja-JP/devjapan/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 26,
+                            "percentageBucket": 55.32,
+                            "percentageQuestion": 9.39
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 12,
+                            "percentageBucket": 25.53,
+                            "percentageQuestion": 4.33
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 19,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 26,
-                          "percentageBucket": 55.32,
-                          "percentageQuestion": 9.39
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 12,
-                          "percentageBucket": 25.53,
-                          "percentageQuestion": 4.33
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 19,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 36,
-                      "id": "code_chrysalis",
-                      "percentageQuestion": 13,
-                      "percentageSurvey": 4.42,
-                      "entity": {
-                        "name": "Code Chrysalis",
-                        "nameClean": "Code Chrysalis",
+                      {
+                        "count": 36,
                         "id": "code_chrysalis",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.codechrysalis.io/"
-                        }
+                        "index": 4,
+                        "percentageQuestion": 13,
+                        "percentageSurvey": 4.42,
+                        "entity": {
+                          "name": "Code Chrysalis",
+                          "nameClean": "Code Chrysalis",
+                          "id": "code_chrysalis",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.codechrysalis.io/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 22,
+                            "percentageBucket": 61.11,
+                            "percentageQuestion": 7.94
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 10,
+                            "percentageBucket": 27.78,
+                            "percentageQuestion": 3.61
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 4,
+                            "percentageBucket": 11,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 22,
-                          "percentageBucket": 61.11,
-                          "percentageQuestion": 7.94
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 10,
-                          "percentageBucket": 27.78,
-                          "percentageQuestion": 3.61
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 11,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 35,
-                      "id": "le_wagon",
-                      "percentageQuestion": 12.64,
-                      "percentageSurvey": 4.3,
-                      "entity": {
-                        "name": "Le Wagon",
-                        "nameClean": "Le Wagon",
+                      {
+                        "count": 35,
                         "id": "le_wagon",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.lewagon.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 24,
-                          "percentageBucket": 68.57,
-                          "percentageQuestion": 8.66
+                        "index": 5,
+                        "percentageQuestion": 12.64,
+                        "percentageSurvey": 4.3,
+                        "entity": {
+                          "name": "Le Wagon",
+                          "nameClean": "Le Wagon",
+                          "id": "le_wagon",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.lewagon.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 11,
-                          "percentageBucket": 31,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 34,
-                      "id": "wise_japan",
-                      "percentageQuestion": 12.27,
-                      "percentageSurvey": 4.18,
-                      "entity": {
-                        "name": "Women in Software Engineering Japan",
-                        "nameClean": "Women in Software Engineering Japan",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 24,
+                            "percentageBucket": 68.57,
+                            "percentageQuestion": 8.66
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 11,
+                            "percentageBucket": 31,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 34,
                         "id": "wise_japan",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://womeninsoftware.jp/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 21,
-                          "percentageBucket": 61.76,
-                          "percentageQuestion": 7.58
+                        "index": 6,
+                        "percentageQuestion": 12.27,
+                        "percentageSurvey": 4.18,
+                        "entity": {
+                          "name": "Women in Software Engineering Japan",
+                          "nameClean": "Women in Software Engineering Japan",
+                          "id": "wise_japan",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://womeninsoftware.jp/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 13,
-                          "percentageBucket": 38,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 27,
-                      "id": "creative_tokyo",
-                      "percentageQuestion": 9.75,
-                      "percentageSurvey": 3.32,
-                      "entity": {
-                        "name": "Creative Tokyo",
-                        "nameClean": "Creative Tokyo",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 21,
+                            "percentageBucket": 61.76,
+                            "percentageQuestion": 7.58
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 13,
+                            "percentageBucket": 38,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 27,
                         "id": "creative_tokyo",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://creativetokyo.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 17,
-                          "percentageBucket": 62.96,
-                          "percentageQuestion": 6.14
+                        "index": 7,
+                        "percentageQuestion": 9.75,
+                        "percentageSurvey": 3.32,
+                        "entity": {
+                          "name": "Creative Tokyo",
+                          "nameClean": "Creative Tokyo",
+                          "id": "creative_tokyo",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://creativetokyo.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 10,
-                          "percentageBucket": 37,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 23,
-                      "id": "tokyo_tech_leads_circle",
-                      "percentageQuestion": 8.3,
-                      "percentageSurvey": 2.83,
-                      "entity": {
-                        "name": "Tokyo Tech Leads Circle",
-                        "nameClean": "Tokyo Tech Leads Circle",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 17,
+                            "percentageBucket": 62.96,
+                            "percentageQuestion": 6.14
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 10,
+                            "percentageBucket": 37,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 23,
                         "id": "tokyo_tech_leads_circle",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://tokyo-tech-leads-circle.doorkeeper.jp/"
-                        }
+                        "index": 8,
+                        "percentageQuestion": 8.3,
+                        "percentageSurvey": 2.83,
+                        "entity": {
+                          "name": "Tokyo Tech Leads Circle",
+                          "nameClean": "Tokyo Tech Leads Circle",
+                          "id": "tokyo_tech_leads_circle",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://tokyo-tech-leads-circle.doorkeeper.jp/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 23,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 23,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 15,
-                      "id": "tokyo_rubyist_meetup",
-                      "percentageQuestion": 5.42,
-                      "percentageSurvey": 1.84,
-                      "entity": {
-                        "name": "Tokyo Rubyist Meetup",
-                        "nameClean": "Tokyo Rubyist Meetup",
+                      {
+                        "count": 15,
                         "id": "tokyo_rubyist_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://trbmeetup.doorkeeper.jp/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 11,
-                          "percentageBucket": 73.33,
-                          "percentageQuestion": 3.97
+                        "index": 9,
+                        "percentageQuestion": 5.42,
+                        "percentageSurvey": 1.84,
+                        "entity": {
+                          "name": "Tokyo Rubyist Meetup",
+                          "nameClean": "Tokyo Rubyist Meetup",
+                          "id": "tokyo_rubyist_meetup",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://trbmeetup.doorkeeper.jp/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 27,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 12,
-                      "id": "owddm",
-                      "percentageQuestion": 4.33,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Osaka Web Developers & Designers Meetup",
-                        "nameHtml": "Osaka Web Developers &amp; Designers Meetup",
-                        "nameClean": "Osaka Web Developers  Designers Meetup",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 11,
+                            "percentageBucket": 73.33,
+                            "percentageQuestion": 3.97
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 4,
+                            "percentageBucket": 27,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 12,
                         "id": "owddm",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://owddm.com/"
-                        }
+                        "index": 10,
+                        "percentageQuestion": 4.33,
+                        "percentageSurvey": 1.47,
+                        "entity": {
+                          "name": "Osaka Web Developers & Designers Meetup",
+                          "nameHtml": "Osaka Web Developers &amp; Designers Meetup",
+                          "nameClean": "Osaka Web Developers & Designers Meetup",
+                          "id": "owddm",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://owddm.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 12,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 12,
-                      "id": "tokyo_ios_meetup",
-                      "percentageQuestion": 4.33,
-                      "percentageSurvey": 1.47,
-                      "entity": {
-                        "name": "Tokyo iOS Meetup",
-                        "nameClean": "Tokyo iOS Meetup",
+                      {
+                        "count": 12,
                         "id": "tokyo_ios_meetup",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.meetup.com/tokyoiosmeetup/"
-                        }
+                        "index": 11,
+                        "percentageQuestion": 4.33,
+                        "percentageSurvey": 1.47,
+                        "entity": {
+                          "name": "Tokyo iOS Meetup",
+                          "nameClean": "Tokyo iOS Meetup",
+                          "id": "tokyo_ios_meetup",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.meetup.com/tokyoiosmeetup/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 12,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 525,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 64.5,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 311,
-                          "percentageBucket": 59.24,
-                          "percentageQuestion": 112.27
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 79,
-                          "percentageBucket": 15.05,
-                          "percentageQuestion": 28.52
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 22,
-                          "percentageBucket": 4.19,
-                          "percentageQuestion": 7.94
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 99,
-                          "percentageBucket": 18.86,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 14,
-                          "percentageBucket": 3,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 69,
-                      "id": "other_answers",
-                      "percentageQuestion": 24.91,
-                      "percentageSurvey": 8.47,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
+                      {
+                        "count": 525,
+                        "id": "no_answer",
+                        "index": 12,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 64.5,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 311,
+                            "percentageBucket": 59.24,
+                            "percentageQuestion": 112.27
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 79,
+                            "percentageBucket": 15.05,
+                            "percentageQuestion": 28.52
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 22,
+                            "percentageBucket": 4.19,
+                            "percentageQuestion": 7.94
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 99,
+                            "percentageBucket": 18.86,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 14,
+                            "percentageBucket": 3,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 44,
-                          "percentageBucket": 63.77
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 11,
-                          "percentageBucket": 15.94
-                        }
-                      ]
-                    }
-                  ]
-                }
+                      {
+                        "count": 69,
+                        "id": "other_answers",
+                        "index": 13,
+                        "percentageQuestion": 24.91,
+                        "percentageSurvey": 8.47,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 44,
+                            "percentageBucket": 63.77
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 11,
+                            "percentageBucket": 15.94
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

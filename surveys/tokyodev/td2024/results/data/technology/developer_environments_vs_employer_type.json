@@ -7,551 +7,561 @@
             "developer_environments_vs_employer_type": {
               "id": "developer_environments",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "count",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "axis2Sort": {
-                      "property": "options",
-                      "order": "desc"
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 653,
+                      "percentageSurvey": 80.22,
+                      "total": 814
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 653,
-                    "percentageSurvey": 80.22,
-                    "total": 814
-                  },
-                  "buckets": [
-                    {
-                      "count": 706,
-                      "id": "overall",
-                      "percentageQuestion": 108.12,
-                      "percentageSurvey": 86.73,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 501,
-                          "percentageBucket": 61.55,
-                          "percentageQuestion": 76.72
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 131,
-                          "percentageBucket": 16.09,
-                          "percentageQuestion": 20.06
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 42,
-                          "percentageBucket": 5.16,
-                          "percentageQuestion": 6.43
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 108,
-                          "percentageBucket": 13.27,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 32,
-                          "percentageBucket": 4,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 506,
-                      "id": "visual_studio_code",
-                      "percentageQuestion": 77.49,
-                      "percentageSurvey": 62.16,
-                      "entity": {
-                        "name": "Visual Studio Code",
-                        "nameClean": "Visual Studio Code",
+                    "buckets": [
+                      {
+                        "count": 706,
+                        "id": "overall",
+                        "index": 0,
+                        "percentageQuestion": 108.12,
+                        "percentageSurvey": 86.73,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 501,
+                            "percentageBucket": 61.55,
+                            "percentageQuestion": 76.72
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 131,
+                            "percentageBucket": 16.09,
+                            "percentageQuestion": 20.06
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 42,
+                            "percentageBucket": 5.16,
+                            "percentageQuestion": 6.43
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 108,
+                            "percentageBucket": 13.27,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 32,
+                            "percentageBucket": 4,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 506,
                         "id": "visual_studio_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://code.visualstudio.com/"
-                        }
+                        "index": 1,
+                        "percentageQuestion": 77.49,
+                        "percentageSurvey": 62.16,
+                        "entity": {
+                          "name": "Visual Studio Code",
+                          "nameClean": "Visual Studio Code",
+                          "id": "visual_studio_code",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://code.visualstudio.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 362,
+                            "percentageBucket": 71.54,
+                            "percentageQuestion": 55.44
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 86,
+                            "percentageBucket": 17,
+                            "percentageQuestion": 13.17
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 25,
+                            "percentageBucket": 4.94,
+                            "percentageQuestion": 3.83
+                          },
+                          {
+                            "id": "sole_proprietorship",
+                            "count": 19,
+                            "percentageBucket": 3.75,
+                            "percentageQuestion": 2.91
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 14,
+                            "percentageBucket": 3,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 362,
-                          "percentageBucket": 71.54,
-                          "percentageQuestion": 55.44
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 86,
-                          "percentageBucket": 17,
-                          "percentageQuestion": 13.17
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 25,
-                          "percentageBucket": 4.94,
-                          "percentageQuestion": 3.83
-                        },
-                        {
-                          "id": "sole_proprietorship",
-                          "count": 19,
-                          "percentageBucket": 3.75,
-                          "percentageQuestion": 2.91
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 14,
-                          "percentageBucket": 3,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 137,
-                      "id": "intellij",
-                      "percentageQuestion": 20.98,
-                      "percentageSurvey": 16.83,
-                      "entity": {
-                        "name": "IntelliJ IDEA",
-                        "nameClean": "IntelliJ IDEA",
+                      {
+                        "count": 137,
                         "id": "intellij",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/idea/"
-                        }
+                        "index": 2,
+                        "percentageQuestion": 20.98,
+                        "percentageSurvey": 16.83,
+                        "entity": {
+                          "name": "IntelliJ IDEA",
+                          "nameClean": "IntelliJ IDEA",
+                          "id": "intellij",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/idea/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 94,
+                            "percentageBucket": 68.61,
+                            "percentageQuestion": 14.4
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 29,
+                            "percentageBucket": 21.17,
+                            "percentageQuestion": 4.44
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 14,
+                            "percentageBucket": 10,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 94,
-                          "percentageBucket": 68.61,
-                          "percentageQuestion": 14.4
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 29,
-                          "percentageBucket": 21.17,
-                          "percentageQuestion": 4.44
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 14,
-                          "percentageBucket": 10,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 103,
-                      "id": "vim",
-                      "percentageQuestion": 15.77,
-                      "percentageSurvey": 12.65,
-                      "entity": {
-                        "name": "Vim",
-                        "nameClean": "Vim",
+                      {
+                        "count": 103,
                         "id": "vim",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.vim.org/"
-                        }
+                        "index": 3,
+                        "percentageQuestion": 15.77,
+                        "percentageSurvey": 12.65,
+                        "entity": {
+                          "name": "Vim",
+                          "nameClean": "Vim",
+                          "id": "vim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.vim.org/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 62,
+                            "percentageBucket": 60.19,
+                            "percentageQuestion": 9.49
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 28,
+                            "percentageBucket": 27.18,
+                            "percentageQuestion": 4.29
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 13,
+                            "percentageBucket": 13,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 62,
-                          "percentageBucket": 60.19,
-                          "percentageQuestion": 9.49
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 28,
-                          "percentageBucket": 27.18,
-                          "percentageQuestion": 4.29
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 13,
-                          "percentageBucket": 13,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 66,
-                      "id": "visual_studio_not_code",
-                      "percentageQuestion": 10.11,
-                      "percentageSurvey": 8.11,
-                      "entity": {
-                        "name": "Visual Studio",
-                        "nameClean": "Visual Studio",
+                      {
+                        "count": 66,
                         "id": "visual_studio_not_code",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://visualstudio.microsoft.com/"
-                        }
+                        "index": 4,
+                        "percentageQuestion": 10.11,
+                        "percentageSurvey": 8.11,
+                        "entity": {
+                          "name": "Visual Studio",
+                          "nameClean": "Visual Studio",
+                          "id": "visual_studio_not_code",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://visualstudio.microsoft.com/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 43,
+                            "percentageBucket": 65.15,
+                            "percentageQuestion": 6.58
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 11,
+                            "percentageBucket": 16.67,
+                            "percentageQuestion": 1.68
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 12,
+                            "percentageBucket": 18,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 43,
-                          "percentageBucket": 65.15,
-                          "percentageQuestion": 6.58
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 11,
-                          "percentageBucket": 16.67,
-                          "percentageQuestion": 1.68
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 18,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 56,
-                      "id": "xcode",
-                      "percentageQuestion": 8.58,
-                      "percentageSurvey": 6.88,
-                      "entity": {
-                        "name": "Xcode",
-                        "nameClean": "Xcode",
+                      {
+                        "count": 56,
                         "id": "xcode",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://developer.apple.com/xcode/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 41,
-                          "percentageBucket": 73.21,
-                          "percentageQuestion": 6.28
+                        "index": 5,
+                        "percentageQuestion": 8.58,
+                        "percentageSurvey": 6.88,
+                        "entity": {
+                          "name": "Xcode",
+                          "nameClean": "Xcode",
+                          "id": "xcode",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.apple.com/xcode/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 15,
-                          "percentageBucket": 27,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 48,
-                      "id": "ipython_jupyter",
-                      "percentageQuestion": 7.35,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "IPython/Jupyter",
-                        "nameClean": "IPython/Jupyter",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 41,
+                            "percentageBucket": 73.21,
+                            "percentageQuestion": 6.28
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 15,
+                            "percentageBucket": 27,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 48,
                         "id": "ipython_jupyter",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://ipython.org/notebook.html"
-                        }
+                        "index": 6,
+                        "percentageQuestion": 7.35,
+                        "percentageSurvey": 5.9,
+                        "entity": {
+                          "name": "IPython/Jupyter",
+                          "nameClean": "IPython/Jupyter",
+                          "id": "ipython_jupyter",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://ipython.org/notebook.html"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 34,
+                            "percentageBucket": 70.83,
+                            "percentageQuestion": 5.21
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 10,
+                            "percentageBucket": 20.83,
+                            "percentageQuestion": 1.53
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 4,
+                            "percentageBucket": 8,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 34,
-                          "percentageBucket": 70.83,
-                          "percentageQuestion": 5.21
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 10,
-                          "percentageBucket": 20.83,
-                          "percentageQuestion": 1.53
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 4,
-                          "percentageBucket": 8,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 48,
-                      "id": "neovim",
-                      "percentageQuestion": 7.35,
-                      "percentageSurvey": 5.9,
-                      "entity": {
-                        "name": "Neovim",
-                        "nameClean": "Neovim",
+                      {
+                        "count": 48,
                         "id": "neovim",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://neovim.io/"
-                        }
+                        "index": 7,
+                        "percentageQuestion": 7.35,
+                        "percentageSurvey": 5.9,
+                        "entity": {
+                          "name": "Neovim",
+                          "nameClean": "Neovim",
+                          "id": "neovim",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://neovim.io/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 30,
+                            "percentageBucket": 62.5,
+                            "percentageQuestion": 4.59
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 12,
+                            "percentageBucket": 25,
+                            "percentageQuestion": 1.84
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 6,
+                            "percentageBucket": 12,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 30,
-                          "percentageBucket": 62.5,
-                          "percentageQuestion": 4.59
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 12,
-                          "percentageBucket": 25,
-                          "percentageQuestion": 1.84
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 6,
-                          "percentageBucket": 12,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 47,
-                      "id": "sublime_text",
-                      "percentageQuestion": 7.2,
-                      "percentageSurvey": 5.77,
-                      "entity": {
-                        "name": "Sublime Text",
-                        "nameClean": "Sublime Text",
+                      {
+                        "count": 47,
                         "id": "sublime_text",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.sublimetext.com/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 31,
-                          "percentageBucket": 65.96,
-                          "percentageQuestion": 4.75
+                        "index": 8,
+                        "percentageQuestion": 7.2,
+                        "percentageSurvey": 5.77,
+                        "entity": {
+                          "name": "Sublime Text",
+                          "nameClean": "Sublime Text",
+                          "id": "sublime_text",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.sublimetext.com/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 16,
-                          "percentageBucket": 34,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 43,
-                      "id": "android_studio",
-                      "percentageQuestion": 6.58,
-                      "percentageSurvey": 5.28,
-                      "entity": {
-                        "name": "Android Studio",
-                        "nameClean": "Android Studio",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 31,
+                            "percentageBucket": 65.96,
+                            "percentageQuestion": 4.75
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 16,
+                            "percentageBucket": 34,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 43,
                         "id": "android_studio",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://developer.android.com/studio"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 34,
-                          "percentageBucket": 79.07,
-                          "percentageQuestion": 5.21
+                        "index": 9,
+                        "percentageQuestion": 6.58,
+                        "percentageSurvey": 5.28,
+                        "entity": {
+                          "name": "Android Studio",
+                          "nameClean": "Android Studio",
+                          "id": "android_studio",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://developer.android.com/studio"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 21,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 40,
-                      "id": "notepad_plus_plus",
-                      "percentageQuestion": 6.13,
-                      "percentageSurvey": 4.91,
-                      "entity": {
-                        "name": "Notepad++",
-                        "nameClean": "Notepad++",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 34,
+                            "percentageBucket": 79.07,
+                            "percentageQuestion": 5.21
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 21,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 40,
                         "id": "notepad_plus_plus",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://notepad-plus-plus.org"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 24,
-                          "percentageBucket": 60,
-                          "percentageQuestion": 3.68
+                        "index": 10,
+                        "percentageQuestion": 6.13,
+                        "percentageSurvey": 4.91,
+                        "entity": {
+                          "name": "Notepad++",
+                          "nameClean": "Notepad++",
+                          "id": "notepad_plus_plus",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://notepad-plus-plus.org"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 16,
-                          "percentageBucket": 40,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 40,
-                      "id": "pycharm",
-                      "percentageQuestion": 6.13,
-                      "percentageSurvey": 4.91,
-                      "entity": {
-                        "name": "PyCharm",
-                        "nameClean": "PyCharm",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 24,
+                            "percentageBucket": 60,
+                            "percentageQuestion": 3.68
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 16,
+                            "percentageBucket": 40,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 40,
                         "id": "pycharm",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/pycharm/"
-                        }
+                        "index": 11,
+                        "percentageQuestion": 6.13,
+                        "percentageSurvey": 4.91,
+                        "entity": {
+                          "name": "PyCharm",
+                          "nameClean": "PyCharm",
+                          "id": "pycharm",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/pycharm/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 14,
+                            "percentageBucket": 35,
+                            "percentageQuestion": 2.14
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 19,
+                            "percentageBucket": 47.5,
+                            "percentageQuestion": 2.91
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 7,
+                            "percentageBucket": 18,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 14,
-                          "percentageBucket": 35,
-                          "percentageQuestion": 2.14
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 19,
-                          "percentageBucket": 47.5,
-                          "percentageQuestion": 2.91
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 7,
-                          "percentageBucket": 18,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 19,
-                      "id": "emacs",
-                      "percentageQuestion": 2.91,
-                      "percentageSurvey": 2.33,
-                      "entity": {
-                        "name": "Emacs",
-                        "nameClean": "Emacs",
+                      {
+                        "count": 19,
                         "id": "emacs",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.gnu.org/software/emacs/"
-                        }
-                      },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 11,
-                          "percentageBucket": 57.89,
-                          "percentageQuestion": 1.68
+                        "index": 12,
+                        "percentageQuestion": 2.91,
+                        "percentageSurvey": 2.33,
+                        "entity": {
+                          "name": "Emacs",
+                          "nameClean": "Emacs",
+                          "id": "emacs",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.gnu.org/software/emacs/"
+                          }
                         },
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 42,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 17,
-                      "id": "goland",
-                      "percentageQuestion": 2.6,
-                      "percentageSurvey": 2.09,
-                      "entity": {
-                        "name": "GoLand",
-                        "nameClean": "GoLand",
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 11,
+                            "percentageBucket": 57.89,
+                            "percentageQuestion": 1.68
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 8,
+                            "percentageBucket": 42,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 17,
                         "id": "goland",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.jetbrains.com/go/"
-                        }
+                        "index": 13,
+                        "percentageQuestion": 2.6,
+                        "percentageSurvey": 2.09,
+                        "entity": {
+                          "name": "GoLand",
+                          "nameClean": "GoLand",
+                          "id": "goland",
+                          "entityType": "default",
+                          "homepage": {
+                            "url": "https://www.jetbrains.com/go/"
+                          }
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 14,
+                            "percentageBucket": 82.35,
+                            "percentageQuestion": 2.14
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 3,
+                            "percentageBucket": 18,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 14,
-                          "percentageBucket": 82.35,
-                          "percentageQuestion": 2.14
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 3,
-                          "percentageBucket": 18,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 156,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 19.16,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 45,
-                          "percentageBucket": 28.85,
-                          "percentageQuestion": 6.89
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 11,
-                          "percentageBucket": 7.05,
-                          "percentageQuestion": 1.68
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 92,
-                          "percentageBucket": 58.97,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 8,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 49,
-                      "id": "other_answers",
-                      "percentageQuestion": 7.5,
-                      "percentageSurvey": 6.01,
-                      "averageByFacet": 0,
-                      "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
+                      {
+                        "count": 156,
+                        "id": "no_answer",
+                        "index": 14,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.16,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 45,
+                            "percentageBucket": 28.85,
+                            "percentageQuestion": 6.89
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 11,
+                            "percentageBucket": 7.05,
+                            "percentageQuestion": 1.68
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 92,
+                            "percentageBucket": 58.97,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 8,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
                       },
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 32,
-                          "percentageBucket": 65.31
-                        }
-                      ]
-                    }
-                  ]
-                }
+                      {
+                        "count": 49,
+                        "id": "other_answers",
+                        "index": 15,
+                        "percentageQuestion": 7.5,
+                        "percentageSurvey": 6.01,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 32,
+                            "percentageBucket": 65.31
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }

@@ -11,14 +11,14 @@ query {
               }
             }
             combined(
-              facet: employer_info__current_employer
+              facet: job_info__current_employer
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
                 limit: 20
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property

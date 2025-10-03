@@ -7,299 +7,332 @@
             "company_size_vs_employer_type": {
               "id": "company_size",
               "combined": {
-                "currentEdition": {
-                  "_metadata": {
-                    "axis1Sort": {
-                      "property": "options",
-                      "order": "desc"
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
                     },
-                    "axis2Sort": {
-                      "property": "options",
-                      "order": "desc"
+                    "editionId": "td2024",
+                    "year": 2024,
+                    "completion": {
+                      "count": 696,
+                      "percentageSurvey": 85.5,
+                      "total": 814
                     },
-                    "limit": 50,
-                    "cutoff": 10
-                  },
-                  "completion": {
-                    "count": 696,
-                    "percentageSurvey": 85.5,
-                    "total": 814
-                  },
-                  "average": 2986.3,
-                  "percentiles": {
-                    "p50": 300
-                  },
-                  "buckets": [
-                    {
-                      "count": 12,
-                      "id": "range_1",
-                      "percentageQuestion": 1.72,
-                      "percentageSurvey": 1.47,
-                      "facetBuckets": [
-                        {
-                          "id": "other_answers",
-                          "count": 12,
-                          "percentageBucket": 100,
-                          "percentageQuestion": 0
-                        }
-                      ]
+                    "average": 2986.3,
+                    "percentiles": {
+                      "p50": 300
                     },
-                    {
-                      "count": 23,
-                      "id": "range_2_9",
-                      "percentageQuestion": 3.3,
-                      "percentageSurvey": 2.83,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 14,
-                          "percentageBucket": 60.87,
-                          "percentageQuestion": 2.01
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 39,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 39,
-                      "id": "range_10_19",
-                      "percentageQuestion": 5.6,
-                      "percentageSurvey": 4.79,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 25,
-                          "percentageBucket": 64.1,
-                          "percentageQuestion": 3.59
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 14,
-                          "percentageBucket": 36,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 180,
-                      "id": "range_20_99",
-                      "percentageQuestion": 25.86,
-                      "percentageSurvey": 22.11,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 145,
-                          "percentageBucket": 80.56,
-                          "percentageQuestion": 20.83
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 11,
-                          "percentageBucket": 6.11,
-                          "percentageQuestion": 1.58
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 15,
-                          "percentageBucket": 8.33,
-                          "percentageQuestion": 2.16
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 114,
-                      "id": "range_100_499",
-                      "percentageQuestion": 16.38,
-                      "percentageSurvey": 14,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 92,
-                          "percentageBucket": 80.7,
-                          "percentageQuestion": 13.22
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 13,
-                          "percentageBucket": 11.4,
-                          "percentageQuestion": 1.87
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 8,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 39,
-                      "id": "range_500_999",
-                      "percentageQuestion": 5.6,
-                      "percentageSurvey": 4.79,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 26,
-                          "percentageBucket": 66.67,
-                          "percentageQuestion": 3.74
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 13,
-                          "percentageBucket": 33,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 112,
-                      "id": "range_1000_4999",
-                      "percentageQuestion": 16.09,
-                      "percentageSurvey": 13.76,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 86,
-                          "percentageBucket": 76.79,
-                          "percentageQuestion": 12.36
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 17,
-                          "percentageBucket": 15.18,
-                          "percentageQuestion": 2.44
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 9,
-                          "percentageBucket": 8,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 41,
-                      "id": "range_5000_9999",
-                      "percentageQuestion": 5.89,
-                      "percentageSurvey": 5.04,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 21,
-                          "percentageBucket": 51.22,
-                          "percentageQuestion": 3.02
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 18,
-                          "percentageBucket": 43.9,
-                          "percentageQuestion": 2.59
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 2,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 136,
-                      "id": "range_over_10000",
-                      "percentageQuestion": 19.54,
-                      "percentageSurvey": 16.71,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 73,
-                          "percentageBucket": 53.68,
-                          "percentageQuestion": 10.49
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 63,
-                          "percentageBucket": 46,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 706,
-                      "id": "overall",
-                      "percentageQuestion": 101.44,
-                      "percentageSurvey": 86.73,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 501,
-                          "percentageBucket": 61.55,
-                          "percentageQuestion": 71.98
-                        },
-                        {
-                          "id": "japanese_subsidiary",
-                          "count": 131,
-                          "percentageBucket": 16.09,
-                          "percentageQuestion": 18.82
-                        },
-                        {
-                          "id": "international_company",
-                          "count": 42,
-                          "percentageBucket": 5.16,
-                          "percentageQuestion": 6.03
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 108,
-                          "percentageBucket": 13.27,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 32,
-                          "percentageBucket": 4,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    },
-                    {
-                      "count": 118,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 14.5,
-                      "facetBuckets": [
-                        {
-                          "id": "japanese_company",
-                          "count": 14,
-                          "percentageBucket": 11.86,
-                          "percentageQuestion": 2.01
-                        },
-                        {
-                          "id": "no_answer",
-                          "count": 98,
-                          "percentageBucket": 83.05,
-                          "percentageQuestion": 0
-                        },
-                        {
-                          "id": "other_answers",
-                          "count": 6,
-                          "percentageBucket": 5,
-                          "percentageQuestion": 0
-                        }
-                      ]
-                    }
-                  ]
-                }
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "range_1",
+                        "value": 1,
+                        "index": 0,
+                        "percentageQuestion": 1.72,
+                        "percentageSurvey": 1.47,
+                        "averageByFacet": 1,
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 12,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 23,
+                        "id": "range_2_9",
+                        "value": 5,
+                        "index": 1,
+                        "percentageQuestion": 3.3,
+                        "percentageSurvey": 2.83,
+                        "averageByFacet": 5,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 14,
+                            "percentageBucket": 60.87,
+                            "percentageQuestion": 2.01
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 39,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 39,
+                        "id": "range_10_19",
+                        "value": 15,
+                        "index": 2,
+                        "percentageQuestion": 5.6,
+                        "percentageSurvey": 4.79,
+                        "averageByFacet": 15,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 25,
+                            "percentageBucket": 64.1,
+                            "percentageQuestion": 3.59
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 14,
+                            "percentageBucket": 36,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 180,
+                        "id": "range_20_99",
+                        "value": 60,
+                        "index": 3,
+                        "percentageQuestion": 25.86,
+                        "percentageSurvey": 22.11,
+                        "averageByFacet": 60,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 145,
+                            "percentageBucket": 80.56,
+                            "percentageQuestion": 20.83
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 11,
+                            "percentageBucket": 6.11,
+                            "percentageQuestion": 1.58
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 15,
+                            "percentageBucket": 8.33,
+                            "percentageQuestion": 2.16
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 114,
+                        "id": "range_100_499",
+                        "value": 300,
+                        "index": 4,
+                        "percentageQuestion": 16.38,
+                        "percentageSurvey": 14,
+                        "averageByFacet": 300,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 92,
+                            "percentageBucket": 80.7,
+                            "percentageQuestion": 13.22
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 13,
+                            "percentageBucket": 11.4,
+                            "percentageQuestion": 1.87
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 8,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 39,
+                        "id": "range_500_999",
+                        "value": 750,
+                        "index": 5,
+                        "percentageQuestion": 5.6,
+                        "percentageSurvey": 4.79,
+                        "averageByFacet": 750,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 26,
+                            "percentageBucket": 66.67,
+                            "percentageQuestion": 3.74
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 13,
+                            "percentageBucket": 33,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 112,
+                        "id": "range_1000_4999",
+                        "value": 3000,
+                        "index": 6,
+                        "percentageQuestion": 16.09,
+                        "percentageSurvey": 13.76,
+                        "averageByFacet": 3000,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 86,
+                            "percentageBucket": 76.79,
+                            "percentageQuestion": 12.36
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 17,
+                            "percentageBucket": 15.18,
+                            "percentageQuestion": 2.44
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 9,
+                            "percentageBucket": 8,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 41,
+                        "id": "range_5000_9999",
+                        "value": 7500,
+                        "index": 7,
+                        "percentageQuestion": 5.89,
+                        "percentageSurvey": 5.04,
+                        "averageByFacet": 7500,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 21,
+                            "percentageBucket": 51.22,
+                            "percentageQuestion": 3.02
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 18,
+                            "percentageBucket": 43.9,
+                            "percentageQuestion": 2.59
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 2,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 136,
+                        "id": "range_over_10000",
+                        "value": 10000,
+                        "index": 8,
+                        "percentageQuestion": 19.54,
+                        "percentageSurvey": 16.71,
+                        "averageByFacet": 10000,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 73,
+                            "percentageBucket": 53.68,
+                            "percentageQuestion": 10.49
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 63,
+                            "percentageBucket": 46,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 706,
+                        "id": "overall",
+                        "index": 9,
+                        "percentageQuestion": 101.44,
+                        "percentageSurvey": 86.73,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 501,
+                            "percentageBucket": 61.55,
+                            "percentageQuestion": 71.98
+                          },
+                          {
+                            "id": "japanese_subsidiary",
+                            "count": 131,
+                            "percentageBucket": 16.09,
+                            "percentageQuestion": 18.82
+                          },
+                          {
+                            "id": "international_company",
+                            "count": 42,
+                            "percentageBucket": 5.16,
+                            "percentageQuestion": 6.03
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 108,
+                            "percentageBucket": 13.27,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 32,
+                            "percentageBucket": 4,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "count": 118,
+                        "id": "no_answer",
+                        "index": 10,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.5,
+                        "facetBuckets": [
+                          {
+                            "id": "japanese_company",
+                            "count": 14,
+                            "percentageBucket": 11.86,
+                            "percentageQuestion": 2.01
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 98,
+                            "percentageBucket": 83.05,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 6,
+                            "percentageBucket": 5,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             }
           }
