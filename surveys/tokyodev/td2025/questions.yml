@@ -867,7 +867,8 @@
           lowerBound: 10000
 
     - id: current_total_annual_compensation
-      sectionId: compensation
+      sectionId: compensation # legacy
+      sectionIdOverride: compensation # new name
       label: "What is your current total annual compensation (salary, bonuses, perks, and overtime pay, before taxes and deductions) in Japanese yen?"
       template: dropdown
       optionsAreRange: true
