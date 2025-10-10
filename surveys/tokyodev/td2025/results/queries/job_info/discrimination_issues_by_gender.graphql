@@ -1,0 +1,120 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        job_info {
+          discrimination_issues_by_gender_1: discrimination_issues {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__gender: {
+                  eq: woman
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          discrimination_issues_by_gender_2: discrimination_issues {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__gender: {
+                  eq: man
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

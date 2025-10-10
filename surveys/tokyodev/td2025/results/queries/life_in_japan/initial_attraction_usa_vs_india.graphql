@@ -1,0 +1,120 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        life_in_japan {
+          initial_attraction_usa_vs_india_1: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  eq: USA
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          initial_attraction_usa_vs_india_2: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  eq: IND
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

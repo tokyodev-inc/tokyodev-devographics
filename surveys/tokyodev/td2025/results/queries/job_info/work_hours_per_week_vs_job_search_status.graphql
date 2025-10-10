@@ -2,8 +2,8 @@ query {
   surveys {
     tokyodev {
       td2025 {
-        user_info {
-          age: age {
+        job_info {
+          work_hours_per_week_vs_job_search_status: work_hours_per_week {
             id
             comments {
               currentEdition {
@@ -11,13 +11,16 @@ query {
               }
             }
             combined(
+              facet: job_info__searching_for_job
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: false
                 cutoff: 10
+                sort: {
+                  property: options
+                }
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -50,6 +53,23 @@ query {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
                 }
               }
             }

@@ -2,8 +2,8 @@ query {
   surveys {
     tokyodev {
       td2025 {
-        user_info {
-          age: age {
+        ai_usage {
+          ai_code_generation_frequency_by_years_of_experience: ai_code_generation_frequency {
             id
             comments {
               currentEdition {
@@ -11,13 +11,13 @@ query {
               }
             }
             combined(
+              facet: user_info__years_of_experience
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: false
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
@@ -50,6 +50,23 @@ query {
                   percentageSurvey
                   isFreeformData
                   hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
                 }
               }
             }

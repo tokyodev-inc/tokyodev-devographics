@@ -2,8 +2,8 @@ query {
   surveys {
     tokyodev {
       td2025 {
-        user_info {
-          age: age {
+        job_info {
+          regular_work_location_remote_work_policy_up_to_employee_1: regular_work_location {
             id
             comments {
               currentEdition {
@@ -11,13 +11,19 @@ query {
               }
             }
             combined(
+              filters: {
+                job_info__remote_work_policy: {
+                  in: [
+                    up_to_employee
+                  ]
+                }
+              }
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: false
                 cutoff: 10
               }
             ) {
-              allEditions(editionCount: 2) {
+              allEditions(editionCount: 1) {
                 _metadata {
                   axis1Sort {
                     property
