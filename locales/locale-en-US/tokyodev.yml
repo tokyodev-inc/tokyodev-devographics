@@ -1313,6 +1313,19 @@ translations:
   - key: job_info.job_happiness.emoji
     t: 😁
 
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
+  - key: options.job_happiness.5
+    aliasFor: options.happiness.5
+
   #######################################################
   #                                                     #
   #                 WORK ENVIRONMENT                    #
@@ -1997,19 +2010,31 @@ translations:
 
   - key: ai_usage.more_productive
     t: Productivity
+    aliases:
+      - opinions.more_productive
   - key: ai_usage.more_productive.question
+    aliases:
+      - opinions.more_productive.question
     t: AI tools have made me a lot more productive
   - key: ai_usage.more_productive.emoji
     t: 🏭
+    aliases:
+      - opinions.more_productive.emoji
 
   # job_security_threat
 
   - key: ai_usage.job_security_threat
     t: Job Security
+    aliases:
+      - opinions.job_security_threat
   - key: ai_usage.job_security_threat.question
     t: AI tools are a threat to my job security
+    aliases:
+      - opinions.job_security_threat.question
   - key: ai_usage.job_security_threat.emoji
     t: 🔒
+    aliases:
+      - opinions.job_security_threat.emoji
 
   #######################################################
   #                                                     #
