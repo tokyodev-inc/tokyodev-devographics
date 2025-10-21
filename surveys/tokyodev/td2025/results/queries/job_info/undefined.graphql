@@ -1,0 +1,55 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        job_info {
+          searching_for_job {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(parameters: { showNoAnswer: true, cutoff: 10 }) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        user_info {
+          number_of_kids_married_1: number_of_kids {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__relationship_status: {
+                  nin: [
+                    married
+                  ]
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+          number_of_kids_married_2: number_of_kids {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__relationship_status: {
+                  in: [
+                    married
+                  ]
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
