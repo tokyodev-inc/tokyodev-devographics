@@ -1,0 +1,570 @@
+query {
+  surveys {
+    tokyodev {
+      td2025 {
+        life_in_japan {
+          initial_attraction_vs_country_1: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  eq: USA
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          initial_attraction_vs_country_2: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  eq: IND
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          initial_attraction_vs_country_3: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  eq: JPN
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          initial_attraction_vs_country_4: initial_attraction {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              filters: {
+                user_info__country: {
+                  nin: [
+                    USA
+                    IND
+                    JPN
+                  ]
+                }
+              }
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

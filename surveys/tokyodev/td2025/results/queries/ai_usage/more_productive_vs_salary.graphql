@@ -15,7 +15,8 @@ query {
               parameters: {
                 showNoAnswer: true
                 sort: {
-                  property: medianByFacet
+                  property: id
+                  order: asc
                 }
                 cutoff: 10
               }
