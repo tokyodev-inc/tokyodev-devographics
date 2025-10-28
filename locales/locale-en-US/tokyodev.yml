@@ -460,6 +460,8 @@ translations:
       - other.searching_for_job.question
   - key: user_info.searching_for_job.emoji
     t: 🔍
+    aliases:
+      - job_info.searching_for_job.emoji
 
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
@@ -665,6 +667,8 @@ translations:
     aliasFor: employer_info.remote_work_policy
   - key: job_info.remote_work_policy.question
     aliasFor: employer_info.remote_work_policy.question
+  - key: job_info.remote_work_policy.emoji
+    t: 🏝️
 
   - key: options.remote_work_policy.no_remote_work
     t: No remote work
@@ -794,6 +798,8 @@ translations:
     aliasFor: user_info.employment_status
   - key: job_info.employment_status.question
     aliasFor: user_info.employment_status.question
+  - key: job_info.employment_status.emoji
+    t: 💼
 
   # current_job_description
   - key: job_info.current_job_description
@@ -1653,6 +1659,7 @@ translations:
       - job_info.income_evolution.question
   - key: compensation.income_evolution.emoji
     t: 💹
+    aliases:
       - job_info.income_evolution.emoji
 
   #######################################################
@@ -1669,6 +1676,8 @@ translations:
     t: Programming Languages
   - key: technology.programming_languages.question
     t: Which programming languages do you regularly use at your job?
+  - key: technology.programming_languages.emoji
+    t: ⚙️
 
   # databases
   - key: technology.databases
@@ -1681,12 +1690,16 @@ translations:
     t: Web Frameworks
   - key: technology.web_frameworks.question
     t: "Which web frameworks do you regularly use at your job?"
+  - key: technology.web_frameworks.emoji
+    t: 🌐
 
   # other_frameworks_libraries
   - key: technology.other_frameworks_libraries
     t: Other Frameworks and Libraries
   - key: technology.other_frameworks_libraries.question
     t: Which other frameworks and libraries do you regularly use at your job?
+  - key: technology.other_frameworks_libraries.emoji
+    t: 📖
 
   # developer_tools
   - key: technology.developer_tools
@@ -1705,12 +1718,16 @@ translations:
     t: Cloud Platforms
   - key: technology.cloud_platforms.question
     t: Which cloud platforms do you regularly use at your job?
+  - key: technology.cloud_platforms.emoji
+    t: ☁️
 
   # social_media
   - key: technology.social_media
     t: Social Media
   - key: technology.social_media.question
     t: Which social media sites do you use regularly?
+  - key: technology.social_media.emoji
+    t: 🏞️
 
   # development_processes
   - key: technology.development_processes
@@ -1723,6 +1740,8 @@ translations:
     t: Software Engineering Practices
   - key: technology.software_engineering_practices.question
     t: Which of the following software engineering practices does your current employer use?
+  - key: technology.software_engineering_practices.emoji
+    t: 🛠️
 
   - key: options.software_engineering_practices.agile
     t: Agile Development
@@ -1963,6 +1982,8 @@ translations:
     t: What proportion of the code you produce is AI-generated?
   - key: ai_usage.ai_generated_code_balance.prompt
     t: Including code copy-pasted from ChatGPT or other chatbots.
+  - key: ai_usage.ai_generated_code_balance.emoji
+    t: ⚖️
 
   - key: options.ai_generated_code_balance.0
     t: 0% AI
