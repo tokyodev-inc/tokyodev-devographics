@@ -18,6 +18,9 @@ query {
                     rarely
                   ]
                 }
+                job_info__current_employer: {
+                  eq: japanese_company
+                }
               }
               parameters: {
                 showNoAnswer: true
@@ -159,6 +162,9 @@ query {
                     frequently
                     always
                   ]
+                }
+                job_info__current_employer: {
+                  eq: japanese_company
                 }
               }
               parameters: {
