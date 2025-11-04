@@ -89,11 +89,27 @@
                             "groupedBuckets": [
                               {
                                 "count": 1,
+                                "id": "not_employed_not_looking_for_work",
+                                "percentageQuestion": 0.13,
+                                "percentageSurvey": 0.12
+                              },
+                              {
+                                "count": 1,
                                 "id": "retired",
                                 "percentageQuestion": 0.13,
                                 "percentageSurvey": 0.12,
                                 "entity": {
                                   "id": "retired",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 2,
+                                "id": "internship",
+                                "percentageQuestion": 0.27,
+                                "percentageSurvey": 0.25,
+                                "entity": {
+                                  "id": "internship",
                                   "entityType": "default"
                                 }
                               },
@@ -110,26 +126,10 @@
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "internship",
-                                "percentageQuestion": 0.27,
-                                "percentageSurvey": 0.25,
-                                "entity": {
-                                  "id": "internship",
-                                  "entityType": "default"
-                                }
-                              },
-                              {
                                 "count": 5,
                                 "id": "part_time",
                                 "percentageQuestion": 0.66,
                                 "percentageSurvey": 0.61
-                              },
-                              {
-                                "count": 1,
-                                "id": "not_employed_not_looking_for_work",
-                                "percentageQuestion": 0.13,
-                                "percentageSurvey": 0.12
                               }
                             ]
                           }
@@ -227,16 +227,16 @@
                                 }
                               },
                               {
-                                "count": 3,
-                                "id": "not_employed_not_looking_for_work",
-                                "percentageQuestion": 0.32,
-                                "percentageSurvey": 0.3
-                              },
-                              {
                                 "count": 1,
                                 "id": "part_time",
                                 "percentageQuestion": 0.11,
                                 "percentageSurvey": 0.1
+                              },
+                              {
+                                "count": 3,
+                                "id": "not_employed_not_looking_for_work",
+                                "percentageQuestion": 0.32,
+                                "percentageSurvey": 0.3
                               },
                               {
                                 "count": 7,
@@ -251,26 +251,26 @@
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "intern",
-                                "index": 0,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "id": "intern",
-                                  "entityType": "default"
-                                }
-                              },
-                              {
                                 "count": 2,
                                 "id": "self_employed",
-                                "index": 2,
+                                "index": 0,
                                 "percentageQuestion": 0.22,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
                                 "entity": {
                                   "id": "self_employed",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "intern",
+                                "index": 1,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "intern",
                                   "entityType": "default"
                                 }
                               }
@@ -279,7 +279,7 @@
                           {
                             "count": 2,
                             "id": "no_match",
-                            "index": 1,
+                            "index": 2,
                             "percentageQuestion": 0.22,
                             "percentageSurvey": 0.2,
                             "isFreeformData": true
