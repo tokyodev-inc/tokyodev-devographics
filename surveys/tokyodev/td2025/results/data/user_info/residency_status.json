@@ -104,12 +104,44 @@
                             "count": 13,
                             "id": "cutoff_answers",
                             "percentageQuestion": 1.69,
-                            "percentageSurvey": 1.59
+                            "percentageSurvey": 1.59,
+                            "groupedBuckets": [
+                              {
+                                "count": 5,
+                                "id": "investor_business_manager",
+                                "percentageQuestion": 0.65,
+                                "percentageSurvey": 0.61
+                              },
+                              {
+                                "count": 5,
+                                "id": "long_term_resident",
+                                "index": 0,
+                                "percentageQuestion": 0.65,
+                                "percentageSurvey": 0.61,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "long_term_resident",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 3,
+                                "id": "working_holiday",
+                                "index": 1,
+                                "percentageQuestion": 0.39,
+                                "percentageSurvey": 0.37,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "working_holiday",
+                                  "entityType": "default"
+                                }
+                              }
+                            ]
                           },
                           {
                             "count": 11,
                             "id": "no_match",
-                            "index": 0,
+                            "index": 2,
                             "percentageQuestion": 1.42,
                             "percentageSurvey": 1.35,
                             "isFreeformData": true
@@ -130,17 +162,17 @@
                     "editionId": "td2025",
                     "year": 2025,
                     "completion": {
-                      "count": 825,
-                      "percentageSurvey": 94.39,
-                      "total": 874
+                      "count": 955,
+                      "percentageSurvey": 94.65,
+                      "total": 1009
                     },
                     "buckets": [
                       {
-                        "count": 404,
+                        "count": 473,
                         "id": "engineer",
                         "index": 0,
-                        "percentageQuestion": 48.97,
-                        "percentageSurvey": 46.22,
+                        "percentageQuestion": 49.53,
+                        "percentageSurvey": 46.88,
                         "entity": {
                           "name": "Engineer (other)",
                           "nameClean": "Engineer (other)",
@@ -149,39 +181,39 @@
                         }
                       },
                       {
-                        "count": 151,
+                        "count": 167,
                         "id": "permanent_resident",
                         "index": 1,
-                        "percentageQuestion": 18.3,
-                        "percentageSurvey": 17.28
+                        "percentageQuestion": 17.49,
+                        "percentageSurvey": 16.55
                       },
                       {
-                        "count": 90,
+                        "count": 111,
                         "id": "spouse_dependent_japanese_permanent_resident",
                         "index": 2,
-                        "percentageQuestion": 10.91,
-                        "percentageSurvey": 10.3
+                        "percentageQuestion": 11.62,
+                        "percentageSurvey": 11
                       },
                       {
-                        "count": 88,
+                        "count": 100,
                         "id": "hsfp",
                         "index": 3,
-                        "percentageQuestion": 10.67,
-                        "percentageSurvey": 10.07
+                        "percentageQuestion": 10.47,
+                        "percentageSurvey": 9.91
                       },
                       {
-                        "count": 65,
+                        "count": 73,
                         "id": "japanese_citizen",
                         "index": 4,
-                        "percentageQuestion": 7.88,
-                        "percentageSurvey": 7.44
+                        "percentageQuestion": 7.64,
+                        "percentageSurvey": 7.23
                       },
                       {
-                        "count": 15,
+                        "count": 18,
                         "id": "student",
                         "index": 5,
-                        "percentageQuestion": 1.82,
-                        "percentageSurvey": 1.72,
+                        "percentageQuestion": 1.88,
+                        "percentageSurvey": 1.78,
                         "entity": {
                           "name": "Student",
                           "nameClean": "Student",
@@ -190,31 +222,69 @@
                         }
                       },
                       {
-                        "count": 49,
+                        "count": 54,
                         "id": "no_answer",
                         "index": 6,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 5.61
+                        "percentageSurvey": 5.35
                       },
                       {
-                        "count": 28,
+                        "count": 33,
                         "id": "other_answers",
                         "index": 7,
-                        "percentageQuestion": 3.39,
-                        "percentageSurvey": 3.2,
+                        "percentageQuestion": 3.46,
+                        "percentageSurvey": 3.28,
                         "groupedBuckets": [
                           {
-                            "count": 18,
+                            "count": 21,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 2.18,
-                            "percentageSurvey": 2.06
+                            "percentageQuestion": 2.2,
+                            "percentageSurvey": 2.09,
+                            "groupedBuckets": [
+                              {
+                                "count": 5,
+                                "id": "investor_business_manager",
+                                "percentageQuestion": 0.52,
+                                "percentageSurvey": 0.5
+                              },
+                              {
+                                "count": 8,
+                                "id": "dependent_foreign_resident",
+                                "percentageQuestion": 0.84,
+                                "percentageSurvey": 0.79
+                              },
+                              {
+                                "count": 4,
+                                "id": "working_holiday",
+                                "index": 0,
+                                "percentageQuestion": 0.42,
+                                "percentageSurvey": 0.4,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "working_holiday",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 4,
+                                "id": "long_term_resident",
+                                "index": 1,
+                                "percentageQuestion": 0.42,
+                                "percentageSurvey": 0.4,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "long_term_resident",
+                                  "entityType": "default"
+                                }
+                              }
+                            ]
                           },
                           {
-                            "count": 10,
+                            "count": 12,
                             "id": "no_match",
                             "index": 2,
-                            "percentageQuestion": 1.21,
-                            "percentageSurvey": 1.14,
+                            "percentageQuestion": 1.26,
+                            "percentageSurvey": 1.19,
                             "isFreeformData": true
                           }
                         ]

@@ -20,107 +20,177 @@
                     "editionId": "td2025",
                     "year": 2025,
                     "completion": {
-                      "count": 770,
-                      "percentageSurvey": 88.1,
-                      "total": 874
+                      "count": 886,
+                      "percentageSurvey": 87.81,
+                      "total": 1009
                     },
                     "buckets": [
                       {
-                        "count": 620,
+                        "count": 710,
                         "id": "code_generation",
                         "index": 0,
-                        "percentageQuestion": 80.52,
-                        "percentageSurvey": 70.94
+                        "percentageQuestion": 80.14,
+                        "percentageSurvey": 70.37
                       },
                       {
-                        "count": 538,
+                        "count": 626,
                         "id": "learning_research",
                         "index": 1,
-                        "percentageQuestion": 69.87,
-                        "percentageSurvey": 61.56
+                        "percentageQuestion": 70.65,
+                        "percentageSurvey": 62.04
                       },
                       {
-                        "count": 492,
+                        "count": 571,
                         "id": "translation",
                         "index": 2,
-                        "percentageQuestion": 63.9,
-                        "percentageSurvey": 56.29
+                        "percentageQuestion": 64.45,
+                        "percentageSurvey": 56.59
                       },
                       {
-                        "count": 365,
+                        "count": 422,
                         "id": "summarization",
                         "index": 3,
-                        "percentageQuestion": 47.4,
-                        "percentageSurvey": 41.76
+                        "percentageQuestion": 47.63,
+                        "percentageSurvey": 41.82
                       },
                       {
-                        "count": 330,
+                        "count": 381,
                         "id": "text_generation",
                         "index": 4,
-                        "percentageQuestion": 42.86,
+                        "percentageQuestion": 43,
                         "percentageSurvey": 37.76
                       },
                       {
-                        "count": 89,
+                        "count": 101,
                         "id": "image_generation",
                         "index": 5,
-                        "percentageQuestion": 11.56,
-                        "percentageSurvey": 10.18
+                        "percentageQuestion": 11.4,
+                        "percentageSurvey": 10.01
                       },
                       {
-                        "count": 41,
+                        "count": 50,
                         "id": "computer_vision",
                         "index": 6,
-                        "percentageQuestion": 5.32,
-                        "percentageSurvey": 4.69
+                        "percentageQuestion": 5.64,
+                        "percentageSurvey": 4.96
+                      },
+                      {
+                        "count": 48,
+                        "id": "speech_recognition",
+                        "index": 7,
+                        "percentageQuestion": 5.42,
+                        "percentageSurvey": 4.76
                       },
                       {
                         "count": 40,
-                        "id": "speech_recognition",
-                        "index": 7,
-                        "percentageQuestion": 5.19,
-                        "percentageSurvey": 4.58
-                      },
-                      {
-                        "count": 36,
                         "id": "speech_generation",
                         "index": 8,
-                        "percentageQuestion": 4.68,
-                        "percentageSurvey": 4.12
+                        "percentageQuestion": 4.51,
+                        "percentageSurvey": 3.96
                       },
                       {
-                        "count": 38,
+                        "count": 46,
                         "id": "na",
                         "index": 9,
-                        "percentageQuestion": 4.94,
-                        "percentageSurvey": 4.35
+                        "percentageQuestion": 5.19,
+                        "percentageSurvey": 4.56,
+                        "entity": {
+                          "name": "Not applicable\n",
+                          "nameClean": "Not applicable\n",
+                          "description": "No use cases, no pain, no issues.\n",
+                          "descriptionClean": "No use cases, no pain, no issues.\n",
+                          "id": "na",
+                          "entityType": "default"
+                        }
                       },
                       {
-                        "count": 104,
+                        "count": 123,
                         "id": "no_answer",
                         "index": 10,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 11.9
+                        "percentageSurvey": 12.19
                       },
                       {
-                        "count": 23,
+                        "count": 27,
                         "id": "other_answers",
                         "index": 11,
-                        "percentageQuestion": 2.99,
-                        "percentageSurvey": 2.61,
+                        "percentageQuestion": 3.03,
+                        "percentageSurvey": 2.68,
                         "groupedBuckets": [
                           {
                             "count": 5,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 0.65,
-                            "percentageSurvey": 0.55
+                            "percentageQuestion": 0.55,
+                            "percentageSurvey": 0.5,
+                            "groupedBuckets": [
+                              {
+                                "count": 1,
+                                "id": "data_manipulation_processing",
+                                "index": 1,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "data_manipulation_processing",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "code_explanation",
+                                "index": 2,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "code_explanation",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "sound_music_generation",
+                                "index": 3,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "sound_music_generation",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "code_completion",
+                                "index": 4,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "code_completion",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "code_debugging",
+                                "index": 5,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "code_debugging",
+                                  "entityType": "default"
+                                }
+                              }
+                            ]
                           },
                           {
-                            "count": 18,
+                            "count": 22,
                             "id": "no_match",
                             "index": 0,
-                            "percentageQuestion": 2.34,
-                            "percentageSurvey": 2.06,
+                            "percentageQuestion": 2.48,
+                            "percentageSurvey": 2.18,
                             "isFreeformData": true
                           }
                         ]
