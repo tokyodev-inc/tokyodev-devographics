@@ -344,43 +344,51 @@
                             "percentageSurvey": 4.79,
                             "groupedBuckets": [
                               {
-                                "count": 1,
-                                "id": "bash",
+                                "count": 2,
+                                "id": "vb",
                                 "index": 1,
-                                "percentageQuestion": 0.15,
-                                "percentageSurvey": 0.12,
+                                "percentageQuestion": 0.3,
+                                "percentageSurvey": 0.25,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Bash",
-                                  "nameClean": "Bash",
-                                  "id": "bash",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://www.gnu.org/software/bash/"
-                                  }
+                                  "name": "VB",
+                                  "nameClean": "VB",
+                                  "id": "vb",
+                                  "entityType": "library"
                                 }
                               },
                               {
                                 "count": 3,
-                                "id": "terraform",
-                                "index": 2,
+                                "id": "yaml",
+                                "index": 3,
                                 "percentageQuestion": 0.45,
                                 "percentageSurvey": 0.37,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Terraform",
-                                  "nameClean": "Terraform",
-                                  "id": "terraform",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://www.terraform.io/"
-                                  }
+                                  "name": "YAML",
+                                  "nameClean": "YAML",
+                                  "id": "yaml",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 2,
+                                "id": "lua",
+                                "index": 4,
+                                "percentageQuestion": 0.3,
+                                "percentageSurvey": 0.25,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Lua",
+                                  "nameClean": "Lua",
+                                  "id": "lua",
+                                  "entityType": "library"
                                 }
                               },
                               {
                                 "count": 6,
                                 "id": "dart",
-                                "index": 3,
+                                "index": 6,
                                 "percentageQuestion": 0.91,
                                 "percentageSurvey": 0.74,
                                 "isFreeformData": true,
@@ -397,7 +405,7 @@
                               {
                                 "count": 1,
                                 "id": "haskell",
-                                "index": 4,
+                                "index": 7,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -413,143 +421,22 @@
                               },
                               {
                                 "count": 1,
-                                "id": "erlang",
-                                "index": 6,
+                                "id": "groovy",
+                                "index": 9,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Erlang",
-                                  "nameClean": "Erlang",
-                                  "id": "erlang",
+                                  "name": "Groovy",
+                                  "nameClean": "Groovy",
+                                  "id": "groovy",
                                   "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "csharp",
-                                "index": 8,
-                                "percentageQuestion": 0.15,
-                                "percentageSurvey": 0.12,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "C#",
-                                  "nameClean": "C#",
-                                  "id": "csharp",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "perl",
-                                "index": 11,
-                                "percentageQuestion": 0.3,
-                                "percentageSurvey": 0.25,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Perl",
-                                  "nameClean": "Perl",
-                                  "id": "perl",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "yaml",
-                                "index": 12,
-                                "percentageQuestion": 0.45,
-                                "percentageSurvey": 0.37,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "YAML",
-                                  "nameClean": "YAML",
-                                  "id": "yaml",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "objective_c",
-                                "index": 13,
-                                "percentageQuestion": 0.45,
-                                "percentageSurvey": 0.37,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Objective-C",
-                                  "nameClean": "Objective-C",
-                                  "id": "objective_c",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "elm",
-                                "index": 15,
-                                "percentageQuestion": 0.15,
-                                "percentageSurvey": 0.12,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Elm",
-                                  "nameClean": "Elm",
-                                  "id": "elm",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://elm-lang.org/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "lua",
-                                "index": 16,
-                                "percentageQuestion": 0.3,
-                                "percentageSurvey": 0.25,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Lua",
-                                  "nameClean": "Lua",
-                                  "id": "lua",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "powershell",
-                                "index": 20,
-                                "percentageQuestion": 0.15,
-                                "percentageSurvey": 0.12,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Powershell",
-                                  "nameClean": "Powershell",
-                                  "id": "powershell",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 4,
-                                "id": "tokyodev",
-                                "index": 21,
-                                "percentageQuestion": 0.61,
-                                "percentageSurvey": 0.49,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "TokyoDev",
-                                  "nameClean": "TokyoDev",
-                                  "id": "tokyodev",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.tokyodev.com/"
-                                  }
                                 }
                               },
                               {
                                 "count": 1,
                                 "id": "clojure",
-                                "index": 23,
+                                "index": 11,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -565,50 +452,101 @@
                               },
                               {
                                 "count": 2,
-                                "id": "cobol",
-                                "index": 24,
+                                "id": "r",
+                                "index": 12,
                                 "percentageQuestion": 0.3,
                                 "percentageSurvey": 0.25,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Cobol",
-                                  "nameClean": "Cobol",
-                                  "id": "cobol",
+                                  "name": "R",
+                                  "nameClean": "R",
+                                  "id": "r",
                                   "entityType": "library"
                                 }
                               },
                               {
                                 "count": 1,
-                                "id": "groovy",
-                                "index": 25,
+                                "id": "csharp",
+                                "index": 13,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Groovy",
-                                  "nameClean": "Groovy",
-                                  "id": "groovy",
+                                  "name": "C#",
+                                  "nameClean": "C#",
+                                  "id": "csharp",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 3,
+                                "id": "objective_c",
+                                "index": 14,
+                                "percentageQuestion": 0.45,
+                                "percentageSurvey": 0.37,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Objective-C",
+                                  "nameClean": "Objective-C",
+                                  "id": "objective_c",
                                   "entityType": "library"
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "vb",
-                                "index": 27,
-                                "percentageQuestion": 0.3,
-                                "percentageSurvey": 0.25,
+                                "count": 3,
+                                "id": "terraform",
+                                "index": 15,
+                                "percentageQuestion": 0.45,
+                                "percentageSurvey": 0.37,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "VB",
-                                  "nameClean": "VB",
-                                  "id": "vb",
+                                  "name": "Terraform",
+                                  "nameClean": "Terraform",
+                                  "id": "terraform",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://www.terraform.io/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 4,
+                                "id": "tokyodev",
+                                "index": 17,
+                                "percentageQuestion": 0.61,
+                                "percentageSurvey": 0.49,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "TokyoDev",
+                                  "nameClean": "TokyoDev",
+                                  "id": "tokyodev",
+                                  "entityType": "default",
+                                  "homepage": {
+                                    "url": "https://www.tokyodev.com/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "powershell",
+                                "index": 19,
+                                "percentageQuestion": 0.15,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Powershell",
+                                  "nameClean": "Powershell",
+                                  "id": "powershell",
                                   "entityType": "library"
                                 }
                               },
                               {
                                 "count": 1,
                                 "id": "linkedin",
-                                "index": 28,
+                                "index": 20,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -623,23 +561,54 @@
                                 }
                               },
                               {
+                                "count": 1,
+                                "id": "erlang",
+                                "index": 22,
+                                "percentageQuestion": 0.15,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Erlang",
+                                  "nameClean": "Erlang",
+                                  "id": "erlang",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "elm",
+                                "index": 23,
+                                "percentageQuestion": 0.15,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Elm",
+                                  "nameClean": "Elm",
+                                  "id": "elm",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://elm-lang.org/"
+                                  }
+                                }
+                              },
+                              {
                                 "count": 2,
-                                "id": "r",
-                                "index": 29,
+                                "id": "cobol",
+                                "index": 26,
                                 "percentageQuestion": 0.3,
                                 "percentageSurvey": 0.25,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "R",
-                                  "nameClean": "R",
-                                  "id": "r",
+                                  "name": "Cobol",
+                                  "nameClean": "Cobol",
+                                  "id": "cobol",
                                   "entityType": "library"
                                 }
                               },
                               {
                                 "count": 1,
                                 "id": "solidity",
-                                "index": 30,
+                                "index": 27,
                                 "percentageQuestion": 0.15,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -649,13 +618,44 @@
                                   "id": "solidity",
                                   "entityType": "library"
                                 }
+                              },
+                              {
+                                "count": 2,
+                                "id": "perl",
+                                "index": 28,
+                                "percentageQuestion": 0.3,
+                                "percentageSurvey": 0.25,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Perl",
+                                  "nameClean": "Perl",
+                                  "id": "perl",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "bash",
+                                "index": 29,
+                                "percentageQuestion": 0.15,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Bash",
+                                  "nameClean": "Bash",
+                                  "id": "bash",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://www.gnu.org/software/bash/"
+                                  }
+                                }
                               }
                             ]
                           },
                           {
                             "count": 23,
                             "id": "no_match",
-                            "index": 10,
+                            "index": 2,
                             "percentageQuestion": 3.48,
                             "percentageSurvey": 2.83,
                             "isFreeformData": true
@@ -1012,43 +1012,26 @@
                             "percentageSurvey": 4.08,
                             "groupedBuckets": [
                               {
-                                "count": 5,
-                                "id": "terraform",
+                                "count": 1,
+                                "id": "ocaml",
                                 "index": 0,
-                                "percentageQuestion": 0.57,
-                                "percentageSurvey": 0.5,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Terraform",
-                                  "nameClean": "Terraform",
-                                  "id": "terraform",
+                                  "name": "OCaml",
+                                  "nameClean": "OCaml",
+                                  "id": "ocaml",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://www.terraform.io/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "haskell",
-                                "index": 1,
-                                "percentageQuestion": 0.34,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Haskell",
-                                  "nameClean": "Haskell",
-                                  "id": "haskell",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://www.haskell.org/"
+                                    "url": "https://ocaml.org/"
                                   }
                                 }
                               },
                               {
                                 "count": 1,
                                 "id": "clojure",
-                                "index": 3,
+                                "index": 1,
                                 "percentageQuestion": 0.11,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
@@ -1063,26 +1046,9 @@
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "julia",
-                                "index": 4,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Julia",
-                                  "nameClean": "Julia",
-                                  "id": "julia",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://julialang.org/"
-                                  }
-                                }
-                              },
-                              {
                                 "count": 2,
                                 "id": "glsl",
-                                "index": 6,
+                                "index": 2,
                                 "percentageQuestion": 0.23,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
@@ -1094,6 +1060,62 @@
                                   "homepage": {
                                     "url": "https://en.wikipedia.org/wiki/OpenGL_Shading_Language"
                                   }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "powershell",
+                                "index": 3,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Powershell",
+                                  "nameClean": "Powershell",
+                                  "id": "powershell",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 2,
+                                "id": "lua",
+                                "index": 4,
+                                "percentageQuestion": 0.23,
+                                "percentageSurvey": 0.2,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Lua",
+                                  "nameClean": "Lua",
+                                  "id": "lua",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 4,
+                                "id": "objective_c",
+                                "index": 5,
+                                "percentageQuestion": 0.46,
+                                "percentageSurvey": 0.4,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Objective-C",
+                                  "nameClean": "Objective-C",
+                                  "id": "objective_c",
+                                  "entityType": "library"
+                                }
+                              },
+                              {
+                                "count": 7,
+                                "id": "perl",
+                                "index": 6,
+                                "percentageQuestion": 0.8,
+                                "percentageSurvey": 0.69,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Perl",
+                                  "nameClean": "Perl",
+                                  "id": "perl",
+                                  "entityType": "library"
                                 }
                               },
                               {
@@ -1111,65 +1133,48 @@
                                 }
                               },
                               {
-                                "count": 7,
-                                "id": "perl",
+                                "count": 2,
+                                "id": "vba",
                                 "index": 8,
-                                "percentageQuestion": 0.8,
-                                "percentageSurvey": 0.69,
+                                "percentageQuestion": 0.23,
+                                "percentageSurvey": 0.2,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Perl",
-                                  "nameClean": "Perl",
-                                  "id": "perl",
+                                  "name": "VBA",
+                                  "nameClean": "VBA",
+                                  "id": "vba",
                                   "entityType": "library"
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "ocaml",
+                                "count": 5,
+                                "id": "terraform",
                                 "index": 9,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
+                                "percentageQuestion": 0.57,
+                                "percentageSurvey": 0.5,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "OCaml",
-                                  "nameClean": "OCaml",
-                                  "id": "ocaml",
+                                  "name": "Terraform",
+                                  "nameClean": "Terraform",
+                                  "id": "terraform",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://ocaml.org/"
+                                    "url": "https://www.terraform.io/"
                                   }
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "visual_basic",
-                                "index": 10,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Visual Basic",
-                                  "nameClean": "Visual Basic",
-                                  "id": "visual_basic",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "flutter",
+                                "count": 6,
+                                "id": "r",
                                 "index": 11,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
+                                "percentageQuestion": 0.68,
+                                "percentageSurvey": 0.59,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Flutter",
-                                  "nameClean": "Flutter",
-                                  "id": "flutter",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://flutter.io/"
-                                  }
+                                  "name": "R",
+                                  "nameClean": "R",
+                                  "id": "r",
+                                  "entityType": "library"
                                 }
                               },
                               {
@@ -1187,72 +1192,67 @@
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "vba",
+                                "count": 1,
+                                "id": "flutter",
                                 "index": 13,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "VBA",
-                                  "nameClean": "VBA",
-                                  "id": "vba",
-                                  "entityType": "library"
+                                  "name": "Flutter",
+                                  "nameClean": "Flutter",
+                                  "id": "flutter",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://flutter.io/"
+                                  }
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "lua",
-                                "index": 14,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Lua",
-                                  "nameClean": "Lua",
-                                  "id": "lua",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 4,
-                                "id": "objective_c",
+                                "count": 3,
+                                "id": "haskell",
                                 "index": 15,
-                                "percentageQuestion": 0.46,
-                                "percentageSurvey": 0.4,
+                                "percentageQuestion": 0.34,
+                                "percentageSurvey": 0.3,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Objective-C",
-                                  "nameClean": "Objective-C",
-                                  "id": "objective_c",
-                                  "entityType": "library"
-                                }
-                              },
-                              {
-                                "count": 6,
-                                "id": "r",
-                                "index": 16,
-                                "percentageQuestion": 0.68,
-                                "percentageSurvey": 0.59,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "R",
-                                  "nameClean": "R",
-                                  "id": "r",
-                                  "entityType": "library"
+                                  "name": "Haskell",
+                                  "nameClean": "Haskell",
+                                  "id": "haskell",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://www.haskell.org/"
+                                  }
                                 }
                               },
                               {
                                 "count": 1,
-                                "id": "powershell",
+                                "id": "julia",
+                                "index": 16,
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Julia",
+                                  "nameClean": "Julia",
+                                  "id": "julia",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://julialang.org/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "visual_basic",
                                 "index": 17,
                                 "percentageQuestion": 0.11,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Powershell",
-                                  "nameClean": "Powershell",
-                                  "id": "powershell",
+                                  "name": "Visual Basic",
+                                  "nameClean": "Visual Basic",
+                                  "id": "visual_basic",
                                   "entityType": "library"
                                 }
                               }
@@ -1261,7 +1261,7 @@
                           {
                             "count": 20,
                             "id": "no_match",
-                            "index": 5,
+                            "index": 14,
                             "percentageQuestion": 2.28,
                             "percentageSurvey": 1.98,
                             "isFreeformData": true

@@ -238,9 +238,29 @@
                             "percentageSurvey": 1.95,
                             "groupedBuckets": [
                               {
+                                "count": 2,
+                                "id": "tailwind_css",
+                                "index": 0,
+                                "percentageQuestion": 0.67,
+                                "percentageSurvey": 0.25,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Tailwind CSS",
+                                  "nameClean": "Tailwind CSS",
+                                  "id": "tailwind_css",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://tailwindcss.com/"
+                                  },
+                                  "npm": {
+                                    "url": "https://www.npmjs.com/package/tailwindcss"
+                                  }
+                                }
+                              },
+                              {
                                 "count": 1,
                                 "id": "linkedin",
-                                "index": 0,
+                                "index": 1,
                                 "percentageQuestion": 0.33,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -256,28 +276,59 @@
                               },
                               {
                                 "count": 1,
-                                "id": "electron",
-                                "index": 1,
+                                "id": "grpc",
+                                "index": 2,
                                 "percentageQuestion": 0.33,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Electron",
-                                  "nameClean": "Electron",
-                                  "id": "electron",
+                                  "name": "gRPC",
+                                  "nameClean": "gRPC",
+                                  "id": "grpc",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://electronjs.org"
-                                  },
-                                  "npm": {
-                                    "url": "https://www.npmjs.com/package/electron"
+                                    "url": "https://grpc.io/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 3,
+                                "id": "unity",
+                                "index": 3,
+                                "percentageQuestion": 1,
+                                "percentageSurvey": 0.37,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Unity",
+                                  "nameClean": "Unity",
+                                  "id": "unity",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://unity.com/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 4,
+                                "id": "apache_spark",
+                                "index": 4,
+                                "percentageQuestion": 1.33,
+                                "percentageSurvey": 0.49,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Apache Spark",
+                                  "nameClean": "Apache Spark",
+                                  "id": "apache_spark",
+                                  "entityType": "default",
+                                  "homepage": {
+                                    "url": "https://spark.apache.org/"
                                   }
                                 }
                               },
                               {
                                 "count": 1,
                                 "id": "stimulus",
-                                "index": 3,
+                                "index": 5,
                                 "percentageQuestion": 0.33,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -297,80 +348,9 @@
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "tailwind_css",
-                                "index": 5,
-                                "percentageQuestion": 0.67,
-                                "percentageSurvey": 0.25,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Tailwind CSS",
-                                  "nameClean": "Tailwind CSS",
-                                  "id": "tailwind_css",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://tailwindcss.com/"
-                                  },
-                                  "npm": {
-                                    "url": "https://www.npmjs.com/package/tailwindcss"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "grpc",
-                                "index": 6,
-                                "percentageQuestion": 0.33,
-                                "percentageSurvey": 0.12,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "gRPC",
-                                  "nameClean": "gRPC",
-                                  "id": "grpc",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://grpc.io/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 4,
-                                "id": "apache_spark",
-                                "index": 7,
-                                "percentageQuestion": 1.33,
-                                "percentageSurvey": 0.49,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Apache Spark",
-                                  "nameClean": "Apache Spark",
-                                  "id": "apache_spark",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://spark.apache.org/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "tokyodev",
-                                "index": 8,
-                                "percentageQuestion": 0.33,
-                                "percentageSurvey": 0.12,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "TokyoDev",
-                                  "nameClean": "TokyoDev",
-                                  "id": "tokyodev",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.tokyodev.com/"
-                                  }
-                                }
-                              },
-                              {
                                 "count": 1,
                                 "id": "tauri",
-                                "index": 9,
+                                "index": 6,
                                 "percentageQuestion": 0.33,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -391,8 +371,45 @@
                               },
                               {
                                 "count": 1,
-                                "id": "turbo",
+                                "id": "electron",
+                                "index": 9,
+                                "percentageQuestion": 0.33,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Electron",
+                                  "nameClean": "Electron",
+                                  "id": "electron",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://electronjs.org"
+                                  },
+                                  "npm": {
+                                    "url": "https://www.npmjs.com/package/electron"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "tokyodev",
                                 "index": 10,
+                                "percentageQuestion": 0.33,
+                                "percentageSurvey": 0.12,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "TokyoDev",
+                                  "nameClean": "TokyoDev",
+                                  "id": "tokyodev",
+                                  "entityType": "default",
+                                  "homepage": {
+                                    "url": "https://www.tokyodev.com/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "turbo",
+                                "index": 11,
                                 "percentageQuestion": 0.33,
                                 "percentageSurvey": 0.12,
                                 "isFreeformData": true,
@@ -405,30 +422,13 @@
                                     "url": "https://turbo.hotwired.dev/"
                                   }
                                 }
-                              },
-                              {
-                                "count": 3,
-                                "id": "unity",
-                                "index": 11,
-                                "percentageQuestion": 1,
-                                "percentageSurvey": 0.37,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Unity",
-                                  "nameClean": "Unity",
-                                  "id": "unity",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://unity.com/"
-                                  }
-                                }
                               }
                             ]
                           },
                           {
                             "count": 33,
                             "id": "no_match",
-                            "index": 2,
+                            "index": 7,
                             "percentageQuestion": 11,
                             "percentageSurvey": 4.05,
                             "isFreeformData": true
@@ -672,32 +672,29 @@
                         "count": 82,
                         "id": "other_answers",
                         "index": 14,
-                        "percentageQuestion": 12.79,
+                        "percentageQuestion": 12.8,
                         "percentageSurvey": 8.15,
                         "groupedBuckets": [
                           {
-                            "count": 22,
+                            "count": 24,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 3.47,
-                            "percentageSurvey": 2.2,
+                            "percentageQuestion": 3.79,
+                            "percentageSurvey": 2.4,
                             "groupedBuckets": [
                               {
                                 "count": 1,
-                                "id": "ui_kit",
+                                "id": "pytorch",
                                 "index": 0,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "UIKit",
-                                  "nameClean": "UIKit",
-                                  "id": "ui_kit",
+                                  "name": "PyTorch",
+                                  "nameClean": "PyTorch",
+                                  "id": "pytorch",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://getuikit.com/"
-                                  },
-                                  "npm": {
-                                    "url": "https://www.npmjs.com/package/uikit"
+                                    "url": "https://pytorch.org/"
                                   }
                                 }
                               },
@@ -719,43 +716,26 @@
                                 }
                               },
                               {
-                                "count": 2,
-                                "id": "unity",
-                                "index": 2,
-                                "percentageQuestion": 0.31,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Unity",
-                                  "nameClean": "Unity",
-                                  "id": "unity",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://unity.com/"
-                                  }
-                                }
-                              },
-                              {
                                 "count": 1,
-                                "id": "selenium",
-                                "index": 3,
+                                "id": "turbo",
+                                "index": 2,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Selenium",
-                                  "nameClean": "Selenium",
-                                  "id": "selenium",
+                                  "name": "Turbo",
+                                  "nameClean": "Turbo",
+                                  "id": "turbo",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://www.selenium.dev/"
+                                    "url": "https://turbo.hotwired.dev/"
                                   }
                                 }
                               },
                               {
                                 "count": 2,
                                 "id": "stimulus",
-                                "index": 4,
+                                "index": 3,
                                 "percentageQuestion": 0.31,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
@@ -776,25 +756,8 @@
                               },
                               {
                                 "count": 1,
-                                "id": "turbo",
-                                "index": 5,
-                                "percentageQuestion": 0.16,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Turbo",
-                                  "nameClean": "Turbo",
-                                  "id": "turbo",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://turbo.hotwired.dev/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
                                 "id": "haskell",
-                                "index": 6,
+                                "index": 4,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
@@ -809,46 +772,9 @@
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "material_ui",
-                                "index": 7,
-                                "percentageQuestion": 0.16,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Material UI",
-                                  "nameClean": "Material UI",
-                                  "id": "material_ui",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://material-ui.com/"
-                                  },
-                                  "npm": {
-                                    "url": "https://www.npmjs.com/package/@material-ui/core"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "plotly",
-                                "index": 9,
-                                "percentageQuestion": 0.16,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Plotly",
-                                  "nameClean": "Plotly",
-                                  "id": "plotly",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://plotly.com/javascript/"
-                                  }
-                                }
-                              },
-                              {
                                 "count": 2,
                                 "id": "apache_spark",
-                                "index": 10,
+                                "index": 6,
                                 "percentageQuestion": 0.31,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
@@ -864,8 +790,136 @@
                               },
                               {
                                 "count": 1,
-                                "id": "playwright",
+                                "id": "ui_kit",
+                                "index": 8,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "UIKit",
+                                  "nameClean": "UIKit",
+                                  "id": "ui_kit",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://getuikit.com/"
+                                  },
+                                  "npm": {
+                                    "url": "https://www.npmjs.com/package/uikit"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 2,
+                                "id": "unity",
+                                "index": 9,
+                                "percentageQuestion": 0.31,
+                                "percentageSurvey": 0.2,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Unity",
+                                  "nameClean": "Unity",
+                                  "id": "unity",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://unity.com/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "angular",
+                                "index": 10,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Angular",
+                                  "nameClean": "Angular",
+                                  "id": "angular",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://angular.dev/"
+                                  },
+                                  "npm": {
+                                    "url": "https://www.npmjs.com/package/@angular/core"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "plotly",
                                 "index": 11,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Plotly",
+                                  "nameClean": "Plotly",
+                                  "id": "plotly",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://plotly.com/javascript/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "streamlit",
+                                "index": 12,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Streamlit",
+                                  "nameClean": "Streamlit",
+                                  "id": "streamlit",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://streamlit.io/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "hotwire",
+                                "index": 13,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Hotwire",
+                                  "nameClean": "Hotwire",
+                                  "id": "hotwire",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://hotwired.dev/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "react",
+                                "index": 14,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "React",
+                                  "nameClean": "React",
+                                  "id": "react",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://reactjs.org/"
+                                  },
+                                  "npm": {
+                                    "url": "https://www.npmjs.com/package/react"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "playwright",
+                                "index": 15,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
@@ -886,65 +940,28 @@
                               },
                               {
                                 "count": 1,
-                                "id": "nextjs",
-                                "index": 12,
+                                "id": "material_ui",
+                                "index": 16,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "Next.js",
-                                  "nameClean": "Next.js",
-                                  "id": "nextjs",
+                                  "name": "Material UI",
+                                  "nameClean": "Material UI",
+                                  "id": "material_ui",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://nextjs.org"
+                                    "url": "https://material-ui.com/"
                                   },
                                   "npm": {
-                                    "url": "https://www.npmjs.com/package/next"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "hotwire",
-                                "index": 14,
-                                "percentageQuestion": 0.16,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Hotwire",
-                                  "nameClean": "Hotwire",
-                                  "id": "hotwire",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://hotwired.dev/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "angular",
-                                "index": 15,
-                                "percentageQuestion": 0.16,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Angular",
-                                  "nameClean": "Angular",
-                                  "id": "angular",
-                                  "entityType": "library",
-                                  "homepage": {
-                                    "url": "https://angular.dev/"
-                                  },
-                                  "npm": {
-                                    "url": "https://www.npmjs.com/package/@angular/core"
+                                    "url": "https://www.npmjs.com/package/@material-ui/core"
                                   }
                                 }
                               },
                               {
                                 "count": 2,
                                 "id": "hasura",
-                                "index": 16,
+                                "index": 17,
                                 "percentageQuestion": 0.31,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
@@ -960,32 +977,49 @@
                               },
                               {
                                 "count": 1,
-                                "id": "react",
-                                "index": 17,
+                                "id": "selenium",
+                                "index": 18,
                                 "percentageQuestion": 0.16,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "name": "React",
-                                  "nameClean": "React",
-                                  "id": "react",
+                                  "name": "Selenium",
+                                  "nameClean": "Selenium",
+                                  "id": "selenium",
                                   "entityType": "library",
                                   "homepage": {
-                                    "url": "https://reactjs.org/"
+                                    "url": "https://www.selenium.dev/"
+                                  }
+                                }
+                              },
+                              {
+                                "count": 1,
+                                "id": "nextjs",
+                                "index": 19,
+                                "percentageQuestion": 0.16,
+                                "percentageSurvey": 0.1,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "name": "Next.js",
+                                  "nameClean": "Next.js",
+                                  "id": "nextjs",
+                                  "entityType": "library",
+                                  "homepage": {
+                                    "url": "https://nextjs.org"
                                   },
                                   "npm": {
-                                    "url": "https://www.npmjs.com/package/react"
+                                    "url": "https://www.npmjs.com/package/next"
                                   }
                                 }
                               }
                             ]
                           },
                           {
-                            "count": 60,
+                            "count": 58,
                             "id": "no_match",
-                            "index": 8,
-                            "percentageQuestion": 9.32,
-                            "percentageSurvey": 5.95,
+                            "index": 5,
+                            "percentageQuestion": 9.01,
+                            "percentageSurvey": 5.75,
                             "isFreeformData": true
                           }
                         ]

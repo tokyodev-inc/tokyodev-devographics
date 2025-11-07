@@ -113,26 +113,26 @@
                                 "percentageSurvey": 0.61
                               },
                               {
-                                "count": 5,
-                                "id": "long_term_resident",
-                                "index": 0,
-                                "percentageQuestion": 0.65,
-                                "percentageSurvey": 0.61,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "id": "long_term_resident",
-                                  "entityType": "default"
-                                }
-                              },
-                              {
                                 "count": 3,
                                 "id": "working_holiday",
-                                "index": 2,
+                                "index": 0,
                                 "percentageQuestion": 0.39,
                                 "percentageSurvey": 0.37,
                                 "isFreeformData": true,
                                 "entity": {
                                   "id": "working_holiday",
+                                  "entityType": "default"
+                                }
+                              },
+                              {
+                                "count": 5,
+                                "id": "long_term_resident",
+                                "index": 1,
+                                "percentageQuestion": 0.65,
+                                "percentageSurvey": 0.61,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "long_term_resident",
                                   "entityType": "default"
                                 }
                               }
@@ -141,7 +141,7 @@
                           {
                             "count": 11,
                             "id": "no_match",
-                            "index": 1,
+                            "index": 2,
                             "percentageQuestion": 1.42,
                             "percentageSurvey": 1.35,
                             "isFreeformData": true
@@ -236,10 +236,10 @@
                         "percentageSurvey": 3.28,
                         "groupedBuckets": [
                           {
-                            "count": 21,
+                            "count": 23,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 2.2,
-                            "percentageSurvey": 2.09,
+                            "percentageQuestion": 2.41,
+                            "percentageSurvey": 2.29,
                             "groupedBuckets": [
                               {
                                 "count": 5,
@@ -254,14 +254,14 @@
                                 "percentageSurvey": 0.79
                               },
                               {
-                                "count": 4,
-                                "id": "working_holiday",
+                                "count": 2,
+                                "id": "designated_activities",
                                 "index": 0,
-                                "percentageQuestion": 0.42,
-                                "percentageSurvey": 0.4,
+                                "percentageQuestion": 0.21,
+                                "percentageSurvey": 0.2,
                                 "isFreeformData": true,
                                 "entity": {
-                                  "id": "working_holiday",
+                                  "id": "designated_activities",
                                   "entityType": "default"
                                 }
                               },
@@ -276,15 +276,27 @@
                                   "id": "long_term_resident",
                                   "entityType": "default"
                                 }
+                              },
+                              {
+                                "count": 4,
+                                "id": "working_holiday",
+                                "index": 3,
+                                "percentageQuestion": 0.42,
+                                "percentageSurvey": 0.4,
+                                "isFreeformData": true,
+                                "entity": {
+                                  "id": "working_holiday",
+                                  "entityType": "default"
+                                }
                               }
                             ]
                           },
                           {
-                            "count": 12,
+                            "count": 10,
                             "id": "no_match",
                             "index": 1,
-                            "percentageQuestion": 1.26,
-                            "percentageSurvey": 1.19,
+                            "percentageQuestion": 1.05,
+                            "percentageSurvey": 0.99,
                             "isFreeformData": true
                           }
                         ]

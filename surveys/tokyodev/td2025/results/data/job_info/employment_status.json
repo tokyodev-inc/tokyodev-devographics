@@ -89,12 +89,6 @@
                             "groupedBuckets": [
                               {
                                 "count": 1,
-                                "id": "not_employed_not_looking_for_work",
-                                "percentageQuestion": 0.13,
-                                "percentageSurvey": 0.12
-                              },
-                              {
-                                "count": 1,
                                 "id": "retired",
                                 "percentageQuestion": 0.13,
                                 "percentageSurvey": 0.12,
@@ -114,6 +108,18 @@
                                 }
                               },
                               {
+                                "count": 1,
+                                "id": "not_employed_not_looking_for_work",
+                                "percentageQuestion": 0.13,
+                                "percentageSurvey": 0.12
+                              },
+                              {
+                                "count": 5,
+                                "id": "part_time",
+                                "percentageQuestion": 0.66,
+                                "percentageSurvey": 0.61
+                              },
+                              {
                                 "count": 9,
                                 "id": "student",
                                 "percentageQuestion": 1.2,
@@ -124,12 +130,6 @@
                                   "id": "student",
                                   "entityType": "default"
                                 }
-                              },
-                              {
-                                "count": 5,
-                                "id": "part_time",
-                                "percentageQuestion": 0.66,
-                                "percentageSurvey": 0.61
                               }
                             ]
                           }
@@ -227,18 +227,6 @@
                                 }
                               },
                               {
-                                "count": 1,
-                                "id": "part_time",
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1
-                              },
-                              {
-                                "count": 3,
-                                "id": "not_employed_not_looking_for_work",
-                                "percentageQuestion": 0.32,
-                                "percentageSurvey": 0.3
-                              },
-                              {
                                 "count": 7,
                                 "id": "student",
                                 "percentageQuestion": 0.76,
@@ -251,9 +239,21 @@
                                 }
                               },
                               {
+                                "count": 3,
+                                "id": "not_employed_not_looking_for_work",
+                                "percentageQuestion": 0.32,
+                                "percentageSurvey": 0.3
+                              },
+                              {
+                                "count": 1,
+                                "id": "part_time",
+                                "percentageQuestion": 0.11,
+                                "percentageSurvey": 0.1
+                              },
+                              {
                                 "count": 2,
                                 "id": "self_employed",
-                                "index": 0,
+                                "index": 1,
                                 "percentageQuestion": 0.22,
                                 "percentageSurvey": 0.2,
                                 "isFreeformData": true,
@@ -265,7 +265,7 @@
                               {
                                 "count": 1,
                                 "id": "intern",
-                                "index": 1,
+                                "index": 2,
                                 "percentageQuestion": 0.11,
                                 "percentageSurvey": 0.1,
                                 "isFreeformData": true,
@@ -279,7 +279,7 @@
                           {
                             "count": 2,
                             "id": "no_match",
-                            "index": 2,
+                            "index": 0,
                             "percentageQuestion": 0.22,
                             "percentageSurvey": 0.2,
                             "isFreeformData": true
