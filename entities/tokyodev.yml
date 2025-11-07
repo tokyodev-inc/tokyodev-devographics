@@ -526,6 +526,20 @@
     - communities
     - sources_tokyodev
 
+- id: devippo
+  name: DevIppo
+  homepageUrl: https://devippo.com/
+  tags:
+    - communities
+    - sources_tokyodev
+
+- id: tengusec
+  name: TenguSec
+  homepageUrl: https://tengusec.tokyo/
+  tags:
+    - communities
+    - sources_tokyodev
+
 # keyboard_layout
 
 - id: uk
@@ -801,6 +815,37 @@
   tags:
     - residency_status
 
+- id: designated_activities
+  normalizationOnly: true
+  tags:
+    - residency_status
+
+# discrimination_issues
+
+- id: japanese_ability_discrimination
+  normalizationOnly: true
+  tags:
+    - discrimination_issues
+
+- id: foreign_nationality_discrimination
+  normalizationOnly: true
+  tags:
+    - discrimination_issues
+
+- id: part_time_worker_discrimination
+  normalizationOnly: true
+  tags:
+    - discrimination_issues
+
+# current_employer
+
+- id: self_employed
+  normalizationOnly: true
+  patterns:
+    - self
+  tags:
+    - current_employer
+
 # current_job_description
 
 - id: engineer
@@ -826,8 +871,36 @@
 
 - id: online_course
   normalizationOnly: true
+  patterns:
+    - mooc
   tags:
     - professional_qualifications
+
+- id: engineering_degree
+  normalizationOnly: true
+  patterns:
+    - engineering
+  tags:
+    - professional_qualifications
+
+- id: self_study
+  normalizationOnly: true
+  patterns:
+    - self
+  tags:
+    - professional_qualifications
+
+# regular_work_location
+
+- id: work_from_home
+  normalizationOnly: true
+  patterns:
+    - home
+    - house
+  tags:
+    - regular_work_location
+
+# people
 
 - id: paul_mcmahon
   name: Paul McMahon
@@ -852,3 +925,54 @@
 - id: z_com_cloud
   name: Z.com Cloud
   homepageUrl: https://z.com/jp/
+
+# initial_attraction
+
+- id: education
+  normalizationOnly: true
+  patterns:
+    - academic
+    - academia
+    - university
+  tags:
+    - initial_attraction
+    - life_japan_positive_aspects
+
+- id: affordability
+  normalizationOnly: true
+  patterns:
+    - affordable
+  tags:
+    - initial_attraction
+    - life_japan_positive_aspects
+
+# life_japan_positive_aspects
+
+- id: childcare
+  normalizationOnly: true
+  patterns:
+    - day(-| )?care
+  tags:
+    - life_japan_positive_aspects
+
+# life_japan_negative_aspects
+
+- id: bureaucracy
+  normalizationOnly: true
+  patterns:
+    - burocracy
+  tags:
+    - life_japan_negative_aspects
+
+- id: politics
+  normalizationOnly: true
+  tags:
+    - life_japan_negative_aspects
+
+- id: weather
+  normalizationOnly: true
+  patterns:
+    - too hot
+    - climate
+  tags:
+    - life_japan_negative_aspects
