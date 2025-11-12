@@ -33,6 +33,7 @@
                         "percentageSurvey": 61.84,
                         "entity": {
                           "name": "ChatGPT",
+                          "nameHtml": "ChatGPT",
                           "nameClean": "ChatGPT",
                           "id": "chat_gpt",
                           "entityType": "default",
@@ -49,6 +50,7 @@
                         "percentageSurvey": 39.54,
                         "entity": {
                           "name": "Claude",
+                          "nameHtml": "Claude",
                           "nameClean": "Claude",
                           "id": "claude",
                           "entityType": "default",
@@ -65,6 +67,7 @@
                         "percentageSurvey": 37.56,
                         "entity": {
                           "name": "GitHub Copilot",
+                          "nameHtml": "GitHub Copilot",
                           "nameClean": "GitHub Copilot",
                           "id": "copilot",
                           "entityType": "default",
@@ -81,6 +84,7 @@
                         "percentageSurvey": 29.44,
                         "entity": {
                           "name": "Google Gemini",
+                          "nameHtml": "Google Gemini",
                           "nameClean": "Google Gemini",
                           "id": "gemini",
                           "entityType": "default",
@@ -97,6 +101,7 @@
                         "percentageSurvey": 16.15,
                         "entity": {
                           "name": "Cursor",
+                          "nameHtml": "Cursor",
                           "nameClean": "Cursor",
                           "id": "cursor",
                           "entityType": "default",
@@ -113,6 +118,7 @@
                         "percentageSurvey": 13.78,
                         "entity": {
                           "name": "DeepL",
+                          "nameHtml": "DeepL",
                           "nameClean": "DeepL",
                           "id": "deepl",
                           "entityType": "default",
@@ -129,6 +135,7 @@
                         "percentageSurvey": 9.02,
                         "entity": {
                           "name": "Microsoft Copilot",
+                          "nameHtml": "Microsoft Copilot",
                           "nameClean": "Microsoft Copilot",
                           "id": "microsoft_copilot",
                           "entityType": "default",
@@ -145,6 +152,7 @@
                         "percentageSurvey": 4.96,
                         "entity": {
                           "name": "Perplexity",
+                          "nameHtml": "Perplexity",
                           "nameClean": "Perplexity",
                           "id": "perplexity",
                           "entityType": "default",
@@ -161,6 +169,7 @@
                         "percentageSurvey": 4.16,
                         "entity": {
                           "name": "Grok",
+                          "nameHtml": "Grok",
                           "nameClean": "Grok",
                           "id": "grok",
                           "entityType": "default",
@@ -177,6 +186,7 @@
                         "percentageSurvey": 2.87,
                         "entity": {
                           "name": "Devin",
+                          "nameHtml": "Devin",
                           "nameClean": "Devin",
                           "id": "devin",
                           "entityType": "default",
@@ -193,6 +203,7 @@
                         "percentageSurvey": 2.28,
                         "entity": {
                           "name": "v0",
+                          "nameHtml": "v0",
                           "nameClean": "v0",
                           "id": "v0",
                           "entityType": "default",
@@ -209,6 +220,7 @@
                         "percentageSurvey": 1.09,
                         "entity": {
                           "name": "Stable Diffusion",
+                          "nameHtml": "Stable Diffusion",
                           "nameClean": "Stable Diffusion",
                           "id": "stable_diffusion",
                           "entityType": "default",
@@ -224,10 +236,12 @@
                         "percentageQuestion": 6.16,
                         "percentageSurvey": 5.35,
                         "entity": {
-                          "name": "Not applicable\n",
-                          "nameClean": "Not applicable\n",
-                          "description": "No use cases, no pain, no issues.\n",
-                          "descriptionClean": "No use cases, no pain, no issues.\n",
+                          "name": "Not applicable",
+                          "nameHtml": "Not applicable",
+                          "nameClean": "Not applicable",
+                          "description": "No use cases, no pain, no issues.",
+                          "descriptionHtml": "No use cases, no pain, no issues.",
+                          "descriptionClean": "No use cases, no pain, no issues.",
                           "id": "na",
                           "entityType": "default"
                         }
@@ -250,369 +264,12 @@
                             "count": 53,
                             "id": "cutoff_answers",
                             "percentageQuestion": 6,
-                            "percentageSurvey": 5.27,
-                            "groupedBuckets": [
-                              {
-                                "count": 8,
-                                "id": "midjourney",
-                                "percentageQuestion": 0.91,
-                                "percentageSurvey": 0.79,
-                                "entity": {
-                                  "name": "Midjourney",
-                                  "nameClean": "Midjourney",
-                                  "id": "midjourney",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.midjourney.com"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "warp",
-                                "index": 0,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Warp",
-                                  "nameClean": "Warp",
-                                  "id": "warp",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.warp.dev/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "ollama",
-                                "index": 2,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Ollama",
-                                  "nameClean": "Ollama",
-                                  "id": "ollama",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://ollama.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "n8n",
-                                "index": 3,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "n8n",
-                                  "nameClean": "n8n",
-                                  "id": "n8n",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://n8n.io/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 8,
-                                "id": "deepseek",
-                                "index": 4,
-                                "percentageQuestion": 0.91,
-                                "percentageSurvey": 0.79,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "DeepSeek",
-                                  "nameClean": "DeepSeek",
-                                  "id": "deepseek",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.deepseek.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "amazon_q_developer",
-                                "index": 5,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Amazon Q Developer (ex-CodeWhisperer)",
-                                  "nameClean": "Amazon Q Developer (ex-CodeWhisperer)",
-                                  "id": "amazon_q_developer",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://aws.amazon.com/codewhisperer/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "jetbrains_ai",
-                                "index": 6,
-                                "percentageQuestion": 0.34,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "JetBrains AI",
-                                  "nameClean": "JetBrains AI",
-                                  "id": "jetbrains_ai",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "aider",
-                                "index": 7,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Aider",
-                                  "nameClean": "Aider",
-                                  "id": "aider",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://aider.chat/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "glean",
-                                "index": 8,
-                                "percentageQuestion": 0.34,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Glean",
-                                  "nameClean": "Glean",
-                                  "id": "glean",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.glean.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "kiro",
-                                "index": 9,
-                                "percentageQuestion": 0.34,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Kiro",
-                                  "nameClean": "Kiro",
-                                  "id": "kiro",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://kiro.dev/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "code_rabbit",
-                                "index": 11,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "CodeRabbit",
-                                  "nameClean": "CodeRabbit",
-                                  "id": "code_rabbit",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.coderabbit.ai/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "augment",
-                                "index": 12,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Augment",
-                                  "nameClean": "Augment",
-                                  "id": "augment",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.augmentcode.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "lm_studio",
-                                "index": 13,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "LM Studio",
-                                  "nameClean": "LM Studio",
-                                  "id": "lm_studio",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://lmstudio.ai/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 6,
-                                "id": "windsurf",
-                                "index": 14,
-                                "percentageQuestion": 0.68,
-                                "percentageSurvey": 0.59,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Windsurf Editor",
-                                  "nameClean": "Windsurf Editor",
-                                  "id": "windsurf",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://codeium.com/windsurf"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "amp_code",
-                                "index": 15,
-                                "percentageQuestion": 0.34,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Amp",
-                                  "nameClean": "Amp",
-                                  "id": "amp_code",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://ampcode.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "hugging_face",
-                                "index": 16,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Hugging Face",
-                                  "nameClean": "Hugging Face",
-                                  "id": "hugging_face",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://huggingface.co/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "qwen",
-                                "index": 18,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Qwen",
-                                  "nameClean": "Qwen",
-                                  "id": "qwen",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://chat.qwen.ai/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "duck_ai",
-                                "index": 19,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Duck.ai",
-                                  "nameClean": "Duck.ai",
-                                  "id": "duck_ai",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://duck.ai"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "amazon_q",
-                                "index": 20,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Amazon Q",
-                                  "nameClean": "Amazon Q",
-                                  "id": "amazon_q",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://aws.amazon.com/q"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "cline",
-                                "index": 21,
-                                "percentageQuestion": 0.11,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Cline",
-                                  "nameClean": "Cline",
-                                  "id": "cline",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://github.com/cline/cline"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "llama",
-                                "index": 22,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Llama",
-                                  "nameClean": "Llama",
-                                  "id": "llama",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://ai.meta.com/llama/"
-                                  }
-                                }
-                              }
-                            ]
+                            "percentageSurvey": 5.27
                           },
                           {
                             "count": 26,
                             "id": "no_match",
-                            "index": 17,
+                            "index": 3,
                             "percentageQuestion": 2.96,
                             "percentageSurvey": 2.58,
                             "isFreeformData": true

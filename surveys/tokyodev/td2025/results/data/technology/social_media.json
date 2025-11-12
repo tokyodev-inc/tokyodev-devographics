@@ -33,6 +33,7 @@
                         "percentageSurvey": 41.72,
                         "entity": {
                           "name": "Instagram",
+                          "nameHtml": "Instagram",
                           "nameClean": "Instagram",
                           "id": "instagram",
                           "entityType": "default",
@@ -49,6 +50,7 @@
                         "percentageSurvey": 39.84,
                         "entity": {
                           "name": "LinkedIn",
+                          "nameHtml": "LinkedIn",
                           "nameClean": "LinkedIn",
                           "id": "linkedin",
                           "entityType": "default",
@@ -65,6 +67,7 @@
                         "percentageSurvey": 39.54,
                         "entity": {
                           "name": "Reddit",
+                          "nameHtml": "Reddit",
                           "nameClean": "Reddit",
                           "id": "reddit",
                           "entityType": "default",
@@ -81,6 +84,7 @@
                         "percentageSurvey": 26.36,
                         "entity": {
                           "name": "Twitter/X",
+                          "nameHtml": "Twitter/X",
                           "nameClean": "Twitter/X",
                           "id": "twitter",
                           "entityType": "default",
@@ -97,6 +101,7 @@
                         "percentageSurvey": 18.73,
                         "entity": {
                           "name": "Facebook",
+                          "nameHtml": "Facebook",
                           "nameClean": "Facebook",
                           "id": "facebook",
                           "entityType": "default",
@@ -113,6 +118,7 @@
                         "percentageSurvey": 7.93,
                         "entity": {
                           "name": "Bluesky",
+                          "nameHtml": "Bluesky",
                           "nameClean": "Bluesky",
                           "id": "bluesky",
                           "entityType": "default",
@@ -129,6 +135,7 @@
                         "percentageSurvey": 5.55,
                         "entity": {
                           "name": "TikTok",
+                          "nameHtml": "TikTok",
                           "nameClean": "TikTok",
                           "id": "tik_tok",
                           "entityType": "default",
@@ -145,6 +152,7 @@
                         "percentageSurvey": 4.66,
                         "entity": {
                           "name": "Threads",
+                          "nameHtml": "Threads",
                           "nameClean": "Threads",
                           "id": "threads",
                           "entityType": "default",
@@ -161,6 +169,7 @@
                         "percentageSurvey": 3.37,
                         "entity": {
                           "name": "Mastodon",
+                          "nameHtml": "Mastodon",
                           "nameClean": "Mastodon",
                           "id": "mastodon",
                           "entityType": "default",
@@ -176,10 +185,12 @@
                         "percentageQuestion": 10.09,
                         "percentageSurvey": 8.52,
                         "entity": {
-                          "name": "Not applicable\n",
-                          "nameClean": "Not applicable\n",
-                          "description": "No use cases, no pain, no issues.\n",
-                          "descriptionClean": "No use cases, no pain, no issues.\n",
+                          "name": "Not applicable",
+                          "nameHtml": "Not applicable",
+                          "nameClean": "Not applicable",
+                          "description": "No use cases, no pain, no issues.",
+                          "descriptionHtml": "No use cases, no pain, no issues.",
+                          "descriptionClean": "No use cases, no pain, no issues.",
                           "id": "na",
                           "entityType": "default"
                         }
@@ -202,151 +213,12 @@
                             "count": 17,
                             "id": "cutoff_answers",
                             "percentageQuestion": 1.99,
-                            "percentageSurvey": 1.7,
-                            "groupedBuckets": [
-                              {
-                                "count": 3,
-                                "id": "mixi2",
-                                "percentageQuestion": 0.35,
-                                "percentageSurvey": 0.3,
-                                "entity": {
-                                  "name": "mixi2",
-                                  "nameClean": "mixi2",
-                                  "id": "mixi2",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://mixi.social/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "red_note",
-                                "index": 0,
-                                "percentageQuestion": 0.12,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "RedNote (Xiaohongshu)",
-                                  "nameClean": "RedNote (Xiaohongshu)",
-                                  "id": "red_note",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.xiaohongshu.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "hn",
-                                "index": 1,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Hacker News",
-                                  "nameClean": "Hacker News",
-                                  "id": "hn",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://news.ycombinator.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "substack",
-                                "index": 3,
-                                "percentageQuestion": 0.12,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Substack",
-                                  "nameClean": "Substack",
-                                  "id": "substack",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://substack.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 3,
-                                "id": "youtube",
-                                "index": 4,
-                                "percentageQuestion": 0.35,
-                                "percentageSurvey": 0.3,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "YouTube",
-                                  "nameClean": "YouTube",
-                                  "id": "youtube",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://youtube.com"
-                                  },
-                                  "youtube": {
-                                    "url": "https://youtube.com"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 4,
-                                "id": "discord",
-                                "index": 5,
-                                "percentageQuestion": 0.47,
-                                "percentageSurvey": 0.4,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Discord",
-                                  "nameClean": "Discord",
-                                  "id": "discord",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://discord.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 1,
-                                "id": "tumblr",
-                                "index": 6,
-                                "percentageQuestion": 0.12,
-                                "percentageSurvey": 0.1,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Tumblr",
-                                  "nameClean": "Tumblr",
-                                  "id": "tumblr",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://www.tumblr.com/"
-                                  }
-                                }
-                              },
-                              {
-                                "count": 2,
-                                "id": "telegram",
-                                "index": 8,
-                                "percentageQuestion": 0.23,
-                                "percentageSurvey": 0.2,
-                                "isFreeformData": true,
-                                "entity": {
-                                  "name": "Telegram",
-                                  "nameClean": "Telegram",
-                                  "id": "telegram",
-                                  "entityType": "default",
-                                  "homepage": {
-                                    "url": "https://telegram.org/"
-                                  }
-                                }
-                              }
-                            ]
+                            "percentageSurvey": 1.7
                           },
                           {
                             "count": 6,
                             "id": "no_match",
-                            "index": 2,
+                            "index": 5,
                             "percentageQuestion": 0.7,
                             "percentageSurvey": 0.59,
                             "isFreeformData": true
