@@ -2,8 +2,8 @@ query {
   surveys {
     tokyodev {
       td2025 {
-        user_info {
-          gender_by_experience: gender {
+        job_info {
+          regular_work_location_vs_job_search_status_1: regular_work_location {
             id
             comments {
               currentEdition {
@@ -11,7 +11,12 @@ query {
               }
             }
             combined(
-              facet: user_info__years_of_experience
+              facet: job_info__searching_for_job
+              filters: {
+                job_info__remote_work_policy: {
+                  eq: up_to_employee
+                }
+              }
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
@@ -59,6 +64,7 @@ query {
                     descriptionHtml
                     descriptionClean
                     id
+                    parentId
                     entityType
                     example {
                       label
@@ -159,6 +165,7 @@ query {
                       descriptionHtml
                       descriptionClean
                       id
+                      parentId
                       entityType
                       example {
                         label
