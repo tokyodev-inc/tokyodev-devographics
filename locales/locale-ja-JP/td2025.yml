@@ -28,13 +28,27 @@ translations:
   - key: faq.results_released_td2025.description
     t: アンケートは2025年9月1日から9月30日まで実施され、その直後に結果が公開されます。
 
+  #######################################################
+  #                                                     #
+  #                       Notes                         #
+  #                                                     #
+  #######################################################
+
+  - key: technology.web_frameworks.note.td2025
+    t: |
+      昨年の調査とは異なり、今年は質問に「上記以外」という選択肢を追加し、スキップせず回答できるようにしました。
+
+      この結果、今年の回答総数が増えたことにより、年ごとの比較では実際のトレンドではなく回答母数が増えた影響が現れている可能性があります。
+    aliases:
+      - technology.other_frameworks_libraries.note.td2025
+      - technology.cloud_platforms.note.td2025
+      - technology.communities.note.td2025
 
   #######################################################
   #                                                     #
   #                      INTROS                         #
   #                                                     #
   #######################################################
-
 
   - key: general.td2025.survey_intro
     t: |
@@ -44,12 +58,262 @@ translations:
 
       調査は匿名で行われ、公開されるのは集計された結果のみです。回答が多いほどよりよい知見が得られます。ぜひ数分だけご協力いただき、あわせて同僚やお知り合いにもシェアしていただけると幸いです。
 
-
   - key: user_info.user_info_intro_td2025
     t: |
       2025年版TokyoDev Surveyへのご協力ありがとうございます！全質問への回答には10分程度かかります
 
       注: 現在の状況に当てはまらない質問がある場合は、「スキップ」ボタンをご使用ください。
+
+  #######################################################
+  #                                                     #
+  #                     User Info                       #
+  #                                                     #
+  #######################################################
+
+  - key: user_info.japan_province.takeaway.td2025
+    t: |
+      回答者の78%が首都圏（東京、埼玉、千葉、神奈川）に住んでいました。[2%減少](https://2024.surveys.tokyodev.com/ja-JP/demographics/#japan_province)しています。
+
+  - key: user_info.residency_status.takeaway.td2025
+    t: |
+      回答者の60%が雇用に紐づく在留資格（エンジニアまたは高度専門職）を持っていました。
+
+  - key: user_info.country.takeaway.td2025
+    t: |
+      回答者は81の国や地域から集まり、非常に多様なコミュニティとなりました。
+
+  - key: user_info.age.takeaway.td2025
+    t: |
+      回答者の81%が20〜39歳の間でした。
+
+  - key: user_info.relationship_status.takeaway.td2025
+    t: |
+      回答者の73%が何らかの形のパートナーシップ関係にあると回答しました。
+
+  - key: user_info.number_of_kids.takeaway.td2025
+    t: |
+      回答者の71%は子どもがいないと回答しました。ただし、既婚者に限ると47%が子どもありと回答しました。
+
+  - key: user_info.gender.takeaway.td2025
+    t: |
+      男性の経験年数の中央値は8年、女性は5.5年でした。また、男性の75パーセンタイルは12年、女性は9年と、経験の蓄積に大きな差がありました。
+
+      この差が年収中央値の46%差の一因となっています。ただし経験6年以下では男女差はありませんでした。一方、7〜9年の経験層では男性が62%高く、10年以上では67%高い結果でした。
+
+      女性が直面する課題の背景は複雑ですが、日本のテック業界における性別格差は明らかです。具体的な改善策は[こちらの記事](https://www.tokyodev.com/articles/hiring-women-on-your-engineering-team)をご覧ください。
+
+  - key: user_info.years_of_experience.takeaway.td2025
+    t: |
+      回答者のソフトウェア開発経験の中央値は7年でした。
+
+      経験年数が増えるほど年収も上昇し、経験1年未満の年収中央値は280万円、20年以上では1,460万円に達しました。
+
+  - key: user_info.years_in_japan.takeaway.td2025
+    t: |
+      回答者の日本在住年数の中央値は5年でした。
+
+      インド出身の回答者は全体の7%でしたが、日本在住1年未満の層では14%を占めました。
+
+  - key: user_info.professional_qualifications.takeaway.td2025
+    t: |
+      回答者の74%がコンピュータサイエンス関連の学士号以上を取得していました。
+
+  - key: user_info.language_proficiency_english.takeaway.td2025
+    t: |
+      回答者の96%が職場で英語を使うのに問題がないと回答しました。
+
+  - key: user_info.language_proficiency_japanese.takeaway.td2025
+    t: |
+      回答者の41%が職場で日本語を使うのに問題がないと回答しました。
+
+  #######################################################
+  #                                                     #
+  #                     Job Info                        #
+  #                                                     #
+  #######################################################
+
+  - key: job_info.employment_status.takeaway.td2025
+    t: |
+      もっとも高い年収中央値だったのは役員職で1,600万円、もっとも低いのは派遣・臨時雇用で600万円でした。
+
+      また、役員職の82%が英語ネイティブまたはバイリンガルである一方、派遣・臨時雇用では36%でした。
+
+  - key: job_info.job_title.takeaway.td2025
+    t: |
+      エンジニアリングマネージャー／マネージャーの年収中央値は1,250万円、シニアエンジニアは1,050万円、ソフトウェアエンジニアは850万円、システムエンジニアは350万円で最も低い結果でした。
+
+  - key: job_info.current_employer.takeaway.td2025
+    t: |
+      外資系の日本法人に勤める回答者は、日本本社企業に勤める回答者よりも35%高い給与でした。
+
+      この差は年々縮小傾向にあり、2022年の93%→2023年の73%→2024年の47%→2025年の35%へと減少しています。
+
+  - key: job_info.languages_used_colleagues_english.takeaway.td2025
+    t: |
+      常に英語を使うと回答した人は年収中央値1,050万円ともっとも高く、日本本社企業で働いている割合は最低でした。
+
+  - key: job_info.languages_used_colleagues_japanese.takeaway.td2025
+    t: |
+      常に同僚と日本語で会話すると回答した人の83%が日本本社企業に勤めていました。一方、日本語をまったく使わない層では40%でした。
+
+  - key: job_info.work_hours_per_week.takeaway.td2025
+    t: |
+      週50時間以上働く回答者の32%が転職活動中で、全体の18%と比べて高い割合でした。
+
+  - key: job_info.regular_work_location.takeaway.td2025
+    t: |
+      リモート可でも45%の回答者が定期的に出社していました。出社する人の転職活動率は12%で、自宅の専用ワークスペースで働く人の17%より低い結果でした。
+
+  - key: job_info.searching_for_job.takeaway.td2025
+    t: |
+      リモートワーク不可の回答者の42%が転職活動をしており、ハイブリッドまたはフルリモートの回答者の2倍以上でした。
+
+      経験年数の差では説明できず、同じ経験年数層でもリモート不可の人のほうが転職活動率が高い傾向でした。
+
+  - key: job_info.discrimination_issues.takeaway.td2025
+    t: |
+      女性の32%が性別またはジェンダーアイデンティティに基づく差別を受けたと回答した一方、男性では2%でした。
+
+      また、政治的信条・所属で差別を受けたと回答した人は年収中央値1,850万円と、全体の中央値の約2倍でした。
+
+  - key: job_info.job_happiness.takeaway.td2025
+    t: |
+      現在の仕事にネガティブと回答したのは16%のみでした。
+
+      非常に満足している人で転職活動中だったのは1%未満でしたが、不満足な人では61%が転職活動中でした。
+
+  - key: job_info.industry_sector.takeaway.td2025
+    t: |
+      もっとも年収が低かったのはゲーム業界とコンサル・サービス業界で、それぞれ中央値は750万円でした。
+
+      これらの業界は同僚と日本語のみを使用する割合ももっとも高い傾向にありました。
+
+  - key: job_info.meeting_hours_per_week.takeaway.td2025
+    t: |
+      会議時間が長いほど経験年数も長い傾向があり、会議ゼロの回答者の経験中央値は3.6年、週15時間以上では13年でした。
+
+  - key: job_info.remote_work_policy.takeaway.td2025
+    t: |
+      リモートワーク選択制は昨年の38%から32%へ減少し、ハイブリッド勤務が37%から43%へ増加しました。
+
+      完全リモートの回答者は平均満足度3.8、リモート不可は2.9、ハイブリッドは3.4でした。
+
+  - key: job_info.company_size.takeaway.td2025
+    t: |
+      回答者の18%が従業員1万人以上の大企業に勤めていましたが、年収2,000万円以上の回答者の44%はこうした大企業で勤務していました。
+
+  - key: job_info.current_total_annual_compensation.takeaway.td2025
+    t: |
+      回答者の年収中央値は950万円で、昨年の850万円から増加しました。10%の回答者が2,000万円以上と回答しました。
+
+  - key: job_info.income_evolution.takeaway.td2025
+    t: |
+      6%の回答者が前年より収入が減ったと答えました。収入減と答えた人の経験中央値は10年で、収入増・横ばいと答えた人（中央値7年）より経験が長い傾向がありました。
+
+  #######################################################
+  #                                                     #
+  #                    Technology                       #
+  #                                                     #
+  #######################################################
+
+  - key: technology.programming_languages.takeaway.td2025
+    t: |
+      Pythonがもっとも人気の言語となりました。
+
+      使用言語と年収には相関が見られましたが、主に経験年数の違いによるものでした。Elixir、Kotlin、Swiftの利用者の年収中央値は1,250万円で、経験中央値はそれぞれ18年、10.5年、10年。一方、DartとPHP利用者の年収中央値は550万円で、経験中央値は5年でした。
+
+  - key: technology.web_frameworks.takeaway.td2025
+    t: |
+      Reactが引き続きもっとも人気のあるWebフレームワークでした。
+
+  - key: technology.cloud_platforms.takeaway.td2025
+    t: |
+      AWSがもっとも使用されているクラウドプラットフォームでした。
+
+  - key: technology.software_engineering_practices.takeaway.td2025
+    t: |
+      英語使用頻度が高いほど、継続的インテグレーション、監視・ログ、自動テスト、IaCなどのベストプラクティス導入率が高い傾向が見られました。唯一、ウォーターフォール開発のみ英語非使用層のほうが導入率が高い結果でした。
+
+  - key: technology.social_media.takeaway.td2025
+    t: |
+      日本語ネイティブまたはバイリンガルの回答者ではTwitter/Xの利用が57%ともっとも多く、英語ネイティブでは25%でした。一方、Redditは英語ネイティブの55%、日本語ネイティブの34%が利用していました。
+
+      アンケート回答者の多くはSNS以外から調査を知りましたが、SNS経由ではRedditとLinkedInがもっとも一般的な流入元でした。
+
+  #######################################################
+  #                                                     #
+  #                       AI Usage                      #
+  #                                                     #
+  #######################################################
+
+  - key: ai_usage.ai_tools.takeaway.td2025
+    t: |
+      回答者の94%が日常的にAIツールを使用していました。Devin利用者の86%が日本本社企業に所属しており、Grok利用者では62%でした。
+
+  - key: ai_usage.ai_uses.takeaway.td2025
+    t: |
+      最も一般的なAIの用途はコード生成でした。
+
+      要約機能の利用率は全体で47%でしたが、エンジニアリングマネージャーやCTOなどリーダー職では71%に達しました。
+
+  - key: ai_usage.ai_generated_code_balance.takeaway.td2025
+    t: |
+      回答者の33%が、自身のコードの半分以上をAIで生成していました。
+
+  - key: ai_usage.ai_pain_points.takeaway.td2025
+    t: |
+      性別を問わず、もっとも大きな懸念は「幻覚（誤情報生成）」と「コード品質」でした。ただし女性はより広範な社会的影響を懸念しており、倫理36%、プライバシー32%、環境28%と、男性より高い割合で回答していました。
+
+  - key: ai_usage.more_productive.takeaway.td2025
+    t: |
+      AIツールによって「大幅に生産性が向上した」に同意しないと回答したのは16%のみでした。
+
+  - key: ai_usage.job_security_threat.takeaway.td2025
+    t: |
+      回答者の19%だけが、AIが自身の雇用を脅かすと考えていました。
+
+  - key: ai_usage.ai_code_generation_frequency.takeaway.td2025
+    t: |
+      AIを頻繁に使用する回答者ほど経験年数が短い傾向にあり、AI未使用者の経験中央値は10年、常用者は6年でした。
+
+  #######################################################
+  #                                                     #
+  #                   Life in Japan                     #
+  #                                                     #
+  #######################################################
+
+  - key: life_in_japan.friend_group_balance.takeaway.td2025
+    t: |
+      日本語能力が高いほど日本人の友人が多い傾向があり、日本語能力ゼロの回答者では91%が「友人はほとんど外国人」と回答した一方、ビジネスレベル以上の回答者では44%でした。
+
+  - key: life_in_japan.hobbies.takeaway.td2025
+    t: |
+      回答者の主要な趣味はビデオゲーム、プログラミング、映画・テレビ鑑賞と、スクリーンを使うものが上位を占めました。
+
+  - key: life_in_japan.initial_attraction.takeaway.td2025
+    t: |
+      日本に惹かれた理由は国籍によって異なり、米国籍では日本語への興味、インド籍ではキャリア機会、日本籍では家族が理由として多く挙げられました。
+
+  - key: life_in_japan.life_japan_positive_aspects.takeaway.td2025
+    t: |
+      利便性はどの国籍の回答者にとっても、日本の良い点として高く評価されていました。米国籍と日本籍では医療制度も高く評価され、インド籍は旅行・冒険の機会を挙げる傾向がありました。
+
+  - key: life_in_japan.life_japan_negative_aspects.takeaway.td2025
+    t: |
+      国籍に関係なく、もっとも多く挙げられた日本の課題は「給与の低さ」でした。その次に、非日本籍は孤立感や文化的障壁、日本籍は同調圧力を挙げる傾向がありました。
+
+  - key: life_in_japan.communities.takeaway.td2025
+    t: |
+      回答者の半数は開発者コミュニティに参加していませんでした。
+
+      TokyoDev Discordの参加者の年収中央値は750万円、オフラインイベントに参加した人は950万円で、Discord参加者のほうが経験年数も1年ほど短い傾向がありました。
+
+  #######################################################
+  #                                                     #
+  #            RESULTS INTRO OVERVIEW                   #
+  #                                                     #
+  #######################################################
+
   - key: overview_1_median_compensation.td2025
     t: |
       # 2025年TokyoDev開発者アンケートの洞察
@@ -164,10 +428,21 @@ translations:
 
       [全調査結果](https://2025.surveys.tokyodev.com/ja-JP)にはさらに多くの知見があります。独自チャート作成機能もあるので、ぜひデータを自由に探索してください。面白い発見があれば[コミュニティ](https://discord.gg/seUNe38YgV)で共有も歓迎です。
 
-  - key: user_info.japan_province.takeaway.td2025
-    t: |
-      回答者の78%が首都圏（東京、埼玉、千葉、神奈川）に住んでいました。[2%減少](https://2024.surveys.tokyodev.com/ja-JP/demographics/#japan_province)しています。
+  #######################################################
+  #                                                     #
+  #                    Conclusion                       #
+  #                                                     #
+  #######################################################
 
-  - key: user_info.residency_status.takeaway.td2025
+  - key: conclusion.td2025.paul_mcmahon.bio
+    t: 代表取締役
+
+  - key: conclusion.td2025.paul_mcmahon
     t: |
-      回答者の60%が雇用に紐づく在留資格（エンジニアまたは高度専門職）を持っていました。
+      TokyoDevの調査は日本のデベロッパーやコミュニティのサポートなしに実施することができません。ご協力いただいた皆さん、本当にありがとうございました！
+
+      これで日本で開発者として働く生活の実態が少し見えてきたのではないでしょうか。[日本で開発者として働くためのガイド](https://www.tokyodev.com/articles/first-job-programmer-japan)や、[英語で応募できる開発者向け求人](https://www.tokyodev.com/jobs)もぜひご覧ください。
+
+      また、[7000人以上の開発者が参加するDiscordコミュニティ](https://discord.gg/seUNe38YgV)にもぜひ参加して、日本での開発者ライフについて情報交換をしましょう。
+
+      最後に、今後アンケートを実施する際にお知らせを希望される場合は、ぜひ下記のメールリストにご登録ください！
