@@ -1,42 +1,6 @@
 - id: user_info
   messageId: user_info.user_info_intro_td2025
   questions:
-    - id: referrer
-      hidden: true
-      template: referrer
-      matchType: single
-      matchTags:
-        [
-          people,
-          sites,
-          newsletters,
-          video_creators,
-          podcasts,
-          surveys,
-          events,
-          sources_tokyodev,
-          socialmedia,
-          common_sources,
-        ]
-
-    - id: sourcetag
-      hidden: true
-      template: sourcetag
-      matchType: single
-      matchTags:
-        [
-          people,
-          sites,
-          newsletters,
-          video_creators,
-          podcasts,
-          surveys,
-          events,
-          sources_tokyodev,
-          socialmedia,
-          common_sources,
-        ]
-
     - id: japan_province
       label: "Where do you currently reside?"
       template: dropdown
@@ -433,6 +397,44 @@
     #       upperBound: 51
     #     - id: range_over_50
     #       lowerBound: 51
+
+    - id: referrer
+      hidden: true
+      disableFiltering: true
+      template: referrer
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_tokyodev,
+          socialmedia,
+          common_sources,
+        ]
+
+    - id: sourcetag
+      hidden: true
+      disableFiltering: true
+      template: sourcetag
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_tokyodev,
+          socialmedia,
+          common_sources,
+        ]
 
 - id: job_info
   messageId: sections.job_info.intro
