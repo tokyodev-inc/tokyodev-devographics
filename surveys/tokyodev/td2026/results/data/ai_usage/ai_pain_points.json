@@ -1,0 +1,150 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2025": {
+          "ai_usage": {
+            "ai_pain_points": {
+              "id": "ai_pain_points",
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
+                    "completion": {
+                      "count": 862,
+                      "percentageSurvey": 85.43,
+                      "total": 1009
+                    },
+                    "buckets": [
+                      {
+                        "count": 583,
+                        "id": "hallucinations_inaccuracies",
+                        "index": 0,
+                        "percentageQuestion": 67.63,
+                        "percentageSurvey": 57.78,
+                        "entity": {
+                          "id": "hallucinations_inaccuracies",
+                          "entityType": "default"
+                        }
+                      },
+                      {
+                        "count": 498,
+                        "id": "poor_generated_code",
+                        "index": 1,
+                        "percentageQuestion": 57.77,
+                        "percentageSurvey": 49.36
+                      },
+                      {
+                        "count": 326,
+                        "id": "lack_of_context",
+                        "index": 2,
+                        "percentageQuestion": 37.82,
+                        "percentageSurvey": 32.31
+                      },
+                      {
+                        "count": 193,
+                        "id": "privacy_concerns",
+                        "index": 3,
+                        "percentageQuestion": 22.39,
+                        "percentageSurvey": 19.13,
+                        "entity": {
+                          "id": "privacy_concerns",
+                          "entityType": "default"
+                        }
+                      },
+                      {
+                        "count": 179,
+                        "id": "ethical_concerns",
+                        "index": 4,
+                        "percentageQuestion": 20.77,
+                        "percentageSurvey": 17.74,
+                        "entity": {
+                          "id": "ethical_concerns",
+                          "entityType": "default"
+                        }
+                      },
+                      {
+                        "count": 161,
+                        "id": "environmental_impact",
+                        "index": 5,
+                        "percentageQuestion": 18.68,
+                        "percentageSurvey": 15.96
+                      },
+                      {
+                        "count": 134,
+                        "id": "costs",
+                        "index": 6,
+                        "percentageQuestion": 15.55,
+                        "percentageSurvey": 13.28
+                      },
+                      {
+                        "count": 106,
+                        "id": "integration_difficulties",
+                        "index": 7,
+                        "percentageQuestion": 12.3,
+                        "percentageSurvey": 10.51
+                      },
+                      {
+                        "count": 90,
+                        "id": "misunderstood_prompt",
+                        "index": 8,
+                        "percentageQuestion": 10.44,
+                        "percentageSurvey": 8.92
+                      },
+                      {
+                        "count": 59,
+                        "id": "training_data_concerns",
+                        "index": 9,
+                        "percentageQuestion": 6.84,
+                        "percentageSurvey": 5.85
+                      },
+                      {
+                        "count": 147,
+                        "id": "no_answer",
+                        "index": 10,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.57
+                      },
+                      {
+                        "count": 13,
+                        "id": "other_answers",
+                        "index": 11,
+                        "percentageQuestion": 1.51,
+                        "percentageSurvey": 1.29,
+                        "groupedBuckets": [
+                          {
+                            "count": 1,
+                            "id": "cutoff_answers",
+                            "percentageQuestion": 0.12,
+                            "percentageSurvey": 0.1
+                          },
+                          {
+                            "count": 12,
+                            "id": "no_match",
+                            "index": 0,
+                            "percentageQuestion": 1.39,
+                            "percentageSurvey": 1.19,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

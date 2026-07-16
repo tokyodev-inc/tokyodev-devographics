@@ -1,0 +1,81 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2025": {
+          "job_info": {
+            "company_size_high_salaries_1": {
+              "id": "company_size",
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
+                    "completion": {
+                      "count": 83,
+                      "percentageSurvey": 8.23,
+                      "total": 1009
+                    },
+                    "average": 5850.2,
+                    "percentiles": {
+                      "p50": 7500
+                    },
+                    "buckets": [
+                      {
+                        "count": 11,
+                        "id": "range_1000_4999",
+                        "value": 3000,
+                        "index": 0,
+                        "percentageQuestion": 13.25,
+                        "percentageSurvey": 1.09
+                      },
+                      {
+                        "count": 13,
+                        "id": "range_5000_9999",
+                        "value": 7500,
+                        "index": 1,
+                        "percentageQuestion": 15.66,
+                        "percentageSurvey": 1.29
+                      },
+                      {
+                        "count": 35,
+                        "id": "range_over_10000",
+                        "value": 10000,
+                        "index": 2,
+                        "percentageQuestion": 42.17,
+                        "percentageSurvey": 3.47
+                      },
+                      {
+                        "count": 0,
+                        "id": "no_answer",
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0,
+                        "hasInsufficientData": true
+                      },
+                      {
+                        "count": 24,
+                        "id": "other_answers",
+                        "index": 4,
+                        "percentageQuestion": 28.91,
+                        "percentageSurvey": 2.39
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

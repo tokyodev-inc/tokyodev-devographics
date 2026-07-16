@@ -187,6 +187,23 @@ translations:
   - key: options.residency_status.tourist
     t: Tourist
 
+  # remaining_in_japan
+  - key: user_info.remaining_in_japan
+    t: Remaining in Japan
+  - key: user_info.remaining_in_japan.question
+    t: How long do you plan to remain in Japan?
+
+  - key: options.remaining_in_japan.leave_soon
+    t: I plan to leave Japan soon
+  - key: options.remaining_in_japan.few_more_years
+    t: I plan to stay for a few more years, then leave
+  - key: options.remaining_in_japan.leave_eventually
+    t: I plan to spend much of my career in Japan, but eventually leave
+  - key: options.remaining_in_japan.stay_permanently
+    t: I plan to stay in Japan permanently
+  - key: options.remaining_in_japan.not_sure
+    t: I'm not sure
+
   # reason_for_relocation
   - key: user_info.reason_for_relocation
     t: Relocation Circumstances
@@ -1332,6 +1349,56 @@ translations:
   - key: options.job_happiness.5
     aliasFor: options.happiness.5
 
+  # overtime_hours
+
+  - key: job_info.overtime_hours
+    t: Overtime Hours
+  - key: job_info.overtime_hours.question
+    t: In a typical month, how many hours of overtime do you work?
+
+  - key: options.overtime_hours.range_0
+    t: None
+  - key: options.overtime_hours.range_1_9
+    t: Under 10 hours per month
+  - key: options.overtime_hours.range_10_19
+    t: 10–19 hours per month
+  - key: options.overtime_hours.range_20_29
+    t: 20–29 hours per month
+  - key: options.overtime_hours.range_30_39
+    t: 30–39 hours per month
+  - key: options.overtime_hours.range_40_49
+    t: 40–49 hours per month
+  - key: options.overtime_hours.range_over_50
+    t: 50 or more hours per month
+
+  # overtime_pay
+
+  - key: job_info.overtime_pay
+    t: Overtime Pay
+  - key: job_info.overtime_pay.question
+    t: Does your compensation include a predetermined amount of overtime pay (みなし残業/minashi zangyō)?
+
+  - key: options.overtime_pay.yes
+    t: "Yes"
+  - key: options.overtime_pay.no
+    t: "No"
+  - key: options.overtime_pay.not_sure
+    t: I'm not sure
+
+  # working_hours_policy
+
+  - key: job_info.working_hours_policy
+    t: Working Hours
+  - key: job_info.working_hours_policy.question
+    t: Which best describes your company's working hours policy?
+
+  - key: options.working_hours_policy.fixed
+    t: Fixed working hours
+  - key: options.working_hours_policy.flexible_with_core_hours
+    t: Flexible working hours with core hours
+  - key: options.working_hours_policy.fully_flexible
+    t: Fully flexible working hours (no core hours)
+
   #######################################################
   #                                                     #
   #                 WORK ENVIRONMENT                    #
@@ -1661,7 +1728,6 @@ translations:
     t: 💹
     aliases:
       - job_info.income_evolution.emoji
-
   #######################################################
   #                                                     #
   #                     TECHNOLOGY                      #
@@ -1700,6 +1766,15 @@ translations:
     t: Which other frameworks and libraries do you regularly use at your job?
   - key: technology.other_frameworks_libraries.emoji
     t: 📖
+
+  - key: options.other_frameworks_libraries.ai_data
+    t: AI, Machine Learning & Data Science
+  - key: options.other_frameworks_libraries.application_development
+    t: Application Development
+  - key: options.other_frameworks_libraries.infrastructure
+    t: Infrastructure & Messaging
+  - key: options.other_frameworks_libraries.other
+    t: Other Libraries
 
   # developer_tools
   - key: technology.developer_tools
@@ -2057,6 +2132,47 @@ translations:
     t: 🔒
     aliases:
       - opinions.job_security_threat.emoji
+
+  # ai_management_pressure
+
+  - key: ai_usage.ai_management_pressure
+    t: AI Stance
+  - key: ai_usage.ai_management_pressure.question
+    t: What's your company's stance regarding AI usage?
+  - key: ai_usage.ai_management_pressure.prompt
+    t: If you do not work for a company, feel free to skip.
+
+  - key: options.ai_management_pressure.0
+    t: My company discourages AI use
+
+  - key: options.ai_management_pressure.1
+    t: My company is neutral towards AI
+
+  - key: options.ai_management_pressure.2
+    t: My company encourages AI use, but it does not affect my behavior
+
+  - key: options.ai_management_pressure.3
+    t: My company encourages AI use, and I use AI more than I otherwise would as a result
+  - key: options.ai_management_pressure.3.description
+    t: |
+      Example: minimum AI usage quotas, token use leaderboard, etc.
+
+  # ai_impact
+  - key: ai_usage.ai_impact
+    t: AI Impact
+  - key: ai_usage.ai_impact.question
+    t: Overall, how has AI use affected your day-to-day experience as a software developer?
+
+  - key: options.ai_impact.0
+    t: It has made it much worse
+  - key: options.ai_impact.1
+    t: It has made it somewhat worse
+  - key: options.ai_impact.2
+    t: It has had little or no impact
+  - key: options.ai_impact.3
+    t: It has made it somewhat better
+  - key: options.ai_impact.4
+    t: It has made it much better
 
   #######################################################
   #                                                     #
@@ -2489,6 +2605,42 @@ translations:
     aliasFor: options.life_in_japan.financial_situation.description
   - key: options.life_in_japan.financial_situation.emoji
     t: 💹
+
+  # yen_value
+  - key: life_in_japan.yen_value
+    t: Yen Value
+  - key: life_in_japan.yen_value.question
+    t: How has the weakening yen affected your personal finances?
+
+  - key: options.yen_value.0
+    t: Significant negative impact
+  - key: options.yen_value.1
+    t: Moderate negative impact
+  - key: options.yen_value.2
+    t: Little or no impact
+  - key: options.yen_value.3
+    t: Moderate positive impact
+  - key: options.yen_value.4
+    t: Significant positive impact
+
+  # quality_of_life_over_time
+  - key: life_in_japan.quality_of_life_over_time
+    t: Quality of Life
+  - key: life_in_japan.quality_of_life_over_time.question
+    t: How has your overall quality of life changed since first arriving in Japan?
+  - key: life_in_japan.quality_of_life_over_time.prompt
+    t: Taking into account the various factors mentioned above.
+
+  - key: options.quality_of_life_over_time.0
+    t: It's gotten a lot worse
+  - key: options.quality_of_life_over_time.1
+    t: It's gotten slightly worse
+  - key: options.quality_of_life_over_time.2
+    t: It's remained about the same
+  - key: options.quality_of_life_over_time.3
+    t: It's gotten slightly better
+  - key: options.quality_of_life_over_time.4
+    t: It's gotten a lot better
 
   # online_communities
   - key: other.online_communities
