@@ -188,9 +188,9 @@ translations:
     t: Tourist
 
   # remaining_in_japan
-  - key: user_info.remaining_in_japan
+  - key: life_in_japan.remaining_in_japan
     t: Remaining in Japan
-  - key: user_info.remaining_in_japan.question
+  - key: life_in_japan.remaining_in_japan.question
     t: How long do you plan to remain in Japan?
 
   - key: options.remaining_in_japan.leave_soon
@@ -1891,10 +1891,19 @@ translations:
     t: AI Tools
   - key: ai_usage.ai_tools.question
     t: Which AI tools do you use regularly?
-  - key: ai_usage.ai_tools.prompt
-    t: Only select tools that you use once a week or more.
+  # - key: ai_usage.ai_tools.prompt
+  #   t: Only select tools that you use once a week or more.
   - key: ai_usage.ai_tools.emoji
     t: 🤖
+
+  - key: options.ai_tools.assistants
+    t: AI Assistants/Chatbots
+  - key: options.ai_tools.agents
+    t: AI Agents
+  - key: options.ai_tools.image_generation
+    t: Image Generation
+  - key: options.ai_tools.other
+    t: Other AI Tools
 
     # ai_uses
 
@@ -2484,6 +2493,48 @@ translations:
     t: Work culture
   - key: options.life_japan_negative_aspects.work_culture.description
     t: Long hours, slow decision-making, and hierarchical environments can be draining.
+
+  - key: life_in_japan.new_immigration_measures
+    t: Immigration Measures
+  - key: life_in_japan.new_immigration_measures.question
+    t: Which impacts have the current Japanese government's new immigration measures had on your life?
+  - key: life_in_japan.new_immigration_measures.prompt
+    t: Including higher visa renewal fees, stricter Business Manager visa requirements, etc.
+
+  - key: options.new_immigration_measures.higher_financial_burden
+    t: Higher financial burden
+  - key: options.new_immigration_measures.higher_financial_burden.description
+    t: Higher financial burden for visa obtention or renewal procedures, etc.
+
+  - key: options.new_immigration_measures.greater_uncertainty
+    t: Long-term uncertainty
+  - key: options.new_immigration_measures.greater_uncertainty.description
+    t: Uncertainty around long-term plans to live in Japan.
+
+  - key: options.new_immigration_measures.career_impacts
+    t: Negative career impacts
+  - key: options.new_immigration_measures.career_impacts.description
+    t: Difficulties changing jobs or careers, getting properly compensated, etc.
+
+  - key: options.new_immigration_measures.visa_status
+    t: Tougher visa procedures
+  - key: options.new_immigration_measures.visa_status.description
+    t: Difficulties obtaining your desired visa status.
+
+  - key: options.new_immigration_measures.overall_perception
+    t: Perception of being unwelcome
+  - key: options.new_immigration_measures.overall_perception.description
+    t: Overall increase in anti-foreigner sentiment.
+
+  - key: options.new_immigration_measures.increased_anxiety
+    t: Increased anxiety
+  - key: options.new_immigration_measures.increased_anxiety.description
+    t: Increased general anxiety related to immigration issues.
+
+  - key: options.new_immigration_measures.housing_impacts
+    t: Housing impacts
+  - key: options.new_immigration_measures.housing_impacts.description
+    t: Difficulty finding housing, or committing to real estate purchases.
 
   #######################################################
   #                                                     #

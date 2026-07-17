@@ -645,6 +645,7 @@
     #       lowerBound: 51
 
     - id: working_hours_policy
+      yearAdded: 2026
       template: singleWithOther
       options:
         - id: fixed
@@ -652,6 +653,7 @@
         - id: fully_flexible
 
     - id: overtime_hours
+      yearAdded: 2026
       template: single
       optionsAreRange: true
       optionsAreSequential: true
@@ -685,6 +687,7 @@
           average: 55
 
     - id: overtime_pay
+      yearAdded: 2026
       template: single
       options:
         - id: yes
@@ -1908,20 +1911,46 @@
       template: multipleWithOther
       options:
         - id: chat_gpt
-        - id: chat_gpt_codex
+          group: assistants
         - id: claude
-        - id: claude_code
-        - id: copilot
-        - id: cursor
-        - id: deepl
-        - id: devin
+          group: assistants
         - id: gemini
-        - id: grok
-        - id: microsoft_copilot
-        - id: midjourney
+          group: assistants
         - id: perplexity
-        - id: stable_diffusion
-        - id: v0
+          group: assistants
+        - id: deepseek
+          group: assistants
+        - id: grok
+          group: assistants
+        - id: llama
+          group: assistants
+        - id: microsoft_copilot
+          group: assistants
+        - id: kimi
+          group: assistants
+
+        - id: open_ai_codex
+          group: agents
+        - id: claude_code
+          group: agents
+        - id: copilot
+          group: agents
+        - id: open_code
+          group: agents
+        - id: cursor
+          group: agents
+        - id: windsurf
+          group: agents
+
+        - id: midjourney
+          group: image_generation
+        - id: nano_banana
+          group: image_generation
+        - id: chat_gpt_images
+          group: image_generation
+        - id: adobe_firefly
+          group: image_generation
+
         - id: na
 
     # removed in 2026
@@ -1970,10 +1999,6 @@
     #     - id: privacy_concerns
     #     - id: training_data_concerns
 
-    - id: ai_management_pressure
-
-    - id: ai_impact
-
     - id: more_productive
       template: opinion
 
@@ -1981,6 +2006,7 @@
       template: opinion
 
     - id: ai_management_pressure
+      yearAdded: 2026
       template: single
       optionsAreNumeric: true
       optionsAreSequential: true
@@ -1991,6 +2017,7 @@
         - id: 3
 
     - id: ai_impact
+      yearAdded: 2026
       template: single
       optionsAreNumeric: true
       optionsAreSequential: true
@@ -2105,6 +2132,18 @@
         - id: leave_eventually
         - id: stay_permanently
         - id: not_sure
+
+    - id: new_immigration_measures
+      template: multipleWithOther
+      yearAdded: 2026
+      options:
+        - id: higher_financial_burden
+        - id: greater_uncertainty
+        - id: career_impacts
+        - id: visa_status
+        - id: overall_perception
+        - id: increased_anxiety
+        - id: housing_impacts
 
     - id: communities
       sectionId: other
