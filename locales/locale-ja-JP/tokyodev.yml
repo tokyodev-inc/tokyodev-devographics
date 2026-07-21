@@ -183,6 +183,23 @@ translations:
   - key: options.residency_status.tourist
     t: 旅行者
 
+  # remaining_in_japan
+  - key: life_in_japan.remaining_in_japan
+    t: 日本での今後の滞在予定
+  - key: life_in_japan.remaining_in_japan.question
+    t: 今後どのくらい日本に滞在する予定ですか？
+
+  - key: options.remaining_in_japan.leave_soon
+    t: 近いうちに日本を離れる予定
+  - key: options.remaining_in_japan.few_more_years
+    t: あと数年日本に滞在してから離れる予定
+  - key: options.remaining_in_japan.leave_eventually
+    t: 日本で長く働くつもりだが、いずれは離れる予定
+  - key: options.remaining_in_japan.stay_permanently
+    t: 日本に永住する予定
+  - key: options.remaining_in_japan.not_sure
+    t: わからない
+
   # reason_for_relocation
   - key: user_info.reason_for_relocation
     t: 日本に移住した理由
@@ -1163,6 +1180,56 @@ translations:
   - key: job_info.job_happiness.question # TODO
     t: 現在の仕事にどのくらい満足していますか？ # Gemini
 
+  # overtime_hours
+
+  - key: job_info.overtime_hours
+    t: 残業時間
+  - key: job_info.overtime_hours.question
+    t: 通常、1か月あたりの残業時間はどのくらいですか？
+
+  - key: options.overtime_hours.range_0
+    t: なし
+  - key: options.overtime_hours.range_1_9
+    t: 月10時間未満
+  - key: options.overtime_hours.range_10_19
+    t: 月10～19時間
+  - key: options.overtime_hours.range_20_29
+    t: 月20～29時間
+  - key: options.overtime_hours.range_30_39
+    t: 月30～39時間
+  - key: options.overtime_hours.range_40_49
+    t: 月40～49時間
+  - key: options.overtime_hours.range_over_50
+    t: 月50時間以上
+
+  # overtime_pay
+
+  - key: job_info.overtime_pay
+    t: みなし残業
+  - key: job_info.overtime_pay.question
+    t: 給与には、あらかじめ一定時間分のみなし残業代が含まれていますか？
+
+  - key: options.overtime_pay.yes
+    t: はい
+  - key: options.overtime_pay.no
+    t: いいえ
+  - key: options.overtime_pay.not_sure
+    t: わからない
+
+  # working_hours_policy
+
+  - key: job_info.working_hours_policy
+    t: 勤務時間制度
+  - key: job_info.working_hours_policy.question
+    t: あなたの会社の勤務時間制度として最も当てはまるものを選んでください。
+
+  - key: options.working_hours_policy.fixed
+    t: 固定勤務時間制
+  - key: options.working_hours_policy.flexible_with_core_hours
+    t: コアタイムありのフレックスタイム制
+  - key: options.working_hours_policy.fully_flexible
+    t: コアタイムなしのフレックスタイム制
+
   #######################################################
   #                                                     #
   #                 WORK ENVIRONMENT                    #
@@ -1502,6 +1569,15 @@ translations:
   - key: technology.other_frameworks_libraries.question
     t: 普段の仕事で使う他のフレームワークやライブラリは？
 
+  - key: options.other_frameworks_libraries.ai_data
+    t: AI・機械学習・データサイエンス
+  - key: options.other_frameworks_libraries.application_development
+    t: アプリケーション開発
+  - key: options.other_frameworks_libraries.infrastructure
+    t: インフラ・メッセージング
+  - key: options.other_frameworks_libraries.other
+    t: その他のライブラリ
+
   # developer_tools
   - key: technology.developer_tools
     t: 開発者ツール
@@ -1613,6 +1689,15 @@ translations:
     t: どのAIツールを定期的に利用していますか？ # Gemini
   - key: ai_usage.ai_tools.prompt # TODO
     t: 週に1回以上利用するツールのみを選択してください。 # Gemini
+
+  - key: options.ai_tools.assistants
+    t: AIアシスタント・チャットボット
+  - key: options.ai_tools.agents
+    t: AIエージェント
+  - key: options.ai_tools.image_generation
+    t: 画像生成
+  - key: options.ai_tools.other
+    t: その他のAIツール
 
     # ai_uses
 
@@ -1825,6 +1910,47 @@ translations:
     t: 雇用の安定 # Gemini
   - key: ai_usage.job_security_threat.question # TODO
     t: AIツールは私の雇用の安定を脅かすものである # Gemini
+
+  # ai_management_pressure
+
+  - key: ai_usage.ai_management_pressure
+    t: AIに対する会社の方針
+  - key: ai_usage.ai_management_pressure.question
+    t: あなたの会社はAIの利用についてどのような方針を取っていますか？
+  - key: ai_usage.ai_management_pressure.prompt
+    t: 会社に勤めていない場合は、回答をスキップしてください。
+
+  - key: options.ai_management_pressure.0
+    t: 会社はAIの利用を推奨していない
+
+  - key: options.ai_management_pressure.1
+    t: 会社はAIの利用について中立的
+
+  - key: options.ai_management_pressure.2
+    t: 会社はAIの利用を推奨しているが、自分の利用状況には影響していない
+
+  - key: options.ai_management_pressure.3
+    t: 会社がAIの利用を推奨しているため、本来よりもAIを多く利用している
+  - key: options.ai_management_pressure.3.description
+    t: |
+      例：AI利用の最低ノルマ、トークン使用量ランキングなど。
+
+  # ai_impact
+  - key: ai_usage.ai_impact
+    t: AIの影響
+  - key: ai_usage.ai_impact.question
+    t: AIの利用は、ソフトウェア開発者としての日々の仕事に全体としてどのような影響を与えていますか？
+
+  - key: options.ai_impact.0
+    t: 非常に悪くなった
+  - key: options.ai_impact.1
+    t: やや悪くなった
+  - key: options.ai_impact.2
+    t: ほとんど、またはまったく影響はない
+  - key: options.ai_impact.3
+    t: やや良くなった
+  - key: options.ai_impact.4
+    t: 非常に良くなった
 
   #######################################################
   #                                                     #
@@ -2113,6 +2239,47 @@ translations:
   - key: options.life_japan_negative_aspects.work_culture.description # TODO
     t: 長時間労働、遅い意思決定、階層的な環境が疲弊させることがある。 # Gemini
 
+  # new_immigration_measures
+  - key: life_in_japan.new_immigration_measures
+    t: 入管・在留制度の変更
+  - key: life_in_japan.new_immigration_measures.question
+    t: 過去1年間に、日本の入管・在留制度の変更によって、以下のような影響を受けましたか？
+
+  - key: options.new_immigration_measures.higher_financial_burden
+    t: 経済的負担の増加
+  - key: options.new_immigration_measures.higher_financial_burden.description
+    t: 入管手続きや在留手続きにかかる費用が増えた。
+
+  - key: options.new_immigration_measures.greater_uncertainty
+    t: 日本での生活への不安
+  - key: options.new_immigration_measures.greater_uncertainty.description
+    t: 今後も日本で暮らし続けられるかについて、不安が大きくなった。
+
+  - key: options.new_immigration_measures.career_impacts
+    t: キャリアへの悪影響
+  - key: options.new_immigration_measures.career_impacts.description
+    t: 転職やキャリアチェンジが以前より難しくなった。
+
+  - key: options.new_immigration_measures.residency_status
+    t: 在留資格への不安
+  - key: options.new_immigration_measures.residency_status.description
+    t: 在留資格の更新や変更が難しくなった。
+
+  - key: options.new_immigration_measures.overall_perception
+    t: 日本で歓迎されていないと感じる
+  - key: options.new_immigration_measures.overall_perception.description
+    t: 外国人が日本で歓迎されにくくなっていると感じるようになった。
+
+  - key: options.new_immigration_measures.increased_anxiety
+    t: 不安やストレスの増加
+  - key: options.new_immigration_measures.increased_anxiety.description
+    t: 入管や在留資格に関する不安やストレスが増えた。
+
+  - key: options.new_immigration_measures.housing_impacts
+    t: 住居への影響
+  - key: options.new_immigration_measures.housing_impacts.description
+    t: 賃貸契約や住宅購入、長期的な住居の確保が以前より難しくなった。
+
   #######################################################
   #                                                     #
   #                   SATISFACTION                      #
@@ -2203,6 +2370,42 @@ translations:
     t: 給与、生活費、資産管理など
   - key: satisfaction.life_in_japan__financial_situation.description
     aliasFor: options.life_in_japan.financial_situation.description
+
+  # yen_value
+  - key: life_in_japan.yen_value
+    t: 円安の影響
+  - key: life_in_japan.yen_value.question
+    t: 円安はあなたの家計にどのような影響を与えていますか？
+
+  - key: options.yen_value.0
+    t: 非常に大きなマイナスの影響
+  - key: options.yen_value.1
+    t: ややマイナスの影響
+  - key: options.yen_value.2
+    t: ほとんど、またはまったく影響はない
+  - key: options.yen_value.3
+    t: ややプラスの影響
+  - key: options.yen_value.4
+    t: 非常に大きなプラスの影響
+
+  # quality_of_life_over_time
+  - key: life_in_japan.quality_of_life_over_time
+    t: 生活の質
+  - key: life_in_japan.quality_of_life_over_time.question
+    t: 日本に来てから、あなたの全体的な生活の質はどのように変化しましたか？
+  - key: life_in_japan.quality_of_life_over_time.prompt
+    t: 上記のさまざまな要素を総合的に考慮してお答えください。
+
+  - key: options.quality_of_life_over_time.0
+    t: 大幅に悪くなった
+  - key: options.quality_of_life_over_time.1
+    t: やや悪くなった
+  - key: options.quality_of_life_over_time.2
+    t: あまり変わっていない
+  - key: options.quality_of_life_over_time.3
+    t: やや良くなった
+  - key: options.quality_of_life_over_time.4
+    t: 大幅に良くなった
 
   # online_communities
   - key: other.online_communities
