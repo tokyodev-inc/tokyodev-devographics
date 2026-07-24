@@ -484,10 +484,12 @@
         - id: yes
         - id: no_but_would_consider
         - id: no
+
     # removed in 2026
     # - id: job_title
     #   template: text
-   - id: current_employer
+
+    - id: current_employer
       sectionId: employer_info
       label: "Which of the following best describes your current employer?"
       template: singleWithOther
@@ -843,9 +845,6 @@
     #       average: 55
     #       lowerBound: 51
 
-
-
-
     # - id: work_days_per_week
     #   label: "In a typical week, how many days do you work?"
     #   optionsAreNumeric: true
@@ -1001,8 +1000,6 @@
 
     - id: job_happiness
       template: happiness
-
-
 
     - id: current_total_annual_compensation
       sectionId: compensation # legacy
