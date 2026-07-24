@@ -476,10 +476,189 @@
         - id: student
         - id: retired
 
+    - id: searching_for_job
+      sectionId: job_info
+      label: "Are you currently searching for a new job?"
+      template: single
+      options:
+        - id: yes
+        - id: no_but_would_consider
+        - id: no
     # removed in 2026
     # - id: job_title
     #   template: text
+   - id: current_employer
+      sectionId: employer_info
+      label: "Which of the following best describes your current employer?"
+      template: singleWithOther
+      options:
+        - id: japanese_company
+        - id: japanese_subsidiary
+        - id: international_company
+        - id: sole_proprietorship
+        - id: university
 
+    # - id: current_employer_others
+    #   label: "Which of the following best describes your current employer? (other)"
+    #   template: others
+
+    - id: industry_sector
+      sectionId: employer_info
+      label: "What industry or business domain is your current employer in?"
+      template: multipleWithOther
+      matchTags: [industry_sectors]
+      order: alphabetical
+      options:
+        - id: saas
+        - id: finance
+        - id: ecommerce
+        - id: ai
+        - id: cloud_computing
+        - id: advertising
+        - id: consulting
+        - id: gaming
+        - id: crypto
+        - id: education
+        - id: human_resources
+        - id: manufacturing
+        - id: robotics
+        - id: energy
+
+        # - id: construction
+        # - id: consumer_electronics
+        # - id: education
+        # - id: food
+        # - id: healthcare
+        # - id: hospitality_tourism
+        # - id: human_resources
+        # - id: fashion
+        # - id: marketing
+        # - id: outsourced_development
+        # - id: real_estate
+
+    # - id: industry_sector_others
+    #   label: "What industry or business domain is your current employer in? (other)"
+    #   template: others
+
+    # removed in 2026
+    # - id: meeting_hours_per_week
+    #   template: single
+    #   options:
+    #     - id: range_0
+    #     - id: range_0_1
+    #     - id: range_1_5
+    #     - id: range_5_10
+    #     - id: range_10_15
+    #     - id: range_over_15
+
+    - id: company_size
+      sectionId: employer_info
+      label: "How many employees does your employer have (worldwide)?"
+      template: single
+      optionsAreRange: true
+      optionsAreSequential: true
+      options:
+        - id: range_1
+          average: 1
+          upperBound: 2
+        - id: range_2_9
+          average: 5
+          lowerBound: 2
+          upperBound: 10
+        - id: range_10_19
+          average: 15
+          lowerBound: 10
+          upperBound: 20
+        - id: range_20_99
+          average: 60
+          lowerBound: 20
+          upperBound: 100
+        - id: range_100_499
+          average: 300
+          lowerBound: 100
+          upperBound: 500
+        - id: range_500_999
+          average: 750
+          lowerBound: 500
+          upperBound: 1000
+        - id: range_1000_4999
+          average: 3000
+          lowerBound: 1000
+          upperBound: 5000
+        - id: range_5000_9999
+          average: 7500
+          lowerBound: 5000
+          upperBound: 10000
+        - id: range_over_10000
+          average: 10000
+          lowerBound: 10000
+    - id: working_hours_policy
+      yearAdded: 2026
+      template: singleWithOther
+      options:
+        - id: fixed
+        - id: flexible_with_core_hours
+        - id: fully_flexible
+
+    - id: overtime_hours
+      yearAdded: 2026
+      template: single
+      optionsAreRange: true
+      optionsAreSequential: true
+      options:
+        - id: range_0
+          lowerBound: 0
+          upperBound: 0
+          average: 0
+        - id: range_1_9
+          lowerBound: 1
+          upperBound: 10
+          average: 5
+        - id: range_10_19
+          lowerBound: 10
+          upperBound: 20
+          average: 15
+        - id: range_20_29
+          lowerBound: 20
+          upperBound: 30
+          average: 25
+        - id: range_30_39
+          lowerBound: 30
+          upperBound: 40
+          average: 35
+        - id: range_40_49
+          lowerBound: 40
+          upperBound: 50
+          average: 45
+        - id: range_over_50
+          lowerBound: 50
+          average: 55
+    - id: overtime_pay
+      yearAdded: 2026
+      template: single
+      options:
+        - id: yes
+        - id: no
+        - id: not_sure
+    - id: remote_work_policy
+      sectionId: employer_info
+      label: "What best describes your employer's remote work policy?"
+      template: single
+      options:
+        - id: no_remote_work
+        - id: hybrid
+        - id: up_to_employee
+        - id: fully_remote
+        # - id: na
+    - id: regular_work_location
+      template: multipleWithOther
+      options:
+        - id: company_offices
+        - id: coworking_space
+        - id: cafe
+        - id: dedicated_private_office
+        - id: dedicated_room
+        - id: common_room
     - id: work_areas
       intlId: user_info.work_areas
       sectionSlug: user_info
@@ -664,74 +843,9 @@
     #       average: 55
     #       lowerBound: 51
 
-    - id: working_hours_policy
-      yearAdded: 2026
-      template: singleWithOther
-      options:
-        - id: fixed
-        - id: flexible_with_core_hours
-        - id: fully_flexible
 
-    - id: overtime_hours
-      yearAdded: 2026
-      template: single
-      optionsAreRange: true
-      optionsAreSequential: true
-      options:
-        - id: range_0
-          lowerBound: 0
-          upperBound: 0
-          average: 0
-        - id: range_1_9
-          lowerBound: 1
-          upperBound: 10
-          average: 5
-        - id: range_10_19
-          lowerBound: 10
-          upperBound: 20
-          average: 15
-        - id: range_20_29
-          lowerBound: 20
-          upperBound: 30
-          average: 25
-        - id: range_30_39
-          lowerBound: 30
-          upperBound: 40
-          average: 35
-        - id: range_40_49
-          lowerBound: 40
-          upperBound: 50
-          average: 45
-        - id: range_over_50
-          lowerBound: 50
-          average: 55
 
-    - id: overtime_pay
-      yearAdded: 2026
-      template: single
-      options:
-        - id: yes
-        - id: no
-        - id: not_sure
 
-    - id: regular_work_location
-      template: multipleWithOther
-      options:
-        - id: company_offices
-        - id: coworking_space
-        - id: cafe
-        - id: dedicated_private_office
-        - id: dedicated_room
-        - id: common_room
-
-    - id: searching_for_job
-      sectionId: job_info
-      label: "Are you currently searching for a new job?"
-      template: single
-      options:
-        - id: yes
-        - id: no_but_would_consider
-        - id: no
     # - id: work_days_per_week
     #   label: "In a typical week, how many days do you work?"
     #   optionsAreNumeric: true
@@ -888,122 +1002,7 @@
     - id: job_happiness
       template: happiness
 
-    - id: current_employer
-      sectionId: employer_info
-      label: "Which of the following best describes your current employer?"
-      template: singleWithOther
-      options:
-        - id: japanese_company
-        - id: japanese_subsidiary
-        - id: international_company
-        - id: sole_proprietorship
-        - id: university
 
-    # - id: current_employer_others
-    #   label: "Which of the following best describes your current employer? (other)"
-    #   template: others
-
-    - id: industry_sector
-      sectionId: employer_info
-      label: "What industry or business domain is your current employer in?"
-      template: multipleWithOther
-      matchTags: [industry_sectors]
-      order: alphabetical
-      options:
-        - id: saas
-        - id: finance
-        - id: ecommerce
-        - id: ai
-        - id: cloud_computing
-        - id: advertising
-        - id: consulting
-        - id: gaming
-        - id: crypto
-        - id: education
-        - id: human_resources
-        - id: manufacturing
-        - id: robotics
-        - id: energy
-
-        # - id: construction
-        # - id: consumer_electronics
-        # - id: education
-        # - id: food
-        # - id: healthcare
-        # - id: hospitality_tourism
-        # - id: human_resources
-        # - id: fashion
-        # - id: marketing
-        # - id: outsourced_development
-        # - id: real_estate
-
-    # - id: industry_sector_others
-    #   label: "What industry or business domain is your current employer in? (other)"
-    #   template: others
-
-    # removed in 2026
-    # - id: meeting_hours_per_week
-    #   template: single
-    #   options:
-    #     - id: range_0
-    #     - id: range_0_1
-    #     - id: range_1_5
-    #     - id: range_5_10
-    #     - id: range_10_15
-    #     - id: range_over_15
-
-    - id: remote_work_policy
-      sectionId: employer_info
-      label: "What best describes your employer's remote work policy?"
-      template: single
-      options:
-        - id: no_remote_work
-        - id: hybrid
-        - id: up_to_employee
-        - id: fully_remote
-        # - id: na
-
-    - id: company_size
-      sectionId: employer_info
-      label: "How many employees does your employer have (worldwide)?"
-      template: single
-      optionsAreRange: true
-      optionsAreSequential: true
-      options:
-        - id: range_1
-          average: 1
-          upperBound: 2
-        - id: range_2_9
-          average: 5
-          lowerBound: 2
-          upperBound: 10
-        - id: range_10_19
-          average: 15
-          lowerBound: 10
-          upperBound: 20
-        - id: range_20_99
-          average: 60
-          lowerBound: 20
-          upperBound: 100
-        - id: range_100_499
-          average: 300
-          lowerBound: 100
-          upperBound: 500
-        - id: range_500_999
-          average: 750
-          lowerBound: 500
-          upperBound: 1000
-        - id: range_1000_4999
-          average: 3000
-          lowerBound: 1000
-          upperBound: 5000
-        - id: range_5000_9999
-          average: 7500
-          lowerBound: 5000
-          upperBound: 10000
-        - id: range_over_10000
-          average: 10000
-          lowerBound: 10000
 
     - id: current_total_annual_compensation
       sectionId: compensation # legacy
