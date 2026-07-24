@@ -71,11 +71,12 @@
 
     - id: years_in_japan
       label: "How many years have you lived in Japan?"
-      template: years
+      # template: years
+      template: single
       optionsAreRange: true
       optionsAreSequential: true
       optionsAreNumeric: true
-      groups:
+      options:
         - id: range_under_1
           lowerBound: 0
           upperBound: 1
@@ -169,6 +170,23 @@
         #   label: Prefer not to disclose
         - id: not_listed
 
+    - id: identify_as_lgbtq
+      yearAdded: 2026
+      template: single
+      options:
+        - id: "yes"
+        - id: "no"
+
+    - id: religion
+      yearAdded: 2026
+      template: singleWithOther
+      options:
+        - id: practicing_religious
+        - id: religious
+        - id: spiritual
+        - id: agnostic
+        - id: atheist
+
     # - id: gender_others
     #   label: What is your gender? (other)
     #   template: others
@@ -203,15 +221,16 @@
           lowerBound: 60
           average: 65
 
-    - id: relationship_status
-      template: singleWithOther
-      options:
-        - id: single
-        - id: casual_relationship
-        - id: committed_partnership
-        - id: married
-        - id: divorced_separated
-        - id: widowed
+    # removed in 2026
+    # - id: relationship_status
+    #   template: singleWithOther
+    #   options:
+    #     - id: single
+    #     - id: casual_relationship
+    #     - id: committed_partnership
+    #     - id: married
+    #     - id: divorced_separated
+    #     - id: widowed
 
     # removed in 2026
     # - id: number_of_kids
@@ -244,8 +263,9 @@
 
     - id: years_of_experience
       label: "How many years of professional experience do you have in software development?"
-      template: years
-      groups:
+      # template: years
+      template: single
+      options:
         - id: range_under_1
           lowerBound: 0
           upperBound: 1
@@ -1889,21 +1909,22 @@
 
     #     # - id: cosense
 
-    - id: social_media
-      template: multipleWithOther
-      matchTags: [socialmedia, sites]
-      options:
-        - id: facebook
-        - id: twitter
-        - id: instagram
-        - id: tik_tok
-        - id: linkedin
-        - id: reddit
-        - id: bluesky
-        - id: mastodon
-        - id: threads
-        - id: mixi2
-        - id: na
+    # removed in 2026
+    # - id: social_media
+    #   template: multipleWithOther
+    #   matchTags: [socialmedia, sites]
+    #   options:
+    #     - id: facebook
+    #     - id: twitter
+    #     - id: instagram
+    #     - id: tik_tok
+    #     - id: linkedin
+    #     - id: reddit
+    #     - id: bluesky
+    #     - id: mastodon
+    #     - id: threads
+    #     - id: mixi2
+    #     - id: na
 
 - id: ai_usage
   questions:
@@ -2093,6 +2114,7 @@
         - id: pop_culture
         - id: culture_history
         - id: safety
+        - id: friendliness_towards_foreigners
 
     - id: life_japan_negative_aspects
       template: multipleWithOther
@@ -2109,6 +2131,7 @@
         - id: natural_disaster_risk
         - id: pressure_to_conform
         - id: work_culture
+        - id: hostility_towards_foreigners
 
     - id: quality_of_life_over_time
       template: single
@@ -2155,7 +2178,7 @@
         - id: creative_tokyo
         - id: engineer_cafe
         - id: hn_tokyo
-        - id: hn_kansai
+        # - id: hn_kansai # removed in 2026 (inactive)
         - id: le_wagon
         - id: ok_tech
         - id: tokyodev_discord
@@ -2174,6 +2197,10 @@
         - id: tokyo_ai
         - id: tokyo_python
         - id: tokyodev_meetups
+        - id: gophers_ex
+        - id: php_tokyo
+        - id: robotics_tokyo
+        - id: tokyo_rust
         - id: na
 
     - id: yen_value
@@ -2286,5 +2313,6 @@
       template: longtext
       label: "Was there anything that could be done to improve future surveys? Is there anything that wasn't asked in this survey that you'd like to see in a future one?"
 
-    - id: receive_notifications
-      template: receive_notifications
+    # removed in 2026
+    # - id: receive_notifications
+    #   template: receive_notifications
