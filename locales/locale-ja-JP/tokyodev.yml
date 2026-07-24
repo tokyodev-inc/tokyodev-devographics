@@ -250,6 +250,34 @@ translations:
   - key: options.gender.non_man.description # TODO
     t: 女性、ノンバイナリー、ジェンダー・ノンコンフォーミング、その他の性自認.
 
+  # identify_as_lgbtq
+  - key: user_info.identify_as_lgbtq
+    t: LGBTQ+
+  - key: user_info.identify_as_lgbtq.question
+    t: LGBTQ+であると自認していますか？
+
+  - key: options.identify_as_lgbtq.yes
+    t: "はい"
+  - key: options.identify_as_lgbtq.no
+    t: "いいえ"
+
+  # religion
+  - key: user_info.religion
+    t: 宗教
+  - key: user_info.religion.question
+    t: あなたの宗教的信条について、最も近いものを選んでください。
+
+  - key: options.religion.practicing_religious
+    t: 信仰があり、実践している
+  - key: options.religion.religious
+    t: 信仰はあるが、実践はしていない
+  - key: options.religion.spiritual
+    t: スピリチュアルだが、宗教的ではない
+  - key: options.religion.agnostic
+    t: 不可知論者
+  - key: options.religion.atheist
+    t: 無神論者
+
   # age
   - key: user_info.age
     t: 年齢
@@ -269,6 +297,24 @@ translations:
     t: 日本での居住年数
   - key: user_info.years_in_japan.question
     t: 日本に何年間住んでいますか？
+
+  # Years Grouped
+  - key: options.years.range_under_1
+    t: 1年以下
+  - key: options.years.range_1_3
+    t: 1〜3年
+  - key: options.years.range_4_6
+    t: 4〜6年
+  - key: options.years.range_7_9
+    t: 7〜9年
+  - key: options.years.range_10_12
+    t: 10〜12年
+  - key: options.years.range_13_15
+    t: 13〜15年
+  - key: options.years.range_16_20
+    t: 16〜20年
+  - key: options.years.range_over_20
+    t: 20年以上
 
   # educational_attainment
   - key: user_info.educational_attainment
@@ -2177,6 +2223,11 @@ translations:
   - key: options.life_japan_positive_aspects.safety.description # TODO
     t: 強い治安意識と低い犯罪率。 # Gemini
 
+  - key: options.life_japan_positive_aspects.friendliness_towards_foreigners
+    t: 外国人への歓迎的な雰囲気
+  - key: options.life_japan_positive_aspects.friendliness_towards_foreigners.description
+    t: 外国人として歓迎され、受け入れられていると感じること。
+
   # life_japan_negative_aspects
 
   - key: life_in_japan.life_japan_negative_aspects # TODO
@@ -2238,6 +2289,11 @@ translations:
     t: 労働文化 # Gemini
   - key: options.life_japan_negative_aspects.work_culture.description # TODO
     t: 長時間労働、遅い意思決定、階層的な環境が疲弊させることがある。 # Gemini
+
+  - key: options.life_japan_negative_aspects.hostility_towards_foreigners
+    t: 外国人への反感・排外感情
+  - key: options.life_japan_negative_aspects.hostility_towards_foreigners.description
+    t: 外国人であることを理由に歓迎されていないと感じたり、偏見を受けたりすること。
 
   # new_immigration_measures
   - key: life_in_japan.new_immigration_measures
