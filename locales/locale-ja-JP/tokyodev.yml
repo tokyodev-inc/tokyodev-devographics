@@ -44,6 +44,12 @@ translations:
   - key: general.numeric_input.unit.employers
     t: 社
 
+  - key: finish.tokyodev_newsletter.heading
+    t: 調査結果を受け取る
+  - key: finish.tokyodev_newsletter.description
+    t: |
+      調査結果が公開された際にお知らせを受け取りたい方は、[こちら](https://www.tokyodev.com/survey_newsletter)からご登録ください。
+
   #######################################################
   #                                                     #
   #                      USER INFO                      #
@@ -229,6 +235,11 @@ translations:
     t: あなたの国籍は？
   - key: user_info.country.description
     t: 複数の国籍を持っている場合は一つだけ選択してください。
+
+  # sensitive_information_message
+  - key: user_info.sensitive_information_message
+    t: |
+      性別、LGBTQ+としての自認、宗教に関する以下の質問は、調査の包括性と代表性を測定・向上し、グループごとの経験の違いをより深く理解することを目的としています。
 
   # gender
 
@@ -932,7 +943,7 @@ translations:
   - key: options.regular_work_location.dedicated_room.description # TODO
     t: 自宅内の専用のオフィスルーム。 # Gemini
   - key: options.regular_work_location.common_room # TODO
-    t: 共用スペース # Gemini
+    t: 自宅内の共用スペース # Gemini
   - key: options.regular_work_location.common_room.description # TODO
     t: 寝室、リビングルームなどの多目的の部屋。 # Gemini
 
