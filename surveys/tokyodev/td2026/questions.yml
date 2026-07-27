@@ -147,46 +147,6 @@
       label: "What is your nationality?"
       template: country
 
-    - id: gender
-      label: "Which of the following describe you, if any?"
-      template: single
-      # groups:
-      #   - id: man
-      #     items:
-      #       - man
-      #   - id: non_man
-      #     items:
-      #       - woman
-      #       - nb_gq_gnc
-      #       - not_listed
-      options:
-        - id: man
-          label: Man
-        - id: woman
-          label: Woman
-        - id: nb_gq_gnc
-          label: Non-binary, genderqueer, or gender non-conforming
-        # - id: prefer_not_to_disclose
-        #   label: Prefer not to disclose
-        - id: not_listed
-
-    - id: identify_as_lgbtq
-      yearAdded: 2026
-      template: single
-      options:
-        - id: "yes"
-        - id: "no"
-
-    - id: religion
-      yearAdded: 2026
-      template: singleWithOther
-      options:
-        - id: practicing_religious
-        - id: religious
-        - id: spiritual
-        - id: agnostic
-        - id: atheist
-
     # - id: gender_others
     #   label: What is your gender? (other)
     #   template: others
@@ -418,6 +378,37 @@
     #       upperBound: 51
     #     - id: range_over_50
     #       lowerBound: 51
+
+    - id: sensitive_information_message
+      template: help
+
+    - id: gender
+      template: single
+      options:
+        - id: man
+          label: Man
+        - id: woman
+          label: Woman
+        - id: nb_gq_gnc
+          label: Non-binary, genderqueer, or gender non-conforming
+        - id: not_listed
+
+    - id: identify_as_lgbtq
+      yearAdded: 2026
+      template: single
+      options:
+        - id: "yes"
+        - id: "no"
+
+    - id: religion
+      yearAdded: 2026
+      template: singleWithOther
+      options:
+        - id: practicing_religious
+        - id: religious
+        - id: spiritual
+        - id: agnostic
+        - id: atheist
 
     - id: referrer
       hidden: true
@@ -652,6 +643,7 @@
         - id: up_to_employee
         - id: fully_remote
         # - id: na
+
     - id: regular_work_location
       template: multipleWithOther
       options:
@@ -661,62 +653,6 @@
         - id: dedicated_private_office
         - id: dedicated_room
         - id: common_room
-    - id: work_areas
-      intlId: user_info.work_areas
-      sectionSlug: user_info
-      template: multipleWithOther
-      yearAdded: 2026
-      options:
-        - id: front_end_js
-          group: web_dev
-        - id: front_end_css
-          group: web_dev
-        - id: back_end
-          group: web_dev
-        - id: accessibility
-          group: web_dev
-
-        - id: mobile
-          group: native_dev
-        - id: desktop
-          group: native_dev
-        - id: embedded_software
-          group: native_dev
-        - id: game_development
-          group: native_dev
-
-        - id: devops
-          group: infrastructure
-        - id: cloud
-          group: infrastructure
-        - id: sre
-          group: infrastructure
-        - id: platform_engineering
-          group: infrastructure
-
-        - id: data_engineering
-          group: data_ai
-        - id: ai_llm
-          group: data_ai
-        - id: machine_learning
-          group: data_ai
-
-        - id: people_management
-          group: management
-        - id: technical_leadership
-          group: management
-        - id: project_management
-          group: management
-        - id: product_management
-          group: management
-        - id: hiring_interviewing
-          group: management
-
-        - id: qa_testing
-        - id: security
-        - id: systems_design
-        - id: devrel
-        - id: tooling
 
     # removed in 2025
     # - id: current_job_description
@@ -1461,6 +1397,63 @@
 
 - id: technology
   questions:
+    - id: work_areas
+      intlId: user_info.work_areas
+      sectionSlug: user_info
+      template: multipleWithOther
+      yearAdded: 2026
+      options:
+        - id: front_end_js
+          group: web_dev
+        - id: front_end_css
+          group: web_dev
+        - id: back_end
+          group: web_dev
+        - id: accessibility
+          group: web_dev
+
+        - id: mobile
+          group: native_dev
+        - id: desktop
+          group: native_dev
+        - id: embedded_software
+          group: native_dev
+        - id: game_development
+          group: native_dev
+
+        - id: devops
+          group: infrastructure
+        - id: cloud
+          group: infrastructure
+        - id: sre
+          group: infrastructure
+        - id: platform_engineering
+          group: infrastructure
+
+        - id: data_engineering
+          group: data_ai
+        - id: ai_llm
+          group: data_ai
+        - id: machine_learning
+          group: data_ai
+
+        - id: people_management
+          group: management
+        - id: technical_leadership
+          group: management
+        - id: project_management
+          group: management
+        - id: product_management
+          group: management
+        - id: hiring_interviewing
+          group: management
+
+        - id: qa_testing
+        - id: security
+        - id: systems_design
+        - id: devrel
+        - id: tooling
+
     - id: programming_languages
       label: "Which programming languages do you regularly use on your job?"
       template: multipleWithOther
