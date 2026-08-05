@@ -172,7 +172,7 @@ translations:
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
   - key: options.residency_status.permanent_resident
-    t: Permanent resident
+    t: Permanent Resident
   - key: options.residency_status.spouse_dependent_japanese_permanent_resident
     t: Spouse/Dependent of a Japanese National or Permanent Resident
   - key: options.residency_status.hsfp
@@ -331,7 +331,7 @@ translations:
 
   # Years Grouped
   - key: options.years.range_under_1
-    t: Under 1
+    t: Less than 1
   - key: options.years.range_1_3
     t: 1-3
   - key: options.years.range_4_6
@@ -345,7 +345,7 @@ translations:
   - key: options.years.range_16_20
     t: 16-20
   - key: options.years.range_over_20
-    t: Over 20
+    t: More than 20
 
   - key: options.years_of_experience.range_under_1
     aliasFor: options.years.range_under_1
@@ -524,7 +524,7 @@ translations:
   - key: options.language_proficiency_english.fluent.description
     t: You can use the language fluently and accurately on all levels and as normally pertinent to professional needs.
   - key: options.language_proficiency_english.native_bilingual
-    t: Native / bilingual
+    t: Native/bilingual
   - key: options.language_proficiency_english.native_bilingual.description
     t: You were either raised speaking the language as your native tongue or you have been speaking it so long that you are completely fluent.
 
@@ -606,7 +606,7 @@ translations:
   - key: options.employment_status.contract_employee
     t: Contract employee (Keiyakushain, 契約社員)
   - key: options.employment_status.temporary_worker
-    t: Temporary worker (Haken、派遣)
+    t: Temporary worker (Haken, 派遣)
   - key: options.employment_status.freelancer_self_employed
     t: Freelancer or self-employed (Jieigyō, 自営業)
   - key: options.employment_status.company_director
@@ -809,7 +809,7 @@ translations:
     aliases:
       - job_info.company_size
   - key: employer_info.company_size.question
-    t: How many employees does your employer have (worldwide)?
+    t: How many employees does your employer have worldwide?
     aliases:
       - job_info.company_size.question
   - key: employer_info.company_size.emoji
@@ -1398,7 +1398,9 @@ translations:
     t: 😡
 
   - key: options.discrimination_issues.gender
-    t: Gender or gender identity
+    t: Gender
+  - key: options.discrimination_issues.gender_identity
+    t: Gender identity
   - key: options.discrimination_issues.sexual_orientation
     t: Sexual orientation
   - key: options.discrimination_issues.race
@@ -1412,12 +1414,15 @@ translations:
   - key: options.discrimination_issues.caregiving_status
     t: Caregiving responsibilities
   - key: options.discrimination_issues.caregiving_status.description
-    t: Such as pregnancy, parenting, elder care, etc.
-  - key: options.discrimination_issues.disability
-    t: Disabilities
-  - key: options.discrimination_issues.disability.description
-    t: Including physical, mental, or neurodivergent conditions.
-
+    t: e.g. pregnancy, parenting, elder care
+  - key: options.discrimination_issues.physical_conditions
+    t: Physical conditions
+  - key: options.discrimination_issues.physical_conditions.description
+    t: e.g. chronic illness, mobility impairment, visual impairment
+  - key: options.discrimination_issues.mental_conditions
+    t: Mental conditions
+  - key: options.discrimination_issues.mental_conditions.description
+    t: e.g. depression, anxiety, ADHD, autism
   - key: options.discrimination_issues.country_citizenship
     t: Country of origin
   - key: options.discrimination_issues.appearance_body
@@ -1471,7 +1476,7 @@ translations:
   - key: job_info.overtime_pay
     t: Overtime Pay
   - key: job_info.overtime_pay.question
-    t: Does your compensation include a predetermined amount of overtime pay (みなし残業/minashi zangyō)?
+    t: Does your compensation include fixed overtime pay (みなし残業/minashi zangyō)?
 
   - key: options.overtime_pay.yes
     t: "Yes"
@@ -1914,27 +1919,27 @@ translations:
     t: 🛠️
 
   - key: options.software_engineering_practices.agile
-    t: Agile Development
+    t: Agile development
   - key: options.software_engineering_practices.automated_testing
-    t: Automated Testing
+    t: Automated testing
   - key: options.software_engineering_practices.blameless_postmortems
-    t: Blameless Postmortems
+    t: Blameless postmortems
   - key: options.software_engineering_practices.code_reviews
-    t: Code Reviews
+    t: Code reviews
   - key: options.software_engineering_practices.continuous_deployment_delivery
-    t: Continuous Deployment/Delivery
+    t: Continuous deployment/delivery
   - key: options.software_engineering_practices.continuous_integration
-    t: Continuous Integration
+    t: Continuous integration
   - key: options.software_engineering_practices.infrastructure_as_code
-    t: Infrastructure as Code (IaC)
+    t: Infrastructure as code (IaC)
   - key: options.software_engineering_practices.monitoring_and_logging
-    t: Monitoring and Logging
+    t: Monitoring and logging
   - key: options.software_engineering_practices.pair_programming
-    t: Pair Programming
+    t: Pair programming
   - key: options.software_engineering_practices.waterfall
-    t: Waterfall Development
+    t: Waterfall development
   - key: options.software_engineering_practices.version_control
-    t: Version Control
+    t: Version control
 
   # productivity_tools
   - key: technology.productivity_tools
@@ -2875,7 +2880,7 @@ translations:
   - key: other.missing_questions
     t: Missing Questions
   - key: other.missing_questions.question
-    t: What other questions do you wish the survey would've asked, if any?
+    t: What questions would you like to see asked in the future?
 
   # best_thing_about_japan
   - key: other.favourite_thing_about_japan
