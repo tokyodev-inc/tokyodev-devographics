@@ -357,6 +357,31 @@
         - id: fluent
         - id: native_bilingual
 
+    - id: jlpt_level
+      yearAdded: 2026
+      template: single
+      optionsAreSequential: true
+      options:
+        - id: none
+        - id: n5
+        - id: n4
+        - id: n3
+        - id: n2
+        - id: n1
+
+    - id: other_japanese_certifications
+      yearAdded: 2026
+      template: multipleWithOther
+      options:
+        - id: bjt
+        - id: jpt
+        - id: j_cat
+        - id: kanken
+        - id: j_test
+        - id: nat_test
+        - id: topj
+        - id: na
+
     # removed in 2025
     # - id: finding_first_job_number_of_applications
     #   label: "To get your first software developer job in Japan, how many positions did you apply to?"
