@@ -947,6 +947,7 @@
 
     - id: discrimination_issues
       template: multiple
+      random: true
       options:
         - id: gender
         - id: sexual_orientation
@@ -955,7 +956,9 @@
         - id: age
         - id: political_views
         - id: caregiving_status
-        - id: disability
+        - id: gender_identity
+        - id: mental_conditions
+        - id: physical_conditions
         - id: country_citizenship
         - id: appearance_body
         - id: na
