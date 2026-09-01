@@ -1247,8 +1247,10 @@ translations:
   - key: job_info.discrimination_issues.question # TODO
     t: 職場で以下のいずれかの要因に基づく差別を経験したことがありますか？ # Gemini
 
-  - key: options.discrimination_issues.gender # TODO
-    t: 性別または性自認 # Gemini
+  - key: options.discrimination_issues.gender
+    t: 性別
+  - key: options.discrimination_issues.gender_identity
+    t: 性自認
   - key: options.discrimination_issues.sexual_orientation # TODO
     t: 性的指向 # Gemini
   - key: options.discrimination_issues.race # TODO
@@ -1263,10 +1265,14 @@ translations:
     t: 介護の責任育児、介護など
   - key: options.discrimination_issues.caregiving_status.description # TODO
     t: 妊娠、育児、高齢者介護など。 # Gemini
-  - key: options.discrimination_issues.disability # TODO
-    t: 障害 # Gemini
-  - key: options.discrimination_issues.disability.description # TODO
-    t: 身体的、精神的、または神経発達上の状態を含む。 # Gemini
+  - key: options.discrimination_issues.physical_conditions
+    t: 身体的な状態
+  - key: options.discrimination_issues.physical_conditions.description
+    t: 慢性疾患、運動機能障害、視覚障害など。
+  - key: options.discrimination_issues.mental_conditions
+    t: 精神的な状態
+  - key: options.discrimination_issues.mental_conditions.description
+    t: うつ病、不安障害、ADHD、自閉症など。
 
   - key: options.discrimination_issues.country_citizenship # TODO
     t: 出身国 # Gemini
