@@ -6,6 +6,239 @@
           "job_info": {
             "current_employer": {
               "id": "current_employer",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "japanese_company",
+                    "correlations": [
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 887,
+                        "correlation": 0.3306,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 875,
+                        "correlation": -0.2394,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 886,
+                        "correlation": -0.1917,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 865,
+                        "correlation": 0.1782,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 794,
+                        "correlation": -0.163,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "japanese_subsidiary",
+                    "correlations": [
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 875,
+                        "correlation": 0.3871,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 794,
+                        "correlation": 0.2278,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 886,
+                        "correlation": 0.212,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 887,
+                        "correlation": -0.1787,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 831,
+                        "correlation": 0.178,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 794,
+                        "correlation": -0.1637,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "google_cloud",
+                        "n": 813,
+                        "correlation": -0.1549,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "international_company",
+                    "correlations": [
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 887,
+                        "correlation": 0.3733,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 887,
+                        "correlation": -0.2851,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 885,
+                        "correlation": -0.203,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 886,
+                        "correlation": 0.1929,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "AUS",
+                        "n": 766,
+                        "correlation": 0.1577,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -70,6 +303,7 @@
                           {
                             "count": 6,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 0.85,
                             "percentageSurvey": 0.73
                           },
@@ -147,6 +381,7 @@
                           {
                             "count": 9,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 1.01,
                             "percentageSurvey": 0.89
                           },

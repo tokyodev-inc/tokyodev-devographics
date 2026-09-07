@@ -6,6 +6,154 @@
           "life_in_japan": {
             "friend_group_balance": {
               "id": "friend_group_balance",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "mostly_japanese",
+                    "correlations": [
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_japanese",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 865,
+                        "correlation": 0.2034,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_japanese",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 851,
+                        "correlation": -0.1639,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_japanese",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 851,
+                        "correlation": -0.1539,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "mix_japanese_non_japanese",
+                    "correlations": [
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mix_japanese_non_japanese",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 865,
+                        "correlation": 0.1591,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "mostly_non_japanese",
+                    "correlations": [
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_non_japanese",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 865,
+                        "correlation": -0.2106,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_non_japanese",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "japanese_citizen",
+                        "n": 838,
+                        "correlation": -0.1644,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_non_japanese",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "JPN",
+                        "n": 742,
+                        "correlation": -0.1617,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "mostly_non_japanese",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 851,
+                        "correlation": 0.1515,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "all_non_japanese",
+                    "correlations": [
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "all_non_japanese",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 865,
+                        "correlation": -0.1626,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "friend_group_balance",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "all_non_japanese",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 742,
+                        "correlation": -0.1525,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

@@ -6,6 +6,560 @@
           "user_info": {
             "residency_status": {
               "id": "residency_status",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "spouse_dependent_japanese_permanent_resident",
+                    "correlations": [
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 936,
+                        "correlation": 0.3299,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_0",
+                        "n": 935,
+                        "correlation": -0.2928,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 935,
+                        "correlation": 0.2908,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "family",
+                        "n": 823,
+                        "correlation": 0.246,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "single",
+                        "n": 936,
+                        "correlation": -0.2179,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 950,
+                        "correlation": 0.1912,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 823,
+                        "correlation": -0.1849,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "friendship_romance",
+                        "n": 823,
+                        "correlation": 0.1829,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "tokyo",
+                        "n": 831,
+                        "correlation": -0.1616,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "committed_partnership",
+                        "n": 936,
+                        "correlation": -0.1575,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 876,
+                        "correlation": -0.1545,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hsfp",
+                    "correlations": [
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "hsfp",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 660,
+                        "correlation": 0.1547,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "engineer",
+                    "correlations": [
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 935,
+                        "correlation": -0.3775,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 950,
+                        "correlation": -0.3471,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 936,
+                        "correlation": -0.3438,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "JPN",
+                        "n": 801,
+                        "correlation": -0.2556,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "single",
+                        "n": 936,
+                        "correlation": 0.253,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "family",
+                        "n": 823,
+                        "correlation": -0.236,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 949,
+                        "correlation": -0.195,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 949,
+                        "correlation": -0.1905,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 876,
+                        "correlation": -0.1797,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 865,
+                        "correlation": 0.1782,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 876,
+                        "correlation": 0.1766,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "adventure",
+                        "n": 834,
+                        "correlation": 0.1657,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 823,
+                        "correlation": 0.1621,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "bachelors_degree",
+                        "n": 936,
+                        "correlation": 0.1543,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 801,
+                        "correlation": 0.1507,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "permanent_resident",
+                    "correlations": [
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 935,
+                        "correlation": 0.351,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 950,
+                        "correlation": 0.349,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 936,
+                        "correlation": 0.2319,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "2",
+                        "n": 322,
+                        "correlation": 0.1814,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "single",
+                        "n": 936,
+                        "correlation": -0.1705,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 876,
+                        "correlation": -0.1668,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "0",
+                        "n": 322,
+                        "correlation": -0.1658,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "japanese_citizen",
+                    "correlations": [
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "JPN",
+                        "n": 801,
+                        "correlation": 0.8752,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 949,
+                        "correlation": 0.6359,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 949,
+                        "correlation": 0.3382,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "family",
+                        "n": 823,
+                        "correlation": 0.3181,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 885,
+                        "correlation": 0.1833,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "friend_group_balance",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "mostly_non_japanese",
+                        "n": 838,
+                        "correlation": -0.1644,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Safari",
+                        "n": 646,
+                        "correlation": 0.1511,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -105,6 +659,7 @@
                           {
                             "count": 13,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 1.69,
                             "percentageSurvey": 1.59
                           },
@@ -210,13 +765,14 @@
                           {
                             "count": 23,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 2.41,
                             "percentageSurvey": 2.29
                           },
                           {
                             "count": 10,
                             "id": "no_match",
-                            "index": 2,
+                            "index": 1,
                             "percentageQuestion": 1.05,
                             "percentageSurvey": 0.99,
                             "isFreeformData": true

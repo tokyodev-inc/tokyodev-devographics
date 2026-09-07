@@ -6,6 +6,150 @@
           "job_info": {
             "work_hours_per_week": {
               "id": "work_hours_per_week",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "range_under_30",
+                    "correlations": [
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_under_30",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "freelancer_self_employed",
+                        "n": 908,
+                        "correlation": 0.2724,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_under_30",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 908,
+                        "correlation": -0.2307,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_under_30",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 827,
+                        "correlation": 0.1662,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_under_30",
+                        "questionId2": "meeting_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_0_1",
+                        "n": 897,
+                        "correlation": 0.1617,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_under_30",
+                        "questionId2": "income_evolution",
+                        "sectionId2": "job_info",
+                        "optionId2": "decreased",
+                        "n": 877,
+                        "correlation": 0.1557,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_over_50",
+                    "correlations": [
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_50",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "race",
+                        "n": 828,
+                        "correlation": 0.245,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_50",
+                        "questionId2": "meeting_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_15",
+                        "n": 897,
+                        "correlation": 0.2194,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_50",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "age",
+                        "n": 828,
+                        "correlation": 0.2029,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_50",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "na",
+                        "n": 828,
+                        "correlation": -0.1774,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "work_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_50",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "optionId2": "0",
+                        "n": 900,
+                        "correlation": 0.1513,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -62,14 +206,14 @@
                       },
                       {
                         "count": 16,
-                        "id": "8",
+                        "id": "30",
                         "index": 5,
                         "percentageQuestion": 2.23,
                         "percentageSurvey": 1.97
                       },
                       {
                         "count": 16,
-                        "id": "30",
+                        "id": "8",
                         "index": 6,
                         "percentageQuestion": 2.23,
                         "percentageSurvey": 1.97

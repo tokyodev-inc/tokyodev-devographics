@@ -6,6 +6,307 @@
           "user_info": {
             "professional_qualifications": {
               "id": "professional_qualifications",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "bachelors_degree",
+                    "correlations": [
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "FRA",
+                        "n": 819,
+                        "correlation": -0.191,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "le_wagon",
+                        "n": 729,
+                        "correlation": -0.1827,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 975,
+                        "correlation": -0.1634,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 936,
+                        "correlation": 0.1543,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "masters_degree",
+                    "correlations": [
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "FRA",
+                        "n": 819,
+                        "correlation": 0.278,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 675,
+                        "correlation": 0.2072,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "html_css",
+                        "n": 874,
+                        "correlation": -0.1971,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "scikit_learn",
+                        "n": 675,
+                        "correlation": 0.1793,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "javascript",
+                        "n": 874,
+                        "correlation": -0.1749,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 675,
+                        "correlation": 0.1741,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 675,
+                        "correlation": 0.162,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "phd",
+                    "correlations": [
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "scikit_learn",
+                        "n": 675,
+                        "correlation": 0.3197,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "opencv",
+                        "n": 675,
+                        "correlation": 0.2651,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 675,
+                        "correlation": 0.257,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 675,
+                        "correlation": 0.2252,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 675,
+                        "correlation": 0.2039,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "coding_bootcamp",
+                    "correlations": [
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "le_wagon",
+                        "n": 729,
+                        "correlation": 0.4999,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hn_tokyo",
+                        "n": 729,
+                        "correlation": 0.1883,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "na",
+                        "n": 729,
+                        "correlation": -0.1716,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "2",
+                        "n": 953,
+                        "correlation": 0.1591,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "professional_qualification",
+                    "correlations": [
+                      {
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "professional_qualification",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "bash_shell",
+                        "n": 874,
+                        "correlation": 0.1552,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -139,35 +440,25 @@
                         "percentageSurvey": 10.21
                       },
                       {
+                        "count": 89,
+                        "id": "na",
+                        "index": 4,
+                        "percentageQuestion": 9.2,
+                        "percentageSurvey": 8.82
+                      },
+                      {
                         "count": 59,
                         "id": "short_cycle",
-                        "index": 4,
+                        "index": 5,
                         "percentageQuestion": 6.1,
                         "percentageSurvey": 5.85
                       },
                       {
                         "count": 32,
                         "id": "phd",
-                        "index": 5,
+                        "index": 6,
                         "percentageQuestion": 3.31,
                         "percentageSurvey": 3.17
-                      },
-                      {
-                        "count": 89,
-                        "id": "na",
-                        "index": 6,
-                        "percentageQuestion": 9.2,
-                        "percentageSurvey": 8.82,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
                       },
                       {
                         "count": 42,
@@ -186,6 +477,7 @@
                           {
                             "count": 11,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 1.14,
                             "percentageSurvey": 1.1
                           },

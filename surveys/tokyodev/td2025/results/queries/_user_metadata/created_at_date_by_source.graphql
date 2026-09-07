@@ -5,6 +5,37 @@ query {
         _user_metadata {
           created_at_date_by_source: created_at_date {
             id
+            _correlations {
+              questionCorrelations {
+                questionId1
+                sectionId1
+                optionId1
+                questionId2
+                sectionId2
+                optionId2
+                n
+                correlation
+                sameSection
+                strength
+                direction
+              }
+              optionCorrelations {
+                id
+                correlations {
+                  questionId1
+                  sectionId1
+                  optionId1
+                  questionId2
+                  sectionId2
+                  optionId2
+                  n
+                  correlation
+                  sameSection
+                  strength
+                  direction
+                }
+              }
+            }
             combined(
               facet: _user_metadata__source
               parameters: {
@@ -57,6 +88,7 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
@@ -73,6 +105,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -158,6 +199,7 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
@@ -174,6 +216,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {

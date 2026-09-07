@@ -6,6 +6,401 @@
           "job_info": {
             "regular_work_location": {
               "id": "regular_work_location",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "company_offices",
+                    "correlations": [
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 903,
+                        "correlation": -0.4934,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 903,
+                        "correlation": 0.4222,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 903,
+                        "correlation": 0.2498,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "up_to_employee",
+                        "n": 903,
+                        "correlation": -0.2238,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 905,
+                        "correlation": -0.2127,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "freelancer_self_employed",
+                        "n": 905,
+                        "correlation": -0.2101,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 888,
+                        "correlation": 0.2038,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "international_company",
+                        "n": 885,
+                        "correlation": -0.203,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "tokyo",
+                        "n": 790,
+                        "correlation": 0.1891,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 907,
+                        "correlation": -0.1877,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 907,
+                        "correlation": 0.185,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 876,
+                        "correlation": 0.1766,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 876,
+                        "correlation": -0.1668,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 894,
+                        "correlation": -0.1613,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "company_offices",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "rails",
+                        "n": 809,
+                        "correlation": -0.1558,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cafe",
+                    "correlations": [
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "cafe",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "freelancer_self_employed",
+                        "n": 905,
+                        "correlation": 0.177,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "cafe",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 903,
+                        "correlation": 0.1624,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "dedicated_room",
+                    "correlations": [
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 903,
+                        "correlation": -0.2908,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 898,
+                        "correlation": 0.2516,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_0",
+                        "n": 894,
+                        "correlation": -0.2071,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 894,
+                        "correlation": 0.2064,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "single",
+                        "n": 898,
+                        "correlation": -0.1988,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 905,
+                        "correlation": -0.1902,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 876,
+                        "correlation": -0.1797,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 903,
+                        "correlation": 0.1782,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 905,
+                        "correlation": 0.1707,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "dedicated_room",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "1",
+                        "n": 312,
+                        "correlation": 0.1693,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "common_room",
+                    "correlations": [
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "common_room",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 903,
+                        "correlation": -0.1952,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "regular_work_location",
+                        "sectionId1": "job_info",
+                        "optionId1": "common_room",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "2",
+                        "n": 312,
+                        "correlation": 0.1895,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

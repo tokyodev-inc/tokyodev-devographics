@@ -6,6 +6,159 @@
           "job_info": {
             "discrimination_issues": {
               "id": "discrimination_issues",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "gender",
+                    "correlations": [
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "gender",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "man",
+                        "n": 833,
+                        "correlation": -0.4159,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "gender",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "woman",
+                        "n": 833,
+                        "correlation": 0.3923,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "race",
+                    "correlations": [
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "race",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_50",
+                        "n": 828,
+                        "correlation": 0.245,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "age",
+                    "correlations": [
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "age",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_50",
+                        "n": 828,
+                        "correlation": 0.2029,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "na",
+                    "correlations": [
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "man",
+                        "n": 833,
+                        "correlation": 0.1871,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 829,
+                        "correlation": 0.1816,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_50",
+                        "n": 828,
+                        "correlation": -0.1774,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 835,
+                        "correlation": -0.1767,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "woman",
+                        "n": 833,
+                        "correlation": -0.1736,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 835,
+                        "correlation": 0.1697,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -26,9 +179,16 @@
                     },
                     "buckets": [
                       {
+                        "count": 672,
+                        "id": "na",
+                        "index": 0,
+                        "percentageQuestion": 80.29,
+                        "percentageSurvey": 66.6
+                      },
+                      {
                         "count": 61,
                         "id": "country_citizenship",
-                        "index": 0,
+                        "index": 1,
                         "percentageQuestion": 7.29,
                         "percentageSurvey": 6.05,
                         "entity": {
@@ -39,28 +199,28 @@
                       {
                         "count": 61,
                         "id": "race",
-                        "index": 1,
+                        "index": 2,
                         "percentageQuestion": 7.29,
                         "percentageSurvey": 6.05
                       },
                       {
                         "count": 56,
                         "id": "age",
-                        "index": 2,
+                        "index": 3,
                         "percentageQuestion": 6.69,
                         "percentageSurvey": 5.55
                       },
                       {
                         "count": 48,
                         "id": "gender",
-                        "index": 3,
+                        "index": 4,
                         "percentageQuestion": 5.73,
                         "percentageSurvey": 4.76
                       },
                       {
                         "count": 33,
                         "id": "appearance_body",
-                        "index": 4,
+                        "index": 5,
                         "percentageQuestion": 3.94,
                         "percentageSurvey": 3.27,
                         "entity": {
@@ -71,49 +231,32 @@
                       {
                         "count": 19,
                         "id": "disability",
-                        "index": 5,
+                        "index": 6,
                         "percentageQuestion": 2.27,
                         "percentageSurvey": 1.88
                       },
                       {
                         "count": 13,
                         "id": "caregiving_status",
-                        "index": 6,
+                        "index": 7,
                         "percentageQuestion": 1.55,
                         "percentageSurvey": 1.29
                       },
                       {
                         "count": 13,
                         "id": "political_views",
-                        "index": 7,
+                        "index": 8,
                         "percentageQuestion": 1.55,
                         "percentageSurvey": 1.29
                       },
                       {
                         "count": 10,
                         "id": "religion",
-                        "index": 8,
+                        "index": 9,
                         "percentageQuestion": 1.19,
                         "percentageSurvey": 0.99,
                         "entity": {
                           "id": "religion",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 672,
-                        "id": "na",
-                        "index": 9,
-                        "percentageQuestion": 80.29,
-                        "percentageSurvey": 66.6,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
                           "entityType": "default"
                         }
                       },
@@ -134,13 +277,14 @@
                           {
                             "count": 17,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 2.04,
                             "percentageSurvey": 1.69
                           },
                           {
                             "count": 7,
                             "id": "no_match",
-                            "index": 0,
+                            "index": 1,
                             "percentageQuestion": 0.84,
                             "percentageSurvey": 0.69,
                             "isFreeformData": true

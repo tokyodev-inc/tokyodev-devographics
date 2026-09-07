@@ -6,6 +6,88 @@
           "job_info": {
             "income_evolution": {
               "id": "income_evolution",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "increased",
+                    "correlations": [
+                      {
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 872,
+                        "correlation": 0.1888,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 878,
+                        "correlation": -0.1536,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "stayed_same",
+                    "correlations": [
+                      {
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "stayed_same",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 872,
+                        "correlation": -0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "stayed_same",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 878,
+                        "correlation": 0.1558,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "decreased",
+                    "correlations": [
+                      {
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "decreased",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_under_30",
+                        "n": 877,
+                        "correlation": 0.1557,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

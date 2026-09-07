@@ -6,6 +6,218 @@
           "job_info": {
             "job_title": {
               "id": "job_title",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "software_engineer",
+                    "correlations": [
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "software_engineer",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 711,
+                        "correlation": -0.1619,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "senior_engineer",
+                    "correlations": [
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "blameless_postmortems",
+                        "n": 677,
+                        "correlation": 0.1974,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "automated_testing",
+                        "n": 677,
+                        "correlation": 0.1843,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 677,
+                        "correlation": 0.1701,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 711,
+                        "correlation": 0.1549,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_deployment_delivery",
+                        "n": 677,
+                        "correlation": 0.1544,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "code_reviews",
+                        "n": 677,
+                        "correlation": 0.1531,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "senior_engineer",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_1000_4999",
+                        "n": 702,
+                        "correlation": 0.1527,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "developer",
+                    "correlations": [
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "freelancer_self_employed",
+                        "n": 711,
+                        "correlation": 0.2067,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "meeting_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_0_1",
+                        "n": 707,
+                        "correlation": 0.1875,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "tokyo",
+                        "n": 619,
+                        "correlation": -0.1574,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 535,
+                        "correlation": 0.1563,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "1",
+                        "n": 254,
+                        "correlation": 0.1531,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "csharp",
+                        "n": 690,
+                        "correlation": 0.1531,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "job_title",
+                        "sectionId1": "job_info",
+                        "optionId1": "developer",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_deployment_delivery",
+                        "n": 677,
+                        "correlation": -0.1509,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -196,12 +408,14 @@
                           {
                             "count": 91,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 11.28,
                             "percentageSurvey": 9.04
                           },
                           {
                             "count": 69,
                             "id": "no_match",
+                            "index": 1,
                             "percentageQuestion": 8.57,
                             "percentageSurvey": 6.84
                           }

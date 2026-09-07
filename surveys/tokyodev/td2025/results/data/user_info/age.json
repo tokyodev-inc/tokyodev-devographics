@@ -6,6 +6,503 @@
           "user_info": {
             "age": {
               "id": "age",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "number_of_kids",
+                    "sectionId2": "user_info",
+                    "n": 975,
+                    "correlation": 0.4555,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "relationship_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "married",
+                    "n": 977,
+                    "correlation": 0.4167,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "permanent_resident",
+                    "n": 950,
+                    "correlation": 0.349,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "engineer",
+                    "n": 950,
+                    "correlation": -0.3471,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "relationship_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "single",
+                    "n": 977,
+                    "correlation": -0.2812,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "years_of_experience",
+                    "sectionId2": "user_info",
+                    "optionId2": "3",
+                    "n": 965,
+                    "correlation": -0.2378,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "social_media",
+                    "sectionId2": "technology",
+                    "optionId2": "instagram",
+                    "n": 852,
+                    "correlation": -0.2359,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "regular_work_location",
+                    "sectionId2": "job_info",
+                    "optionId2": "company_offices",
+                    "n": 905,
+                    "correlation": -0.2127,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "country",
+                    "sectionId2": "user_info",
+                    "optionId2": "IND",
+                    "n": 832,
+                    "correlation": -0.2032,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "spouse_dependent_japanese_permanent_resident",
+                    "n": 950,
+                    "correlation": 0.1912,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "years_of_experience",
+                    "sectionId2": "user_info",
+                    "optionId2": "2",
+                    "n": 965,
+                    "correlation": -0.1911,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "past_same_survey_count",
+                    "sectionId2": "_user_metadata",
+                    "optionId2": "2",
+                    "n": 332,
+                    "correlation": 0.1774,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "regular_work_location",
+                    "sectionId2": "job_info",
+                    "optionId2": "dedicated_room",
+                    "n": 905,
+                    "correlation": 0.1707,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "professional_qualifications",
+                    "sectionId2": "user_info",
+                    "optionId2": "bachelors_degree",
+                    "n": 975,
+                    "correlation": -0.1634,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "questionId1": "age",
+                    "sectionId1": "user_info",
+                    "questionId2": "job_title",
+                    "sectionId2": "job_info",
+                    "optionId2": "software_engineer",
+                    "n": 711,
+                    "correlation": -0.1619,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "range_20_29",
+                    "correlations": [
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 977,
+                        "correlation": -0.3734,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_0",
+                        "n": 975,
+                        "correlation": 0.3315,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 975,
+                        "correlation": -0.3313,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "single",
+                        "n": 977,
+                        "correlation": 0.289,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "3",
+                        "n": 965,
+                        "correlation": 0.2599,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 950,
+                        "correlation": 0.2385,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 832,
+                        "correlation": 0.2261,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 950,
+                        "correlation": -0.2249,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "2",
+                        "n": 965,
+                        "correlation": 0.2046,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 905,
+                        "correlation": -0.1902,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "social_media",
+                        "sectionId2": "technology",
+                        "optionId2": "instagram",
+                        "n": 852,
+                        "correlation": 0.1902,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 905,
+                        "correlation": 0.1722,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "0.5",
+                        "n": 965,
+                        "correlation": 0.1695,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 909,
+                        "correlation": 0.1631,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_20_29",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "10",
+                        "n": 965,
+                        "correlation": -0.159,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_30_39",
+                    "correlations": [
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_30_39",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "10",
+                        "n": 965,
+                        "correlation": 0.1852,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_30_39",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "3",
+                        "n": 965,
+                        "correlation": -0.1506,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_40_49",
+                    "correlations": [
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 975,
+                        "correlation": 0.3312,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 950,
+                        "correlation": 0.3231,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 950,
+                        "correlation": -0.2816,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "relationship_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "married",
+                        "n": 977,
+                        "correlation": 0.2594,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "2",
+                        "n": 332,
+                        "correlation": 0.1653,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "age",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_40_49",
+                        "questionId2": "social_media",
+                        "sectionId2": "technology",
+                        "optionId2": "instagram",
+                        "n": 852,
+                        "correlation": -0.1501,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

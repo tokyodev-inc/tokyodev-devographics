@@ -77,7 +77,7 @@
                           "id": "kotlin",
                           "entityType": "library",
                           "homepage": {
-                            "url": "https://kotlinlang.org"
+                            "url": "https://kotlinlang.org/"
                           }
                         },
                         "averageByFacet": 13916666.7,
@@ -376,16 +376,6 @@
                         "index": 7,
                         "percentageQuestion": 13.55,
                         "percentageSurvey": 11.79,
-                        "entity": {
-                          "name": "Go",
-                          "nameHtml": "Go",
-                          "nameClean": "Go",
-                          "id": "golang",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://go.dev/"
-                          }
-                        },
                         "averageByFacet": 12113445.4,
                         "percentilesByFacet": {
                           "p0": 2500000,
@@ -816,6 +806,9 @@
                           "homepage": {
                             "url": "https://www.typescriptlang.org"
                           },
+                          "github": {
+                            "url": "microsoft/TypeScript"
+                          },
                           "npm": {
                             "url": "https://www.npmjs.com/package/typescript"
                           }
@@ -898,6 +891,7 @@
                           "nameHtml": "SQL",
                           "nameClean": "SQL",
                           "id": "sql",
+                          "parentId": "storage",
                           "entityType": "library",
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/SQL"
@@ -1188,10 +1182,13 @@
                           "name": "Dart",
                           "nameHtml": "Dart",
                           "nameClean": "Dart",
+                          "description": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionHtml": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionClean": "Dart is a client-optimized language for fast apps on any platform",
                           "id": "dart",
                           "entityType": "library",
                           "homepage": {
-                            "url": "https://dart.dev"
+                            "url": "https://dart.dev/"
                           }
                         },
                         "averageByFacet": 6961538.5,
@@ -1261,33 +1258,45 @@
                         ]
                       },
                       {
-                        "count": 121,
+                        "count": 131,
                         "id": "no_answer",
                         "index": 20,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 11.99,
-                        "averageByFacet": 9418918.9,
+                        "percentageSurvey": 12.98,
+                        "averageByFacet": 10011627.9,
                         "percentilesByFacet": {
                           "p0": 2500000,
                           "p10": 3500000,
                           "p25": 5500000,
-                          "p50": 7500000,
+                          "p50": 8500000,
                           "p75": 12500000,
                           "p90": 17500000,
-                          "p100": 25500000
+                          "p100": 29500000
                         },
                         "facetBuckets": [
                           {
+                            "id": "range_3000000_to_5999999",
+                            "count": 10,
+                            "percentageBucket": 7.63,
+                            "percentageQuestion": 1.14
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 10,
+                            "percentageBucket": 7.64,
+                            "percentageQuestion": 1.14
+                          },
+                          {
                             "id": "no_answer",
-                            "count": 84,
-                            "percentageBucket": 69.42,
+                            "count": 88,
+                            "percentageBucket": 67.18,
                             "percentageQuestion": 0
                           },
                           {
                             "id": "other_answers",
-                            "count": 37,
-                            "percentageBucket": 30.59,
-                            "percentageQuestion": 4.2
+                            "count": 23,
+                            "percentageBucket": 17.54,
+                            "percentageQuestion": 2.6
                           }
                         ]
                       },

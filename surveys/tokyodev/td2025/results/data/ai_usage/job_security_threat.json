@@ -6,6 +6,41 @@
           "ai_usage": {
             "job_security_threat": {
               "id": "job_security_threat",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "n": 861,
+                    "correlation": 0.1512,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "0",
+                    "correlations": [
+                      {
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "optionId2": "4",
+                        "n": 860,
+                        "correlation": 0.1613,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

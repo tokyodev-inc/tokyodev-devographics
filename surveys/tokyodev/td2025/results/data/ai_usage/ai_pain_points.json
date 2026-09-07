@@ -6,6 +6,320 @@
           "ai_usage": {
             "ai_pain_points": {
               "id": "ai_pain_points",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "costs",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "costs",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 862,
+                        "correlation": -0.1637,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "costs",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 847,
+                        "correlation": 0.1534,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "costs",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude",
+                        "n": 860,
+                        "correlation": 0.153,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "environmental_impact",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "environmental_impact",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "na",
+                        "n": 862,
+                        "correlation": 0.1681,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "environmental_impact",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 857,
+                        "correlation": -0.1657,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "environmental_impact",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "chat_gpt",
+                        "n": 860,
+                        "correlation": -0.1584,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ethical_concerns",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 847,
+                        "correlation": 0.22,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 857,
+                        "correlation": -0.2079,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "na",
+                        "n": 862,
+                        "correlation": 0.2051,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "code_generation",
+                        "n": 862,
+                        "correlation": -0.2028,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 857,
+                        "correlation": 0.182,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 847,
+                        "correlation": -0.1813,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "na",
+                        "n": 860,
+                        "correlation": 0.1797,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 857,
+                        "correlation": -0.1687,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "chat_gpt",
+                        "n": 860,
+                        "correlation": -0.1585,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hallucinations_inaccuracies",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "hallucinations_inaccuracies",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 829,
+                        "correlation": 0.1545,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "poor_generated_code",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "poor_generated_code",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "1",
+                        "n": 307,
+                        "correlation": 0.2036,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "poor_generated_code",
+                        "questionId2": "past_same_survey_count",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "0",
+                        "n": 307,
+                        "correlation": -0.155,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "training_data_concerns",
+                    "correlations": [
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "training_data_concerns",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "na",
+                        "n": 860,
+                        "correlation": 0.1735,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "training_data_concerns",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 847,
+                        "correlation": 0.1649,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "training_data_concerns",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 857,
+                        "correlation": 0.1553,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "training_data_concerns",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "na",
+                        "n": 862,
+                        "correlation": 0.1521,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -77,7 +391,18 @@
                         "id": "environmental_impact",
                         "index": 5,
                         "percentageQuestion": 18.68,
-                        "percentageSurvey": 15.96
+                        "percentageSurvey": 15.96,
+                        "entity": {
+                          "name": "Environmental Impact",
+                          "nameHtml": "Environmental Impact",
+                          "nameClean": "Environmental Impact",
+                          "description": "Concerns about AI energy use, emissions, water consumption, or hardware waste.",
+                          "descriptionHtml": "Concerns about AI energy use, emissions, water consumption, or hardware waste.",
+                          "descriptionClean": "Concerns about AI energy use, emissions, water consumption, or hardware waste.",
+                          "id": "environmental_impact",
+                          "parentId": "ai_ethics_impact",
+                          "entityType": "default"
+                        }
                       },
                       {
                         "count": 134,
@@ -124,13 +449,14 @@
                           {
                             "count": 1,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 0.12,
                             "percentageSurvey": 0.1
                           },
                           {
                             "count": 12,
                             "id": "no_match",
-                            "index": 0,
+                            "index": 1,
                             "percentageQuestion": 1.39,
                             "percentageSurvey": 1.19,
                             "isFreeformData": true

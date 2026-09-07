@@ -6,6 +6,335 @@
           "user_info": {
             "relationship_status": {
               "id": "relationship_status",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "single",
+                    "correlations": [
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_0",
+                        "n": 969,
+                        "correlation": 0.3725,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 969,
+                        "correlation": -0.3688,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 977,
+                        "correlation": 0.289,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 977,
+                        "correlation": -0.2812,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 936,
+                        "correlation": 0.253,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "spouse_dependent_japanese_permanent_resident",
+                        "n": 936,
+                        "correlation": -0.2179,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 898,
+                        "correlation": -0.1988,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 936,
+                        "correlation": -0.1705,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "single",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 904,
+                        "correlation": -0.1528,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "casual_relationship",
+                    "correlations": [
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "casual_relationship",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 977,
+                        "correlation": -0.1576,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "committed_partnership",
+                    "correlations": [
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "committed_partnership",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 969,
+                        "correlation": -0.231,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "committed_partnership",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "spouse_dependent_japanese_permanent_resident",
+                        "n": 936,
+                        "correlation": -0.1575,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "married",
+                    "correlations": [
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_0",
+                        "n": 969,
+                        "correlation": -0.5306,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "number_of_kids",
+                        "sectionId2": "user_info",
+                        "n": 969,
+                        "correlation": 0.5263,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 977,
+                        "correlation": 0.4167,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 936,
+                        "correlation": -0.3438,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "spouse_dependent_japanese_permanent_resident",
+                        "n": 936,
+                        "correlation": 0.3299,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 898,
+                        "correlation": 0.2516,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 936,
+                        "correlation": 0.2319,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "social_media",
+                        "sectionId2": "technology",
+                        "optionId2": "instagram",
+                        "n": 846,
+                        "correlation": -0.2149,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "family",
+                        "n": 843,
+                        "correlation": 0.1855,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "tokyo",
+                        "n": 849,
+                        "correlation": -0.1831,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "2",
+                        "n": 952,
+                        "correlation": -0.1714,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "relationship_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "married",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 898,
+                        "correlation": -0.1546,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

@@ -6,6 +6,337 @@
           "job_info": {
             "remote_work_policy": {
               "id": "remote_work_policy",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "no_remote_work",
+                    "correlations": [
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 903,
+                        "correlation": -0.2908,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 903,
+                        "correlation": 0.2498,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 898,
+                        "correlation": -0.2208,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "common_room",
+                        "n": 903,
+                        "correlation": -0.1952,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 905,
+                        "correlation": 0.1898,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 906,
+                        "correlation": -0.1824,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 909,
+                        "correlation": 0.1631,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "no_remote_work",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 907,
+                        "correlation": 0.1552,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hybrid",
+                    "correlations": [
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "hybrid",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 903,
+                        "correlation": 0.4222,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "hybrid",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 891,
+                        "correlation": 0.2854,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "hybrid",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 810,
+                        "correlation": 0.164,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "up_to_employee",
+                    "correlations": [
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "up_to_employee",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 903,
+                        "correlation": -0.2238,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "up_to_employee",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "blameless_postmortems",
+                        "n": 847,
+                        "correlation": 0.1716,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "up_to_employee",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 891,
+                        "correlation": -0.1663,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "up_to_employee",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 898,
+                        "correlation": 0.1521,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fully_remote",
+                    "correlations": [
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 903,
+                        "correlation": -0.4934,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 891,
+                        "correlation": -0.2829,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "freelancer_self_employed",
+                        "n": 905,
+                        "correlation": 0.2371,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "international_company",
+                        "n": 886,
+                        "correlation": 0.1929,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "cloudflare",
+                        "n": 829,
+                        "correlation": 0.1808,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "dedicated_room",
+                        "n": 903,
+                        "correlation": 0.1782,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 907,
+                        "correlation": 0.1715,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 905,
+                        "correlation": -0.1625,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "remote_work_policy",
+                        "sectionId1": "job_info",
+                        "optionId1": "fully_remote",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "cafe",
+                        "n": 903,
+                        "correlation": 0.1624,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

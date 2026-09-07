@@ -6,6 +6,238 @@
           "life_in_japan": {
             "hobbies": {
               "id": "hobbies",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "arts_and_crafts",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "arts_and_crafts",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "woman",
+                        "n": 845,
+                        "correlation": 0.2307,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "arts_and_crafts",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "man",
+                        "n": 845,
+                        "correlation": -0.2169,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "camping",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "camping",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "nature",
+                        "n": 841,
+                        "correlation": 0.1745,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "camping",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "nature",
+                        "n": 830,
+                        "correlation": 0.152,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "language_learning",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "language_learning",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "language",
+                        "n": 830,
+                        "correlation": 0.3752,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "language_learning",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "tokyodev_meetups",
+                        "n": 726,
+                        "correlation": 0.1597,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "language_learning",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "adventure",
+                        "n": 830,
+                        "correlation": 0.1512,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "programming",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "programming",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "version_control",
+                        "n": 820,
+                        "correlation": 0.1694,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "sports_exercise",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "sports_exercise",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "adventure",
+                        "n": 830,
+                        "correlation": 0.1935,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "table_top_gaming",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "table_top_gaming",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 849,
+                        "correlation": 0.1521,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "video_games",
+                    "correlations": [
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "video_games",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pop_culture",
+                        "n": 830,
+                        "correlation": 0.3159,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "video_games",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pop_culture",
+                        "n": 841,
+                        "correlation": 0.1921,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "video_games",
+                        "questionId2": "initial_attraction",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "language",
+                        "n": 830,
+                        "correlation": 0.1831,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "video_games",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 849,
+                        "correlation": 0.1639,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "hobbies",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "video_games",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 736,
+                        "correlation": -0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -168,13 +400,14 @@
                           {
                             "count": 52,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 6.14,
                             "percentageSurvey": 5.19
                           },
                           {
                             "count": 29,
                             "id": "no_match",
-                            "index": 19,
+                            "index": 1,
                             "percentageQuestion": 3.42,
                             "percentageSurvey": 2.87,
                             "isFreeformData": true

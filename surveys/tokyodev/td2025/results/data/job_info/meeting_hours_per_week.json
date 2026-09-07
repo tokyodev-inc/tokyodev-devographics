@@ -6,6 +6,127 @@
           "job_info": {
             "meeting_hours_per_week": {
               "id": "meeting_hours_per_week",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "range_0_1",
+                    "correlations": [
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_0_1",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 885,
+                        "correlation": -0.1908,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_0_1",
+                        "questionId2": "job_title",
+                        "sectionId2": "job_info",
+                        "optionId2": "developer",
+                        "n": 707,
+                        "correlation": 0.1875,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_0_1",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_under_30",
+                        "n": 897,
+                        "correlation": 0.1617,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_0_1",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "automated_testing",
+                        "n": 846,
+                        "correlation": -0.1575,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_5_10",
+                    "correlations": [
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_5_10",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 885,
+                        "correlation": 0.1662,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_over_15",
+                    "correlations": [
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_15",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_50",
+                        "n": 897,
+                        "correlation": 0.2194,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_15",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "speech_recognition",
+                        "n": 869,
+                        "correlation": 0.2016,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "meeting_hours_per_week",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_15",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "speech_generation",
+                        "n": 869,
+                        "correlation": 0.1745,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

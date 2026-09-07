@@ -5,6 +5,37 @@ query {
         _user_metadata {
           browser: browser {
             id
+            _correlations {
+              questionCorrelations {
+                questionId1
+                sectionId1
+                optionId1
+                questionId2
+                sectionId2
+                optionId2
+                n
+                correlation
+                sameSection
+                strength
+                direction
+              }
+              optionCorrelations {
+                id
+                correlations {
+                  questionId1
+                  sectionId1
+                  optionId1
+                  questionId2
+                  sectionId2
+                  optionId2
+                  n
+                  correlation
+                  sameSection
+                  strength
+                  direction
+                }
+              }
+            }
             combined(
               parameters: {
                 showNoAnswer: true
@@ -50,6 +81,7 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
@@ -66,6 +98,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {

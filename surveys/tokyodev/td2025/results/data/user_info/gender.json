@@ -6,6 +6,98 @@
           "user_info": {
             "gender": {
               "id": "gender",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "man",
+                    "correlations": [
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "gender",
+                        "n": 833,
+                        "correlation": -0.4159,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "arts_and_crafts",
+                        "n": 845,
+                        "correlation": -0.2169,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "na",
+                        "n": 833,
+                        "correlation": 0.1871,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "woman",
+                    "correlations": [
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "gender",
+                        "n": 833,
+                        "correlation": 0.3923,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "arts_and_crafts",
+                        "n": 845,
+                        "correlation": 0.2307,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "na",
+                        "n": 833,
+                        "correlation": -0.1736,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {

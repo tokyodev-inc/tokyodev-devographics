@@ -6,6 +6,174 @@
           "job_info": {
             "employment_status": {
               "id": "employment_status",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "permanent_employee",
+                    "correlations": [
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_under_30",
+                        "n": 908,
+                        "correlation": -0.2307,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 888,
+                        "correlation": 0.1782,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 915,
+                        "correlation": -0.1756,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 905,
+                        "correlation": -0.1625,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "code_reviews",
+                        "n": 851,
+                        "correlation": 0.1582,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "freelancer_self_employed",
+                    "correlations": [
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "work_hours_per_week",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_under_30",
+                        "n": 908,
+                        "correlation": 0.2724,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 905,
+                        "correlation": 0.2371,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "company_offices",
+                        "n": 905,
+                        "correlation": -0.2101,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "job_title",
+                        "sectionId2": "job_info",
+                        "optionId2": "developer",
+                        "n": 711,
+                        "correlation": 0.2067,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 888,
+                        "correlation": -0.1898,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "regular_work_location",
+                        "sectionId2": "job_info",
+                        "optionId2": "cafe",
+                        "n": 905,
+                        "correlation": 0.177,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "freelancer_self_employed",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 833,
+                        "correlation": 0.1589,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -84,6 +252,7 @@
                           {
                             "count": 18,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 2.39,
                             "percentageSurvey": 2.21
                           }
@@ -167,13 +336,14 @@
                           {
                             "count": 17,
                             "id": "cutoff_answers",
+                            "index": 0,
                             "percentageQuestion": 1.84,
                             "percentageSurvey": 1.69
                           },
                           {
                             "count": 2,
                             "id": "no_match",
-                            "index": 2,
+                            "index": 1,
                             "percentageQuestion": 0.22,
                             "percentageSurvey": 0.2,
                             "isFreeformData": true
