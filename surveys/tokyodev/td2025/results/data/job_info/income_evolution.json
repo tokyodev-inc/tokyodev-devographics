@@ -12,6 +12,8 @@
                     "id": "increased",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "income_evolution",
                         "sectionId1": "job_info",
                         "optionId1": "increased",
@@ -24,6 +26,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "income_evolution",
                         "sectionId1": "job_info",
                         "optionId1": "increased",
@@ -35,6 +39,20 @@
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 829,
+                        "correlation": 0.151,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -42,6 +60,8 @@
                     "id": "stayed_same",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "income_evolution",
                         "sectionId1": "job_info",
                         "optionId1": "stayed_same",
@@ -54,6 +74,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "income_evolution",
                         "sectionId1": "job_info",
                         "optionId1": "stayed_same",
@@ -72,6 +94,8 @@
                     "id": "decreased",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "income_evolution",
                         "sectionId1": "job_info",
                         "optionId1": "decreased",

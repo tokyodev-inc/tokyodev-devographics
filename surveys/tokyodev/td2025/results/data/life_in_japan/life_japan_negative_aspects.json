@@ -7,11 +7,29 @@
             "life_japan_negative_aspects": {
               "id": "life_japan_negative_aspects",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_negative_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "friend_group_balance",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "mostly_japanese",
+                    "n": 839,
+                    "correlation": -0.1515,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "cultural_barriers",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cultural_barriers",
@@ -24,6 +42,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cultural_barriers",
@@ -41,6 +61,8 @@
                     "id": "compensation",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "compensation",
@@ -53,6 +75,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "compensation",
@@ -66,6 +90,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "compensation",
@@ -84,6 +110,8 @@
                     "id": "cost_of_living",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -96,6 +124,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -109,6 +139,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -122,6 +154,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -135,6 +169,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -148,6 +184,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "cost_of_living",
@@ -166,6 +204,8 @@
                     "id": "housing",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "housing",
@@ -179,6 +219,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "housing",
@@ -196,6 +238,8 @@
                     "id": "limited_career_growth",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "limited_career_growth",
@@ -209,6 +253,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "limited_career_growth",
@@ -226,6 +272,8 @@
                     "id": "work_culture",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "work_culture",
@@ -238,6 +286,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "life_japan_negative_aspects",
                         "sectionId1": "life_in_japan",
                         "optionId1": "work_culture",
@@ -263,6 +313,38 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 53,
+                          "percentage": 6.2207
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 113,
+                          "percentage": 13.2629
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 679,
+                          "percentage": 79.6948
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 6,
+                          "percentage": 0.7042
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 1,
+                          "percentage": 0.1174
+                        }
+                      ],
+                      "max": 5,
+                      "mean": 2.7523,
+                      "n": 852
                     },
                     "editionId": "td2025",
                     "year": 2025,

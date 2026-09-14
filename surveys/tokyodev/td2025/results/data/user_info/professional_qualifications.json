@@ -7,11 +7,70 @@
             "professional_qualifications": {
               "id": "professional_qualifications",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "n": 675,
+                    "correlation": 0.1962,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "pandas",
+                    "n": 675,
+                    "correlation": 0.1612,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "numpy",
+                    "n": 675,
+                    "correlation": 0.1601,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 675,
+                    "correlation": -0.1595,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "bachelors_degree",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "bachelors_degree",
@@ -25,6 +84,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "bachelors_degree",
@@ -38,6 +99,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "bachelors_degree",
@@ -50,6 +113,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "bachelors_degree",
@@ -68,6 +133,8 @@
                     "id": "masters_degree",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -81,6 +148,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -94,6 +163,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -107,6 +178,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -120,6 +193,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -133,6 +208,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -146,6 +223,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 675,
+                        "correlation": 0.1713,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "masters_degree",
@@ -164,6 +257,8 @@
                     "id": "phd",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "phd",
@@ -177,6 +272,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "phd",
@@ -190,6 +287,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "phd",
@@ -203,6 +302,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "phd",
@@ -216,6 +317,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "phd",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 675,
+                        "correlation": 0.2103,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "phd",
@@ -234,6 +351,8 @@
                     "id": "coding_bootcamp",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "coding_bootcamp",
@@ -247,6 +366,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "n": 729,
+                        "correlation": 0.2271,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "coding_bootcamp",
@@ -260,6 +395,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "coding_bootcamp",
@@ -273,6 +410,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "coding_bootcamp",
@@ -291,6 +430,8 @@
                     "id": "professional_qualification",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "professional_qualification",
@@ -317,6 +458,33 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 564,
+                          "percentage": 77.2603
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 138,
+                          "percentage": 18.9041
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 26,
+                          "percentage": 3.5616
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 2,
+                          "percentage": 0.274
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 1.2685,
+                      "n": 730
                     },
                     "editionId": "td2024",
                     "year": 2024,
@@ -402,6 +570,33 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 671,
+                          "percentage": 75.4781
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 160,
+                          "percentage": 17.9978
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 54,
+                          "percentage": 6.0742
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 4,
+                          "percentage": 0.4499
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 1.315,
+                      "n": 889
                     },
                     "editionId": "td2025",
                     "year": 2025,

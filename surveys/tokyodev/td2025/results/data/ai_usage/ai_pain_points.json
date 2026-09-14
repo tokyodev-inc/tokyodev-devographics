@@ -7,11 +7,83 @@
             "ai_pain_points": {
               "id": "ai_pain_points",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_pain_points",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 829,
+                    "correlation": 0.1878,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_pain_points",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "blameless_postmortems",
+                    "n": 829,
+                    "correlation": 0.1538,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_pain_points",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "version_control",
+                    "n": 829,
+                    "correlation": 0.1525,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_pain_points",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "hobbies",
+                    "sectionId2": "life_in_japan",
+                    "n": 828,
+                    "correlation": 0.1515,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "costs",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "costs",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 860,
+                        "correlation": 0.1639,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "costs",
@@ -24,6 +96,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "costs",
@@ -36,6 +110,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "costs",
@@ -54,6 +130,8 @@
                     "id": "environmental_impact",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "environmental_impact",
@@ -67,6 +145,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "environmental_impact",
@@ -79,6 +159,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "environmental_impact",
@@ -97,6 +179,8 @@
                     "id": "ethical_concerns",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -110,6 +194,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -122,6 +208,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -135,6 +223,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -148,6 +238,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -161,6 +253,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -173,6 +267,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -186,6 +282,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_pain_points",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "ethical_concerns",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "n": 862,
+                        "correlation": -0.1696,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -198,6 +310,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "ethical_concerns",
@@ -216,6 +330,8 @@
                     "id": "hallucinations_inaccuracies",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "hallucinations_inaccuracies",
@@ -234,6 +350,8 @@
                     "id": "poor_generated_code",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "poor_generated_code",
@@ -247,6 +365,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "poor_generated_code",
@@ -265,6 +385,8 @@
                     "id": "training_data_concerns",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "training_data_concerns",
@@ -278,6 +400,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "training_data_concerns",
@@ -291,6 +415,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "training_data_concerns",
@@ -304,6 +430,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_pain_points",
                         "sectionId1": "ai_usage",
                         "optionId1": "training_data_concerns",
@@ -330,6 +458,33 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 60,
+                          "percentage": 6.9444
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 134,
+                          "percentage": 15.5093
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 666,
+                          "percentage": 77.0833
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 4,
+                          "percentage": 0.463
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 2.7106,
+                      "n": 864
                     },
                     "editionId": "td2025",
                     "year": 2025,

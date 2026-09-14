@@ -7,11 +7,219 @@
             "software_engineering_practices": {
               "id": "software_engineering_practices",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "languages_used_colleagues_english",
+                    "sectionId2": "job_info",
+                    "n": 848,
+                    "correlation": 0.3044,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 815,
+                    "correlation": -0.2494,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "optionId2": "always",
+                    "n": 851,
+                    "correlation": -0.2317,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "searching_for_job",
+                    "sectionId2": "job_info",
+                    "optionId2": "yes",
+                    "n": 849,
+                    "correlation": -0.2317,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "company_size",
+                    "sectionId2": "job_info",
+                    "n": 836,
+                    "correlation": 0.2312,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "job_title",
+                    "sectionId2": "job_info",
+                    "optionId2": "senior_engineer",
+                    "n": 677,
+                    "correlation": 0.2188,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "aws",
+                    "n": 815,
+                    "correlation": 0.217,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 841,
+                    "correlation": 0.2117,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "n": 851,
+                    "correlation": -0.2059,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "apache_kafka",
+                    "n": 657,
+                    "correlation": 0.1973,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "meeting_hours_per_week",
+                    "sectionId2": "job_info",
+                    "optionId2": "range_0_1",
+                    "n": 846,
+                    "correlation": -0.196,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "typescript",
+                    "n": 847,
+                    "correlation": 0.1957,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_pain_points",
+                    "sectionId2": "ai_usage",
+                    "n": 829,
+                    "correlation": 0.1878,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "n": 815,
+                    "correlation": 0.1794,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "remote_work_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "up_to_employee",
+                    "n": 847,
+                    "correlation": 0.1792,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "agile",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "agile",
@@ -24,6 +232,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "agile",
@@ -37,6 +247,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "agile",
@@ -50,6 +262,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "agile",
@@ -68,6 +282,8 @@
                     "id": "automated_testing",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -80,6 +296,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -93,6 +311,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -106,6 +326,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -118,6 +340,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -130,6 +354,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -143,6 +369,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -155,6 +383,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -168,6 +398,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -181,6 +413,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -194,6 +428,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -207,6 +443,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "automated_testing",
@@ -225,6 +463,8 @@
                     "id": "blameless_postmortems",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -237,6 +477,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -250,6 +492,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -263,6 +507,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -276,6 +522,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -289,6 +537,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -302,6 +552,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -314,6 +566,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -326,6 +580,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -339,6 +595,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -352,6 +610,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "blameless_postmortems",
+                        "questionId2": "ai_pain_points",
+                        "sectionId2": "ai_usage",
+                        "n": 829,
+                        "correlation": 0.1538,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "blameless_postmortems",
@@ -370,6 +644,8 @@
                     "id": "code_reviews",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -382,6 +658,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -395,6 +673,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -408,6 +688,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -420,6 +702,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -433,6 +717,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -446,6 +732,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -459,6 +747,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "code_reviews",
@@ -476,6 +766,8 @@
                     "id": "continuous_deployment_delivery",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -489,6 +781,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -501,6 +795,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -514,6 +810,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -527,6 +825,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -539,6 +839,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -552,6 +854,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -565,6 +869,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -578,6 +884,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -591,6 +899,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_deployment_delivery",
@@ -609,6 +919,8 @@
                     "id": "continuous_integration",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -621,6 +933,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -633,6 +947,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -646,6 +962,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -658,6 +976,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -671,6 +991,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -684,6 +1006,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -697,6 +1021,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -710,6 +1036,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -722,6 +1050,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "continuous_integration",
@@ -740,6 +1070,8 @@
                     "id": "infrastructure_as_code",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -753,6 +1085,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -766,6 +1100,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -779,6 +1115,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -791,6 +1129,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -804,6 +1144,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -817,6 +1159,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "infrastructure_as_code",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 815,
+                        "correlation": 0.1745,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -830,6 +1188,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "infrastructure_as_code",
@@ -841,6 +1201,20 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "infrastructure_as_code",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "n": 847,
+                        "correlation": 0.1604,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -848,6 +1222,8 @@
                     "id": "monitoring_and_logging",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -860,6 +1236,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -873,6 +1251,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -886,6 +1266,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -898,6 +1280,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -911,6 +1295,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -924,6 +1310,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -937,6 +1325,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -949,6 +1339,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -962,6 +1354,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -975,6 +1369,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -988,6 +1384,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -1001,6 +1399,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -1014,6 +1414,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "monitoring_and_logging",
@@ -1032,6 +1434,8 @@
                     "id": "pair_programming",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "pair_programming",
@@ -1049,6 +1453,8 @@
                     "id": "waterfall",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "waterfall",
@@ -1061,6 +1467,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "waterfall",
@@ -1073,6 +1481,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "waterfall",
@@ -1090,6 +1500,8 @@
                     "id": "version_control",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "version_control",
@@ -1103,6 +1515,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
                         "optionId1": "version_control",
@@ -1110,6 +1524,20 @@
                         "sectionId2": "job_info",
                         "n": 848,
                         "correlation": 0.1691,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "version_control",
+                        "questionId2": "ai_pain_points",
+                        "sectionId2": "ai_usage",
+                        "n": 829,
+                        "correlation": 0.1525,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -1128,6 +1556,68 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 60,
+                          "percentage": 7.2816
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 63,
+                          "percentage": 7.6456
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 59,
+                          "percentage": 7.1602
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 72,
+                          "percentage": 8.7379
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 93,
+                          "percentage": 11.2864
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 101,
+                          "percentage": 12.2573
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 97,
+                          "percentage": 11.7718
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 123,
+                          "percentage": 14.9272
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 92,
+                          "percentage": 11.165
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 58,
+                          "percentage": 7.0388
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 6,
+                          "percentage": 0.7282
+                        }
+                      ],
+                      "max": 11,
+                      "mean": 5.8968,
+                      "n": 824
                     },
                     "editionId": "td2025",
                     "year": 2025,

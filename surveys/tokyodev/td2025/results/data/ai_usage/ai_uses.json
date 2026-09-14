@@ -7,11 +7,219 @@
             "ai_uses": {
               "id": "ai_uses",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "n": 887,
+                    "correlation": 0.5567,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "n": 869,
+                    "correlation": 0.4436,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "na",
+                    "n": 887,
+                    "correlation": -0.3985,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "chat_gpt",
+                    "n": 887,
+                    "correlation": 0.3825,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "0",
+                    "n": 879,
+                    "correlation": -0.3743,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "n": 879,
+                    "correlation": 0.3656,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "claude",
+                    "n": 887,
+                    "correlation": 0.3187,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "more_productive",
+                    "sectionId2": "ai_usage",
+                    "n": 870,
+                    "correlation": 0.3182,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "gemini",
+                    "n": 887,
+                    "correlation": 0.2221,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "n": 829,
+                    "correlation": 0.1993,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "torch_pytorch",
+                    "n": 675,
+                    "correlation": 0.1953,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "cursor",
+                    "n": 887,
+                    "correlation": 0.1948,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "n": 675,
+                    "correlation": 0.1868,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "copilot",
+                    "n": 887,
+                    "correlation": 0.1725,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_uses",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 829,
+                    "correlation": -0.1704,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "code_generation",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -25,6 +233,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -38,6 +248,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -50,6 +262,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -62,6 +276,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -75,6 +291,22 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "code_generation",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.4454,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -87,6 +319,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -100,6 +334,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -113,6 +349,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -126,6 +364,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -139,6 +379,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -152,6 +394,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -165,6 +409,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -178,6 +424,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "code_generation",
@@ -189,19 +437,6 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "negative"
-                      },
-                      {
-                        "questionId1": "ai_uses",
-                        "sectionId1": "ai_usage",
-                        "optionId1": "code_generation",
-                        "questionId2": "os",
-                        "sectionId2": "_user_metadata",
-                        "optionId2": "Windows",
-                        "n": 587,
-                        "correlation": -0.1575,
-                        "sameSection": false,
-                        "strength": "moderate",
-                        "direction": "negative"
                       }
                     ]
                   },
@@ -209,6 +444,8 @@
                     "id": "computer_vision",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "computer_vision",
@@ -222,6 +459,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "computer_vision",
@@ -235,6 +474,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "computer_vision",
@@ -248,6 +489,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "computer_vision",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 675,
+                        "correlation": 0.2082,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "computer_vision",
@@ -261,6 +518,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "computer_vision",
@@ -276,9 +535,30 @@
                     ]
                   },
                   {
+                    "id": "image_generation",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "image_generation",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.201,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
                     "id": "learning_research",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -292,6 +572,22 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "learning_research",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.3175,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -305,6 +601,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -318,6 +616,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -330,6 +630,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -343,6 +645,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -356,6 +660,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -368,6 +674,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -381,6 +689,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -394,6 +704,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "learning_research",
@@ -411,6 +723,8 @@
                     "id": "speech_generation",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_generation",
@@ -424,6 +738,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_generation",
@@ -437,6 +753,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "speech_generation",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.16,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_generation",
@@ -455,6 +787,8 @@
                     "id": "speech_recognition",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_recognition",
@@ -468,6 +802,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "speech_recognition",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.1981,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_recognition",
@@ -481,6 +831,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "speech_recognition",
@@ -499,6 +851,22 @@
                     "id": "summarization",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "summarization",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.3647,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -511,6 +879,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -524,6 +894,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -537,6 +909,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -550,6 +924,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -563,6 +939,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -575,6 +953,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "summarization",
@@ -585,6 +965,34 @@
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "summarization",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 829,
+                        "correlation": 0.1673,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "summarization",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 675,
+                        "correlation": 0.1571,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -592,6 +1000,22 @@
                     "id": "text_generation",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "text_generation",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.3285,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -605,6 +1029,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -618,6 +1044,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -630,6 +1058,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -643,6 +1073,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -655,6 +1087,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -668,6 +1102,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -681,6 +1117,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "text_generation",
@@ -699,6 +1137,22 @@
                     "id": "translation",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "translation",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": 0.3212,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -712,6 +1166,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -724,6 +1180,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -737,6 +1195,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -750,6 +1210,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -763,6 +1225,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -776,6 +1240,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -788,6 +1254,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -800,6 +1268,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -813,6 +1283,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "translation",
@@ -830,6 +1302,8 @@
                     "id": "na",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -843,6 +1317,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -856,6 +1332,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -869,6 +1347,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_uses",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "na",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 887,
+                        "correlation": -0.3672,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -881,6 +1375,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -894,6 +1390,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -906,6 +1404,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -918,6 +1418,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -931,6 +1433,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -944,6 +1448,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -957,6 +1463,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -970,6 +1478,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -983,6 +1493,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -996,6 +1508,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "ai_uses",
                         "sectionId1": "ai_usage",
                         "optionId1": "na",
@@ -1022,6 +1536,58 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 87,
+                          "percentage": 10.3081
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 164,
+                          "percentage": 19.4313
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 185,
+                          "percentage": 21.9194
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 171,
+                          "percentage": 20.2607
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 154,
+                          "percentage": 18.2464
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 53,
+                          "percentage": 6.2796
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 15,
+                          "percentage": 1.7773
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 7,
+                          "percentage": 0.8294
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 8,
+                          "percentage": 0.9479
+                        }
+                      ],
+                      "max": 9,
+                      "mean": 3.5249,
+                      "n": 844
                     },
                     "editionId": "td2025",
                     "year": 2025,

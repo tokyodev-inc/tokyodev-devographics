@@ -7,11 +7,98 @@
             "discrimination_issues": {
               "id": "discrimination_issues",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_hours_per_week",
+                    "sectionId2": "job_info",
+                    "optionId2": "range_over_50",
+                    "n": 828,
+                    "correlation": 0.1947,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 829,
+                    "correlation": -0.1811,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "gender",
+                    "sectionId2": "user_info",
+                    "optionId2": "man",
+                    "n": 833,
+                    "correlation": -0.1792,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "searching_for_job",
+                    "sectionId2": "job_info",
+                    "optionId2": "yes",
+                    "n": 835,
+                    "correlation": 0.1721,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "gender",
+                    "sectionId2": "user_info",
+                    "optionId2": "woman",
+                    "n": 833,
+                    "correlation": 0.167,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "searching_for_job",
+                    "sectionId2": "job_info",
+                    "optionId2": "no",
+                    "n": 835,
+                    "correlation": -0.1635,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "gender",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "gender",
@@ -25,6 +112,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "gender",
@@ -43,6 +132,8 @@
                     "id": "race",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "race",
@@ -61,6 +152,8 @@
                     "id": "age",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "age",
@@ -79,6 +172,8 @@
                     "id": "na",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -92,6 +187,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -104,6 +201,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -117,6 +216,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -130,6 +231,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -143,6 +246,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "discrimination_issues",
                         "sectionId1": "job_info",
                         "optionId1": "na",
@@ -169,6 +274,58 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 90,
+                          "percentage": 51.4286
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 46,
+                          "percentage": 26.2857
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 24,
+                          "percentage": 13.7143
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 6,
+                          "percentage": 3.4286
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 2,
+                          "percentage": 1.1429
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 4,
+                          "percentage": 2.2857
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 1,
+                          "percentage": 0.5714
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.5714
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 1,
+                          "percentage": 0.5714
+                        }
+                      ],
+                      "max": 10,
+                      "mean": 1.9257,
+                      "n": 175
                     },
                     "editionId": "td2025",
                     "year": 2025,

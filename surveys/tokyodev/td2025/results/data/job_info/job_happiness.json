@@ -9,6 +9,8 @@
               "_correlations": {
                 "questionCorrelations": [
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "searching_for_job",
@@ -21,6 +23,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "searching_for_job",
@@ -33,6 +37,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "software_engineering_practices",
@@ -45,6 +51,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "remote_work_policy",
@@ -57,6 +65,21 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "job_happiness",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 841,
+                    "correlation": 0.2117,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "software_engineering_practices",
@@ -69,6 +92,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "income_evolution",
@@ -81,6 +106,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "software_engineering_practices",
@@ -93,6 +120,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "software_engineering_practices",
@@ -105,6 +134,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "discrimination_issues",
@@ -117,6 +148,21 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "job_happiness",
+                    "sectionId1": "job_info",
+                    "questionId2": "discrimination_issues",
+                    "sectionId2": "job_info",
+                    "n": 829,
+                    "correlation": -0.1811,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "languages_used_colleagues_english",
@@ -128,6 +174,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "income_evolution",
@@ -140,6 +188,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "life_japan_negative_aspects",
@@ -152,6 +202,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "job_happiness",
                     "sectionId1": "job_info",
                     "questionId2": "software_engineering_practices",
@@ -162,30 +214,6 @@
                     "sameSection": false,
                     "strength": "moderate",
                     "direction": "positive"
-                  },
-                  {
-                    "questionId1": "job_happiness",
-                    "sectionId1": "job_info",
-                    "questionId2": "life_japan_negative_aspects",
-                    "sectionId2": "life_in_japan",
-                    "optionId2": "limited_career_growth",
-                    "n": 829,
-                    "correlation": -0.1531,
-                    "sameSection": false,
-                    "strength": "moderate",
-                    "direction": "negative"
-                  },
-                  {
-                    "questionId1": "job_happiness",
-                    "sectionId1": "job_info",
-                    "questionId2": "remote_work_policy",
-                    "sectionId2": "job_info",
-                    "optionId2": "up_to_employee",
-                    "n": 898,
-                    "correlation": 0.1521,
-                    "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "positive"
                   }
                 ],
                 "optionCorrelations": [
@@ -193,6 +221,8 @@
                     "id": "0",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "0",
@@ -206,6 +236,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "0",
@@ -224,6 +256,8 @@
                     "id": "1",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "1",
@@ -237,6 +271,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "1",
@@ -255,6 +291,8 @@
                     "id": "2",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "2",
@@ -268,6 +306,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "2",
@@ -286,6 +326,8 @@
                     "id": "3",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "3",
@@ -299,6 +341,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "3",
@@ -312,6 +356,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "3",
@@ -330,6 +376,8 @@
                     "id": "4",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -343,6 +391,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -356,6 +406,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -369,6 +421,22 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "job_happiness",
+                        "sectionId1": "job_info",
+                        "optionId1": "4",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 841,
+                        "correlation": 0.1847,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -382,6 +450,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -395,6 +465,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -408,6 +480,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",
@@ -421,6 +495,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "job_happiness",
                         "sectionId1": "job_info",
                         "optionId1": "4",

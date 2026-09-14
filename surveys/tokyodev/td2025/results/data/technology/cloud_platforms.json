@@ -7,11 +7,234 @@
             "cloud_platforms": {
               "id": "cloud_platforms",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 786,
+                    "correlation": 0.3489,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 786,
+                    "correlation": -0.2816,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "nextjs",
+                    "n": 786,
+                    "correlation": 0.2191,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "n": 833,
+                    "correlation": 0.2189,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "react",
+                    "n": 786,
+                    "correlation": 0.2087,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "n": 828,
+                    "correlation": 0.2012,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_uses",
+                    "sectionId2": "ai_usage",
+                    "n": 829,
+                    "correlation": 0.1993,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "javascript",
+                    "n": 833,
+                    "correlation": 0.1938,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "html_css",
+                    "n": 833,
+                    "correlation": 0.1867,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 815,
+                    "correlation": 0.1794,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "flutter",
+                    "n": 653,
+                    "correlation": 0.1789,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "infrastructure_as_code",
+                    "n": 815,
+                    "correlation": 0.1745,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "gemini",
+                    "n": 828,
+                    "correlation": 0.1722,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "react_native",
+                    "n": 653,
+                    "correlation": 0.1704,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "cloud_platforms",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_uses",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "summarization",
+                    "n": 829,
+                    "correlation": 0.1673,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "aws",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "aws",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 786,
+                        "correlation": 0.281,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -25,6 +248,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -38,6 +263,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "aws",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 815,
+                        "correlation": 0.217,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -51,6 +292,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -64,6 +307,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -77,6 +322,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -90,6 +337,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "aws",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "n": 833,
+                        "correlation": 0.1686,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -103,6 +366,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -116,6 +381,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "aws",
@@ -134,6 +401,8 @@
                     "id": "azure",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -147,6 +416,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -160,6 +431,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -173,6 +446,22 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "azure",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 653,
+                        "correlation": 0.1715,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -186,6 +475,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -199,6 +490,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "azure",
@@ -217,6 +510,8 @@
                     "id": "google_cloud",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "google_cloud",
@@ -230,6 +525,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "google_cloud",
@@ -243,6 +540,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "google_cloud",
@@ -261,6 +560,8 @@
                     "id": "firebase",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "firebase",
@@ -274,6 +575,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "firebase",
@@ -287,6 +590,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "firebase",
@@ -299,6 +604,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "firebase",
@@ -312,6 +619,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "firebase",
@@ -330,6 +639,8 @@
                     "id": "cloudflare",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "cloudflare",
@@ -343,6 +654,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "cloudflare",
@@ -361,6 +674,8 @@
                     "id": "vercel",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -374,6 +689,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -387,6 +704,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "vercel",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 786,
+                        "correlation": 0.2097,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -400,6 +733,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -413,6 +748,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -426,6 +763,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -439,6 +778,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -451,6 +792,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -464,6 +807,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "vercel",
@@ -482,6 +827,22 @@
                     "id": "na",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "na",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 786,
+                        "correlation": -0.3296,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -495,6 +856,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -508,6 +871,22 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "na",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 815,
+                        "correlation": -0.2494,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -521,6 +900,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -534,6 +915,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -547,6 +930,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -560,6 +945,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -573,6 +960,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -586,6 +975,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -599,6 +990,36 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "na",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "n": 829,
+                        "correlation": -0.1704,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "cloud_platforms",
+                        "sectionId1": "technology",
+                        "optionId1": "na",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 828,
+                        "correlation": -0.1681,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -612,6 +1033,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "cloud_platforms",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -621,58 +1044,6 @@
                         "n": 815,
                         "correlation": -0.1623,
                         "sameSection": true,
-                        "strength": "moderate",
-                        "direction": "negative"
-                      },
-                      {
-                        "questionId1": "cloud_platforms",
-                        "sectionId1": "technology",
-                        "optionId1": "na",
-                        "questionId2": "os",
-                        "sectionId2": "_user_metadata",
-                        "optionId2": "Android",
-                        "n": 552,
-                        "correlation": 0.1561,
-                        "sameSection": false,
-                        "strength": "moderate",
-                        "direction": "positive"
-                      },
-                      {
-                        "questionId1": "cloud_platforms",
-                        "sectionId1": "technology",
-                        "optionId1": "na",
-                        "questionId2": "ai_uses",
-                        "sectionId2": "ai_usage",
-                        "optionId2": "code_generation",
-                        "n": 829,
-                        "correlation": -0.1537,
-                        "sameSection": false,
-                        "strength": "moderate",
-                        "direction": "negative"
-                      },
-                      {
-                        "questionId1": "cloud_platforms",
-                        "sectionId1": "technology",
-                        "optionId1": "na",
-                        "questionId2": "software_engineering_practices",
-                        "sectionId2": "technology",
-                        "optionId2": "agile",
-                        "n": 815,
-                        "correlation": -0.1528,
-                        "sameSection": true,
-                        "strength": "moderate",
-                        "direction": "negative"
-                      },
-                      {
-                        "questionId1": "cloud_platforms",
-                        "sectionId1": "technology",
-                        "optionId1": "na",
-                        "questionId2": "os",
-                        "sectionId2": "_user_metadata",
-                        "optionId2": "macOS",
-                        "n": 552,
-                        "correlation": -0.1518,
-                        "sameSection": false,
                         "strength": "moderate",
                         "direction": "negative"
                       }
@@ -690,6 +1061,33 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 387,
+                          "percentage": 67.3043
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 127,
+                          "percentage": 22.087
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 52,
+                          "percentage": 9.0435
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 9,
+                          "percentage": 1.5652
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 1.4487,
+                      "n": 575
                     },
                     "editionId": "td2024",
                     "year": 2024,
@@ -859,6 +1257,43 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 459,
+                          "percentage": 61.7766
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 178,
+                          "percentage": 23.9569
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 74,
+                          "percentage": 9.9596
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 22,
+                          "percentage": 2.961
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 9,
+                          "percentage": 1.2113
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 1,
+                          "percentage": 0.1346
+                        }
+                      ],
+                      "max": 6,
+                      "mean": 1.5828,
+                      "n": 743
                     },
                     "editionId": "td2025",
                     "year": 2025,

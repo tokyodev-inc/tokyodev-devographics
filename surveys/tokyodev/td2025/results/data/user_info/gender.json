@@ -12,6 +12,8 @@
                     "id": "man",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "man",
@@ -25,6 +27,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "man",
@@ -38,6 +42,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "man",
@@ -49,6 +55,20 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "n": 833,
+                        "correlation": -0.1792,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
@@ -56,6 +76,8 @@
                     "id": "woman",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "woman",
@@ -69,6 +91,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "woman",
@@ -82,6 +106,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "gender",
                         "sectionId1": "user_info",
                         "optionId1": "woman",
@@ -93,6 +119,20 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "n": 833,
+                        "correlation": 0.167,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   }

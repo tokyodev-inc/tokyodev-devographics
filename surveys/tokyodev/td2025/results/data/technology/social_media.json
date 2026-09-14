@@ -7,11 +7,69 @@
             "social_media": {
               "id": "social_media",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "social_media",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "n": 841,
+                    "correlation": 0.2132,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "social_media",
+                    "sectionId1": "technology",
+                    "questionId2": "hobbies",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "cooking",
+                    "n": 812,
+                    "correlation": 0.1668,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "social_media",
+                    "sectionId1": "technology",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "chat_gpt",
+                    "n": 841,
+                    "correlation": 0.1658,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "social_media",
+                    "sectionId1": "technology",
+                    "questionId2": "communities",
+                    "sectionId2": "life_in_japan",
+                    "n": 712,
+                    "correlation": 0.1559,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "facebook",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "facebook",
@@ -25,6 +83,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "facebook",
@@ -37,6 +97,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "facebook",
@@ -55,6 +117,8 @@
                     "id": "twitter",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "twitter",
@@ -68,6 +132,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "twitter",
@@ -85,6 +151,8 @@
                     "id": "instagram",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
@@ -97,6 +165,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
@@ -110,6 +180,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
@@ -122,6 +194,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
@@ -135,6 +209,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
@@ -153,6 +229,8 @@
                     "id": "linkedin",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -166,6 +244,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -179,6 +259,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -191,6 +273,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "social_media",
+                        "sectionId1": "technology",
+                        "optionId1": "linkedin",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 841,
+                        "correlation": 0.1705,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -204,6 +302,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -216,6 +316,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -229,6 +331,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -242,6 +346,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -255,6 +361,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "linkedin",
@@ -266,6 +374,20 @@
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "social_media",
+                        "sectionId1": "technology",
+                        "optionId1": "linkedin",
+                        "questionId2": "ai_uses",
+                        "sectionId2": "ai_usage",
+                        "n": 844,
+                        "correlation": 0.15,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -273,6 +395,8 @@
                     "id": "reddit",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "reddit",
@@ -286,6 +410,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "reddit",
@@ -298,6 +424,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "reddit",
@@ -316,6 +444,8 @@
                     "id": "mastodon",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "mastodon",
@@ -334,6 +464,8 @@
                     "id": "na",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "na",
@@ -360,6 +492,53 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 209,
+                          "percentage": 27.2135
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 209,
+                          "percentage": 27.2135
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 195,
+                          "percentage": 25.3906
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 94,
+                          "percentage": 12.2396
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 42,
+                          "percentage": 5.4688
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 15,
+                          "percentage": 1.9531
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 3,
+                          "percentage": 0.3906
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.1302
+                        }
+                      ],
+                      "max": 8,
+                      "mean": 2.4961,
+                      "n": 768
                     },
                     "editionId": "td2025",
                     "year": 2025,

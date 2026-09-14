@@ -7,11 +7,56 @@
             "communities": {
               "id": "communities",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "communities",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "professional_qualifications",
+                    "sectionId2": "user_info",
+                    "optionId2": "coding_bootcamp",
+                    "n": 729,
+                    "correlation": 0.2271,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "communities",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "source",
+                    "sectionId2": "_user_metadata",
+                    "optionId2": "reddit",
+                    "n": 695,
+                    "correlation": -0.1897,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "communities",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "social_media",
+                    "sectionId2": "technology",
+                    "n": 712,
+                    "correlation": 0.1559,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "hn_tokyo",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "hn_tokyo",
@@ -25,6 +70,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "hn_tokyo",
@@ -38,6 +85,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "hn_tokyo",
@@ -56,6 +105,8 @@
                     "id": "le_wagon",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "le_wagon",
@@ -69,6 +120,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "le_wagon",
@@ -82,6 +135,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "le_wagon",
@@ -95,6 +150,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "le_wagon",
@@ -113,6 +170,8 @@
                     "id": "tokyodev_discord",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_discord",
@@ -126,6 +185,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_discord",
@@ -138,6 +199,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_discord",
@@ -151,6 +214,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_discord",
@@ -169,6 +234,8 @@
                     "id": "tokyo_tech_leads_circle",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyo_tech_leads_circle",
@@ -187,6 +254,8 @@
                     "id": "tokyodev_meetups",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_meetups",
@@ -200,6 +269,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_meetups",
@@ -213,6 +284,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "tokyodev_meetups",
@@ -231,6 +304,8 @@
                     "id": "na",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "na",
@@ -244,6 +319,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "na",
@@ -257,6 +334,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "communities",
                         "sectionId1": "life_in_japan",
                         "optionId1": "na",
@@ -282,6 +361,58 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 162,
+                          "percentage": 56.25
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 75,
+                          "percentage": 26.0417
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 23,
+                          "percentage": 7.9861
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 15,
+                          "percentage": 5.2083
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 6,
+                          "percentage": 2.0833
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 4,
+                          "percentage": 1.3889
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 1,
+                          "percentage": 0.3472
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.3472
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 1,
+                          "percentage": 0.3472
+                        }
+                      ],
+                      "max": 11,
+                      "mean": 1.809,
+                      "n": 288
                     },
                     "editionId": "td2024",
                     "year": 2024,
@@ -519,6 +650,68 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 178,
+                          "percentage": 47.8495
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 97,
+                          "percentage": 26.0753
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 57,
+                          "percentage": 15.3226
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 16,
+                          "percentage": 4.3011
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 10,
+                          "percentage": 2.6882
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 4,
+                          "percentage": 1.0753
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 4,
+                          "percentage": 1.0753
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 2,
+                          "percentage": 0.5376
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 2,
+                          "percentage": 0.5376
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 1,
+                          "percentage": 0.2688
+                        },
+                        {
+                          "answerCount": 23,
+                          "count": 1,
+                          "percentage": 0.2688
+                        }
+                      ],
+                      "max": 23,
+                      "mean": 2.0941,
+                      "n": 372
                     },
                     "editionId": "td2025",
                     "year": 2025,

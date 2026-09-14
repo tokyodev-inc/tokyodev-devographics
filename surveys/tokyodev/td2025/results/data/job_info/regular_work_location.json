@@ -7,11 +7,43 @@
             "regular_work_location": {
               "id": "regular_work_location",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "regular_work_location",
+                    "sectionId1": "job_info",
+                    "questionId2": "remote_work_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "no_remote_work",
+                    "n": 903,
+                    "correlation": -0.2672,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "regular_work_location",
+                    "sectionId1": "job_info",
+                    "questionId2": "remote_work_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "hybrid",
+                    "n": 903,
+                    "correlation": 0.2109,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "company_offices",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -25,6 +57,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -38,6 +72,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -51,6 +87,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -64,6 +102,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -76,6 +116,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -89,6 +131,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -101,6 +145,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -114,6 +160,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -127,6 +175,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -140,6 +190,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -152,6 +204,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -165,6 +219,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -178,6 +234,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -190,6 +248,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "company_offices",
@@ -208,6 +268,8 @@
                     "id": "coworking_space",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "coworking_space",
@@ -226,6 +288,8 @@
                     "id": "cafe",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "cafe",
@@ -239,6 +303,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "cafe",
@@ -257,6 +323,8 @@
                     "id": "dedicated_room",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -270,6 +338,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -283,6 +353,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -296,6 +368,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -308,6 +382,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -321,6 +397,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -334,6 +412,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -347,6 +427,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -360,6 +442,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -372,6 +456,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "dedicated_room",
@@ -390,6 +476,8 @@
                     "id": "common_room",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "common_room",
@@ -403,6 +491,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "regular_work_location",
                         "sectionId1": "job_info",
                         "optionId1": "common_room",

@@ -7,11 +7,96 @@
             "initial_attraction": {
               "id": "initial_attraction",
               "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "initial_attraction",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "hobbies",
+                    "sectionId2": "life_in_japan",
+                    "n": 830,
+                    "correlation": 0.2648,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "initial_attraction",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "hobbies",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "language_learning",
+                    "n": 830,
+                    "correlation": 0.2307,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "initial_attraction",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "hobbies",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "video_games",
+                    "n": 830,
+                    "correlation": 0.2294,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "initial_attraction",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 841,
+                    "correlation": 0.1776,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "initial_attraction",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "number_of_kids",
+                    "sectionId2": "user_info",
+                    "n": 841,
+                    "correlation": -0.1559,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
                 "optionCorrelations": [
                   {
                     "id": "adventure",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "initial_attraction",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "adventure",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "n": 830,
+                        "correlation": 0.2203,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "adventure",
@@ -25,6 +110,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "adventure",
@@ -38,6 +125,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "adventure",
@@ -51,6 +140,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "adventure",
@@ -69,6 +160,8 @@
                     "id": "career",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -82,6 +175,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -95,6 +190,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -108,6 +205,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -120,6 +219,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -133,6 +234,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -146,6 +249,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -159,6 +264,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -172,6 +279,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -185,6 +294,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "career",
@@ -203,6 +314,8 @@
                     "id": "family",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -216,6 +329,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -229,6 +344,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -242,6 +359,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -255,6 +374,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -268,6 +389,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -281,6 +404,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -293,6 +418,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "family",
@@ -311,6 +438,8 @@
                     "id": "food",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "food",
@@ -329,6 +458,8 @@
                     "id": "friendship_romance",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "friendship_romance",
@@ -340,6 +471,20 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "initial_attraction",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "friendship_romance",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "n": 830,
+                        "correlation": 0.1562,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -347,6 +492,8 @@
                     "id": "infrastructure",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "infrastructure",
@@ -360,6 +507,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "infrastructure",
@@ -372,6 +521,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "infrastructure",
@@ -390,6 +541,8 @@
                     "id": "language",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "language",
@@ -403,6 +556,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "language",
@@ -415,6 +570,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "language",
@@ -428,6 +585,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "initial_attraction",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "language",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "n": 830,
+                        "correlation": 0.1673,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "language",
@@ -445,6 +618,8 @@
                     "id": "nature",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "nature",
@@ -458,6 +633,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "nature",
@@ -470,6 +647,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "nature",
@@ -488,6 +667,8 @@
                     "id": "pop_culture",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "pop_culture",
@@ -501,6 +682,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "pop_culture",
@@ -512,6 +695,20 @@
                         "sameSection": true,
                         "strength": "strong",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "initial_attraction",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "n": 830,
+                        "correlation": 0.1589,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -519,6 +716,8 @@
                     "id": "culture_history",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "culture_history",
@@ -530,6 +729,20 @@
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "initial_attraction",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "culture_history",
+                        "questionId2": "hobbies",
+                        "sectionId2": "life_in_japan",
+                        "n": 830,
+                        "correlation": 0.2014,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
@@ -537,6 +750,8 @@
                     "id": "safety",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "initial_attraction",
                         "sectionId1": "life_in_japan",
                         "optionId1": "safety",
@@ -563,6 +778,68 @@
                       },
                       "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 137,
+                          "percentage": 16.0987
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 134,
+                          "percentage": 15.7462
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 175,
+                          "percentage": 20.564
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 116,
+                          "percentage": 13.631
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 102,
+                          "percentage": 11.9859
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 81,
+                          "percentage": 9.5182
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 45,
+                          "percentage": 5.2879
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 43,
+                          "percentage": 5.0529
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 11,
+                          "percentage": 1.2926
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 5,
+                          "percentage": 0.5875
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 2,
+                          "percentage": 0.235
+                        }
+                      ],
+                      "max": 11,
+                      "mean": 3.7838,
+                      "n": 851
                     },
                     "editionId": "td2025",
                     "year": 2025,

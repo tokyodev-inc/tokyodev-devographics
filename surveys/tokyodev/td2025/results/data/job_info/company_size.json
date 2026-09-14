@@ -9,6 +9,8 @@
               "_correlations": {
                 "questionCorrelations": [
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "current_employer",
@@ -21,6 +23,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "remote_work_policy",
@@ -33,6 +37,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "remote_work_policy",
@@ -45,6 +51,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "industry_sector",
@@ -57,6 +65,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "current_employer",
@@ -69,6 +79,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "programming_languages",
@@ -81,6 +93,21 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 836,
+                    "correlation": 0.2312,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "programming_languages",
@@ -93,6 +120,21 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 798,
+                    "correlation": -0.2123,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "web_frameworks",
@@ -105,6 +147,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "web_frameworks",
@@ -117,6 +161,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "programming_languages",
@@ -129,6 +175,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "regular_work_location",
@@ -141,6 +189,8 @@
                     "direction": "positive"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "meeting_hours_per_week",
@@ -153,6 +203,8 @@
                     "direction": "negative"
                   },
                   {
+                    "kind1": "question",
+                    "kind2": "option",
                     "questionId1": "company_size",
                     "sectionId1": "job_info",
                     "questionId2": "employment_status",
@@ -163,30 +215,6 @@
                     "sameSection": true,
                     "strength": "moderate",
                     "direction": "negative"
-                  },
-                  {
-                    "questionId1": "company_size",
-                    "sectionId1": "job_info",
-                    "questionId2": "industry_sector",
-                    "sectionId2": "job_info",
-                    "optionId2": "saas",
-                    "n": 863,
-                    "correlation": -0.1878,
-                    "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "negative"
-                  },
-                  {
-                    "questionId1": "company_size",
-                    "sectionId1": "job_info",
-                    "questionId2": "software_engineering_practices",
-                    "sectionId2": "technology",
-                    "optionId2": "monitoring_and_logging",
-                    "n": 836,
-                    "correlation": 0.1867,
-                    "sameSection": false,
-                    "strength": "moderate",
-                    "direction": "positive"
                   }
                 ],
                 "optionCorrelations": [
@@ -194,6 +222,8 @@
                     "id": "range_2_9",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_2_9",
@@ -207,6 +237,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 836,
+                        "correlation": -0.1633,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_2_9",
@@ -220,6 +266,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_2_9",
@@ -238,6 +286,8 @@
                     "id": "range_20_99",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_20_99",
@@ -251,6 +301,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_20_99",
@@ -269,6 +321,8 @@
                     "id": "range_100_499",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_100_499",
@@ -282,6 +336,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_100_499",
@@ -295,6 +351,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "question",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_100_499",
@@ -307,6 +365,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_100_499",
@@ -325,6 +385,22 @@
                     "id": "range_1000_4999",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 836,
+                        "correlation": 0.1979,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_1000_4999",
@@ -338,6 +414,22 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 798,
+                        "correlation": -0.1813,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_1000_4999",
@@ -351,6 +443,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_1000_4999",
@@ -369,6 +463,8 @@
                     "id": "range_over_10000",
                     "correlations": [
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -382,6 +478,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -395,6 +493,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -408,6 +508,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -421,6 +523,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -434,6 +538,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -447,6 +553,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -460,6 +568,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -473,6 +583,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -486,6 +598,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -499,6 +613,8 @@
                         "direction": "negative"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
@@ -512,6 +628,8 @@
                         "direction": "positive"
                       },
                       {
+                        "kind1": "option",
+                        "kind2": "option",
                         "questionId1": "company_size",
                         "sectionId1": "job_info",
                         "optionId1": "range_over_10000",
