@@ -7,60 +7,858 @@
             "years_of_experience": {
               "id": "years_of_experience",
               "_correlations": {
-                "questionCorrelations": [
+                "optionCorrelations": [
                   {
-                    "kind1": "question",
-                    "kind2": "question",
-                    "questionId1": "years_of_experience",
-                    "sectionId1": "user_info",
-                    "questionId2": "age",
-                    "sectionId2": "user_info",
-                    "n": 735,
-                    "correlation": 0.3281,
-                    "sameSection": true,
-                    "strength": "strong",
-                    "direction": "positive"
+                    "id": "range_under_1",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_under_1",
+                        "n": 727,
+                        "correlation": 0.2165,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 694,
+                        "correlation": -0.2021,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "version_control",
+                        "n": 633,
+                        "correlation": -0.1729,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 735,
+                        "correlation": 0.1727,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 633,
+                        "correlation": -0.1689,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 633,
+                        "correlation": -0.1557,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 633,
+                        "correlation": -0.1553,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": -0.1552,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
                   },
                   {
-                    "kind1": "question",
-                    "kind2": "option",
-                    "questionId1": "years_of_experience",
-                    "sectionId1": "user_info",
-                    "questionId2": "residency_status",
-                    "sectionId2": "user_info",
-                    "optionId2": "engineer",
-                    "n": 703,
-                    "correlation": -0.2132,
-                    "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "negative"
+                    "id": "range_1_3",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 735,
+                        "correlation": 0.3596,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": -0.3145,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "working_hours_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fixed",
+                        "n": 670,
+                        "correlation": 0.2059,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "coding_bootcamp",
+                        "n": 728,
+                        "correlation": 0.1962,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "code_reviews",
+                        "n": 633,
+                        "correlation": -0.1904,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 633,
+                        "correlation": -0.1739,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 633,
+                        "correlation": -0.1638,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 633,
+                        "correlation": -0.1619,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_1_3",
+                        "n": 727,
+                        "correlation": 0.1533,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
                   },
                   {
-                    "kind1": "question",
-                    "kind2": "option",
-                    "questionId1": "years_of_experience",
-                    "sectionId1": "user_info",
-                    "questionId2": "residency_status",
-                    "sectionId2": "user_info",
-                    "optionId2": "permanent_resident",
-                    "n": 703,
-                    "correlation": 0.2091,
-                    "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "positive"
+                    "id": "range_4_6",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_4_6",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": -0.2449,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
                   },
                   {
-                    "kind1": "question",
-                    "kind2": "question",
-                    "questionId1": "years_of_experience",
-                    "sectionId1": "user_info",
-                    "questionId2": "years_in_japan",
-                    "sectionId2": "user_info",
-                    "n": 727,
-                    "correlation": 0.1705,
-                    "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "positive"
+                    "id": "range_7_9",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_7_9",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_30_39",
+                        "n": 735,
+                        "correlation": 0.1827,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_10_12",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_10_12",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_30_39",
+                        "n": 735,
+                        "correlation": 0.3063,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_10_12",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 735,
+                        "correlation": -0.2313,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_10_12",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "hiring_interviewing",
+                        "n": 670,
+                        "correlation": 0.1555,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_13_15",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_13_15",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 735,
+                        "correlation": -0.188,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_13_15",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": 0.1525,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_16_20",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_16_20",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_40_49",
+                        "n": 735,
+                        "correlation": 0.2713,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_16_20",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": 0.2636,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_over_20",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 735,
+                        "correlation": 0.4509,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 727,
+                        "correlation": 0.2961,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "age",
+                        "n": 646,
+                        "correlation": 0.2524,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 703,
+                        "correlation": 0.2523,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 703,
+                        "correlation": -0.2073,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "n": 646,
+                        "correlation": 0.1946,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "na",
+                        "n": 646,
+                        "correlation": -0.1894,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "desktop",
+                        "n": 670,
+                        "correlation": 0.1773,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "adventure",
+                        "n": 649,
+                        "correlation": -0.1696,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 673,
+                        "correlation": 0.1688,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "years_of_experience",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "country_citizenship",
+                        "n": 646,
+                        "correlation": 0.1585,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
+                    "completion": {
+                      "count": 984,
+                      "percentageSurvey": 97.52,
+                      "total": 1009
+                    },
+                    "buckets": [
+                      {
+                        "id": "10",
+                        "count": 94,
+                        "index": 0,
+                        "percentageQuestion": 9.55,
+                        "percentageSurvey": 9.32
+                      },
+                      {
+                        "id": "5",
+                        "count": 85,
+                        "index": 1,
+                        "percentageQuestion": 8.64,
+                        "percentageSurvey": 8.42
+                      },
+                      {
+                        "id": "3",
+                        "count": 80,
+                        "index": 2,
+                        "percentageQuestion": 8.13,
+                        "percentageSurvey": 7.93
+                      },
+                      {
+                        "id": "6",
+                        "count": 73,
+                        "index": 3,
+                        "percentageQuestion": 7.42,
+                        "percentageSurvey": 7.23
+                      },
+                      {
+                        "id": "4",
+                        "count": 68,
+                        "index": 4,
+                        "percentageQuestion": 6.91,
+                        "percentageSurvey": 6.74
+                      },
+                      {
+                        "id": "2",
+                        "count": 62,
+                        "index": 5,
+                        "percentageQuestion": 6.3,
+                        "percentageSurvey": 6.14
+                      },
+                      {
+                        "id": "8",
+                        "count": 60,
+                        "index": 6,
+                        "percentageQuestion": 6.1,
+                        "percentageSurvey": 5.95
+                      },
+                      {
+                        "id": "7",
+                        "count": 59,
+                        "index": 7,
+                        "percentageQuestion": 6,
+                        "percentageSurvey": 5.85
+                      },
+                      {
+                        "id": "15",
+                        "count": 50,
+                        "index": 8,
+                        "percentageQuestion": 5.08,
+                        "percentageSurvey": 4.96
+                      },
+                      {
+                        "id": "9",
+                        "count": 44,
+                        "index": 9,
+                        "percentageQuestion": 4.47,
+                        "percentageSurvey": 4.36
+                      },
+                      {
+                        "id": "0.5",
+                        "count": 42,
+                        "index": 10,
+                        "percentageQuestion": 4.27,
+                        "percentageSurvey": 4.16
+                      },
+                      {
+                        "id": "12",
+                        "count": 39,
+                        "index": 11,
+                        "percentageQuestion": 3.96,
+                        "percentageSurvey": 3.87
+                      },
+                      {
+                        "id": "20",
+                        "count": 27,
+                        "index": 12,
+                        "percentageQuestion": 2.74,
+                        "percentageSurvey": 2.68
+                      },
+                      {
+                        "id": "13",
+                        "count": 27,
+                        "index": 13,
+                        "percentageQuestion": 2.74,
+                        "percentageSurvey": 2.68
+                      },
+                      {
+                        "id": "1",
+                        "count": 26,
+                        "index": 14,
+                        "percentageQuestion": 2.64,
+                        "percentageSurvey": 2.58
+                      },
+                      {
+                        "id": "11",
+                        "count": 25,
+                        "index": 15,
+                        "percentageQuestion": 2.54,
+                        "percentageSurvey": 2.48
+                      },
+                      {
+                        "id": "14",
+                        "count": 20,
+                        "index": 16,
+                        "percentageQuestion": 2.03,
+                        "percentageSurvey": 1.98
+                      },
+                      {
+                        "id": "17",
+                        "count": 16,
+                        "index": 17,
+                        "percentageQuestion": 1.63,
+                        "percentageSurvey": 1.59
+                      },
+                      {
+                        "id": "25",
+                        "count": 15,
+                        "index": 18,
+                        "percentageQuestion": 1.52,
+                        "percentageSurvey": 1.49
+                      },
+                      {
+                        "id": "18",
+                        "count": 10,
+                        "index": 19,
+                        "percentageQuestion": 1.02,
+                        "percentageSurvey": 0.99
+                      },
+                      {
+                        "id": "cutoff_answers",
+                        "count": 62,
+                        "index": 20,
+                        "percentageQuestion": 6.25,
+                        "percentageSurvey": 6.16
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 25,
+                        "index": 21,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 2.48
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 737,
+                      "percentageSurvey": 97.88,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "range_under_1",
+                        "count": 31,
+                        "value": 0.5,
+                        "index": 0,
+                        "percentageQuestion": 4.21,
+                        "percentageSurvey": 4.12
+                      },
+                      {
+                        "id": "range_1_3",
+                        "count": 105,
+                        "value": 2,
+                        "index": 1,
+                        "percentageQuestion": 14.25,
+                        "percentageSurvey": 13.94
+                      },
+                      {
+                        "id": "range_4_6",
+                        "count": 176,
+                        "value": 5,
+                        "index": 2,
+                        "percentageQuestion": 23.88,
+                        "percentageSurvey": 23.37
+                      },
+                      {
+                        "id": "range_7_9",
+                        "count": 125,
+                        "value": 8,
+                        "index": 3,
+                        "percentageQuestion": 16.96,
+                        "percentageSurvey": 16.6
+                      },
+                      {
+                        "id": "range_10_12",
+                        "count": 119,
+                        "value": 11,
+                        "index": 4,
+                        "percentageQuestion": 16.15,
+                        "percentageSurvey": 15.8
+                      },
+                      {
+                        "id": "range_13_15",
+                        "count": 70,
+                        "value": 14,
+                        "index": 5,
+                        "percentageQuestion": 9.5,
+                        "percentageSurvey": 9.3
+                      },
+                      {
+                        "id": "range_16_20",
+                        "count": 55,
+                        "value": 18,
+                        "index": 6,
+                        "percentageQuestion": 7.46,
+                        "percentageSurvey": 7.3
+                      },
+                      {
+                        "id": "range_over_20",
+                        "count": 56,
+                        "value": 20,
+                        "index": 7,
+                        "percentageQuestion": 7.6,
+                        "percentageSurvey": 7.44
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 16,
+                        "index": 8,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 2.12
+                      }
+                    ]
                   }
                 ]
               }

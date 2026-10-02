@@ -6,6 +6,1342 @@
           "life_in_japan": {
             "life_japan_positive_aspects": {
               "id": "life_japan_positive_aspects",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "quality_of_life_over_time",
+                    "sectionId2": "life_in_japan",
+                    "n": 635,
+                    "correlation": 0.2667,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "remaining_in_japan",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "stay_permanently",
+                    "n": 641,
+                    "correlation": 0.2601,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "food",
+                    "n": 645,
+                    "correlation": -0.2218,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 616,
+                    "correlation": 0.2083,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "language_proficiency_english",
+                    "sectionId2": "user_info",
+                    "n": 651,
+                    "correlation": 0.208,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "cost_of_living",
+                    "n": 645,
+                    "correlation": -0.2074,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "country",
+                    "sectionId2": "user_info",
+                    "optionId2": "IND",
+                    "n": 548,
+                    "correlation": -0.1969,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 632,
+                    "correlation": 0.1869,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "country",
+                    "sectionId2": "user_info",
+                    "optionId2": "USA",
+                    "n": 548,
+                    "correlation": 0.1781,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "religion",
+                    "sectionId2": "user_info",
+                    "optionId2": "practicing_religious",
+                    "n": 594,
+                    "correlation": -0.1703,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "version_control",
+                    "n": 616,
+                    "correlation": 0.1643,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "age",
+                    "sectionId2": "user_info",
+                    "optionId2": "range_30_39",
+                    "n": 649,
+                    "correlation": 0.1594,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "life_japan_positive_aspects",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "blameless_postmortems",
+                    "n": 616,
+                    "correlation": 0.1574,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "adventure",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "adventure",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 641,
+                        "correlation": -0.1948,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "adventure",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_over_20",
+                        "n": 649,
+                        "correlation": -0.1696,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "adventure",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "bachelors_degree",
+                        "n": 642,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "career",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 645,
+                        "correlation": -0.2721,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "limited_career_growth",
+                        "n": 645,
+                        "correlation": -0.2521,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": 0.1877,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": -0.1791,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 645,
+                        "correlation": -0.1736,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": -0.1714,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IDN",
+                        "n": 548,
+                        "correlation": 0.1619,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 549,
+                        "correlation": -0.1582,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "overall_perception",
+                        "n": 549,
+                        "correlation": -0.1514,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "collectivist_culture",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 641,
+                        "correlation": 0.1688,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": 0.167,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "few_more_years",
+                        "n": 641,
+                        "correlation": -0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 616,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 649,
+                        "correlation": 0.151,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "collectivist_culture",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": 0.1505,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "compensation",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 645,
+                        "correlation": -0.3378,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IDN",
+                        "n": 548,
+                        "correlation": 0.2428,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": -0.19,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": -0.1878,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 645,
+                        "correlation": 0.1771,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "compensation",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": 0.1623,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "convenience",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "convenience",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "version_control",
+                        "n": 616,
+                        "correlation": 0.1586,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "convenience",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 616,
+                        "correlation": 0.1577,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "convenience",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 636,
+                        "correlation": -0.1567,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cost_of_living",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 645,
+                        "correlation": -0.5294,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": 0.2766,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": 0.2654,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 548,
+                        "correlation": -0.2439,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 632,
+                        "correlation": 0.2107,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 649,
+                        "correlation": 0.2049,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 649,
+                        "correlation": -0.1689,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "cost_of_living",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "practicing_religious",
+                        "n": 594,
+                        "correlation": -0.166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "food",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "food",
+                        "n": 645,
+                        "correlation": -0.3825,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 548,
+                        "correlation": -0.2829,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 645,
+                        "correlation": -0.244,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "practicing_religious",
+                        "n": 594,
+                        "correlation": -0.2183,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": 0.1782,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 641,
+                        "correlation": 0.1666,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "atheist",
+                        "n": 594,
+                        "correlation": 0.1581,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 645,
+                        "correlation": -0.1548,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 649,
+                        "correlation": -0.1547,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "food",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 632,
+                        "correlation": 0.1528,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "healthcare",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": 0.241,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "healthcare",
+                        "n": 645,
+                        "correlation": -0.2291,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 641,
+                        "correlation": 0.2215,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 651,
+                        "correlation": 0.2008,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 649,
+                        "correlation": -0.1851,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 649,
+                        "correlation": 0.1693,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 645,
+                        "correlation": -0.1534,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 641,
+                        "correlation": 0.1526,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "healthcare",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 548,
+                        "correlation": -0.151,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "infrastructure",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "infrastructure",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "version_control",
+                        "n": 616,
+                        "correlation": 0.2244,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "infrastructure",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 616,
+                        "correlation": 0.1841,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "infrastructure",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 616,
+                        "correlation": 0.1548,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "infrastructure",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 548,
+                        "correlation": -0.1537,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "infrastructure",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "optionId2": "3",
+                        "n": 632,
+                        "correlation": 0.1524,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pop_culture",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 626,
+                        "correlation": -0.1904,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 626,
+                        "correlation": 0.1771,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 641,
+                        "correlation": 0.175,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_40_49",
+                        "n": 649,
+                        "correlation": -0.1683,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 641,
+                        "correlation": -0.1622,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 646,
+                        "correlation": 0.1559,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "food",
+                        "n": 645,
+                        "correlation": -0.1552,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 649,
+                        "correlation": -0.153,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "pop_culture",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "practicing_religious",
+                        "n": 594,
+                        "correlation": -0.1529,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "culture_history",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "culture_history",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 641,
+                        "correlation": 0.2153,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "culture_history",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 548,
+                        "correlation": 0.1644,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "safety",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "safety",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": 0.1604,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "friendliness_towards_foreigners",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "friendliness_towards_foreigners",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 645,
+                        "correlation": -0.2484,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "friendliness_towards_foreigners",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "greater_uncertainty",
+                        "n": 549,
+                        "correlation": -0.2112,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "life_japan_positive_aspects",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "friendliness_towards_foreigners",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ui_ux_design",
+                        "n": 647,
+                        "correlation": 0.1555,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -14,8 +1350,35 @@
                         "property": "count",
                         "order": "desc"
                       },
-                      "limit": 50,
+                      "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 14,
+                          "percentage": 1.6279
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 25,
+                          "percentage": 2.907
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 815,
+                          "percentage": 94.7674
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 6,
+                          "percentage": 0.6977
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 2.9453,
+                      "n": 860
                     },
                     "editionId": "td2025",
                     "year": 2025,
@@ -30,21 +1393,42 @@
                         "count": 453,
                         "index": 0,
                         "percentageQuestion": 52.74,
-                        "percentageSurvey": 44.9
+                        "percentageSurvey": 44.9,
+                        "entity": {
+                          "id": "convenience",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "infrastructure",
                         "count": 365,
                         "index": 1,
                         "percentageQuestion": 42.49,
-                        "percentageSurvey": 36.17
+                        "percentageSurvey": 36.17,
+                        "entity": {
+                          "id": "infrastructure",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "safety",
                         "count": 318,
                         "index": 2,
                         "percentageQuestion": 37.02,
-                        "percentageSurvey": 31.52
+                        "percentageSurvey": 31.52,
+                        "entity": {
+                          "id": "safety",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "adventure",
@@ -65,21 +1449,51 @@
                         "count": 219,
                         "index": 5,
                         "percentageQuestion": 25.49,
-                        "percentageSurvey": 21.7
+                        "percentageSurvey": 21.7,
+                        "entity": {
+                          "id": "food",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "state_of_devs",
+                            "hobbies",
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "healthcare",
                         "count": 187,
                         "index": 6,
                         "percentageQuestion": 21.77,
-                        "percentageSurvey": 18.53
+                        "percentageSurvey": 18.53,
+                        "entity": {
+                          "id": "healthcare",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "nature",
                         "count": 117,
                         "index": 7,
                         "percentageQuestion": 13.62,
-                        "percentageSurvey": 11.6
+                        "percentageSurvey": 11.6,
+                        "entity": {
+                          "id": "nature",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "happiness_factors",
+                            "hobbies",
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "collectivist_culture",
@@ -117,26 +1531,35 @@
                         "percentageSurvey": 2.87
                       },
                       {
-                        "id": "cutoff_answers",
-                        "count": 3,
-                        "index": 13,
-                        "percentageQuestion": 0.35,
-                        "percentageSurvey": 0.3
-                      },
-                      {
-                        "id": "no_match",
-                        "count": 12,
-                        "index": 14,
-                        "percentageQuestion": 1.4,
-                        "percentageSurvey": 1.19,
-                        "isFreeformData": true
-                      },
-                      {
                         "id": "no_answer",
                         "count": 150,
-                        "index": 15,
+                        "index": 13,
                         "percentageQuestion": 0,
                         "percentageSurvey": 14.87
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 15,
+                        "index": 14,
+                        "percentageQuestion": 1.75,
+                        "percentageSurvey": 1.49,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 3,
+                            "index": 0,
+                            "percentageQuestion": 0.35,
+                            "percentageSurvey": 0.3
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 12,
+                            "index": 1,
+                            "percentageQuestion": 1.4,
+                            "percentageSurvey": 1.19,
+                            "isFreeformData": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -146,8 +1569,85 @@
                         "property": "count",
                         "order": "desc"
                       },
-                      "limit": 50,
+                      "limit": 20,
                       "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 13,
+                          "percentage": 1.9969
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 20,
+                          "percentage": 3.0722
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 29,
+                          "percentage": 4.4547
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 47,
+                          "percentage": 7.2197
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 66,
+                          "percentage": 10.1382
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 65,
+                          "percentage": 9.9846
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 82,
+                          "percentage": 12.596
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 101,
+                          "percentage": 15.5146
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 78,
+                          "percentage": 11.9816
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 79,
+                          "percentage": 12.1352
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 43,
+                          "percentage": 6.6052
+                        },
+                        {
+                          "answerCount": 12,
+                          "count": 19,
+                          "percentage": 2.9186
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 7,
+                          "percentage": 1.0753
+                        },
+                        {
+                          "answerCount": 14,
+                          "count": 2,
+                          "percentage": 0.3072
+                        }
+                      ],
+                      "max": 14,
+                      "mean": 7.2842,
+                      "n": 651
                     },
                     "editionId": "td2026",
                     "year": 2026,
@@ -162,28 +1662,61 @@
                         "count": 555,
                         "index": 0,
                         "percentageQuestion": 85.78,
-                        "percentageSurvey": 73.71
+                        "percentageSurvey": 73.71,
+                        "entity": {
+                          "id": "safety",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "convenience",
                         "count": 532,
                         "index": 1,
                         "percentageQuestion": 82.23,
-                        "percentageSurvey": 70.65
+                        "percentageSurvey": 70.65,
+                        "entity": {
+                          "id": "convenience",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "infrastructure",
                         "count": 531,
                         "index": 2,
                         "percentageQuestion": 82.07,
-                        "percentageSurvey": 70.52
+                        "percentageSurvey": 70.52,
+                        "entity": {
+                          "id": "infrastructure",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "food",
                         "count": 453,
                         "index": 3,
                         "percentageQuestion": 70.02,
-                        "percentageSurvey": 60.16
+                        "percentageSurvey": 60.16,
+                        "entity": {
+                          "id": "food",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "state_of_devs",
+                            "hobbies",
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "adventure",
@@ -197,14 +1730,32 @@
                         "count": 413,
                         "index": 5,
                         "percentageQuestion": 63.83,
-                        "percentageSurvey": 54.85
+                        "percentageSurvey": 54.85,
+                        "entity": {
+                          "id": "healthcare",
+                          "entityType": "default",
+                          "tags": [
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "nature",
                         "count": 397,
                         "index": 6,
                         "percentageQuestion": 61.36,
-                        "percentageSurvey": 52.72
+                        "percentageSurvey": 52.72,
+                        "entity": {
+                          "id": "nature",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "happiness_factors",
+                            "hobbies",
+                            "favourite_thing_about_japan"
+                          ]
+                        }
                       },
                       {
                         "id": "cost_of_living",
@@ -256,19 +1807,28 @@
                         "percentageSurvey": 8.1
                       },
                       {
-                        "id": "no_match",
-                        "count": 14,
-                        "index": 14,
-                        "percentageQuestion": 2.16,
-                        "percentageSurvey": 1.86,
-                        "isFreeformData": true
-                      },
-                      {
                         "id": "no_answer",
                         "count": 106,
-                        "index": 15,
+                        "index": 14,
                         "percentageQuestion": 0,
                         "percentageSurvey": 14.08
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 14,
+                        "index": 15,
+                        "percentageQuestion": 2.16,
+                        "percentageSurvey": 1.86,
+                        "groupedBuckets": [
+                          {
+                            "id": "no_match",
+                            "count": 14,
+                            "index": 0,
+                            "percentageQuestion": 2.16,
+                            "percentageSurvey": 1.86,
+                            "isFreeformData": true
+                          }
+                        ]
                       }
                     ]
                   }
