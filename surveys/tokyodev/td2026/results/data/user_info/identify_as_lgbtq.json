@@ -1,0 +1,133 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "user_info": {
+            "identify_as_lgbtq": {
+              "id": "identify_as_lgbtq",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "yes",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "identify_as_lgbtq",
+                        "sectionId1": "user_info",
+                        "optionId1": "yes",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "man",
+                        "n": 720,
+                        "correlation": -0.3304,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "identify_as_lgbtq",
+                        "sectionId1": "user_info",
+                        "optionId1": "yes",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "woman",
+                        "n": 720,
+                        "correlation": 0.2577,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "no",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "identify_as_lgbtq",
+                        "sectionId1": "user_info",
+                        "optionId1": "no",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "man",
+                        "n": 720,
+                        "correlation": 0.3304,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "identify_as_lgbtq",
+                        "sectionId1": "user_info",
+                        "optionId1": "no",
+                        "questionId2": "gender",
+                        "sectionId2": "user_info",
+                        "optionId2": "woman",
+                        "n": 720,
+                        "correlation": -0.2577,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 722,
+                      "percentageSurvey": 95.88,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "yes",
+                        "count": 53,
+                        "index": 0,
+                        "percentageQuestion": 7.34,
+                        "percentageSurvey": 7.04
+                      },
+                      {
+                        "id": "no",
+                        "count": 669,
+                        "index": 1,
+                        "percentageQuestion": 92.66,
+                        "percentageSurvey": 88.84
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 31,
+                        "index": 2,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.12
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

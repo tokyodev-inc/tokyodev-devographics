@@ -1,0 +1,576 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "life_in_japan": {
+            "quality_of_life_over_time": {
+              "id": "quality_of_life_over_time",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 635,
+                    "correlation": 0.2667,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 635,
+                    "correlation": -0.2546,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 620,
+                    "correlation": 0.2481,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "remaining_in_japan",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "stay_permanently",
+                    "n": 634,
+                    "correlation": 0.2429,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "career",
+                    "n": 635,
+                    "correlation": 0.1877,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "career_impacts",
+                    "n": 549,
+                    "correlation": -0.175,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "job_security_threat",
+                    "sectionId2": "ai_usage",
+                    "n": 632,
+                    "correlation": -0.1743,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "income_evolution",
+                    "sectionId2": "job_info",
+                    "optionId2": "increased",
+                    "n": 611,
+                    "correlation": 0.1689,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "compensation",
+                    "n": 635,
+                    "correlation": -0.167,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "n": 549,
+                    "correlation": -0.1637,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "searching_for_job",
+                    "sectionId2": "job_info",
+                    "optionId2": "yes",
+                    "n": 636,
+                    "correlation": -0.1635,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "compensation",
+                    "n": 635,
+                    "correlation": 0.1623,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "greater_uncertainty",
+                    "n": 549,
+                    "correlation": -0.1606,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "safety",
+                    "n": 635,
+                    "correlation": 0.1604,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "quality_of_life_over_time",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "hostility_towards_foreigners",
+                    "n": 635,
+                    "correlation": -0.1595,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "1",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": 0.2417,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "limited_career_growth",
+                        "n": 635,
+                        "correlation": 0.1751,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 634,
+                        "correlation": -0.1716,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": -0.1697,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "yen_value",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "0",
+                        "n": 634,
+                        "correlation": 0.1653,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 635,
+                        "correlation": 0.1638,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "yen_value",
+                        "sectionId2": "life_in_japan",
+                        "n": 634,
+                        "correlation": -0.1631,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 549,
+                        "correlation": 0.1556,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 635,
+                        "correlation": 0.1522,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 635,
+                        "correlation": 0.1508,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 620,
+                        "correlation": -0.1502,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "2",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_under_1",
+                        "n": 632,
+                        "correlation": 0.1672,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 620,
+                        "correlation": 0.223,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": 0.2144,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 634,
+                        "correlation": 0.1878,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 635,
+                        "correlation": 0.1813,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 632,
+                        "correlation": 0.1678,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "quality_of_life_over_time",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "4",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 635,
+                        "correlation": -0.1664,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 638,
+                      "percentageSurvey": 84.73,
+                      "total": 753
+                    },
+                    "average": 2.7,
+                    "percentiles": {
+                      "p50": 3
+                    },
+                    "buckets": [
+                      {
+                        "id": "0",
+                        "count": 20,
+                        "value": 0,
+                        "index": 0,
+                        "percentageQuestion": 3.13,
+                        "percentageSurvey": 2.66
+                      },
+                      {
+                        "id": "1",
+                        "count": 85,
+                        "value": 1,
+                        "index": 1,
+                        "percentageQuestion": 13.32,
+                        "percentageSurvey": 11.29
+                      },
+                      {
+                        "id": "2",
+                        "count": 173,
+                        "value": 2,
+                        "index": 2,
+                        "percentageQuestion": 27.12,
+                        "percentageSurvey": 22.97
+                      },
+                      {
+                        "id": "3",
+                        "count": 159,
+                        "value": 3,
+                        "index": 3,
+                        "percentageQuestion": 24.92,
+                        "percentageSurvey": 21.12
+                      },
+                      {
+                        "id": "4",
+                        "count": 201,
+                        "value": 4,
+                        "index": 4,
+                        "percentageQuestion": 31.5,
+                        "percentageSurvey": 26.69
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 115,
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 15.27
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

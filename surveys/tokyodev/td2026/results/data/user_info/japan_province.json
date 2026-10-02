@@ -2,108 +2,114 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "japan_province": {
               "id": "japan_province",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 725,
-                      "percentageSurvey": 89.07,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "tokyo",
+                    "correlations": [
                       {
-                        "count": 444,
-                        "id": "tokyo",
-                        "index": 0,
-                        "percentageQuestion": 61.24,
-                        "percentageSurvey": 54.55
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "tokyo",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 538,
+                        "correlation": 0.2043,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 81,
-                        "id": "kanagawa",
-                        "index": 1,
-                        "percentageQuestion": 11.17,
-                        "percentageSurvey": 9.95
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "tokyo",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 538,
+                        "correlation": -0.1744,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 38,
-                        "id": "chiba",
-                        "index": 2,
-                        "percentageQuestion": 5.24,
-                        "percentageSurvey": 4.67
-                      },
-                      {
-                        "count": 24,
-                        "id": "saitama",
-                        "index": 3,
-                        "percentageQuestion": 3.31,
-                        "percentageSurvey": 2.95
-                      },
-                      {
-                        "count": 22,
-                        "id": "osaka",
-                        "index": 4,
-                        "percentageQuestion": 3.03,
-                        "percentageSurvey": 2.7
-                      },
-                      {
-                        "count": 16,
-                        "id": "kyoto",
-                        "index": 5,
-                        "percentageQuestion": 2.21,
-                        "percentageSurvey": 1.97
-                      },
-                      {
-                        "count": 15,
-                        "id": "fukuoka",
-                        "index": 6,
-                        "percentageQuestion": 2.07,
-                        "percentageSurvey": 1.84
-                      },
-                      {
-                        "count": 13,
-                        "id": "hokkaido",
-                        "index": 7,
-                        "percentageQuestion": 1.79,
-                        "percentageSurvey": 1.6
-                      },
-                      {
-                        "count": 12,
-                        "id": "hyogo",
-                        "index": 8,
-                        "percentageQuestion": 1.66,
-                        "percentageSurvey": 1.47
-                      },
-                      {
-                        "count": 60,
-                        "id": "cutoff_answers",
-                        "index": 9,
-                        "percentageQuestion": 8.32,
-                        "percentageSurvey": 7.36
-                      },
-                      {
-                        "count": 89,
-                        "id": "no_answer",
-                        "index": 10,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 10.93
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "tokyo",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 538,
+                        "correlation": -0.1661,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "kanagawa",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "kanagawa",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "ecommerce",
+                        "n": 525,
+                        "correlation": 0.182,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "kanagawa",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 534,
+                        "correlation": 0.1744,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "japan_province",
+                        "sectionId1": "user_info",
+                        "optionId1": "kanagawa",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 407,
+                        "correlation": 0.157,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -122,95 +128,184 @@
                     },
                     "buckets": [
                       {
-                        "count": 518,
                         "id": "tokyo",
+                        "count": 518,
                         "index": 0,
                         "percentageQuestion": 59.27,
                         "percentageSurvey": 51.34
                       },
                       {
-                        "count": 111,
                         "id": "kanagawa",
+                        "count": 111,
                         "index": 1,
                         "percentageQuestion": 12.7,
                         "percentageSurvey": 11
                       },
                       {
-                        "count": 32,
                         "id": "chiba",
+                        "count": 32,
                         "index": 2,
                         "percentageQuestion": 3.66,
                         "percentageSurvey": 3.17
                       },
                       {
-                        "count": 27,
                         "id": "osaka",
+                        "count": 27,
                         "index": 3,
                         "percentageQuestion": 3.09,
                         "percentageSurvey": 2.68
                       },
                       {
-                        "count": 24,
                         "id": "fukuoka",
+                        "count": 24,
                         "index": 4,
                         "percentageQuestion": 2.75,
                         "percentageSurvey": 2.38
                       },
                       {
-                        "count": 22,
                         "id": "outside_of_japan",
+                        "count": 22,
                         "index": 5,
                         "percentageQuestion": 2.52,
                         "percentageSurvey": 2.18
                       },
                       {
-                        "count": 22,
                         "id": "saitama",
+                        "count": 22,
                         "index": 6,
                         "percentageQuestion": 2.52,
                         "percentageSurvey": 2.18
                       },
                       {
-                        "count": 18,
                         "id": "hokkaido",
+                        "count": 18,
                         "index": 7,
                         "percentageQuestion": 2.06,
                         "percentageSurvey": 1.78
                       },
                       {
-                        "count": 17,
                         "id": "aichi",
+                        "count": 17,
                         "index": 8,
                         "percentageQuestion": 1.95,
                         "percentageSurvey": 1.68
                       },
                       {
-                        "count": 11,
                         "id": "hyogo",
+                        "count": 11,
                         "index": 9,
                         "percentageQuestion": 1.26,
                         "percentageSurvey": 1.09
                       },
                       {
-                        "count": 10,
                         "id": "kyoto",
+                        "count": 10,
                         "index": 10,
                         "percentageQuestion": 1.14,
                         "percentageSurvey": 0.99
                       },
                       {
-                        "count": 62,
                         "id": "cutoff_answers",
+                        "count": 62,
                         "index": 11,
                         "percentageQuestion": 7.06,
                         "percentageSurvey": 6.2
                       },
                       {
-                        "count": 135,
                         "id": "no_answer",
+                        "count": 135,
                         "index": 12,
                         "percentageQuestion": 0,
                         "percentageSurvey": 13.38
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 593,
+                      "percentageSurvey": 78.75,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "tokyo",
+                        "count": 333,
+                        "index": 0,
+                        "percentageQuestion": 56.16,
+                        "percentageSurvey": 44.22
+                      },
+                      {
+                        "id": "kanagawa",
+                        "count": 79,
+                        "index": 1,
+                        "percentageQuestion": 13.32,
+                        "percentageSurvey": 10.49
+                      },
+                      {
+                        "id": "chiba",
+                        "count": 23,
+                        "index": 2,
+                        "percentageQuestion": 3.88,
+                        "percentageSurvey": 3.05
+                      },
+                      {
+                        "id": "osaka",
+                        "count": 23,
+                        "index": 3,
+                        "percentageQuestion": 3.88,
+                        "percentageSurvey": 3.05
+                      },
+                      {
+                        "id": "outside_of_japan",
+                        "count": 20,
+                        "index": 4,
+                        "percentageQuestion": 3.37,
+                        "percentageSurvey": 2.66
+                      },
+                      {
+                        "id": "saitama",
+                        "count": 20,
+                        "index": 5,
+                        "percentageQuestion": 3.37,
+                        "percentageSurvey": 2.66
+                      },
+                      {
+                        "id": "hokkaido",
+                        "count": 13,
+                        "index": 6,
+                        "percentageQuestion": 2.19,
+                        "percentageSurvey": 1.73
+                      },
+                      {
+                        "id": "fukuoka",
+                        "count": 11,
+                        "index": 7,
+                        "percentageQuestion": 1.85,
+                        "percentageSurvey": 1.46
+                      },
+                      {
+                        "id": "cutoff_answers",
+                        "count": 71,
+                        "index": 8,
+                        "percentageQuestion": 12.03,
+                        "percentageSurvey": 9.45
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 160,
+                        "index": 9,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 21.25
                       }
                     ]
                   }

@@ -1,0 +1,384 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "life_in_japan": {
+            "remaining_in_japan": {
+              "id": "remaining_in_japan",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "few_more_years",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "few_more_years",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 642,
+                        "correlation": 0.1821,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "few_more_years",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 642,
+                        "correlation": -0.178,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "few_more_years",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "collectivist_culture",
+                        "n": 641,
+                        "correlation": -0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "few_more_years",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_1_3",
+                        "n": 636,
+                        "correlation": 0.1505,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "leave_eventually",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "leave_eventually",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 644,
+                        "correlation": -0.1636,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "stay_permanently",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 641,
+                        "correlation": 0.2601,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "greater_uncertainty",
+                        "n": 548,
+                        "correlation": -0.2543,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 634,
+                        "correlation": 0.2429,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "culture_history",
+                        "n": 641,
+                        "correlation": 0.2153,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 642,
+                        "correlation": 0.1872,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pop_culture",
+                        "n": 641,
+                        "correlation": 0.175,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 640,
+                        "correlation": -0.1749,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "collectivist_culture",
+                        "n": 641,
+                        "correlation": 0.1688,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "food",
+                        "n": 641,
+                        "correlation": 0.1666,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "stay_permanently",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "healthcare",
+                        "n": 641,
+                        "correlation": 0.1526,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "not_sure",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "not_sure",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "greater_uncertainty",
+                        "n": 548,
+                        "correlation": 0.1599,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "not_sure",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "2",
+                        "n": 636,
+                        "correlation": 0.1598,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "remaining_in_japan",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "not_sure",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 634,
+                        "correlation": -0.1504,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 644,
+                      "percentageSurvey": 85.52,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "leave_soon",
+                        "count": 17,
+                        "index": 0,
+                        "percentageQuestion": 2.64,
+                        "percentageSurvey": 2.26
+                      },
+                      {
+                        "id": "few_more_years",
+                        "count": 82,
+                        "index": 1,
+                        "percentageQuestion": 12.73,
+                        "percentageSurvey": 10.89
+                      },
+                      {
+                        "id": "leave_eventually",
+                        "count": 74,
+                        "index": 2,
+                        "percentageQuestion": 11.49,
+                        "percentageSurvey": 9.83
+                      },
+                      {
+                        "id": "stay_permanently",
+                        "count": 286,
+                        "index": 3,
+                        "percentageQuestion": 44.41,
+                        "percentageSurvey": 37.98
+                      },
+                      {
+                        "id": "not_sure",
+                        "count": 185,
+                        "index": 4,
+                        "percentageQuestion": 28.73,
+                        "percentageSurvey": 24.57
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 109,
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.48
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 5,
+                        "index": 6,
+                        "percentageQuestion": 0.78,
+                        "percentageSurvey": 0.66,
+                        "groupedBuckets": [
+                          {
+                            "id": "no_match",
+                            "count": 5,
+                            "index": 0,
+                            "percentageQuestion": 0.78,
+                            "percentageSurvey": 0.66,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

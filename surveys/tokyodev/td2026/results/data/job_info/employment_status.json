@@ -2,95 +2,243 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "employment_status": {
               "id": "employment_status",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 20,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 753,
-                      "percentageSurvey": 92.51,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "permanent_employee",
+                    "correlations": [
                       {
-                        "count": 612,
-                        "id": "permanent_employee",
-                        "index": 0,
-                        "percentageQuestion": 81.27,
-                        "percentageSurvey": 75.18
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 670,
+                        "correlation": 0.3253,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 38,
-                        "id": "contract_employee",
-                        "index": 1,
-                        "percentageQuestion": 5.05,
-                        "percentageSurvey": 4.67
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 670,
+                        "correlation": -0.3187,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
                       },
                       {
-                        "count": 38,
-                        "id": "freelancer_self_employed",
-                        "index": 2,
-                        "percentageQuestion": 5.05,
-                        "percentageSurvey": 4.67
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "income_evolution",
+                        "sectionId2": "job_info",
+                        "optionId2": "increased",
+                        "n": 659,
+                        "correlation": 0.2534,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 19,
-                        "id": "temporary_worker",
-                        "index": 3,
-                        "percentageQuestion": 2.52,
-                        "percentageSurvey": 2.33
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_2_9",
+                        "n": 672,
+                        "correlation": -0.2456,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 15,
-                        "id": "not_employed_looking_for_work",
-                        "index": 4,
-                        "percentageQuestion": 1.99,
-                        "percentageSurvey": 1.84
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 696,
+                        "correlation": -0.2402,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 13,
-                        "id": "company_director",
-                        "index": 5,
-                        "percentageQuestion": 1.73,
-                        "percentageSurvey": 1.6
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 671,
+                        "correlation": -0.2389,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 61,
-                        "id": "no_answer",
-                        "index": 6,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 7.49
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "yen_value",
+                        "sectionId2": "life_in_japan",
+                        "n": 640,
+                        "correlation": -0.2194,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 18,
-                        "id": "other_answers",
-                        "index": 7,
-                        "percentageQuestion": 2.39,
-                        "percentageSurvey": 2.21,
-                        "groupedBuckets": [
-                          {
-                            "count": 18,
-                            "id": "cutoff_answers",
-                            "percentageQuestion": 2.39,
-                            "percentageSurvey": 2.21
-                          }
-                        ]
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "education",
+                        "n": 663,
+                        "correlation": -0.1964,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 672,
+                        "correlation": 0.1937,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "income_evolution",
+                        "sectionId2": "job_info",
+                        "optionId2": "stayed_same",
+                        "n": 659,
+                        "correlation": -0.189,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 630,
+                        "correlation": 0.1868,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 669,
+                        "correlation": 0.1757,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_but_would_consider",
+                        "n": 696,
+                        "correlation": 0.1629,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_over_20",
+                        "n": 687,
+                        "correlation": -0.1595,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "employment_status",
+                        "sectionId1": "job_info",
+                        "optionId1": "permanent_employee",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 662,
+                        "correlation": 0.1591,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -109,73 +257,166 @@
                     },
                     "buckets": [
                       {
-                        "count": 749,
                         "id": "permanent_employee",
+                        "count": 749,
                         "index": 0,
                         "percentageQuestion": 80.89,
                         "percentageSurvey": 74.23
                       },
                       {
-                        "count": 61,
                         "id": "contract_employee",
+                        "count": 61,
                         "index": 1,
                         "percentageQuestion": 6.59,
                         "percentageSurvey": 6.05
                       },
                       {
-                        "count": 37,
                         "id": "freelancer_self_employed",
+                        "count": 37,
                         "index": 2,
                         "percentageQuestion": 4,
                         "percentageSurvey": 3.67
                       },
                       {
-                        "count": 28,
                         "id": "temporary_worker",
+                        "count": 28,
                         "index": 3,
                         "percentageQuestion": 3.02,
                         "percentageSurvey": 2.78
                       },
                       {
-                        "count": 20,
                         "id": "not_employed_looking_for_work",
+                        "count": 20,
                         "index": 4,
                         "percentageQuestion": 2.16,
                         "percentageSurvey": 1.98
                       },
                       {
-                        "count": 17,
                         "id": "company_director",
+                        "count": 17,
                         "index": 5,
                         "percentageQuestion": 1.84,
                         "percentageSurvey": 1.68
                       },
                       {
-                        "count": 83,
                         "id": "no_answer",
+                        "count": 83,
                         "index": 6,
                         "percentageQuestion": 0,
                         "percentageSurvey": 8.23
                       },
                       {
-                        "count": 19,
                         "id": "other_answers",
+                        "count": 19,
                         "index": 7,
                         "percentageQuestion": 2.06,
                         "percentageSurvey": 1.89,
                         "groupedBuckets": [
                           {
-                            "count": 17,
                             "id": "cutoff_answers",
+                            "count": 17,
+                            "index": 0,
                             "percentageQuestion": 1.84,
                             "percentageSurvey": 1.69
                           },
                           {
-                            "count": 2,
                             "id": "no_match",
-                            "index": 2,
+                            "count": 2,
+                            "index": 1,
                             "percentageQuestion": 0.22,
                             "percentageSurvey": 0.2,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 696,
+                      "percentageSurvey": 92.43,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "permanent_employee",
+                        "count": 552,
+                        "index": 0,
+                        "percentageQuestion": 79.31,
+                        "percentageSurvey": 73.31
+                      },
+                      {
+                        "id": "contract_employee",
+                        "count": 39,
+                        "index": 1,
+                        "percentageQuestion": 5.6,
+                        "percentageSurvey": 5.18
+                      },
+                      {
+                        "id": "freelancer_self_employed",
+                        "count": 29,
+                        "index": 2,
+                        "percentageQuestion": 4.17,
+                        "percentageSurvey": 3.85
+                      },
+                      {
+                        "id": "not_employed_looking_for_work",
+                        "count": 21,
+                        "index": 3,
+                        "percentageQuestion": 3.02,
+                        "percentageSurvey": 2.79
+                      },
+                      {
+                        "id": "temporary_worker",
+                        "count": 21,
+                        "index": 4,
+                        "percentageQuestion": 3.02,
+                        "percentageSurvey": 2.79
+                      },
+                      {
+                        "id": "company_director",
+                        "count": 15,
+                        "index": 5,
+                        "percentageQuestion": 2.16,
+                        "percentageSurvey": 1.99
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 57,
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 7.57
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 22,
+                        "index": 7,
+                        "percentageQuestion": 3.16,
+                        "percentageSurvey": 2.91,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 21,
+                            "index": 0,
+                            "percentageQuestion": 3.02,
+                            "percentageSurvey": 2.78
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 1,
+                            "index": 1,
+                            "percentageQuestion": 0.14,
+                            "percentageSurvey": 0.13,
                             "isFreeformData": true
                           }
                         ]

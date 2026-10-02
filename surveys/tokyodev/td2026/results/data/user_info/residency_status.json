@@ -2,124 +2,478 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "residency_status": {
               "id": "residency_status",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 20,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 774,
-                      "percentageSurvey": 95.09,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "spouse_dependent_japanese_permanent_resident",
+                    "correlations": [
                       {
-                        "count": 379,
-                        "id": "engineer",
-                        "index": 0,
-                        "percentageQuestion": 48.97,
-                        "percentageSurvey": 46.56,
-                        "entity": {
-                          "name": "Engineer (other)",
-                          "nameHtml": "Engineer (other)",
-                          "nameClean": "Engineer (other)",
-                          "id": "engineer",
-                          "entityType": "default"
-                        }
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 705,
+                        "correlation": 0.1787,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 145,
-                        "id": "permanent_resident",
-                        "index": 1,
-                        "percentageQuestion": 18.73,
-                        "percentageSurvey": 17.81
-                      },
-                      {
-                        "count": 93,
-                        "id": "spouse_dependent_japanese_permanent_resident",
-                        "index": 2,
-                        "percentageQuestion": 12.02,
-                        "percentageSurvey": 11.43
-                      },
-                      {
-                        "count": 75,
-                        "id": "hsfp",
-                        "index": 3,
-                        "percentageQuestion": 9.69,
-                        "percentageSurvey": 9.21
-                      },
-                      {
-                        "count": 52,
-                        "id": "japanese_citizen",
-                        "index": 4,
-                        "percentageQuestion": 6.72,
-                        "percentageSurvey": 6.39
-                      },
-                      {
-                        "count": 14,
-                        "id": "student",
-                        "index": 5,
-                        "percentageQuestion": 1.81,
-                        "percentageSurvey": 1.72,
-                        "entity": {
-                          "name": "Student",
-                          "nameHtml": "Student",
-                          "nameClean": "Student",
-                          "id": "student",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 11,
-                        "id": "dependent_foreign_resident",
-                        "index": 6,
-                        "percentageQuestion": 1.42,
-                        "percentageSurvey": 1.35
-                      },
-                      {
-                        "count": 40,
-                        "id": "no_answer",
-                        "index": 7,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 4.91
-                      },
-                      {
-                        "count": 24,
-                        "id": "other_answers",
-                        "index": 8,
-                        "percentageQuestion": 3.11,
-                        "percentageSurvey": 2.94,
-                        "groupedBuckets": [
-                          {
-                            "count": 13,
-                            "id": "cutoff_answers",
-                            "percentageQuestion": 1.69,
-                            "percentageSurvey": 1.59
-                          },
-                          {
-                            "count": 11,
-                            "id": "no_match",
-                            "index": 1,
-                            "percentageQuestion": 1.42,
-                            "percentageSurvey": 1.35,
-                            "isFreeformData": true
-                          }
-                        ]
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "spouse_dependent_japanese_permanent_resident",
+                        "questionId2": "income_evolution",
+                        "sectionId2": "job_info",
+                        "optionId2": "decreased",
+                        "n": 638,
+                        "correlation": 0.1691,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
+                  {
+                    "id": "hsfp",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "hsfp",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": -0.1774,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "hsfp",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "robotics",
+                        "n": 639,
+                        "correlation": 0.1615,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "hsfp",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "optionId2": "none",
+                        "n": 703,
+                        "correlation": 0.1554,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "engineer",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 705,
+                        "correlation": -0.3598,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": -0.3593,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "residency_status",
+                        "n": 541,
+                        "correlation": 0.2312,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": -0.2132,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 585,
+                        "correlation": 0.2008,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 643,
+                        "correlation": 0.1786,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pop_culture",
+                        "n": 626,
+                        "correlation": 0.1771,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": -0.1763,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 669,
+                        "correlation": 0.1757,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "bachelors_degree",
+                        "n": 700,
+                        "correlation": 0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "engineer",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "dev_japan",
+                        "n": 535,
+                        "correlation": -0.1518,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "permanent_resident",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": 0.4935,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 705,
+                        "correlation": 0.3936,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "residency_status",
+                        "n": 541,
+                        "correlation": -0.2977,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "higher_financial_burden",
+                        "n": 541,
+                        "correlation": -0.2384,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": 0.2091,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pop_culture",
+                        "n": 626,
+                        "correlation": -0.1904,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "product_management",
+                        "n": 646,
+                        "correlation": 0.1811,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "permanent_resident",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 541,
+                        "correlation": -0.1768,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "japanese_citizen",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_over_20",
+                        "n": 703,
+                        "correlation": 0.3645,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": 0.2807,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 703,
+                        "correlation": 0.1972,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 655,
+                        "correlation": 0.1953,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 655,
+                        "correlation": 0.1902,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "residency_status",
+                        "sectionId1": "user_info",
+                        "optionId1": "japanese_citizen",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "coding_bootcamp",
+                        "n": 700,
+                        "correlation": 0.1736,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -138,8 +492,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 473,
                         "id": "engineer",
+                        "count": 473,
                         "index": 0,
                         "percentageQuestion": 49.53,
                         "percentageSurvey": 46.88,
@@ -148,40 +502,44 @@
                           "nameHtml": "Engineer (other)",
                           "nameClean": "Engineer (other)",
                           "id": "engineer",
-                          "entityType": "default"
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "current_job_description"
+                          ]
                         }
                       },
                       {
-                        "count": 167,
                         "id": "permanent_resident",
+                        "count": 167,
                         "index": 1,
                         "percentageQuestion": 17.49,
                         "percentageSurvey": 16.55
                       },
                       {
-                        "count": 111,
                         "id": "spouse_dependent_japanese_permanent_resident",
+                        "count": 111,
                         "index": 2,
                         "percentageQuestion": 11.62,
                         "percentageSurvey": 11
                       },
                       {
-                        "count": 100,
                         "id": "hsfp",
+                        "count": 100,
                         "index": 3,
                         "percentageQuestion": 10.47,
                         "percentageSurvey": 9.91
                       },
                       {
-                        "count": 73,
                         "id": "japanese_citizen",
+                        "count": 73,
                         "index": 4,
                         "percentageQuestion": 7.64,
                         "percentageSurvey": 7.23
                       },
                       {
-                        "count": 18,
                         "id": "student",
+                        "count": 18,
                         "index": 5,
                         "percentageQuestion": 1.88,
                         "percentageSurvey": 1.78,
@@ -190,35 +548,158 @@
                           "nameHtml": "Student",
                           "nameClean": "Student",
                           "id": "student",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "job_title"
+                          ]
                         }
                       },
                       {
-                        "count": 54,
                         "id": "no_answer",
+                        "count": 54,
                         "index": 6,
                         "percentageQuestion": 0,
                         "percentageSurvey": 5.35
                       },
                       {
-                        "count": 33,
                         "id": "other_answers",
+                        "count": 33,
                         "index": 7,
                         "percentageQuestion": 3.46,
                         "percentageSurvey": 3.28,
                         "groupedBuckets": [
                           {
-                            "count": 23,
                             "id": "cutoff_answers",
+                            "count": 23,
+                            "index": 0,
                             "percentageQuestion": 2.41,
                             "percentageSurvey": 2.29
                           },
                           {
-                            "count": 10,
                             "id": "no_match",
-                            "index": 2,
+                            "count": 10,
+                            "index": 1,
                             "percentageQuestion": 1.05,
                             "percentageSurvey": 0.99,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 710,
+                      "percentageSurvey": 94.29,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "engineer",
+                        "count": 351,
+                        "index": 0,
+                        "percentageQuestion": 49.44,
+                        "percentageSurvey": 46.61,
+                        "entity": {
+                          "name": "Engineer (other)",
+                          "nameHtml": "Engineer (other)",
+                          "nameClean": "Engineer (other)",
+                          "id": "engineer",
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "current_job_description"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "permanent_resident",
+                        "count": 148,
+                        "index": 1,
+                        "percentageQuestion": 20.85,
+                        "percentageSurvey": 19.65
+                      },
+                      {
+                        "id": "spouse_dependent_japanese_permanent_resident",
+                        "count": 87,
+                        "index": 2,
+                        "percentageQuestion": 12.25,
+                        "percentageSurvey": 11.55
+                      },
+                      {
+                        "id": "hsfp",
+                        "count": 59,
+                        "index": 3,
+                        "percentageQuestion": 8.31,
+                        "percentageSurvey": 7.84
+                      },
+                      {
+                        "id": "japanese_citizen",
+                        "count": 32,
+                        "index": 4,
+                        "percentageQuestion": 4.51,
+                        "percentageSurvey": 4.25
+                      },
+                      {
+                        "id": "student",
+                        "count": 24,
+                        "index": 5,
+                        "percentageQuestion": 3.38,
+                        "percentageSurvey": 3.19,
+                        "entity": {
+                          "name": "Student",
+                          "nameHtml": "Student",
+                          "nameClean": "Student",
+                          "id": "student",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "job_title"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 43,
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 5.71
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 27,
+                        "index": 7,
+                        "percentageQuestion": 3.8,
+                        "percentageSurvey": 3.59,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 16,
+                            "index": 0,
+                            "percentageQuestion": 2.25,
+                            "percentageSurvey": 2.13
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 11,
+                            "index": 1,
+                            "percentageQuestion": 1.55,
+                            "percentageSurvey": 1.46,
                             "isFreeformData": true
                           }
                         ]

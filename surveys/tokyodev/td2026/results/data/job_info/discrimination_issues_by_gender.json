@@ -2,7 +2,7 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "discrimination_issues_by_gender_1": {
               "id": "discrimination_issues",
@@ -17,51 +17,34 @@
                       "limit": 50,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 91,
-                      "percentageSurvey": 9.02,
-                      "total": 1009
+                      "count": 64,
+                      "percentageSurvey": 8.5,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 29,
-                        "id": "gender",
-                        "index": 0,
-                        "percentageQuestion": 31.87,
-                        "percentageSurvey": 2.87
-                      },
-                      {
-                        "count": 55,
                         "id": "na",
-                        "index": 1,
-                        "percentageQuestion": 60.44,
-                        "percentageSurvey": 5.45,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
+                        "count": 50,
+                        "index": 0,
+                        "percentageQuestion": 78.13,
+                        "percentageSurvey": 6.64
                       },
                       {
-                        "count": 26,
                         "id": "no_answer",
-                        "index": 2,
+                        "count": 10,
+                        "index": 1,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 2.58
+                        "percentageSurvey": 1.33
                       },
                       {
-                        "count": 32,
                         "id": "other_answers",
-                        "index": 3,
-                        "percentageQuestion": 35.17,
-                        "percentageSurvey": 3.19
+                        "count": 27,
+                        "index": 2,
+                        "percentageQuestion": 42.2,
+                        "percentageSurvey": 3.6
                       }
                     ]
                   }
@@ -81,108 +64,87 @@
                       "limit": 50,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 733,
-                      "percentageSurvey": 72.65,
-                      "total": 1009
+                      "count": 561,
+                      "percentageSurvey": 74.5,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 57,
-                        "id": "race",
+                        "id": "na",
+                        "count": 478,
                         "index": 0,
-                        "percentageQuestion": 7.78,
-                        "percentageSurvey": 5.65
+                        "percentageQuestion": 85.2,
+                        "percentageSurvey": 63.48
                       },
                       {
-                        "count": 56,
                         "id": "country_citizenship",
+                        "count": 33,
                         "index": 1,
-                        "percentageQuestion": 7.64,
-                        "percentageSurvey": 5.55,
+                        "percentageQuestion": 5.88,
+                        "percentageSurvey": 4.38,
                         "entity": {
                           "id": "country_citizenship",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
                         }
                       },
                       {
-                        "count": 46,
                         "id": "age",
+                        "count": 30,
                         "index": 2,
-                        "percentageQuestion": 6.28,
-                        "percentageSurvey": 4.56
+                        "percentageQuestion": 5.35,
+                        "percentageSurvey": 3.98
                       },
                       {
-                        "count": 29,
-                        "id": "appearance_body",
+                        "id": "mental_conditions",
+                        "count": 22,
                         "index": 3,
-                        "percentageQuestion": 3.96,
-                        "percentageSurvey": 2.87,
+                        "percentageQuestion": 3.92,
+                        "percentageSurvey": 2.92
+                      },
+                      {
+                        "id": "race",
+                        "count": 17,
+                        "index": 4,
+                        "percentageQuestion": 3.03,
+                        "percentageSurvey": 2.26
+                      },
+                      {
+                        "id": "appearance_body",
+                        "count": 13,
+                        "index": 5,
+                        "percentageQuestion": 2.32,
+                        "percentageSurvey": 1.73,
                         "entity": {
                           "id": "appearance_body",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
                         }
                       },
                       {
-                        "count": 16,
-                        "id": "gender",
-                        "index": 4,
-                        "percentageQuestion": 2.18,
-                        "percentageSurvey": 1.59
-                      },
-                      {
-                        "count": 14,
-                        "id": "disability",
-                        "index": 5,
-                        "percentageQuestion": 1.91,
-                        "percentageSurvey": 1.39
-                      },
-                      {
-                        "count": 12,
-                        "id": "political_views",
-                        "index": 6,
-                        "percentageQuestion": 1.64,
-                        "percentageSurvey": 1.19
-                      },
-                      {
-                        "count": 11,
-                        "id": "caregiving_status",
-                        "index": 7,
-                        "percentageQuestion": 1.5,
-                        "percentageSurvey": 1.09
-                      },
-                      {
-                        "count": 608,
-                        "id": "na",
-                        "index": 8,
-                        "percentageQuestion": 82.95,
-                        "percentageSurvey": 60.26,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 121,
                         "id": "no_answer",
-                        "index": 9,
+                        "count": 78,
+                        "index": 6,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 11.99
+                        "percentageSurvey": 10.36
                       },
                       {
-                        "count": 23,
                         "id": "other_answers",
-                        "index": 10,
-                        "percentageQuestion": 3.14,
-                        "percentageSurvey": 2.28
+                        "count": 33,
+                        "index": 7,
+                        "percentageQuestion": 5.88,
+                        "percentageSurvey": 4.39
                       }
                     ]
                   }

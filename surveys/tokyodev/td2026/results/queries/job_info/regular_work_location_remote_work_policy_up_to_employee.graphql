@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         job_info {
           regular_work_location_remote_work_policy_up_to_employee_1: regular_work_location {
             id
@@ -48,8 +48,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -61,12 +61,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -77,6 +79,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {

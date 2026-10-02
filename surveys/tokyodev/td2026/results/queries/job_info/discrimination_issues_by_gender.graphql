@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         job_info {
           discrimination_issues_by_gender_1: discrimination_issues {
             id
@@ -46,8 +46,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -59,12 +59,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -75,6 +77,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -186,8 +197,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -199,12 +210,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -215,6 +228,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {

@@ -2,10 +2,248 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "ai_usage": {
             "job_security_threat": {
               "id": "job_security_threat",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 641,
+                    "correlation": 0.2111,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_impact",
+                    "sectionId2": "ai_usage",
+                    "n": 647,
+                    "correlation": -0.1957,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "n": 547,
+                    "correlation": 0.1838,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "greater_uncertainty",
+                    "n": 547,
+                    "correlation": 0.1752,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "quality_of_life_over_time",
+                    "sectionId2": "life_in_japan",
+                    "n": 632,
+                    "correlation": -0.1743,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "increased_anxiety",
+                    "n": 547,
+                    "correlation": 0.1706,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "job_security_threat",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "hostility_towards_foreigners",
+                    "n": 641,
+                    "correlation": 0.1639,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "0",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 656,
+                        "correlation": 0.1651,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "hiring_interviewing",
+                        "n": 658,
+                        "correlation": 0.1635,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 647,
+                        "correlation": 0.1539,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "1",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "greater_uncertainty",
+                        "n": 547,
+                        "correlation": -0.1752,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "1",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 641,
+                        "correlation": -0.1631,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "3",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 641,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 647,
+                        "correlation": 0.1848,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "job_security_threat",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 647,
+                        "correlation": -0.1683,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -30,51 +268,121 @@
                     },
                     "buckets": [
                       {
-                        "count": 149,
                         "id": "0",
+                        "count": 149,
                         "value": 0,
                         "index": 0,
                         "percentageQuestion": 16.89,
                         "percentageSurvey": 14.77
                       },
                       {
-                        "count": 300,
                         "id": "1",
+                        "count": 300,
                         "value": 1,
                         "index": 1,
                         "percentageQuestion": 34.01,
                         "percentageSurvey": 29.73
                       },
                       {
-                        "count": 265,
                         "id": "2",
+                        "count": 265,
                         "value": 2,
                         "index": 2,
                         "percentageQuestion": 30.05,
                         "percentageSurvey": 26.26
                       },
                       {
-                        "count": 125,
                         "id": "3",
+                        "count": 125,
                         "value": 3,
                         "index": 3,
                         "percentageQuestion": 14.17,
                         "percentageSurvey": 12.39
                       },
                       {
-                        "count": 43,
                         "id": "4",
+                        "count": 43,
                         "value": 4,
                         "index": 4,
                         "percentageQuestion": 4.88,
                         "percentageSurvey": 4.26
                       },
                       {
-                        "count": 127,
                         "id": "no_answer",
+                        "count": 127,
                         "index": 5,
                         "percentageQuestion": 0,
                         "percentageSurvey": 12.59
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 662,
+                      "percentageSurvey": 87.92,
+                      "total": 753
+                    },
+                    "average": 1.9,
+                    "percentiles": {
+                      "p50": 2
+                    },
+                    "buckets": [
+                      {
+                        "id": "0",
+                        "count": 82,
+                        "value": 0,
+                        "index": 0,
+                        "percentageQuestion": 12.39,
+                        "percentageSurvey": 10.89
+                      },
+                      {
+                        "id": "1",
+                        "count": 180,
+                        "value": 1,
+                        "index": 1,
+                        "percentageQuestion": 27.19,
+                        "percentageSurvey": 23.9
+                      },
+                      {
+                        "id": "2",
+                        "count": 193,
+                        "value": 2,
+                        "index": 2,
+                        "percentageQuestion": 29.15,
+                        "percentageSurvey": 25.63
+                      },
+                      {
+                        "id": "3",
+                        "count": 152,
+                        "value": 3,
+                        "index": 3,
+                        "percentageQuestion": 22.96,
+                        "percentageSurvey": 20.19
+                      },
+                      {
+                        "id": "4",
+                        "count": 55,
+                        "value": 4,
+                        "index": 4,
+                        "percentageQuestion": 8.31,
+                        "percentageSurvey": 7.3
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 91,
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 12.08
                       }
                     ]
                   }

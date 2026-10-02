@@ -1,0 +1,546 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "life_in_japan": {
+            "yen_value": {
+              "id": "yen_value",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "compensation",
+                    "n": 640,
+                    "correlation": -0.2598,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 640,
+                    "correlation": -0.2501,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "pressure_to_conform",
+                    "n": 640,
+                    "correlation": -0.2331,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "employment_status",
+                    "sectionId2": "job_info",
+                    "optionId2": "permanent_employee",
+                    "n": 640,
+                    "correlation": -0.2194,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "n": 550,
+                    "correlation": -0.1935,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "years_in_japan",
+                    "sectionId2": "user_info",
+                    "n": 639,
+                    "correlation": -0.191,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 628,
+                    "correlation": 0.1679,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "work_culture",
+                    "n": 640,
+                    "correlation": -0.1671,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "yen_value",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "quality_of_life_over_time",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "1",
+                    "n": 634,
+                    "correlation": -0.1631,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "0",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 640,
+                        "correlation": 0.2806,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 640,
+                        "correlation": 0.2388,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 644,
+                        "correlation": 0.2013,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 640,
+                        "correlation": 0.184,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "housing",
+                        "n": 640,
+                        "correlation": 0.1833,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 640,
+                        "correlation": 0.1825,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.1758,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 628,
+                        "correlation": -0.1726,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career_impacts",
+                        "n": 550,
+                        "correlation": 0.1685,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "limited_career_growth",
+                        "n": 640,
+                        "correlation": 0.1682,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 639,
+                        "correlation": 0.1661,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "1",
+                        "n": 634,
+                        "correlation": 0.1653,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "0",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 640,
+                        "correlation": 0.1542,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "1",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 644,
+                        "correlation": -0.1721,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "2",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 640,
+                        "correlation": -0.176,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "2",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": -0.1698,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "2",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 640,
+                        "correlation": -0.1686,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "2",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 639,
+                        "correlation": -0.164,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "3",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 627,
+                        "correlation": 0.2158,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "3",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 619,
+                        "correlation": -0.1829,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "yen_value",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "3",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 640,
+                        "correlation": -0.1779,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 646,
+                      "percentageSurvey": 85.79,
+                      "total": 753
+                    },
+                    "average": 1.3,
+                    "percentiles": {
+                      "p50": 1
+                    },
+                    "buckets": [
+                      {
+                        "id": "0",
+                        "count": 115,
+                        "value": 0,
+                        "index": 0,
+                        "percentageQuestion": 17.8,
+                        "percentageSurvey": 15.27
+                      },
+                      {
+                        "id": "1",
+                        "count": 297,
+                        "value": 1,
+                        "index": 1,
+                        "percentageQuestion": 45.98,
+                        "percentageSurvey": 39.44
+                      },
+                      {
+                        "id": "2",
+                        "count": 180,
+                        "value": 2,
+                        "index": 2,
+                        "percentageQuestion": 27.86,
+                        "percentageSurvey": 23.9
+                      },
+                      {
+                        "id": "3",
+                        "count": 39,
+                        "value": 3,
+                        "index": 3,
+                        "percentageQuestion": 6.04,
+                        "percentageSurvey": 5.18
+                      },
+                      {
+                        "id": "4",
+                        "count": 15,
+                        "value": 4,
+                        "index": 4,
+                        "percentageQuestion": 2.32,
+                        "percentageSurvey": 1.99
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 107,
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.21
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "ai_usage": {
+            "ai_management_pressure": {
+              "id": "ai_management_pressure",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "n": 630,
+                    "correlation": 0.3163,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "n": 636,
+                    "correlation": 0.2503,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "claude_code",
+                    "n": 645,
+                    "correlation": 0.2222,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "claude",
+                    "n": 645,
+                    "correlation": 0.1759,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 598,
+                    "correlation": -0.1647,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "industry_sector",
+                    "sectionId2": "job_info",
+                    "optionId2": "ecommerce",
+                    "n": 626,
+                    "correlation": 0.1634,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_management_pressure",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "nextjs",
+                    "n": 598,
+                    "correlation": 0.1593,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "2",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "tensorflow",
+                        "n": 492,
+                        "correlation": 0.2166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 492,
+                        "correlation": 0.2146,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 492,
+                        "correlation": 0.1991,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 630,
+                        "correlation": -0.1638,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 636,
+                        "correlation": -0.1561,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 638,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "3",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 629,
+                        "correlation": 0.175,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 630,
+                        "correlation": 0.271,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "ecommerce",
+                        "n": 626,
+                        "correlation": 0.2004,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 636,
+                        "correlation": 0.1875,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude_code",
+                        "n": 645,
+                        "correlation": 0.1754,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_management_pressure",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude",
+                        "n": 645,
+                        "correlation": 0.1513,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 648,
+                      "percentageSurvey": 86.06,
+                      "total": 753
+                    },
+                    "average": 3,
+                    "percentiles": {
+                      "p50": 3
+                    },
+                    "buckets": [
+                      {
+                        "id": "1",
+                        "count": 11,
+                        "value": 1,
+                        "index": 0,
+                        "percentageQuestion": 1.7,
+                        "percentageSurvey": 1.46
+                      },
+                      {
+                        "id": "2",
+                        "count": 82,
+                        "value": 2,
+                        "index": 1,
+                        "percentageQuestion": 12.65,
+                        "percentageSurvey": 10.89
+                      },
+                      {
+                        "id": "3",
+                        "count": 419,
+                        "value": 3,
+                        "index": 2,
+                        "percentageQuestion": 64.66,
+                        "percentageSurvey": 55.64
+                      },
+                      {
+                        "id": "4",
+                        "count": 132,
+                        "value": 4,
+                        "index": 3,
+                        "percentageQuestion": 20.37,
+                        "percentageSurvey": 17.53
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 105,
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.94
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 4,
+                        "index": 5,
+                        "percentageQuestion": 0.62,
+                        "percentageSurvey": 0.53,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 4,
+                            "index": 0,
+                            "percentageQuestion": 0.62,
+                            "percentageSurvey": 0.53
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,10 +2,205 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "income_evolution": {
               "id": "income_evolution",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "increased",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 659,
+                        "correlation": 0.2534,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_under_1",
+                        "n": 654,
+                        "correlation": -0.1899,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 655,
+                        "correlation": 0.1779,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 611,
+                        "correlation": 0.1689,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 618,
+                        "correlation": 0.1625,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 618,
+                        "correlation": 0.1555,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "increased",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 657,
+                        "correlation": -0.154,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "stayed_same",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "stayed_same",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_under_1",
+                        "n": 654,
+                        "correlation": 0.2012,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "stayed_same",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 659,
+                        "correlation": -0.189,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "stayed_same",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "optionId2": "4",
+                        "n": 655,
+                        "correlation": -0.1562,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "decreased",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "decreased",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 662,
+                        "correlation": 0.175,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "income_evolution",
+                        "sectionId1": "job_info",
+                        "optionId1": "decreased",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "spouse_dependent_japanese_permanent_resident",
+                        "n": 638,
+                        "correlation": 0.1691,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -26,32 +221,79 @@
                     },
                     "buckets": [
                       {
-                        "count": 503,
                         "id": "increased",
+                        "count": 503,
                         "index": 0,
                         "percentageQuestion": 56.77,
                         "percentageSurvey": 49.85
                       },
                       {
-                        "count": 332,
                         "id": "stayed_same",
+                        "count": 332,
                         "index": 1,
                         "percentageQuestion": 37.47,
                         "percentageSurvey": 32.9
                       },
                       {
-                        "count": 51,
                         "id": "decreased",
+                        "count": 51,
                         "index": 2,
                         "percentageQuestion": 5.76,
                         "percentageSurvey": 5.05
                       },
                       {
-                        "count": 123,
                         "id": "no_answer",
+                        "count": 123,
                         "index": 3,
                         "percentageQuestion": 0,
                         "percentageSurvey": 12.19
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 664,
+                      "percentageSurvey": 88.18,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "increased",
+                        "count": 408,
+                        "index": 0,
+                        "percentageQuestion": 61.45,
+                        "percentageSurvey": 54.18
+                      },
+                      {
+                        "id": "stayed_same",
+                        "count": 211,
+                        "index": 1,
+                        "percentageQuestion": 31.78,
+                        "percentageSurvey": 28.02
+                      },
+                      {
+                        "id": "decreased",
+                        "count": 45,
+                        "index": 2,
+                        "percentageQuestion": 6.78,
+                        "percentageSurvey": 5.98
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 89,
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 11.82
                       }
                     ]
                   }

@@ -2,10 +2,746 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "ai_usage": {
             "ai_code_generation_frequency": {
               "id": "ai_code_generation_frequency",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "n": 641,
+                    "correlation": 0.6981,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "more_productive",
+                    "sectionId2": "ai_usage",
+                    "n": 649,
+                    "correlation": 0.4563,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "claude_code",
+                    "n": 649,
+                    "correlation": 0.3407,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_impact",
+                    "sectionId2": "ai_usage",
+                    "n": 644,
+                    "correlation": 0.3191,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "n": 649,
+                    "correlation": 0.2862,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 606,
+                    "correlation": 0.2521,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_management_pressure",
+                    "sectionId2": "ai_usage",
+                    "n": 636,
+                    "correlation": 0.2503,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 606,
+                    "correlation": -0.225,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "ai_llm",
+                    "n": 647,
+                    "correlation": 0.2246,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "back_end",
+                    "n": 647,
+                    "correlation": 0.2176,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "nextjs",
+                    "n": 606,
+                    "correlation": 0.2159,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "open_ai_codex",
+                    "n": 649,
+                    "correlation": 0.2112,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "front_end",
+                    "n": 647,
+                    "correlation": 0.1979,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "react",
+                    "n": 606,
+                    "correlation": 0.197,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "ai_code_generation_frequency",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_tools",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "claude",
+                    "n": 649,
+                    "correlation": 0.1914,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "0",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 641,
+                        "correlation": 0.8508,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 641,
+                        "correlation": -0.3763,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": -0.303,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude_code",
+                        "n": 649,
+                        "correlation": -0.3022,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": -0.2923,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude",
+                        "n": 649,
+                        "correlation": -0.2843,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 644,
+                        "correlation": 0.1979,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 644,
+                        "correlation": -0.1803,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "n": 636,
+                        "correlation": -0.1768,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 606,
+                        "correlation": 0.17,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "0",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "chat_gpt",
+                        "n": 649,
+                        "correlation": -0.1514,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "1",
+                        "n": 641,
+                        "correlation": 0.3189,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "2",
+                        "n": 641,
+                        "correlation": 0.2647,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 641,
+                        "correlation": -0.2626,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "2",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": -0.1604,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "3",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 641,
+                        "correlation": -0.2305,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 641,
+                        "correlation": 0.1629,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "4",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "6",
+                        "n": 641,
+                        "correlation": 0.1571,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "5",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "5",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "6",
+                        "n": 641,
+                        "correlation": 0.2184,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "6",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 641,
+                        "correlation": 0.5709,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": 0.3403,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 644,
+                        "correlation": 0.2442,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude_code",
+                        "n": 649,
+                        "correlation": 0.244,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 644,
+                        "correlation": 0.2415,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 606,
+                        "correlation": 0.2052,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 647,
+                        "correlation": 0.2045,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ai_llm",
+                        "n": 647,
+                        "correlation": 0.1952,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": 0.193,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "open_ai_codex",
+                        "n": 649,
+                        "correlation": 0.1873,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 606,
+                        "correlation": -0.1865,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "n": 636,
+                        "correlation": 0.1806,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 606,
+                        "correlation": 0.1753,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 606,
+                        "correlation": 0.1724,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_code_generation_frequency",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "6",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 647,
+                        "correlation": 0.166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -30,67 +766,153 @@
                     },
                     "buckets": [
                       {
-                        "count": 100,
                         "id": "0",
+                        "count": 100,
                         "value": 0,
                         "index": 0,
                         "percentageQuestion": 11.34,
                         "percentageSurvey": 9.91
                       },
                       {
-                        "count": 62,
                         "id": "1",
+                        "count": 62,
                         "value": 1,
                         "index": 1,
                         "percentageQuestion": 7.03,
                         "percentageSurvey": 6.14
                       },
                       {
-                        "count": 147,
                         "id": "2",
+                        "count": 147,
                         "value": 2,
                         "index": 2,
                         "percentageQuestion": 16.67,
                         "percentageSurvey": 14.57
                       },
                       {
-                        "count": 241,
                         "id": "3",
+                        "count": 241,
                         "value": 3,
                         "index": 3,
                         "percentageQuestion": 27.32,
                         "percentageSurvey": 23.89
                       },
                       {
-                        "count": 203,
                         "id": "4",
+                        "count": 203,
                         "value": 4,
                         "index": 4,
                         "percentageQuestion": 23.02,
                         "percentageSurvey": 20.12
                       },
                       {
-                        "count": 53,
                         "id": "5",
+                        "count": 53,
                         "value": 5,
                         "index": 5,
                         "percentageQuestion": 6.01,
                         "percentageSurvey": 5.25
                       },
                       {
-                        "count": 76,
                         "id": "6",
+                        "count": 76,
                         "value": 6,
                         "index": 6,
                         "percentageQuestion": 8.62,
                         "percentageSurvey": 7.53
                       },
                       {
-                        "count": 127,
                         "id": "no_answer",
+                        "count": 127,
                         "index": 7,
                         "percentageQuestion": 0,
                         "percentageSurvey": 12.59
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 651,
+                      "percentageSurvey": 86.45,
+                      "total": 753
+                    },
+                    "average": 4.1,
+                    "percentiles": {
+                      "p50": 4
+                    },
+                    "buckets": [
+                      {
+                        "id": "0",
+                        "count": 33,
+                        "value": 0,
+                        "index": 0,
+                        "percentageQuestion": 5.07,
+                        "percentageSurvey": 4.38
+                      },
+                      {
+                        "id": "1",
+                        "count": 15,
+                        "value": 1,
+                        "index": 1,
+                        "percentageQuestion": 2.3,
+                        "percentageSurvey": 1.99
+                      },
+                      {
+                        "id": "2",
+                        "count": 47,
+                        "value": 2,
+                        "index": 2,
+                        "percentageQuestion": 7.22,
+                        "percentageSurvey": 6.24
+                      },
+                      {
+                        "id": "3",
+                        "count": 116,
+                        "value": 3,
+                        "index": 3,
+                        "percentageQuestion": 17.82,
+                        "percentageSurvey": 15.41
+                      },
+                      {
+                        "id": "4",
+                        "count": 175,
+                        "value": 4,
+                        "index": 4,
+                        "percentageQuestion": 26.88,
+                        "percentageSurvey": 23.24
+                      },
+                      {
+                        "id": "5",
+                        "count": 53,
+                        "value": 5,
+                        "index": 5,
+                        "percentageQuestion": 8.14,
+                        "percentageSurvey": 7.04
+                      },
+                      {
+                        "id": "6",
+                        "count": 212,
+                        "value": 6,
+                        "index": 6,
+                        "percentageQuestion": 32.57,
+                        "percentageSurvey": 28.15
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 102,
+                        "index": 7,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.55
                       }
                     ]
                   }

@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         life_in_japan {
           life_japan_positive_aspects_vs_country_1: life_japan_positive_aspects {
             id
@@ -46,8 +46,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -59,12 +59,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -75,6 +77,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -186,8 +197,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -199,12 +210,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -215,6 +228,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -326,8 +348,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -339,12 +361,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -355,6 +379,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -470,8 +503,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -483,12 +516,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -499,6 +534,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {

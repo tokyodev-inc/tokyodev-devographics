@@ -2,80 +2,627 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "language_proficiency_japanese": {
               "id": "language_proficiency_japanese",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "questionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "options",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 791,
-                      "percentageSurvey": 97.17,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "n": 677,
+                    "correlation": 0.6401,
+                    "sameSection": false,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "jlpt_level",
+                    "sectionId2": "user_info",
+                    "n": 731,
+                    "correlation": 0.5891,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "years_in_japan",
+                    "sectionId2": "user_info",
+                    "n": 727,
+                    "correlation": 0.4692,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "languages_used_colleagues_english",
+                    "sectionId2": "job_info",
+                    "n": 677,
+                    "correlation": -0.3762,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "japanese_citizen",
+                    "n": 703,
+                    "correlation": 0.2807,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "cultural_barriers",
+                    "n": 645,
+                    "correlation": -0.2806,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_japanese_certifications",
+                    "sectionId2": "user_info",
+                    "optionId2": "na",
+                    "n": 611,
+                    "correlation": -0.2304,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "other_japanese_certifications",
+                    "sectionId2": "user_info",
+                    "n": 611,
+                    "correlation": 0.2304,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "language_proficiency_japanese",
+                    "sectionId1": "user_info",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "engineer",
+                    "n": 703,
+                    "correlation": -0.1763,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "none",
+                    "correlations": [
                       {
-                        "count": 40,
-                        "id": "none",
-                        "index": 0,
-                        "percentageQuestion": 5.06,
-                        "percentageSurvey": 4.91
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 677,
+                        "correlation": 0.2817,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 174,
-                        "id": "basic",
-                        "index": 1,
-                        "percentageQuestion": 22,
-                        "percentageSurvey": 21.38
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": -0.2615,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
                       },
                       {
-                        "count": 265,
-                        "id": "conversational",
-                        "index": 2,
-                        "percentageQuestion": 33.5,
-                        "percentageSurvey": 32.56
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 727,
+                        "correlation": -0.2448,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 172,
-                        "id": "business",
-                        "index": 3,
-                        "percentageQuestion": 21.74,
-                        "percentageSurvey": 21.13
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "optionId2": "none",
+                        "n": 731,
+                        "correlation": 0.2211,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 88,
-                        "id": "fluent",
-                        "index": 4,
-                        "percentageQuestion": 11.13,
-                        "percentageSurvey": 10.81
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": -0.2196,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 52,
-                        "id": "native_bilingual",
-                        "index": 5,
-                        "percentageQuestion": 6.57,
-                        "percentageSurvey": 6.39
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 506,
+                        "correlation": -0.1561,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 23,
-                        "id": "no_answer",
-                        "index": 6,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 2.83
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "hsfp",
+                        "n": 703,
+                        "correlation": 0.1554,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 737,
+                        "correlation": -0.1535,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "none",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "platform_engineering",
+                        "n": 669,
+                        "correlation": 0.1535,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
+                  {
+                    "id": "basic",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "basic",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": -0.4095,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "basic",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": -0.3914,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "basic",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 727,
+                        "correlation": -0.285,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "basic",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": 0.2522,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "basic",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cultural_barriers",
+                        "n": 645,
+                        "correlation": 0.2001,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "conversational",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "conversational",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "optionId2": "n3",
+                        "n": 731,
+                        "correlation": 0.2976,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "conversational",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "optionId2": "n1",
+                        "n": 731,
+                        "correlation": -0.2398,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "conversational",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 677,
+                        "correlation": -0.1981,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "conversational",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "rarely",
+                        "n": 677,
+                        "correlation": 0.1742,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "conversational",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 419,
+                        "correlation": 0.1615,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "business",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "business",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": 0.3667,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "business",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": 0.3515,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "business",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": -0.2193,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "business",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 727,
+                        "correlation": 0.182,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fluent",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "optionId2": "n1",
+                        "n": 731,
+                        "correlation": 0.5017,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": 0.3996,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": 0.3295,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 677,
+                        "correlation": -0.25,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 727,
+                        "correlation": 0.2443,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": -0.2418,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cultural_barriers",
+                        "n": 645,
+                        "correlation": -0.2068,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "other_japanese_certifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "na",
+                        "n": 611,
+                        "correlation": -0.1673,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "language_proficiency_japanese",
+                        "sectionId1": "user_info",
+                        "optionId1": "fluent",
+                        "questionId2": "other_japanese_certifications",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": 0.1672,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -94,53 +641,121 @@
                     },
                     "buckets": [
                       {
-                        "count": 47,
                         "id": "none",
+                        "count": 47,
                         "index": 0,
                         "percentageQuestion": 4.74,
                         "percentageSurvey": 4.66
                       },
                       {
-                        "count": 212,
                         "id": "basic",
+                        "count": 212,
                         "index": 1,
                         "percentageQuestion": 21.37,
                         "percentageSurvey": 21.01
                       },
                       {
-                        "count": 332,
                         "id": "conversational",
+                        "count": 332,
                         "index": 2,
                         "percentageQuestion": 33.47,
                         "percentageSurvey": 32.9
                       },
                       {
-                        "count": 241,
                         "id": "business",
+                        "count": 241,
                         "index": 3,
                         "percentageQuestion": 24.29,
                         "percentageSurvey": 23.89
                       },
                       {
-                        "count": 105,
                         "id": "fluent",
+                        "count": 105,
                         "index": 4,
                         "percentageQuestion": 10.58,
                         "percentageSurvey": 10.41
                       },
                       {
-                        "count": 55,
                         "id": "native_bilingual",
+                        "count": 55,
                         "index": 5,
                         "percentageQuestion": 5.54,
                         "percentageSurvey": 5.45
                       },
                       {
-                        "count": 17,
                         "id": "no_answer",
+                        "count": 17,
                         "index": 6,
                         "percentageQuestion": 0,
                         "percentageSurvey": 1.68
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 738,
+                      "percentageSurvey": 98.01,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "none",
+                        "count": 40,
+                        "index": 0,
+                        "percentageQuestion": 5.42,
+                        "percentageSurvey": 5.31
+                      },
+                      {
+                        "id": "basic",
+                        "count": 179,
+                        "index": 1,
+                        "percentageQuestion": 24.25,
+                        "percentageSurvey": 23.77
+                      },
+                      {
+                        "id": "conversational",
+                        "count": 242,
+                        "index": 2,
+                        "percentageQuestion": 32.79,
+                        "percentageSurvey": 32.14
+                      },
+                      {
+                        "id": "business",
+                        "count": 166,
+                        "index": 3,
+                        "percentageQuestion": 22.49,
+                        "percentageSurvey": 22.05
+                      },
+                      {
+                        "id": "fluent",
+                        "count": 85,
+                        "index": 4,
+                        "percentageQuestion": 11.52,
+                        "percentageSurvey": 11.29
+                      },
+                      {
+                        "id": "native_bilingual",
+                        "count": 26,
+                        "index": 5,
+                        "percentageQuestion": 3.52,
+                        "percentageSurvey": 3.45
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 15,
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 1.99
                       }
                     ]
                   }

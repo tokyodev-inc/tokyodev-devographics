@@ -2,185 +2,775 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "country": {
               "id": "country",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 0,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 745,
-                      "percentageSurvey": 91.52,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "CAN",
+                    "correlations": [
                       {
-                        "count": 144,
-                        "id": "USA",
-                        "index": 0,
-                        "percentageQuestion": 19.33,
-                        "percentageSurvey": 17.69
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "CAN",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 611,
+                        "correlation": 0.1654,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 57,
-                        "id": "FRA",
-                        "index": 1,
-                        "percentageQuestion": 7.65,
-                        "percentageSurvey": 7
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "CAN",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": 0.164,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 44,
-                        "id": "RUS",
-                        "index": 2,
-                        "percentageQuestion": 5.91,
-                        "percentageSurvey": 5.41
-                      },
-                      {
-                        "count": 42,
-                        "id": "GBR",
-                        "index": 3,
-                        "percentageQuestion": 5.64,
-                        "percentageSurvey": 5.16
-                      },
-                      {
-                        "count": 40,
-                        "id": "IND",
-                        "index": 4,
-                        "percentageQuestion": 5.37,
-                        "percentageSurvey": 4.91
-                      },
-                      {
-                        "count": 38,
-                        "id": "JPN",
-                        "index": 5,
-                        "percentageQuestion": 5.1,
-                        "percentageSurvey": 4.67
-                      },
-                      {
-                        "count": 37,
-                        "id": "CAN",
-                        "index": 6,
-                        "percentageQuestion": 4.97,
-                        "percentageSurvey": 4.55
-                      },
-                      {
-                        "count": 23,
-                        "id": "DEU",
-                        "index": 7,
-                        "percentageQuestion": 3.09,
-                        "percentageSurvey": 2.83
-                      },
-                      {
-                        "count": 23,
-                        "id": "PHL",
-                        "index": 8,
-                        "percentageQuestion": 3.09,
-                        "percentageSurvey": 2.83
-                      },
-                      {
-                        "count": 21,
-                        "id": "IDN",
-                        "index": 9,
-                        "percentageQuestion": 2.82,
-                        "percentageSurvey": 2.58
-                      },
-                      {
-                        "count": 19,
-                        "id": "AUS",
-                        "index": 10,
-                        "percentageQuestion": 2.55,
-                        "percentageSurvey": 2.33
-                      },
-                      {
-                        "count": 17,
-                        "id": "BRA",
-                        "index": 11,
-                        "percentageQuestion": 2.28,
-                        "percentageSurvey": 2.09
-                      },
-                      {
-                        "count": 14,
-                        "id": "NPL",
-                        "index": 12,
-                        "percentageQuestion": 1.88,
-                        "percentageSurvey": 1.72
-                      },
-                      {
-                        "count": 13,
-                        "id": "ITA",
-                        "index": 13,
-                        "percentageQuestion": 1.74,
-                        "percentageSurvey": 1.6
-                      },
-                      {
-                        "count": 12,
-                        "id": "MEX",
-                        "index": 14,
-                        "percentageQuestion": 1.61,
-                        "percentageSurvey": 1.47
-                      },
-                      {
-                        "count": 12,
-                        "id": "NZL",
-                        "index": 15,
-                        "percentageQuestion": 1.61,
-                        "percentageSurvey": 1.47
-                      },
-                      {
-                        "count": 12,
-                        "id": "THA",
-                        "index": 16,
-                        "percentageQuestion": 1.61,
-                        "percentageSurvey": 1.47
-                      },
-                      {
-                        "count": 12,
-                        "id": "VNM",
-                        "index": 17,
-                        "percentageQuestion": 1.61,
-                        "percentageSurvey": 1.47
-                      },
-                      {
-                        "count": 10,
-                        "id": "POL",
-                        "index": 18,
-                        "percentageQuestion": 1.34,
-                        "percentageSurvey": 1.23
-                      },
-                      {
-                        "count": 10,
-                        "id": "TWN",
-                        "index": 19,
-                        "percentageQuestion": 1.34,
-                        "percentageSurvey": 1.23
-                      },
-                      {
-                        "count": 145,
-                        "id": "cutoff_answers",
-                        "index": 20,
-                        "percentageQuestion": 19.36,
-                        "percentageSurvey": 17.76
-                      },
-                      {
-                        "count": 66,
-                        "id": "no_answer",
-                        "index": 21,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 8.11
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "CAN",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "short_cycle",
+                        "n": 606,
+                        "correlation": 0.1562,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
+                  {
+                    "id": "FRA",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "FRA",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "masters_degree",
+                        "n": 606,
+                        "correlation": 0.3249,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "FRA",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "fluent",
+                        "n": 611,
+                        "correlation": 0.202,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "FRA",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "bachelors_degree",
+                        "n": 606,
+                        "correlation": -0.2008,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "FRA",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 611,
+                        "correlation": -0.1745,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "FRA",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "atheist",
+                        "n": 561,
+                        "correlation": 0.1721,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IND",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "religious",
+                        "n": 561,
+                        "correlation": 0.2883,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "food",
+                        "n": 548,
+                        "correlation": -0.2829,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_20_29",
+                        "n": 611,
+                        "correlation": 0.2464,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 548,
+                        "correlation": -0.2439,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": -0.2364,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "5",
+                        "n": 540,
+                        "correlation": 0.2222,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 604,
+                        "correlation": -0.2014,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 585,
+                        "correlation": 0.2008,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 548,
+                        "correlation": -0.1969,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 546,
+                        "correlation": 0.1743,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "linkedin",
+                        "n": 532,
+                        "correlation": 0.1733,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "food",
+                        "n": 546,
+                        "correlation": 0.1685,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "infrastructure",
+                        "n": 548,
+                        "correlation": -0.1537,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IND",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "healthcare",
+                        "n": 548,
+                        "correlation": -0.151,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IDN",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IDN",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "practicing_religious",
+                        "n": 561,
+                        "correlation": 0.3384,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IDN",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 548,
+                        "correlation": 0.2428,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IDN",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": -0.1978,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IDN",
+                        "questionId2": "religion",
+                        "sectionId2": "user_info",
+                        "optionId2": "atheist",
+                        "n": 561,
+                        "correlation": -0.1888,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "IDN",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 548,
+                        "correlation": 0.1619,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "RUS",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "RUS",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 611,
+                        "correlation": -0.197,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "RUS",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": -0.1874,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "RUS",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "na",
+                        "n": 469,
+                        "correlation": 0.1572,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "GBR",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "GBR",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 611,
+                        "correlation": 0.2194,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "GBR",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": 0.2158,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "GBR",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "ruby",
+                        "n": 549,
+                        "correlation": 0.1802,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "GBR",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "rails",
+                        "n": 520,
+                        "correlation": 0.1518,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "USA",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 611,
+                        "correlation": 0.4475,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": 0.4381,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 548,
+                        "correlation": 0.2654,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "healthcare",
+                        "n": 548,
+                        "correlation": 0.241,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 546,
+                        "correlation": 0.2123,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "na",
+                        "n": 606,
+                        "correlation": 0.2024,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "compensation",
+                        "n": 548,
+                        "correlation": -0.1878,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "masters_degree",
+                        "n": 606,
+                        "correlation": -0.1853,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 548,
+                        "correlation": -0.1791,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 548,
+                        "correlation": 0.1781,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "n": 606,
+                        "correlation": -0.1689,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "culture_history",
+                        "n": 548,
+                        "correlation": 0.1644,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "cost_of_living",
+                        "n": 546,
+                        "correlation": -0.1602,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": 0.152,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "country",
+                        "sectionId1": "user_info",
+                        "optionId1": "USA",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "collectivist_culture",
+                        "n": 548,
+                        "correlation": 0.1505,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -199,179 +789,324 @@
                     },
                     "buckets": [
                       {
-                        "count": 183,
                         "id": "USA",
+                        "count": 183,
                         "index": 0,
                         "percentageQuestion": 19.34,
                         "percentageSurvey": 18.14
                       },
                       {
-                        "count": 73,
                         "id": "IND",
+                        "count": 73,
                         "index": 1,
                         "percentageQuestion": 7.72,
                         "percentageSurvey": 7.23
                       },
                       {
-                        "count": 64,
                         "id": "FRA",
+                        "count": 64,
                         "index": 2,
                         "percentageQuestion": 6.77,
                         "percentageSurvey": 6.34
                       },
                       {
-                        "count": 57,
                         "id": "JPN",
+                        "count": 57,
                         "index": 3,
                         "percentageQuestion": 6.03,
                         "percentageSurvey": 5.65
                       },
                       {
-                        "count": 56,
                         "id": "GBR",
+                        "count": 56,
                         "index": 4,
                         "percentageQuestion": 5.92,
                         "percentageSurvey": 5.55
                       },
                       {
-                        "count": 48,
                         "id": "CAN",
+                        "count": 48,
                         "index": 5,
                         "percentageQuestion": 5.07,
                         "percentageSurvey": 4.76
                       },
                       {
-                        "count": 39,
                         "id": "AUS",
+                        "count": 39,
                         "index": 6,
                         "percentageQuestion": 4.12,
                         "percentageSurvey": 3.87
                       },
                       {
-                        "count": 28,
                         "id": "DEU",
+                        "count": 28,
                         "index": 7,
                         "percentageQuestion": 2.96,
                         "percentageSurvey": 2.78
                       },
                       {
-                        "count": 28,
                         "id": "IDN",
+                        "count": 28,
                         "index": 8,
                         "percentageQuestion": 2.96,
                         "percentageSurvey": 2.78
                       },
                       {
-                        "count": 25,
                         "id": "RUS",
+                        "count": 25,
                         "index": 9,
                         "percentageQuestion": 2.64,
                         "percentageSurvey": 2.48
                       },
                       {
-                        "count": 22,
                         "id": "BRA",
+                        "count": 22,
                         "index": 10,
                         "percentageQuestion": 2.33,
                         "percentageSurvey": 2.18
                       },
                       {
-                        "count": 20,
                         "id": "MEX",
+                        "count": 20,
                         "index": 11,
                         "percentageQuestion": 2.11,
                         "percentageSurvey": 1.98
                       },
                       {
-                        "count": 17,
                         "id": "CHN",
+                        "count": 17,
                         "index": 12,
                         "percentageQuestion": 1.8,
                         "percentageSurvey": 1.68
                       },
                       {
-                        "count": 17,
                         "id": "PHL",
+                        "count": 17,
                         "index": 13,
                         "percentageQuestion": 1.8,
                         "percentageSurvey": 1.68
                       },
                       {
-                        "count": 14,
                         "id": "NPL",
+                        "count": 14,
                         "index": 14,
                         "percentageQuestion": 1.48,
                         "percentageSurvey": 1.39
                       },
                       {
-                        "count": 13,
                         "id": "NZL",
+                        "count": 13,
                         "index": 15,
                         "percentageQuestion": 1.37,
                         "percentageSurvey": 1.29
                       },
                       {
-                        "count": 12,
                         "id": "BEL",
+                        "count": 12,
                         "index": 16,
                         "percentageQuestion": 1.27,
                         "percentageSurvey": 1.19
                       },
                       {
-                        "count": 12,
                         "id": "MMR",
+                        "count": 12,
                         "index": 17,
                         "percentageQuestion": 1.27,
                         "percentageSurvey": 1.19
                       },
                       {
-                        "count": 12,
                         "id": "THA",
+                        "count": 12,
                         "index": 18,
                         "percentageQuestion": 1.27,
                         "percentageSurvey": 1.19
                       },
                       {
-                        "count": 11,
                         "id": "ITA",
+                        "count": 11,
                         "index": 19,
                         "percentageQuestion": 1.16,
                         "percentageSurvey": 1.09
                       },
                       {
-                        "count": 11,
                         "id": "TWN",
+                        "count": 11,
                         "index": 20,
                         "percentageQuestion": 1.16,
                         "percentageSurvey": 1.09
                       },
                       {
-                        "count": 10,
                         "id": "ESP",
+                        "count": 10,
                         "index": 21,
                         "percentageQuestion": 1.06,
                         "percentageSurvey": 0.99
                       },
                       {
-                        "count": 10,
                         "id": "VNM",
+                        "count": 10,
                         "index": 22,
                         "percentageQuestion": 1.06,
                         "percentageSurvey": 0.99
                       },
                       {
-                        "count": 164,
                         "id": "cutoff_answers",
+                        "count": 164,
                         "index": 23,
                         "percentageQuestion": 17.44,
                         "percentageSurvey": 16.31
                       },
                       {
-                        "count": 59,
                         "id": "no_answer",
+                        "count": 59,
                         "index": 24,
                         "percentageQuestion": 0,
                         "percentageSurvey": 5.85
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 0,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 700,
+                      "percentageSurvey": 92.96,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "USA",
+                        "count": 148,
+                        "index": 0,
+                        "percentageQuestion": 21.14,
+                        "percentageSurvey": 19.65
+                      },
+                      {
+                        "id": "FRA",
+                        "count": 55,
+                        "index": 1,
+                        "percentageQuestion": 7.86,
+                        "percentageSurvey": 7.3
+                      },
+                      {
+                        "id": "GBR",
+                        "count": 47,
+                        "index": 2,
+                        "percentageQuestion": 6.71,
+                        "percentageSurvey": 6.24
+                      },
+                      {
+                        "id": "IND",
+                        "count": 36,
+                        "index": 3,
+                        "percentageQuestion": 5.14,
+                        "percentageSurvey": 4.78
+                      },
+                      {
+                        "id": "RUS",
+                        "count": 36,
+                        "index": 4,
+                        "percentageQuestion": 5.14,
+                        "percentageSurvey": 4.78
+                      },
+                      {
+                        "id": "IDN",
+                        "count": 32,
+                        "index": 5,
+                        "percentageQuestion": 4.57,
+                        "percentageSurvey": 4.25
+                      },
+                      {
+                        "id": "CAN",
+                        "count": 31,
+                        "index": 6,
+                        "percentageQuestion": 4.43,
+                        "percentageSurvey": 4.12
+                      },
+                      {
+                        "id": "AUS",
+                        "count": 29,
+                        "index": 7,
+                        "percentageQuestion": 4.14,
+                        "percentageSurvey": 3.85
+                      },
+                      {
+                        "id": "DEU",
+                        "count": 24,
+                        "index": 8,
+                        "percentageQuestion": 3.43,
+                        "percentageSurvey": 3.19
+                      },
+                      {
+                        "id": "JPN",
+                        "count": 19,
+                        "index": 9,
+                        "percentageQuestion": 2.71,
+                        "percentageSurvey": 2.52
+                      },
+                      {
+                        "id": "BRA",
+                        "count": 14,
+                        "index": 10,
+                        "percentageQuestion": 2,
+                        "percentageSurvey": 1.86
+                      },
+                      {
+                        "id": "CHN",
+                        "count": 13,
+                        "index": 11,
+                        "percentageQuestion": 1.86,
+                        "percentageSurvey": 1.73
+                      },
+                      {
+                        "id": "MEX",
+                        "count": 12,
+                        "index": 12,
+                        "percentageQuestion": 1.71,
+                        "percentageSurvey": 1.59
+                      },
+                      {
+                        "id": "PHL",
+                        "count": 12,
+                        "index": 13,
+                        "percentageQuestion": 1.71,
+                        "percentageSurvey": 1.59
+                      },
+                      {
+                        "id": "TWN",
+                        "count": 12,
+                        "index": 14,
+                        "percentageQuestion": 1.71,
+                        "percentageSurvey": 1.59
+                      },
+                      {
+                        "id": "VNM",
+                        "count": 11,
+                        "index": 15,
+                        "percentageQuestion": 1.57,
+                        "percentageSurvey": 1.46
+                      },
+                      {
+                        "id": "cutoff_answers",
+                        "count": 169,
+                        "index": 16,
+                        "percentageQuestion": 24.08,
+                        "percentageSurvey": 22.39
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 52,
+                        "index": 17,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 6.91
                       }
                     ]
                   }

@@ -2,7 +2,7 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "industry_sector_by_japanese_usage": {
               "id": "industry_sector",
@@ -21,29 +21,35 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 786,
-                      "percentageSurvey": 77.9,
-                      "total": 1009
+                      "count": 612,
+                      "percentageSurvey": 81.27,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 920,
                         "id": "overall",
+                        "count": 681,
                         "index": 0,
-                        "percentageQuestion": 117.05,
-                        "percentageSurvey": 91.18,
+                        "percentageQuestion": 111.27,
+                        "percentageSurvey": 90.44,
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 222,
-                            "percentageBucket": 22,
-                            "percentageQuestion": 28.24,
+                            "count": 170,
+                            "percentageBucket": 22.58,
+                            "percentageQuestion": 27.78,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -51,32 +57,32 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 229,
-                            "percentageBucket": 22.7,
-                            "percentageQuestion": 29.13
+                            "count": 185,
+                            "percentageBucket": 24.57,
+                            "percentageQuestion": 30.23
                           },
                           {
                             "id": "sometimes",
-                            "count": 154,
-                            "percentageBucket": 15.26,
-                            "percentageQuestion": 19.59
+                            "count": 101,
+                            "percentageBucket": 13.41,
+                            "percentageQuestion": 16.5
                           },
                           {
                             "id": "frequently",
-                            "count": 125,
-                            "percentageBucket": 12.39,
-                            "percentageQuestion": 15.9
+                            "count": 101,
+                            "percentageBucket": 13.41,
+                            "percentageQuestion": 16.5
                           },
                           {
                             "id": "always",
-                            "count": 190,
-                            "percentageBucket": 18.83,
-                            "percentageQuestion": 24.17
+                            "count": 124,
+                            "percentageBucket": 16.47,
+                            "percentageQuestion": 20.26
                           },
                           {
                             "id": "no_answer",
-                            "count": 89,
-                            "percentageBucket": 8.82,
+                            "count": 72,
+                            "percentageBucket": 9.56,
                             "percentageQuestion": 0
                           },
                           {
@@ -88,24 +94,35 @@
                         ]
                       },
                       {
-                        "count": 334,
                         "id": "saas",
+                        "count": 226,
                         "index": 1,
-                        "percentageQuestion": 42.49,
-                        "percentageSurvey": 33.1,
+                        "percentageQuestion": 36.93,
+                        "percentageSurvey": 30.01,
                         "entity": {
                           "id": "saas",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 73,
-                            "percentageBucket": 21.86,
-                            "percentageQuestion": 9.29,
+                            "count": 63,
+                            "percentageBucket": 27.88,
+                            "percentageQuestion": 10.29,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -113,58 +130,127 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 82,
-                            "percentageBucket": 24.55,
-                            "percentageQuestion": 10.43
+                            "count": 59,
+                            "percentageBucket": 26.11,
+                            "percentageQuestion": 9.64
                           },
                           {
                             "id": "sometimes",
-                            "count": 58,
-                            "percentageBucket": 17.37,
-                            "percentageQuestion": 7.38
+                            "count": 36,
+                            "percentageBucket": 15.93,
+                            "percentageQuestion": 5.88
                           },
                           {
                             "id": "frequently",
-                            "count": 47,
-                            "percentageBucket": 14.07,
-                            "percentageQuestion": 5.98
+                            "count": 32,
+                            "percentageBucket": 14.16,
+                            "percentageQuestion": 5.23
                           },
                           {
                             "id": "always",
-                            "count": 72,
-                            "percentageBucket": 21.56,
-                            "percentageQuestion": 9.16
+                            "count": 35,
+                            "percentageBucket": 15.49,
+                            "percentageQuestion": 5.72
                           },
                           {
                             "id": "other_answers",
-                            "count": 2,
+                            "count": 1,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ai",
+                        "count": 163,
+                        "index": 2,
+                        "percentageQuestion": 26.63,
+                        "percentageSurvey": 21.65,
+                        "entity": {
+                          "name": "AI",
+                          "nameHtml": "AI",
+                          "nameClean": "AI",
+                          "id": "ai",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "never",
+                            "count": 39,
+                            "percentageBucket": 23.93,
+                            "percentageQuestion": 6.37,
+                            "entity": {
+                              "id": "never",
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
+                            },
+                            "token": {
+                              "id": "never"
+                            }
+                          },
+                          {
+                            "id": "rarely",
+                            "count": 46,
+                            "percentageBucket": 28.22,
+                            "percentageQuestion": 7.52
+                          },
+                          {
+                            "id": "sometimes",
+                            "count": 29,
+                            "percentageBucket": 17.79,
+                            "percentageQuestion": 4.74
+                          },
+                          {
+                            "id": "frequently",
+                            "count": 28,
+                            "percentageBucket": 17.18,
+                            "percentageQuestion": 4.58
+                          },
+                          {
+                            "id": "always",
+                            "count": 20,
+                            "percentageBucket": 12.27,
+                            "percentageQuestion": 3.27
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 1,
                             "percentageBucket": 1,
                             "percentageQuestion": 0
                           }
                         ]
                       },
                       {
-                        "count": 184,
-                        "id": "ai",
-                        "index": 2,
-                        "percentageQuestion": 23.41,
-                        "percentageSurvey": 18.24,
-                        "entity": {
-                          "name": "AI",
-                          "nameHtml": "AI",
-                          "nameClean": "AI",
-                          "id": "ai",
-                          "entityType": "default"
-                        },
+                        "id": "consulting",
+                        "count": 117,
+                        "index": 3,
+                        "percentageQuestion": 19.12,
+                        "percentageSurvey": 15.54,
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 46,
-                            "percentageBucket": 25,
-                            "percentageQuestion": 5.85,
+                            "count": 18,
+                            "percentageBucket": 15.38,
+                            "percentageQuestion": 2.94,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -172,159 +258,66 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 52,
-                            "percentageBucket": 28.26,
-                            "percentageQuestion": 6.62
+                            "count": 30,
+                            "percentageBucket": 25.64,
+                            "percentageQuestion": 4.9
                           },
                           {
                             "id": "sometimes",
-                            "count": 36,
-                            "percentageBucket": 19.57,
-                            "percentageQuestion": 4.58
+                            "count": 10,
+                            "percentageBucket": 8.55,
+                            "percentageQuestion": 1.63
                           },
                           {
                             "id": "frequently",
-                            "count": 20,
-                            "percentageBucket": 10.87,
-                            "percentageQuestion": 2.54
+                            "count": 22,
+                            "percentageBucket": 18.8,
+                            "percentageQuestion": 3.59
                           },
                           {
                             "id": "always",
-                            "count": 27,
-                            "percentageBucket": 14.67,
-                            "percentageQuestion": 3.44
+                            "count": 35,
+                            "percentageBucket": 29.91,
+                            "percentageQuestion": 5.72
                           },
                           {
                             "id": "other_answers",
-                            "count": 3,
+                            "count": 2,
                             "percentageBucket": 2,
                             "percentageQuestion": 0
                           }
                         ]
                       },
                       {
-                        "count": 138,
-                        "id": "consulting",
-                        "index": 3,
-                        "percentageQuestion": 17.56,
-                        "percentageSurvey": 13.68,
-                        "facetBuckets": [
-                          {
-                            "id": "never",
-                            "count": 20,
-                            "percentageBucket": 14.49,
-                            "percentageQuestion": 2.54,
-                            "entity": {
-                              "id": "never",
-                              "entityType": "default"
-                            },
-                            "token": {
-                              "id": "never"
-                            }
-                          },
-                          {
-                            "id": "rarely",
-                            "count": 27,
-                            "percentageBucket": 19.57,
-                            "percentageQuestion": 3.44
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 25,
-                            "percentageBucket": 18.12,
-                            "percentageQuestion": 3.18
-                          },
-                          {
-                            "id": "frequently",
-                            "count": 26,
-                            "percentageBucket": 18.84,
-                            "percentageQuestion": 3.31
-                          },
-                          {
-                            "id": "always",
-                            "count": 40,
-                            "percentageBucket": 28.99,
-                            "percentageQuestion": 5.09
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 0,
-                            "percentageBucket": 0,
-                            "percentageQuestion": 0
-                          }
-                        ]
-                      },
-                      {
-                        "count": 138,
-                        "id": "ecommerce",
-                        "index": 4,
-                        "percentageQuestion": 17.56,
-                        "percentageSurvey": 13.68,
-                        "facetBuckets": [
-                          {
-                            "id": "never",
-                            "count": 41,
-                            "percentageBucket": 29.71,
-                            "percentageQuestion": 5.22,
-                            "entity": {
-                              "id": "never",
-                              "entityType": "default"
-                            },
-                            "token": {
-                              "id": "never"
-                            }
-                          },
-                          {
-                            "id": "rarely",
-                            "count": 43,
-                            "percentageBucket": 31.16,
-                            "percentageQuestion": 5.47
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 17,
-                            "percentageBucket": 12.32,
-                            "percentageQuestion": 2.16
-                          },
-                          {
-                            "id": "frequently",
-                            "count": 18,
-                            "percentageBucket": 13.04,
-                            "percentageQuestion": 2.29
-                          },
-                          {
-                            "id": "always",
-                            "count": 18,
-                            "percentageBucket": 13.04,
-                            "percentageQuestion": 2.29
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 1,
-                            "percentageBucket": 1,
-                            "percentageQuestion": 0
-                          }
-                        ]
-                      },
-                      {
-                        "count": 129,
                         "id": "finance",
-                        "index": 5,
-                        "percentageQuestion": 16.41,
-                        "percentageSurvey": 12.78,
+                        "count": 98,
+                        "index": 4,
+                        "percentageQuestion": 16.01,
+                        "percentageSurvey": 13.01,
                         "entity": {
                           "id": "finance",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 33,
-                            "percentageBucket": 25.58,
-                            "percentageQuestion": 4.2,
+                            "count": 32,
+                            "percentageBucket": 32.65,
+                            "percentageQuestion": 5.23,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -332,105 +325,51 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 39,
-                            "percentageBucket": 30.23,
-                            "percentageQuestion": 4.96
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 24,
-                            "percentageBucket": 18.6,
-                            "percentageQuestion": 3.05
-                          },
-                          {
-                            "id": "frequently",
-                            "count": 16,
-                            "percentageBucket": 12.4,
-                            "percentageQuestion": 2.04
-                          },
-                          {
-                            "id": "always",
-                            "count": 16,
-                            "percentageBucket": 12.4,
-                            "percentageQuestion": 2.04
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 1,
-                            "percentageBucket": 1,
-                            "percentageQuestion": 0
-                          }
-                        ]
-                      },
-                      {
-                        "count": 80,
-                        "id": "cloud_computing",
-                        "index": 6,
-                        "percentageQuestion": 10.18,
-                        "percentageSurvey": 7.93,
-                        "entity": {
-                          "id": "cloud_computing",
-                          "entityType": "default"
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "never",
                             "count": 27,
-                            "percentageBucket": 33.75,
-                            "percentageQuestion": 3.44,
-                            "entity": {
-                              "id": "never",
-                              "entityType": "default"
-                            },
-                            "token": {
-                              "id": "never"
-                            }
+                            "percentageBucket": 27.55,
+                            "percentageQuestion": 4.41
                           },
                           {
-                            "id": "rarely",
-                            "count": 18,
-                            "percentageBucket": 22.5,
-                            "percentageQuestion": 2.29
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 15,
-                            "percentageBucket": 18.75,
-                            "percentageQuestion": 1.91
+                            "id": "frequently",
+                            "count": 17,
+                            "percentageBucket": 17.35,
+                            "percentageQuestion": 2.78
                           },
                           {
                             "id": "always",
-                            "count": 11,
-                            "percentageBucket": 13.75,
-                            "percentageQuestion": 1.4
+                            "count": 15,
+                            "percentageBucket": 15.31,
+                            "percentageQuestion": 2.45
                           },
                           {
                             "id": "other_answers",
-                            "count": 9,
-                            "percentageBucket": 11,
+                            "count": 7,
+                            "percentageBucket": 7,
                             "percentageQuestion": 0
                           }
                         ]
                       },
                       {
-                        "count": 63,
-                        "id": "manufacturing",
-                        "index": 7,
-                        "percentageQuestion": 8.02,
-                        "percentageSurvey": 6.24,
-                        "entity": {
-                          "id": "manufacturing",
-                          "entityType": "default"
-                        },
+                        "id": "ecommerce",
+                        "count": 95,
+                        "index": 5,
+                        "percentageQuestion": 15.52,
+                        "percentageSurvey": 12.62,
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 10,
-                            "percentageBucket": 15.87,
-                            "percentageQuestion": 1.27,
+                            "count": 28,
+                            "percentageBucket": 29.47,
+                            "percentageQuestion": 4.58,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -438,92 +377,54 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 12,
-                            "percentageBucket": 19.05,
-                            "percentageQuestion": 1.53
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 10,
-                            "percentageBucket": 15.87,
-                            "percentageQuestion": 1.27
-                          },
-                          {
-                            "id": "frequently",
-                            "count": 12,
-                            "percentageBucket": 19.05,
-                            "percentageQuestion": 1.53
+                            "count": 37,
+                            "percentageBucket": 38.95,
+                            "percentageQuestion": 6.05
                           },
                           {
                             "id": "always",
                             "count": 17,
-                            "percentageBucket": 26.98,
-                            "percentageQuestion": 2.16
+                            "percentageBucket": 17.89,
+                            "percentageQuestion": 2.78
                           },
                           {
                             "id": "other_answers",
-                            "count": 2,
-                            "percentageBucket": 3,
-                            "percentageQuestion": 0
+                            "count": 13,
+                            "percentageBucket": 13.69,
+                            "percentageQuestion": 2.12
                           }
                         ]
                       },
                       {
-                        "count": 59,
-                        "id": "gaming",
-                        "index": 8,
-                        "percentageQuestion": 7.51,
-                        "percentageSurvey": 5.85,
+                        "id": "cloud_computing",
+                        "count": 61,
+                        "index": 6,
+                        "percentageQuestion": 9.97,
+                        "percentageSurvey": 8.1,
                         "entity": {
-                          "id": "gaming",
-                          "entityType": "default"
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "rarely",
-                            "count": 11,
-                            "percentageBucket": 18.64,
-                            "percentageQuestion": 1.4
-                          },
-                          {
-                            "id": "frequently",
-                            "count": 14,
-                            "percentageBucket": 23.73,
-                            "percentageQuestion": 1.78
-                          },
-                          {
-                            "id": "always",
-                            "count": 16,
-                            "percentageBucket": 27.12,
-                            "percentageQuestion": 2.04
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 18,
-                            "percentageBucket": 30.5,
-                            "percentageQuestion": 2.3
-                          }
-                        ]
-                      },
-                      {
-                        "count": 51,
-                        "id": "human_resources",
-                        "index": 9,
-                        "percentageQuestion": 6.49,
-                        "percentageSurvey": 5.05,
-                        "entity": {
-                          "id": "human_resources",
-                          "entityType": "default"
+                          "id": "cloud_computing",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 15,
-                            "percentageBucket": 29.41,
-                            "percentageQuestion": 1.91,
+                            "count": 22,
+                            "percentageBucket": 36.07,
+                            "percentageQuestion": 3.59,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -531,37 +432,187 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 16,
-                            "percentageBucket": 31.37,
-                            "percentageQuestion": 2.04
+                            "count": 13,
+                            "percentageBucket": 21.31,
+                            "percentageQuestion": 2.12
                           },
                           {
                             "id": "other_answers",
+                            "count": 26,
+                            "percentageBucket": 42.98,
+                            "percentageQuestion": 4.08
+                          }
+                        ]
+                      },
+                      {
+                        "id": "robotics",
+                        "count": 56,
+                        "index": 7,
+                        "percentageQuestion": 9.15,
+                        "percentageSurvey": 7.44,
+                        "entity": {
+                          "id": "robotics",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "rarely",
                             "count": 20,
-                            "percentageBucket": 39.29,
+                            "percentageBucket": 35.71,
+                            "percentageQuestion": 3.27
+                          },
+                          {
+                            "id": "sometimes",
+                            "count": 15,
+                            "percentageBucket": 26.79,
+                            "percentageQuestion": 2.45
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 21,
+                            "percentageBucket": 37.49,
+                            "percentageQuestion": 3.43
+                          }
+                        ]
+                      },
+                      {
+                        "id": "advertising",
+                        "count": 40,
+                        "index": 8,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 5.31,
+                        "entity": {
+                          "id": "advertising",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "never",
+                            "count": 11,
+                            "percentageBucket": 27.5,
+                            "percentageQuestion": 1.8,
+                            "entity": {
+                              "id": "never",
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
+                            },
+                            "token": {
+                              "id": "never"
+                            }
+                          },
+                          {
+                            "id": "rarely",
+                            "count": 15,
+                            "percentageBucket": 37.5,
+                            "percentageQuestion": 2.45
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 14,
+                            "percentageBucket": 35,
                             "percentageQuestion": 2.29
                           }
                         ]
                       },
                       {
-                        "count": 49,
-                        "id": "advertising",
-                        "index": 10,
-                        "percentageQuestion": 6.23,
-                        "percentageSurvey": 4.86,
+                        "id": "education",
+                        "count": 40,
+                        "index": 9,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 5.31,
                         "entity": {
-                          "id": "advertising",
-                          "entityType": "default"
+                          "id": "education",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "state_of_devs",
+                            "discrimination_issues",
+                            "tokyodev",
+                            "initial_attraction",
+                            "life_japan_positive_aspects"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 12,
-                            "percentageBucket": 24.49,
-                            "percentageQuestion": 1.53,
+                            "count": 10,
+                            "percentageBucket": 25,
+                            "percentageQuestion": 1.63,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
+                            },
+                            "token": {
+                              "id": "never"
+                            }
+                          },
+                          {
+                            "id": "always",
+                            "count": 12,
+                            "percentageBucket": 30,
+                            "percentageQuestion": 1.96
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 18,
+                            "percentageBucket": 45,
+                            "percentageQuestion": 2.94
+                          }
+                        ]
+                      },
+                      {
+                        "id": "energy",
+                        "count": 40,
+                        "index": 10,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 5.31,
+                        "entity": {
+                          "id": "energy",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "never",
+                            "count": 10,
+                            "percentageBucket": 25,
+                            "percentageQuestion": 1.63,
+                            "entity": {
+                              "id": "never",
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -569,143 +620,178 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 11,
-                            "percentageBucket": 22.45,
-                            "percentageQuestion": 1.4
-                          },
-                          {
-                            "id": "always",
-                            "count": 10,
-                            "percentageBucket": 20.41,
-                            "percentageQuestion": 1.27
+                            "count": 14,
+                            "percentageBucket": 35,
+                            "percentageQuestion": 2.29
                           },
                           {
                             "id": "other_answers",
                             "count": 16,
-                            "percentageBucket": 32.62,
-                            "percentageQuestion": 1.91
+                            "percentageBucket": 40,
+                            "percentageQuestion": 2.61
                           }
                         ]
                       },
                       {
-                        "count": 37,
-                        "id": "education",
+                        "id": "manufacturing",
+                        "count": 36,
                         "index": 11,
-                        "percentageQuestion": 4.71,
-                        "percentageSurvey": 3.67,
+                        "percentageQuestion": 5.88,
+                        "percentageSurvey": 4.78,
                         "entity": {
-                          "id": "education",
-                          "entityType": "default"
+                          "id": "manufacturing",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "always",
+                            "count": 13,
+                            "percentageBucket": 36.11,
+                            "percentageQuestion": 2.12
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 23,
+                            "percentageBucket": 63.89,
+                            "percentageQuestion": 3.76
+                          }
+                        ]
+                      },
+                      {
+                        "id": "gaming",
+                        "count": 35,
+                        "index": 12,
+                        "percentageQuestion": 5.72,
+                        "percentageSurvey": 4.65,
+                        "entity": {
+                          "id": "gaming",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "always",
+                            "count": 11,
+                            "percentageBucket": 31.43,
+                            "percentageQuestion": 1.8
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 24,
+                            "percentageBucket": 68.72,
+                            "percentageQuestion": 3.76
+                          }
+                        ]
+                      },
+                      {
+                        "id": "human_resources",
+                        "count": 35,
+                        "index": 13,
+                        "percentageQuestion": 5.72,
+                        "percentageSurvey": 4.65,
+                        "entity": {
+                          "id": "human_resources",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "rarely",
-                            "count": 12,
-                            "percentageBucket": 32.43,
-                            "percentageQuestion": 1.53
+                            "count": 10,
+                            "percentageBucket": 28.57,
+                            "percentageQuestion": 1.63
                           },
                           {
                             "id": "other_answers",
                             "count": 25,
-                            "percentageBucket": 67.87,
-                            "percentageQuestion": 3.05
+                            "percentageBucket": 71.43,
+                            "percentageQuestion": 4.08
                           }
                         ]
                       },
                       {
-                        "count": 25,
-                        "id": "crypto",
-                        "index": 12,
-                        "percentageQuestion": 3.18,
-                        "percentageSurvey": 2.48,
-                        "entity": {
-                          "id": "crypto",
-                          "entityType": "default"
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "other_answers",
-                            "count": 25,
-                            "percentageBucket": 100,
-                            "percentageQuestion": 3.19
-                          }
-                        ]
-                      },
-                      {
-                        "count": 18,
                         "id": "automotive",
-                        "index": 13,
-                        "percentageQuestion": 2.29,
-                        "percentageSurvey": 1.78,
+                        "count": 13,
+                        "index": 14,
+                        "percentageQuestion": 2.12,
+                        "percentageSurvey": 1.73,
                         "isFreeformData": true,
                         "entity": {
                           "id": "automotive",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "other_answers",
-                            "count": 18,
-                            "percentageBucket": 100,
-                            "percentageQuestion": 2.29
+                            "count": 13,
+                            "percentageBucket": 99.98,
+                            "percentageQuestion": 2.13
                           }
                         ]
                       },
                       {
-                        "count": 16,
-                        "id": "energy",
-                        "index": 14,
-                        "percentageQuestion": 2.04,
-                        "percentageSurvey": 1.59,
-                        "isFreeformData": true,
-                        "entity": {
-                          "id": "energy",
-                          "entityType": "default"
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "other_answers",
-                            "count": 16,
-                            "percentageBucket": 100,
-                            "percentageQuestion": 2.03
-                          }
-                        ]
-                      },
-                      {
-                        "count": 11,
-                        "id": "robotics",
+                        "id": "crypto",
+                        "count": 12,
                         "index": 15,
-                        "percentageQuestion": 1.4,
-                        "percentageSurvey": 1.09,
-                        "isFreeformData": true,
+                        "percentageQuestion": 1.96,
+                        "percentageSurvey": 1.59,
                         "entity": {
-                          "id": "robotics",
-                          "entityType": "default"
+                          "id": "crypto",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         },
                         "facetBuckets": [
                           {
                             "id": "other_answers",
-                            "count": 11,
+                            "count": 12,
                             "percentageBucket": 99.99,
-                            "percentageQuestion": 1.39
+                            "percentageQuestion": 1.95
                           }
                         ]
                       },
                       {
-                        "count": 205,
                         "id": "no_answer",
+                        "count": 141,
                         "index": 16,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 20.32,
+                        "percentageSurvey": 18.73,
                         "facetBuckets": [
                           {
                             "id": "never",
-                            "count": 35,
-                            "percentageBucket": 17.07,
-                            "percentageQuestion": 4.45,
+                            "count": 11,
+                            "percentageBucket": 7.8,
+                            "percentageQuestion": 1.8,
                             "entity": {
                               "id": "never",
-                              "entityType": "default"
+                              "entityType": "token",
+                              "tags": [
+                                "tokens",
+                                "other",
+                                "state_of_js",
+                                "usage_type"
+                              ]
                             },
                             "token": {
                               "id": "never"
@@ -713,32 +799,32 @@
                           },
                           {
                             "id": "rarely",
-                            "count": 29,
-                            "percentageBucket": 14.15,
-                            "percentageQuestion": 3.69
+                            "count": 20,
+                            "percentageBucket": 14.18,
+                            "percentageQuestion": 3.27
                           },
                           {
                             "id": "sometimes",
-                            "count": 17,
-                            "percentageBucket": 8.29,
-                            "percentageQuestion": 2.16
+                            "count": 15,
+                            "percentageBucket": 10.64,
+                            "percentageQuestion": 2.45
                           },
                           {
                             "id": "frequently",
-                            "count": 19,
-                            "percentageBucket": 9.27,
-                            "percentageQuestion": 2.42
+                            "count": 13,
+                            "percentageBucket": 9.22,
+                            "percentageQuestion": 2.12
                           },
                           {
                             "id": "always",
-                            "count": 22,
-                            "percentageBucket": 10.73,
-                            "percentageQuestion": 2.8
+                            "count": 14,
+                            "percentageBucket": 9.93,
+                            "percentageQuestion": 2.29
                           },
                           {
                             "id": "no_answer",
-                            "count": 83,
-                            "percentageBucket": 40.49,
+                            "count": 68,
+                            "percentageBucket": 48.23,
                             "percentageQuestion": 0
                           },
                           {
@@ -750,36 +836,26 @@
                         ]
                       },
                       {
-                        "count": 114,
                         "id": "other_answers",
+                        "count": 78,
                         "index": 17,
-                        "percentageQuestion": 14.49,
-                        "percentageSurvey": 11.34,
+                        "percentageQuestion": 12.73,
+                        "percentageSurvey": 10.36,
                         "facetBuckets": [
                           {
-                            "id": "never",
-                            "count": 16,
-                            "percentageBucket": 14.04
-                          },
-                          {
                             "id": "rarely",
-                            "count": 11,
-                            "percentageBucket": 9.65
-                          },
-                          {
-                            "id": "sometimes",
-                            "count": 13,
-                            "percentageBucket": 11.4
+                            "count": 18,
+                            "percentageBucket": 23.08
                           },
                           {
                             "id": "frequently",
-                            "count": 19,
-                            "percentageBucket": 16.67
+                            "count": 10,
+                            "percentageBucket": 12.82
                           },
                           {
                             "id": "always",
-                            "count": 31,
-                            "percentageBucket": 27.19
+                            "count": 13,
+                            "percentageBucket": 16.67
                           }
                         ]
                       }

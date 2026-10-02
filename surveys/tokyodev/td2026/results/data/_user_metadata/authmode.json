@@ -2,45 +2,12 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "_user_metadata": {
             "authmode": {
               "id": "authmode",
               "combined": {
                 "allEditions": [
-                  {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 814,
-                      "percentageSurvey": 100,
-                      "total": 814
-                    },
-                    "buckets": [
-                      {
-                        "count": 556,
-                        "id": "anonymous",
-                        "index": 0,
-                        "percentageQuestion": 68.3,
-                        "percentageSurvey": 68.3
-                      },
-                      {
-                        "count": 258,
-                        "id": "passwordless",
-                        "index": 1,
-                        "percentageQuestion": 31.7,
-                        "percentageSurvey": 31.7
-                      }
-                    ]
-                  },
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -59,18 +26,51 @@
                     },
                     "buckets": [
                       {
-                        "count": 675,
                         "id": "anonymous",
+                        "count": 675,
                         "index": 0,
                         "percentageQuestion": 66.9,
                         "percentageSurvey": 66.9
                       },
                       {
-                        "count": 334,
                         "id": "passwordless",
+                        "count": 334,
                         "index": 1,
                         "percentageQuestion": 33.1,
                         "percentageSurvey": 33.1
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 753,
+                      "percentageSurvey": 100,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "anonymous",
+                        "count": 474,
+                        "index": 0,
+                        "percentageQuestion": 62.95,
+                        "percentageSurvey": 62.95
+                      },
+                      {
+                        "id": "passwordless",
+                        "count": 279,
+                        "index": 1,
+                        "percentageQuestion": 37.05,
+                        "percentageSurvey": 37.05
                       }
                     ]
                   }

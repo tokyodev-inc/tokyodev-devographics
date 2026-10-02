@@ -2,73 +2,744 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "languages_used_colleagues_english": {
               "id": "languages_used_colleagues_english",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "questionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "options",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 739,
-                      "percentageSurvey": 90.79,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "n": 680,
+                    "correlation": -0.6348,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "language_proficiency_japanese",
+                    "sectionId2": "user_info",
+                    "n": 677,
+                    "correlation": -0.3762,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "jlpt_level",
+                    "sectionId2": "user_info",
+                    "n": 676,
+                    "correlation": -0.2565,
+                    "sameSection": false,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 631,
+                    "correlation": 0.2393,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "working_hours_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "fixed",
+                    "n": 671,
+                    "correlation": -0.2288,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "monitoring_and_logging",
+                    "n": 631,
+                    "correlation": 0.2224,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "japan_province",
+                    "sectionId2": "user_info",
+                    "optionId2": "tokyo",
+                    "n": 538,
+                    "correlation": 0.2043,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "blameless_postmortems",
+                    "n": 631,
+                    "correlation": 0.2024,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "continuous_deployment_delivery",
+                    "n": 631,
+                    "correlation": 0.1985,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "continuous_integration",
+                    "n": 631,
+                    "correlation": 0.1839,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "automated_testing",
+                    "n": 631,
+                    "correlation": 0.176,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "code_reviews",
+                    "n": 631,
+                    "correlation": 0.172,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "front_end",
+                    "n": 657,
+                    "correlation": -0.1716,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_japanese_certifications",
+                    "sectionId2": "user_info",
+                    "optionId2": "na",
+                    "n": 567,
+                    "correlation": 0.1698,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "languages_used_colleagues_english",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_japanese_certifications",
+                    "sectionId2": "user_info",
+                    "n": 567,
+                    "correlation": -0.1693,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "never",
+                    "correlations": [
                       {
-                        "count": 45,
-                        "id": "never",
-                        "index": 0,
-                        "percentageQuestion": 6.09,
-                        "percentageSurvey": 5.53
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 680,
+                        "correlation": 0.4285,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 65,
-                        "id": "rarely",
-                        "index": 1,
-                        "percentageQuestion": 8.8,
-                        "percentageSurvey": 7.99
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 680,
+                        "correlation": 0.2941,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 47,
-                        "id": "sometimes",
-                        "index": 2,
-                        "percentageQuestion": 6.36,
-                        "percentageSurvey": 5.77
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 677,
+                        "correlation": 0.1887,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 140,
-                        "id": "frequently",
-                        "index": 3,
-                        "percentageQuestion": 18.94,
-                        "percentageSurvey": 17.2
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 501,
+                        "correlation": 0.1729,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 442,
-                        "id": "always",
-                        "index": 4,
-                        "percentageQuestion": 59.81,
-                        "percentageSurvey": 54.3
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "convenience",
+                        "n": 636,
+                        "correlation": -0.1567,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 75,
-                        "id": "no_answer",
-                        "index": 5,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 9.21
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "never",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "csharp",
+                        "n": 644,
+                        "correlation": 0.1535,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
+                  {
+                    "id": "rarely",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "rarely",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 680,
+                        "correlation": 0.3946,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "rarely",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 680,
+                        "correlation": 0.3111,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "rarely",
+                        "questionId2": "working_hours_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fixed",
+                        "n": 671,
+                        "correlation": 0.1951,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "rarely",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "no_remote_work",
+                        "n": 674,
+                        "correlation": 0.1798,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "rarely",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 635,
+                        "correlation": 0.1601,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "sometimes",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "sometimes",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 680,
+                        "correlation": 0.4131,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "sometimes",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 680,
+                        "correlation": 0.3119,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "sometimes",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 677,
+                        "correlation": 0.2067,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "sometimes",
+                        "questionId2": "other_japanese_certifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "na",
+                        "n": 567,
+                        "correlation": -0.1747,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "sometimes",
+                        "questionId2": "other_japanese_certifications",
+                        "sectionId2": "user_info",
+                        "n": 567,
+                        "correlation": 0.1718,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "frequently",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "frequently",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "frequently",
+                        "n": 680,
+                        "correlation": 0.4181,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "frequently",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 680,
+                        "correlation": 0.177,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "frequently",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 676,
+                        "correlation": 0.1633,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "always",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 680,
+                        "correlation": -0.5987,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 677,
+                        "correlation": -0.3653,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 676,
+                        "correlation": -0.2648,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 631,
+                        "correlation": 0.2209,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 631,
+                        "correlation": 0.2136,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "working_hours_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fixed",
+                        "n": 671,
+                        "correlation": -0.1946,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "blameless_postmortems",
+                        "n": 631,
+                        "correlation": 0.1895,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "tokyo",
+                        "n": 538,
+                        "correlation": 0.1829,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_deployment_delivery",
+                        "n": 631,
+                        "correlation": 0.1827,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 657,
+                        "correlation": -0.1731,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "automated_testing",
+                        "n": 631,
+                        "correlation": 0.1615,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "business",
+                        "n": 681,
+                        "correlation": -0.1601,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 631,
+                        "correlation": 0.1594,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 681,
+                        "correlation": 0.159,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "languages_used_colleagues_english",
+                        "sectionId1": "job_info",
+                        "optionId1": "always",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 623,
+                        "correlation": -0.1563,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -87,46 +758,107 @@
                     },
                     "buckets": [
                       {
-                        "count": 55,
                         "id": "never",
+                        "count": 55,
                         "index": 0,
                         "percentageQuestion": 6.01,
                         "percentageSurvey": 5.45
                       },
                       {
-                        "count": 69,
                         "id": "rarely",
+                        "count": 69,
                         "index": 1,
                         "percentageQuestion": 7.54,
                         "percentageSurvey": 6.84
                       },
                       {
-                        "count": 59,
                         "id": "sometimes",
+                        "count": 59,
                         "index": 2,
                         "percentageQuestion": 6.45,
                         "percentageSurvey": 5.85
                       },
                       {
-                        "count": 133,
                         "id": "frequently",
+                        "count": 133,
                         "index": 3,
                         "percentageQuestion": 14.54,
                         "percentageSurvey": 13.18
                       },
                       {
-                        "count": 599,
                         "id": "always",
+                        "count": 599,
                         "index": 4,
                         "percentageQuestion": 65.46,
                         "percentageSurvey": 59.37
                       },
                       {
-                        "count": 94,
                         "id": "no_answer",
+                        "count": 94,
                         "index": 5,
                         "percentageQuestion": 0,
                         "percentageSurvey": 9.32
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 681,
+                      "percentageSurvey": 90.44,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "never",
+                        "count": 31,
+                        "index": 0,
+                        "percentageQuestion": 4.55,
+                        "percentageSurvey": 4.12
+                      },
+                      {
+                        "id": "rarely",
+                        "count": 41,
+                        "index": 1,
+                        "percentageQuestion": 6.02,
+                        "percentageSurvey": 5.44
+                      },
+                      {
+                        "id": "sometimes",
+                        "count": 54,
+                        "index": 2,
+                        "percentageQuestion": 7.93,
+                        "percentageSurvey": 7.17
+                      },
+                      {
+                        "id": "frequently",
+                        "count": 108,
+                        "index": 3,
+                        "percentageQuestion": 15.86,
+                        "percentageSurvey": 14.34
+                      },
+                      {
+                        "id": "always",
+                        "count": 447,
+                        "index": 4,
+                        "percentageQuestion": 65.64,
+                        "percentageSurvey": 59.36
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 72,
+                        "index": 5,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 9.56
                       }
                     ]
                   }

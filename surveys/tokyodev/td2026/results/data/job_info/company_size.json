@@ -2,114 +2,837 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "company_size": {
               "id": "company_size",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "questionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "options",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 696,
-                      "percentageSurvey": 85.5,
-                      "total": 814
-                    },
-                    "average": 2986.3,
-                    "percentiles": {
-                      "p50": 300
-                    },
-                    "buckets": [
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "remote_work_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "fully_remote",
+                    "n": 670,
+                    "correlation": -0.3624,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "current_employer",
+                    "sectionId2": "job_info",
+                    "optionId2": "japanese_subsidiary",
+                    "n": 657,
+                    "correlation": 0.3515,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "remote_work_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "hybrid",
+                    "n": 670,
+                    "correlation": 0.3367,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "spring",
+                    "n": 497,
+                    "correlation": 0.229,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "nextjs",
+                    "n": 602,
+                    "correlation": -0.2227,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "spring",
+                    "n": 602,
+                    "correlation": 0.2212,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "industry_sector",
+                    "sectionId2": "job_info",
+                    "optionId2": "ecommerce",
+                    "n": 661,
+                    "correlation": 0.2203,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "apache_kafka",
+                    "n": 497,
+                    "correlation": 0.213,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "ui_ux_design",
+                    "n": 652,
+                    "correlation": -0.2047,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "n": 626,
+                    "correlation": 0.2009,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "java",
+                    "n": 640,
+                    "correlation": 0.2,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 602,
+                    "correlation": -0.1959,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "employment_status",
+                    "sectionId2": "job_info",
+                    "optionId2": "permanent_employee",
+                    "n": 672,
+                    "correlation": 0.1937,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "cardinality",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "n": 652,
+                    "correlation": -0.1937,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "company_size",
+                    "sectionId1": "job_info",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "vercel",
+                    "n": 619,
+                    "correlation": -0.1914,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "range_2_9",
+                    "correlations": [
                       {
-                        "count": 12,
-                        "id": "range_1",
-                        "value": 1,
-                        "index": 0,
-                        "percentageQuestion": 1.72,
-                        "percentageSurvey": 1.47
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 672,
+                        "correlation": -0.2456,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 23,
-                        "id": "range_2_9",
-                        "value": 5,
-                        "index": 1,
-                        "percentageQuestion": 3.3,
-                        "percentageSurvey": 2.83
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 670,
+                        "correlation": 0.2375,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 39,
-                        "id": "range_10_19",
-                        "value": 15,
-                        "index": 2,
-                        "percentageQuestion": 5.6,
-                        "percentageSurvey": 4.79
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "international_company",
+                        "n": 657,
+                        "correlation": 0.2247,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 180,
-                        "id": "range_20_99",
-                        "value": 60,
-                        "index": 3,
-                        "percentageQuestion": 25.86,
-                        "percentageSurvey": 22.11
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 669,
+                        "correlation": -0.2118,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 114,
-                        "id": "range_100_499",
-                        "value": 300,
-                        "index": 4,
-                        "percentageQuestion": 16.38,
-                        "percentageSurvey": 14
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 669,
+                        "correlation": 0.2003,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 39,
-                        "id": "range_500_999",
-                        "value": 750,
-                        "index": 5,
-                        "percentageQuestion": 5.6,
-                        "percentageSurvey": 4.79
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 619,
+                        "correlation": 0.1612,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 112,
-                        "id": "range_1000_4999",
-                        "value": 3000,
-                        "index": 6,
-                        "percentageQuestion": 16.09,
-                        "percentageSurvey": 13.76
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "aws",
+                        "n": 619,
+                        "correlation": -0.1538,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 41,
-                        "id": "range_5000_9999",
-                        "value": 7500,
-                        "index": 7,
-                        "percentageQuestion": 5.89,
-                        "percentageSurvey": 5.04
-                      },
-                      {
-                        "count": 136,
-                        "id": "range_over_10000",
-                        "value": 10000,
-                        "index": 8,
-                        "percentageQuestion": 19.54,
-                        "percentageSurvey": 16.71
-                      },
-                      {
-                        "count": 118,
-                        "id": "no_answer",
-                        "index": 9,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 14.5
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_2_9",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 657,
+                        "correlation": -0.1523,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "range_10_19",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_10_19",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 602,
+                        "correlation": 0.166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_20_99",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 602,
+                        "correlation": 0.198,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 602,
+                        "correlation": 0.1728,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "php",
+                        "n": 640,
+                        "correlation": 0.166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 657,
+                        "correlation": -0.1543,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "typescript",
+                        "n": 640,
+                        "correlation": 0.1522,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_20_99",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 657,
+                        "correlation": 0.1509,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_100_499",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_100_499",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 657,
+                        "correlation": 0.1922,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_100_499",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 657,
+                        "correlation": -0.1505,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_1000_4999",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "energy",
+                        "n": 661,
+                        "correlation": 0.2387,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 602,
+                        "correlation": 0.1936,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 602,
+                        "correlation": -0.1815,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 602,
+                        "correlation": -0.1691,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": 0.1681,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "blameless_postmortems",
+                        "n": 626,
+                        "correlation": 0.165,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 626,
+                        "correlation": 0.1605,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1000_4999",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 675,
+                        "correlation": -0.1541,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_over_10000",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 657,
+                        "correlation": 0.2989,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "ecommerce",
+                        "n": 661,
+                        "correlation": 0.2887,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 670,
+                        "correlation": 0.2404,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "cloud_computing",
+                        "n": 661,
+                        "correlation": 0.2022,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "java",
+                        "n": 640,
+                        "correlation": 0.2011,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 602,
+                        "correlation": 0.1961,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 497,
+                        "correlation": 0.1804,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "microsoft_copilot",
+                        "n": 643,
+                        "correlation": 0.1765,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "kanagawa",
+                        "n": 534,
+                        "correlation": 0.1744,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 657,
+                        "correlation": -0.1727,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "apache_kafka",
+                        "n": 497,
+                        "correlation": 0.1547,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "linkedin",
+                        "n": 590,
+                        "correlation": 0.1538,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "saas",
+                        "n": 661,
+                        "correlation": -0.1534,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "company_size",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_over_10000",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 670,
+                        "correlation": -0.1518,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -132,83 +855,185 @@
                     },
                     "buckets": [
                       {
-                        "count": 17,
                         "id": "range_1",
+                        "count": 17,
                         "value": 1,
                         "index": 0,
                         "percentageQuestion": 1.9,
                         "percentageSurvey": 1.68
                       },
                       {
-                        "count": 47,
                         "id": "range_2_9",
+                        "count": 47,
                         "value": 5,
                         "index": 1,
                         "percentageQuestion": 5.25,
                         "percentageSurvey": 4.66
                       },
                       {
-                        "count": 65,
                         "id": "range_10_19",
+                        "count": 65,
                         "value": 15,
                         "index": 2,
                         "percentageQuestion": 7.25,
                         "percentageSurvey": 6.44
                       },
                       {
-                        "count": 179,
                         "id": "range_20_99",
+                        "count": 179,
                         "value": 60,
                         "index": 3,
                         "percentageQuestion": 19.98,
                         "percentageSurvey": 17.74
                       },
                       {
-                        "count": 176,
                         "id": "range_100_499",
+                        "count": 176,
                         "value": 300,
                         "index": 4,
                         "percentageQuestion": 19.64,
                         "percentageSurvey": 17.44
                       },
                       {
-                        "count": 53,
                         "id": "range_500_999",
+                        "count": 53,
                         "value": 750,
                         "index": 5,
                         "percentageQuestion": 5.92,
                         "percentageSurvey": 5.25
                       },
                       {
-                        "count": 159,
                         "id": "range_1000_4999",
+                        "count": 159,
                         "value": 3000,
                         "index": 6,
                         "percentageQuestion": 17.75,
                         "percentageSurvey": 15.76
                       },
                       {
-                        "count": 37,
                         "id": "range_5000_9999",
+                        "count": 37,
                         "value": 7500,
                         "index": 7,
                         "percentageQuestion": 4.13,
                         "percentageSurvey": 3.67
                       },
                       {
-                        "count": 163,
                         "id": "range_over_10000",
+                        "count": 163,
                         "value": 10000,
                         "index": 8,
                         "percentageQuestion": 18.19,
                         "percentageSurvey": 16.15
                       },
                       {
-                        "count": 113,
                         "id": "no_answer",
+                        "count": 113,
                         "index": 9,
                         "percentageQuestion": 0,
                         "percentageSurvey": 11.2
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 676,
+                      "percentageSurvey": 89.77,
+                      "total": 753
+                    },
+                    "average": 2536.9,
+                    "percentiles": {
+                      "p50": 300
+                    },
+                    "buckets": [
+                      {
+                        "id": "range_1",
+                        "count": 22,
+                        "value": 1,
+                        "index": 0,
+                        "percentageQuestion": 3.25,
+                        "percentageSurvey": 2.92
+                      },
+                      {
+                        "id": "range_2_9",
+                        "count": 48,
+                        "value": 5,
+                        "index": 1,
+                        "percentageQuestion": 7.1,
+                        "percentageSurvey": 6.37
+                      },
+                      {
+                        "id": "range_10_19",
+                        "count": 44,
+                        "value": 15,
+                        "index": 2,
+                        "percentageQuestion": 6.51,
+                        "percentageSurvey": 5.84
+                      },
+                      {
+                        "id": "range_20_99",
+                        "count": 146,
+                        "value": 60,
+                        "index": 3,
+                        "percentageQuestion": 21.6,
+                        "percentageSurvey": 19.39
+                      },
+                      {
+                        "id": "range_100_499",
+                        "count": 125,
+                        "value": 300,
+                        "index": 4,
+                        "percentageQuestion": 18.49,
+                        "percentageSurvey": 16.6
+                      },
+                      {
+                        "id": "range_500_999",
+                        "count": 41,
+                        "value": 750,
+                        "index": 5,
+                        "percentageQuestion": 6.07,
+                        "percentageSurvey": 5.44
+                      },
+                      {
+                        "id": "range_1000_4999",
+                        "count": 114,
+                        "value": 3000,
+                        "index": 6,
+                        "percentageQuestion": 16.86,
+                        "percentageSurvey": 15.14
+                      },
+                      {
+                        "id": "range_5000_9999",
+                        "count": 26,
+                        "value": 7500,
+                        "index": 7,
+                        "percentageQuestion": 3.85,
+                        "percentageSurvey": 3.45
+                      },
+                      {
+                        "id": "range_over_10000",
+                        "count": 110,
+                        "value": 10000,
+                        "index": 8,
+                        "percentageQuestion": 16.27,
+                        "percentageSurvey": 14.61
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 77,
+                        "index": 9,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 10.23
                       }
                     ]
                   }

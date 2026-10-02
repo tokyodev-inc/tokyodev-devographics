@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         user_info {
           gender_by_compensation_by_experience_1: gender {
             id
@@ -50,8 +50,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -63,12 +63,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -79,6 +81,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -156,6 +167,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData
@@ -164,12 +176,14 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
                       id
                       parentId
                       entityType
+                      tags
                       example {
                         label
                         language
@@ -180,6 +194,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {
@@ -299,8 +322,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -312,12 +335,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -328,6 +353,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -405,6 +439,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData
@@ -413,12 +448,14 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
                       id
                       parentId
                       entityType
+                      tags
                       example {
                         label
                         language
@@ -429,6 +466,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {
@@ -548,8 +594,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -561,12 +607,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -577,6 +625,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -654,6 +711,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData
@@ -662,12 +720,14 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
                       id
                       parentId
                       entityType
+                      tags
                       example {
                         label
                         language
@@ -678,6 +738,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {
@@ -800,8 +869,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -813,12 +882,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -829,6 +900,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -906,6 +986,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData
@@ -914,12 +995,14 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
                       id
                       parentId
                       entityType
+                      tags
                       example {
                         label
                         language
@@ -930,6 +1013,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {

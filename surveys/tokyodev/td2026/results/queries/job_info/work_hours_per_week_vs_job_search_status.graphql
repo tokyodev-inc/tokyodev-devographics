@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         job_info {
           work_hours_per_week_vs_job_search_status: work_hours_per_week {
             id
@@ -45,8 +45,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -58,12 +58,14 @@ query {
                     nameHtml
                     nameClean
                     alias
+                    author
                     description
                     descriptionHtml
                     descriptionClean
                     id
                     parentId
                     entityType
+                    tags
                     example {
                       label
                       language
@@ -74,6 +76,15 @@ query {
                       url
                     }
                     homepage {
+                      url
+                    }
+                    amazon {
+                      url
+                    }
+                    wikipedia {
+                      url
+                    }
+                    steam {
                       url
                     }
                     youtube {
@@ -151,6 +162,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData
@@ -159,12 +171,14 @@ query {
                       nameHtml
                       nameClean
                       alias
+                      author
                       description
                       descriptionHtml
                       descriptionClean
                       id
                       parentId
                       entityType
+                      tags
                       example {
                         label
                         language
@@ -175,6 +189,15 @@ query {
                         url
                       }
                       homepage {
+                        url
+                      }
+                      amazon {
+                        url
+                      }
+                      wikipedia {
+                        url
+                      }
+                      steam {
                         url
                       }
                       youtube {

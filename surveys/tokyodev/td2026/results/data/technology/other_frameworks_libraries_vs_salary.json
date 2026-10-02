@@ -2,7 +2,7 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "technology": {
             "other_frameworks_libraries_vs_salary": {
               "id": "other_frameworks_libraries",
@@ -16,241 +16,769 @@
                       },
                       "axis2Sort": {
                         "property": "options",
-                        "order": "desc"
+                        "order": "asc"
                       },
                       "limit": 50,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 644,
-                      "percentageSurvey": 63.83,
-                      "total": 1009
+                      "count": 474,
+                      "percentageSurvey": 62.95,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 51,
                         "id": "apache_kafka",
+                        "count": 53,
                         "index": 0,
-                        "percentageQuestion": 7.92,
-                        "percentageSurvey": 5.05,
+                        "percentageQuestion": 11.18,
+                        "percentageSurvey": 7.04,
                         "entity": {
                           "name": "Apache Kafka",
                           "nameHtml": "Apache Kafka",
                           "nameClean": "Apache Kafka",
                           "id": "apache_kafka",
                           "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
                           "homepage": {
                             "url": "https://kafka.apache.org/"
                           }
                         },
-                        "averageByFacet": 13774509.8,
+                        "averageByFacet": 13539215.7,
                         "percentilesByFacet": {
-                          "p0": 4500000,
-                          "p10": 7500000,
+                          "p0": 500000,
+                          "p10": 6500000,
                           "p25": 8500000,
-                          "p50": 12500000,
-                          "p75": 16500000,
-                          "p90": 25500000,
+                          "p50": 11500000,
+                          "p75": 16000000,
+                          "p90": 29500000,
                           "p100": 29500000
                         },
                         "facetBuckets": [
                           {
                             "id": "range_6000000_to_8999999",
+                            "count": 11,
+                            "percentageBucket": 20.75,
+                            "percentageQuestion": 2.31
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
                             "count": 14,
-                            "percentageBucket": 27.46,
-                            "percentageQuestion": 2.18
+                            "percentageBucket": 26.41,
+                            "percentageQuestion": 2.95
                           },
                           {
                             "id": "other_answers",
-                            "count": 37,
-                            "percentageBucket": 72.52,
-                            "percentageQuestion": 5.8
+                            "count": 30,
+                            "percentageBucket": 57.07,
+                            "percentageQuestion": 5.46
                           }
                         ]
                       },
                       {
-                        "count": 37,
-                        "id": "rabbitmq",
-                        "index": 1,
-                        "percentageQuestion": 5.75,
-                        "percentageSurvey": 3.67,
-                        "entity": {
-                          "name": "RabbitMQ",
-                          "nameHtml": "RabbitMQ",
-                          "nameClean": "RabbitMQ",
-                          "id": "rabbitmq",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.rabbitmq.com/"
-                          }
-                        },
-                        "averageByFacet": 12361111.1,
-                        "percentilesByFacet": {
-                          "p0": 2500000,
-                          "p10": 6000000,
-                          "p25": 8500000,
-                          "p50": 10500000,
-                          "p75": 15750000,
-                          "p90": 21500000,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 10,
-                            "percentageBucket": 27.03,
-                            "percentageQuestion": 1.56
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 28,
-                            "percentageBucket": 75.25,
-                            "percentageQuestion": 4.1
-                          }
-                        ]
-                      },
-                      {
-                        "count": 70,
-                        "id": "spring",
-                        "index": 2,
-                        "percentageQuestion": 10.87,
-                        "percentageSurvey": 6.94,
-                        "entity": {
-                          "name": "Spring",
-                          "nameHtml": "Spring",
-                          "nameClean": "Spring",
-                          "id": "spring",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://spring.io/"
-                          }
-                        },
-                        "averageByFacet": 12052238.8,
-                        "percentilesByFacet": {
-                          "p0": 3500000,
-                          "p10": 5100000.000000001,
-                          "p25": 7500000,
-                          "p50": 10500000,
-                          "p75": 15500000,
-                          "p90": 20500000,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 11,
-                            "percentageBucket": 15.71,
-                            "percentageQuestion": 1.71
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 16,
-                            "percentageBucket": 22.85,
-                            "percentageQuestion": 2.49
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 11,
-                            "percentageBucket": 15.71,
-                            "percentageQuestion": 1.71
-                          },
-                          {
-                            "id": "range_12000000_to_14999999",
-                            "count": 11,
-                            "percentageBucket": 15.72,
-                            "percentageQuestion": 1.71
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 24,
-                            "percentageBucket": 34.73,
-                            "percentageQuestion": 2.83
-                          }
-                        ]
-                      },
-                      {
-                        "count": 97,
-                        "id": "torch_pytorch",
-                        "index": 3,
-                        "percentageQuestion": 15.06,
-                        "percentageSurvey": 9.61,
-                        "entity": {
-                          "name": "Torch/PyTorch",
-                          "nameHtml": "Torch/PyTorch",
-                          "nameClean": "Torch/PyTorch",
-                          "id": "torch_pytorch",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://pytorch.org/"
-                          }
-                        },
-                        "averageByFacet": 12195652.2,
-                        "percentilesByFacet": {
-                          "p0": 1500000,
-                          "p10": 5500000,
-                          "p25": 7500000,
-                          "p50": 10500000,
-                          "p75": 15500000,
-                          "p90": 24300000.00000001,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 11,
-                            "percentageBucket": 11.33,
-                            "percentageQuestion": 1.71
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 22,
-                            "percentageBucket": 22.68,
-                            "percentageQuestion": 3.42
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 25,
-                            "percentageBucket": 25.78,
-                            "percentageQuestion": 3.88
-                          },
-                          {
-                            "id": "range_15000000_to_19999999",
-                            "count": 10,
-                            "percentageBucket": 10.3,
-                            "percentageQuestion": 1.56
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 34,
-                            "percentageBucket": 34.73,
-                            "percentageQuestion": 3.74
-                          }
-                        ]
-                      },
-                      {
-                        "count": 140,
                         "id": "numpy",
-                        "index": 4,
-                        "percentageQuestion": 21.74,
-                        "percentageSurvey": 13.88,
+                        "count": 97,
+                        "index": 1,
+                        "percentageQuestion": 20.46,
+                        "percentageSurvey": 12.88,
                         "entity": {
                           "name": "NumPy",
                           "nameHtml": "NumPy",
                           "nameClean": "NumPy",
                           "id": "numpy",
                           "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
                           "homepage": {
                             "url": "https://numpy.org/"
                           }
                         },
-                        "averageByFacet": 11133587.8,
+                        "averageByFacet": 12227272.7,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 5200000.000000001,
+                          "p25": 6500000,
+                          "p50": 10500000,
+                          "p75": 15750000,
+                          "p90": 26399999.999999993,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 10,
+                            "percentageBucket": 10.31,
+                            "percentageQuestion": 2.11
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 23,
+                            "percentageBucket": 23.72,
+                            "percentageQuestion": 4.86
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 17,
+                            "percentageBucket": 17.52,
+                            "percentageQuestion": 3.58
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 12,
+                            "percentageBucket": 12.37,
+                            "percentageQuestion": 2.53
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 44,
+                            "percentageBucket": 45.78,
+                            "percentageQuestion": 5.46
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pandas",
+                        "count": 93,
+                        "index": 2,
+                        "percentageQuestion": 19.62,
+                        "percentageSurvey": 12.35,
+                        "entity": {
+                          "name": "Pandas",
+                          "nameHtml": "Pandas",
+                          "nameClean": "Pandas",
+                          "id": "pandas",
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://pandas.pydata.org/"
+                          }
+                        },
+                        "averageByFacet": 12076470.6,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 3500000,
+                          "p25": 6500000,
+                          "p50": 10500000,
+                          "p75": 16500000,
+                          "p90": 25500000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 14,
+                            "percentageBucket": 15.06,
+                            "percentageQuestion": 2.95
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 16,
+                            "percentageBucket": 17.21,
+                            "percentageQuestion": 3.38
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 14,
+                            "percentageBucket": 15.06,
+                            "percentageQuestion": 2.95
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 11,
+                            "percentageBucket": 11.83,
+                            "percentageQuestion": 2.31
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 12,
+                            "percentageBucket": 12.91,
+                            "percentageQuestion": 2.52
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 34,
+                            "percentageBucket": 36.38,
+                            "percentageQuestion": 3.78
+                          }
+                        ]
+                      },
+                      {
+                        "id": "scikit_learn",
+                        "count": 49,
+                        "index": 3,
+                        "percentageQuestion": 10.34,
+                        "percentageSurvey": 6.51,
+                        "entity": {
+                          "name": "Scikit-learn",
+                          "nameHtml": "Scikit-learn",
+                          "nameClean": "Scikit-learn",
+                          "id": "scikit_learn",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools",
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://scikit-learn.org/"
+                          }
+                        },
+                        "averageByFacet": 11588888.9,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 3500000,
+                          "p25": 5500000,
+                          "p50": 10500000,
+                          "p75": 15500000,
+                          "p90": 25100000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 53,
+                            "percentageBucket": 107.81,
+                            "percentageQuestion": 9.46
+                          }
+                        ]
+                      },
+                      {
+                        "id": "torch_pytorch",
+                        "count": 59,
+                        "index": 4,
+                        "percentageQuestion": 12.45,
+                        "percentageSurvey": 7.84,
+                        "entity": {
+                          "name": "Torch/PyTorch",
+                          "nameHtml": "Torch/PyTorch",
+                          "nameClean": "Torch/PyTorch",
+                          "id": "torch_pytorch",
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://pytorch.org/"
+                          }
+                        },
+                        "averageByFacet": 11946428.6,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 4000000,
+                          "p25": 6500000,
+                          "p50": 10500000,
+                          "p75": 14750000,
+                          "p90": 26500000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 13,
+                            "percentageBucket": 22.03,
+                            "percentageQuestion": 2.73
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 10,
+                            "percentageBucket": 16.94,
+                            "percentageQuestion": 2.1
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 39,
+                            "percentageBucket": 65.88,
+                            "percentageQuestion": 6.93
+                          }
+                        ]
+                      },
+                      {
+                        "id": "opencv",
+                        "count": 46,
+                        "index": 5,
+                        "percentageQuestion": 9.7,
+                        "percentageSurvey": 6.11,
+                        "entity": {
+                          "name": "OpenCV",
+                          "nameHtml": "OpenCV",
+                          "nameClean": "OpenCV",
+                          "id": "opencv",
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://opencv.org/"
+                          }
+                        },
+                        "averageByFacet": 11261904.8,
+                        "percentilesByFacet": {
+                          "p0": 1500000,
+                          "p10": 4500000,
+                          "p25": 6500000,
+                          "p50": 9500000,
+                          "p75": 13250000,
+                          "p90": 24699999.99999999,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 10,
+                            "percentageBucket": 21.74,
+                            "percentageQuestion": 2.1
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 40,
+                            "percentageBucket": 86.57,
+                            "percentageQuestion": 6.72
+                          }
+                        ]
+                      },
+                      {
+                        "id": "overall",
+                        "count": 656,
+                        "index": 6,
+                        "percentageQuestion": 138.4,
+                        "percentageSurvey": 87.12,
+                        "averageByFacet": 10702743.9,
                         "percentilesByFacet": {
                           "p0": 500000,
                           "p10": 4500000,
-                          "p25": 7000000,
+                          "p25": 6500000,
                           "p50": 9500000,
+                          "p75": 13500000,
+                          "p90": 20000000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_under_2999999",
+                            "count": 27,
+                            "percentageBucket": 3.59,
+                            "percentageQuestion": 5.7
+                          },
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 109,
+                            "percentageBucket": 14.5,
+                            "percentageQuestion": 22.99
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 187,
+                            "percentageBucket": 24.87,
+                            "percentageQuestion": 39.46
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 134,
+                            "percentageBucket": 17.81,
+                            "percentageQuestion": 28.28
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 78,
+                            "percentageBucket": 10.38,
+                            "percentageQuestion": 16.45
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 55,
+                            "percentageBucket": 7.31,
+                            "percentageQuestion": 11.61
+                          },
+                          {
+                            "id": "range_20000000_to_29999999",
+                            "count": 42,
+                            "percentageBucket": 5.58,
+                            "percentageQuestion": 8.86
+                          },
+                          {
+                            "id": "range_30000000_to_49999999",
+                            "count": 18,
+                            "percentageBucket": 2.39,
+                            "percentageQuestion": 3.8
+                          },
+                          {
+                            "id": "no_answer",
+                            "count": 96,
+                            "percentageBucket": 12.77,
+                            "percentageQuestion": 0
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 6,
+                            "percentageBucket": 1,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "id": "rabbitmq",
+                        "count": 33,
+                        "index": 7,
+                        "percentageQuestion": 6.96,
+                        "percentageSurvey": 4.38,
+                        "entity": {
+                          "name": "RabbitMQ",
+                          "nameHtml": "RabbitMQ",
+                          "nameClean": "RabbitMQ",
+                          "id": "rabbitmq",
+                          "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://www.rabbitmq.com/"
+                          }
+                        },
+                        "averageByFacet": 12218750,
+                        "percentilesByFacet": {
+                          "p0": 3500000,
+                          "p10": 6500000,
+                          "p25": 7500000,
+                          "p50": 9500000,
+                          "p75": 15750000,
+                          "p90": 20400000.000000004,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 10,
+                            "percentageBucket": 30.3,
+                            "percentageQuestion": 2.1
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 24,
+                            "percentageBucket": 72.66,
+                            "percentageQuestion": 4.62
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spring",
+                        "count": 55,
+                        "index": 8,
+                        "percentageQuestion": 11.6,
+                        "percentageSurvey": 7.3,
+                        "entity": {
+                          "name": "Spring",
+                          "nameHtml": "Spring",
+                          "nameClean": "Spring",
+                          "id": "spring",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "libraries",
+                            "other_libraries",
+                            "non_js_frameworks",
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://spring.io/"
+                          }
+                        },
+                        "averageByFacet": 12518867.9,
+                        "percentilesByFacet": {
+                          "p0": 1500000,
+                          "p10": 5500000,
+                          "p25": 7500000,
+                          "p50": 9500000,
+                          "p75": 15500000,
+                          "p90": 25500000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 17,
+                            "percentageBucket": 30.91,
+                            "percentageQuestion": 3.58
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 40,
+                            "percentageBucket": 72.47,
+                            "percentageQuestion": 7.56
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tensorflow",
+                        "count": 41,
+                        "index": 9,
+                        "percentageQuestion": 8.65,
+                        "percentageSurvey": 5.44,
+                        "entity": {
+                          "name": "TensorFlow",
+                          "nameHtml": "TensorFlow",
+                          "nameClean": "TensorFlow",
+                          "id": "tensorflow",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools",
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://www.tensorflow.org/"
+                          }
+                        },
+                        "averageByFacet": 11736842.1,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 3500000,
+                          "p25": 6500000,
+                          "p50": 9500000,
+                          "p75": 14500000,
+                          "p90": 26400000.00000001,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 10,
+                            "percentageBucket": 24.4,
+                            "percentageQuestion": 2.1
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 34,
+                            "percentageBucket": 83.32,
+                            "percentageQuestion": 5.88
+                          }
+                        ]
+                      },
+                      {
+                        "id": "dot_net",
+                        "count": 40,
+                        "index": 10,
+                        "percentageQuestion": 8.44,
+                        "percentageSurvey": 5.31,
+                        "entity": {
+                          "name": ".NET",
+                          "nameHtml": ".NET",
+                          "nameClean": ".NET",
+                          "id": "dot_net",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "libraries",
+                            "js_libraries",
+                            "js_backend_frameworks",
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://dotnet.microsoft.com/"
+                          }
+                        },
+                        "averageByFacet": 9500000,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 3500000,
+                          "p25": 5500000,
+                          "p50": 8500000,
+                          "p75": 11500000,
+                          "p90": 19500000,
+                          "p100": 25500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 10,
+                            "percentageBucket": 25,
+                            "percentageQuestion": 2.1
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 12,
+                            "percentageBucket": 30,
+                            "percentageQuestion": 2.54
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 20,
+                            "percentageBucket": 50,
+                            "percentageQuestion": 3.36
+                          }
+                        ]
+                      },
+                      {
+                        "id": "flutter",
+                        "count": 22,
+                        "index": 11,
+                        "percentageQuestion": 4.64,
+                        "percentageSurvey": 2.92,
+                        "entity": {
+                          "name": "Flutter",
+                          "nameHtml": "Flutter",
+                          "nameClean": "Flutter",
+                          "id": "flutter",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "libraries",
+                            "js_libraries",
+                            "js_mobile_desktop",
+                            "mobile_desktop",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://flutter.io/"
+                          }
+                        },
+                        "averageByFacet": 10000000,
+                        "percentilesByFacet": {
+                          "p0": 2500000,
+                          "p10": 4400000,
+                          "p25": 5500000,
+                          "p50": 8500000,
+                          "p75": 11000000,
+                          "p90": 17300000.00000001,
+                          "p100": 28500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 24,
+                            "percentageBucket": 108.94,
+                            "percentageQuestion": 4.2
+                          }
+                        ]
+                      },
+                      {
+                        "id": "na",
+                        "count": 196,
+                        "index": 12,
+                        "percentageQuestion": 41.35,
+                        "percentageSurvey": 26.03,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 4500000,
+                          "p25": 6500000,
+                          "p50": 8500000,
+                          "p75": 12500000,
+                          "p90": 17400000.000000007,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 29,
+                            "percentageBucket": 14.79,
+                            "percentageQuestion": 6.12
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 61,
+                            "percentageBucket": 31.11,
+                            "percentageQuestion": 12.87
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 42,
+                            "percentageBucket": 21.42,
+                            "percentageQuestion": 8.87
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 24,
+                            "percentageBucket": 12.24,
+                            "percentageQuestion": 5.06
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 17,
+                            "percentageBucket": 8.67,
+                            "percentageQuestion": 3.57
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 27,
+                            "percentageBucket": 13.69,
+                            "percentageQuestion": 3.99
+                          }
+                        ]
+                      },
+                      {
+                        "id": "react_native",
+                        "count": 42,
+                        "index": 13,
+                        "percentageQuestion": 8.86,
+                        "percentageSurvey": 5.58,
+                        "entity": {
+                          "name": "React Native",
+                          "nameHtml": "React Native",
+                          "nameClean": "React Native",
+                          "id": "react_native",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "libraries",
+                            "js_libraries",
+                            "js_mobile_desktop",
+                            "tokyodev",
+                            "other_frameworks_libraries"
+                          ],
+                          "homepage": {
+                            "url": "https://facebook.github.io/react-native/"
+                          }
+                        },
+                        "averageByFacet": 9932432.4,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 3100000,
+                          "p25": 4500000,
+                          "p50": 7500000,
+                          "p75": 10500000,
+                          "p90": 22499999.999999993,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 47,
+                            "percentageBucket": 112.06,
+                            "percentageQuestion": 7.77
+                          }
+                        ]
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 278,
+                        "index": 14,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 36.92,
+                        "averageByFacet": 10514705.9,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 4500000,
+                          "p25": 6500000,
+                          "p50": 8500000,
                           "p75": 12500000,
                           "p90": 20500000,
                           "p100": 29500000
@@ -258,621 +786,60 @@
                         "facetBuckets": [
                           {
                             "id": "range_3000000_to_5999999",
-                            "count": 22,
-                            "percentageBucket": 15.72,
-                            "percentageQuestion": 3.42
+                            "count": 38,
+                            "percentageBucket": 13.68,
+                            "percentageQuestion": 8.02
                           },
                           {
                             "id": "range_6000000_to_8999999",
-                            "count": 33,
-                            "percentageBucket": 23.57,
-                            "percentageQuestion": 5.12
+                            "count": 58,
+                            "percentageBucket": 20.86,
+                            "percentageQuestion": 12.24
                           },
                           {
                             "id": "range_9000000_to_11999999",
-                            "count": 33,
-                            "percentageBucket": 23.57,
-                            "percentageQuestion": 5.13
+                            "count": 40,
+                            "percentageBucket": 14.39,
+                            "percentageQuestion": 8.44
                           },
                           {
                             "id": "range_12000000_to_14999999",
-                            "count": 14,
-                            "percentageBucket": 10,
-                            "percentageQuestion": 2.18
-                          },
-                          {
-                            "id": "range_15000000_to_19999999",
-                            "count": 11,
-                            "percentageBucket": 7.84,
-                            "percentageQuestion": 1.73
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 36,
-                            "percentageBucket": 25.85,
-                            "percentageQuestion": 2.81
-                          }
-                        ]
-                      },
-                      {
-                        "count": 887,
-                        "id": "overall",
-                        "index": 5,
-                        "percentageQuestion": 137.73,
-                        "percentageSurvey": 87.91,
-                        "averageByFacet": 10814543.4,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 9500000,
-                          "p75": 12500000,
-                          "p90": 19500000,
-                          "p100": 100500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_under_2999999",
-                            "count": 22,
-                            "percentageBucket": 2.19,
-                            "percentageQuestion": 3.42
-                          },
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 187,
-                            "percentageBucket": 18.58,
-                            "percentageQuestion": 29.03
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 231,
-                            "percentageBucket": 22.96,
-                            "percentageQuestion": 35.87
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 176,
-                            "percentageBucket": 17.49,
-                            "percentageQuestion": 27.32
-                          },
-                          {
-                            "id": "range_12000000_to_14999999",
-                            "count": 104,
-                            "percentageBucket": 10.34,
-                            "percentageQuestion": 16.15
-                          },
-                          {
-                            "id": "range_15000000_to_19999999",
-                            "count": 82,
-                            "percentageBucket": 8.15,
-                            "percentageQuestion": 12.74
-                          },
-                          {
-                            "id": "range_20000000_to_29999999",
-                            "count": 49,
-                            "percentageBucket": 4.88,
-                            "percentageQuestion": 7.61
-                          },
-                          {
-                            "id": "range_30000000_to_49999999",
-                            "count": 29,
-                            "percentageBucket": 2.89,
-                            "percentageQuestion": 4.51
-                          },
-                          {
-                            "id": "no_answer",
-                            "count": 119,
-                            "percentageBucket": 11.83,
-                            "percentageQuestion": 0
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 7,
-                            "percentageBucket": 1,
-                            "percentageQuestion": 0
-                          }
-                        ]
-                      },
-                      {
-                        "count": 137,
-                        "id": "pandas",
-                        "index": 6,
-                        "percentageQuestion": 21.27,
-                        "percentageSurvey": 13.58,
-                        "entity": {
-                          "name": "Pandas",
-                          "nameHtml": "Pandas",
-                          "nameClean": "Pandas",
-                          "id": "pandas",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://pandas.pydata.org/"
-                          }
-                        },
-                        "averageByFacet": 10646153.8,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 9500000,
-                          "p75": 12500000,
-                          "p90": 17600000.000000007,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 27,
-                            "percentageBucket": 19.71,
-                            "percentageQuestion": 4.19
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 27,
-                            "percentageBucket": 19.71,
-                            "percentageQuestion": 4.19
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 32,
-                            "percentageBucket": 23.36,
-                            "percentageQuestion": 4.97
-                          },
-                          {
-                            "id": "range_12000000_to_14999999",
-                            "count": 16,
-                            "percentageBucket": 11.68,
-                            "percentageQuestion": 2.48
-                          },
-                          {
-                            "id": "range_15000000_to_19999999",
-                            "count": 13,
-                            "percentageBucket": 9.49,
-                            "percentageQuestion": 2.03
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 29,
-                            "percentageBucket": 20.95,
-                            "percentageQuestion": 2.36
-                          }
-                        ]
-                      },
-                      {
-                        "count": 56,
-                        "id": "tensorflow",
-                        "index": 7,
-                        "percentageQuestion": 8.7,
-                        "percentageSurvey": 5.55,
-                        "entity": {
-                          "name": "TensorFlow",
-                          "nameHtml": "TensorFlow",
-                          "nameClean": "TensorFlow",
-                          "id": "tensorflow",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.tensorflow.org/"
-                          }
-                        },
-                        "averageByFacet": 12057692.3,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 9500000,
-                          "p75": 16500000,
-                          "p90": 25199999.999999996,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 12,
-                            "percentageBucket": 21.43,
-                            "percentageQuestion": 1.87
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 48,
-                            "percentageBucket": 85.46,
-                            "percentageQuestion": 6.26
-                          }
-                        ]
-                      },
-                      {
-                        "count": 66,
-                        "id": "scikit_learn",
-                        "index": 8,
-                        "percentageQuestion": 10.25,
-                        "percentageSurvey": 6.54,
-                        "entity": {
-                          "name": "scikit-learn",
-                          "nameHtml": "scikit-learn",
-                          "nameClean": "scikit-learn",
-                          "id": "scikit_learn",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://scikit-learn.org/stable/"
-                          }
-                        },
-                        "averageByFacet": 10250000,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 9000000,
-                          "p75": 11500000,
-                          "p90": 16000000.000000007,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 18,
-                            "percentageBucket": 27.28,
-                            "percentageQuestion": 2.8
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 18,
-                            "percentageBucket": 27.28,
-                            "percentageQuestion": 2.8
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 36,
-                            "percentageBucket": 54.39,
-                            "percentageQuestion": 3.75
-                          }
-                        ]
-                      },
-                      {
-                        "count": 58,
-                        "id": "opencv",
-                        "index": 9,
-                        "percentageQuestion": 9.01,
-                        "percentageSurvey": 5.75,
-                        "entity": {
-                          "name": "OpenCV",
-                          "nameHtml": "OpenCV",
-                          "nameClean": "OpenCV",
-                          "id": "opencv",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://opencv.org/"
-                          }
-                        },
-                        "averageByFacet": 8982142.9,
-                        "percentilesByFacet": {
-                          "p0": 2500000,
-                          "p10": 4500000,
-                          "p25": 6250000,
-                          "p50": 8500000,
-                          "p75": 10500000,
-                          "p90": 13500000,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 12,
-                            "percentageBucket": 20.69,
-                            "percentageQuestion": 1.86
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 20,
-                            "percentageBucket": 34.48,
-                            "percentageQuestion": 3.11
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 14,
-                            "percentageBucket": 24.14,
-                            "percentageQuestion": 2.18
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 14,
-                            "percentageBucket": 24.22,
-                            "percentageQuestion": 1.58
-                          }
-                        ]
-                      },
-                      {
-                        "count": 52,
-                        "id": "react_native",
-                        "index": 10,
-                        "percentageQuestion": 8.07,
-                        "percentageSurvey": 5.15,
-                        "entity": {
-                          "name": "React Native",
-                          "nameHtml": "React Native",
-                          "nameClean": "React Native",
-                          "id": "react_native",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://facebook.github.io/react-native/"
-                          }
-                        },
-                        "averageByFacet": 12280000,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 8000000,
-                          "p75": 19750000,
-                          "p90": 25900000.000000007,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 11,
-                            "percentageBucket": 21.16,
-                            "percentageQuestion": 1.72
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 15,
-                            "percentageBucket": 28.85,
-                            "percentageQuestion": 2.33
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 28,
-                            "percentageBucket": 54.13,
-                            "percentageQuestion": 3.77
-                          }
-                        ]
-                      },
-                      {
-                        "count": 29,
-                        "id": "flutter",
-                        "index": 11,
-                        "percentageQuestion": 4.5,
-                        "percentageSurvey": 2.87,
-                        "entity": {
-                          "name": "Flutter",
-                          "nameHtml": "Flutter",
-                          "nameClean": "Flutter",
-                          "id": "flutter",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://flutter.io/"
-                          }
-                        },
-                        "averageByFacet": 11017241.4,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 3500000,
-                          "p25": 5500000,
-                          "p50": 7500000,
-                          "p75": 13500000,
-                          "p90": 29500000,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "other_answers",
-                            "count": 29,
-                            "percentageBucket": 100,
-                            "percentageQuestion": 4.57
-                          }
-                        ]
-                      },
-                      {
-                        "count": 54,
-                        "id": "dot_net",
-                        "index": 12,
-                        "percentageQuestion": 8.39,
-                        "percentageSurvey": 5.35,
-                        "entity": {
-                          "name": ".NET",
-                          "nameHtml": ".NET",
-                          "nameClean": ".NET",
-                          "id": "dot_net",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://dotnet.microsoft.com/en-us/"
-                          }
-                        },
-                        "averageByFacet": 8865384.6,
-                        "percentilesByFacet": {
-                          "p0": 3500000,
-                          "p10": 3600000.0000000005,
-                          "p25": 4500000,
-                          "p50": 6500000,
-                          "p75": 9750000,
-                          "p90": 17299999.999999996,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
                             "count": 24,
-                            "percentageBucket": 44.45,
-                            "percentageQuestion": 3.73
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 12,
-                            "percentageBucket": 22.22,
-                            "percentageQuestion": 1.87
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 20,
-                            "percentageBucket": 36.61,
-                            "percentageQuestion": 2.52
-                          }
-                        ]
-                      },
-                      {
-                        "count": 277,
-                        "id": "na",
-                        "index": 13,
-                        "percentageQuestion": 43.01,
-                        "percentageSurvey": 27.45,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        },
-                        "percentilesByFacet": {
-                          "p0": 1500000,
-                          "p10": 4500000,
-                          "p25": 5500000,
-                          "p50": 8500000,
-                          "p75": 12500000,
-                          "p90": 17500000,
-                          "p100": 29500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 64,
-                            "percentageBucket": 23.11,
-                            "percentageQuestion": 9.94
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 72,
-                            "percentageBucket": 26,
-                            "percentageQuestion": 11.18
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 52,
-                            "percentageBucket": 18.77,
-                            "percentageQuestion": 8.07
-                          },
-                          {
-                            "id": "range_12000000_to_14999999",
-                            "count": 34,
-                            "percentageBucket": 12.28,
-                            "percentageQuestion": 5.28
+                            "percentageBucket": 8.64,
+                            "percentageQuestion": 5.07
                           },
                           {
                             "id": "range_15000000_to_19999999",
-                            "count": 18,
-                            "percentageBucket": 6.5,
-                            "percentageQuestion": 2.8
-                          },
-                          {
-                            "id": "range_20000000_to_29999999",
                             "count": 14,
-                            "percentageBucket": 5.05,
-                            "percentageQuestion": 2.19
-                          },
-                          {
-                            "id": "other_answers",
-                            "count": 32,
-                            "percentageBucket": 12.04,
-                            "percentageQuestion": 2.18
-                          }
-                        ]
-                      },
-                      {
-                        "count": 347,
-                        "id": "no_answer",
-                        "index": 14,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 34.39,
-                        "averageByFacet": 11559523.8,
-                        "percentilesByFacet": {
-                          "p0": 500000,
-                          "p10": 4500000,
-                          "p25": 6500000,
-                          "p50": 9500000,
-                          "p75": 13500000,
-                          "p90": 20300000.00000001,
-                          "p100": 100500000
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_3000000_to_5999999",
-                            "count": 48,
-                            "percentageBucket": 13.83,
-                            "percentageQuestion": 7.45
-                          },
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 59,
-                            "percentageBucket": 17,
-                            "percentageQuestion": 9.16
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 55,
-                            "percentageBucket": 15.86,
-                            "percentageQuestion": 8.54
-                          },
-                          {
-                            "id": "range_12000000_to_14999999",
-                            "count": 31,
-                            "percentageBucket": 8.93,
-                            "percentageQuestion": 4.82
-                          },
-                          {
-                            "id": "range_15000000_to_19999999",
-                            "count": 25,
-                            "percentageBucket": 7.2,
-                            "percentageQuestion": 3.89
+                            "percentageBucket": 5.04,
+                            "percentageQuestion": 2.95
                           },
                           {
                             "id": "range_20000000_to_29999999",
                             "count": 15,
-                            "percentageBucket": 4.33,
-                            "percentageQuestion": 2.34
+                            "percentageBucket": 5.4,
+                            "percentageQuestion": 3.15
                           },
                           {
                             "id": "no_answer",
-                            "count": 95,
-                            "percentageBucket": 27.38,
+                            "count": 74,
+                            "percentageBucket": 26.62,
                             "percentageQuestion": 0
                           },
                           {
                             "id": "other_answers",
-                            "count": 19,
-                            "percentageBucket": 5.48,
-                            "percentageQuestion": 2.97
+                            "count": 15,
+                            "percentageBucket": 5.4,
+                            "percentageQuestion": 3.15
                           }
                         ]
                       },
                       {
-                        "count": 80,
                         "id": "other_answers",
+                        "count": 50,
                         "index": 15,
-                        "percentageQuestion": 12.48,
-                        "percentageSurvey": 7.95,
-                        "averageByFacet": 10550000.03,
-                        "percentilesByFacet": {
-                          "p0": 6000000,
-                          "p10": 7179411.77,
-                          "p25": 8448529.41,
-                          "p50": 9897058.83,
-                          "p75": 11786764.71,
-                          "p90": 13520588.24,
-                          "p100": 20176470.59
-                        },
-                        "facetBuckets": [
-                          {
-                            "id": "range_6000000_to_8999999",
-                            "count": 17,
-                            "percentageBucket": 21.25
-                          },
-                          {
-                            "id": "range_9000000_to_11999999",
-                            "count": 18,
-                            "percentageBucket": 22.5
-                          }
-                        ]
+                        "percentageQuestion": 10.53,
+                        "percentageSurvey": 6.62
                       }
                     ]
                   }

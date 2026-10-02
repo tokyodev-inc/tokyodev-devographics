@@ -1,0 +1,282 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "user_info": {
+            "other_japanese_certifications": {
+              "id": "other_japanese_certifications",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "other_japanese_certifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "jlpt_level",
+                    "sectionId2": "user_info",
+                    "n": 613,
+                    "correlation": 0.3007,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "other_japanese_certifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "language_proficiency_japanese",
+                    "sectionId2": "user_info",
+                    "n": 611,
+                    "correlation": 0.2304,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "other_japanese_certifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "languages_used_colleagues_english",
+                    "sectionId2": "job_info",
+                    "optionId2": "sometimes",
+                    "n": 567,
+                    "correlation": 0.1718,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "other_japanese_certifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "languages_used_colleagues_english",
+                    "sectionId2": "job_info",
+                    "n": 567,
+                    "correlation": -0.1693,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "other_japanese_certifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "n": 567,
+                    "correlation": 0.1631,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "na",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "jlpt_level",
+                        "sectionId2": "user_info",
+                        "n": 613,
+                        "correlation": -0.3012,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "language_proficiency_japanese",
+                        "sectionId2": "user_info",
+                        "n": 611,
+                        "correlation": -0.2304,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "optionId2": "sometimes",
+                        "n": 567,
+                        "correlation": -0.1747,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 567,
+                        "correlation": 0.1698,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "always",
+                        "n": 567,
+                        "correlation": -0.1651,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "other_japanese_certifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 567,
+                        "correlation": -0.1635,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 50,
+                          "percentage": 87.7193
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 6,
+                          "percentage": 10.5263
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 1,
+                          "percentage": 1.7544
+                        }
+                      ],
+                      "max": 3,
+                      "mean": 1.1404,
+                      "n": 57
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 609,
+                      "percentageSurvey": 80.88,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "na",
+                        "count": 558,
+                        "index": 0,
+                        "percentageQuestion": 91.63,
+                        "percentageSurvey": 74.1
+                      },
+                      {
+                        "id": "jpt",
+                        "count": 17,
+                        "index": 1,
+                        "percentageQuestion": 2.79,
+                        "percentageSurvey": 2.26
+                      },
+                      {
+                        "id": "bjt",
+                        "count": 16,
+                        "index": 2,
+                        "percentageQuestion": 2.63,
+                        "percentageSurvey": 2.12
+                      },
+                      {
+                        "id": "kanken",
+                        "count": 12,
+                        "index": 3,
+                        "percentageQuestion": 1.97,
+                        "percentageSurvey": 1.59
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 144,
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.12
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 20,
+                        "index": 5,
+                        "percentageQuestion": 3.29,
+                        "percentageSurvey": 2.66,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 14,
+                            "index": 0,
+                            "percentageQuestion": 2.3,
+                            "percentageSurvey": 1.86
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 6,
+                            "index": 1,
+                            "percentageQuestion": 0.99,
+                            "percentageSurvey": 0.8,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

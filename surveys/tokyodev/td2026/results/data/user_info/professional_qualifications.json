@@ -2,10 +2,413 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "professional_qualifications": {
               "id": "professional_qualifications",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "country",
+                    "sectionId2": "user_info",
+                    "optionId2": "USA",
+                    "n": 606,
+                    "correlation": -0.1689,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "cloud",
+                    "n": 663,
+                    "correlation": 0.1521,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "6",
+                    "n": 641,
+                    "correlation": -0.1508,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "short_cycle",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "short_cycle",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "CAN",
+                        "n": 606,
+                        "correlation": 0.1562,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "short_cycle",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "overall_perception",
+                        "n": 546,
+                        "correlation": -0.1506,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "bachelors_degree",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 723,
+                        "correlation": -0.2594,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "FRA",
+                        "n": 606,
+                        "correlation": -0.2008,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": -0.1968,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 700,
+                        "correlation": 0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "bachelors_degree",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "adventure",
+                        "n": 642,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "masters_degree",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "FRA",
+                        "n": 606,
+                        "correlation": 0.3249,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "fluent",
+                        "n": 732,
+                        "correlation": 0.2053,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 606,
+                        "correlation": -0.1853,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "native_bilingual",
+                        "n": 732,
+                        "correlation": -0.1756,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "coding_bootcamp",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "le_wagon",
+                        "n": 547,
+                        "correlation": 0.5103,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "n": 547,
+                        "correlation": 0.2307,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "na",
+                        "n": 547,
+                        "correlation": -0.1995,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hn_tokyo",
+                        "n": 547,
+                        "correlation": 0.1955,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "japanese_citizen",
+                        "n": 700,
+                        "correlation": 0.1736,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 415,
+                        "correlation": 0.1513,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "professional_qualification",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "professional_qualification",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "cloud",
+                        "n": 663,
+                        "correlation": 0.2202,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "professional_qualification",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 627,
+                        "correlation": 0.1619,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "na",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 723,
+                        "correlation": 0.2119,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "n": 731,
+                        "correlation": 0.2059,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "na",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "USA",
+                        "n": 606,
+                        "correlation": 0.2024,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -17,76 +420,117 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2024",
-                    "year": 2024,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 671,
+                          "percentage": 75.4781
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 160,
+                          "percentage": 17.9978
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 54,
+                          "percentage": 6.0742
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 4,
+                          "percentage": 0.4499
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 1.315,
+                      "n": 889
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
                     "completion": {
-                      "count": 705,
-                      "percentageSurvey": 86.61,
-                      "total": 814
+                      "count": 967,
+                      "percentageSurvey": 95.84,
+                      "total": 1009
                     },
                     "buckets": [
                       {
-                        "count": 444,
                         "id": "bachelors_degree",
+                        "count": 585,
                         "index": 0,
-                        "percentageQuestion": 62.98,
-                        "percentageSurvey": 54.55
+                        "percentageQuestion": 60.5,
+                        "percentageSurvey": 57.98
                       },
                       {
-                        "count": 209,
                         "id": "masters_degree",
+                        "count": 261,
                         "index": 1,
-                        "percentageQuestion": 29.65,
-                        "percentageSurvey": 25.68
+                        "percentageQuestion": 26.99,
+                        "percentageSurvey": 25.87
                       },
                       {
-                        "count": 90,
-                        "id": "coding_bootcamp",
-                        "index": 2,
-                        "percentageQuestion": 12.77,
-                        "percentageSurvey": 11.06
-                      },
-                      {
-                        "count": 74,
                         "id": "professional_qualification",
-                        "index": 3,
-                        "percentageQuestion": 10.5,
-                        "percentageSurvey": 9.09
-                      },
-                      {
-                        "count": 45,
-                        "id": "short_cycle",
-                        "index": 4,
-                        "percentageQuestion": 6.38,
-                        "percentageSurvey": 5.53
-                      },
-                      {
-                        "count": 31,
-                        "id": "phd",
-                        "index": 5,
-                        "percentageQuestion": 4.4,
-                        "percentageSurvey": 3.81
-                      },
-                      {
                         "count": 109,
-                        "id": "no_answer",
-                        "index": 6,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 13.39
+                        "index": 2,
+                        "percentageQuestion": 11.27,
+                        "percentageSurvey": 10.8
                       },
                       {
-                        "count": 35,
-                        "id": "other_answers",
+                        "id": "coding_bootcamp",
+                        "count": 103,
+                        "index": 3,
+                        "percentageQuestion": 10.65,
+                        "percentageSurvey": 10.21
+                      },
+                      {
+                        "id": "na",
+                        "count": 89,
+                        "index": 4,
+                        "percentageQuestion": 9.2,
+                        "percentageSurvey": 8.82
+                      },
+                      {
+                        "id": "short_cycle",
+                        "count": 59,
+                        "index": 5,
+                        "percentageQuestion": 6.1,
+                        "percentageSurvey": 5.85
+                      },
+                      {
+                        "id": "phd",
+                        "count": 32,
+                        "index": 6,
+                        "percentageQuestion": 3.31,
+                        "percentageSurvey": 3.17
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 42,
                         "index": 7,
-                        "percentageQuestion": 4.96,
-                        "percentageSurvey": 4.3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.16
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 21,
+                        "index": 8,
+                        "percentageQuestion": 2.17,
+                        "percentageSurvey": 2.09,
                         "groupedBuckets": [
                           {
-                            "count": 35,
-                            "id": "no_match",
+                            "id": "cutoff_answers",
+                            "count": 11,
                             "index": 0,
-                            "percentageQuestion": 4.96,
-                            "percentageSurvey": 4.3,
+                            "percentageQuestion": 1.14,
+                            "percentageSurvey": 1.1
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 10,
+                            "index": 1,
+                            "percentageQuestion": 1.03,
+                            "percentageSurvey": 0.99,
                             "isFreeformData": true
                           }
                         ]
@@ -102,99 +546,117 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 465,
+                          "percentage": 71.7593
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 143,
+                          "percentage": 22.0679
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 37,
+                          "percentage": 5.7099
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 3,
+                          "percentage": 0.463
+                        }
+                      ],
+                      "max": 4,
+                      "mean": 1.3488,
+                      "n": 648
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 967,
-                      "percentageSurvey": 95.84,
-                      "total": 1009
+                      "count": 725,
+                      "percentageSurvey": 96.28,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 585,
                         "id": "bachelors_degree",
+                        "count": 413,
                         "index": 0,
-                        "percentageQuestion": 60.5,
-                        "percentageSurvey": 57.98
+                        "percentageQuestion": 56.97,
+                        "percentageSurvey": 54.85
                       },
                       {
-                        "count": 261,
                         "id": "masters_degree",
+                        "count": 189,
                         "index": 1,
-                        "percentageQuestion": 26.99,
-                        "percentageSurvey": 25.87
+                        "percentageQuestion": 26.07,
+                        "percentageSurvey": 25.1
                       },
                       {
-                        "count": 109,
                         "id": "professional_qualification",
-                        "index": 2,
-                        "percentageQuestion": 11.27,
-                        "percentageSurvey": 10.8
-                      },
-                      {
                         "count": 103,
-                        "id": "coding_bootcamp",
-                        "index": 3,
-                        "percentageQuestion": 10.65,
-                        "percentageSurvey": 10.21
+                        "index": 2,
+                        "percentageQuestion": 14.21,
+                        "percentageSurvey": 13.68
                       },
                       {
-                        "count": 59,
-                        "id": "short_cycle",
-                        "index": 4,
-                        "percentageQuestion": 6.1,
-                        "percentageSurvey": 5.85
-                      },
-                      {
-                        "count": 32,
-                        "id": "phd",
-                        "index": 5,
-                        "percentageQuestion": 3.31,
-                        "percentageSurvey": 3.17
-                      },
-                      {
-                        "count": 89,
                         "id": "na",
-                        "index": 6,
-                        "percentageQuestion": 9.2,
-                        "percentageSurvey": 8.82,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
+                        "count": 85,
+                        "index": 3,
+                        "percentageQuestion": 11.72,
+                        "percentageSurvey": 11.29
                       },
                       {
-                        "count": 42,
+                        "id": "coding_bootcamp",
+                        "count": 79,
+                        "index": 4,
+                        "percentageQuestion": 10.9,
+                        "percentageSurvey": 10.49
+                      },
+                      {
+                        "id": "short_cycle",
+                        "count": 50,
+                        "index": 5,
+                        "percentageQuestion": 6.9,
+                        "percentageSurvey": 6.64
+                      },
+                      {
+                        "id": "phd",
+                        "count": 25,
+                        "index": 6,
+                        "percentageQuestion": 3.45,
+                        "percentageSurvey": 3.32
+                      },
+                      {
                         "id": "no_answer",
+                        "count": 28,
                         "index": 7,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 4.16
+                        "percentageSurvey": 3.72
                       },
                       {
-                        "count": 21,
                         "id": "other_answers",
+                        "count": 15,
                         "index": 8,
-                        "percentageQuestion": 2.17,
-                        "percentageSurvey": 2.09,
+                        "percentageQuestion": 2.08,
+                        "percentageSurvey": 1.99,
                         "groupedBuckets": [
                           {
-                            "count": 11,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 1.14,
-                            "percentageSurvey": 1.1
+                            "count": 4,
+                            "index": 0,
+                            "percentageQuestion": 0.56,
+                            "percentageSurvey": 0.53
                           },
                           {
-                            "count": 10,
                             "id": "no_match",
+                            "count": 11,
                             "index": 1,
-                            "percentageQuestion": 1.03,
-                            "percentageSurvey": 0.99,
+                            "percentageQuestion": 1.52,
+                            "percentageSurvey": 1.46,
                             "isFreeformData": true
                           }
                         ]

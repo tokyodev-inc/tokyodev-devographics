@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         user_info {
           professional_qualifications_vs_employer_type: professional_qualifications {
             id
@@ -42,8 +42,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -63,6 +63,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData

@@ -2,98 +2,511 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "_user_metadata": {
             "browser": {
               "id": "browser",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 564,
-                      "percentageSurvey": 69.29,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "Safari",
+                    "correlations": [
                       {
-                        "count": 302,
-                        "id": "Chrome",
-                        "index": 0,
-                        "percentageQuestion": 53.55,
-                        "percentageSurvey": 37.1,
-                        "entity": {
-                          "name": "Chrome",
-                          "nameHtml": "Chrome",
-                          "nameClean": "Chrome",
-                          "id": "chrome",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.google.com/chrome/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 491,
+                        "correlation": 0.8578,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 170,
-                        "id": "Safari",
-                        "index": 1,
-                        "percentageQuestion": 30.14,
-                        "percentageSurvey": 20.88,
-                        "entity": {
-                          "name": "Safari",
-                          "nameHtml": "Safari",
-                          "nameClean": "Safari",
-                          "id": "safari",
-                          "parentId": "apple",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.apple.com/safari/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "26.6.1",
+                        "n": 433,
+                        "correlation": 0.5401,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 81,
-                        "id": "Firefox",
-                        "index": 2,
-                        "percentageQuestion": 14.36,
-                        "percentageSurvey": 9.95,
-                        "entity": {
-                          "name": "Firefox",
-                          "nameHtml": "Firefox",
-                          "nameClean": "Firefox",
-                          "id": "firefox",
-                          "parentId": "mozilla",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.mozilla.org/en-US/firefox/new/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 491,
+                        "correlation": 0.5251,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 250,
-                        "id": "no_answer",
-                        "index": 3,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 30.71
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 491,
+                        "correlation": -0.5224,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
                       },
                       {
-                        "count": 11,
-                        "id": "other_answers",
-                        "index": 4,
-                        "percentageQuestion": 1.95,
-                        "percentageSurvey": 1.35
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Android",
+                        "n": 491,
+                        "correlation": -0.395,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 433,
+                        "correlation": -0.3435,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 491,
+                        "correlation": -0.2981,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Windows",
+                        "n": 491,
+                        "correlation": -0.2906,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "facebook",
+                        "n": 424,
+                        "correlation": 0.25,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 433,
+                        "correlation": -0.2014,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "tokyodev",
+                        "n": 424,
+                        "correlation": -0.2003,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Safari",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "154.0",
+                        "n": 433,
+                        "correlation": -0.1875,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "Firefox",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "154.0",
+                        "n": 433,
+                        "correlation": 0.6184,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 491,
+                        "correlation": -0.2914,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 433,
+                        "correlation": -0.2686,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 491,
+                        "correlation": 0.2537,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 491,
+                        "correlation": -0.2517,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Windows",
+                        "n": 491,
+                        "correlation": 0.2332,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "tokyodev_discord",
+                        "n": 343,
+                        "correlation": 0.1702,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "tokyodev",
+                        "n": 424,
+                        "correlation": 0.1685,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "26.6.1",
+                        "n": 433,
+                        "correlation": -0.1638,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Firefox",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 433,
+                        "correlation": -0.1575,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Chrome",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 491,
+                        "correlation": -0.5807,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 433,
+                        "correlation": 0.4738,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Android",
+                        "n": 491,
+                        "correlation": 0.346,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "26.6.1",
+                        "n": 433,
+                        "correlation": -0.3371,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 433,
+                        "correlation": 0.3227,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "154.0",
+                        "n": 433,
+                        "correlation": -0.3018,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 491,
+                        "correlation": 0.2936,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 491,
+                        "correlation": -0.2923,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 491,
+                        "correlation": 0.2879,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "browser",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "Chrome",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "facebook",
+                        "n": 424,
+                        "correlation": -0.1709,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -112,8 +525,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 357,
                         "id": "Chrome",
+                        "count": 357,
                         "index": 0,
                         "percentageQuestion": 51.81,
                         "percentageSurvey": 35.38,
@@ -122,15 +535,22 @@
                           "nameHtml": "Chrome",
                           "nameClean": "Chrome",
                           "id": "chrome",
+                          "parentId": "google",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers",
+                            "browser_apis_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://www.google.com/chrome/"
                           }
                         }
                       },
                       {
-                        "count": 197,
                         "id": "Safari",
+                        "count": 197,
                         "index": 1,
                         "percentageQuestion": 28.59,
                         "percentageSurvey": 19.52,
@@ -141,14 +561,19 @@
                           "id": "safari",
                           "parentId": "apple",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers"
+                          ],
                           "homepage": {
                             "url": "https://www.apple.com/safari/"
                           }
                         }
                       },
                       {
-                        "count": 113,
                         "id": "Firefox",
+                        "count": 113,
                         "index": 2,
                         "percentageQuestion": 16.4,
                         "percentageSurvey": 11.2,
@@ -159,31 +584,139 @@
                           "id": "firefox",
                           "parentId": "mozilla",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers"
+                          ],
                           "homepage": {
                             "url": "https://www.mozilla.org/en-US/firefox/new/"
                           }
                         }
                       },
                       {
-                        "count": 18,
                         "id": "Microsoft Edge",
+                        "count": 18,
                         "index": 3,
                         "percentageQuestion": 2.61,
                         "percentageSurvey": 1.78
                       },
                       {
-                        "count": 320,
                         "id": "no_answer",
+                        "count": 320,
                         "index": 4,
                         "percentageQuestion": 0,
                         "percentageSurvey": 31.71
                       },
                       {
-                        "count": 4,
                         "id": "other_answers",
+                        "count": 4,
                         "index": 5,
                         "percentageQuestion": 0.59,
                         "percentageSurvey": 0.4
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 491,
+                      "percentageSurvey": 65.21,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "Chrome",
+                        "count": 217,
+                        "index": 0,
+                        "percentageQuestion": 44.2,
+                        "percentageSurvey": 28.82,
+                        "entity": {
+                          "name": "Chrome",
+                          "nameHtml": "Chrome",
+                          "nameClean": "Chrome",
+                          "id": "chrome",
+                          "parentId": "google",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers",
+                            "browser_apis_pain_points"
+                          ],
+                          "homepage": {
+                            "url": "https://www.google.com/chrome/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "Safari",
+                        "count": 179,
+                        "index": 1,
+                        "percentageQuestion": 36.46,
+                        "percentageSurvey": 23.77,
+                        "entity": {
+                          "name": "Safari",
+                          "nameHtml": "Safari",
+                          "nameClean": "Safari",
+                          "id": "safari",
+                          "parentId": "apple",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers"
+                          ],
+                          "homepage": {
+                            "url": "https://www.apple.com/safari/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "Firefox",
+                        "count": 83,
+                        "index": 2,
+                        "percentageQuestion": 16.9,
+                        "percentageSurvey": 11.02,
+                        "entity": {
+                          "name": "Firefox",
+                          "nameHtml": "Firefox",
+                          "nameClean": "Firefox",
+                          "id": "firefox",
+                          "parentId": "mozilla",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "apps",
+                            "browsers"
+                          ],
+                          "homepage": {
+                            "url": "https://www.mozilla.org/en-US/firefox/new/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 262,
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 34.79
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 12,
+                        "index": 4,
+                        "percentageQuestion": 2.44,
+                        "percentageSurvey": 1.6
                       }
                     ]
                   }

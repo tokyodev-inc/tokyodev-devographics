@@ -2,73 +2,431 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "_user_metadata": {
             "device": {
               "id": "device",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 564,
-                      "percentageSurvey": 69.29,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "mobile",
+                    "correlations": [
                       {
-                        "count": 284,
-                        "id": "mobile",
-                        "index": 0,
-                        "percentageQuestion": 50.35,
-                        "percentageSurvey": 34.89,
-                        "entity": {
-                          "name": "Mobile",
-                          "nameHtml": "Mobile",
-                          "nameClean": "Mobile",
-                          "id": "mobile",
-                          "entityType": "default"
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 491,
+                        "correlation": -0.6603,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
                       },
                       {
-                        "count": 278,
-                        "id": "desktop",
-                        "index": 1,
-                        "percentageQuestion": 49.29,
-                        "percentageSurvey": 34.15,
-                        "entity": {
-                          "name": "Desktop",
-                          "nameHtml": "Desktop",
-                          "nameClean": "Desktop",
-                          "id": "desktop",
-                          "entityType": "default"
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 491,
+                        "correlation": 0.6418,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 250,
-                        "id": "no_answer",
-                        "index": 2,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 30.71
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Safari",
+                        "n": 491,
+                        "correlation": 0.5251,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 2,
-                        "id": "other_answers",
-                        "index": 3,
-                        "percentageQuestion": 0.35,
-                        "percentageSurvey": 0.25
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Windows",
+                        "n": 491,
+                        "correlation": -0.4687,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Android",
+                        "n": 491,
+                        "correlation": 0.4269,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "26.6.1",
+                        "n": 433,
+                        "correlation": 0.3073,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "reddit",
+                        "n": 424,
+                        "correlation": 0.2941,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Chrome",
+                        "n": 491,
+                        "correlation": -0.2923,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "tokyodev",
+                        "n": 424,
+                        "correlation": -0.2562,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Firefox",
+                        "n": 491,
+                        "correlation": -0.2517,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 433,
+                        "correlation": -0.2308,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "facebook",
+                        "n": 424,
+                        "correlation": 0.2231,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 433,
+                        "correlation": -0.1639,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "mobile",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "energy",
+                        "n": 425,
+                        "correlation": -0.1585,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "desktop",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 491,
+                        "correlation": 0.6631,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 491,
+                        "correlation": -0.6476,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Safari",
+                        "n": 491,
+                        "correlation": -0.5224,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Windows",
+                        "n": 491,
+                        "correlation": 0.4707,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Android",
+                        "n": 491,
+                        "correlation": -0.4251,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "26.6.1",
+                        "n": 433,
+                        "correlation": -0.3058,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "reddit",
+                        "n": 424,
+                        "correlation": -0.2925,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Chrome",
+                        "n": 491,
+                        "correlation": 0.2879,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Firefox",
+                        "n": 491,
+                        "correlation": 0.2537,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "tokyodev",
+                        "n": 424,
+                        "correlation": 0.2518,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 433,
+                        "correlation": 0.2335,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "source",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "facebook",
+                        "n": 424,
+                        "correlation": -0.2218,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "device",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "desktop",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 433,
+                        "correlation": 0.1655,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -87,8 +445,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 357,
                         "id": "mobile",
+                        "count": 357,
                         "index": 0,
                         "percentageQuestion": 51.89,
                         "percentageSurvey": 35.38,
@@ -97,12 +455,18 @@
                           "nameHtml": "Mobile",
                           "nameClean": "Mobile",
                           "id": "mobile",
-                          "entityType": "default"
+                          "parentId": "environments_consumers",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 329,
                         "id": "desktop",
+                        "count": 329,
                         "index": 1,
                         "percentageQuestion": 47.82,
                         "percentageSurvey": 32.61,
@@ -111,22 +475,101 @@
                           "nameHtml": "Desktop",
                           "nameClean": "Desktop",
                           "id": "desktop",
-                          "entityType": "default"
+                          "parentId": "environments_consumers",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 321,
                         "id": "no_answer",
+                        "count": 321,
                         "index": 2,
                         "percentageQuestion": 0,
                         "percentageSurvey": 31.81
                       },
                       {
-                        "count": 2,
                         "id": "other_answers",
+                        "count": 2,
                         "index": 3,
                         "percentageQuestion": 0.29,
                         "percentageSurvey": 0.2
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 491,
+                      "percentageSurvey": 65.21,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "mobile",
+                        "count": 294,
+                        "index": 0,
+                        "percentageQuestion": 59.88,
+                        "percentageSurvey": 39.04,
+                        "entity": {
+                          "name": "Mobile",
+                          "nameHtml": "Mobile",
+                          "nameClean": "Mobile",
+                          "id": "mobile",
+                          "parentId": "environments_consumers",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "desktop",
+                        "count": 196,
+                        "index": 1,
+                        "percentageQuestion": 39.92,
+                        "percentageSurvey": 26.03,
+                        "entity": {
+                          "name": "Desktop",
+                          "nameHtml": "Desktop",
+                          "nameClean": "Desktop",
+                          "id": "desktop",
+                          "parentId": "environments_consumers",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 262,
+                        "index": 2,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 34.79
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 1,
+                        "index": 3,
+                        "percentageQuestion": 0.2,
+                        "percentageSurvey": 0.13
                       }
                     ]
                   }

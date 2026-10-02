@@ -2,10 +2,550 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "discrimination_issues": {
               "id": "discrimination_issues",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "job_happiness",
+                    "sectionId2": "job_info",
+                    "n": 641,
+                    "correlation": -0.2329,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "career_impacts",
+                    "n": 514,
+                    "correlation": 0.2302,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "searching_for_job",
+                    "sectionId2": "job_info",
+                    "optionId2": "yes",
+                    "n": 647,
+                    "correlation": 0.2153,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 604,
+                    "correlation": 0.1998,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "work_culture",
+                    "n": 604,
+                    "correlation": 0.197,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "pressure_to_conform",
+                    "n": 604,
+                    "correlation": 0.1965,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "torch_pytorch",
+                    "n": 484,
+                    "correlation": 0.1812,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "hostility_towards_foreigners",
+                    "n": 604,
+                    "correlation": 0.1762,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "new_immigration_measures",
+                    "sectionId2": "life_in_japan",
+                    "n": 514,
+                    "correlation": 0.1742,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "react_native",
+                    "n": 484,
+                    "correlation": 0.1741,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "discrimination_issues",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "limited_career_growth",
+                    "n": 604,
+                    "correlation": 0.167,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "age",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "age",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hn_tokyo",
+                        "n": 522,
+                        "correlation": 0.176,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "age",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_over_20",
+                        "n": 639,
+                        "correlation": 0.1645,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "age",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 484,
+                        "correlation": 0.1594,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "country_citizenship",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career_impacts",
+                        "n": 514,
+                        "correlation": 0.222,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 604,
+                        "correlation": 0.2152,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 604,
+                        "correlation": 0.2107,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 604,
+                        "correlation": 0.2014,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 604,
+                        "correlation": 0.1926,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 514,
+                        "correlation": 0.17,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 647,
+                        "correlation": 0.1643,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 484,
+                        "correlation": 0.1607,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 641,
+                        "correlation": -0.1596,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "devrel",
+                        "n": 623,
+                        "correlation": 0.1546,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "country_citizenship",
+                        "questionId2": "overtime_hours",
+                        "sectionId2": "job_info",
+                        "n": 643,
+                        "correlation": 0.1523,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "na",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 641,
+                        "correlation": 0.2342,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career_impacts",
+                        "n": 514,
+                        "correlation": -0.2233,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 647,
+                        "correlation": -0.2163,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 604,
+                        "correlation": -0.1945,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 604,
+                        "correlation": -0.1933,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 604,
+                        "correlation": -0.1925,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 484,
+                        "correlation": -0.181,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "react_native",
+                        "n": 484,
+                        "correlation": -0.1718,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 604,
+                        "correlation": -0.1699,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "new_immigration_measures",
+                        "sectionId2": "life_in_japan",
+                        "n": 514,
+                        "correlation": -0.1645,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "discrimination_issues",
+                        "sectionId1": "job_info",
+                        "optionId1": "na",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "limited_career_growth",
+                        "n": 604,
+                        "correlation": -0.1614,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -17,6 +557,58 @@
                       "limit": 20,
                       "cutoff": 10
                     },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 83,
+                          "percentage": 50.303
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 43,
+                          "percentage": 26.0606
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 26,
+                          "percentage": 15.7576
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 4,
+                          "percentage": 2.4242
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 3,
+                          "percentage": 1.8182
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 3,
+                          "percentage": 1.8182
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 1,
+                          "percentage": 0.6061
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.6061
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 1,
+                          "percentage": 0.6061
+                        }
+                      ],
+                      "max": 10,
+                      "mean": 1.9455,
+                      "n": 165
+                    },
                     "editionId": "td2025",
                     "year": 2025,
                     "completion": {
@@ -26,124 +618,285 @@
                     },
                     "buckets": [
                       {
-                        "count": 61,
-                        "id": "country_citizenship",
+                        "id": "na",
+                        "count": 672,
                         "index": 0,
+                        "percentageQuestion": 80.29,
+                        "percentageSurvey": 66.6
+                      },
+                      {
+                        "id": "country_citizenship",
+                        "count": 61,
+                        "index": 1,
                         "percentageQuestion": 7.29,
                         "percentageSurvey": 6.05,
                         "entity": {
                           "id": "country_citizenship",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
                         }
                       },
                       {
-                        "count": 61,
                         "id": "race",
-                        "index": 1,
+                        "count": 61,
+                        "index": 2,
                         "percentageQuestion": 7.29,
                         "percentageSurvey": 6.05
                       },
                       {
-                        "count": 56,
                         "id": "age",
-                        "index": 2,
+                        "count": 56,
+                        "index": 3,
                         "percentageQuestion": 6.69,
                         "percentageSurvey": 5.55
                       },
                       {
-                        "count": 48,
                         "id": "gender",
-                        "index": 3,
+                        "count": 48,
+                        "index": 4,
                         "percentageQuestion": 5.73,
                         "percentageSurvey": 4.76
                       },
                       {
-                        "count": 33,
                         "id": "appearance_body",
-                        "index": 4,
-                        "percentageQuestion": 3.94,
-                        "percentageSurvey": 3.27,
+                        "count": 32,
+                        "index": 5,
+                        "percentageQuestion": 3.82,
+                        "percentageSurvey": 3.17,
                         "entity": {
                           "id": "appearance_body",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
                         }
                       },
                       {
-                        "count": 19,
                         "id": "disability",
-                        "index": 5,
+                        "count": 19,
+                        "index": 6,
                         "percentageQuestion": 2.27,
                         "percentageSurvey": 1.88
                       },
                       {
-                        "count": 13,
                         "id": "caregiving_status",
-                        "index": 6,
-                        "percentageQuestion": 1.55,
-                        "percentageSurvey": 1.29
-                      },
-                      {
                         "count": 13,
-                        "id": "political_views",
                         "index": 7,
                         "percentageQuestion": 1.55,
                         "percentageSurvey": 1.29
                       },
                       {
-                        "count": 10,
-                        "id": "religion",
+                        "id": "political_views",
+                        "count": 13,
                         "index": 8,
+                        "percentageQuestion": 1.55,
+                        "percentageSurvey": 1.29
+                      },
+                      {
+                        "id": "religion",
+                        "count": 10,
+                        "index": 9,
                         "percentageQuestion": 1.19,
                         "percentageSurvey": 0.99,
                         "entity": {
                           "id": "religion",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 672,
-                        "id": "na",
-                        "index": 9,
-                        "percentageQuestion": 80.29,
-                        "percentageSurvey": 66.6,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 172,
                         "id": "no_answer",
+                        "count": 172,
                         "index": 10,
                         "percentageQuestion": 0,
                         "percentageSurvey": 17.05
                       },
                       {
-                        "count": 24,
                         "id": "other_answers",
+                        "count": 8,
                         "index": 11,
-                        "percentageQuestion": 2.88,
-                        "percentageSurvey": 2.38,
+                        "percentageQuestion": 0.96,
+                        "percentageSurvey": 0.79,
                         "groupedBuckets": [
                           {
-                            "count": 17,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 2.04,
-                            "percentageSurvey": 1.69
-                          },
-                          {
-                            "count": 7,
-                            "id": "no_match",
+                            "count": 8,
                             "index": 0,
-                            "percentageQuestion": 0.84,
-                            "percentageSurvey": 0.69,
-                            "isFreeformData": true
+                            "percentageQuestion": 0.96,
+                            "percentageSurvey": 0.79
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 58,
+                          "percentage": 54.717
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 22,
+                          "percentage": 20.7547
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 13,
+                          "percentage": 12.2642
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 8,
+                          "percentage": 7.5472
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 2,
+                          "percentage": 1.8868
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 1,
+                          "percentage": 0.9434
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.9434
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 1,
+                          "percentage": 0.9434
+                        }
+                      ],
+                      "max": 9,
+                      "mean": 1.9434,
+                      "n": 106
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 648,
+                      "percentageSurvey": 86.06,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "na",
+                        "count": 542,
+                        "index": 0,
+                        "percentageQuestion": 83.64,
+                        "percentageSurvey": 71.98
+                      },
+                      {
+                        "id": "country_citizenship",
+                        "count": 46,
+                        "index": 1,
+                        "percentageQuestion": 7.1,
+                        "percentageSurvey": 6.11,
+                        "entity": {
+                          "id": "country_citizenship",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "age",
+                        "count": 36,
+                        "index": 2,
+                        "percentageQuestion": 5.56,
+                        "percentageSurvey": 4.78
+                      },
+                      {
+                        "id": "mental_conditions",
+                        "count": 27,
+                        "index": 3,
+                        "percentageQuestion": 4.17,
+                        "percentageSurvey": 3.59
+                      },
+                      {
+                        "id": "race",
+                        "count": 22,
+                        "index": 4,
+                        "percentageQuestion": 3.4,
+                        "percentageSurvey": 2.92
+                      },
+                      {
+                        "id": "appearance_body",
+                        "count": 19,
+                        "index": 5,
+                        "percentageQuestion": 2.93,
+                        "percentageSurvey": 2.52,
+                        "entity": {
+                          "id": "appearance_body",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "state_of_devs",
+                            "discrimination_issues"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "count": 13,
+                        "index": 6,
+                        "percentageQuestion": 2.01,
+                        "percentageSurvey": 1.73
+                      },
+                      {
+                        "id": "physical_conditions",
+                        "count": 13,
+                        "index": 7,
+                        "percentageQuestion": 2.01,
+                        "percentageSurvey": 1.73
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 105,
+                        "index": 8,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.94
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 30,
+                        "index": 9,
+                        "percentageQuestion": 4.63,
+                        "percentageSurvey": 3.99,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 30,
+                            "index": 0,
+                            "percentageQuestion": 4.63,
+                            "percentageSurvey": 3.99
                           }
                         ]
                       }

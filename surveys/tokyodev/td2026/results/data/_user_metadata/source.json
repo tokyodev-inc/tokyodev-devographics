@@ -2,192 +2,393 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "_user_metadata": {
             "source": {
               "id": "source",
-              "freeform": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "count",
-                        "order": "desc"
-                      },
-                      "limit": 20,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 732,
-                      "percentageSurvey": 89.93,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "tokyodev",
+                    "correlations": [
                       {
-                        "count": 222,
-                        "id": "tokyodev",
-                        "index": 0,
-                        "percentageQuestion": 30.33,
-                        "percentageSurvey": 27.27,
-                        "entity": {
-                          "name": "TokyoDev",
-                          "nameHtml": "TokyoDev",
-                          "nameClean": "TokyoDev",
-                          "id": "tokyodev",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://www.tokyodev.com/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 424,
+                        "correlation": -0.2562,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
                       },
                       {
-                        "count": 144,
-                        "id": "reddit",
-                        "index": 1,
-                        "percentageQuestion": 19.67,
-                        "percentageSurvey": 17.69,
-                        "entity": {
-                          "name": "Reddit",
-                          "nameHtml": "Reddit",
-                          "nameClean": "Reddit",
-                          "id": "reddit",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://reddit.com"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 424,
+                        "correlation": 0.2518,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 125,
-                        "id": "linkedin",
-                        "index": 2,
-                        "percentageQuestion": 17.08,
-                        "percentageSurvey": 15.36,
-                        "entity": {
-                          "name": "LinkedIn",
-                          "nameHtml": "LinkedIn",
-                          "nameClean": "LinkedIn",
-                          "id": "linkedin",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://linkedin.com/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "tokyodev_discord",
+                        "n": 497,
+                        "correlation": 0.2506,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 58,
-                        "id": "discord",
-                        "index": 3,
-                        "percentageQuestion": 7.92,
-                        "percentageSurvey": 7.13,
-                        "entity": {
-                          "name": "Discord",
-                          "nameHtml": "Discord",
-                          "nameClean": "Discord",
-                          "id": "discord",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://discord.com/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 424,
+                        "correlation": -0.2085,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 41,
-                        "id": "facebook",
-                        "index": 4,
-                        "percentageQuestion": 5.6,
-                        "percentageSurvey": 5.04,
-                        "entity": {
-                          "name": "Facebook",
-                          "nameHtml": "Facebook",
-                          "nameClean": "Facebook",
-                          "id": "facebook",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://facebook.com"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Safari",
+                        "n": 424,
+                        "correlation": -0.2003,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 27,
-                        "id": "work",
-                        "index": 5,
-                        "percentageQuestion": 3.69,
-                        "percentageSurvey": 3.32,
-                        "entity": {
-                          "id": "work",
-                          "entityType": "default"
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "151.0.0.0",
+                        "n": 367,
+                        "correlation": 0.1749,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 16,
-                        "id": "twitter",
-                        "index": 6,
-                        "percentageQuestion": 2.19,
-                        "percentageSurvey": 1.97,
-                        "entity": {
-                          "name": "Twitter/X",
-                          "nameHtml": "Twitter/X",
-                          "nameClean": "Twitter/X",
-                          "id": "twitter",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://twitter.com"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Firefox",
+                        "n": 424,
+                        "correlation": 0.1685,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 10,
-                        "id": "hn_tokyo",
-                        "index": 7,
-                        "percentageQuestion": 1.37,
-                        "percentageSurvey": 1.23,
-                        "entity": {
-                          "name": "HN Tokyo",
-                          "nameHtml": "HN Tokyo",
-                          "nameClean": "HN Tokyo",
-                          "id": "hn_tokyo",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://hntokyo.doorkeeper.jp/"
-                          }
-                        }
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 424,
+                        "correlation": 0.1622,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 10,
-                        "id": "slack",
-                        "index": 8,
-                        "percentageQuestion": 1.37,
-                        "percentageSurvey": 1.23,
-                        "entity": {
-                          "name": "Slack",
-                          "nameHtml": "Slack",
-                          "nameClean": "Slack",
-                          "id": "slack",
-                          "entityType": "default",
-                          "homepage": {
-                            "url": "https://slack.com/"
-                          }
-                        }
-                      },
-                      {
-                        "count": 82,
-                        "id": "no_answer",
-                        "index": 9,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 10.07
-                      },
-                      {
-                        "count": 79,
-                        "id": "other_answers",
-                        "index": 10,
-                        "percentageQuestion": 10.8,
-                        "percentageSurvey": 9.67
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "tokyodev",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 590,
+                        "correlation": -0.1597,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "reddit",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "reddit",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 424,
+                        "correlation": 0.2941,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "reddit",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 424,
+                        "correlation": -0.2925,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "reddit",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 424,
+                        "correlation": -0.2002,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "reddit",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Android",
+                        "n": 424,
+                        "correlation": 0.1813,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "reddit",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "n": 497,
+                        "correlation": -0.1753,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "linkedin",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "linkedin",
+                        "questionId2": "version",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "152.0.0.0",
+                        "n": 367,
+                        "correlation": 0.2473,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "linkedin",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "IND",
+                        "n": 532,
+                        "correlation": 0.1733,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "linkedin",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 590,
+                        "correlation": 0.1538,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "facebook",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Safari",
+                        "n": 424,
+                        "correlation": 0.25,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "iOS",
+                        "n": 424,
+                        "correlation": 0.2317,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 424,
+                        "correlation": 0.2231,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "desktop",
+                        "n": 424,
+                        "correlation": -0.2218,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "optionId2": "business",
+                        "n": 643,
+                        "correlation": 0.1924,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 643,
+                        "correlation": -0.1859,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "source",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "facebook",
+                        "questionId2": "browser",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "Chrome",
+                        "n": 424,
+                        "correlation": -0.1709,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "freeform": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -206,8 +407,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 389,
                         "id": "tokyodev",
+                        "count": 389,
                         "index": 0,
                         "percentageQuestion": 41.25,
                         "percentageSurvey": 38.55,
@@ -216,15 +417,26 @@
                           "nameHtml": "TokyoDev",
                           "nameClean": "TokyoDev",
                           "id": "tokyodev",
-                          "entityType": "default",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "tokens",
+                            "sources",
+                            "state_of_devs_sources",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev",
+                            "communities"
+                          ],
                           "homepage": {
-                            "url": "https://www.tokyodev.com/"
+                            "url": "https://tokyodev.com/"
                           }
                         }
                       },
                       {
-                        "count": 159,
                         "id": "reddit",
+                        "count": 159,
                         "index": 1,
                         "percentageQuestion": 16.86,
                         "percentageSurvey": 15.76,
@@ -234,14 +446,21 @@
                           "nameClean": "Reddit",
                           "id": "reddit",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag"
+                          ],
                           "homepage": {
                             "url": "https://reddit.com"
                           }
                         }
                       },
                       {
-                        "count": 141,
                         "id": "linkedin",
+                        "count": 141,
                         "index": 2,
                         "percentageQuestion": 14.95,
                         "percentageSurvey": 13.97,
@@ -251,14 +470,23 @@
                           "nameClean": "LinkedIn",
                           "id": "linkedin",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "how_did_you_find_your_current_job",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://linkedin.com/"
                           }
                         }
                       },
                       {
-                        "count": 62,
                         "id": "discord",
+                        "count": 62,
                         "index": 3,
                         "percentageQuestion": 6.57,
                         "percentageSurvey": 6.14,
@@ -267,26 +495,41 @@
                           "nameHtml": "Discord",
                           "nameClean": "Discord",
                           "id": "discord",
-                          "entityType": "default",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "apps",
+                            "sites",
+                            "socialmedia",
+                            "tokens",
+                            "sources",
+                            "common_sources"
+                          ],
                           "homepage": {
                             "url": "https://discord.com/"
                           }
                         }
                       },
                       {
-                        "count": 30,
                         "id": "work",
+                        "count": 30,
                         "index": 4,
                         "percentageQuestion": 3.18,
                         "percentageSurvey": 2.97,
                         "entity": {
                           "id": "work",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "sources",
+                            "common_sources"
+                          ]
                         }
                       },
                       {
-                        "count": 28,
                         "id": "facebook",
+                        "count": 28,
                         "index": 5,
                         "percentageQuestion": 2.97,
                         "percentageSurvey": 2.78,
@@ -296,14 +539,22 @@
                           "nameClean": "Facebook",
                           "id": "facebook",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://facebook.com"
                           }
                         }
                       },
                       {
-                        "count": 18,
                         "id": "hn_tokyo",
+                        "count": 18,
                         "index": 6,
                         "percentageQuestion": 1.91,
                         "percentageSurvey": 1.78,
@@ -313,24 +564,210 @@
                           "nameClean": "HN Tokyo",
                           "id": "hn_tokyo",
                           "entityType": "default",
+                          "tags": [
+                            "tokyodev",
+                            "communities",
+                            "sourcetag",
+                            "referrer",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://hntokyo.doorkeeper.jp/"
                           }
                         }
                       },
                       {
-                        "count": 43,
                         "id": "no_answer",
+                        "count": 43,
                         "index": 7,
                         "percentageQuestion": 0,
                         "percentageSurvey": 4.26
                       },
                       {
-                        "count": 116,
                         "id": "other_answers",
+                        "count": 116,
                         "index": 8,
                         "percentageQuestion": 12.32,
                         "percentageSurvey": 11.5
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 652,
+                      "percentageSurvey": 86.59,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "tokyodev",
+                        "count": 364,
+                        "index": 0,
+                        "percentageQuestion": 55.83,
+                        "percentageSurvey": 48.34,
+                        "entity": {
+                          "name": "TokyoDev",
+                          "nameHtml": "TokyoDev",
+                          "nameClean": "TokyoDev",
+                          "id": "tokyodev",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "tokens",
+                            "sources",
+                            "state_of_devs_sources",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev",
+                            "communities"
+                          ],
+                          "homepage": {
+                            "url": "https://tokyodev.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "linkedin",
+                        "count": 73,
+                        "index": 1,
+                        "percentageQuestion": 11.2,
+                        "percentageSurvey": 9.69,
+                        "entity": {
+                          "name": "LinkedIn",
+                          "nameHtml": "LinkedIn",
+                          "nameClean": "LinkedIn",
+                          "id": "linkedin",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "how_did_you_find_your_current_job",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
+                          "homepage": {
+                            "url": "https://linkedin.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "reddit",
+                        "count": 67,
+                        "index": 2,
+                        "percentageQuestion": 10.28,
+                        "percentageSurvey": 8.9,
+                        "entity": {
+                          "name": "Reddit",
+                          "nameHtml": "Reddit",
+                          "nameClean": "Reddit",
+                          "id": "reddit",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag"
+                          ],
+                          "homepage": {
+                            "url": "https://reddit.com"
+                          }
+                        }
+                      },
+                      {
+                        "id": "facebook",
+                        "count": 44,
+                        "index": 3,
+                        "percentageQuestion": 6.75,
+                        "percentageSurvey": 5.84,
+                        "entity": {
+                          "name": "Facebook",
+                          "nameHtml": "Facebook",
+                          "nameClean": "Facebook",
+                          "id": "facebook",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
+                          "homepage": {
+                            "url": "https://facebook.com"
+                          }
+                        }
+                      },
+                      {
+                        "id": "discord",
+                        "count": 17,
+                        "index": 4,
+                        "percentageQuestion": 2.61,
+                        "percentageSurvey": 2.26,
+                        "entity": {
+                          "name": "Discord",
+                          "nameHtml": "Discord",
+                          "nameClean": "Discord",
+                          "id": "discord",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "apps",
+                            "sites",
+                            "socialmedia",
+                            "tokens",
+                            "sources",
+                            "common_sources"
+                          ],
+                          "homepage": {
+                            "url": "https://discord.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "work",
+                        "count": 16,
+                        "index": 5,
+                        "percentageQuestion": 2.45,
+                        "percentageSurvey": 2.12,
+                        "entity": {
+                          "id": "work",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "sources",
+                            "common_sources"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 79,
+                        "index": 6,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 10.49
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 71,
+                        "index": 7,
+                        "percentageQuestion": 10.87,
+                        "percentageSurvey": 9.41
                       }
                     ]
                   }

@@ -1,0 +1,205 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "job_info": {
+            "overtime_hours": {
+              "id": "overtime_hours",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "overtime_hours",
+                    "sectionId1": "job_info",
+                    "questionId2": "languages_used_colleagues_japanese",
+                    "sectionId2": "job_info",
+                    "n": 677,
+                    "correlation": 0.1985,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "overtime_hours",
+                    "sectionId1": "job_info",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "work_culture",
+                    "n": 634,
+                    "correlation": 0.1691,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "overtime_hours",
+                    "sectionId1": "job_info",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "cplusplus",
+                    "n": 644,
+                    "correlation": 0.1547,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
+                    "kind2": "option",
+                    "questionId1": "overtime_hours",
+                    "sectionId1": "job_info",
+                    "questionId2": "discrimination_issues",
+                    "sectionId2": "job_info",
+                    "optionId2": "country_citizenship",
+                    "n": 643,
+                    "correlation": 0.1523,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "range_0",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "overtime_hours",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_0",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 677,
+                        "correlation": -0.1829,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "range_1_9",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_hours",
+                        "sectionId1": "job_info",
+                        "optionId1": "range_1_9",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 672,
+                        "correlation": -0.1622,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 680,
+                      "percentageSurvey": 90.31,
+                      "total": 753
+                    },
+                    "average": 9.1,
+                    "percentiles": {
+                      "p50": 5
+                    },
+                    "buckets": [
+                      {
+                        "id": "range_0",
+                        "count": 218,
+                        "value": 0,
+                        "index": 0,
+                        "percentageQuestion": 32.06,
+                        "percentageSurvey": 28.95
+                      },
+                      {
+                        "id": "range_1_9",
+                        "count": 262,
+                        "value": 5,
+                        "index": 1,
+                        "percentageQuestion": 38.53,
+                        "percentageSurvey": 34.79
+                      },
+                      {
+                        "id": "range_10_19",
+                        "count": 106,
+                        "value": 15,
+                        "index": 2,
+                        "percentageQuestion": 15.59,
+                        "percentageSurvey": 14.08
+                      },
+                      {
+                        "id": "range_20_29",
+                        "count": 47,
+                        "value": 25,
+                        "index": 3,
+                        "percentageQuestion": 6.91,
+                        "percentageSurvey": 6.24
+                      },
+                      {
+                        "id": "range_30_39",
+                        "count": 15,
+                        "value": 35,
+                        "index": 4,
+                        "percentageQuestion": 2.21,
+                        "percentageSurvey": 1.99
+                      },
+                      {
+                        "id": "range_40_49",
+                        "count": 15,
+                        "value": 45,
+                        "index": 5,
+                        "percentageQuestion": 2.21,
+                        "percentageSurvey": 1.99
+                      },
+                      {
+                        "id": "range_over_50",
+                        "count": 17,
+                        "value": 55,
+                        "index": 6,
+                        "percentageQuestion": 2.5,
+                        "percentageSurvey": 2.26
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 73,
+                        "index": 7,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 9.69
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

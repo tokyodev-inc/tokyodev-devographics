@@ -1,0 +1,369 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "job_info": {
+            "overtime_pay": {
+              "id": "overtime_pay",
+              "_correlations": {
+                "optionCorrelations": [
+                  {
+                    "id": "yes",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 670,
+                        "correlation": 0.3253,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 656,
+                        "correlation": 0.2678,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 671,
+                        "correlation": -0.2259,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_2_9",
+                        "n": 669,
+                        "correlation": -0.2118,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "international_company",
+                        "n": 656,
+                        "correlation": -0.2042,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 627,
+                        "correlation": 0.1729,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "go",
+                        "n": 640,
+                        "correlation": 0.1705,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 671,
+                        "correlation": 0.1582,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "yes",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 627,
+                        "correlation": 0.1504,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "no",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 670,
+                        "correlation": -0.3187,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 671,
+                        "correlation": 0.2424,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "international_company",
+                        "n": 656,
+                        "correlation": 0.2025,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_2_9",
+                        "n": 669,
+                        "correlation": 0.2003,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 656,
+                        "correlation": -0.1882,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 627,
+                        "correlation": -0.171,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "overtime_hours",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_1_9",
+                        "n": 672,
+                        "correlation": -0.1622,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "no",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "code_reviews",
+                        "n": 627,
+                        "correlation": -0.1604,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "not_sure",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "not_sure",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 656,
+                        "correlation": 0.1585,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "overtime_pay",
+                        "sectionId1": "job_info",
+                        "optionId1": "not_sure",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 656,
+                        "correlation": -0.1568,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 674,
+                      "percentageSurvey": 89.51,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "yes",
+                        "count": 405,
+                        "index": 0,
+                        "percentageQuestion": 60.09,
+                        "percentageSurvey": 53.78
+                      },
+                      {
+                        "id": "no",
+                        "count": 209,
+                        "index": 1,
+                        "percentageQuestion": 31.01,
+                        "percentageSurvey": 27.76
+                      },
+                      {
+                        "id": "not_sure",
+                        "count": 60,
+                        "index": 2,
+                        "percentageQuestion": 8.9,
+                        "percentageSurvey": 7.97
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 79,
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 10.49
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

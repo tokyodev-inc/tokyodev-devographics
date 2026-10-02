@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         job_info {
           industry_sector_vs_salary: industry_sector {
             id
@@ -46,8 +46,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -67,6 +67,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData

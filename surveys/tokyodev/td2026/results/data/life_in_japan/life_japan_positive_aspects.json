@@ -2,7 +2,7 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "life_in_japan": {
             "life_japan_positive_aspects": {
               "id": "life_japan_positive_aspects",
@@ -14,7 +14,7 @@
                         "property": "count",
                         "order": "desc"
                       },
-                      "limit": 20,
+                      "limit": 50,
                       "cutoff": 10
                     },
                     "editionId": "td2025",
@@ -26,149 +26,249 @@
                     },
                     "buckets": [
                       {
-                        "count": 453,
                         "id": "convenience",
+                        "count": 453,
                         "index": 0,
                         "percentageQuestion": 52.74,
-                        "percentageSurvey": 44.9,
-                        "entity": {
-                          "id": "convenience",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 44.9
                       },
                       {
-                        "count": 365,
                         "id": "infrastructure",
+                        "count": 365,
                         "index": 1,
                         "percentageQuestion": 42.49,
-                        "percentageSurvey": 36.17,
-                        "entity": {
-                          "id": "infrastructure",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 36.17
                       },
                       {
-                        "count": 318,
                         "id": "safety",
+                        "count": 318,
                         "index": 2,
                         "percentageQuestion": 37.02,
-                        "percentageSurvey": 31.52,
-                        "entity": {
-                          "id": "safety",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 31.52
                       },
                       {
-                        "count": 264,
                         "id": "adventure",
+                        "count": 264,
                         "index": 3,
                         "percentageQuestion": 30.73,
                         "percentageSurvey": 26.16
                       },
                       {
-                        "count": 239,
                         "id": "cost_of_living",
+                        "count": 239,
                         "index": 4,
                         "percentageQuestion": 27.82,
                         "percentageSurvey": 23.69
                       },
                       {
-                        "count": 219,
                         "id": "food",
+                        "count": 219,
                         "index": 5,
                         "percentageQuestion": 25.49,
-                        "percentageSurvey": 21.7,
-                        "entity": {
-                          "id": "food",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 21.7
                       },
                       {
-                        "count": 187,
                         "id": "healthcare",
+                        "count": 187,
                         "index": 6,
                         "percentageQuestion": 21.77,
-                        "percentageSurvey": 18.53,
-                        "entity": {
-                          "id": "healthcare",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 18.53
                       },
                       {
-                        "count": 117,
                         "id": "nature",
+                        "count": 117,
                         "index": 7,
                         "percentageQuestion": 13.62,
-                        "percentageSurvey": 11.6,
-                        "entity": {
-                          "id": "nature",
-                          "entityType": "default"
-                        }
+                        "percentageSurvey": 11.6
                       },
                       {
-                        "count": 108,
                         "id": "collectivist_culture",
+                        "count": 108,
                         "index": 8,
                         "percentageQuestion": 12.57,
                         "percentageSurvey": 10.7
                       },
                       {
-                        "count": 101,
                         "id": "career",
+                        "count": 101,
                         "index": 9,
                         "percentageQuestion": 11.76,
                         "percentageSurvey": 10.01
                       },
                       {
-                        "count": 74,
                         "id": "pop_culture",
+                        "count": 74,
                         "index": 10,
                         "percentageQuestion": 8.61,
                         "percentageSurvey": 7.33
                       },
                       {
-                        "count": 50,
                         "id": "culture_history",
+                        "count": 50,
                         "index": 11,
                         "percentageQuestion": 5.82,
                         "percentageSurvey": 4.96
                       },
                       {
-                        "count": 29,
                         "id": "compensation",
+                        "count": 29,
                         "index": 12,
                         "percentageQuestion": 3.38,
                         "percentageSurvey": 2.87
                       },
                       {
-                        "count": 150,
-                        "id": "no_answer",
+                        "id": "cutoff_answers",
+                        "count": 3,
                         "index": 13,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 14.87
+                        "percentageQuestion": 0.35,
+                        "percentageSurvey": 0.3
                       },
                       {
-                        "count": 15,
-                        "id": "other_answers",
+                        "id": "no_match",
+                        "count": 12,
                         "index": 14,
-                        "percentageQuestion": 1.75,
-                        "percentageSurvey": 1.49,
-                        "groupedBuckets": [
-                          {
-                            "count": 3,
-                            "id": "cutoff_answers",
-                            "percentageQuestion": 0.35,
-                            "percentageSurvey": 0.3
-                          },
-                          {
-                            "count": 12,
-                            "id": "no_match",
-                            "index": 1,
-                            "percentageQuestion": 1.4,
-                            "percentageSurvey": 1.19,
-                            "isFreeformData": true
-                          }
-                        ]
+                        "percentageQuestion": 1.4,
+                        "percentageSurvey": 1.19,
+                        "isFreeformData": true
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 150,
+                        "index": 15,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.87
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 647,
+                      "percentageSurvey": 85.92,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "safety",
+                        "count": 555,
+                        "index": 0,
+                        "percentageQuestion": 85.78,
+                        "percentageSurvey": 73.71
+                      },
+                      {
+                        "id": "convenience",
+                        "count": 532,
+                        "index": 1,
+                        "percentageQuestion": 82.23,
+                        "percentageSurvey": 70.65
+                      },
+                      {
+                        "id": "infrastructure",
+                        "count": 531,
+                        "index": 2,
+                        "percentageQuestion": 82.07,
+                        "percentageSurvey": 70.52
+                      },
+                      {
+                        "id": "food",
+                        "count": 453,
+                        "index": 3,
+                        "percentageQuestion": 70.02,
+                        "percentageSurvey": 60.16
+                      },
+                      {
+                        "id": "adventure",
+                        "count": 438,
+                        "index": 4,
+                        "percentageQuestion": 67.7,
+                        "percentageSurvey": 58.17
+                      },
+                      {
+                        "id": "healthcare",
+                        "count": 413,
+                        "index": 5,
+                        "percentageQuestion": 63.83,
+                        "percentageSurvey": 54.85
+                      },
+                      {
+                        "id": "nature",
+                        "count": 397,
+                        "index": 6,
+                        "percentageQuestion": 61.36,
+                        "percentageSurvey": 52.72
+                      },
+                      {
+                        "id": "cost_of_living",
+                        "count": 362,
+                        "index": 7,
+                        "percentageQuestion": 55.95,
+                        "percentageSurvey": 48.07
+                      },
+                      {
+                        "id": "culture_history",
+                        "count": 300,
+                        "index": 8,
+                        "percentageQuestion": 46.37,
+                        "percentageSurvey": 39.84
+                      },
+                      {
+                        "id": "pop_culture",
+                        "count": 277,
+                        "index": 9,
+                        "percentageQuestion": 42.81,
+                        "percentageSurvey": 36.79
+                      },
+                      {
+                        "id": "collectivist_culture",
+                        "count": 183,
+                        "index": 10,
+                        "percentageQuestion": 28.28,
+                        "percentageSurvey": 24.3
+                      },
+                      {
+                        "id": "career",
+                        "count": 149,
+                        "index": 11,
+                        "percentageQuestion": 23.03,
+                        "percentageSurvey": 19.79
+                      },
+                      {
+                        "id": "friendliness_towards_foreigners",
+                        "count": 77,
+                        "index": 12,
+                        "percentageQuestion": 11.9,
+                        "percentageSurvey": 10.23
+                      },
+                      {
+                        "id": "compensation",
+                        "count": 61,
+                        "index": 13,
+                        "percentageQuestion": 9.43,
+                        "percentageSurvey": 8.1
+                      },
+                      {
+                        "id": "no_match",
+                        "count": 14,
+                        "index": 14,
+                        "percentageQuestion": 2.16,
+                        "percentageSurvey": 1.86,
+                        "isFreeformData": true
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 106,
+                        "index": 15,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 14.08
                       }
                     ]
                   }

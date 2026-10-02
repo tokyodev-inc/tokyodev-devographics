@@ -1,7 +1,7 @@
 query {
   surveys {
     tokyodev {
-      td2025 {
+      td2026 {
         user_info {
           language_proficiency_english_vs_employer_type: language_proficiency_english {
             id
@@ -45,8 +45,8 @@ query {
                   p50
                 }
                 buckets {
-                  count
                   id
+                  count
                   value
                   index
                   percentageQuestion
@@ -66,6 +66,7 @@ query {
                   facetBuckets {
                     id
                     count
+                    value
                     percentageBucket
                     percentageQuestion
                     hasInsufficientData

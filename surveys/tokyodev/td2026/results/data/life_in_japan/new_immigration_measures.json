@@ -1,0 +1,941 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "life_in_japan": {
+            "new_immigration_measures": {
+              "id": "new_immigration_measures",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "n": 550,
+                    "correlation": 0.4534,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "hostility_towards_foreigners",
+                    "n": 550,
+                    "correlation": 0.4463,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "work_culture",
+                    "n": 550,
+                    "correlation": 0.2278,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "pressure_to_conform",
+                    "n": 550,
+                    "correlation": 0.2255,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "yen_value",
+                    "sectionId2": "life_in_japan",
+                    "n": 550,
+                    "correlation": -0.1935,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "working_hours_policy",
+                    "sectionId2": "job_info",
+                    "optionId2": "fully_flexible",
+                    "n": 531,
+                    "correlation": -0.1852,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "job_security_threat",
+                    "sectionId2": "ai_usage",
+                    "n": 547,
+                    "correlation": 0.1838,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "residency_status",
+                    "sectionId2": "user_info",
+                    "optionId2": "permanent_resident",
+                    "n": 541,
+                    "correlation": -0.1768,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "discrimination_issues",
+                    "sectionId2": "job_info",
+                    "n": 514,
+                    "correlation": 0.1742,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "compensation",
+                    "n": 550,
+                    "correlation": 0.1727,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "discrimination_issues",
+                    "sectionId2": "job_info",
+                    "optionId2": "country_citizenship",
+                    "n": 514,
+                    "correlation": 0.17,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "discrimination_issues",
+                    "sectionId2": "job_info",
+                    "optionId2": "na",
+                    "n": 514,
+                    "correlation": -0.1645,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "quality_of_life_over_time",
+                    "sectionId2": "life_in_japan",
+                    "n": 549,
+                    "correlation": -0.1637,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_negative_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "isolation",
+                    "n": 550,
+                    "correlation": 0.1603,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "new_immigration_measures",
+                    "sectionId1": "life_in_japan",
+                    "questionId2": "life_japan_positive_aspects",
+                    "sectionId2": "life_in_japan",
+                    "optionId2": "career",
+                    "n": 549,
+                    "correlation": -0.1582,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "higher_financial_burden",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "higher_financial_burden",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 541,
+                        "correlation": -0.2384,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "greater_uncertainty",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.3512,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 550,
+                        "correlation": 0.3208,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "stay_permanently",
+                        "n": 548,
+                        "correlation": -0.2543,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "friendliness_towards_foreigners",
+                        "n": 549,
+                        "correlation": -0.2112,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "isolation",
+                        "n": 550,
+                        "correlation": 0.1958,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 550,
+                        "correlation": 0.1908,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "job_security_threat",
+                        "sectionId2": "ai_usage",
+                        "n": 547,
+                        "correlation": 0.1752,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 549,
+                        "correlation": -0.1606,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "remaining_in_japan",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "not_sure",
+                        "n": 548,
+                        "correlation": 0.1599,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "greater_uncertainty",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 550,
+                        "correlation": 0.1551,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "career_impacts",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 551,
+                        "correlation": 0.3009,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "n": 514,
+                        "correlation": 0.2302,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "job_happiness",
+                        "sectionId2": "job_info",
+                        "n": 536,
+                        "correlation": -0.2294,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "na",
+                        "n": 514,
+                        "correlation": -0.2233,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "discrimination_issues",
+                        "sectionId2": "job_info",
+                        "optionId2": "country_citizenship",
+                        "n": 514,
+                        "correlation": 0.222,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 550,
+                        "correlation": 0.2026,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.1994,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 550,
+                        "correlation": 0.1835,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "quality_of_life_over_time",
+                        "sectionId2": "life_in_japan",
+                        "n": 549,
+                        "correlation": -0.175,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "yen_value",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "0",
+                        "n": 550,
+                        "correlation": 0.1685,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "career_impacts",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "limited_career_growth",
+                        "n": 550,
+                        "correlation": 0.1678,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "residency_status",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "residency_status",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "permanent_resident",
+                        "n": 541,
+                        "correlation": -0.2977,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "residency_status",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 541,
+                        "correlation": 0.2312,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "residency_status",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 550,
+                        "correlation": 0.1653,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "residency_status",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.1566,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "overall_perception",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 550,
+                        "correlation": 0.4114,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.3463,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "pressure_to_conform",
+                        "n": 550,
+                        "correlation": 0.1736,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "work_culture",
+                        "n": 550,
+                        "correlation": 0.171,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "life_japan_positive_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "career",
+                        "n": 549,
+                        "correlation": -0.1514,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "overall_perception",
+                        "questionId2": "professional_qualifications",
+                        "sectionId2": "user_info",
+                        "optionId2": "short_cycle",
+                        "n": 546,
+                        "correlation": -0.1506,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "increased_anxiety",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "increased_anxiety",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "hostility_towards_foreigners",
+                        "n": 550,
+                        "correlation": 0.2722,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "increased_anxiety",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.2327,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "increased_anxiety",
+                        "questionId2": "job_security_threat",
+                        "sectionId2": "ai_usage",
+                        "n": 547,
+                        "correlation": 0.1706,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "increased_anxiety",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 538,
+                        "correlation": -0.163,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "housing_impacts",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "new_immigration_measures",
+                        "sectionId1": "life_in_japan",
+                        "optionId1": "housing_impacts",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "n": 550,
+                        "correlation": 0.1793,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 147,
+                          "percentage": 26.5823
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 120,
+                          "percentage": 21.6998
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 121,
+                          "percentage": 21.8807
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 77,
+                          "percentage": 13.9241
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 61,
+                          "percentage": 11.0307
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 14,
+                          "percentage": 2.5316
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 13,
+                          "percentage": 2.3508
+                        }
+                      ],
+                      "max": 7,
+                      "mean": 2.7812,
+                      "n": 553
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 540,
+                      "percentageSurvey": 71.71,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "overall_perception",
+                        "count": 364,
+                        "index": 0,
+                        "percentageQuestion": 67.41,
+                        "percentageSurvey": 48.34
+                      },
+                      {
+                        "id": "greater_uncertainty",
+                        "count": 325,
+                        "index": 1,
+                        "percentageQuestion": 60.19,
+                        "percentageSurvey": 43.16
+                      },
+                      {
+                        "id": "increased_anxiety",
+                        "count": 302,
+                        "index": 2,
+                        "percentageQuestion": 55.93,
+                        "percentageSurvey": 40.11
+                      },
+                      {
+                        "id": "residency_status",
+                        "count": 217,
+                        "index": 3,
+                        "percentageQuestion": 40.19,
+                        "percentageSurvey": 28.82
+                      },
+                      {
+                        "id": "higher_financial_burden",
+                        "count": 163,
+                        "index": 4,
+                        "percentageQuestion": 30.19,
+                        "percentageSurvey": 21.65
+                      },
+                      {
+                        "id": "career_impacts",
+                        "count": 76,
+                        "index": 5,
+                        "percentageQuestion": 14.07,
+                        "percentageSurvey": 10.09
+                      },
+                      {
+                        "id": "housing_impacts",
+                        "count": 69,
+                        "index": 6,
+                        "percentageQuestion": 12.78,
+                        "percentageSurvey": 9.16
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 213,
+                        "index": 7,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 28.29
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 22,
+                        "index": 8,
+                        "percentageQuestion": 4.07,
+                        "percentageSurvey": 2.92,
+                        "groupedBuckets": [
+                          {
+                            "id": "no_match",
+                            "count": 22,
+                            "index": 0,
+                            "percentageQuestion": 4.07,
+                            "percentageSurvey": 2.92,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

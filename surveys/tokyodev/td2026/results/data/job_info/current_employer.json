@@ -2,89 +2,519 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "current_employer": {
               "id": "current_employer",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "options",
-                        "order": "desc"
-                      },
-                      "limit": 20,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 706,
-                      "percentageSurvey": 86.73,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "japanese_company",
+                    "correlations": [
                       {
-                        "count": 501,
-                        "id": "japanese_company",
-                        "index": 0,
-                        "percentageQuestion": 70.96,
-                        "percentageSurvey": 61.55
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 656,
+                        "correlation": 0.2678,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 131,
-                        "id": "japanese_subsidiary",
-                        "index": 1,
-                        "percentageQuestion": 18.56,
-                        "percentageSurvey": 16.09
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 661,
+                        "correlation": -0.2442,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 42,
-                        "id": "international_company",
-                        "index": 2,
-                        "percentageQuestion": 5.95,
-                        "percentageSurvey": 5.16
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": 0.23,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       },
                       {
-                        "count": 27,
-                        "id": "sole_proprietorship",
-                        "index": 3,
-                        "percentageQuestion": 3.82,
-                        "percentageSurvey": 3.32
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "energy",
+                        "n": 647,
+                        "correlation": -0.2146,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 108,
-                        "id": "no_answer",
-                        "index": 4,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 13.27
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 658,
+                        "correlation": -0.2144,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       },
                       {
-                        "count": 13,
-                        "id": "other_answers",
-                        "index": 5,
-                        "percentageQuestion": 1.84,
-                        "percentageSurvey": 1.59,
-                        "groupedBuckets": [
-                          {
-                            "count": 6,
-                            "id": "cutoff_answers",
-                            "percentageQuestion": 0.85,
-                            "percentageSurvey": 0.73
-                          },
-                          {
-                            "count": 7,
-                            "id": "no_match",
-                            "index": 1,
-                            "percentageQuestion": 0.99,
-                            "percentageSurvey": 0.86,
-                            "isFreeformData": true
-                          }
-                        ]
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 592,
+                        "correlation": -0.2126,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_100_499",
+                        "n": 657,
+                        "correlation": 0.1922,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 656,
+                        "correlation": -0.1882,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "yen_value",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "3",
+                        "n": 619,
+                        "correlation": -0.1829,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "engineer",
+                        "n": 643,
+                        "correlation": 0.1786,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 657,
+                        "correlation": -0.1727,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "google_cloud",
+                        "n": 611,
+                        "correlation": 0.1723,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": -0.1617,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "working_hours_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_flexible",
+                        "n": 656,
+                        "correlation": -0.1592,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_company",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 662,
+                        "correlation": 0.1591,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
                       }
                     ]
                   },
+                  {
+                    "id": "japanese_subsidiary",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 657,
+                        "correlation": 0.3515,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "energy",
+                        "n": 647,
+                        "correlation": 0.3132,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 592,
+                        "correlation": 0.2562,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 611,
+                        "correlation": -0.212,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "google_cloud",
+                        "n": 611,
+                        "correlation": -0.2059,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 592,
+                        "correlation": -0.1847,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "life_japan_negative_aspects",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "natural_disaster_risk",
+                        "n": 620,
+                        "correlation": 0.1771,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "3",
+                        "n": 629,
+                        "correlation": 0.175,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "not_sure",
+                        "n": 656,
+                        "correlation": 0.1585,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "japanese_subsidiary",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": 0.1564,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "international_company",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "fully_remote",
+                        "n": 658,
+                        "correlation": 0.3267,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 661,
+                        "correlation": 0.2928,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "languages_used_colleagues_japanese",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": -0.2646,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_2_9",
+                        "n": 657,
+                        "correlation": 0.2247,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 656,
+                        "correlation": -0.2042,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "no",
+                        "n": 656,
+                        "correlation": 0.2025,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 658,
+                        "correlation": -0.16,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "current_employer",
+                        "sectionId1": "job_info",
+                        "optionId1": "international_company",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 657,
+                        "correlation": -0.1558,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -103,59 +533,138 @@
                     },
                     "buckets": [
                       {
-                        "count": 615,
                         "id": "japanese_company",
+                        "count": 615,
                         "index": 0,
                         "percentageQuestion": 69.02,
                         "percentageSurvey": 60.95
                       },
                       {
-                        "count": 167,
                         "id": "japanese_subsidiary",
+                        "count": 167,
                         "index": 1,
                         "percentageQuestion": 18.74,
                         "percentageSurvey": 16.55
                       },
                       {
-                        "count": 74,
                         "id": "international_company",
+                        "count": 74,
                         "index": 2,
                         "percentageQuestion": 8.31,
                         "percentageSurvey": 7.33
                       },
                       {
-                        "count": 29,
                         "id": "sole_proprietorship",
+                        "count": 29,
                         "index": 3,
                         "percentageQuestion": 3.25,
                         "percentageSurvey": 2.87
                       },
                       {
-                        "count": 118,
                         "id": "no_answer",
+                        "count": 118,
                         "index": 4,
                         "percentageQuestion": 0,
                         "percentageSurvey": 11.69
                       },
                       {
-                        "count": 21,
                         "id": "other_answers",
+                        "count": 21,
                         "index": 5,
                         "percentageQuestion": 2.36,
                         "percentageSurvey": 2.08,
                         "groupedBuckets": [
                           {
-                            "count": 9,
                             "id": "cutoff_answers",
+                            "count": 9,
+                            "index": 0,
                             "percentageQuestion": 1.01,
                             "percentageSurvey": 0.89
                           },
                           {
-                            "count": 12,
                             "id": "no_match",
+                            "count": 12,
                             "index": 1,
                             "percentageQuestion": 1.35,
                             "percentageSurvey": 1.19,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 664,
+                      "percentageSurvey": 88.18,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "japanese_company",
+                        "count": 475,
+                        "index": 0,
+                        "percentageQuestion": 71.54,
+                        "percentageSurvey": 63.08
+                      },
+                      {
+                        "id": "japanese_subsidiary",
+                        "count": 115,
+                        "index": 1,
+                        "percentageQuestion": 17.32,
+                        "percentageSurvey": 15.27
+                      },
+                      {
+                        "id": "international_company",
+                        "count": 46,
+                        "index": 2,
+                        "percentageQuestion": 6.93,
+                        "percentageSurvey": 6.11
+                      },
+                      {
+                        "id": "sole_proprietorship",
+                        "count": 23,
+                        "index": 3,
+                        "percentageQuestion": 3.46,
+                        "percentageSurvey": 3.05
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 89,
+                        "index": 4,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 11.82
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 19,
+                        "index": 5,
+                        "percentageQuestion": 2.86,
+                        "percentageSurvey": 2.52,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 6,
+                            "index": 0,
+                            "percentageQuestion": 0.9,
+                            "percentageSurvey": 0.79
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 13,
+                            "index": 1,
+                            "percentageQuestion": 1.96,
+                            "percentageSurvey": 1.73,
                             "isFreeformData": true
                           }
                         ]

@@ -2,10 +2,1231 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "job_info": {
             "industry_sector": {
               "id": "industry_sector",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "systems_design",
+                    "n": 643,
+                    "correlation": 0.1973,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "n": 643,
+                    "correlation": 0.1864,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "n": 629,
+                    "correlation": 0.1813,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "ai_llm",
+                    "n": 643,
+                    "correlation": 0.1801,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 609,
+                    "correlation": -0.1655,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "n": 609,
+                    "correlation": 0.1641,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "cloud",
+                    "n": 643,
+                    "correlation": 0.1635,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "other_frameworks_libraries",
+                    "sectionId2": "technology",
+                    "optionId2": "rabbitmq",
+                    "n": 491,
+                    "correlation": 0.1633,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "software_engineering_practices",
+                    "sectionId2": "technology",
+                    "optionId2": "infrastructure_as_code",
+                    "n": 617,
+                    "correlation": 0.159,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "industry_sector",
+                    "sectionId1": "job_info",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "manual_testing",
+                    "n": 643,
+                    "correlation": 0.1529,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "saas",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "typescript",
+                        "n": 629,
+                        "correlation": 0.2219,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude_code",
+                        "n": 633,
+                        "correlation": 0.1933,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 643,
+                        "correlation": 0.1912,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 591,
+                        "correlation": -0.19,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "html_css",
+                        "n": 629,
+                        "correlation": 0.1874,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 591,
+                        "correlation": 0.1821,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "javascript",
+                        "n": 629,
+                        "correlation": 0.1816,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "n": 629,
+                        "correlation": 0.1773,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 617,
+                        "correlation": 0.1735,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 620,
+                        "correlation": 0.1716,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "code_reviews",
+                        "n": 617,
+                        "correlation": 0.1714,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 425,
+                        "correlation": 0.1674,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": -0.1608,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 609,
+                        "correlation": -0.1574,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "saas",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 643,
+                        "correlation": 0.1562,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "finance",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "rails",
+                        "n": 591,
+                        "correlation": 0.1986,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 491,
+                        "correlation": 0.1961,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "ruby",
+                        "n": 629,
+                        "correlation": 0.1952,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 658,
+                        "correlation": 0.1801,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "apache_kafka",
+                        "n": 491,
+                        "correlation": 0.1709,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "finance",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "python",
+                        "n": 629,
+                        "correlation": -0.1574,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ecommerce",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ecommerce",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 661,
+                        "correlation": 0.2887,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ecommerce",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": 0.2203,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ecommerce",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 626,
+                        "correlation": 0.2004,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ecommerce",
+                        "questionId2": "japan_province",
+                        "sectionId2": "user_info",
+                        "optionId2": "kanagawa",
+                        "n": 525,
+                        "correlation": 0.182,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ecommerce",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "n": 626,
+                        "correlation": 0.1634,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ai",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ai_llm",
+                        "n": 643,
+                        "correlation": 0.3399,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "fastapi",
+                        "n": 591,
+                        "correlation": 0.2899,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "python",
+                        "n": 629,
+                        "correlation": 0.2715,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 491,
+                        "correlation": 0.2712,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "tensorflow",
+                        "n": 491,
+                        "correlation": 0.2651,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 491,
+                        "correlation": 0.252,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 491,
+                        "correlation": 0.2294,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 643,
+                        "correlation": 0.223,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "scikit_learn",
+                        "n": 491,
+                        "correlation": 0.219,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 491,
+                        "correlation": -0.2116,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "machine_learning",
+                        "n": 643,
+                        "correlation": 0.2068,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 491,
+                        "correlation": 0.1976,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 591,
+                        "correlation": 0.1937,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 609,
+                        "correlation": 0.1848,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "ai",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "systems_design",
+                        "n": 643,
+                        "correlation": 0.1795,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cloud_computing",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "cloud_computing",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 661,
+                        "correlation": 0.2022,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "cloud_computing",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "fastapi",
+                        "n": 591,
+                        "correlation": 0.1879,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "cloud_computing",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "cloud",
+                        "n": 643,
+                        "correlation": 0.1528,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "gaming",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "gaming",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "game_development",
+                        "n": 643,
+                        "correlation": 0.6838,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "gaming",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "csharp",
+                        "n": 629,
+                        "correlation": 0.331,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "gaming",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 643,
+                        "correlation": -0.1563,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "gaming",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 491,
+                        "correlation": 0.1538,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "education",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "education",
+                        "questionId2": "employment_status",
+                        "sectionId2": "job_info",
+                        "optionId2": "permanent_employee",
+                        "n": 663,
+                        "correlation": -0.1964,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "human_resources",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "human_resources",
+                        "questionId2": "age",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_40_49",
+                        "n": 666,
+                        "correlation": 0.1655,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "human_resources",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "up_to_employee",
+                        "n": 658,
+                        "correlation": 0.1617,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "manufacturing",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "manufacturing",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 591,
+                        "correlation": 0.1565,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "robotics",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "embedded_software",
+                        "n": 643,
+                        "correlation": 0.2487,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "cplusplus",
+                        "n": 629,
+                        "correlation": 0.2348,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "opencv",
+                        "n": 491,
+                        "correlation": 0.2057,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "azure",
+                        "n": 609,
+                        "correlation": 0.2056,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 491,
+                        "correlation": 0.1681,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "robotics",
+                        "questionId2": "residency_status",
+                        "sectionId2": "user_info",
+                        "optionId2": "hsfp",
+                        "n": 639,
+                        "correlation": 0.1615,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "energy",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 591,
+                        "correlation": 0.409,
+                        "sameSection": false,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_subsidiary",
+                        "n": 647,
+                        "correlation": 0.3132,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_1000_4999",
+                        "n": 661,
+                        "correlation": 0.2387,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "pair_programming",
+                        "n": 617,
+                        "correlation": 0.2342,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "rabbitmq",
+                        "n": 491,
+                        "correlation": 0.2207,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "up_to_employee",
+                        "n": 658,
+                        "correlation": 0.2186,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "current_employer",
+                        "sectionId2": "job_info",
+                        "optionId2": "japanese_company",
+                        "n": 647,
+                        "correlation": -0.2146,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "2",
+                        "n": 616,
+                        "correlation": 0.1838,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "os",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "macOS",
+                        "n": 425,
+                        "correlation": 0.1641,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "device",
+                        "sectionId2": "_user_metadata",
+                        "optionId2": "mobile",
+                        "n": 425,
+                        "correlation": -0.1585,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "industry_sector",
+                        "sectionId1": "job_info",
+                        "optionId1": "energy",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 661,
+                        "correlation": 0.151,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -17,191 +1238,331 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2024",
-                    "year": 2024,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 550,
+                          "percentage": 62.7854
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 176,
+                          "percentage": 20.0913
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 100,
+                          "percentage": 11.4155
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 32,
+                          "percentage": 3.653
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 8,
+                          "percentage": 0.9132
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 4,
+                          "percentage": 0.4566
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 2,
+                          "percentage": 0.2283
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 1,
+                          "percentage": 0.1142
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 2,
+                          "percentage": 0.2283
+                        },
+                        {
+                          "answerCount": 12,
+                          "count": 1,
+                          "percentage": 0.1142
+                        }
+                      ],
+                      "max": 12,
+                      "mean": 1.653,
+                      "n": 876
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
                     "completion": {
-                      "count": 576,
-                      "percentageSurvey": 70.76,
-                      "total": 814
+                      "count": 786,
+                      "percentageSurvey": 77.9,
+                      "total": 1009
                     },
                     "buckets": [
                       {
-                        "count": 206,
                         "id": "saas",
+                        "count": 334,
                         "index": 0,
-                        "percentageQuestion": 35.76,
-                        "percentageSurvey": 25.31,
+                        "percentageQuestion": 42.49,
+                        "percentageSurvey": 33.1,
                         "entity": {
                           "id": "saas",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 140,
-                        "id": "ecommerce",
-                        "index": 1,
-                        "percentageQuestion": 24.31,
-                        "percentageSurvey": 17.2
-                      },
-                      {
-                        "count": 110,
-                        "id": "finance",
-                        "index": 2,
-                        "percentageQuestion": 19.1,
-                        "percentageSurvey": 13.51,
-                        "entity": {
-                          "id": "finance",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 108,
-                        "id": "consulting",
-                        "index": 3,
-                        "percentageQuestion": 18.75,
-                        "percentageSurvey": 13.27
-                      },
-                      {
-                        "count": 102,
                         "id": "ai",
-                        "index": 4,
-                        "percentageQuestion": 17.71,
-                        "percentageSurvey": 12.53,
+                        "count": 184,
+                        "index": 1,
+                        "percentageQuestion": 23.41,
+                        "percentageSurvey": 18.24,
                         "entity": {
                           "name": "AI",
                           "nameHtml": "AI",
                           "nameClean": "AI",
                           "id": "ai",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 48,
+                        "id": "consulting",
+                        "count": 138,
+                        "index": 2,
+                        "percentageQuestion": 17.56,
+                        "percentageSurvey": 13.68
+                      },
+                      {
+                        "id": "ecommerce",
+                        "count": 138,
+                        "index": 3,
+                        "percentageQuestion": 17.56,
+                        "percentageSurvey": 13.68
+                      },
+                      {
+                        "id": "finance",
+                        "count": 131,
+                        "index": 4,
+                        "percentageQuestion": 16.67,
+                        "percentageSurvey": 12.98,
+                        "entity": {
+                          "id": "finance",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
                         "id": "cloud_computing",
+                        "count": 80,
                         "index": 5,
-                        "percentageQuestion": 8.33,
-                        "percentageSurvey": 5.9,
+                        "percentageQuestion": 10.18,
+                        "percentageSurvey": 7.93,
                         "entity": {
                           "id": "cloud_computing",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 47,
-                        "id": "advertising",
-                        "index": 6,
-                        "percentageQuestion": 8.16,
-                        "percentageSurvey": 5.77,
-                        "entity": {
-                          "id": "advertising",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 41,
                         "id": "manufacturing",
-                        "index": 7,
-                        "percentageQuestion": 7.12,
-                        "percentageSurvey": 5.04,
+                        "count": 64,
+                        "index": 6,
+                        "percentageQuestion": 8.14,
+                        "percentageSurvey": 6.34,
                         "entity": {
                           "id": "manufacturing",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 37,
                         "id": "gaming",
-                        "index": 8,
-                        "percentageQuestion": 6.42,
-                        "percentageSurvey": 4.55,
+                        "count": 60,
+                        "index": 7,
+                        "percentageQuestion": 7.63,
+                        "percentageSurvey": 5.95,
                         "entity": {
                           "id": "gaming",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 33,
-                        "id": "crypto",
-                        "index": 9,
-                        "percentageQuestion": 5.73,
-                        "percentageSurvey": 4.05,
-                        "entity": {
-                          "id": "crypto",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 31,
                         "id": "human_resources",
-                        "index": 10,
-                        "percentageQuestion": 5.38,
-                        "percentageSurvey": 3.81,
+                        "count": 51,
+                        "index": 8,
+                        "percentageQuestion": 6.49,
+                        "percentageSurvey": 5.05,
                         "entity": {
                           "id": "human_resources",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 25,
+                        "id": "advertising",
+                        "count": 49,
+                        "index": 9,
+                        "percentageQuestion": 6.23,
+                        "percentageSurvey": 4.86,
+                        "entity": {
+                          "id": "advertising",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
                         "id": "education",
-                        "index": 11,
-                        "percentageQuestion": 4.34,
-                        "percentageSurvey": 3.07,
+                        "count": 37,
+                        "index": 10,
+                        "percentageQuestion": 4.71,
+                        "percentageSurvey": 3.67,
                         "entity": {
                           "id": "education",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "state_of_devs",
+                            "discrimination_issues",
+                            "tokyodev",
+                            "initial_attraction",
+                            "life_japan_positive_aspects"
+                          ]
                         }
                       },
                       {
-                        "count": 13,
-                        "id": "energy",
+                        "id": "crypto",
+                        "count": 25,
+                        "index": 11,
+                        "percentageQuestion": 3.18,
+                        "percentageSurvey": 2.48,
+                        "entity": {
+                          "id": "crypto",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "automotive",
+                        "count": 18,
                         "index": 12,
-                        "percentageQuestion": 2.26,
-                        "percentageSurvey": 1.6,
+                        "percentageQuestion": 2.29,
+                        "percentageSurvey": 1.78,
+                        "isFreeformData": true,
+                        "entity": {
+                          "id": "automotive",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "energy",
+                        "count": 16,
+                        "index": 13,
+                        "percentageQuestion": 2.04,
+                        "percentageSurvey": 1.59,
                         "isFreeformData": true,
                         "entity": {
                           "id": "energy",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 12,
                         "id": "robotics",
-                        "index": 13,
-                        "percentageQuestion": 2.08,
-                        "percentageSurvey": 1.47,
+                        "count": 12,
+                        "index": 14,
+                        "percentageQuestion": 1.53,
+                        "percentageSurvey": 1.19,
                         "isFreeformData": true,
                         "entity": {
                           "id": "robotics",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 238,
                         "id": "no_answer",
-                        "index": 14,
+                        "count": 223,
+                        "index": 15,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 29.24
+                        "percentageSurvey": 22.1
                       },
                       {
-                        "count": 94,
                         "id": "other_answers",
-                        "index": 15,
-                        "percentageQuestion": 16.29,
-                        "percentageSurvey": 11.54,
+                        "count": 114,
+                        "index": 16,
+                        "percentageQuestion": 14.49,
+                        "percentageSurvey": 11.34,
                         "groupedBuckets": [
                           {
-                            "count": 48,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 8.3,
-                            "percentageSurvey": 5.89
+                            "count": 79,
+                            "index": 0,
+                            "percentageQuestion": 10.04,
+                            "percentageSurvey": 7.87
                           },
                           {
-                            "count": 46,
                             "id": "no_match",
-                            "index": 8,
-                            "percentageQuestion": 7.99,
-                            "percentageSurvey": 5.65,
+                            "count": 35,
+                            "index": 1,
+                            "percentageQuestion": 4.45,
+                            "percentageSurvey": 3.47,
                             "isFreeformData": true
                           }
                         ]
@@ -217,203 +1578,329 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 388,
+                          "percentage": 58.1709
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 156,
+                          "percentage": 23.3883
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 83,
+                          "percentage": 12.4438
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 23,
+                          "percentage": 3.4483
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 6,
+                          "percentage": 0.8996
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 4,
+                          "percentage": 0.5997
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 2,
+                          "percentage": 0.2999
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 3,
+                          "percentage": 0.4498
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 1,
+                          "percentage": 0.1499
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 1,
+                          "percentage": 0.1499
+                        }
+                      ],
+                      "max": 10,
+                      "mean": 1.7271,
+                      "n": 667
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 786,
-                      "percentageSurvey": 77.9,
-                      "total": 1009
+                      "count": 612,
+                      "percentageSurvey": 81.27,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 334,
                         "id": "saas",
+                        "count": 227,
                         "index": 0,
-                        "percentageQuestion": 42.49,
-                        "percentageSurvey": 33.1,
+                        "percentageQuestion": 37.09,
+                        "percentageSurvey": 30.15,
                         "entity": {
                           "id": "saas",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 184,
                         "id": "ai",
+                        "count": 163,
                         "index": 1,
-                        "percentageQuestion": 23.41,
-                        "percentageSurvey": 18.24,
+                        "percentageQuestion": 26.63,
+                        "percentageSurvey": 21.65,
                         "entity": {
                           "name": "AI",
                           "nameHtml": "AI",
                           "nameClean": "AI",
                           "id": "ai",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 138,
                         "id": "consulting",
+                        "count": 117,
                         "index": 2,
-                        "percentageQuestion": 17.56,
-                        "percentageSurvey": 13.68
+                        "percentageQuestion": 19.12,
+                        "percentageSurvey": 15.54
                       },
                       {
-                        "count": 138,
-                        "id": "ecommerce",
-                        "index": 3,
-                        "percentageQuestion": 17.56,
-                        "percentageSurvey": 13.68
-                      },
-                      {
-                        "count": 131,
                         "id": "finance",
-                        "index": 4,
-                        "percentageQuestion": 16.67,
-                        "percentageSurvey": 12.98,
+                        "count": 98,
+                        "index": 3,
+                        "percentageQuestion": 16.01,
+                        "percentageSurvey": 13.01,
                         "entity": {
                           "id": "finance",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 80,
+                        "id": "ecommerce",
+                        "count": 95,
+                        "index": 4,
+                        "percentageQuestion": 15.52,
+                        "percentageSurvey": 12.62
+                      },
+                      {
                         "id": "cloud_computing",
+                        "count": 62,
                         "index": 5,
-                        "percentageQuestion": 10.18,
-                        "percentageSurvey": 7.93,
+                        "percentageQuestion": 10.13,
+                        "percentageSurvey": 8.23,
                         "entity": {
                           "id": "cloud_computing",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 64,
-                        "id": "manufacturing",
+                        "id": "robotics",
+                        "count": 56,
                         "index": 6,
-                        "percentageQuestion": 8.14,
-                        "percentageSurvey": 6.34,
+                        "percentageQuestion": 9.15,
+                        "percentageSurvey": 7.44,
                         "entity": {
-                          "id": "manufacturing",
-                          "entityType": "default"
+                          "id": "robotics",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 60,
-                        "id": "gaming",
-                        "index": 7,
-                        "percentageQuestion": 7.63,
-                        "percentageSurvey": 5.95,
-                        "entity": {
-                          "id": "gaming",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 51,
-                        "id": "human_resources",
-                        "index": 8,
-                        "percentageQuestion": 6.49,
-                        "percentageSurvey": 5.05,
-                        "entity": {
-                          "id": "human_resources",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 49,
-                        "id": "advertising",
-                        "index": 9,
-                        "percentageQuestion": 6.23,
-                        "percentageSurvey": 4.86,
-                        "entity": {
-                          "id": "advertising",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 37,
                         "id": "education",
-                        "index": 10,
-                        "percentageQuestion": 4.71,
-                        "percentageSurvey": 3.67,
+                        "count": 42,
+                        "index": 7,
+                        "percentageQuestion": 6.86,
+                        "percentageSurvey": 5.58,
                         "entity": {
                           "id": "education",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors",
+                            "state_of_devs",
+                            "discrimination_issues",
+                            "tokyodev",
+                            "initial_attraction",
+                            "life_japan_positive_aspects"
+                          ]
                         }
                       },
                       {
-                        "count": 25,
-                        "id": "crypto",
-                        "index": 11,
-                        "percentageQuestion": 3.18,
-                        "percentageSurvey": 2.48,
+                        "id": "advertising",
+                        "count": 40,
+                        "index": 8,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 5.31,
                         "entity": {
-                          "id": "crypto",
-                          "entityType": "default"
+                          "id": "advertising",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 18,
-                        "id": "automotive",
+                        "id": "energy",
+                        "count": 40,
+                        "index": 9,
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 5.31,
+                        "entity": {
+                          "id": "energy",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "manufacturing",
+                        "count": 39,
+                        "index": 10,
+                        "percentageQuestion": 6.37,
+                        "percentageSurvey": 5.18,
+                        "entity": {
+                          "id": "manufacturing",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "gaming",
+                        "count": 35,
+                        "index": 11,
+                        "percentageQuestion": 5.72,
+                        "percentageSurvey": 4.65,
+                        "entity": {
+                          "id": "gaming",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "human_resources",
+                        "count": 35,
                         "index": 12,
-                        "percentageQuestion": 2.29,
-                        "percentageSurvey": 1.78,
+                        "percentageQuestion": 5.72,
+                        "percentageSurvey": 4.65,
+                        "entity": {
+                          "id": "human_resources",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "automotive",
+                        "count": 13,
+                        "index": 13,
+                        "percentageQuestion": 2.12,
+                        "percentageSurvey": 1.73,
                         "isFreeformData": true,
                         "entity": {
                           "id": "automotive",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 16,
-                        "id": "energy",
-                        "index": 13,
-                        "percentageQuestion": 2.04,
-                        "percentageSurvey": 1.59,
-                        "isFreeformData": true,
-                        "entity": {
-                          "id": "energy",
-                          "entityType": "default"
-                        }
-                      },
-                      {
+                        "id": "crypto",
                         "count": 12,
-                        "id": "robotics",
                         "index": 14,
-                        "percentageQuestion": 1.53,
-                        "percentageSurvey": 1.19,
-                        "isFreeformData": true,
+                        "percentageQuestion": 1.96,
+                        "percentageSurvey": 1.59,
                         "entity": {
-                          "id": "robotics",
-                          "entityType": "default"
+                          "id": "crypto",
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "industry_sectors"
+                          ]
                         }
                       },
                       {
-                        "count": 223,
                         "id": "no_answer",
+                        "count": 141,
                         "index": 15,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 22.1
+                        "percentageSurvey": 18.73
                       },
                       {
-                        "count": 114,
                         "id": "other_answers",
+                        "count": 79,
                         "index": 16,
-                        "percentageQuestion": 14.49,
-                        "percentageSurvey": 11.34,
+                        "percentageQuestion": 12.89,
+                        "percentageSurvey": 10.49,
                         "groupedBuckets": [
                           {
-                            "count": 79,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 10.04,
-                            "percentageSurvey": 7.87
+                            "count": 54,
+                            "index": 0,
+                            "percentageQuestion": 8.81,
+                            "percentageSurvey": 7.17
                           },
                           {
-                            "count": 35,
                             "id": "no_match",
-                            "index": 0,
-                            "percentageQuestion": 4.45,
-                            "percentageSurvey": 3.47,
+                            "count": 25,
+                            "index": 1,
+                            "percentageQuestion": 4.08,
+                            "percentageSurvey": 3.32,
                             "isFreeformData": true
                           }
                         ]

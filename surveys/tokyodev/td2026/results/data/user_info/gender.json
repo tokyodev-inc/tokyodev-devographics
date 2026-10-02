@@ -2,66 +2,101 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "user_info": {
             "gender": {
               "id": "gender",
-              "combined": {
-                "allEditions": [
+              "_correlations": {
+                "optionCorrelations": [
                   {
-                    "_metadata": {
-                      "axis1Sort": {
-                        "property": "options",
-                        "order": "desc"
-                      },
-                      "limit": 50,
-                      "cutoff": 10
-                    },
-                    "editionId": "td2024",
-                    "year": 2024,
-                    "completion": {
-                      "count": 789,
-                      "percentageSurvey": 96.93,
-                      "total": 814
-                    },
-                    "buckets": [
+                    "id": "man",
+                    "correlations": [
                       {
-                        "count": 698,
-                        "id": "man",
-                        "index": 0,
-                        "percentageQuestion": 88.47,
-                        "percentageSurvey": 85.75
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "identify_as_lgbtq",
+                        "sectionId2": "user_info",
+                        "optionId2": "no",
+                        "n": 720,
+                        "correlation": 0.3304,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
                       },
                       {
-                        "count": 79,
-                        "id": "woman",
-                        "index": 1,
-                        "percentageQuestion": 10.01,
-                        "percentageSurvey": 9.71
-                      },
-                      {
-                        "count": 11,
-                        "id": "nb_gq_gnc",
-                        "index": 2,
-                        "percentageQuestion": 1.39,
-                        "percentageSurvey": 1.35
-                      },
-                      {
-                        "count": 1,
-                        "id": "cutoff_answers",
-                        "index": 3,
-                        "percentageQuestion": 0.13,
-                        "percentageSurvey": 0.12
-                      },
-                      {
-                        "count": 25,
-                        "id": "no_answer",
-                        "index": 4,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 3.07
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "man",
+                        "questionId2": "identify_as_lgbtq",
+                        "sectionId2": "user_info",
+                        "optionId2": "yes",
+                        "n": 720,
+                        "correlation": -0.3304,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
                       }
                     ]
                   },
+                  {
+                    "id": "woman",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "identify_as_lgbtq",
+                        "sectionId2": "user_info",
+                        "optionId2": "no",
+                        "n": 720,
+                        "correlation": -0.2577,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "identify_as_lgbtq",
+                        "sectionId2": "user_info",
+                        "optionId2": "yes",
+                        "n": 720,
+                        "correlation": 0.2577,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "gender",
+                        "sectionId1": "user_info",
+                        "optionId1": "woman",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "le_wagon",
+                        "n": 546,
+                        "correlation": 0.162,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "combined": {
+                "allEditions": [
                   {
                     "_metadata": {
                       "axis1Sort": {
@@ -80,39 +115,86 @@
                     },
                     "buckets": [
                       {
-                        "count": 854,
                         "id": "man",
+                        "count": 854,
                         "index": 0,
                         "percentageQuestion": 86.7,
                         "percentageSurvey": 84.64
                       },
                       {
-                        "count": 117,
                         "id": "woman",
+                        "count": 117,
                         "index": 1,
                         "percentageQuestion": 11.88,
                         "percentageSurvey": 11.6
                       },
                       {
-                        "count": 10,
                         "id": "nb_gq_gnc",
+                        "count": 10,
                         "index": 2,
                         "percentageQuestion": 1.02,
                         "percentageSurvey": 0.99
                       },
                       {
-                        "count": 4,
                         "id": "cutoff_answers",
+                        "count": 4,
                         "index": 3,
                         "percentageQuestion": 0.41,
                         "percentageSurvey": 0.4
                       },
                       {
-                        "count": 24,
                         "id": "no_answer",
+                        "count": 24,
                         "index": 4,
                         "percentageQuestion": 0,
                         "percentageSurvey": 2.38
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 50,
+                      "cutoff": 10
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 730,
+                      "percentageSurvey": 96.95,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "man",
+                        "count": 639,
+                        "index": 0,
+                        "percentageQuestion": 87.53,
+                        "percentageSurvey": 84.86
+                      },
+                      {
+                        "id": "woman",
+                        "count": 74,
+                        "index": 1,
+                        "percentageQuestion": 10.14,
+                        "percentageSurvey": 9.83
+                      },
+                      {
+                        "id": "cutoff_answers",
+                        "count": 17,
+                        "index": 2,
+                        "percentageQuestion": 2.33,
+                        "percentageSurvey": 2.26
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 23,
+                        "index": 3,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 3.05
                       }
                     ]
                   }

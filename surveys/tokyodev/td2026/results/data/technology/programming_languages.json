@@ -2,10 +2,2594 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "technology": {
             "programming_languages": {
               "id": "programming_languages",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "n": 658,
+                    "correlation": 0.487,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 615,
+                    "correlation": 0.4448,
+                    "sameSection": true,
+                    "strength": "very_strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "front_end",
+                    "n": 658,
+                    "correlation": 0.3811,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "react",
+                    "n": 615,
+                    "correlation": 0.3533,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "back_end",
+                    "n": 658,
+                    "correlation": 0.3053,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "systems_design",
+                    "n": 658,
+                    "correlation": 0.3031,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 615,
+                    "correlation": -0.2991,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "devops",
+                    "n": 658,
+                    "correlation": 0.2809,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "nextjs",
+                    "n": 615,
+                    "correlation": 0.2796,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "tooling",
+                    "n": 658,
+                    "correlation": 0.2675,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "security",
+                    "n": 658,
+                    "correlation": 0.2583,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "ai_llm",
+                    "n": 658,
+                    "correlation": 0.2564,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "express",
+                    "n": 615,
+                    "correlation": 0.2562,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "test_automation",
+                    "n": 658,
+                    "correlation": 0.2519,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "programming_languages",
+                    "sectionId1": "technology",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "n": 624,
+                    "correlation": 0.2483,
+                    "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "javascript",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 658,
+                        "correlation": 0.5136,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": 0.4319,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 615,
+                        "correlation": 0.4069,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 615,
+                        "correlation": 0.3439,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": -0.3286,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "express",
+                        "n": 615,
+                        "correlation": 0.2645,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ui_ux_design",
+                        "n": 658,
+                        "correlation": 0.2567,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "react_native",
+                        "n": 502,
+                        "correlation": 0.2359,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 624,
+                        "correlation": 0.2096,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.2096,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 624,
+                        "correlation": 0.1972,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "design_systems",
+                        "n": 658,
+                        "correlation": 0.1917,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "saas",
+                        "n": 629,
+                        "correlation": 0.1816,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 640,
+                        "correlation": -0.1728,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "javascript",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "chat_gpt_images",
+                        "n": 651,
+                        "correlation": 0.162,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "python",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "fastapi",
+                        "n": 615,
+                        "correlation": 0.444,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 502,
+                        "correlation": 0.4382,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 502,
+                        "correlation": 0.4203,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 502,
+                        "correlation": 0.3686,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 502,
+                        "correlation": 0.3287,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ai_llm",
+                        "n": 658,
+                        "correlation": 0.3167,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "django",
+                        "n": 615,
+                        "correlation": 0.3084,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "opencv",
+                        "n": 502,
+                        "correlation": 0.2938,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "scikit_learn",
+                        "n": 502,
+                        "correlation": 0.2917,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "tensorflow",
+                        "n": 502,
+                        "correlation": 0.2889,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "data_engineering",
+                        "n": 658,
+                        "correlation": 0.2873,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "machine_learning",
+                        "n": 658,
+                        "correlation": 0.2837,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "ai",
+                        "n": 629,
+                        "correlation": 0.2715,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 502,
+                        "correlation": -0.2508,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "python",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "security",
+                        "n": 658,
+                        "correlation": 0.1955,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "html_css",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 658,
+                        "correlation": 0.5331,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": 0.4075,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 615,
+                        "correlation": 0.3654,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": -0.3523,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 615,
+                        "correlation": 0.3123,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ui_ux_design",
+                        "n": 658,
+                        "correlation": 0.2844,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.2701,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "express",
+                        "n": 615,
+                        "correlation": 0.2583,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "react_native",
+                        "n": 502,
+                        "correlation": 0.2142,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "n": 651,
+                        "correlation": 0.2113,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "design_systems",
+                        "n": 658,
+                        "correlation": 0.2099,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 624,
+                        "correlation": 0.1952,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "manual_testing",
+                        "n": 658,
+                        "correlation": 0.1934,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 624,
+                        "correlation": 0.1915,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "html_css",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "test_automation",
+                        "n": 658,
+                        "correlation": 0.1875,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "typescript",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 615,
+                        "correlation": 0.5645,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 658,
+                        "correlation": 0.5577,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": 0.525,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": -0.4442,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 615,
+                        "correlation": 0.4285,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "react_native",
+                        "n": 502,
+                        "correlation": 0.2592,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "express",
+                        "n": 615,
+                        "correlation": 0.2577,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.2567,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 624,
+                        "correlation": -0.2349,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "saas",
+                        "n": 629,
+                        "correlation": 0.2219,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 624,
+                        "correlation": 0.2141,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": 0.2118,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "continuous_integration",
+                        "n": 626,
+                        "correlation": 0.2094,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 658,
+                        "correlation": 0.2075,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "typescript",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "vuejs",
+                        "n": 615,
+                        "correlation": 0.197,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "bash_shell",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "devops",
+                        "n": 658,
+                        "correlation": 0.2439,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.2326,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "tooling",
+                        "n": 658,
+                        "correlation": 0.2281,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "security",
+                        "n": 658,
+                        "correlation": 0.227,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "sre",
+                        "n": 658,
+                        "correlation": 0.2175,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "platform_engineering",
+                        "n": 658,
+                        "correlation": 0.202,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "embedded_software",
+                        "n": 658,
+                        "correlation": 0.1938,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "test_automation",
+                        "n": 658,
+                        "correlation": 0.1804,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 502,
+                        "correlation": 0.1734,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "systems_design",
+                        "n": 658,
+                        "correlation": 0.1676,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "cloud",
+                        "n": 658,
+                        "correlation": 0.1575,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "bash_shell",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 502,
+                        "correlation": 0.1557,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "sql",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.2673,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": 0.2561,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "data_engineering",
+                        "n": 658,
+                        "correlation": 0.2457,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 502,
+                        "correlation": 0.217,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 658,
+                        "correlation": 0.2138,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "pandas",
+                        "n": 502,
+                        "correlation": 0.2107,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 502,
+                        "correlation": -0.1948,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "tensorflow",
+                        "n": 502,
+                        "correlation": 0.1884,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": -0.1867,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "systems_design",
+                        "n": 658,
+                        "correlation": 0.186,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "express",
+                        "n": 615,
+                        "correlation": 0.1772,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 502,
+                        "correlation": 0.1719,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 626,
+                        "correlation": 0.1717,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 624,
+                        "correlation": 0.1693,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "sql",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "security",
+                        "n": 658,
+                        "correlation": 0.1648,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "java",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 615,
+                        "correlation": 0.6803,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 502,
+                        "correlation": 0.6313,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "apache_kafka",
+                        "n": 502,
+                        "correlation": 0.2761,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 640,
+                        "correlation": 0.2011,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 640,
+                        "correlation": 0.2,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 502,
+                        "correlation": -0.1745,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 658,
+                        "correlation": -0.1725,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "java",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 502,
+                        "correlation": 0.1586,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ruby",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "rails",
+                        "n": 615,
+                        "correlation": 0.8732,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "finance",
+                        "n": 629,
+                        "correlation": 0.1952,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "country",
+                        "sectionId2": "user_info",
+                        "optionId2": "GBR",
+                        "n": 549,
+                        "correlation": 0.1802,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
+                        "optionId2": "le_wagon",
+                        "n": 543,
+                        "correlation": 0.1666,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": 0.1653,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "ruby",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": -0.1554,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "go",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "back_end",
+                        "n": 658,
+                        "correlation": 0.2397,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 626,
+                        "correlation": 0.2309,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "google_cloud",
+                        "n": 624,
+                        "correlation": 0.1996,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 626,
+                        "correlation": 0.1874,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "cloud",
+                        "n": 658,
+                        "correlation": 0.1835,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "overtime_pay",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 640,
+                        "correlation": 0.1705,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "sre",
+                        "n": 658,
+                        "correlation": 0.169,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "ai_tools",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "claude_code",
+                        "n": 651,
+                        "correlation": 0.1643,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "go",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": 0.1549,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cplusplus",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "embedded_software",
+                        "n": 658,
+                        "correlation": 0.3556,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 624,
+                        "correlation": 0.2472,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "robotics",
+                        "n": 629,
+                        "correlation": 0.2348,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 615,
+                        "correlation": 0.2237,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "numpy",
+                        "n": 502,
+                        "correlation": 0.2235,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "machine_learning",
+                        "n": 658,
+                        "correlation": 0.2199,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "opencv",
+                        "n": 502,
+                        "correlation": 0.2017,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "desktop",
+                        "n": 658,
+                        "correlation": 0.1935,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 502,
+                        "correlation": 0.1927,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 615,
+                        "correlation": -0.183,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "n": 502,
+                        "correlation": 0.1681,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "game_development",
+                        "n": 658,
+                        "correlation": 0.1659,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "front_end",
+                        "n": 658,
+                        "correlation": -0.1619,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 626,
+                        "correlation": -0.156,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "cplusplus",
+                        "questionId2": "overtime_hours",
+                        "sectionId2": "job_info",
+                        "n": 644,
+                        "correlation": 0.1547,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "kotlin",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "kotlin",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 502,
+                        "correlation": 0.3271,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "kotlin",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "mobile",
+                        "n": 658,
+                        "correlation": 0.2884,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "kotlin",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 615,
+                        "correlation": 0.2774,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "kotlin",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "apache_kafka",
+                        "n": 502,
+                        "correlation": 0.1944,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "kotlin",
+                        "questionId2": "remote_work_policy",
+                        "sectionId2": "job_info",
+                        "optionId2": "hybrid",
+                        "n": 641,
+                        "correlation": 0.1744,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "php",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "php",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_20_99",
+                        "n": 640,
+                        "correlation": 0.166,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "php",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "vuejs",
+                        "n": 615,
+                        "correlation": 0.1621,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "rust",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "tooling",
+                        "n": 658,
+                        "correlation": 0.2254,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "systems_design",
+                        "n": 658,
+                        "correlation": 0.2045,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "embedded_software",
+                        "n": 658,
+                        "correlation": 0.1988,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 658,
+                        "correlation": 0.1816,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "platform_engineering",
+                        "n": 658,
+                        "correlation": 0.1705,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 626,
+                        "correlation": 0.1597,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "torch_pytorch",
+                        "n": 502,
+                        "correlation": 0.1578,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 640,
+                        "correlation": -0.1569,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "rust",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "security",
+                        "n": 658,
+                        "correlation": 0.1517,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "csharp",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 502,
+                        "correlation": 0.8144,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "game_development",
+                        "n": 658,
+                        "correlation": 0.4112,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "gaming",
+                        "n": 629,
+                        "correlation": 0.331,
+                        "sameSection": false,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "desktop",
+                        "n": 658,
+                        "correlation": 0.2227,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "azure",
+                        "n": 624,
+                        "correlation": 0.2055,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 502,
+                        "correlation": -0.1775,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "aws",
+                        "n": 624,
+                        "correlation": -0.1646,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "monitoring_and_logging",
+                        "n": 626,
+                        "correlation": -0.1613,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ui_ux_design",
+                        "n": 658,
+                        "correlation": 0.1563,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "languages_used_colleagues_english",
+                        "sectionId2": "job_info",
+                        "optionId2": "never",
+                        "n": 644,
+                        "correlation": 0.1535,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": -0.1517,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "csharp",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "version_control",
+                        "n": 626,
+                        "correlation": -0.1505,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "swift",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "swift",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "mobile",
+                        "n": 658,
+                        "correlation": 0.4281,
+                        "sameSection": true,
+                        "strength": "very_strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "programming_languages",
+                        "sectionId1": "technology",
+                        "optionId1": "swift",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "firebase",
+                        "n": 624,
+                        "correlation": 0.2239,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -17,54 +2601,131 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2024",
-                    "year": 2024,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 124,
+                          "percentage": 14.043
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 184,
+                          "percentage": 20.8381
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 203,
+                          "percentage": 22.9898
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 166,
+                          "percentage": 18.7995
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 82,
+                          "percentage": 9.2865
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 64,
+                          "percentage": 7.248
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 32,
+                          "percentage": 3.624
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 15,
+                          "percentage": 1.6988
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 7,
+                          "percentage": 0.7928
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 3,
+                          "percentage": 0.3398
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 2,
+                          "percentage": 0.2265
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 1,
+                          "percentage": 0.1133
+                        }
+                      ],
+                      "max": 13,
+                      "mean": 3.4326,
+                      "n": 883
+                    },
+                    "editionId": "td2025",
+                    "year": 2025,
                     "completion": {
-                      "count": 660,
-                      "percentageSurvey": 81.08,
-                      "total": 814
+                      "count": 878,
+                      "percentageSurvey": 87.02,
+                      "total": 1009
                     },
                     "buckets": [
                       {
-                        "count": 289,
-                        "id": "javascript",
-                        "index": 0,
-                        "percentageQuestion": 43.79,
-                        "percentageSurvey": 35.5,
-                        "entity": {
-                          "name": "JavaScript",
-                          "nameHtml": "JavaScript",
-                          "nameClean": "JavaScript",
-                          "id": "javascript",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                          }
-                        }
-                      },
-                      {
-                        "count": 273,
                         "id": "python",
-                        "index": 1,
-                        "percentageQuestion": 41.36,
-                        "percentageSurvey": 33.54,
+                        "count": 409,
+                        "index": 0,
+                        "percentageQuestion": 46.58,
+                        "percentageSurvey": 40.54,
                         "entity": {
                           "name": "Python",
                           "nameHtml": "Python",
                           "nameClean": "Python",
                           "id": "python",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.python.org/"
                           }
                         }
                       },
                       {
-                        "count": 259,
+                        "id": "javascript",
+                        "count": 399,
+                        "index": 1,
+                        "percentageQuestion": 45.44,
+                        "percentageSurvey": 39.54,
+                        "entity": {
+                          "name": "JavaScript",
+                          "nameHtml": "JavaScript",
+                          "nameClean": "JavaScript",
+                          "id": "javascript",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                          }
+                        }
+                      },
+                      {
                         "id": "typescript",
+                        "count": 373,
                         "index": 2,
-                        "percentageQuestion": 39.24,
-                        "percentageSurvey": 31.82,
+                        "percentageQuestion": 42.48,
+                        "percentageSurvey": 36.97,
                         "entity": {
                           "name": "TypeScript",
                           "nameHtml": "TypeScript",
@@ -74,8 +2735,17 @@
                           "descriptionClean": "A superset of JavaScript that compiles to clean JavaScript output.",
                           "id": "typescript",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
                             "url": "https://www.typescriptlang.org"
+                          },
+                          "github": {
+                            "url": "microsoft/TypeScript"
                           },
                           "npm": {
                             "url": "https://www.npmjs.com/package/typescript"
@@ -83,291 +2753,372 @@
                         }
                       },
                       {
-                        "count": 244,
                         "id": "html_css",
+                        "count": 333,
                         "index": 3,
-                        "percentageQuestion": 36.97,
-                        "percentageSurvey": 29.98,
+                        "percentageQuestion": 37.93,
+                        "percentageSurvey": 33,
                         "entity": {
                           "name": "HTML/CSS",
                           "nameHtml": "HTML/CSS",
                           "nameClean": "HTML/CSS",
                           "id": "html_css",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://whatwg.org/"
                           }
                         }
                       },
                       {
-                        "count": 215,
                         "id": "sql",
+                        "count": 312,
                         "index": 4,
-                        "percentageQuestion": 32.58,
-                        "percentageSurvey": 26.41,
+                        "percentageQuestion": 35.54,
+                        "percentageSurvey": 30.92,
                         "entity": {
                           "name": "SQL",
                           "nameHtml": "SQL",
                           "nameClean": "SQL",
                           "id": "sql",
+                          "parentId": "storage",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/SQL"
                           }
                         }
                       },
                       {
-                        "count": 201,
                         "id": "bash_shell",
+                        "count": 252,
                         "index": 5,
-                        "percentageQuestion": 30.45,
-                        "percentageSurvey": 24.69,
+                        "percentageQuestion": 28.7,
+                        "percentageSurvey": 24.98,
                         "entity": {
                           "name": "Bash/Shell",
                           "nameHtml": "Bash/Shell",
                           "nameClean": "Bash/Shell",
                           "id": "bash_shell",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                           }
                         }
                       },
                       {
-                        "count": 118,
                         "id": "java",
+                        "count": 147,
                         "index": 6,
-                        "percentageQuestion": 17.88,
-                        "percentageSurvey": 14.5,
+                        "percentageQuestion": 16.74,
+                        "percentageSurvey": 14.57,
                         "entity": {
                           "name": "Java",
                           "nameHtml": "Java",
                           "nameClean": "Java",
                           "id": "java",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.java.com/"
                           }
                         }
                       },
                       {
-                        "count": 99,
                         "id": "go",
+                        "count": 119,
                         "index": 7,
-                        "percentageQuestion": 15,
-                        "percentageSurvey": 12.16,
-                        "entity": {
-                          "name": "Go",
-                          "nameHtml": "Go",
-                          "nameClean": "Go",
-                          "id": "golang",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://go.dev/"
-                          }
-                        }
+                        "percentageQuestion": 13.55,
+                        "percentageSurvey": 11.79
                       },
                       {
-                        "count": 79,
                         "id": "ruby",
+                        "count": 108,
                         "index": 8,
-                        "percentageQuestion": 11.97,
-                        "percentageSurvey": 9.71,
+                        "percentageQuestion": 12.3,
+                        "percentageSurvey": 10.7,
                         "entity": {
                           "name": "Ruby",
                           "nameHtml": "Ruby",
                           "nameClean": "Ruby",
                           "id": "ruby",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.ruby-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 71,
-                        "id": "kotlin",
-                        "index": 9,
-                        "percentageQuestion": 10.76,
-                        "percentageSurvey": 8.72,
-                        "entity": {
-                          "name": "Kotlin",
-                          "nameHtml": "Kotlin",
-                          "nameClean": "Kotlin",
-                          "id": "kotlin",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://kotlinlang.org"
-                          }
-                        }
-                      },
-                      {
-                        "count": 70,
                         "id": "cplusplus",
-                        "index": 10,
-                        "percentageQuestion": 10.61,
-                        "percentageSurvey": 8.6,
+                        "count": 104,
+                        "index": 9,
+                        "percentageQuestion": 11.85,
+                        "percentageSurvey": 10.31,
                         "entity": {
                           "name": "C++",
                           "nameHtml": "C++",
                           "nameClean": "C++",
                           "id": "cplusplus",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://cplusplus.com/"
                           }
                         }
                       },
                       {
-                        "count": 61,
                         "id": "php",
-                        "index": 11,
-                        "percentageQuestion": 9.24,
-                        "percentageSurvey": 7.49,
+                        "count": 77,
+                        "index": 10,
+                        "percentageQuestion": 8.77,
+                        "percentageSurvey": 7.63,
                         "entity": {
                           "name": "PHP",
                           "nameHtml": "PHP",
                           "nameClean": "PHP",
                           "id": "php",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.php.net/"
                           }
                         }
                       },
                       {
-                        "count": 39,
-                        "id": "c",
-                        "index": 12,
-                        "percentageQuestion": 5.91,
-                        "percentageSurvey": 4.79,
-                        "isFreeformData": true,
+                        "id": "kotlin",
+                        "count": 75,
+                        "index": 11,
+                        "percentageQuestion": 8.54,
+                        "percentageSurvey": 7.43,
                         "entity": {
-                          "name": "C",
-                          "nameHtml": "C",
-                          "nameClean": "C",
-                          "id": "c",
+                          "name": "Kotlin",
+                          "nameHtml": "Kotlin",
+                          "nameClean": "Kotlin",
+                          "id": "kotlin",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
-                            "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+                            "url": "https://kotlinlang.org/"
                           }
                         }
                       },
                       {
-                        "count": 31,
+                        "id": "csharp",
+                        "count": 67,
+                        "index": 12,
+                        "percentageQuestion": 7.63,
+                        "percentageSurvey": 6.64,
+                        "entity": {
+                          "name": "C#",
+                          "nameHtml": "C#",
+                          "nameClean": "C#",
+                          "id": "csharp",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+                          }
+                        }
+                      },
+                      {
                         "id": "rust",
+                        "count": 64,
                         "index": 13,
-                        "percentageQuestion": 4.7,
-                        "percentageSurvey": 3.81,
+                        "percentageQuestion": 7.29,
+                        "percentageSurvey": 6.34,
                         "entity": {
                           "name": "Rust",
                           "nameHtml": "Rust",
                           "nameClean": "Rust",
                           "id": "rust",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.rust-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 20,
-                        "id": "swift",
+                        "id": "c",
+                        "count": 50,
                         "index": 14,
-                        "percentageQuestion": 3.03,
-                        "percentageSurvey": 2.46,
-                        "isFreeformData": true,
+                        "percentageQuestion": 5.69,
+                        "percentageSurvey": 4.96,
+                        "entity": {
+                          "name": "C",
+                          "nameHtml": "C",
+                          "nameClean": "C",
+                          "id": "c",
+                          "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+                          }
+                        }
+                      },
+                      {
+                        "id": "swift",
+                        "count": 38,
+                        "index": 15,
+                        "percentageQuestion": 4.33,
+                        "percentageSurvey": 3.77,
                         "entity": {
                           "name": "Swift",
                           "nameHtml": "Swift",
                           "nameClean": "Swift",
                           "id": "swift",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.swift.org/"
                           }
                         }
                       },
                       {
-                        "count": 13,
                         "id": "scala",
-                        "index": 15,
-                        "percentageQuestion": 1.97,
-                        "percentageSurvey": 1.6,
-                        "isFreeformData": true,
+                        "count": 23,
+                        "index": 16,
+                        "percentageQuestion": 2.62,
+                        "percentageSurvey": 2.28,
                         "entity": {
                           "name": "Scala",
                           "nameHtml": "Scala",
                           "nameClean": "Scala",
                           "id": "scala",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://scala-lang.org"
                           }
                         }
                       },
                       {
-                        "count": 11,
-                        "id": "c_cplusplus",
-                        "index": 16,
-                        "percentageQuestion": 1.67,
-                        "percentageSurvey": 1.35,
+                        "id": "dart",
+                        "count": 13,
+                        "index": 17,
+                        "percentageQuestion": 1.48,
+                        "percentageSurvey": 1.29,
                         "isFreeformData": true,
                         "entity": {
-                          "name": "C/C++",
-                          "nameHtml": "C/C++",
-                          "nameClean": "C/C++",
-                          "id": "c_cplusplus",
+                          "name": "Dart",
+                          "nameHtml": "Dart",
+                          "nameClean": "Dart",
+                          "description": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionHtml": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionClean": "Dart is a client-optimized language for fast apps on any platform",
+                          "id": "dart",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
-                            "url": "https://cplusplus.com/"
+                            "url": "https://dart.dev/"
                           }
                         }
                       },
                       {
-                        "count": 10,
                         "id": "elixir",
-                        "index": 17,
-                        "percentageQuestion": 1.52,
-                        "percentageSurvey": 1.23,
-                        "isFreeformData": true,
+                        "count": 11,
+                        "index": 18,
+                        "percentageQuestion": 1.25,
+                        "percentageSurvey": 1.09,
                         "entity": {
                           "name": "Elixir",
                           "nameHtml": "Elixir",
                           "nameClean": "Elixir",
                           "id": "elixir",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://elixir-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 154,
                         "id": "no_answer",
-                        "index": 18,
+                        "count": 131,
+                        "index": 19,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 18.92
+                        "percentageSurvey": 12.98
                       },
                       {
-                        "count": 62,
                         "id": "other_answers",
-                        "index": 19,
-                        "percentageQuestion": 9.35,
-                        "percentageSurvey": 7.62,
+                        "count": 62,
+                        "index": 20,
+                        "percentageQuestion": 7.04,
+                        "percentageSurvey": 6.16,
                         "groupedBuckets": [
                           {
-                            "count": 39,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 5.87,
-                            "percentageSurvey": 4.79
+                            "count": 44,
+                            "index": 0,
+                            "percentageQuestion": 4.99,
+                            "percentageSurvey": 4.38
                           },
                           {
-                            "count": 23,
                             "id": "no_match",
-                            "index": 14,
-                            "percentageQuestion": 3.48,
-                            "percentageSurvey": 2.83,
+                            "count": 18,
+                            "index": 1,
+                            "percentageQuestion": 2.05,
+                            "percentageSurvey": 1.78,
                             "isFreeformData": true
                           }
                         ]
@@ -383,54 +3134,109 @@
                       "limit": 20,
                       "cutoff": 10
                     },
-                    "editionId": "td2025",
-                    "year": 2025,
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 108,
+                          "percentage": 16.3885
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 151,
+                          "percentage": 22.9135
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 148,
+                          "percentage": 22.4583
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 104,
+                          "percentage": 15.7815
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 68,
+                          "percentage": 10.3187
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 40,
+                          "percentage": 6.0698
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 23,
+                          "percentage": 3.4901
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 7,
+                          "percentage": 1.0622
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 5,
+                          "percentage": 0.7587
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 2,
+                          "percentage": 0.3035
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 2,
+                          "percentage": 0.3035
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 1,
+                          "percentage": 0.1517
+                        }
+                      ],
+                      "max": 13,
+                      "mean": 3.2883,
+                      "n": 659
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
                     "completion": {
-                      "count": 878,
-                      "percentageSurvey": 87.02,
-                      "total": 1009
+                      "count": 653,
+                      "percentageSurvey": 86.72,
+                      "total": 753
                     },
                     "buckets": [
                       {
-                        "count": 409,
                         "id": "python",
+                        "count": 319,
                         "index": 0,
-                        "percentageQuestion": 46.58,
-                        "percentageSurvey": 40.54,
+                        "percentageQuestion": 48.85,
+                        "percentageSurvey": 42.36,
                         "entity": {
                           "name": "Python",
                           "nameHtml": "Python",
                           "nameClean": "Python",
                           "id": "python",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.python.org/"
                           }
                         }
                       },
                       {
-                        "count": 399,
-                        "id": "javascript",
-                        "index": 1,
-                        "percentageQuestion": 45.44,
-                        "percentageSurvey": 39.54,
-                        "entity": {
-                          "name": "JavaScript",
-                          "nameHtml": "JavaScript",
-                          "nameClean": "JavaScript",
-                          "id": "javascript",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                          }
-                        }
-                      },
-                      {
-                        "count": 373,
                         "id": "typescript",
-                        "index": 2,
-                        "percentageQuestion": 42.48,
-                        "percentageSurvey": 36.97,
+                        "count": 301,
+                        "index": 1,
+                        "percentageQuestion": 46.09,
+                        "percentageSurvey": 39.97,
                         "entity": {
                           "name": "TypeScript",
                           "nameHtml": "TypeScript",
@@ -440,8 +3246,17 @@
                           "descriptionClean": "A superset of JavaScript that compiles to clean JavaScript output.",
                           "id": "typescript",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
                             "url": "https://www.typescriptlang.org"
+                          },
+                          "github": {
+                            "url": "microsoft/TypeScript"
                           },
                           "npm": {
                             "url": "https://www.npmjs.com/package/typescript"
@@ -449,304 +3264,393 @@
                         }
                       },
                       {
-                        "count": 333,
+                        "id": "javascript",
+                        "count": 265,
+                        "index": 2,
+                        "percentageQuestion": 40.58,
+                        "percentageSurvey": 35.19,
+                        "entity": {
+                          "name": "JavaScript",
+                          "nameHtml": "JavaScript",
+                          "nameClean": "JavaScript",
+                          "id": "javascript",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                          }
+                        }
+                      },
+                      {
                         "id": "html_css",
+                        "count": 232,
                         "index": 3,
-                        "percentageQuestion": 37.93,
-                        "percentageSurvey": 33,
+                        "percentageQuestion": 35.53,
+                        "percentageSurvey": 30.81,
                         "entity": {
                           "name": "HTML/CSS",
                           "nameHtml": "HTML/CSS",
                           "nameClean": "HTML/CSS",
                           "id": "html_css",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://whatwg.org/"
                           }
                         }
                       },
                       {
-                        "count": 312,
                         "id": "sql",
+                        "count": 188,
                         "index": 4,
-                        "percentageQuestion": 35.54,
-                        "percentageSurvey": 30.92,
+                        "percentageQuestion": 28.79,
+                        "percentageSurvey": 24.97,
                         "entity": {
                           "name": "SQL",
                           "nameHtml": "SQL",
                           "nameClean": "SQL",
                           "id": "sql",
+                          "parentId": "storage",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/SQL"
                           }
                         }
                       },
                       {
-                        "count": 252,
                         "id": "bash_shell",
+                        "count": 161,
                         "index": 5,
-                        "percentageQuestion": 28.7,
-                        "percentageSurvey": 24.98,
+                        "percentageQuestion": 24.66,
+                        "percentageSurvey": 21.38,
                         "entity": {
                           "name": "Bash/Shell",
                           "nameHtml": "Bash/Shell",
                           "nameClean": "Bash/Shell",
                           "id": "bash_shell",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                           }
                         }
                       },
                       {
-                        "count": 147,
-                        "id": "java",
+                        "id": "go",
+                        "count": 136,
                         "index": 6,
-                        "percentageQuestion": 16.74,
-                        "percentageSurvey": 14.57,
+                        "percentageQuestion": 20.83,
+                        "percentageSurvey": 18.06
+                      },
+                      {
+                        "id": "java",
+                        "count": 95,
+                        "index": 7,
+                        "percentageQuestion": 14.55,
+                        "percentageSurvey": 12.62,
                         "entity": {
                           "name": "Java",
                           "nameHtml": "Java",
                           "nameClean": "Java",
                           "id": "java",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.java.com/"
                           }
                         }
                       },
                       {
-                        "count": 119,
-                        "id": "go",
-                        "index": 7,
-                        "percentageQuestion": 13.55,
-                        "percentageSurvey": 11.79,
-                        "entity": {
-                          "name": "Go",
-                          "nameHtml": "Go",
-                          "nameClean": "Go",
-                          "id": "golang",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://go.dev/"
-                          }
-                        }
-                      },
-                      {
-                        "count": 108,
                         "id": "ruby",
+                        "count": 66,
                         "index": 8,
-                        "percentageQuestion": 12.3,
-                        "percentageSurvey": 10.7,
+                        "percentageQuestion": 10.11,
+                        "percentageSurvey": 8.76,
                         "entity": {
                           "name": "Ruby",
                           "nameHtml": "Ruby",
                           "nameClean": "Ruby",
                           "id": "ruby",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.ruby-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 104,
                         "id": "cplusplus",
+                        "count": 59,
                         "index": 9,
-                        "percentageQuestion": 11.85,
-                        "percentageSurvey": 10.31,
+                        "percentageQuestion": 9.04,
+                        "percentageSurvey": 7.84,
                         "entity": {
                           "name": "C++",
                           "nameHtml": "C++",
                           "nameClean": "C++",
                           "id": "cplusplus",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://cplusplus.com/"
                           }
                         }
                       },
                       {
-                        "count": 77,
-                        "id": "php",
-                        "index": 10,
-                        "percentageQuestion": 8.77,
-                        "percentageSurvey": 7.63,
-                        "entity": {
-                          "name": "PHP",
-                          "nameHtml": "PHP",
-                          "nameClean": "PHP",
-                          "id": "php",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://www.php.net/"
-                          }
-                        }
-                      },
-                      {
-                        "count": 75,
-                        "id": "kotlin",
-                        "index": 11,
-                        "percentageQuestion": 8.54,
-                        "percentageSurvey": 7.43,
-                        "entity": {
-                          "name": "Kotlin",
-                          "nameHtml": "Kotlin",
-                          "nameClean": "Kotlin",
-                          "id": "kotlin",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://kotlinlang.org"
-                          }
-                        }
-                      },
-                      {
-                        "count": 67,
-                        "id": "csharp",
-                        "index": 12,
-                        "percentageQuestion": 7.63,
-                        "percentageSurvey": 6.64,
-                        "entity": {
-                          "name": "C#",
-                          "nameHtml": "C#",
-                          "nameClean": "C#",
-                          "id": "csharp",
-                          "entityType": "library",
-                          "homepage": {
-                            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
-                          }
-                        }
-                      },
-                      {
-                        "count": 64,
                         "id": "rust",
-                        "index": 13,
-                        "percentageQuestion": 7.29,
-                        "percentageSurvey": 6.34,
+                        "count": 59,
+                        "index": 10,
+                        "percentageQuestion": 9.04,
+                        "percentageSurvey": 7.84,
                         "entity": {
                           "name": "Rust",
                           "nameHtml": "Rust",
                           "nameClean": "Rust",
                           "id": "rust",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.rust-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 50,
-                        "id": "c",
-                        "index": 14,
-                        "percentageQuestion": 5.69,
-                        "percentageSurvey": 4.96,
+                        "id": "kotlin",
+                        "count": 47,
+                        "index": 11,
+                        "percentageQuestion": 7.2,
+                        "percentageSurvey": 6.24,
                         "entity": {
-                          "name": "C",
-                          "nameHtml": "C",
-                          "nameClean": "C",
-                          "id": "c",
+                          "name": "Kotlin",
+                          "nameHtml": "Kotlin",
+                          "nameClean": "Kotlin",
+                          "id": "kotlin",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
-                            "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+                            "url": "https://kotlinlang.org/"
                           }
                         }
                       },
                       {
-                        "count": 38,
+                        "id": "csharp",
+                        "count": 45,
+                        "index": 12,
+                        "percentageQuestion": 6.89,
+                        "percentageSurvey": 5.98,
+                        "entity": {
+                          "name": "C#",
+                          "nameHtml": "C#",
+                          "nameClean": "C#",
+                          "id": "csharp",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "php",
+                        "count": 45,
+                        "index": 13,
+                        "percentageQuestion": 6.89,
+                        "percentageSurvey": 5.98,
+                        "entity": {
+                          "name": "PHP",
+                          "nameHtml": "PHP",
+                          "nameClean": "PHP",
+                          "id": "php",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://www.php.net/"
+                          }
+                        }
+                      },
+                      {
                         "id": "swift",
-                        "index": 15,
-                        "percentageQuestion": 4.33,
-                        "percentageSurvey": 3.77,
+                        "count": 32,
+                        "index": 14,
+                        "percentageQuestion": 4.9,
+                        "percentageSurvey": 4.25,
                         "entity": {
                           "name": "Swift",
                           "nameHtml": "Swift",
                           "nameClean": "Swift",
                           "id": "swift",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.swift.org/"
                           }
                         }
                       },
                       {
-                        "count": 23,
-                        "id": "scala",
-                        "index": 16,
-                        "percentageQuestion": 2.62,
-                        "percentageSurvey": 2.28,
+                        "id": "c",
+                        "count": 29,
+                        "index": 15,
+                        "percentageQuestion": 4.44,
+                        "percentageSurvey": 3.85,
                         "entity": {
-                          "name": "Scala",
-                          "nameHtml": "Scala",
-                          "nameClean": "Scala",
-                          "id": "scala",
+                          "name": "C",
+                          "nameHtml": "C",
+                          "nameClean": "C",
+                          "id": "c",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
-                            "url": "https://scala-lang.org"
+                            "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
                           }
                         }
                       },
                       {
-                        "count": 13,
                         "id": "dart",
-                        "index": 17,
-                        "percentageQuestion": 1.48,
-                        "percentageSurvey": 1.29,
-                        "isFreeformData": true,
+                        "count": 16,
+                        "index": 16,
+                        "percentageQuestion": 2.45,
+                        "percentageSurvey": 2.12,
                         "entity": {
                           "name": "Dart",
                           "nameHtml": "Dart",
                           "nameClean": "Dart",
+                          "description": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionHtml": "Dart is a client-optimized language for fast apps on any platform",
+                          "descriptionClean": "Dart is a client-optimized language for fast apps on any platform",
                           "id": "dart",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
-                            "url": "https://dart.dev"
+                            "url": "https://dart.dev/"
                           }
                         }
                       },
                       {
-                        "count": 11,
                         "id": "elixir",
-                        "index": 18,
-                        "percentageQuestion": 1.25,
-                        "percentageSurvey": 1.09,
+                        "count": 13,
+                        "index": 17,
+                        "percentageQuestion": 1.99,
+                        "percentageSurvey": 1.73,
                         "entity": {
                           "name": "Elixir",
                           "nameHtml": "Elixir",
                           "nameClean": "Elixir",
                           "id": "elixir",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://elixir-lang.org/"
                           }
                         }
                       },
                       {
-                        "count": 131,
-                        "id": "no_answer",
-                        "index": 19,
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 12.98
+                        "id": "scala",
+                        "count": 12,
+                        "index": 18,
+                        "percentageQuestion": 1.84,
+                        "percentageSurvey": 1.59,
+                        "entity": {
+                          "name": "Scala",
+                          "nameHtml": "Scala",
+                          "nameClean": "Scala",
+                          "id": "scala",
+                          "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
+                          "homepage": {
+                            "url": "https://scala-lang.org"
+                          }
+                        }
                       },
                       {
-                        "count": 62,
+                        "id": "no_answer",
+                        "count": 100,
+                        "index": 19,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 13.28
+                      },
+                      {
                         "id": "other_answers",
+                        "count": 47,
                         "index": 20,
-                        "percentageQuestion": 7.04,
-                        "percentageSurvey": 6.16,
+                        "percentageQuestion": 7.18,
+                        "percentageSurvey": 6.24,
                         "groupedBuckets": [
                           {
-                            "count": 44,
                             "id": "cutoff_answers",
-                            "percentageQuestion": 4.99,
-                            "percentageSurvey": 4.38
+                            "count": 36,
+                            "index": 0,
+                            "percentageQuestion": 5.5,
+                            "percentageSurvey": 4.78
                           },
                           {
-                            "count": 18,
                             "id": "no_match",
-                            "index": 19,
-                            "percentageQuestion": 2.05,
-                            "percentageSurvey": 1.78,
+                            "count": 11,
+                            "index": 1,
+                            "percentageQuestion": 1.68,
+                            "percentageSurvey": 1.46,
                             "isFreeformData": true
                           }
                         ]

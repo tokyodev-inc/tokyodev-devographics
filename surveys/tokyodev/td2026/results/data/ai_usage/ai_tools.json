@@ -2,10 +2,1222 @@
   "dataAPI": {
     "surveys": {
       "tokyodev": {
-        "td2025": {
+        "td2026": {
           "ai_usage": {
             "ai_tools": {
               "id": "ai_tools",
+              "_correlations": {
+                "questionCorrelations": [
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "0",
+                    "n": 645,
+                    "correlation": -0.3046,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_generated_code_balance",
+                    "sectionId2": "ai_usage",
+                    "n": 645,
+                    "correlation": 0.303,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "0",
+                    "n": 649,
+                    "correlation": -0.303,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_impact",
+                    "sectionId2": "ai_usage",
+                    "n": 648,
+                    "correlation": 0.2909,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "n": 649,
+                    "correlation": 0.2862,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "more_productive",
+                    "sectionId2": "ai_usage",
+                    "n": 657,
+                    "correlation": 0.2774,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "ai_llm",
+                    "n": 661,
+                    "correlation": 0.2353,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "n": 661,
+                    "correlation": 0.2239,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "n": 626,
+                    "correlation": 0.2128,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "optionId2": "html_css",
+                    "n": 651,
+                    "correlation": 0.2113,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "programming_languages",
+                    "sectionId2": "technology",
+                    "n": 651,
+                    "correlation": 0.2061,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "cloud_platforms",
+                    "sectionId2": "technology",
+                    "optionId2": "cloudflare",
+                    "n": 626,
+                    "correlation": 0.1975,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "cardinality",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "n": 614,
+                    "correlation": 0.1845,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "work_areas",
+                    "sectionId2": "technology",
+                    "optionId2": "design_systems",
+                    "n": 661,
+                    "correlation": 0.1844,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "ai_tools",
+                    "sectionId1": "ai_usage",
+                    "questionId2": "web_frameworks",
+                    "sectionId2": "technology",
+                    "optionId2": "na",
+                    "n": 614,
+                    "correlation": -0.1809,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  }
+                ],
+                "optionCorrelations": [
+                  {
+                    "id": "chat_gpt",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 657,
+                        "correlation": 0.2439,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 648,
+                        "correlation": 0.2132,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 648,
+                        "correlation": 0.1967,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.1669,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 649,
+                        "correlation": -0.1514,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "claude",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 645,
+                        "correlation": -0.317,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "0",
+                        "n": 649,
+                        "correlation": -0.2843,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.2035,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": 0.1914,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": 0.1825,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.1759,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 661,
+                        "correlation": 0.1644,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "n": 651,
+                        "correlation": 0.1626,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "typescript",
+                        "n": 651,
+                        "correlation": 0.162,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 614,
+                        "correlation": 0.1561,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 614,
+                        "correlation": 0.1536,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 614,
+                        "correlation": -0.1524,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "microsoft_copilot",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "microsoft_copilot",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 501,
+                        "correlation": 0.1792,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "microsoft_copilot",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "optionId2": "range_over_10000",
+                        "n": 643,
+                        "correlation": 0.1765,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "microsoft_copilot",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "spring",
+                        "n": 501,
+                        "correlation": 0.1662,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "open_ai_codex",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.2665,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 657,
+                        "correlation": 0.2403,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": 0.2112,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 648,
+                        "correlation": 0.2072,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 661,
+                        "correlation": 0.1573,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "open_ai_codex",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ai_llm",
+                        "n": 661,
+                        "correlation": 0.154,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "claude_code",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.3671,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "ai_code_generation_frequency",
+                        "sectionId2": "ai_usage",
+                        "n": 649,
+                        "correlation": 0.3407,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "n": 628,
+                        "correlation": 0.2232,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "ai_management_pressure",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.2222,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ai_llm",
+                        "n": 661,
+                        "correlation": 0.2099,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "n": 661,
+                        "correlation": 0.2079,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "industry_sector",
+                        "sectionId2": "job_info",
+                        "optionId2": "saas",
+                        "n": 633,
+                        "correlation": 0.1933,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "pair_programming",
+                        "n": 628,
+                        "correlation": 0.1857,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 614,
+                        "correlation": 0.1686,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "na",
+                        "n": 614,
+                        "correlation": -0.1672,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 657,
+                        "correlation": 0.1665,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "go",
+                        "n": 651,
+                        "correlation": 0.1643,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "software_engineering_practices",
+                        "sectionId2": "technology",
+                        "optionId2": "infrastructure_as_code",
+                        "n": 628,
+                        "correlation": 0.1627,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "test_automation",
+                        "n": 661,
+                        "correlation": 0.1588,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "claude_code",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "systems_design",
+                        "n": 661,
+                        "correlation": 0.1581,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "copilot",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "copilot",
+                        "questionId2": "company_size",
+                        "sectionId2": "job_info",
+                        "n": 643,
+                        "correlation": 0.1882,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "copilot",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "design_systems",
+                        "n": 661,
+                        "correlation": 0.1849,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "copilot",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "dot_net",
+                        "n": 501,
+                        "correlation": 0.1739,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cursor",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "cursor",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 657,
+                        "correlation": 0.1618,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "cursor",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 648,
+                        "correlation": 0.1612,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "cursor",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 657,
+                        "correlation": 0.1593,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "nano_banana",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "nano_banana",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 648,
+                        "correlation": 0.1913,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "nano_banana",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "html_css",
+                        "n": 651,
+                        "correlation": 0.1716,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "nano_banana",
+                        "questionId2": "searching_for_job",
+                        "sectionId2": "job_info",
+                        "optionId2": "yes",
+                        "n": 662,
+                        "correlation": 0.1586,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "nano_banana",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 614,
+                        "correlation": 0.1507,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "chat_gpt_images",
+                    "correlations": [
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "optionId2": "4",
+                        "n": 648,
+                        "correlation": 0.2464,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "vercel",
+                        "n": 626,
+                        "correlation": 0.2437,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "ai_impact",
+                        "sectionId2": "ai_usage",
+                        "n": 648,
+                        "correlation": 0.2369,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "work_areas",
+                        "sectionId2": "technology",
+                        "optionId2": "ui_ux_design",
+                        "n": 661,
+                        "correlation": 0.2331,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "n": 614,
+                        "correlation": 0.2092,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "nextjs",
+                        "n": 614,
+                        "correlation": 0.2048,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "other_frameworks_libraries",
+                        "sectionId2": "technology",
+                        "optionId2": "react_native",
+                        "n": 501,
+                        "correlation": 0.1941,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "optionId2": "html_css",
+                        "n": 651,
+                        "correlation": 0.1844,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "react",
+                        "n": 614,
+                        "correlation": 0.1844,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "optionId2": "firebase",
+                        "n": 626,
+                        "correlation": 0.1724,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "ai_generated_code_balance",
+                        "sectionId2": "ai_usage",
+                        "n": 645,
+                        "correlation": 0.1685,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "web_frameworks",
+                        "sectionId2": "technology",
+                        "optionId2": "express",
+                        "n": 614,
+                        "correlation": 0.1666,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "programming_languages",
+                        "sectionId2": "technology",
+                        "n": 651,
+                        "correlation": 0.1654,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "more_productive",
+                        "sectionId2": "ai_usage",
+                        "n": 657,
+                        "correlation": 0.1647,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "cardinality",
+                        "questionId1": "ai_tools",
+                        "sectionId1": "ai_usage",
+                        "optionId1": "chat_gpt_images",
+                        "questionId2": "cloud_platforms",
+                        "sectionId2": "technology",
+                        "n": 626,
+                        "correlation": 0.1638,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      }
+                    ]
+                  }
+                ]
+              },
               "combined": {
                 "allEditions": [
                   {
@@ -17,6 +1229,63 @@
                       "limit": 20,
                       "cutoff": 10
                     },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 164,
+                          "percentage": 19.6407
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 243,
+                          "percentage": 29.1018
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 204,
+                          "percentage": 24.4311
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 132,
+                          "percentage": 15.8084
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 55,
+                          "percentage": 6.5868
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 24,
+                          "percentage": 2.8743
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 5,
+                          "percentage": 0.5988
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 4,
+                          "percentage": 0.479
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 3,
+                          "percentage": 0.3593
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 1,
+                          "percentage": 0.1198
+                        }
+                      ],
+                      "max": 13,
+                      "mean": 2.7772,
+                      "n": 835
+                    },
                     "editionId": "td2025",
                     "year": 2025,
                     "completion": {
@@ -26,8 +1295,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 624,
                         "id": "chat_gpt",
+                        "count": 624,
                         "index": 0,
                         "percentageQuestion": 71.15,
                         "percentageSurvey": 61.84,
@@ -36,15 +1305,23 @@
                           "nameHtml": "ChatGPT",
                           "nameClean": "ChatGPT",
                           "id": "chat_gpt",
+                          "parentId": "ai_tools",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools",
+                            "first_steps",
+                            "sites"
+                          ],
                           "homepage": {
-                            "url": "https://chat.openai.com/"
+                            "url": "https://chatgpt.com/"
                           }
                         }
                       },
                       {
-                        "count": 399,
                         "id": "claude",
+                        "count": 399,
                         "index": 1,
                         "percentageQuestion": 45.5,
                         "percentageSurvey": 39.54,
@@ -54,14 +1331,19 @@
                           "nameClean": "Claude",
                           "id": "claude",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://claude.ai/"
                           }
                         }
                       },
                       {
-                        "count": 379,
                         "id": "copilot",
+                        "count": 379,
                         "index": 2,
                         "percentageQuestion": 43.22,
                         "percentageSurvey": 37.56,
@@ -71,14 +1353,19 @@
                           "nameClean": "GitHub Copilot",
                           "id": "copilot",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://github.com/features/copilot"
                           }
                         }
                       },
                       {
-                        "count": 297,
                         "id": "gemini",
+                        "count": 297,
                         "index": 3,
                         "percentageQuestion": 33.87,
                         "percentageSurvey": 29.44,
@@ -88,14 +1375,19 @@
                           "nameClean": "Google Gemini",
                           "id": "gemini",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://gemini.google.com/"
                           }
                         }
                       },
                       {
-                        "count": 163,
                         "id": "cursor",
+                        "count": 163,
                         "index": 4,
                         "percentageQuestion": 18.59,
                         "percentageSurvey": 16.15,
@@ -105,14 +1397,19 @@
                           "nameClean": "Cursor",
                           "id": "cursor",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://www.cursor.so/"
                           }
                         }
                       },
                       {
-                        "count": 139,
                         "id": "deepl",
+                        "count": 139,
                         "index": 5,
                         "percentageQuestion": 15.85,
                         "percentageSurvey": 13.78,
@@ -122,14 +1419,19 @@
                           "nameClean": "DeepL",
                           "id": "deepl",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://www.deepl.com/"
                           }
                         }
                       },
                       {
-                        "count": 91,
                         "id": "microsoft_copilot",
+                        "count": 91,
                         "index": 6,
                         "percentageQuestion": 10.38,
                         "percentageSurvey": 9.02,
@@ -139,15 +1441,27 @@
                           "nameClean": "Microsoft Copilot",
                           "id": "microsoft_copilot",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://copilot.microsoft.com/"
                           }
                         }
                       },
                       {
-                        "count": 50,
-                        "id": "perplexity",
+                        "id": "na",
+                        "count": 54,
                         "index": 7,
+                        "percentageQuestion": 6.16,
+                        "percentageSurvey": 5.35
+                      },
+                      {
+                        "id": "perplexity",
+                        "count": 50,
+                        "index": 8,
                         "percentageQuestion": 5.7,
                         "percentageSurvey": 4.96,
                         "entity": {
@@ -156,15 +1470,20 @@
                           "nameClean": "Perplexity",
                           "id": "perplexity",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://www.perplexity.ai/"
                           }
                         }
                       },
                       {
-                        "count": 42,
                         "id": "grok",
-                        "index": 8,
+                        "count": 42,
+                        "index": 9,
                         "percentageQuestion": 4.79,
                         "percentageSurvey": 4.16,
                         "entity": {
@@ -173,15 +1492,20 @@
                           "nameClean": "Grok",
                           "id": "grok",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
-                            "url": "https://x.ai/grok"
+                            "url": "https://x.ai/"
                           }
                         }
                       },
                       {
-                        "count": 29,
                         "id": "devin",
-                        "index": 9,
+                        "count": 29,
+                        "index": 10,
                         "percentageQuestion": 3.31,
                         "percentageSurvey": 2.87,
                         "entity": {
@@ -190,15 +1514,20 @@
                           "nameClean": "Devin",
                           "id": "devin",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://devin.ai"
                           }
                         }
                       },
                       {
-                        "count": 23,
                         "id": "v0",
-                        "index": 10,
+                        "count": 23,
+                        "index": 11,
                         "percentageQuestion": 2.62,
                         "percentageSurvey": 2.28,
                         "entity": {
@@ -207,15 +1536,20 @@
                           "nameClean": "v0",
                           "id": "v0",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://v0.dev/"
                           }
                         }
                       },
                       {
-                        "count": 11,
                         "id": "stable_diffusion",
-                        "index": 11,
+                        "count": 11,
+                        "index": 12,
                         "percentageQuestion": 1.25,
                         "percentageSurvey": 1.09,
                         "entity": {
@@ -224,54 +1558,538 @@
                           "nameClean": "Stable Diffusion",
                           "id": "stable_diffusion",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
                           "homepage": {
                             "url": "https://stability.ai/stable-image"
                           }
                         }
                       },
                       {
-                        "count": 54,
-                        "id": "na",
-                        "index": 12,
-                        "percentageQuestion": 6.16,
-                        "percentageSurvey": 5.35,
-                        "entity": {
-                          "name": "Not applicable",
-                          "nameHtml": "Not applicable",
-                          "nameClean": "Not applicable",
-                          "description": "No use cases, no pain, no issues.",
-                          "descriptionHtml": "No use cases, no pain, no issues.",
-                          "descriptionClean": "No use cases, no pain, no issues.",
-                          "id": "na",
-                          "entityType": "default"
-                        }
-                      },
-                      {
-                        "count": 132,
                         "id": "no_answer",
+                        "count": 132,
                         "index": 13,
                         "percentageQuestion": 0,
                         "percentageSurvey": 13.08
                       },
                       {
-                        "count": 80,
                         "id": "other_answers",
+                        "count": 80,
                         "index": 14,
                         "percentageQuestion": 9.07,
                         "percentageSurvey": 7.95,
                         "groupedBuckets": [
                           {
-                            "count": 58,
                             "id": "cutoff_answers",
+                            "count": 58,
+                            "index": 0,
                             "percentageQuestion": 6.56,
                             "percentageSurvey": 5.77
                           },
                           {
-                            "count": 22,
                             "id": "no_match",
-                            "index": 21,
+                            "count": 22,
+                            "index": 1,
                             "percentageQuestion": 2.51,
                             "percentageSurvey": 2.18,
+                            "isFreeformData": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "count",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 10
+                    },
+                    "_cardinalities": {
+                      "buckets": [
+                        {
+                          "answerCount": 1,
+                          "count": 58,
+                          "percentage": 9.0767
+                        },
+                        {
+                          "answerCount": 2,
+                          "count": 146,
+                          "percentage": 22.8482
+                        },
+                        {
+                          "answerCount": 3,
+                          "count": 161,
+                          "percentage": 25.1956
+                        },
+                        {
+                          "answerCount": 4,
+                          "count": 115,
+                          "percentage": 17.9969
+                        },
+                        {
+                          "answerCount": 5,
+                          "count": 66,
+                          "percentage": 10.3286
+                        },
+                        {
+                          "answerCount": 6,
+                          "count": 43,
+                          "percentage": 6.7293
+                        },
+                        {
+                          "answerCount": 7,
+                          "count": 28,
+                          "percentage": 4.3818
+                        },
+                        {
+                          "answerCount": 8,
+                          "count": 5,
+                          "percentage": 0.7825
+                        },
+                        {
+                          "answerCount": 9,
+                          "count": 8,
+                          "percentage": 1.252
+                        },
+                        {
+                          "answerCount": 10,
+                          "count": 2,
+                          "percentage": 0.313
+                        },
+                        {
+                          "answerCount": 11,
+                          "count": 2,
+                          "percentage": 0.313
+                        },
+                        {
+                          "answerCount": 12,
+                          "count": 1,
+                          "percentage": 0.1565
+                        },
+                        {
+                          "answerCount": 13,
+                          "count": 2,
+                          "percentage": 0.313
+                        },
+                        {
+                          "answerCount": 16,
+                          "count": 1,
+                          "percentage": 0.1565
+                        },
+                        {
+                          "answerCount": 19,
+                          "count": 1,
+                          "percentage": 0.1565
+                        }
+                      ],
+                      "max": 19,
+                      "mean": 3.6056,
+                      "n": 639
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 660,
+                      "percentageSurvey": 87.65,
+                      "total": 753
+                    },
+                    "buckets": [
+                      {
+                        "id": "claude",
+                        "count": 478,
+                        "index": 0,
+                        "percentageQuestion": 72.42,
+                        "percentageSurvey": 63.48,
+                        "entity": {
+                          "name": "Claude",
+                          "nameHtml": "Claude",
+                          "nameClean": "Claude",
+                          "id": "claude",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://claude.ai/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "claude_code",
+                        "count": 450,
+                        "index": 1,
+                        "percentageQuestion": 68.18,
+                        "percentageSurvey": 59.76,
+                        "entity": {
+                          "name": "Claude Code",
+                          "nameHtml": "Claude Code",
+                          "nameClean": "Claude Code",
+                          "id": "claude_code",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://code.claude.com/docs/en/overview"
+                          }
+                        }
+                      },
+                      {
+                        "id": "chat_gpt",
+                        "count": 306,
+                        "index": 2,
+                        "percentageQuestion": 46.36,
+                        "percentageSurvey": 40.64,
+                        "entity": {
+                          "name": "ChatGPT",
+                          "nameHtml": "ChatGPT",
+                          "nameClean": "ChatGPT",
+                          "id": "chat_gpt",
+                          "parentId": "ai_tools",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools",
+                            "first_steps",
+                            "sites"
+                          ],
+                          "homepage": {
+                            "url": "https://chatgpt.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "gemini",
+                        "count": 255,
+                        "index": 3,
+                        "percentageQuestion": 38.64,
+                        "percentageSurvey": 33.86,
+                        "entity": {
+                          "name": "Google Gemini",
+                          "nameHtml": "Google Gemini",
+                          "nameClean": "Google Gemini",
+                          "id": "gemini",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://gemini.google.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "open_ai_codex",
+                        "count": 191,
+                        "index": 4,
+                        "percentageQuestion": 28.94,
+                        "percentageSurvey": 25.37,
+                        "entity": {
+                          "name": "OpenAI Codex",
+                          "nameHtml": "OpenAI Codex",
+                          "nameClean": "OpenAI Codex",
+                          "id": "open_ai_codex",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://openai.com/codex/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "copilot",
+                        "count": 156,
+                        "index": 5,
+                        "percentageQuestion": 23.64,
+                        "percentageSurvey": 20.72,
+                        "entity": {
+                          "name": "GitHub Copilot",
+                          "nameHtml": "GitHub Copilot",
+                          "nameClean": "GitHub Copilot",
+                          "id": "copilot",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://github.com/features/copilot"
+                          }
+                        }
+                      },
+                      {
+                        "id": "cursor",
+                        "count": 78,
+                        "index": 6,
+                        "percentageQuestion": 11.82,
+                        "percentageSurvey": 10.36,
+                        "entity": {
+                          "name": "Cursor",
+                          "nameHtml": "Cursor",
+                          "nameClean": "Cursor",
+                          "id": "cursor",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://www.cursor.so/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "microsoft_copilot",
+                        "count": 74,
+                        "index": 7,
+                        "percentageQuestion": 11.21,
+                        "percentageSurvey": 9.83,
+                        "entity": {
+                          "name": "Microsoft Copilot",
+                          "nameHtml": "Microsoft Copilot",
+                          "nameClean": "Microsoft Copilot",
+                          "id": "microsoft_copilot",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://copilot.microsoft.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "chat_gpt_images",
+                        "count": 55,
+                        "index": 8,
+                        "percentageQuestion": 8.33,
+                        "percentageSurvey": 7.3,
+                        "entity": {
+                          "name": "ChatGPT Images",
+                          "nameHtml": "ChatGPT Images",
+                          "nameClean": "ChatGPT Images",
+                          "id": "chat_gpt_images",
+                          "parentId": "ai_tools",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://chatgpt.com/images/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "open_code",
+                        "count": 55,
+                        "index": 9,
+                        "percentageQuestion": 8.33,
+                        "percentageSurvey": 7.3,
+                        "entity": {
+                          "name": "OpenCode",
+                          "nameHtml": "OpenCode",
+                          "nameClean": "OpenCode",
+                          "id": "open_code",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://opencode.ai/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "nano_banana",
+                        "count": 51,
+                        "index": 10,
+                        "percentageQuestion": 7.73,
+                        "percentageSurvey": 6.77,
+                        "entity": {
+                          "name": "Nano Banana",
+                          "nameHtml": "Nano Banana",
+                          "nameClean": "Nano Banana",
+                          "id": "nano_banana",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://gemini.google/overview/image-generation/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "grok",
+                        "count": 27,
+                        "index": 11,
+                        "percentageQuestion": 4.09,
+                        "percentageSurvey": 3.59,
+                        "entity": {
+                          "name": "Grok",
+                          "nameHtml": "Grok",
+                          "nameClean": "Grok",
+                          "id": "grok",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://x.ai/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "na",
+                        "count": 26,
+                        "index": 12,
+                        "percentageQuestion": 3.94,
+                        "percentageSurvey": 3.45
+                      },
+                      {
+                        "id": "deepseek",
+                        "count": 20,
+                        "index": 13,
+                        "percentageQuestion": 3.03,
+                        "percentageSurvey": 2.66,
+                        "entity": {
+                          "name": "DeepSeek",
+                          "nameHtml": "DeepSeek",
+                          "nameClean": "DeepSeek",
+                          "id": "deepseek",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://www.deepseek.com/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "kimi",
+                        "count": 20,
+                        "index": 14,
+                        "percentageQuestion": 3.03,
+                        "percentageSurvey": 2.66,
+                        "entity": {
+                          "name": "Kimi",
+                          "nameHtml": "Kimi",
+                          "nameClean": "Kimi",
+                          "id": "kimi",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://kimi.moonshot.cn/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "llama",
+                        "count": 15,
+                        "index": 15,
+                        "percentageQuestion": 2.27,
+                        "percentageSurvey": 1.99,
+                        "entity": {
+                          "name": "Llama",
+                          "nameHtml": "Llama",
+                          "nameClean": "Llama",
+                          "id": "llama",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://ai.meta.com/llama/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "perplexity",
+                        "count": 12,
+                        "index": 16,
+                        "percentageQuestion": 1.82,
+                        "percentageSurvey": 1.59,
+                        "entity": {
+                          "name": "Perplexity",
+                          "nameHtml": "Perplexity",
+                          "nameClean": "Perplexity",
+                          "id": "perplexity",
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "ai_tools"
+                          ],
+                          "homepage": {
+                            "url": "https://www.perplexity.ai/"
+                          }
+                        }
+                      },
+                      {
+                        "id": "no_answer",
+                        "count": 93,
+                        "index": 17,
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 12.35
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 66,
+                        "index": 18,
+                        "percentageQuestion": 9.97,
+                        "percentageSurvey": 8.77,
+                        "groupedBuckets": [
+                          {
+                            "id": "cutoff_answers",
+                            "count": 54,
+                            "index": 0,
+                            "percentageQuestion": 8.15,
+                            "percentageSurvey": 7.18
+                          },
+                          {
+                            "id": "no_match",
+                            "count": 12,
+                            "index": 1,
+                            "percentageQuestion": 1.82,
+                            "percentageSurvey": 1.59,
                             "isFreeformData": true
                           }
                         ]
