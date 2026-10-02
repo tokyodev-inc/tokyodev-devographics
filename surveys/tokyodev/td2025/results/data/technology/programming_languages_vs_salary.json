@@ -16,7 +16,7 @@
                       },
                       "axis2Sort": {
                         "property": "options",
-                        "order": "desc"
+                        "order": "asc"
                       },
                       "limit": 50,
                       "cutoff": 10
@@ -30,8 +30,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 11,
                         "id": "elixir",
+                        "count": 11,
                         "index": 0,
                         "percentageQuestion": 1.25,
                         "percentageSurvey": 1.09,
@@ -41,6 +41,11 @@
                           "nameClean": "Elixir",
                           "id": "elixir",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://elixir-lang.org/"
                           }
@@ -65,8 +70,8 @@
                         ]
                       },
                       {
-                        "count": 75,
                         "id": "kotlin",
+                        "count": 75,
                         "index": 1,
                         "percentageQuestion": 8.54,
                         "percentageSurvey": 7.43,
@@ -76,6 +81,12 @@
                           "nameClean": "Kotlin",
                           "id": "kotlin",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
                             "url": "https://kotlinlang.org/"
                           }
@@ -124,8 +135,8 @@
                         ]
                       },
                       {
-                        "count": 38,
                         "id": "swift",
+                        "count": 38,
                         "index": 2,
                         "percentageQuestion": 4.33,
                         "percentageSurvey": 3.77,
@@ -135,6 +146,11 @@
                           "nameClean": "Swift",
                           "id": "swift",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.swift.org/"
                           }
@@ -159,8 +175,8 @@
                         ]
                       },
                       {
-                        "count": 50,
                         "id": "c",
+                        "count": 50,
                         "index": 3,
                         "percentageQuestion": 5.69,
                         "percentageSurvey": 4.96,
@@ -170,6 +186,10 @@
                           "nameClean": "C",
                           "id": "c",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
                           }
@@ -206,8 +226,8 @@
                         ]
                       },
                       {
-                        "count": 63,
                         "id": "rust",
+                        "count": 63,
                         "index": 4,
                         "percentageQuestion": 7.18,
                         "percentageSurvey": 6.24,
@@ -217,6 +237,11 @@
                           "nameClean": "Rust",
                           "id": "rust",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.rust-lang.org/"
                           }
@@ -259,8 +284,8 @@
                         ]
                       },
                       {
-                        "count": 23,
                         "id": "scala",
+                        "count": 23,
                         "index": 5,
                         "percentageQuestion": 2.62,
                         "percentageSurvey": 2.28,
@@ -270,6 +295,11 @@
                           "nameClean": "Scala",
                           "id": "scala",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://scala-lang.org"
                           }
@@ -294,8 +324,8 @@
                         ]
                       },
                       {
-                        "count": 252,
                         "id": "bash_shell",
+                        "count": 252,
                         "index": 6,
                         "percentageQuestion": 28.7,
                         "percentageSurvey": 24.98,
@@ -305,6 +335,10 @@
                           "nameClean": "Bash/Shell",
                           "id": "bash_shell",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
                           }
@@ -371,8 +405,8 @@
                         ]
                       },
                       {
-                        "count": 119,
                         "id": "go",
+                        "count": 119,
                         "index": 7,
                         "percentageQuestion": 13.55,
                         "percentageSurvey": 11.79,
@@ -426,8 +460,8 @@
                         ]
                       },
                       {
-                        "count": 147,
                         "id": "java",
+                        "count": 147,
                         "index": 8,
                         "percentageQuestion": 16.74,
                         "percentageSurvey": 14.57,
@@ -437,6 +471,11 @@
                           "nameClean": "Java",
                           "id": "java",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.java.com/"
                           }
@@ -503,8 +542,8 @@
                         ]
                       },
                       {
-                        "count": 103,
                         "id": "cplusplus",
+                        "count": 103,
                         "index": 9,
                         "percentageQuestion": 11.73,
                         "percentageSurvey": 10.21,
@@ -514,6 +553,10 @@
                           "nameClean": "C++",
                           "id": "cplusplus",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://cplusplus.com/"
                           }
@@ -562,8 +605,8 @@
                         ]
                       },
                       {
-                        "count": 887,
                         "id": "overall",
+                        "count": 887,
                         "index": 10,
                         "percentageQuestion": 101.03,
                         "percentageSurvey": 87.91,
@@ -641,8 +684,8 @@
                         ]
                       },
                       {
-                        "count": 407,
                         "id": "python",
+                        "count": 407,
                         "index": 11,
                         "percentageQuestion": 46.36,
                         "percentageSurvey": 40.34,
@@ -652,6 +695,11 @@
                           "nameClean": "Python",
                           "id": "python",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.python.org/"
                           }
@@ -730,8 +778,8 @@
                         ]
                       },
                       {
-                        "count": 108,
                         "id": "ruby",
+                        "count": 108,
                         "index": 12,
                         "percentageQuestion": 12.3,
                         "percentageSurvey": 10.7,
@@ -741,6 +789,11 @@
                           "nameClean": "Ruby",
                           "id": "ruby",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.ruby-lang.org/"
                           }
@@ -789,8 +842,8 @@
                         ]
                       },
                       {
-                        "count": 373,
                         "id": "typescript",
+                        "count": 373,
                         "index": 13,
                         "percentageQuestion": 42.48,
                         "percentageSurvey": 36.97,
@@ -803,6 +856,12 @@
                           "descriptionClean": "A superset of JavaScript that compiles to clean JavaScript output.",
                           "id": "typescript",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
                             "url": "https://www.typescriptlang.org"
                           },
@@ -881,8 +940,8 @@
                         ]
                       },
                       {
-                        "count": 311,
                         "id": "sql",
+                        "count": 311,
                         "index": 14,
                         "percentageQuestion": 35.42,
                         "percentageSurvey": 30.82,
@@ -893,6 +952,11 @@
                           "id": "sql",
                           "parentId": "storage",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://en.wikipedia.org/wiki/SQL"
                           }
@@ -959,8 +1023,8 @@
                         ]
                       },
                       {
-                        "count": 66,
                         "id": "csharp",
+                        "count": 66,
                         "index": 15,
                         "percentageQuestion": 7.52,
                         "percentageSurvey": 6.54,
@@ -970,6 +1034,11 @@
                           "nameClean": "C#",
                           "id": "csharp",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
                           }
@@ -1006,8 +1075,8 @@
                         ]
                       },
                       {
-                        "count": 333,
                         "id": "html_css",
+                        "count": 333,
                         "index": 16,
                         "percentageQuestion": 37.93,
                         "percentageSurvey": 33,
@@ -1017,6 +1086,10 @@
                           "nameClean": "HTML/CSS",
                           "id": "html_css",
                           "entityType": "library",
+                          "tags": [
+                            "tokyodev",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://whatwg.org/"
                           }
@@ -1083,8 +1156,8 @@
                         ]
                       },
                       {
-                        "count": 399,
                         "id": "javascript",
+                        "count": 399,
                         "index": 17,
                         "percentageQuestion": 45.44,
                         "percentageSurvey": 39.54,
@@ -1094,6 +1167,11 @@
                           "nameClean": "JavaScript",
                           "id": "javascript",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                           }
@@ -1172,8 +1250,8 @@
                         ]
                       },
                       {
-                        "count": 13,
                         "id": "dart",
+                        "count": 13,
                         "index": 18,
                         "percentageQuestion": 1.48,
                         "percentageSurvey": 1.29,
@@ -1187,6 +1265,12 @@
                           "descriptionClean": "Dart is a client-optimized language for fast apps on any platform",
                           "id": "dart",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages",
+                            "javascript_flavors"
+                          ],
                           "homepage": {
                             "url": "https://dart.dev/"
                           }
@@ -1211,8 +1295,8 @@
                         ]
                       },
                       {
-                        "count": 77,
                         "id": "php",
+                        "count": 77,
                         "index": 19,
                         "percentageQuestion": 8.77,
                         "percentageSurvey": 7.63,
@@ -1222,6 +1306,11 @@
                           "nameClean": "PHP",
                           "id": "php",
                           "entityType": "library",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "languages"
+                          ],
                           "homepage": {
                             "url": "https://www.php.net/"
                           }
@@ -1258,8 +1347,8 @@
                         ]
                       },
                       {
-                        "count": 131,
                         "id": "no_answer",
+                        "count": 131,
                         "index": 20,
                         "percentageQuestion": 0,
                         "percentageSurvey": 12.98,
@@ -1301,20 +1390,20 @@
                         ]
                       },
                       {
-                        "count": 60,
                         "id": "other_answers",
+                        "count": 60,
                         "index": 21,
                         "percentageQuestion": 6.82,
                         "percentageSurvey": 5.96,
-                        "averageByFacet": 12716666.67,
+                        "averageByFacet": 10357142.9,
                         "percentilesByFacet": {
-                          "p0": 5027777.78,
-                          "p10": 7197222.22,
-                          "p25": 8305555.56,
-                          "p50": 9888888.89,
-                          "p75": 12451388.89,
-                          "p90": 14205555.56,
-                          "p100": 25027777.78
+                          "p0": 9500000,
+                          "p10": 9500000,
+                          "p25": 9750000,
+                          "p50": 10500000,
+                          "p75": 10500000,
+                          "p90": 10600000,
+                          "p100": 11500000
                         },
                         "facetBuckets": [
                           {

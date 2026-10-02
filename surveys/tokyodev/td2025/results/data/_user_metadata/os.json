@@ -390,6 +390,20 @@
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "os",
+                        "sectionId1": "_user_metadata",
+                        "optionId1": "iOS",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 656,
+                        "correlation": -0.1597,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
@@ -878,8 +892,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 174,
                         "id": "macOS",
+                        "count": 174,
                         "index": 0,
                         "percentageQuestion": 30.85,
                         "percentageSurvey": 21.38,
@@ -890,14 +904,19 @@
                           "id": "mac_os",
                           "parentId": "apple",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os"
+                          ],
                           "homepage": {
                             "url": "https://www.apple.com/macos/"
                           }
                         }
                       },
                       {
-                        "count": 163,
                         "id": "iOS",
+                        "count": 163,
                         "index": 1,
                         "percentageQuestion": 28.9,
                         "percentageSurvey": 20.02,
@@ -908,14 +927,21 @@
                           "id": "ios",
                           "parentId": "apple",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "css_general_pain_points",
+                            "mobile_desktop_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://www.apple.com/ios"
                           }
                         }
                       },
                       {
-                        "count": 120,
                         "id": "Android",
+                        "count": 120,
                         "index": 2,
                         "percentageQuestion": 21.28,
                         "percentageSurvey": 14.74,
@@ -926,14 +952,20 @@
                           "id": "android",
                           "parentId": "google",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "mobile_desktop_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://www.android.com/"
                           }
                         }
                       },
                       {
-                        "count": 89,
                         "id": "Windows",
+                        "count": 89,
                         "index": 3,
                         "percentageQuestion": 15.78,
                         "percentageSurvey": 10.93,
@@ -944,14 +976,19 @@
                           "id": "windows",
                           "parentId": "microsoft",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os"
+                          ],
                           "homepage": {
                             "url": "https://www.microsoft.com/en-us/windows"
                           }
                         }
                       },
                       {
-                        "count": 18,
                         "id": "Linux",
+                        "count": 18,
                         "index": 4,
                         "percentageQuestion": 3.19,
                         "percentageSurvey": 2.21,
@@ -962,14 +999,20 @@
                           "id": "linux",
                           "parentId": "interop_issues",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "video_game_platforms"
+                          ],
                           "homepage": {
                             "url": "https://www.linux.org/"
                           }
                         }
                       },
                       {
-                        "count": 250,
                         "id": "no_answer",
+                        "count": 250,
                         "index": 5,
                         "percentageQuestion": 0,
                         "percentageSurvey": 30.71
@@ -994,8 +1037,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 219,
                         "id": "macOS",
+                        "count": 219,
                         "index": 0,
                         "percentageQuestion": 31.79,
                         "percentageSurvey": 21.7,
@@ -1006,14 +1049,19 @@
                           "id": "mac_os",
                           "parentId": "apple",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os"
+                          ],
                           "homepage": {
                             "url": "https://www.apple.com/macos/"
                           }
                         }
                       },
                       {
-                        "count": 202,
                         "id": "iOS",
+                        "count": 202,
                         "index": 1,
                         "percentageQuestion": 29.32,
                         "percentageSurvey": 20.02,
@@ -1024,14 +1072,21 @@
                           "id": "ios",
                           "parentId": "apple",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "css_general_pain_points",
+                            "mobile_desktop_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://www.apple.com/ios"
                           }
                         }
                       },
                       {
-                        "count": 156,
                         "id": "Android",
+                        "count": 156,
                         "index": 2,
                         "percentageQuestion": 22.64,
                         "percentageSurvey": 15.46,
@@ -1042,14 +1097,20 @@
                           "id": "android",
                           "parentId": "google",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "mobile_desktop_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://www.android.com/"
                           }
                         }
                       },
                       {
-                        "count": 74,
                         "id": "Windows",
+                        "count": 74,
                         "index": 3,
                         "percentageQuestion": 10.74,
                         "percentageSurvey": 7.33,
@@ -1060,14 +1121,19 @@
                           "id": "windows",
                           "parentId": "microsoft",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os"
+                          ],
                           "homepage": {
                             "url": "https://www.microsoft.com/en-us/windows"
                           }
                         }
                       },
                       {
-                        "count": 37,
                         "id": "Linux",
+                        "count": 37,
                         "index": 4,
                         "percentageQuestion": 5.37,
                         "percentageSurvey": 3.67,
@@ -1078,21 +1144,27 @@
                           "id": "linux",
                           "parentId": "interop_issues",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "os",
+                            "video_game_platforms"
+                          ],
                           "homepage": {
                             "url": "https://www.linux.org/"
                           }
                         }
                       },
                       {
-                        "count": 320,
                         "id": "no_answer",
+                        "count": 320,
                         "index": 5,
                         "percentageQuestion": 0,
                         "percentageSurvey": 31.71
                       },
                       {
-                        "count": 1,
                         "id": "other_answers",
+                        "count": 1,
                         "index": 6,
                         "percentageQuestion": 0.15,
                         "percentageSurvey": 0.1

@@ -16,7 +16,7 @@
                       },
                       "axis2Sort": {
                         "property": "options",
-                        "order": "desc"
+                        "order": "asc"
                       },
                       "limit": 50,
                       "cutoff": 10
@@ -30,8 +30,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 18,
                         "id": "heroku",
+                        "count": 18,
                         "index": 0,
                         "percentageQuestion": 2.19,
                         "percentageSurvey": 1.78,
@@ -41,6 +41,12 @@
                           "nameClean": "Heroku",
                           "id": "heroku",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services",
+                            "companies"
+                          ],
                           "homepage": {
                             "url": "https://heroku.com/"
                           }
@@ -65,8 +71,8 @@
                         ]
                       },
                       {
-                        "count": 71,
                         "id": "cloudflare",
+                        "count": 71,
                         "index": 1,
                         "percentageQuestion": 8.65,
                         "percentageSurvey": 7.04,
@@ -76,6 +82,12 @@
                           "nameClean": "Cloudflare",
                           "id": "cloudflare",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services",
+                            "companies"
+                          ],
                           "homepage": {
                             "url": "https://www.cloudflare.com/"
                           }
@@ -118,8 +130,8 @@
                         ]
                       },
                       {
-                        "count": 539,
                         "id": "aws",
+                        "count": 539,
                         "index": 2,
                         "percentageQuestion": 65.65,
                         "percentageSurvey": 53.42,
@@ -129,6 +141,11 @@
                           "nameClean": "AWS",
                           "id": "aws",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services"
+                          ],
                           "homepage": {
                             "url": "https://aws.amazon.com/"
                           }
@@ -201,8 +218,8 @@
                         ]
                       },
                       {
-                        "count": 257,
                         "id": "google_cloud",
+                        "count": 257,
                         "index": 3,
                         "percentageQuestion": 31.3,
                         "percentageSurvey": 25.47,
@@ -212,6 +229,11 @@
                           "nameClean": "Google Cloud",
                           "id": "google_cloud",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services"
+                          ],
                           "homepage": {
                             "url": "https://cloud.google.com/"
                           }
@@ -272,8 +294,8 @@
                         ]
                       },
                       {
-                        "count": 887,
                         "id": "overall",
+                        "count": 887,
                         "index": 4,
                         "percentageQuestion": 108.04,
                         "percentageSurvey": 87.91,
@@ -351,8 +373,8 @@
                         ]
                       },
                       {
-                        "count": 111,
                         "id": "azure",
+                        "count": 111,
                         "index": 5,
                         "percentageQuestion": 13.52,
                         "percentageSurvey": 11,
@@ -362,6 +384,12 @@
                           "nameClean": "Azure",
                           "id": "azure",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services",
+                            "companies"
+                          ],
                           "homepage": {
                             "url": "https://azure.microsoft.com/"
                           }
@@ -416,8 +444,8 @@
                         ]
                       },
                       {
-                        "count": 11,
                         "id": "digital_ocean",
+                        "count": 11,
                         "index": 6,
                         "percentageQuestion": 1.34,
                         "percentageSurvey": 1.09,
@@ -427,6 +455,12 @@
                           "nameClean": "Digital Ocean",
                           "id": "digital_ocean",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services",
+                            "companies"
+                          ],
                           "homepage": {
                             "url": "https://digitalocean.com/"
                           }
@@ -451,8 +485,8 @@
                         ]
                       },
                       {
-                        "count": 70,
                         "id": "firebase",
+                        "count": 70,
                         "index": 7,
                         "percentageQuestion": 8.53,
                         "percentageSurvey": 6.94,
@@ -462,6 +496,11 @@
                           "nameClean": "Firebase",
                           "id": "firebase",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services"
+                          ],
                           "homepage": {
                             "url": "https://firebase.google.com/"
                           }
@@ -504,8 +543,8 @@
                         ]
                       },
                       {
-                        "count": 97,
                         "id": "na",
+                        "count": 97,
                         "index": 8,
                         "percentageQuestion": 11.81,
                         "percentageSurvey": 9.61,
@@ -546,8 +585,8 @@
                         ]
                       },
                       {
-                        "count": 47,
                         "id": "vercel",
+                        "count": 47,
                         "index": 9,
                         "percentageQuestion": 5.72,
                         "percentageSurvey": 4.66,
@@ -557,6 +596,13 @@
                           "nameClean": "Vercel",
                           "id": "vercel",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "services",
+                            "companies",
+                            "react_usage_pain_points"
+                          ],
                           "homepage": {
                             "url": "https://vercel.com/"
                           }
@@ -593,8 +639,8 @@
                         ]
                       },
                       {
-                        "count": 187,
                         "id": "no_answer",
+                        "count": 187,
                         "index": 10,
                         "percentageQuestion": 0,
                         "percentageSurvey": 18.53,
@@ -654,20 +700,20 @@
                         ]
                       },
                       {
-                        "count": 51,
                         "id": "other_answers",
+                        "count": 51,
                         "index": 11,
                         "percentageQuestion": 6.2,
                         "percentageSurvey": 5.08,
-                        "averageByFacet": 10127450.99,
+                        "averageByFacet": 8000000,
                         "percentilesByFacet": {
-                          "p0": 5200000,
-                          "p10": 6066666.67,
-                          "p25": 7616666.67,
-                          "p50": 9050000,
-                          "p75": 11808333.34,
-                          "p90": 14803333.34,
-                          "p100": 17300000
+                          "p0": 7500000,
+                          "p10": 7500000,
+                          "p25": 7500000,
+                          "p50": 8500000,
+                          "p75": 8500000,
+                          "p90": 8500000,
+                          "p100": 8500000
                         },
                         "facetBuckets": [
                           {

@@ -156,6 +156,20 @@
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "instagram",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 831,
+                        "correlation": -0.2395,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "social_media",
+                        "sectionId1": "technology",
+                        "optionId1": "instagram",
                         "questionId2": "age",
                         "sectionId2": "user_info",
                         "n": 852,
@@ -449,6 +463,21 @@
                         "questionId1": "social_media",
                         "sectionId1": "technology",
                         "optionId1": "mastodon",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "optionId2": "range_over_20",
+                        "n": 831,
+                        "correlation": 0.1858,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "social_media",
+                        "sectionId1": "technology",
+                        "optionId1": "mastodon",
                         "questionId2": "ai_tools",
                         "sectionId2": "ai_usage",
                         "optionId2": "na",
@@ -549,8 +578,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 421,
                         "id": "instagram",
+                        "count": 421,
                         "index": 0,
                         "percentageQuestion": 49.41,
                         "percentageSurvey": 41.72,
@@ -560,14 +589,19 @@
                           "nameClean": "Instagram",
                           "id": "instagram",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia"
+                          ],
                           "homepage": {
                             "url": "https://instagram.com"
                           }
                         }
                       },
                       {
-                        "count": 402,
                         "id": "linkedin",
+                        "count": 402,
                         "index": 1,
                         "percentageQuestion": 47.18,
                         "percentageSurvey": 39.84,
@@ -577,14 +611,23 @@
                           "nameClean": "LinkedIn",
                           "id": "linkedin",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "how_did_you_find_your_current_job",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://linkedin.com/"
                           }
                         }
                       },
                       {
-                        "count": 399,
                         "id": "reddit",
+                        "count": 399,
                         "index": 2,
                         "percentageQuestion": 46.83,
                         "percentageSurvey": 39.54,
@@ -594,14 +637,21 @@
                           "nameClean": "Reddit",
                           "id": "reddit",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag"
+                          ],
                           "homepage": {
                             "url": "https://reddit.com"
                           }
                         }
                       },
                       {
-                        "count": 266,
                         "id": "twitter",
+                        "count": 266,
                         "index": 3,
                         "percentageQuestion": 31.22,
                         "percentageSurvey": 26.36,
@@ -610,15 +660,29 @@
                           "nameHtml": "Twitter/X",
                           "nameClean": "Twitter/X",
                           "id": "twitter",
-                          "entityType": "default",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokens",
+                            "other",
+                            "first_steps",
+                            "css_first_steps",
+                            "sources",
+                            "common_sources",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://twitter.com"
                           }
                         }
                       },
                       {
-                        "count": 189,
                         "id": "facebook",
+                        "count": 189,
                         "index": 4,
                         "percentageQuestion": 22.18,
                         "percentageSurvey": 18.73,
@@ -628,21 +692,29 @@
                           "nameClean": "Facebook",
                           "id": "facebook",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokyodev",
+                            "sourcetag",
+                            "sources_tokyodev"
+                          ],
                           "homepage": {
                             "url": "https://facebook.com"
                           }
                         }
                       },
                       {
-                        "count": 86,
                         "id": "na",
+                        "count": 86,
                         "index": 5,
                         "percentageQuestion": 10.09,
                         "percentageSurvey": 8.52
                       },
                       {
-                        "count": 80,
                         "id": "bluesky",
+                        "count": 80,
                         "index": 6,
                         "percentageQuestion": 9.39,
                         "percentageSurvey": 7.93,
@@ -652,14 +724,19 @@
                           "nameClean": "Bluesky",
                           "id": "bluesky",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia"
+                          ],
                           "homepage": {
                             "url": "https://bsky.app/"
                           }
                         }
                       },
                       {
-                        "count": 56,
                         "id": "tik_tok",
+                        "count": 56,
                         "index": 7,
                         "percentageQuestion": 6.57,
                         "percentageSurvey": 5.55,
@@ -669,14 +746,19 @@
                           "nameClean": "TikTok",
                           "id": "tik_tok",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "apps"
+                          ],
                           "homepage": {
                             "url": "https://www.tiktok.com/"
                           }
                         }
                       },
                       {
-                        "count": 47,
                         "id": "threads",
+                        "count": 47,
                         "index": 8,
                         "percentageQuestion": 5.52,
                         "percentageSurvey": 4.66,
@@ -686,14 +768,19 @@
                           "nameClean": "Threads",
                           "id": "threads",
                           "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia"
+                          ],
                           "homepage": {
                             "url": "https://www.threads.net/"
                           }
                         }
                       },
                       {
-                        "count": 34,
                         "id": "mastodon",
+                        "count": 34,
                         "index": 9,
                         "percentageQuestion": 3.99,
                         "percentageSurvey": 3.37,
@@ -702,36 +789,44 @@
                           "nameHtml": "Mastodon",
                           "nameClean": "Mastodon",
                           "id": "mastodon",
-                          "entityType": "default",
+                          "entityType": "token",
+                          "tags": [
+                            "entities",
+                            "sites",
+                            "socialmedia",
+                            "tokens",
+                            "sources",
+                            "common_sources"
+                          ],
                           "homepage": {
                             "url": "https://mastodon.social/"
                           }
                         }
                       },
                       {
-                        "count": 157,
                         "id": "no_answer",
+                        "count": 157,
                         "index": 10,
                         "percentageQuestion": 0,
                         "percentageSurvey": 15.56
                       },
                       {
-                        "count": 23,
                         "id": "other_answers",
+                        "count": 23,
                         "index": 11,
                         "percentageQuestion": 2.69,
                         "percentageSurvey": 2.29,
                         "groupedBuckets": [
                           {
-                            "count": 17,
                             "id": "cutoff_answers",
+                            "count": 17,
                             "index": 0,
                             "percentageQuestion": 1.99,
                             "percentageSurvey": 1.7
                           },
                           {
-                            "count": 6,
                             "id": "no_match",
+                            "count": 6,
                             "index": 1,
                             "percentageQuestion": 0.7,
                             "percentageSurvey": 0.59,

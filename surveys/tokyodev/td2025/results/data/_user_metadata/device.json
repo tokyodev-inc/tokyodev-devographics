@@ -453,16 +453,15 @@
                       },
                       {
                         "kind1": "option",
-                        "kind2": "option",
+                        "kind2": "question",
                         "questionId1": "device",
                         "sectionId1": "_user_metadata",
                         "optionId1": "desktop",
-                        "questionId2": "browser",
-                        "sectionId2": "_user_metadata",
-                        "optionId2": "Firefox",
-                        "n": 688,
-                        "correlation": 0.1646,
-                        "sameSection": true,
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 656,
+                        "correlation": 0.1647,
+                        "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
                       }
@@ -490,8 +489,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 284,
                         "id": "mobile",
+                        "count": 284,
                         "index": 0,
                         "percentageQuestion": 50.35,
                         "percentageSurvey": 34.89,
@@ -501,12 +500,17 @@
                           "nameClean": "Mobile",
                           "id": "mobile",
                           "parentId": "environments_consumers",
-                          "entityType": "default"
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 278,
                         "id": "desktop",
+                        "count": 278,
                         "index": 1,
                         "percentageQuestion": 49.29,
                         "percentageSurvey": 34.15,
@@ -516,19 +520,24 @@
                           "nameClean": "Desktop",
                           "id": "desktop",
                           "parentId": "environments_consumers",
-                          "entityType": "default"
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 250,
                         "id": "no_answer",
+                        "count": 250,
                         "index": 2,
                         "percentageQuestion": 0,
                         "percentageSurvey": 30.71
                       },
                       {
-                        "count": 2,
                         "id": "other_answers",
+                        "count": 2,
                         "index": 3,
                         "percentageQuestion": 0.35,
                         "percentageSurvey": 0.25
@@ -553,8 +562,8 @@
                     },
                     "buckets": [
                       {
-                        "count": 357,
                         "id": "mobile",
+                        "count": 357,
                         "index": 0,
                         "percentageQuestion": 51.89,
                         "percentageSurvey": 35.38,
@@ -564,12 +573,17 @@
                           "nameClean": "Mobile",
                           "id": "mobile",
                           "parentId": "environments_consumers",
-                          "entityType": "default"
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 329,
                         "id": "desktop",
+                        "count": 329,
                         "index": 1,
                         "percentageQuestion": 47.82,
                         "percentageSurvey": 32.61,
@@ -579,19 +593,24 @@
                           "nameClean": "Desktop",
                           "id": "desktop",
                           "parentId": "environments_consumers",
-                          "entityType": "default"
+                          "entityType": "default",
+                          "tags": [
+                            "entities",
+                            "other",
+                            "device"
+                          ]
                         }
                       },
                       {
-                        "count": 321,
                         "id": "no_answer",
+                        "count": 321,
                         "index": 2,
                         "percentageQuestion": 0,
                         "percentageSurvey": 31.81
                       },
                       {
-                        "count": 2,
                         "id": "other_answers",
+                        "count": 2,
                         "index": 3,
                         "percentageQuestion": 0.29,
                         "percentageSurvey": 0.2

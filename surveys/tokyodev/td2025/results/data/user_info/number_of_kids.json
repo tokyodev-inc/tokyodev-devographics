@@ -79,6 +79,19 @@
                   },
                   {
                     "kind1": "question",
+                    "kind2": "question",
+                    "questionId1": "number_of_kids",
+                    "sectionId1": "user_info",
+                    "questionId2": "years_of_experience",
+                    "sectionId2": "user_info",
+                    "n": 950,
+                    "correlation": 0.3223,
+                    "sameSection": true,
+                    "strength": "strong",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "question",
                     "kind2": "option",
                     "questionId1": "number_of_kids",
                     "sectionId1": "user_info",
@@ -277,6 +290,20 @@
                         "optionId2": "permanent_resident",
                         "n": 935,
                         "correlation": -0.3371,
+                        "sameSection": true,
+                        "strength": "strong",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "number_of_kids",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_0",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 950,
+                        "correlation": -0.3133,
                         "sameSection": true,
                         "strength": "strong",
                         "direction": "negative"
@@ -560,6 +587,20 @@
                       },
                       {
                         "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "number_of_kids",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_2",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 950,
+                        "correlation": 0.2248,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
                         "kind2": "option",
                         "questionId1": "number_of_kids",
                         "sectionId1": "user_info",
@@ -616,47 +657,47 @@
                     },
                     "buckets": [
                       {
-                        "count": 692,
                         "id": "range_0",
+                        "count": 692,
                         "value": 0,
                         "index": 0,
                         "percentageQuestion": 70.83,
                         "percentageSurvey": 68.58
                       },
                       {
-                        "count": 151,
                         "id": "range_1",
+                        "count": 151,
                         "value": 1,
                         "index": 1,
                         "percentageQuestion": 15.46,
                         "percentageSurvey": 14.97
                       },
                       {
-                        "count": 108,
                         "id": "range_2",
+                        "count": 108,
                         "value": 2,
                         "index": 2,
                         "percentageQuestion": 11.05,
                         "percentageSurvey": 10.7
                       },
                       {
-                        "count": 16,
                         "id": "range_3",
+                        "count": 16,
                         "value": 3,
                         "index": 3,
                         "percentageQuestion": 1.64,
                         "percentageSurvey": 1.59
                       },
                       {
-                        "count": 10,
                         "id": "cutoff_answers",
+                        "count": 10,
                         "index": 4,
                         "percentageQuestion": 1.02,
                         "percentageSurvey": 0.99
                       },
                       {
-                        "count": 32,
                         "id": "no_answer",
+                        "count": 32,
                         "index": 5,
                         "percentageQuestion": 0,
                         "percentageSurvey": 3.17

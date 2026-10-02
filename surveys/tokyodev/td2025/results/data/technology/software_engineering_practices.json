@@ -92,6 +92,19 @@
                   },
                   {
                     "kind1": "cardinality",
+                    "kind2": "question",
+                    "questionId1": "software_engineering_practices",
+                    "sectionId1": "technology",
+                    "questionId2": "years_of_experience",
+                    "sectionId2": "user_info",
+                    "n": 837,
+                    "correlation": 0.218,
+                    "sameSection": false,
+                    "strength": "moderate",
+                    "direction": "positive"
+                  },
+                  {
+                    "kind1": "cardinality",
                     "kind2": "option",
                     "questionId1": "software_engineering_practices",
                     "sectionId1": "technology",
@@ -195,20 +208,6 @@
                     "n": 815,
                     "correlation": 0.1794,
                     "sameSection": true,
-                    "strength": "moderate",
-                    "direction": "positive"
-                  },
-                  {
-                    "kind1": "cardinality",
-                    "kind2": "option",
-                    "questionId1": "software_engineering_practices",
-                    "sectionId1": "technology",
-                    "questionId2": "remote_work_policy",
-                    "sectionId2": "job_info",
-                    "optionId2": "up_to_employee",
-                    "n": 847,
-                    "correlation": 0.1792,
-                    "sameSection": false,
                     "strength": "moderate",
                     "direction": "positive"
                   }
@@ -335,6 +334,20 @@
                         "sectionId2": "job_info",
                         "n": 841,
                         "correlation": 0.189,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "automated_testing",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.1878,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -733,6 +746,20 @@
                       },
                       {
                         "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "code_reviews",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.1556,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
                         "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
@@ -977,6 +1004,20 @@
                       },
                       {
                         "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "continuous_integration",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.1879,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
                         "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
@@ -1096,6 +1137,20 @@
                         "n": 815,
                         "correlation": 0.2228,
                         "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "infrastructure_as_code",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.2118,
+                        "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
                       },
@@ -1415,6 +1470,20 @@
                       },
                       {
                         "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "monitoring_and_logging",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.1526,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
                         "kind2": "option",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
@@ -1530,6 +1599,20 @@
                       },
                       {
                         "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "software_engineering_practices",
+                        "sectionId1": "technology",
+                        "optionId1": "version_control",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 837,
+                        "correlation": 0.1682,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
                         "kind2": "cardinality",
                         "questionId1": "software_engineering_practices",
                         "sectionId1": "technology",
@@ -1628,66 +1711,77 @@
                     },
                     "buckets": [
                       {
-                        "count": 685,
                         "id": "version_control",
+                        "count": 685,
                         "index": 0,
                         "percentageQuestion": 80.12,
                         "percentageSurvey": 67.89
                       },
                       {
-                        "count": 655,
                         "id": "code_reviews",
+                        "count": 655,
                         "index": 1,
                         "percentageQuestion": 76.61,
                         "percentageSurvey": 64.92,
                         "entity": {
                           "id": "code_reviews",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "missing_features",
+                            "ai_missing_features"
+                          ]
                         }
                       },
                       {
-                        "count": 571,
                         "id": "continuous_integration",
+                        "count": 571,
                         "index": 2,
                         "percentageQuestion": 66.78,
                         "percentageSurvey": 56.59
                       },
                       {
-                        "count": 539,
                         "id": "agile",
+                        "count": 539,
                         "index": 3,
                         "percentageQuestion": 63.04,
                         "percentageSurvey": 53.42
                       },
                       {
-                        "count": 514,
                         "id": "monitoring_and_logging",
+                        "count": 514,
                         "index": 4,
                         "percentageQuestion": 60.12,
                         "percentageSurvey": 50.94
                       },
                       {
-                        "count": 511,
                         "id": "continuous_deployment_delivery",
+                        "count": 511,
                         "index": 5,
                         "percentageQuestion": 59.77,
                         "percentageSurvey": 50.64
                       },
                       {
-                        "count": 467,
                         "id": "automated_testing",
+                        "count": 467,
                         "index": 6,
                         "percentageQuestion": 54.62,
                         "percentageSurvey": 46.28,
                         "entity": {
                           "id": "automated_testing",
                           "parentId": "a11y_technical_issues",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "pain_points",
+                            "html_pain_points",
+                            "accessibility_pain_points"
+                          ]
                         }
                       },
                       {
-                        "count": 372,
                         "id": "infrastructure_as_code",
+                        "count": 372,
                         "index": 7,
                         "percentageQuestion": 43.51,
                         "percentageSurvey": 36.87,
@@ -1696,54 +1790,60 @@
                           "nameHtml": "Infrastructure as Code",
                           "nameClean": "Infrastructure as Code",
                           "id": "infrastructure_as_code",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "use_cases",
+                            "js_uses"
+                          ]
                         }
                       },
                       {
-                        "count": 227,
                         "id": "blameless_postmortems",
+                        "count": 227,
                         "index": 8,
                         "percentageQuestion": 26.55,
                         "percentageSurvey": 22.5
                       },
                       {
-                        "count": 180,
                         "id": "pair_programming",
+                        "count": 180,
                         "index": 9,
                         "percentageQuestion": 21.05,
                         "percentageSurvey": 17.84
                       },
                       {
-                        "count": 129,
                         "id": "waterfall",
+                        "count": 129,
                         "index": 10,
                         "percentageQuestion": 15.09,
                         "percentageSurvey": 12.78
                       },
                       {
-                        "count": 33,
                         "id": "na",
+                        "count": 33,
                         "index": 11,
                         "percentageQuestion": 3.86,
                         "percentageSurvey": 3.27
                       },
                       {
-                        "count": 154,
                         "id": "no_answer",
+                        "count": 154,
                         "index": 12,
                         "percentageQuestion": 0,
                         "percentageSurvey": 15.26
                       },
                       {
-                        "count": 10,
                         "id": "other_answers",
+                        "count": 10,
                         "index": 13,
                         "percentageQuestion": 1.17,
                         "percentageSurvey": 0.99,
                         "groupedBuckets": [
                           {
-                            "count": 10,
                             "id": "no_match",
+                            "count": 10,
                             "index": 0,
                             "percentageQuestion": 1.17,
                             "percentageSurvey": 0.99,

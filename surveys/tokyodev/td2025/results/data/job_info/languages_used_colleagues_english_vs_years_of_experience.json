@@ -16,7 +16,7 @@
                       },
                       "axis2Sort": {
                         "property": "options",
-                        "order": "desc"
+                        "order": "asc"
                       },
                       "limit": 50,
                       "cutoff": 10
@@ -30,14 +30,20 @@
                     },
                     "buckets": [
                       {
-                        "count": 55,
                         "id": "never",
+                        "count": 55,
                         "index": 0,
                         "percentageQuestion": 6.01,
                         "percentageSurvey": 5.45,
                         "entity": {
                           "id": "never",
-                          "entityType": "default"
+                          "entityType": "token",
+                          "tags": [
+                            "tokens",
+                            "other",
+                            "state_of_js",
+                            "usage_type"
+                          ]
                         },
                         "averageByFacet": 5.5,
                         "percentilesByFacet": {
@@ -71,8 +77,8 @@
                         ]
                       },
                       {
-                        "count": 69,
                         "id": "rarely",
+                        "count": 69,
                         "index": 1,
                         "percentageQuestion": 7.54,
                         "percentageSurvey": 6.84,
@@ -108,8 +114,8 @@
                         ]
                       },
                       {
-                        "count": 59,
                         "id": "sometimes",
+                        "count": 59,
                         "index": 2,
                         "percentageQuestion": 6.45,
                         "percentageSurvey": 5.85,
@@ -145,8 +151,8 @@
                         ]
                       },
                       {
-                        "count": 133,
                         "id": "frequently",
+                        "count": 133,
                         "index": 3,
                         "percentageQuestion": 14.54,
                         "percentageSurvey": 13.18,
@@ -212,8 +218,8 @@
                         ]
                       },
                       {
-                        "count": 599,
                         "id": "always",
+                        "count": 599,
                         "index": 4,
                         "percentageQuestion": 65.46,
                         "percentageSurvey": 59.37,
@@ -285,8 +291,8 @@
                         ]
                       },
                       {
-                        "count": 984,
                         "id": "overall",
+                        "count": 984,
                         "index": 5,
                         "percentageQuestion": 107.54,
                         "percentageSurvey": 97.52,
@@ -364,8 +370,8 @@
                         ]
                       },
                       {
-                        "count": 94,
                         "id": "no_answer",
+                        "count": 94,
                         "index": 6,
                         "percentageQuestion": 0,
                         "percentageSurvey": 9.32,
