@@ -222,7 +222,9 @@
 
     - id: years_of_experience
       label: "How many years of professional experience do you have in software development?"
+      # previous version used years + groups, new version uses single + options
       # template: years
+      # groups:
       template: single
       options:
         - id: range_under_1
@@ -778,6 +780,7 @@
     #   optionsAreRange: true
     #   optionsAreSequential: true
 
+    # removed in 2026
     # - id: work_hours_per_week
     #   label: "In a typical week, how many hours do you work?"
     #   template: single

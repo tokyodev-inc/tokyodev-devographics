@@ -231,6 +231,7 @@
   patterns:
     - facebook_ad
     - facebook_post
+    - meta_ads
   tags:
     - sourcetag
     - sources_tokyodev
@@ -252,12 +253,6 @@
     - sourcetag
     - sources_tokyodev
 
-- id: post_survey_share
-  normalizationOnly: true
-  tags:
-    - sourcetag
-    - sources_tokyodev
-
 - id: tokyodev
   normalizationOnly: true
   name: TokyoDev
@@ -266,28 +261,24 @@
     - tokyodev_discord
     - tokyodev_newsletter
     - tokyodev_site
-  tags:
-    - sources_tokyodev
-    - sourcetag
-
-- id: tokyodev
-  normalizationOnly: true
-  name: TokyoDev Mailing List
-  patterns:
+    - post_survey_share
+    - post_survey_share_chat
+    - tokyodev_event
     - tokyodev_mailing_list
     - mailing list
     - mail
     - newsletter
     - email
+    - tokyodev_root
   tags:
     - sourcetag
     - sources_tokyodev
 
-- id: tokyodev
-  normalizationOnly: true
-  name: TokyoDev Homepage
+- id: wise_jp
+  name: Wise
+  homepageUrl: https://www.wisejp.net/
   patterns:
-    - tokyodev_root
+    - wisejp
   tags:
     - sourcetag
     - sources_tokyodev
@@ -358,6 +349,8 @@
 - id: le_wagon
   name: Le Wagon
   homepageUrl: https://www.lewagon.com/
+  patterns:
+    - le_wagon_slack
   tags:
     - communities
     - sources_tokyodev
