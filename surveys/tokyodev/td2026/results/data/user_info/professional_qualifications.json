@@ -16,9 +16,23 @@
                     "questionId2": "country",
                     "sectionId2": "user_info",
                     "optionId2": "USA",
-                    "n": 606,
-                    "correlation": -0.1689,
+                    "n": 593,
+                    "correlation": -0.1712,
                     "sameSection": true,
+                    "strength": "moderate",
+                    "direction": "negative"
+                  },
+                  {
+                    "kind1": "cardinality",
+                    "kind2": "option",
+                    "questionId1": "professional_qualifications",
+                    "sectionId1": "user_info",
+                    "questionId2": "ai_code_generation_frequency",
+                    "sectionId2": "ai_usage",
+                    "optionId2": "6",
+                    "n": 630,
+                    "correlation": -0.1579,
+                    "sameSection": false,
                     "strength": "moderate",
                     "direction": "negative"
                   },
@@ -30,25 +44,11 @@
                     "questionId2": "work_areas",
                     "sectionId2": "technology",
                     "optionId2": "cloud",
-                    "n": 663,
-                    "correlation": 0.1521,
+                    "n": 652,
+                    "correlation": 0.1516,
                     "sameSection": false,
                     "strength": "moderate",
                     "direction": "positive"
-                  },
-                  {
-                    "kind1": "cardinality",
-                    "kind2": "option",
-                    "questionId1": "professional_qualifications",
-                    "sectionId1": "user_info",
-                    "questionId2": "ai_code_generation_frequency",
-                    "sectionId2": "ai_usage",
-                    "optionId2": "6",
-                    "n": 641,
-                    "correlation": -0.1508,
-                    "sameSection": false,
-                    "strength": "moderate",
-                    "direction": "negative"
                   }
                 ],
                 "optionCorrelations": [
@@ -64,8 +64,8 @@
                         "questionId2": "country",
                         "sectionId2": "user_info",
                         "optionId2": "CAN",
-                        "n": 606,
-                        "correlation": 0.1562,
+                        "n": 593,
+                        "correlation": 0.1624,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -79,8 +79,8 @@
                         "questionId2": "new_immigration_measures",
                         "sectionId2": "life_in_japan",
                         "optionId2": "overall_perception",
-                        "n": 546,
-                        "correlation": -0.1506,
+                        "n": 543,
+                        "correlation": -0.151,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "negative"
@@ -98,8 +98,8 @@
                         "optionId1": "bachelors_degree",
                         "questionId2": "years_in_japan",
                         "sectionId2": "user_info",
-                        "n": 723,
-                        "correlation": -0.2594,
+                        "n": 709,
+                        "correlation": -0.2646,
                         "sameSection": true,
                         "strength": "strong",
                         "direction": "negative"
@@ -113,8 +113,8 @@
                         "questionId2": "country",
                         "sectionId2": "user_info",
                         "optionId2": "FRA",
-                        "n": 606,
-                        "correlation": -0.2008,
+                        "n": 593,
+                        "correlation": -0.1974,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
@@ -127,8 +127,8 @@
                         "optionId1": "bachelors_degree",
                         "questionId2": "age",
                         "sectionId2": "user_info",
-                        "n": 731,
-                        "correlation": -0.1968,
+                        "n": 714,
+                        "correlation": -0.1957,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
@@ -142,8 +142,8 @@
                         "questionId2": "residency_status",
                         "sectionId2": "user_info",
                         "optionId2": "engineer",
-                        "n": 700,
-                        "correlation": 0.1655,
+                        "n": 698,
+                        "correlation": 0.1659,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -157,8 +157,8 @@
                         "questionId2": "life_japan_positive_aspects",
                         "sectionId2": "life_in_japan",
                         "optionId2": "adventure",
-                        "n": 642,
-                        "correlation": 0.1513,
+                        "n": 632,
+                        "correlation": 0.1503,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -177,8 +177,8 @@
                         "questionId2": "country",
                         "sectionId2": "user_info",
                         "optionId2": "FRA",
-                        "n": 606,
-                        "correlation": 0.3249,
+                        "n": 593,
+                        "correlation": 0.3132,
                         "sameSection": true,
                         "strength": "strong",
                         "direction": "positive"
@@ -192,8 +192,8 @@
                         "questionId2": "language_proficiency_english",
                         "sectionId2": "user_info",
                         "optionId2": "fluent",
-                        "n": 732,
-                        "correlation": 0.2053,
+                        "n": 715,
+                        "correlation": 0.2097,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -207,8 +207,8 @@
                         "questionId2": "country",
                         "sectionId2": "user_info",
                         "optionId2": "USA",
-                        "n": 606,
-                        "correlation": -0.1853,
+                        "n": 593,
+                        "correlation": -0.1957,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
@@ -222,8 +222,22 @@
                         "questionId2": "language_proficiency_english",
                         "sectionId2": "user_info",
                         "optionId2": "native_bilingual",
-                        "n": 732,
-                        "correlation": -0.1756,
+                        "n": 715,
+                        "correlation": -0.1876,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "masters_degree",
+                        "questionId2": "language_proficiency_english",
+                        "sectionId2": "user_info",
+                        "n": 715,
+                        "correlation": -0.1552,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "negative"
@@ -242,8 +256,8 @@
                         "questionId2": "communities",
                         "sectionId2": "life_in_japan",
                         "optionId2": "le_wagon",
-                        "n": 547,
-                        "correlation": 0.5103,
+                        "n": 541,
+                        "correlation": 0.5147,
                         "sameSection": false,
                         "strength": "very_strong",
                         "direction": "positive"
@@ -256,8 +270,8 @@
                         "optionId1": "coding_bootcamp",
                         "questionId2": "communities",
                         "sectionId2": "life_in_japan",
-                        "n": 547,
-                        "correlation": 0.2307,
+                        "n": 541,
+                        "correlation": 0.2324,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -268,26 +282,11 @@
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "coding_bootcamp",
-                        "questionId2": "communities",
-                        "sectionId2": "life_in_japan",
-                        "optionId2": "na",
-                        "n": 547,
-                        "correlation": -0.1995,
-                        "sameSection": false,
-                        "strength": "moderate",
-                        "direction": "negative"
-                      },
-                      {
-                        "kind1": "option",
-                        "kind2": "option",
-                        "questionId1": "professional_qualifications",
-                        "sectionId1": "user_info",
-                        "optionId1": "coding_bootcamp",
                         "questionId2": "years_of_experience",
                         "sectionId2": "user_info",
                         "optionId2": "range_1_3",
-                        "n": 728,
-                        "correlation": 0.1962,
+                        "n": 711,
+                        "correlation": 0.2046,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -300,9 +299,24 @@
                         "optionId1": "coding_bootcamp",
                         "questionId2": "communities",
                         "sectionId2": "life_in_japan",
+                        "optionId2": "na",
+                        "n": 541,
+                        "correlation": -0.1991,
+                        "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "option",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "communities",
+                        "sectionId2": "life_in_japan",
                         "optionId2": "hn_tokyo",
-                        "n": 547,
-                        "correlation": 0.1955,
+                        "n": 541,
+                        "correlation": 0.1978,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -316,8 +330,8 @@
                         "questionId2": "residency_status",
                         "sectionId2": "user_info",
                         "optionId2": "japanese_citizen",
-                        "n": 700,
-                        "correlation": 0.1736,
+                        "n": 698,
+                        "correlation": 0.1734,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -331,9 +345,23 @@
                         "questionId2": "version",
                         "sectionId2": "_user_metadata",
                         "optionId2": "151.0.0.0",
-                        "n": 415,
-                        "correlation": 0.1513,
+                        "n": 411,
+                        "correlation": 0.154,
                         "sameSection": false,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "professional_qualifications",
+                        "sectionId1": "user_info",
+                        "optionId1": "coding_bootcamp",
+                        "questionId2": "years_in_japan",
+                        "sectionId2": "user_info",
+                        "n": 709,
+                        "correlation": 0.1527,
+                        "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
                       }
@@ -351,23 +379,8 @@
                         "questionId2": "work_areas",
                         "sectionId2": "technology",
                         "optionId2": "cloud",
-                        "n": 663,
-                        "correlation": 0.2202,
-                        "sameSection": false,
-                        "strength": "moderate",
-                        "direction": "positive"
-                      },
-                      {
-                        "kind1": "option",
-                        "kind2": "option",
-                        "questionId1": "professional_qualifications",
-                        "sectionId1": "user_info",
-                        "optionId1": "professional_qualification",
-                        "questionId2": "software_engineering_practices",
-                        "sectionId2": "technology",
-                        "optionId2": "infrastructure_as_code",
-                        "n": 627,
-                        "correlation": 0.1619,
+                        "n": 652,
+                        "correlation": 0.2175,
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
@@ -383,10 +396,10 @@
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "na",
-                        "questionId2": "years_in_japan",
+                        "questionId2": "age",
                         "sectionId2": "user_info",
-                        "n": 723,
-                        "correlation": 0.2119,
+                        "n": 714,
+                        "correlation": 0.2162,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -397,10 +410,10 @@
                         "questionId1": "professional_qualifications",
                         "sectionId1": "user_info",
                         "optionId1": "na",
-                        "questionId2": "age",
+                        "questionId2": "years_in_japan",
                         "sectionId2": "user_info",
-                        "n": 731,
-                        "correlation": 0.2059,
+                        "n": 709,
+                        "correlation": 0.2147,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -414,8 +427,8 @@
                         "questionId2": "country",
                         "sectionId2": "user_info",
                         "optionId2": "USA",
-                        "n": 606,
-                        "correlation": 0.2024,
+                        "n": 593,
+                        "correlation": 0.207,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
@@ -565,113 +578,113 @@
                       "buckets": [
                         {
                           "answerCount": 1,
-                          "count": 465,
-                          "percentage": 71.7593
+                          "count": 456,
+                          "percentage": 72.1519
                         },
                         {
                           "answerCount": 2,
-                          "count": 143,
-                          "percentage": 22.0679
+                          "count": 137,
+                          "percentage": 21.6772
                         },
                         {
                           "answerCount": 3,
-                          "count": 37,
-                          "percentage": 5.7099
+                          "count": 36,
+                          "percentage": 5.6962
                         },
                         {
                           "answerCount": 4,
                           "count": 3,
-                          "percentage": 0.463
+                          "percentage": 0.4747
                         }
                       ],
                       "max": 4,
-                      "mean": 1.3488,
-                      "n": 648
+                      "mean": 1.3449,
+                      "n": 632
                     },
                     "editionId": "td2026",
                     "year": 2026,
                     "completion": {
-                      "count": 725,
-                      "percentageSurvey": 96.28,
-                      "total": 753
+                      "count": 709,
+                      "percentageSurvey": 96.73,
+                      "total": 733
                     },
                     "buckets": [
                       {
                         "id": "bachelors_degree",
-                        "count": 413,
+                        "count": 401,
                         "index": 0,
-                        "percentageQuestion": 56.97,
-                        "percentageSurvey": 54.85
+                        "percentageQuestion": 56.56,
+                        "percentageSurvey": 54.71
                       },
                       {
                         "id": "masters_degree",
-                        "count": 189,
+                        "count": 187,
                         "index": 1,
-                        "percentageQuestion": 26.07,
-                        "percentageSurvey": 25.1
+                        "percentageQuestion": 26.38,
+                        "percentageSurvey": 25.51
                       },
                       {
                         "id": "professional_qualification",
-                        "count": 103,
+                        "count": 98,
                         "index": 2,
-                        "percentageQuestion": 14.21,
-                        "percentageSurvey": 13.68
+                        "percentageQuestion": 13.82,
+                        "percentageSurvey": 13.37
                       },
                       {
                         "id": "na",
-                        "count": 85,
+                        "count": 84,
                         "index": 3,
-                        "percentageQuestion": 11.72,
-                        "percentageSurvey": 11.29
+                        "percentageQuestion": 11.85,
+                        "percentageSurvey": 11.46
                       },
                       {
                         "id": "coding_bootcamp",
-                        "count": 79,
+                        "count": 76,
                         "index": 4,
-                        "percentageQuestion": 10.9,
-                        "percentageSurvey": 10.49
+                        "percentageQuestion": 10.72,
+                        "percentageSurvey": 10.37
                       },
                       {
                         "id": "short_cycle",
-                        "count": 50,
+                        "count": 49,
                         "index": 5,
-                        "percentageQuestion": 6.9,
-                        "percentageSurvey": 6.64
+                        "percentageQuestion": 6.91,
+                        "percentageSurvey": 6.68
                       },
                       {
                         "id": "phd",
                         "count": 25,
                         "index": 6,
-                        "percentageQuestion": 3.45,
-                        "percentageSurvey": 3.32
+                        "percentageQuestion": 3.53,
+                        "percentageSurvey": 3.41
                       },
                       {
                         "id": "no_answer",
-                        "count": 28,
+                        "count": 24,
                         "index": 7,
                         "percentageQuestion": 0,
-                        "percentageSurvey": 3.72
+                        "percentageSurvey": 3.27
                       },
                       {
                         "id": "other_answers",
-                        "count": 15,
+                        "count": 14,
                         "index": 8,
-                        "percentageQuestion": 2.08,
-                        "percentageSurvey": 1.99,
+                        "percentageQuestion": 1.97,
+                        "percentageSurvey": 1.92,
                         "groupedBuckets": [
                           {
                             "id": "cutoff_answers",
-                            "count": 4,
+                            "count": 3,
                             "index": 0,
-                            "percentageQuestion": 0.56,
-                            "percentageSurvey": 0.53
+                            "percentageQuestion": 0.42,
+                            "percentageSurvey": 0.42
                           },
                           {
                             "id": "no_match",
                             "count": 11,
                             "index": 1,
-                            "percentageQuestion": 1.52,
-                            "percentageSurvey": 1.46,
+                            "percentageQuestion": 1.55,
+                            "percentageSurvey": 1.5,
                             "isFreeformData": true
                           }
                         ]
