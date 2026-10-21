@@ -21,6 +21,19 @@ TokyoDev-specific content lives here:
 - `surveys/tokyodev/` — survey config and one folder per edition (`td2026/`, …) with `questions.yml` and the results outline
 - `locales/`, `entities/` — TokyoDev strings and entities, loaded on top of the shared ones
 
+## Validating changes
+
+Pushing to `main` deploys: the API reloads the surveys from GitHub, and any YAML
+file that fails to parse is silently dropped. Before pushing, run:
+
+```sh
+npm install   # once
+npm run validate:yaml
+```
+
+The same check runs in GitHub Actions (`.github/workflows/validate.yml`) on every
+pull request and push to `main`.
+
 ## Changing the monorepo
 
 Anything in `monorepo/` affects every Devographics survey. Prefer changes scoped to
