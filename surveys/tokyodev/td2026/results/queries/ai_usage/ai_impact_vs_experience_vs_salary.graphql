@@ -1,0 +1,150 @@
+query {
+  surveys {
+    tokyodev {
+      td2026 {
+        ai_usage {
+          ai_impact_vs_experience_vs_salary_1: ai_impact {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              facet: user_info__years_of_experience
+              parameters: {
+                showNoAnswer: false
+                cutoff: 20
+                limit: 20
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  id
+                  count
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    value
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+          ai_impact_vs_experience_vs_salary_2: ai_impact {
+            id
+            comments {
+              currentEdition {
+                count
+              }
+            }
+            combined(
+              facet: compensation__current_total_annual_compensation
+              parameters: {
+                showNoAnswer: false
+                cutoff: 20
+                limit: 20
+              }
+            ) {
+              allEditions(editionCount: 1) {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
+                editionId
+                year
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  id
+                  count
+                  value
+                  index
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  averageByFacet
+                  percentilesByFacet {
+                    p0
+                    p10
+                    p25
+                    p50
+                    p75
+                    p90
+                    p100
+                  }
+                  facetBuckets {
+                    id
+                    count
+                    value
+                    percentageBucket
+                    percentageQuestion
+                    hasInsufficientData
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
