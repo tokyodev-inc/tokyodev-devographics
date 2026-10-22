@@ -34,6 +34,18 @@ npm run validate:yaml
 The same check runs in GitHub Actions (`.github/workflows/validate.yml`) on every
 pull request and push to `main`.
 
+### Checking the results site
+
+`npm run test:results` clicks through every section and tab of a running results
+site and lists missing translations, strings shown in English on Japanese pages,
+blocks with errors or no data, leftover `TODO` text, and JS errors:
+
+```sh
+npx playwright install chromium   # once
+npm run test:results              # checks http://localhost:9001, using the API at localhost:5020
+RESULTS_URL=https://… API_URL=https://api.surveys.tokyodev.com/graphql LOCALES=en-US npm run test:results
+```
+
 ## Changing the monorepo
 
 Anything in `monorepo/` affects every Devographics survey. Prefer changes scoped to

@@ -3,9 +3,11 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "validate:yaml": "node scripts/validate-yaml.mjs"
+        "validate:yaml": "node scripts/validate-yaml.mjs",
+        "test:results": "playwright test"
     },
     "devDependencies": {
+        "@playwright/test": "^1.64.1",
         "js-yaml": "^4.1.0"
     }
 }
