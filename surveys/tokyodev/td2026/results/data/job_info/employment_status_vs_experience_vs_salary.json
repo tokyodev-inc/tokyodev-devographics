@@ -1,0 +1,576 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "tokyodev": {
+        "td2026": {
+          "job_info": {
+            "employment_status_vs_experience_vs_salary_1": {
+              "id": "employment_status",
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "limit": 20,
+                      "cutoff": 20
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 685,
+                      "percentageSurvey": 93.45,
+                      "total": 733
+                    },
+                    "buckets": [
+                      {
+                        "id": "permanent_employee",
+                        "count": 542,
+                        "index": 0,
+                        "percentageQuestion": 79.12,
+                        "percentageSurvey": 73.94,
+                        "averageByFacet": 8.8,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 2,
+                          "p25": 5,
+                          "p50": 8,
+                          "p75": 11,
+                          "p90": 18,
+                          "p100": 20
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_under_1",
+                            "count": 11,
+                            "percentageBucket": 2.03,
+                            "percentageQuestion": 1.61
+                          },
+                          {
+                            "id": "range_1_3",
+                            "count": 79,
+                            "percentageBucket": 14.58,
+                            "percentageQuestion": 11.53
+                          },
+                          {
+                            "id": "range_4_6",
+                            "count": 136,
+                            "percentageBucket": 25.09,
+                            "percentageQuestion": 19.85
+                          },
+                          {
+                            "id": "range_7_9",
+                            "count": 96,
+                            "percentageBucket": 17.71,
+                            "percentageQuestion": 14.01
+                          },
+                          {
+                            "id": "range_10_12",
+                            "count": 94,
+                            "percentageBucket": 17.34,
+                            "percentageQuestion": 13.72
+                          },
+                          {
+                            "id": "range_13_15",
+                            "count": 54,
+                            "percentageBucket": 9.96,
+                            "percentageQuestion": 7.88
+                          },
+                          {
+                            "id": "range_16_20",
+                            "count": 41,
+                            "percentageBucket": 7.56,
+                            "percentageQuestion": 5.99
+                          },
+                          {
+                            "id": "range_over_20",
+                            "count": 31,
+                            "percentageBucket": 5.72,
+                            "percentageQuestion": 4.53
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "id": "contract_employee",
+                        "count": 38,
+                        "index": 1,
+                        "percentageQuestion": 5.55,
+                        "percentageSurvey": 5.18,
+                        "averageByFacet": 7.2,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 0.5,
+                          "p25": 2,
+                          "p50": 5,
+                          "p75": 11,
+                          "p90": 18,
+                          "p100": 20
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_4_6",
+                            "count": 11,
+                            "percentageBucket": 28.95,
+                            "percentageQuestion": 1.61
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 27,
+                            "percentageBucket": 71.04,
+                            "percentageQuestion": 3.94
+                          }
+                        ]
+                      },
+                      {
+                        "id": "temporary_worker",
+                        "count": 21,
+                        "index": 2,
+                        "percentageQuestion": 3.07,
+                        "percentageSurvey": 2.86,
+                        "averageByFacet": 6.8,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 2,
+                          "p25": 5,
+                          "p50": 8,
+                          "p75": 8,
+                          "p90": 11,
+                          "p100": 14
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 21,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 3.06
+                          }
+                        ]
+                      },
+                      {
+                        "id": "freelancer_self_employed",
+                        "count": 29,
+                        "index": 3,
+                        "percentageQuestion": 4.23,
+                        "percentageSurvey": 3.96,
+                        "averageByFacet": 10.7,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 2,
+                          "p25": 5,
+                          "p50": 11,
+                          "p75": 18,
+                          "p90": 20,
+                          "p100": 20
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 29,
+                            "percentageBucket": 99.99,
+                            "percentageQuestion": 4.21
+                          }
+                        ]
+                      },
+                      {
+                        "id": "not_employed_looking_for_work",
+                        "count": 20,
+                        "index": 4,
+                        "percentageQuestion": 2.92,
+                        "percentageSurvey": 2.73,
+                        "averageByFacet": 10,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 0.5,
+                          "p25": 5,
+                          "p50": 9.5,
+                          "p75": 15,
+                          "p90": 20,
+                          "p100": 20
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 20,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 2.93
+                          }
+                        ]
+                      },
+                      {
+                        "id": "overall",
+                        "count": 719,
+                        "index": 5,
+                        "percentageQuestion": 104.96,
+                        "percentageSurvey": 98.09,
+                        "averageByFacet": 8.8,
+                        "percentilesByFacet": {
+                          "p0": 0.5,
+                          "p10": 2,
+                          "p25": 5,
+                          "p50": 8,
+                          "p75": 11,
+                          "p90": 18,
+                          "p100": 20
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_under_1",
+                            "count": 30,
+                            "percentageBucket": 4.17,
+                            "percentageQuestion": 4.38
+                          },
+                          {
+                            "id": "range_1_3",
+                            "count": 104,
+                            "percentageBucket": 14.46,
+                            "percentageQuestion": 15.18
+                          },
+                          {
+                            "id": "range_4_6",
+                            "count": 171,
+                            "percentageBucket": 23.78,
+                            "percentageQuestion": 24.96
+                          },
+                          {
+                            "id": "range_7_9",
+                            "count": 121,
+                            "percentageBucket": 16.83,
+                            "percentageQuestion": 17.66
+                          },
+                          {
+                            "id": "range_10_12",
+                            "count": 116,
+                            "percentageBucket": 16.13,
+                            "percentageQuestion": 16.93
+                          },
+                          {
+                            "id": "range_13_15",
+                            "count": 69,
+                            "percentageBucket": 9.6,
+                            "percentageQuestion": 10.07
+                          },
+                          {
+                            "id": "range_16_20",
+                            "count": 54,
+                            "percentageBucket": 7.51,
+                            "percentageQuestion": 7.88
+                          },
+                          {
+                            "id": "range_over_20",
+                            "count": 54,
+                            "percentageBucket": 7.51,
+                            "percentageQuestion": 7.88
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 0,
+                            "percentageBucket": 0,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 34,
+                        "index": 6,
+                        "percentageQuestion": 4.96,
+                        "percentageSurvey": 4.63
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "employment_status_vs_experience_vs_salary_2": {
+              "id": "employment_status",
+              "combined": {
+                "allEditions": [
+                  {
+                    "_metadata": {
+                      "axis1Sort": {
+                        "property": "options",
+                        "order": "desc"
+                      },
+                      "axis2Sort": {
+                        "property": "options",
+                        "order": "asc"
+                      },
+                      "limit": 20,
+                      "cutoff": 20
+                    },
+                    "editionId": "td2026",
+                    "year": 2026,
+                    "completion": {
+                      "count": 685,
+                      "percentageSurvey": 93.45,
+                      "total": 733
+                    },
+                    "buckets": [
+                      {
+                        "id": "permanent_employee",
+                        "count": 534,
+                        "index": 0,
+                        "percentageQuestion": 77.96,
+                        "percentageSurvey": 72.85,
+                        "averageByFacet": 11061797.8,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 5500000,
+                          "p25": 6500000,
+                          "p50": 9500000,
+                          "p75": 13500000,
+                          "p90": 19500000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 81,
+                            "percentageBucket": 15.17,
+                            "percentageQuestion": 11.82
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 157,
+                            "percentageBucket": 29.4,
+                            "percentageQuestion": 22.92
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 117,
+                            "percentageBucket": 21.92,
+                            "percentageQuestion": 17.08
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 71,
+                            "percentageBucket": 13.3,
+                            "percentageQuestion": 10.36
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 47,
+                            "percentageBucket": 8.81,
+                            "percentageQuestion": 6.86
+                          },
+                          {
+                            "id": "range_20000000_to_29999999",
+                            "count": 33,
+                            "percentageBucket": 6.17,
+                            "percentageQuestion": 4.81
+                          },
+                          {
+                            "id": "range_30000000_to_49999999",
+                            "count": 15,
+                            "percentageBucket": 2.81,
+                            "percentageQuestion": 2.19
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 13,
+                            "percentageBucket": 2.43,
+                            "percentageQuestion": 1.9
+                          }
+                        ]
+                      },
+                      {
+                        "id": "contract_employee",
+                        "count": 38,
+                        "index": 1,
+                        "percentageQuestion": 5.55,
+                        "percentageSurvey": 5.18,
+                        "averageByFacet": 8289473.7,
+                        "percentilesByFacet": {
+                          "p0": 2500000,
+                          "p10": 3500000,
+                          "p25": 4500000,
+                          "p50": 7000000,
+                          "p75": 10250000,
+                          "p90": 15800000.000000004,
+                          "p100": 25500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 14,
+                            "percentageBucket": 36.84,
+                            "percentageQuestion": 2.04
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 24,
+                            "percentageBucket": 63.13,
+                            "percentageQuestion": 3.52
+                          }
+                        ]
+                      },
+                      {
+                        "id": "temporary_worker",
+                        "count": 21,
+                        "index": 2,
+                        "percentageQuestion": 3.07,
+                        "percentageSurvey": 2.86,
+                        "averageByFacet": 7500000,
+                        "percentilesByFacet": {
+                          "p0": 3500000,
+                          "p10": 4500000,
+                          "p25": 5500000,
+                          "p50": 7500000,
+                          "p75": 8500000,
+                          "p90": 10500000,
+                          "p100": 12500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 21,
+                            "percentageBucket": 99.99,
+                            "percentageQuestion": 3.07
+                          }
+                        ]
+                      },
+                      {
+                        "id": "freelancer_self_employed",
+                        "count": 25,
+                        "index": 3,
+                        "percentageQuestion": 3.65,
+                        "percentageSurvey": 3.41,
+                        "averageByFacet": 11220000,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 1500000,
+                          "p25": 4500000,
+                          "p50": 8500000,
+                          "p75": 19500000,
+                          "p90": 25700000.000000004,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "other_answers",
+                            "count": 25,
+                            "percentageBucket": 100,
+                            "percentageQuestion": 3.68
+                          }
+                        ]
+                      },
+                      {
+                        "id": "overall",
+                        "count": 648,
+                        "index": 4,
+                        "percentageQuestion": 94.6,
+                        "percentageSurvey": 88.4,
+                        "averageByFacet": 10740740.7,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 4500000,
+                          "p25": 6500000,
+                          "p50": 9500000,
+                          "p75": 13500000,
+                          "p90": 20500000,
+                          "p100": 29500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_under_2999999",
+                            "count": 26,
+                            "percentageBucket": 4.01,
+                            "percentageQuestion": 3.79
+                          },
+                          {
+                            "id": "range_3000000_to_5999999",
+                            "count": 105,
+                            "percentageBucket": 16.2,
+                            "percentageQuestion": 15.33
+                          },
+                          {
+                            "id": "range_6000000_to_8999999",
+                            "count": 187,
+                            "percentageBucket": 28.85,
+                            "percentageQuestion": 27.3
+                          },
+                          {
+                            "id": "range_9000000_to_11999999",
+                            "count": 133,
+                            "percentageBucket": 20.53,
+                            "percentageQuestion": 19.42
+                          },
+                          {
+                            "id": "range_12000000_to_14999999",
+                            "count": 77,
+                            "percentageBucket": 11.89,
+                            "percentageQuestion": 11.24
+                          },
+                          {
+                            "id": "range_15000000_to_19999999",
+                            "count": 54,
+                            "percentageBucket": 8.33,
+                            "percentageQuestion": 7.89
+                          },
+                          {
+                            "id": "range_20000000_to_29999999",
+                            "count": 42,
+                            "percentageBucket": 6.48,
+                            "percentageQuestion": 6.13
+                          },
+                          {
+                            "id": "range_30000000_to_49999999",
+                            "count": 18,
+                            "percentageBucket": 2.77,
+                            "percentageQuestion": 2.63
+                          },
+                          {
+                            "id": "other_answers",
+                            "count": 6,
+                            "percentageBucket": 1,
+                            "percentageQuestion": 0
+                          }
+                        ]
+                      },
+                      {
+                        "id": "other_answers",
+                        "count": 29,
+                        "index": 5,
+                        "percentageQuestion": 4.23,
+                        "percentageSurvey": 3.97,
+                        "averageByFacet": 1500000,
+                        "percentilesByFacet": {
+                          "p0": 500000,
+                          "p10": 500000,
+                          "p25": 500000,
+                          "p50": 500000,
+                          "p75": 1500000,
+                          "p90": 1500000,
+                          "p100": 2500000
+                        },
+                        "facetBuckets": [
+                          {
+                            "id": "range_under_2999999",
+                            "count": 11,
+                            "percentageBucket": 37.93
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
