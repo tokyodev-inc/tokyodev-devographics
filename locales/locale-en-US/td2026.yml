@@ -109,7 +109,7 @@ translations:
       The median respondent had lived in Japan for between 4 and 6 years. Japanese ability grew steadily with time in Japan: 18% of those who had been here 3 years or less had business-level Japanese or better, compared to 65% of those who had been here 10 years or more.
   - key: user_info.professional_qualifications.takeaway.td2026
     t: |
-      74% of respondents had a bachelor's degree or higher related to computer science. Respondents who had attended a coding bootcamp had the lowest median compensation, at ¥6.5 million, compared to ¥9.5 million overall.
+      74% of respondents had a bachelor's degree or higher related to computer science. Respondents who had attended a coding bootcamp had the lowest median compensation, at ¥6.5 million, compared to ¥9.5 million overall. The Experience vs. Compensation tab shows why: they averaged just 4.4 years of experience, half the 8.8 years of respondents overall. Respondents with short-cycle tertiary education showed the opposite pattern, averaging the most experience (10 years) but below-average compensation.
   - key: user_info.language_proficiency_english.takeaway.td2026
     t: |
       98% of respondents were comfortable using English in a professional setting. Native English speakers saw Japan as more affordable: 67% named cost of living as a positive aspect of life here, compared to 42% of non-native speakers.
@@ -127,7 +127,7 @@ translations:
 
   - key: job_info.employment_status.takeaway.td2026
     t: |
-      Among working respondents, company directors had the highest median compensation at ¥12.5 million, while contract employees had the lowest at ¥7 million.
+      As the Experience vs. Compensation tab shows, compensation largely tracked experience. Company directors averaged the most experience, 13.7 years, and the highest compensation, ¥15.3 million, though only 14 respondents were directors. Contract employees and temporary workers averaged around seven years of experience and ¥7.5 to ¥8.3 million. Freelancers were the exception: they averaged 10.7 years of experience, about two years more than permanent employees, but made about the same, ¥11.2 million compared to ¥11.1 million.
   - key: job_info.current_employer.takeaway.td2026
     t: |
       Those working for a Japanese subsidiary of an international company made 35% more than those working for a Japanese-headquartered company, [the same gap as in 2025](https://2025.surveys.tokyodev.com/en-US/current-job/current_employer). This ends several years of the gap shrinking, from a peak of [93% more in 2022](https://www.tokyodev.com/insights/2022-developer-survey#employer-type) to [73% more in 2023](https://2023.surveys.tokyodev.com/en-US/employer-info/current_employer) to [47% more in 2024](https://2024.surveys.tokyodev.com/en-US/current-job/current_employer). That decline was driven by respondents at subsidiaries reporting lower median compensation, while the compensation for respondents at Japanese-headquartered companies remained stable.
@@ -139,7 +139,7 @@ translations:
       86% of respondents who always used Japanese worked for a company headquartered in Japan, whereas only 51% of respondents who never used it worked for one.
   - key: job_info.searching_for_job.takeaway.td2026
     t: |
-      44% of respondents who could not work remotely were looking for a job, compared to between 14% and 27% of those whose workplaces allowed remote work. Experience did not explain the difference: job seekers had the same median experience as other respondents (7–9 years), and those unable to work remotely were the most likely to be job hunting whether they had 6 or fewer years of experience or more.
+      44% of respondents who could not work remotely were looking for a job, compared to between 14% and 27% of those whose workplaces allowed remote work. Experience did not explain the difference: job seekers had the same median experience as other respondents (7–9 years).
   - key: job_info.discrimination_issues.takeaway.td2026
     t: |
       Respondents who had experienced workplace discrimination were less happy with their jobs. Those who had been discriminated against because of their country of origin, the most common form of discrimination, had an average job happiness of 2.8 out of 5, compared to 3.5 overall. Those discriminated against because of a mental condition were the least happy, at 2.4.
@@ -179,7 +179,7 @@ translations:
 
   - key: technology.work_areas.takeaway.td2026
     t: |
-      Back-end development was the most common area respondents worked in, at 71%, followed by front-end development at 50%. Respondents involved in people management had the highest median compensation, at ¥12.5 million, compared to ¥9.5 million overall and ¥8.5 million for those working on the front end.
+      Back-end development was the most common area respondents worked in, at 71%, followed by front-end development at 50%. As the Experience vs. Compensation tab shows, areas with more experienced respondents generally paid more, with people management (¥13.8 million on average) and platform engineering (¥13.4 million) at the top. Machine learning was the exception: respondents working in it averaged the least experience of any area, 7.5 years compared to 8.8 overall, yet made ¥11.8 million, above the ¥10.7 million average. Game development went the other way, averaging 10.7 years of experience but only ¥9.9 million.
   - key: technology.programming_languages.takeaway.td2026
     t: |
       Python remained the most popular language, used by 49% of respondents. TypeScript overtook JavaScript for second place, at 46% compared to 40%, and Go saw the largest gain, rising from 14% to 21%.
@@ -229,10 +229,14 @@ translations:
 
   - key: life_in_japan.life_japan_positive_aspects.takeaway.td2026
     t: |
-      Safety, convenience, and infrastructure were the most commonly cited positive aspects of life in Japan, each chosen by over 80% of respondents. American respondents were particularly likely to value Japan's health care, with 84% citing it compared to 64% overall.
+      Safety, convenience, and infrastructure were the most commonly cited positive aspects of life in Japan, each chosen by over 80% of respondents. What people valued changed the longer they had lived here. Among respondents who had been in Japan for less than four years, 77% cited travel and adventure and 51% pop culture, compared to 51% and 32% of those who had been here for ten years or more. Healthcare moved the other way, rising from 50% to 75%.
+
+      Last year, respondents could choose at most three positive aspects; this year there was no limit. That's why every option shows such a large increase compared to last year.
   - key: life_in_japan.life_japan_negative_aspects.takeaway.td2026
     t: |
       Poor compensation was the most commonly cited negative aspect of life in Japan, chosen by 69% of respondents and 86% of Americans. Isolation, cultural barriers, and hostility towards foreigners followed, each cited by around half of respondents.
+
+      Last year, respondents could choose at most three negative aspects; this year there was no limit. That's why every option shows such a large increase compared to last year.
   - key: life_in_japan.quality_of_life_over_time.takeaway.td2026
     t: |
       57% of respondents said their quality of life had improved since first arriving in Japan, including 32% who said it had gotten a lot better. 17% said it had gotten worse.
@@ -275,37 +279,45 @@ translations:
 
       This year, that narrowing came to a halt. [Respondents at Japanese subsidiaries](/en-US/current-job/current_employer) earned a median of 11.5 million yen, 35% more than the 8.5 million yen earned at Japanese-headquartered companies, the same gap as last year. Respondents working for international companies without operations in Japan earned the most, at 12.5 million yen.
 
-  - key: overview_3_ai_code_generation.td2026
+  - key: overview_3_work_areas.td2026
+    t: |
+      ## Machine learning paid more than experience alone would suggest
+
+      Comparing [each work area](/en-US/technology/work_areas) by its respondents' average experience and compensation shows that the two generally went hand in hand. Areas with more experienced respondents paid more, with people management (13.8 million yen on average) and platform engineering (13.4 million yen) at the top.
+
+      Machine learning was the clearest exception. Respondents working in it averaged the least experience of any area, 7.5 years compared to 8.8 years overall, yet made 11.8 million yen, above the 10.7 million yen average. Game development went the other way: its respondents averaged 10.7 years of experience but made only 9.9 million yen.
+
+  - key: overview_4_ai_code_generation.td2026
     t: |
       ## AI went from common to constant
 
       Last year, 94% of respondents already used AI tools. This year, that rose to 96%, but the bigger change was in how heavily they relied on them. [78% of respondents generated at least half of their code with AI](/en-US/ai-usage/ai_generated_code_balance), up from about a third in 2025.
 
-  - key: overview_4_ai_tools.td2026
+  - key: overview_5_ai_tools.td2026
     t: |
       Similarly, [68% used AI to generate or refactor code at least a few times a day](/en-US/ai-usage/ai_code_generation_frequency), up from 38% last year, and a third said they used it constantly.
 
       The tools respondents used changed, too. [Claude overtook ChatGPT](/en-US/ai-usage/ai_tools) as the most popular AI tool, used by 72% of respondents, while ChatGPT fell from 71% last year to 46%. Claude Code, which we asked about for the first time this year, was used by 68%.
 
-  - key: overview_5_ai_job_security.td2026
+  - key: overview_6_ai_job_security.td2026
     t: |
       Employers are a big part of this shift: [85% of respondents said their employer encouraged or required AI use](/en-US/ai-usage/ai_management_pressure), and 20% said it was required.
 
       Most respondents saw the change as positive. [54% said AI had made their day-to-day experience as a developer better](/en-US/ai-usage/ai_impact), compared to 26% who said it had made it worse, and [only 10% disagreed](/en-US/ai-usage/more_productive) that AI had made them a lot more productive. At the same time, concern is growing: [32% of respondents saw AI as a threat to their job security](/en-US/ai-usage/job_security_threat), up from 19% last year.
 
-  - key: overview_6_immigration.td2026
+  - key: overview_7_immigration.td2026
     t: |
       ## Immigration policy changes left many feeling less welcome
 
       This year we asked for the first time how changes to Japan's immigration and residency policies over the past year had affected respondents. 538 respondents reported at least one effect. [The most common was feeling less welcome](/en-US/life-in-japan/new_immigration_measures), cited by 67% of them, followed by uncertainty about staying in Japan (60%) and increased anxiety (56%).
 
-  - key: overview_7_life_in_japan.td2026
+  - key: overview_8_life_in_japan.td2026
     t: |
       The same concerns came up elsewhere in the survey. Half of respondents named hostility towards foreigners as one of the [negative aspects of life in Japan](/en-US/life-in-japan/life_japan_negative_aspects), placing it alongside isolation (52%) and cultural barriers (51%), behind only poor compensation (69%). Finances were also under pressure: [64% said the weakening yen had hurt them](/en-US/life-in-japan/yen_value).
 
       Despite this, most respondents remained committed to living here. [57% said their quality of life had improved](/en-US/life-in-japan/quality_of_life_over_time) since first arriving in Japan, and [44% planned to stay permanently](/en-US/life-in-japan/remaining_in_japan). Only 3% planned to leave soon.
 
-  - key: overview_8_remote_work.td2026
+  - key: overview_9_remote_work.td2026
     t: |
       ## Remote work and flexible hours came as a package
 
@@ -313,11 +325,11 @@ translations:
 
       Remote work and flexible hours tended to go together. [55% of respondents who could not work remotely had fixed working hours](/en-US/current-job/working_hours_policy), compared to 13% of those in hybrid workplaces and 7% of those who could choose whether to work remotely.
 
-  - key: overview_9_remote_work_job_search.td2026
+  - key: overview_10_remote_work_job_search.td2026
     t: |
       Respondents without that flexibility were less satisfied. On a scale of 1–5, those who could never work remotely had [an average job happiness score](/en-US/current-job/job_happiness) of 2.9, compared to 3.7 for those who could choose. They were also [the most likely to be looking for a new job](/en-US/current-job/searching_for_job): 44% were job hunting, compared to between 14% and 27% of those whose workplaces allowed remote work.
 
-  - key: overview_10_gender_gap.td2026
+  - key: overview_11_gender_gap.td2026
     t: |
       ## The gender pay gap appeared at every experience level
 
@@ -325,21 +337,21 @@ translations:
 
       However, experience doesn't explain the whole gap. Last year, women with 6 or fewer years of experience had the same median compensation as men. This year, men earned more at every experience level we could compare: 22% more among those with 3 or fewer years of experience, 31% more among those with 4–6 years, and 32% more among those with 10 or more years.
 
-  - key: overview_11_gender_gap_help.td2026
+  - key: overview_12_gender_gap_help.td2026
     t: |
       Women face particular challenges in Japan's tech industry. If you'd like to help, see [a four-stage approach for hiring women on your engineering team](https://www.tokyodev.com/articles/hiring-women-on-your-engineering-team).
 
-  - key: overview_12_lgbtq.td2026
+  - key: overview_13_lgbtq.td2026
     t: |
       ## Women were far more likely to identify as LGBTQ+
 
       This year, we asked about LGBTQ+ identity for the first time. [7% of respondents identified as LGBTQ+](/en-US/demographics/identify_as_lgbtq), with a large gap by gender: 28% of women did, compared to 4% of men.
 
-  - key: overview_13_lgbtq_marriage.td2026
+  - key: overview_14_lgbtq_marriage.td2026
     t: |
       One barrier LGBTQ+ developers face when considering a move to Japan is that same-sex marriage is not legally recognized. TokyoDev supports the legalization of same-sex marriage, and is a member of [Business for Marriage Equality](https://bformarriageequality.net).
 
-  - key: overview_14_fewer_responses.td2026
+  - key: overview_15_fewer_responses.td2026
     t: |
       ## Fewer respondents than last year
 
@@ -347,7 +359,7 @@ translations:
 
       Advertising was one factor. We spent 21% more on Reddit ads than last year, but they were far less effective, and our cost per respondent from Reddit rose from $8 to $24.
 
-  - key: overview_15_conclusion.td2026
+  - key: overview_16_conclusion.td2026
     t: |
       ## Plus so much more
 
