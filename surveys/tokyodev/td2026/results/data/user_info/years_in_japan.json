@@ -64,14 +64,13 @@
                   },
                   {
                     "kind1": "question",
-                    "kind2": "option",
+                    "kind2": "question",
                     "questionId1": "years_in_japan",
                     "sectionId1": "user_info",
                     "questionId2": "years_of_experience",
                     "sectionId2": "user_info",
-                    "optionId2": "range_over_20",
                     "n": 712,
-                    "correlation": 0.3065,
+                    "correlation": 0.3167,
                     "sameSection": true,
                     "strength": "strong",
                     "direction": "positive"
@@ -334,6 +333,20 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_in_japan",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_under_1",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 712,
+                        "correlation": -0.161,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
                       }
                     ]
                   },
@@ -419,6 +432,20 @@
                         "questionId1": "years_in_japan",
                         "sectionId1": "user_info",
                         "optionId1": "range_1_3",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 712,
+                        "correlation": -0.1739,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "negative"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_in_japan",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_1_3",
                         "questionId2": "languages_used_colleagues_japanese",
                         "sectionId2": "job_info",
                         "n": 664,
@@ -426,36 +453,6 @@
                         "sameSection": false,
                         "strength": "moderate",
                         "direction": "negative"
-                      },
-                      {
-                        "kind1": "option",
-                        "kind2": "option",
-                        "questionId1": "years_in_japan",
-                        "sectionId1": "user_info",
-                        "optionId1": "range_1_3",
-                        "questionId2": "years_of_experience",
-                        "sectionId2": "user_info",
-                        "optionId2": "range_over_20",
-                        "n": 712,
-                        "correlation": -0.1608,
-                        "sameSection": true,
-                        "strength": "moderate",
-                        "direction": "negative"
-                      },
-                      {
-                        "kind1": "option",
-                        "kind2": "option",
-                        "questionId1": "years_in_japan",
-                        "sectionId1": "user_info",
-                        "optionId1": "range_1_3",
-                        "questionId2": "years_of_experience",
-                        "sectionId2": "user_info",
-                        "optionId2": "range_1_3",
-                        "n": 712,
-                        "correlation": 0.1521,
-                        "sameSection": true,
-                        "strength": "moderate",
-                        "direction": "positive"
                       },
                       {
                         "kind1": "option",
@@ -832,6 +829,20 @@
                         "optionId2": "permanent_resident",
                         "n": 701,
                         "correlation": 0.1794,
+                        "sameSection": true,
+                        "strength": "moderate",
+                        "direction": "positive"
+                      },
+                      {
+                        "kind1": "option",
+                        "kind2": "question",
+                        "questionId1": "years_in_japan",
+                        "sectionId1": "user_info",
+                        "optionId1": "range_over_20",
+                        "questionId2": "years_of_experience",
+                        "sectionId2": "user_info",
+                        "n": 712,
+                        "correlation": 0.173,
                         "sameSection": true,
                         "strength": "moderate",
                         "direction": "positive"
