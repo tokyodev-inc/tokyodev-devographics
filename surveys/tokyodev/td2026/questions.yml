@@ -71,11 +71,13 @@
 
     - id: years_in_japan
       label: "How many years have you lived in Japan?"
-      # template: years
-      template: single
       optionsAreRange: true
       optionsAreSequential: true
+      # previous version used years + groups, new version uses single + options
+      template: single
       options:
+        # template: years
+        # groups:
         - id: range_under_1
           lowerBound: 0
           upperBound: 1
