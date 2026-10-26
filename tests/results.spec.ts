@@ -77,6 +77,10 @@ const findProblems = async (scope: Locator, where: string, fallbackKeys: Set<str
                     )
                 )
                 if (root.querySelector('.no-data')) problems.push('no data')
+                // rows a chart couldn't draw, e.g. "No data found for bucket other_answers."
+                root.querySelectorAll('.chart-row-error').forEach(el =>
+                    problems.push(`chart row error: ${el.textContent}`)
+                )
                 const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
                 while (walker.nextNode()) {
                     const node = walker.currentNode
